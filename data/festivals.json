@@ -1,0 +1,45 @@
+{
+  "disclaimer": "Festival dates are curated for TirthaYatra planning. Regional observance can differ by a day. Always confirm with your family priest or preferred printed almanac before rituals.",
+  "referenceLink": {
+    "label": "Traditional almanac reference (Thakur Prasad)",
+    "url": "https://thakurprasad.in/"
+  },
+  "fixed": [
+    {"date": "2026-01-14", "name": "Makar Sankranti", "nameHi": "मकर संक्रांति", "importance": "high"},
+    {"date": "2026-01-23", "name": "Vasant Panchami", "nameHi": "वसंत पंचमी", "importance": "high"},
+    {"date": "2026-02-15", "name": "Maha Shivaratri", "nameHi": "महाशिवरात्रि", "importance": "high"},
+    {"date": "2026-03-03", "name": "Holika Dahan", "nameHi": "होलिका दहन", "importance": "high"},
+    {"date": "2026-03-04", "name": "Holi", "nameHi": "होली", "importance": "high"},
+    {"date": "2026-03-19", "name": "Chaitra Navaratri begins", "nameHi": "चैत्र नवरात्रि आरंभ", "importance": "high"},
+    {"date": "2026-03-26", "name": "Ram Navami", "nameHi": "राम नवमी", "importance": "high"},
+    {"date": "2026-04-02", "name": "Hanuman Jayanti", "nameHi": "हनुमान जयंती", "importance": "high"},
+    {"date": "2026-04-14", "name": "Vaisakhi / Vishu / Puthandu", "nameHi": "वैशाखी · विषु · पुत्तुण्डु", "importance": "high"},
+    {"date": "2026-05-01", "name": "Akshaya Tritiya", "nameHi": "अक्षय तृतीया", "importance": "high"},
+    {"date": "2026-06-26", "name": "Jagannath Rath Yatra", "nameHi": "जगन्नाथ रथ यात्रा", "importance": "high"},
+    {"date": "2026-07-29", "name": "Guru Purnima", "nameHi": "गुरु पूर्णिमा", "importance": "high"},
+    {"date": "2026-08-15", "name": "Independence Day", "nameHi": "स्वतंत्रता दिवस", "importance": "medium"},
+    {"date": "2026-08-26", "name": "Janmashtami", "nameHi": "जन्माष्टमी", "importance": "high"},
+    {"date": "2026-09-14", "name": "Ganesh Chaturthi", "nameHi": "गणेश चतुर्थी", "importance": "high"},
+    {"date": "2026-10-11", "name": "Sharad Navaratri begins", "nameHi": "शरद नवरात्रि आरंभ", "importance": "high"},
+    {"date": "2026-10-19", "name": "Dussehra / Vijayadashami", "nameHi": "दशहरा · विजयदशमी", "importance": "high"},
+    {"date": "2026-10-29", "name": "Karva Chauth", "nameHi": "करवा चौथ", "importance": "high"},
+    {"date": "2026-11-08", "name": "Diwali / Deepavali", "nameHi": "दीपावली", "importance": "high"},
+    {"date": "2026-11-09", "name": "Govardhan Puja", "nameHi": "गोवर्धन पूजा", "importance": "medium"},
+    {"date": "2026-11-10", "name": "Bhai Dooj", "nameHi": "भाई दूज", "importance": "medium"},
+    {"date": "2026-11-24", "name": "Chhath Puja", "nameHi": "छठ पूजा", "importance": "high"},
+    {"date": "2026-12-25", "name": "Christmas", "nameHi": "क्रिसमस", "importance": "medium"},
+
+    {"date": "2025-08-16", "name": "Janmashtami", "nameHi": "जन्माष्टमी", "importance": "high"},
+    {"date": "2025-08-27", "name": "Ganesh Chaturthi", "nameHi": "गणेश चतुर्थी", "importance": "high"},
+    {"date": "2025-09-22", "name": "Sharad Navaratri begins", "nameHi": "शरद नवरात्रि आरंभ", "importance": "high"},
+    {"date": "2025-10-02", "name": "Dussehra / Vijayadashami", "nameHi": "दशहरा · विजयदशमी", "importance": "high"},
+    {"date": "2025-10-20", "name": "Diwali / Deepavali", "nameHi": "दीपावली", "importance": "high"},
+    {"date": "2025-11-05", "name": "Chhath Puja", "nameHi": "छठ पूजा", "importance": "high"}
+  ],
+  "tithiRules": [
+    {"tithi": 11, "name": "Ekadashi", "nameHi": "एकादशी", "importance": "high"},
+    {"tithi": 13, "name": "Pradosh", "nameHi": "प्रदोष", "importance": "medium"},
+    {"tithi": 15, "paksha": "Shukla", "name": "Purnima", "nameHi": "पूर्णिमा", "importance": "high"},
+    {"tithi": 15, "paksha": "Krishna", "name": "Amavasya", "nameHi": "अमावस्या", "importance": "high"}
+  ]
+}

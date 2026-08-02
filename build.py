@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import html
 import json
+import time
 import urllib.parse
 from pathlib import Path
 
@@ -22,6 +23,9 @@ DEVOTION: dict = {}
 OUT_STATES = ROOT / "states"
 OUT_DEITIES = ROOT / "deities"
 OUT_DEVOTION = ROOT / "devotion"
+
+# Bump on every build so browsers don't keep stale HTML-linked CSS/JS.
+ASSET_VER = str(int(time.time()))
 
 
 def load_json(path: Path):
@@ -234,20 +238,40 @@ def search_widget(prefix: str = "") -> str:
 """
 
 
-def nav(active: str = "", prefix: str = "") -> str:
+def panchang_widget(prefix: str = "") -> str:
+    """Compact daily panchang chip — top-right; updates from visitor's IST date."""
+    return f"""
+<div class="panchang-widget" data-panchang data-prefix="{e(prefix)}">
+  <button type="button" class="panchang-chip" data-panchang-toggle aria-expanded="false" aria-controls="panchang-panel" title="Today's Panchang">
+    <span class="panchang-chip-kicker">पंचांग</span>
+    <span class="panchang-chip-date" data-panchang-date>…</span>
+    <span class="panchang-chip-tithi" data-panchang-tithi></span>
+    <span class="panchang-chip-fest" data-panchang-fest hidden></span>
+  </button>
+  <div id="panchang-panel" class="panchang-panel" data-panchang-panel hidden>
+    <p class="panchang-panel-title">आज का पंचांग · Today's Panchang</p>
+    <div data-panchang-body></div>
+  </div>
+</div>
+"""
+
+
+def nav(active: str = "", prefix: str = "", *, show_panchang: bool = False) -> str:
     links = [
         ("index.html", "Home", "home"),
         ("circuits/index.html", "Circuits", "circuits"),
         ("deities/index.html", "Deities", "deities"),
-        ("devotion/index.html", "Devotion", "devotion"),
+        ("devotion/aarti.html", "Aarti", "aarti"),
+        ("devotion/chalisa.html", "Chalisa", "chalisa"),
+        ("devotion/vrat-katha.html", "Vrat Katha", "vrat-katha"),
         ("states/index.html", "States", "states"),
-        ("temples/index.html", "Temples", "temples"),
         ("pages/about.html", "About", "about"),
     ]
     items = []
     for href, label, key in links:
         cls = ' class="active"' if key == active else ""
         items.append(f'<li><a href="{prefix}{href}"{cls}>{label}</a></li>')
+    panchang = panchang_widget(prefix) if show_panchang else ""
     return f"""
 <header class="site-nav">
   <div class="nav-left">
@@ -260,8 +284,8 @@ def nav(active: str = "", prefix: str = "") -> str:
     <button class="nav-toggle" type="button" aria-label="Menu" data-nav-toggle>Menu</button>
     <ul class="nav-links" data-nav-links>
       {''.join(items)}
-      <li><a href="{prefix}pages/contact.html">Contact</a></li>
     </ul>
+    {panchang}
   </div>
 </header>
 """
@@ -300,8 +324,8 @@ def footer(prefix: str = "") -> str:
     <p>© 2026 TirthaYatra. Informational guide — not affiliated with any temple trust. Photos via Wikimedia Commons (see credits). Timings change; verify on official sites.</p>
   </div>
 </footer>
-<script src="{prefix}js/main.js"></script>
-<script src="{prefix}js/search.js"></script>
+<script src="{prefix}js/main.js?v={ASSET_VER}"></script>
+<script src="{prefix}js/search.js?v={ASSET_VER}"></script>
 """
 
 
@@ -314,7 +338,9 @@ def head(title: str, description: str, prefix: str = "", extra: str = "") -> str
   <title>{e(title)}</title>
   <meta name="description" content="{e(description)}" />
   <meta name="theme-color" content="#2a160e" />
-  <link rel="stylesheet" href="{prefix}css/main.css" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <link rel="stylesheet" href="{prefix}css/main.css?v={ASSET_VER}" />
   {extra}
 </head>
 <body>
@@ -671,7 +697,7 @@ def build_home(circuits: list, temples: list) -> str:
     international = [t for t in temples if t.get("country") and t["country"] != "India"]
 
     body = f"""
-{nav('home', prefix)}
+{nav('home', prefix, show_panchang=True)}
 <section class="hero">
   <div class="hero-bg" aria-hidden="true"></div>
   <div class="hero-photo-layer" aria-hidden="true"></div>
@@ -838,6 +864,13 @@ def build_home(circuits: list, temples: list) -> str:
             '<div class="hero-photo-layer" aria-hidden="true"></div>',
             f'<div class="hero-photo-layer" aria-hidden="true" style="background-image:url(\'{e(hero_img)}\')"></div>',
         )
+
+    # Panchang script only on homepage (widget is home-only).
+    body = body.replace(
+        "</body>",
+        f'<script src="js/panchang.js?v={ASSET_VER}"></script>\n</body>',
+        1,
+    )
 
     return head(
         "TirthaYatra — Temple & Pilgrimage Guides",
@@ -1086,7 +1119,7 @@ def build_devotion_type_page(type_key: str) -> str:
     items = [i for i in devotion_items() if i.get("type") == type_key]
     rows = [devotion_item_row(i, prefix) for i in items]
     body = f"""
-{nav('devotion', prefix)}
+{nav(type_key, prefix)}
 <section class="page-head">
   <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}devotion/index.html">Devotion</a> · {e(meta['name'])}</p>
   <h1>{e(meta['nameHi'])} · {e(meta['name'])} — {len(items)}</h1>
@@ -1194,8 +1227,9 @@ def build_devotion_item(item: dict) -> str:
         else ""
     )
     audio_block = devotion_audio_block(item)
+    nav_active = item.get("type") if item.get("type") in ("aarti", "chalisa", "vrat-katha") else "aarti"
     body = f"""
-{nav('devotion', prefix)}
+{nav(nav_active, prefix)}
 <section class="page-head">
   <p class="breadcrumb">
     <a href="{prefix}index.html">Home</a> ·

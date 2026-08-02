@@ -296,6 +296,175 @@ a:hover { color: var(--vermillion); }
   cursor: pointer;
 }
 
+/* —— Daily Panchang (top-right) —— */
+.panchang-widget {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 110;
+}
+
+.panchang-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.1rem;
+  min-width: 7.5rem;
+  max-width: 11rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 0.65rem;
+  border: 1px solid rgba(226, 195, 106, 0.45);
+  background: rgba(20, 12, 8, 0.55);
+  color: var(--sand-soft);
+  font-family: var(--font-body);
+  cursor: pointer;
+  text-align: right;
+  line-height: 1.2;
+  transition: border-color 0.2s var(--ease), background 0.2s var(--ease), box-shadow 0.2s var(--ease);
+}
+
+.panchang-chip:hover,
+.panchang-chip[aria-expanded="true"] {
+  border-color: var(--brass-bright);
+  background: rgba(42, 22, 14, 0.92);
+}
+
+.panchang-chip-kicker {
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brass-bright);
+}
+
+.panchang-chip-date {
+  font-size: 0.78rem;
+  color: var(--sand);
+}
+
+.panchang-chip-tithi {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #fff8ef;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.panchang-chip-fest {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #fff4e5;
+  background: linear-gradient(90deg, var(--vermillion), #d4920a);
+  padding: 0.12rem 0.4rem;
+  border-radius: 999px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.panchang-widget.is-festival .panchang-chip {
+  border-color: rgba(194, 52, 26, 0.85);
+  box-shadow: 0 0 0 1px rgba(212, 146, 10, 0.35), 0 6px 18px rgba(194, 52, 26, 0.25);
+  background: linear-gradient(160deg, rgba(158, 42, 20, 0.55), rgba(42, 22, 14, 0.92));
+}
+
+.panchang-widget.is-observance .panchang-chip {
+  border-color: rgba(226, 195, 106, 0.85);
+  box-shadow: 0 0 0 1px rgba(226, 195, 106, 0.25);
+}
+
+.panchang-panel {
+  position: absolute;
+  top: calc(100% + 0.45rem);
+  right: 0;
+  width: min(22rem, calc(100vw - 1.5rem));
+  padding: 1rem 1.1rem 1.1rem;
+  border-radius: 0.9rem;
+  background: #fffaf5;
+  color: var(--ink);
+  border: 1px solid rgba(92, 61, 46, 0.18);
+  box-shadow: 0 16px 40px rgba(28, 18, 12, 0.28);
+}
+
+.panchang-panel-title {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-brand);
+  font-size: 1.15rem;
+  color: var(--stone-deep);
+}
+
+.panchang-facts {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0 0 0.85rem;
+}
+
+.panchang-facts div {
+  display: grid;
+  gap: 0.1rem;
+}
+
+.panchang-facts dt {
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--stone);
+}
+
+.panchang-facts dd {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.panchang-fest-list {
+  margin: 0 0 0.85rem;
+  padding: 0.7rem 0.8rem;
+  border-radius: 0.7rem;
+  background: linear-gradient(135deg, rgba(194, 52, 26, 0.12), rgba(212, 146, 10, 0.14));
+  border: 1px solid rgba(194, 52, 26, 0.25);
+}
+
+.panchang-fest-kicker {
+  margin: 0 0 0.35rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--sindoor);
+  font-weight: 700;
+}
+
+.panchang-fest-list ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.panchang-fest-list li {
+  margin: 0.2rem 0;
+  font-size: 0.92rem;
+}
+
+.panchang-note {
+  margin: 0 0 0.55rem;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--stone);
+}
+
+.panchang-ref {
+  margin: 0;
+  font-size: 0.82rem;
+}
+
+.panchang-ref a {
+  color: var(--sindoor);
+  font-weight: 600;
+}
+
 /* —— Hero (full-bleed, left copy — same composition on laptop + monitor) —— */
 .hero {
   position: relative;
@@ -1497,7 +1666,17 @@ a:hover { color: var(--vermillion); }
     width: 100%;
     justify-self: stretch;
   }
-  .nav-right { grid-area: menu; }
+  .nav-right {
+    grid-area: menu;
+    gap: 0.4rem;
+  }
+  .panchang-chip {
+    min-width: 0;
+    max-width: 6.8rem;
+    padding: 0.28rem 0.45rem;
+  }
+  .panchang-chip-tithi { font-size: 0.72rem; }
+  .panchang-chip-fest { font-size: 0.65rem; }
   .nav-toggle { display: block; }
   .nav-links {
     display: none;
