@@ -1,0 +1,95 @@
+{
+  "slug": "somnath",
+  "name": "Somnath Temple",
+  "deity": "Lord Shiva (Somnath)",
+  "location": "Prabhas Patan, Gir Somnath, Gujarat",
+  "state": "Gujarat",
+  "glyph": "सो",
+  "tags": [
+    "12-jyotirlinga"
+  ],
+  "tagLabels": [
+    "12 Jyotirlinga"
+  ],
+  "summary": "Traditionally counted as the first among the twelve Jyotirlingas, standing on the western shore where the myth of Chandra’s penance is told.",
+  "famousFor": "First Jyotirlinga & Arabian Sea aarti",
+  "mythology": "Somnath is traditionally listed as the first among the twelve Jyotirlingas. Puranic narrative (especially Chandra–Soma traditions in the Shiva Purana cycle) tells that the Moon god, cursed and fading, performed penance here; Shiva restored him, and the place became Somnath — ‘Lord of the Moon’. The Prabhas Khanda traditions of the Skanda Purana further sanctify the Prabhas coast as a major tirtha.",
+  "scriptureLinks": [
+    "Shiva Purana (Soma / Chandra penance)",
+    "Skanda Purana — Prabhas Khanda traditions",
+    "Jyotirlinga pilgrimage lists",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Maha Shivaratri",
+    "Kartik Purnima",
+    "Daily evening aarti by the sea"
+  ],
+  "bestTime": "October–March for pleasant weather. Summers are hot and humid on the coast.",
+  "whatToCarry": "Light cotton clothes in summer, light jacket in winter evenings, sun cap, water bottle, ID proof.",
+  "climate": "Coastal tropical — warm most of the year; monsoon humidity July–September.",
+  "nearestRail": "Veraval / Somnath railway stations (very close).",
+  "nearestAirport": "Diu / Rajkot / Ahmedabad with onward road; check current nearest commercial options.",
+  "accommodation": "Temple trust guest houses and private hotels in Somnath–Veraval. Trust lodging is popular with pilgrims — book via official channels when possible.",
+  "localFood": "Gujarati vegetarian thali, farsan, temple prasadam. Strong vegetarian culture around the temple town.",
+  "otherFood": "Jain-friendly and sattvic options widely available; non-veg usually away from temple vicinity.",
+  "localLanguage": "Gujarati and Hindi; English at hotels and tourist desks.",
+  "dressCode": "Modest attire. Shoulders and knees covered preferred. Footwear outside sanctum.",
+  "darshanTimings": "Typically early morning to night with aarti slots; sound-and-light show evenings (seasonal). Confirm on official site.",
+  "specialEntry": "Queue management and special darshan (if offered) via temple trust counters — follow posted notices.",
+  "restrictions": "Photography often restricted inside garbhagriha. Follow security instructions for bags and phones.",
+  "lockers": "Cloakroom / locker facilities usually available near the temple complex for phones, bags, and leather items as per rules.",
+  "officialWebsite": "https://somnath.org/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Somnath+Temple+temple+pilgrimage",
+  "videoNote": "Sea-facing temple overview — useful for first-time visitors.",
+  "nearby": [
+    {
+      "name": "Bhalka Tirth",
+      "slug": null,
+      "note": "Associated with Krishna’s departure legend"
+    },
+    {
+      "name": "Gir National Park",
+      "slug": null,
+      "note": "Same-trip nature extension"
+    },
+    {
+      "name": "Dwarkadhish Temple",
+      "slug": "dwarka",
+      "note": "Coastal Gujarat Char Dham combo"
+    }
+  ],
+  "packages": [
+    "Somnath + Dwarka — 3–4 days",
+    "Somnath + Gir — 3 days"
+  ],
+  "sources": [
+    "Shree Somnath Trust: https://somnath.org/",
+    "Shree Somnath Trust official website",
+    "Gujarat Tourism",
+    "Dwarkadhish Temple: https://www.dwarkadhish.org/",
+    "Gujarat Tourism: https://www.gujarattourism.com/"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Darshan timings and show schedules change; verify on somnath.org before travel.",
+  "lat": 20.888,
+  "lng": 70.4012,
+  "mapQuery": "Somnath Temple Gujarat",
+  "country": "India",
+  "statePortal": {
+    "name": "Shree Somnath Trust",
+    "url": "https://somnath.org/",
+    "slug": "gujarat"
+  },
+  "mythologySignificance": "Somnath is traditionally listed as the first among the twelve Jyotirlingas. Puranic narrative (especially Chandra–Soma traditions in the Shiva Purana cycle) tells that the Moon god, cursed and fading, performed penance here; Shiva restored him, and the place became Somnath — ‘Lord of the Moon’. The Prabhas Khanda traditions of the Skanda Purana further sanctify the Prabhas coast as a major tirtha.",
+  "localBeliefs": "Coastal Gujarat devotion remembers Somnath as a shrine repeatedly rebuilt across centuries — a symbol of enduring Shaiva faith by the Arabian Sea. Evening aarti by the shore and the sound-and-light narratives told to pilgrims reinforce the Chandra penance story in popular memory.\n\nNearby Bhalka Tirth is linked in local Krishna-lila geography, so many pilgrims experience Somnath within a wider Saurashtra sacred circuit.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "सोमनाथाय नमः",
+    "meaning": "Salutation to Somnath — Lord of the Moon",
+    "source": "From the Chandra–Soma penance tradition of this Jyotirlinga"
+  },
+  "deityFamilies": [
+    "shiva"
+  ]
+}

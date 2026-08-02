@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tirthayatra.example/sitemap.xml

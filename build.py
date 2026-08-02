@@ -1,0 +1,1695 @@
+#!/usr/bin/env python3
+"""Generate static TirthaYatra pages from JSON content."""
+
+from __future__ import annotations
+
+import html
+import json
+import urllib.parse
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+DATA = ROOT / "data"
+OUT_TEMPLES = ROOT / "temples"
+OUT_CIRCUITS = ROOT / "circuits"
+OUT_PAGES = ROOT / "pages"
+
+MEDIA: dict = {}
+GROUPS: dict = {}
+STATE_PORTALS: dict = {}
+DEITIES: dict = {}
+DEVOTION: dict = {}
+OUT_STATES = ROOT / "states"
+OUT_DEITIES = ROOT / "deities"
+OUT_DEVOTION = ROOT / "devotion"
+
+
+def load_json(path: Path):
+    with path.open(encoding="utf-8") as f:
+        return json.load(f)
+
+
+# Circuits where traditional yatra sequence matters more than A–Z browsing.
+PILGRIMAGE_ORDER_CIRCUITS = {
+    "12-jyotirlinga",
+    "ashtavinayak",
+    "char-dham",
+    "chota-char-dham",
+    "panch-kedar",
+}
+
+
+def circuit_members(circuit_slug: str, temples: list) -> list:
+    """Return temples in canonical group order when available.
+
+    Non-sequence circuits (e.g. 51 Shakti Peeth) are sorted A–Z so names like
+    Surkanda Devi are findable when browsing under their letter.
+    """
+    fixed = GROUPS.get("fixed", {}).get(circuit_slug, {})
+    order = fixed.get("order") or []
+    by_slug = {t["slug"]: t for t in temples}
+    if order:
+        members = [by_slug[s] for s in order if s in by_slug]
+        extras = [
+            t
+            for t in temples
+            if circuit_slug in t.get("tags", []) and t["slug"] not in order
+        ]
+        members = members + extras
+    else:
+        members = [t for t in temples if circuit_slug in t.get("tags", [])]
+    if circuit_slug not in PILGRIMAGE_ORDER_CIRCUITS:
+        members = sorted(members, key=lambda t: t["name"].casefold())
+    return members
+
+
+def validate_fixed_groups(temples: list) -> None:
+    fixed = GROUPS.get("fixed", {})
+    by_tags: dict[str, set[str]] = {}
+    for t in temples:
+        for tag in t.get("tags", []):
+            by_tags.setdefault(tag, set()).add(t["slug"])
+    for slug, meta in fixed.items():
+        expected = meta.get("expected")
+        order = meta.get("order") or []
+        have = by_tags.get(slug, set())
+        want = set(order)
+        if expected is not None and (len(have) != expected or have != want):
+            raise SystemExit(
+                f"Group '{slug}' invalid: have {sorted(have)} (n={len(have)}), "
+                f"want {sorted(want)} (n={expected})"
+            )
+
+
+def e(text) -> str:
+    return html.escape(str(text), quote=True)
+
+
+def media_for(slug: str) -> dict | None:
+    return MEDIA.get(slug)
+
+
+def img_src(slug: str, prefix: str) -> str | None:
+    m = media_for(slug)
+    if not m:
+        return None
+    return prefix + m["local"]
+
+
+def credit_html(slug: str) -> str:
+    m = media_for(slug)
+    if not m:
+        return ""
+    return (
+        f'<p class="img-credit">Photo: {e(m.get("credit", "Wikimedia Commons"))} · '
+        f'{e(m.get("license", ""))} · '
+        f'<a href="{e(m.get("page", "#"))}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></p>'
+    )
+
+
+def thumb_html(slug: str, glyph: str, prefix: str, alt: str = "") -> str:
+    src = img_src(slug, prefix)
+    if src:
+        return (
+            f'<div class="temple-thumb">'
+            f'<img src="{e(src)}" alt="{e(alt)}" loading="lazy" width="160" height="160" />'
+            f"</div>"
+        )
+    return f'<div class="temple-mark" aria-hidden="true">{e(glyph or "ॐ")}</div>'
+
+
+def paras_html(text: str) -> str:
+    chunks = [c.strip() for c in str(text or "").split("\n\n") if c.strip()]
+    if not chunks:
+        return ""
+    return "".join(f"<p>{e(c)}</p>" for c in chunks)
+
+
+def sacred_phrase_html(t: dict) -> str:
+    phrase = t.get("sacredPhrase")
+    if not phrase or not phrase.get("text") or not phrase.get("meaning"):
+        return ""
+    source = phrase.get("source") or ""
+    source_html = f'<p class="sacred-phrase-source">{e(source)}</p>' if source else ""
+    return f"""
+      <blockquote class="sacred-phrase">
+        <p class="sacred-phrase-text">{e(phrase["text"])}</p>
+        <p class="sacred-phrase-meaning">{e(phrase["meaning"])}</p>
+        {source_html}
+      </blockquote>
+    """
+
+
+def mythology_html(t: dict) -> str:
+    significance = t.get("mythologySignificance") or t.get("mythology") or ""
+    local = t.get("localBeliefs") or ""
+    parts = [sacred_phrase_html(t)]
+    parts.extend(
+        [
+            "<h3>Significance in mythology</h3>",
+            paras_html(significance),
+        ]
+    )
+    if local:
+        parts.append("<h3>Local stories &amp; beliefs</h3>")
+        parts.append(paras_html(local))
+    return "".join(parts)
+
+
+def map_embed(t: dict) -> str:
+    lat, lng = t.get("lat"), t.get("lng")
+    query = t.get("mapQuery") or t.get("name")
+    if lat is not None and lng is not None:
+        q = f"{lat},{lng}"
+    else:
+        q = query
+    src = (
+        "https://maps.google.com/maps?q="
+        + urllib.parse.quote(str(q))
+        + "&z=14&hl=en&output=embed"
+    )
+    maps_link = "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote(
+        str(query)
+    )
+    return f"""
+    <div class="map-embed">
+      <iframe src="{e(src)}" title="Map of {e(t['name'])}" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+    <p class="map-actions">
+      <a class="btn btn-ghost" href="{e(maps_link)}" target="_blank" rel="noopener noreferrer">Open in Google Maps ↗</a>
+    </p>
+    """
+
+
+def temple_row(t: dict, href: str, prefix: str, cta: str = "Open →") -> str:
+    tags = "".join(f'<span class="tag">{e(x)}</span>' for x in t.get("tagLabels", [])[:3])
+    country = t.get("country", "India")
+    state = t.get("state", "")
+    place = f"{country} · {state}" if state else country
+    # No scroll-reveal on rows — long lists stay readable and Ctrl+F / letter-scan works.
+    return f"""
+    <a class="temple-row" href="{e(href)}">
+      {thumb_html(t['slug'], t.get('glyph', 'ॐ'), prefix, t['name'])}
+      <div class="temple-row-body">
+        <h3>{e(t['name'])}</h3>
+        <p class="temple-row-meta">{e(place)} · {e(t['famousFor'])}</p>
+        <div class="temple-tags">{tags}</div>
+      </div>
+      <span class="temple-row-cta">{e(cta)}</span>
+    </a>
+    """
+
+
+def state_slug(state_name: str) -> str:
+    portal = STATE_PORTALS.get(state_name)
+    if portal:
+        return portal["slug"]
+    return (
+        state_name.lower()
+        .replace("&", "and")
+        .replace(" ", "-")
+        .replace("/", "-")
+    )
+
+
+def search_widget(prefix: str = "") -> str:
+    """Single top-center pill search used in the site nav."""
+    return f"""
+<div class="temple-search" data-temple-search data-prefix="{e(prefix)}">
+  <div class="temple-search-shell">
+    <label class="temple-search-label" for="temple-search-input">
+      <svg class="temple-search-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+        <circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M16.2 16.2L21 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span class="visually-hidden">Search temples</span>
+    </label>
+    <input id="temple-search-input" class="temple-search-input" type="search"
+      placeholder="Search temples, deities, states…" autocomplete="off" spellcheck="false"
+      data-search-input aria-autocomplete="list" aria-controls="temple-search-results" />
+  </div>
+  <div id="temple-search-results" class="temple-search-results" data-search-results role="listbox" hidden></div>
+</div>
+"""
+
+
+def nav(active: str = "", prefix: str = "") -> str:
+    links = [
+        ("index.html", "Home", "home"),
+        ("circuits/index.html", "Circuits", "circuits"),
+        ("deities/index.html", "Deities", "deities"),
+        ("devotion/index.html", "Devotion", "devotion"),
+        ("states/index.html", "States", "states"),
+        ("temples/index.html", "Temples", "temples"),
+        ("pages/about.html", "About", "about"),
+    ]
+    items = []
+    for href, label, key in links:
+        cls = ' class="active"' if key == active else ""
+        items.append(f'<li><a href="{prefix}{href}"{cls}>{label}</a></li>')
+    return f"""
+<header class="site-nav">
+  <div class="nav-left">
+    <a class="nav-brand" href="{prefix}index.html">TirthaYatra <span>तीर्थयात्रा</span></a>
+  </div>
+  <div class="nav-center">
+    {search_widget(prefix)}
+  </div>
+  <div class="nav-right">
+    <button class="nav-toggle" type="button" aria-label="Menu" data-nav-toggle>Menu</button>
+    <ul class="nav-links" data-nav-links>
+      {''.join(items)}
+      <li><a href="{prefix}pages/contact.html">Contact</a></li>
+    </ul>
+  </div>
+</header>
+"""
+
+
+def footer(prefix: str = "") -> str:
+    return f"""
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-brand">TirthaYatra</p>
+      <p>Stories, circuits, and practical darshan guides — India, Nepal, Sri Lanka, and the Kailash pilgrimage landscape.</p>
+    </div>
+    <div class="footer-col">
+      <h3>Explore</h3>
+      <a href="{prefix}circuits/12-jyotirlinga.html">12 Jyotirlinga</a>
+      <a href="{prefix}circuits/ashtavinayak.html">Ashtavinayak</a>
+      <a href="{prefix}circuits/char-dham.html">Char Dham</a>
+      <a href="{prefix}circuits/modern-temples.html">Modern Temples</a>
+      <a href="{prefix}circuits/beyond-india.html">Beyond India</a>
+      <a href="{prefix}deities/index.html">By Deity</a>
+      <a href="{prefix}devotion/index.html">Aarti · Chalisa · Vrat</a>
+      <a href="{prefix}states/index.html">By State</a>
+      <a href="{prefix}temples/index.html">All Temples</a>
+    </div>
+    <div class="footer-col">
+      <h3>Trust</h3>
+      <a href="{prefix}pages/about.html">About</a>
+      <a href="{prefix}pages/contact.html">Contact</a>
+      <a href="{prefix}pages/privacy.html">Privacy Policy</a>
+      <a href="{prefix}pages/disclaimer.html">Disclaimer</a>
+      <a href="{prefix}pages/terms.html">Terms</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 TirthaYatra. Informational guide — not affiliated with any temple trust. Photos via Wikimedia Commons (see credits). Timings change; verify on official sites.</p>
+  </div>
+</footer>
+<script src="{prefix}js/main.js"></script>
+<script src="{prefix}js/search.js"></script>
+"""
+
+
+def head(title: str, description: str, prefix: str = "", extra: str = "") -> str:
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{e(title)}</title>
+  <meta name="description" content="{e(description)}" />
+  <meta name="theme-color" content="#2a160e" />
+  <link rel="stylesheet" href="{prefix}css/main.css" />
+  {extra}
+</head>
+<body>
+"""
+
+
+def list_html(items: list) -> str:
+    return "<ul>" + "".join(f"<li>{e(i)}</li>" for i in items) + "</ul>"
+
+
+def nearby_html(items: list, prefix: str) -> str:
+    parts = []
+    for n in items:
+        if n.get("slug"):
+            parts.append(
+                f'<a class="related-link" href="{prefix}temples/{e(n["slug"])}.html">'
+                f'<strong>{e(n["name"])}</strong>{e(n.get("note", ""))}</a>'
+            )
+        else:
+            parts.append(
+                f'<div class="related-link"><strong>{e(n["name"])}</strong>{e(n.get("note", ""))}</div>'
+            )
+    return '<div class="related-strip">' + "".join(parts) + "</div>"
+
+
+def collage_html(temples: list, prefix: str, limit: int = 9) -> str:
+    """Build a photo collage; prefer temples that have local images.
+
+    Uses 9 cells so the 4-column span pattern (tall + wide tiles) fills
+    without leaving an empty hole in the masonry grid.
+    """
+    with_photo = [t for t in temples if img_src(t["slug"], prefix)]
+    cells = []
+    for i, t in enumerate(with_photo[:limit]):
+        src = img_src(t["slug"], prefix)
+        cells.append(
+            f'<a class="collage-cell collage-cell--{i}" href="{prefix}temples/{e(t["slug"])}.html">'
+            f'<img src="{e(src)}" alt="{e(t["name"])}" loading="lazy" />'
+            f'<span>{e(t["name"])}</span></a>'
+        )
+    if not cells:
+        return ""
+    return f'<div class="collage reveal" aria-label="Temple photo collage">{"".join(cells)}</div>'
+
+
+def deity_tags_html(t: dict, prefix: str) -> str:
+    families = t.get("deityFamilies") or []
+    parts = []
+    for fam in families:
+        meta = DEITIES.get(fam)
+        if not meta:
+            continue
+        parts.append(
+            f'<a class="tag" href="{prefix}deities/{e(fam)}.html">{e(meta["nameHi"])} · {e(meta["name"])}</a>'
+        )
+    return "".join(parts)
+
+
+def build_temple(t: dict, all_temples: list, circuits_by_slug: dict) -> str:
+    prefix = "../"
+    tags = "".join(
+        f'<a class="tag" href="{prefix}circuits/{e(slug)}.html">{e(label)}</a>'
+        for slug, label in zip(t["tags"], t["tagLabels"])
+    )
+    tags = deity_tags_html(t, prefix) + tags
+    scripture = ", ".join(t.get("scriptureLinks", []))
+    video = ""
+    if t.get("videoUrl") and "youtube.com/embed/" in t["videoUrl"]:
+        video = f"""
+        <div class="video-embed">
+          <iframe src="{e(t['videoUrl'])}" title="{e(t['name'])} video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen loading="lazy"></iframe>
+        </div>
+        <p>{e(t.get('videoNote', ''))}</p>
+        """
+    elif t.get("videoUrl"):
+        video = f"""
+        <p>{e(t.get('videoNote', 'Watch curated videos for orientation — then verify details on official sites.'))}</p>
+        <p><a class="btn btn-ghost" href="{e(t['videoUrl'])}" target="_blank" rel="noopener noreferrer">Open related videos ↗</a></p>
+        """
+
+    related = []
+    for n in t.get("nearby", []):
+        if n.get("slug"):
+            related.append(n)
+    my_deities = set(t.get("deityFamilies") or [])
+    for other in all_temples:
+        if other["slug"] == t["slug"]:
+            continue
+        shared_deity = my_deities & set(other.get("deityFamilies") or [])
+        shared_circuit = set(other.get("tags", [])) & set(t.get("tags", []))
+        if shared_deity or shared_circuit:
+            note = other.get("famousFor", "Related shrine")
+            if shared_deity and not shared_circuit:
+                note = f"Same deity path · {note}"
+            related.append({"name": other["name"], "slug": other["slug"], "note": note})
+        if len(related) >= 4:
+            break
+
+    src = img_src(t["slug"], prefix)
+    hero_media = ""
+    gallery = ""
+    if src:
+        hero_media = f"""
+        <div class="page-hero-media">
+          <img src="{e(src)}" alt="{e(t['name'])}" />
+        </div>
+        """
+        gallery = f"""
+        <section class="temple-section" id="gallery">
+          <h2>Temple Glimpse</h2>
+          <figure class="temple-figure">
+            <img src="{e(src)}" alt="{e(t['name'])} — {e(t.get('famousFor', ''))}" loading="lazy" />
+            <figcaption>{e(t.get('famousFor', ''))}. {credit_html(t['slug']).replace('<p class="img-credit">', '').replace('</p>', '')}</figcaption>
+          </figure>
+        </section>
+        """
+
+    country = t.get("country", "India")
+    body = f"""
+{nav('temples', prefix)}
+<section class="page-hero page-hero--photo">
+  {hero_media}
+  <div class="page-hero-inner">
+    <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}temples/index.html">Temples</a> · {e(t['name'])}</p>
+    <h1>{e(t['name'])}</h1>
+    <p class="lede">{e(country)} · {e(t['location'])}</p>
+    <p class="lede">{e(t['summary'])}</p>
+    <div class="temple-tags" style="margin-top:1rem">{tags}</div>
+  </div>
+</section>
+<div class="temple-layout">
+  <article class="temple-main">
+    {gallery}
+
+    <section class="temple-section" id="mythology">
+      <h2>Mythology &amp; Significance</h2>
+      {mythology_html(t)}
+      <p><strong>Scriptural &amp; traditional links:</strong> {e(scripture)}</p>
+      <p><strong>Known for:</strong> {e(t['famousFor'])}</p>
+      <aside class="belief-disclaimer">
+        <strong>Disclaimer on stories &amp; beliefs:</strong>
+        {e(t.get("mythologyDisclaimer") or (
+            "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, "
+            "and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, "
+            "region, and temple tradition. This section is for cultural understanding — not a "
+            "claim of historical fact, nor a substitute for guidance from temple priests or official trusts."
+        ))}
+      </aside>
+    </section>
+
+    <section class="temple-section" id="festivals">
+      <h2>Important Days, Festivals &amp; Best Time</h2>
+      <h3>Festivals &amp; sacred days</h3>
+      {list_html(t.get('festivals', []))}
+      <div class="fact-grid">
+        <div class="fact"><dt>Best time to go</dt><dd>{e(t['bestTime'])}</dd></div>
+        <div class="fact"><dt>Climate</dt><dd>{e(t['climate'])}</dd></div>
+        <div class="fact"><dt>What to carry</dt><dd>{e(t['whatToCarry'])}</dd></div>
+      </div>
+    </section>
+
+    <section class="temple-section" id="media">
+      <h2>Watch &amp; Learn</h2>
+      {video}
+    </section>
+
+    <section class="temple-section" id="location">
+      <h2>Location on Map</h2>
+      <p>Pinpoint the sacred site, then plan your approach from the nearest rail or airport listed below.</p>
+      {map_embed(t)}
+    </section>
+
+    <section class="temple-section" id="itinerary">
+      <h2>Getting There, Stay &amp; Food</h2>
+      <div class="fact-grid">
+        <div class="fact"><dt>Nearest railway</dt><dd>{e(t['nearestRail'])}</dd></div>
+        <div class="fact"><dt>Nearest airport</dt><dd>{e(t['nearestAirport'])}</dd></div>
+        <div class="fact"><dt>Local language</dt><dd>{e(t['localLanguage'])}</dd></div>
+      </div>
+      <h3>Accommodation</h3>
+      <p>{e(t['accommodation'])}</p>
+      <h3>Local food</h3>
+      <p>{e(t['localFood'])}</p>
+      <h3>Other food options</h3>
+      <p>{e(t['otherFood'])}</p>
+    </section>
+
+    <section class="temple-section" id="nearby">
+      <h2>Nearby Places &amp; Clubbed Packages</h2>
+      <h3>Same-trip places</h3>
+      {nearby_html(t.get('nearby', []), prefix)}
+      <h3>Suggested packages</h3>
+      {list_html(t.get('packages', []))}
+    </section>
+
+    <section class="temple-section" id="practical">
+      <h2>Practical Darshan Details</h2>
+      <div class="fact-grid">
+        <div class="fact"><dt>Dress code</dt><dd>{e(t['dressCode'])}</dd></div>
+        <div class="fact"><dt>Darshan timings</dt><dd>{e(t['darshanTimings'])}</dd></div>
+        <div class="fact"><dt>Special entry / passes</dt><dd>{e(t['specialEntry'])}</dd></div>
+        <div class="fact"><dt>Lockers</dt><dd>{e(t['lockers'])}</dd></div>
+      </div>
+      <h3>Restrictions at gates</h3>
+      <p>{e(t['restrictions'])}</p>
+      <p><a class="official-link" href="{e(t['officialWebsite'])}" target="_blank" rel="noopener noreferrer">Official trust / tourism website ↗</a></p>
+      {state_portal_html(t, prefix)}
+    </section>
+
+    <section class="temple-section" id="sources">
+      <h2>Sources &amp; Updates</h2>
+      <div class="sources">{list_html(t.get('sources', []))}</div>
+      {credit_html(t['slug'])}
+      <p class="updated">Last updated: {e(t['lastUpdated'])}. {e(t.get('disclaimer', ''))}</p>
+    </section>
+
+    <section class="temple-section" id="related">
+      <h2>Continue Your Yatra</h2>
+      <p>Explore more temples on related circuits — keep the journey going.</p>
+      {nearby_html(related[:4], prefix)}
+    </section>
+
+    <section class="comments" id="comments" data-temple="{e(t['slug'])}">
+      <h2>Pilgrim Notes &amp; Reviews</h2>
+      <p class="comments-note">Share respectful travel tips. Comments are stored on your device for this demo — no hate or spam.</p>
+      <form class="comment-form" data-comment-form>
+        <label>Name (Optional) <input name="name" maxlength="60" placeholder="Your name" /></label>
+        <label>Visit rating
+          <select name="rating" required>
+            <option value="5">5 — Profound</option>
+            <option value="4">4 — Very good</option>
+            <option value="3">3 — Good</option>
+            <option value="2">2 — Mixed</option>
+            <option value="1">1 — Difficult</option>
+          </select>
+        </label>
+        <label>Your note
+          <textarea name="body" required maxlength="800" placeholder="Tip on dress code, queues, food, or best time…"></textarea>
+        </label>
+        <button class="btn btn-primary" type="submit">Add note</button>
+      </form>
+      <div class="comment-list" data-comment-list></div>
+    </section>
+  </article>
+
+  <aside class="temple-aside">
+    <nav class="toc">
+      <h2>On this page</h2>
+      <ol>
+        <li><a href="#gallery">Glimpse</a></li>
+        <li><a href="#mythology">Mythology</a></li>
+        <li><a href="#festivals">Festivals &amp; season</a></li>
+        <li><a href="#media">Videos</a></li>
+        <li><a href="#location">Map</a></li>
+        <li><a href="#itinerary">Travel &amp; food</a></li>
+        <li><a href="#nearby">Nearby &amp; packages</a></li>
+        <li><a href="#practical">Dress code &amp; timings</a></li>
+        <li><a href="#comments">Reviews</a></li>
+      </ol>
+    </nav>
+    <div class="aside-tags">{tags}</div>
+    <p style="margin-top:1.25rem;font-size:0.9rem;color:var(--stone)">
+      <strong>{e(t['deity'])}</strong><br />{e(country)} · {e(t['location'])}
+    </p>
+  </aside>
+</div>
+{footer(prefix)}
+<script src="{prefix}js/comments.js"></script>
+</body>
+</html>
+"""
+    return head(f"{t['name']} — TirthaYatra", t["summary"], prefix) + body
+
+
+def build_circuit(c: dict, temples: list) -> str:
+    prefix = "../"
+    members = circuit_members(c["slug"], temples)
+    expected = c.get("expected") or GROUPS.get("fixed", {}).get(c["slug"], {}).get("expected")
+    rows = [
+        temple_row(t, f"{prefix}temples/{t['slug']}.html", prefix, "Open guide →")
+        for t in members
+    ]
+    if not rows:
+        rows.append(
+            '<p class="comment-empty">More temples for this circuit are being added.</p>'
+        )
+
+    if expected:
+        title_count = f"{len(members)} of {expected} temples in this complete set"
+        if len(members) != expected:
+            title_count += " — count mismatch (rebuild required)"
+    else:
+        title_count = f"{len(members)} guides on this open trail"
+
+    body = f"""
+{nav('circuits', prefix)}
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}circuits/index.html">Circuits</a> · {e(c['name'])}</p>
+    <h1>{e(c['name'])}</h1>
+    <p class="lede">{e(c.get('sanskrit', ''))} — {e(c['lede'])}</p>
+  </div>
+</section>
+<div class="circuit-intro">
+  <p>{e(c['blurb'])}</p>
+  {collage_html(members, prefix)}
+</div>
+<section class="section">
+  <div class="section-head">
+    <p class="section-kicker">Temples on this path</p>
+    <h2 class="section-title">{e(title_count)}</h2>
+    <p class="section-desc">{e(
+      "Listed in traditional yatra order."
+      if c["slug"] in PILGRIMAGE_ORDER_CIRCUITS
+      else "Listed A–Z for easy browsing — search the page for a name (e.g. Surkanda)."
+    )}</p>
+  </div>
+  <div class="temple-list">{''.join(rows)}</div>
+  <p style="margin-top:2rem">
+    <a class="btn btn-ghost" href="{prefix}temples/index.html">Browse all temples</a>
+  </p>
+</section>
+{footer(prefix)}
+</body>
+</html>
+"""
+    return head(f"{c['name']} — TirthaYatra", c["lede"], prefix) + body
+
+
+def build_home(circuits: list, temples: list) -> str:
+    prefix = ""
+    tiles = []
+    for c in circuits:
+        count = sum(1 for t in temples if c["slug"] in t.get("tags", []))
+        tiles.append(
+            f"""
+            <a class="circuit-tile reveal" href="circuits/{e(c['slug'])}.html">
+              <p class="circuit-count">{e(c['countLabel'])} · {count} on site</p>
+              <h3 class="circuit-name">{e(c['name'])}</h3>
+              <p class="circuit-blurb">{e(c['blurb'])}</p>
+              <span class="circuit-arrow">Enter circuit →</span>
+            </a>
+            """
+        )
+
+    featured = temples[:8]
+    rows = [
+        temple_row(t, f"temples/{t['slug']}.html", prefix, "Read guide →")
+        for t in featured
+    ]
+    collage = collage_html(temples, prefix)
+    international = [t for t in temples if t.get("country") and t["country"] != "India"]
+
+    body = f"""
+{nav('home', prefix)}
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-photo-layer" aria-hidden="true"></div>
+  <div class="hero-silhouette" aria-hidden="true"></div>
+  <div class="hero-diyas" aria-hidden="true">
+    <span class="diya"></span><span class="diya"></span><span class="diya"></span><span class="diya"></span>
+  </div>
+  <div class="hero-content">
+    <h1 class="hero-brand">TirthaYatra<em>पथं पुण्यस्य — the path of sacred journeys</em></h1>
+    <p class="hero-line">Temple stories, circuits, and darshan-ready guides.</p>
+    <p class="hero-sub">From Jyotirlingas to Ramayana Lanka, Nepal’s Shaiva seats, and Shiva’s Kailasa —<br class="hero-sub-break" /> mythology with maps, photos, and practical gate rules.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#circuits">Explore sacred circuits</a>
+      <a class="btn btn-ghost" href="temples/index.html">Browse temples</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="gallery-home">
+  <div class="section-head reveal">
+    <p class="section-kicker">दृश्य यात्रा · See the path</p>
+    <h2 class="section-title">A collage of tirthas</h2>
+    <p class="section-desc">Tap any frame to open its full guide — India and beyond.</p>
+  </div>
+  {collage}
+</section>
+
+<section class="section" id="circuits">
+  <div class="section-head reveal">
+    <p class="section-kicker">तीर्थ चक्र · Sacred circuits</p>
+    <h2 class="section-title">Begin with a path, not a list</h2>
+    <p class="section-desc">Choose a legendary circuit — then open each temple’s mythology, map, itinerary, and practical gate rules.</p>
+  </div>
+  <div class="circuit-grid">
+    {''.join(tiles)}
+  </div>
+</section>
+
+<section class="section-band">
+  <div class="section">
+    <div class="section-head reveal">
+      <p class="section-kicker">Featured guides</p>
+      <h2 class="section-title">Temples waiting on your yatra</h2>
+      <p class="section-desc">Famous shrines, Tier-2/3 tirthas, and cross-border sacred sites — one clear template everywhere.</p>
+    </div>
+    <div class="temple-list">{''.join(rows)}</div>
+    <p style="margin-top:2rem">
+      <a class="btn btn-primary" href="temples/index.html">See all {len(temples)} temple guides</a>
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="section-kicker">देवता वार · By deity</p>
+    <h2 class="section-title">Shiva, Vishnu, Krishna, Devi &amp; more</h2>
+    <p class="section-desc">Browse temples by the deity at the centre of worship — including the full Krishna trail of Braj, Dwarka, and beyond.</p>
+  </div>
+  <div class="circuit-grid">
+    {''.join(deity_tiles_home(temples))}
+  </div>
+  <p style="margin-top:1.5rem">
+    <a class="btn btn-primary" href="deities/index.html">All deity paths</a>
+  </p>
+</section>
+
+<section class="section section-band">
+  <div class="section">
+    <div class="section-head reveal">
+      <p class="section-kicker">भक्ति पाठ · Devotion</p>
+      <h2 class="section-title">Aarti · Chalisa · Vrat Katha</h2>
+      <p class="section-desc">Home-puja hymns and vow stories for every deity path on TirthaYatra — from Hanuman Chalisa to Shiva Aarti and Navaratri katha.</p>
+    </div>
+    <div class="circuit-grid">
+      <a class="circuit-tile reveal" href="devotion/aarti.html">
+        <p class="circuit-count">Aarti</p>
+        <h3 class="circuit-name">आरती</h3>
+        <p class="circuit-blurb">Lamp hymns for dawn and dusk darshan.</p>
+        <span class="circuit-arrow">Open →</span>
+      </a>
+      <a class="circuit-tile reveal" href="devotion/chalisa.html">
+        <p class="circuit-count">Chalisa</p>
+        <h3 class="circuit-name">चालीसा</h3>
+        <p class="circuit-blurb">Forty-verse praises — Hanuman, Shiva, Devi, and more.</p>
+        <span class="circuit-arrow">Open →</span>
+      </a>
+      <a class="circuit-tile reveal" href="devotion/vrat-katha.html">
+        <p class="circuit-count">Vrat Katha</p>
+        <h3 class="circuit-name">व्रत कथा</h3>
+        <p class="circuit-blurb">Ekadashi, Pradosh, Chaturthi, Navaratri &amp; Mandala stories.</p>
+        <span class="circuit-arrow">Open →</span>
+      </a>
+    </div>
+    <p style="margin-top:1.5rem">
+      <a class="btn btn-primary" href="devotion/index.html">All devotion texts</a>
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="section-kicker">राज्य वार · By state</p>
+    <h2 class="section-title">Explore temples state-wise</h2>
+    <p class="section-desc">From Andhra Pradesh’s <a href="https://www.aptemples.org/en-in/home" target="_blank" rel="noopener noreferrer">AP Temples</a> portal to TN HR&CE, Telangana Endowments, Karnataka HRI&CE, Rajasthan Devasthan, and more — browse guides, then verify on official sites.</p>
+  </div>
+  <div class="circuit-grid">
+    {''.join(state_tiles_home(temples))}
+  </div>
+  <p style="margin-top:1.5rem">
+    <a class="btn btn-primary" href="states/index.html">All states</a>
+  </p>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="section-kicker">Beyond borders</p>
+    <h2 class="section-title">Nepal · Sri Lanka · Kailash</h2>
+    <p class="section-desc">Mythology travels with the epic — Ramayana Lanka, Himalayan Shaiva seats, and the Kailasa parikrama landscape.</p>
+  </div>
+  <div class="temple-list">
+    {''.join(temple_row(t, f"temples/{t['slug']}.html", prefix, "Explore →") for t in international)}
+  </div>
+  <p style="margin-top:1.5rem">
+    <a class="btn btn-ghost" href="circuits/beyond-india.html">Open Beyond India circuit</a>
+  </p>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="section-kicker">Why TirthaYatra</p>
+    <h2 class="section-title">One template. Full pilgrimage clarity.</h2>
+    <p class="section-desc">Photos, Google Maps, mythology, festivals, travel, food, dress code, timings, and official links — so you keep exploring.</p>
+  </div>
+  <div class="fact-grid reveal">
+    <div class="fact"><dt>Mythology</dt><dd>Story, significance, and scripture links across India and neighbouring sacred lands.</dd></div>
+    <div class="fact"><dt>Maps &amp; photos</dt><dd>Licensed imagery and Google Maps pins for clearer trip planning.</dd></div>
+    <div class="fact"><dt>Practical</dt><dd>Dress code, timings, special entry, phone/leather rules, official sites.</dd></div>
+  </div>
+</section>
+{footer(prefix)}
+</body>
+</html>
+"""
+    # Dedicated vivid landing photo when available; else best temple stills
+    hero_path = ROOT / "assets" / "hero-landing.jpg"
+    hero_img = "assets/hero-landing.jpg" if hero_path.exists() else None
+    if not hero_img:
+        for slug in (
+            "meenakshi-madurai",
+            "murudeshwar",
+            "kedarnath",
+            "rameswaram",
+            "jagannath-puri",
+            "tirumala-venkateswara",
+        ):
+            src = img_src(slug, prefix)
+            if src:
+                hero_img = src
+                break
+        if not hero_img and temples:
+            hero_img = img_src(temples[0]["slug"], prefix)
+    if hero_img:
+        body = body.replace(
+            '<div class="hero-photo-layer" aria-hidden="true"></div>',
+            f'<div class="hero-photo-layer" aria-hidden="true" style="background-image:url(\'{e(hero_img)}\')"></div>',
+        )
+
+    return head(
+        "TirthaYatra — Temple & Pilgrimage Guides",
+        "Mythology, photos, maps, and practical darshan guides for temples in India, Nepal, Sri Lanka, and Kailash.",
+        prefix,
+    ) + body
+
+
+def build_temple_index(temples: list) -> str:
+    prefix = "../"
+    ordered = sorted(temples, key=lambda t: t["name"].casefold())
+    rows = [temple_row(t, f"{t['slug']}.html", prefix) for t in ordered]
+    body = f"""
+{nav('temples', prefix)}
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · Temples</p>
+    <h1>All Temple Guides</h1>
+    <p class="lede">India and beyond — standardised pages with photos, maps, mythology, itinerary, and darshan practicals. Listed A–Z; use the search bar above to jump to any temple.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="temple-list">{''.join(rows)}</div>
+</section>
+{footer(prefix)}
+</body>
+</html>
+"""
+    return head("All Temples — TirthaYatra", "Browse all temple pilgrimage guides on TirthaYatra.", prefix) + body
+
+
+def build_circuit_index(circuits: list, temples: list) -> str:
+    prefix = "../"
+    tiles = []
+    for c in circuits:
+        count = sum(1 for t in temples if c["slug"] in t.get("tags", []))
+        tiles.append(
+            f"""
+            <a class="circuit-tile reveal" href="{e(c['slug'])}.html">
+              <p class="circuit-count">{e(c['countLabel'])} · {count} guides</p>
+              <h3 class="circuit-name">{e(c['name'])}</h3>
+              <p class="circuit-blurb">{e(c['blurb'])}</p>
+              <span class="circuit-arrow">Open circuit →</span>
+            </a>
+            """
+        )
+    body = f"""
+{nav('circuits', prefix)}
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · Circuits</p>
+    <h1>Sacred Circuits</h1>
+    <p class="lede">Jyotirlinga, Shakti Peeth, Char Dham, Ramayana trails, and Beyond India — explore by legendary path.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="circuit-grid">{''.join(tiles)}</div>
+</section>
+{footer(prefix)}
+</body>
+</html>
+"""
+    return head("Sacred Circuits — TirthaYatra", "Explore temple circuits and pilgrimage tags.", prefix) + body
+
+
+def deity_tiles_home(temples: list) -> list[str]:
+    order = ["shiva", "vishnu", "krishna", "devi", "ganesha", "rama", "hanuman", "ayyappa"]
+    tiles = []
+    for fam in order:
+        meta = DEITIES.get(fam)
+        if not meta:
+            continue
+        count = sum(1 for t in temples if fam in (t.get("deityFamilies") or []))
+        if count == 0:
+            continue
+        tiles.append(
+            f"""
+            <a class="circuit-tile reveal" href="deities/{e(fam)}.html">
+              <p class="circuit-count">{count} temples</p>
+              <h3 class="circuit-name">{e(meta['nameHi'])}</h3>
+              <p class="circuit-blurb">{e(meta['name'])} · {e(meta['blurb'][:90])}{'…' if len(meta['blurb']) > 90 else ''}</p>
+              <span class="circuit-arrow">Open deity path →</span>
+            </a>
+            """
+        )
+    return tiles
+
+
+def build_deities_index(temples: list) -> str:
+    prefix = "../"
+    order = ["shiva", "vishnu", "krishna", "devi", "ganesha", "rama", "hanuman", "ayyappa"]
+    tiles = []
+    for fam in order:
+        meta = DEITIES.get(fam)
+        if not meta:
+            continue
+        members = [t for t in temples if fam in (t.get("deityFamilies") or [])]
+        if not members:
+            continue
+        tiles.append(
+            f"""
+            <a class="circuit-tile reveal" href="{e(fam)}.html">
+              <p class="circuit-count">{len(members)} temple guides</p>
+              <h3 class="circuit-name">{e(meta['nameHi'])} · {e(meta['name'])}</h3>
+              <p class="circuit-blurb">{e(meta['blurb'])}</p>
+              <span class="circuit-arrow">Browse →</span>
+            </a>
+            """
+        )
+    body = f"""
+{nav('deities', prefix)}
+<section class="page-head">
+  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · Deities</p>
+  <h1>Temples by Deity</h1>
+  <p class="lede">Find Shiva, Vishnu, Krishna, Devi, Ganesha, Rama, Hanuman, and Ayyappa temples in one place. A shrine may appear under more than one path when the complex is shared.</p>
+</section>
+<section class="section">
+  <div class="circuit-grid">{''.join(tiles)}</div>
+</section>
+{footer(prefix)}
+</body>
+</html>
+"""
+    return head(
+        "Temples by Deity — TirthaYatra",
+        "Browse Indian and related temples grouped by deity — Shiva, Vishnu, Krishna, Devi, and more.",
+        prefix,
+    ) + body
+
+
+def devotion_items() -> list:
+    return list(DEVOTION.get("items") or [])
+
+
+def devotion_item_row(item: dict, prefix: str) -> str:
+    dtype = DEVOTION.get("types", {}).get(item["type"], {})
+    deity = DEITIES.get(item.get("deity", ""), {})
+    type_label = dtype.get("nameHi") or dtype.get("name") or item["type"]
+    deity_label = deity.get("nameHi") or deity.get("name") or item.get("deity", "")
+    glyph = (deity.get("nameHi") or "ॐ")[:1]
+    audio_tag = ""
+    if item.get("audioUrl") or item.get("audioWatchUrl"):
+        if item.get("type") == "vrat-katha":
+            audio_tag = '<span class="tag tag-audio">Video</span>'
+        elif item.get("type") in ("aarti", "chalisa"):
+            audio_tag = '<span class="tag tag-audio">Audio</span>'
+    return f"""
+    <a class="temple-row reveal" href="{prefix}devotion/{e(item['slug'])}.html">
+      <div class="temple-mark" aria-hidden="true">{e(glyph)}</div>
+      <div class="temple-row-body">
+        <h3>{e(item['titleHi'])}</h3>
+        <p class="temple-row-meta">{e(item['title'])} · {e(deity_label)}</p>
+        <p class="temple-row-summary">{e(item.get('summary', ''))}</p>
+        <div class="temple-tags">
+          <span class="tag">{e(type_label)}</span>
+          <span class="tag">{e(deity_label)}</span>
+          {audio_tag}
+        </div>
+      </div>
+      <span class="temple-row-cta">Open →</span>
+    </a>
+    """
+
+
+def build_devotion_index() -> str:
+    prefix = "../"
+    sec = DEVOTION.get("section", {})
+    types = DEVOTION.get("types", {})
+    items = devotion_items()
+    type_tiles = []
+    for key in ("aarti", "chalisa", "vrat-katha"):
+        meta = types.get(key, {})
+        count = sum(1 for i in items if i.get("type") == key)
+        type_tiles.append(
+            f"""
+            <a class="circuit-tile reveal" href="{e(key)}.html">
+              <p class="circuit-count">{count} texts</p>
+              <h3 class="circuit-name">{e(meta.get('nameHi', key))} · {e(meta.get('name', key))}</h3>
+              <p class="circuit-blurb">{e(meta.get('blurb', ''))}</p>
+              <span class="circuit-arrow">Browse →</span>
+            </a>
+            """
+        )
+    deity_tiles = []
+    for fam, meta in DEITIES.items():
+        count = sum(1 for i in items if i.get("deity") == fam)
+        if not count:
+            continue
+        deity_tiles.append(
+            f"""
+            <a class="circuit-tile reveal" href="deity-{e(fam)}.html">
+              <p class="circuit-count">{count} texts</p>
+              <h3 class="circuit-name">{e(meta['nameHi'])}</h3>
+              <p class="circuit-blurb">{e(meta['name'])} — aarti, chalisa &amp; vrat katha</p>
+              <span class="circuit-arrow">Open →</span>
+            </a>
+            """
+        )
+    rows = [devotion_item_row(i, prefix) for i in items]
+    body = f"""
+{nav('devotion', prefix)}
+<section class="page-head">
+  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · Devotion</p>
+  <p class="section-kicker" style="margin-bottom:0.5rem">{e(sec.get('sanskrit', ''))}</p>
+  <h1>{e(sec.get('nameHi', 'भक्ति पाठ'))} · {e(sec.get('name', 'Devotion'))}</h1>
+  <p class="lede">{e(sec.get('lede', ''))}</p>
+</section>
+<section class="section">
+  <div class="section-head">
+    <p class="section-kicker">By type</p>
+    <h2 class="section-title">Aarti · Chalisa · Vrat Katha</h2>
+  </div>
+  <div class="circuit-grid">{''.join(type_tiles)}</div>
+</section>
+<section class="section">
+  <div class="section-head">
+    <p class="section-kicker">By deity</p>
+    <h2 class="section-title">Choose your Ishta Devata</h2>
+  </div>
+  <div class="circuit-grid">{''.join(deity_tiles)}</div>
+</section>
+<section class="section">
+  <div class="section-head">
+    <p class="section-kicker">All texts</p>
+    <h2 class="section-title">{len(items)} devotion guides</h2>
+  </div>
+  <div class="temple-list">{''.join(rows)}</div>
+  <aside class="belief-disclaimer">
+    <strong>Note:</strong> {e(sec.get('disclaimer', ''))}
+  </aside>
+</section>
+{footer(prefix)}
+</body>
+</html>
+"""
+    return head(
+        "Aarti, Chalisa & Vrat Katha — TirthaYatra",
+        sec.get("blurb", "Devotional hymns and vow stories"),
+        prefix,
+    ) + body
+
+
+def build_devotion_type_page(type_key: str) -> str:
+    prefix = "../"
+    meta = DEVOTION["types"][type_key]
+    items = [i for i in devotion_items() if i.get("type") == type_key]
+    rows = [devotion_item_row(i, prefix) for i in items]
+    body = f"""
+{nav('devotion', prefix)}
+<section class="page-head">
+  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}devotion/index.html">Devotion</a> · {e(meta['name'])}</p>
+  <h1>{e(meta['nameHi'])} · {e(meta['name'])} — {len(items)}</h1>
+  <p class="lede">{e(meta.get('lede', ''))}</p>
+</section>
+<section class="section">
+  <div class="temple-list">{''.join(rows)}</div>
+</section>
+{footer(prefix)}
+</body>
+</html>
+"""
+    return head(f"{meta['name']} — TirthaYatra", meta.get("blurb", ""), prefix) + body
+
+
+def build_devotion_deity_page(fam: str) -> str:
+    prefix = "../"
+    meta = DEITIES[fam]
+    items = [i for i in devotion_items() if i.get("deity") == fam]
+    rows = [devotion_item_row(i, prefix) for i in items]
+    body = f"""
+{nav('devotion', prefix)}
+<section class="page-head">
+  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}devotion/index.html">Devotion</a> · {e(meta['name'])}</p>
+  <p class="section-kicker" style="margin-bottom:0.5rem">{e(meta.get('sanskrit', ''))}</p>
+  <h1>{e(meta['nameHi'])} — Aarti, Chalisa &amp; Vrat Katha</h1>
+  <p class="lede">Devotional texts for {e(meta['name'])}. Also explore <a href="{prefix}deities/{e(fam)}.html">{e(meta['name'])} temples</a>.</p>
+</section>
+<section class="section">
+  <div class="temple-list">{''.join(rows)}</div>
+</section>
+{footer(prefix)}
+</body>
+</html>
+"""
+    return head(
+        f"{meta['name']} Aarti & Chalisa — TirthaYatra",
+        f"Aarti, Chalisa and Vrat Katha for {meta['name']}",
+        prefix,
+    ) + body
+
+
+def devotion_audio_block(item: dict) -> str:
+    """YouTube listen/watch player / link for aarti, chalisa & vrat-katha pages."""
+    if item.get("type") not in ("aarti", "chalisa", "vrat-katha"):
+        return ""
+    audio_url = (item.get("audioUrl") or "").strip()
+    watch_url = (item.get("audioWatchUrl") or audio_url).strip()
+    if not audio_url and not watch_url:
+        return ""
+    is_vrat = item.get("type") == "vrat-katha"
+    label = item.get("audioLabel") or (
+        "Watch on YouTube" if is_vrat else "Listen on YouTube"
+    )
+    note = item.get("audioNote") or (
+        "Popular YouTube recording for watching or listening along. "
+        "TirthaYatra does not host the media file."
+        if is_vrat
+        else "Popular YouTube recording for listening along. "
+        "TirthaYatra does not host the audio file."
+    )
+    player = ""
+    if "youtube.com/embed/" in audio_url:
+        player = f"""
+    <div class="video-embed devotion-audio-embed">
+      <iframe src="{e(audio_url)}" title="{e(item.get('title', 'Devotion'))} {'video' if is_vrat else 'audio'}"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen loading="lazy"></iframe>
+    </div>"""
+    link_href = watch_url or audio_url
+    heading = "सुनें · Watch / Listen" if is_vrat else "सुनें · Listen"
+    btn = "Open video on YouTube ↗" if is_vrat else "Open audio on YouTube ↗"
+    return f"""
+    <div class="devotion-audio">
+      <h2>{heading}</h2>
+      <p class="devotion-audio-label">{e(label)}</p>
+      {player}
+      <p class="devotion-audio-actions">
+        <a class="btn btn-primary" href="{e(link_href)}" target="_blank" rel="noopener noreferrer">{btn}</a>
+      </p>
+      <p class="devotion-audio-note">{e(note)}</p>
+    </div>
+    """
+
+
+def build_devotion_item(item: dict) -> str:
+    prefix = "../"
+    dtype = DEVOTION.get("types", {}).get(item["type"], {})
+    deity = DEITIES.get(item.get("deity", ""), {})
+    verses = "".join(
+        f'<div class="devotion-verse"><p>{e(v).replace(chr(10), "<br />")}</p></div>'
+        for v in item.get("verses", [])
+    )
+    temples = []
+    for slug in item.get("relatedTemples") or []:
+        path = DATA / "temples" / f"{slug}.json"
+        if path.exists():
+            t = load_json(path)
+            temples.append(
+                f'<a class="tag" href="{prefix}temples/{e(slug)}.html">{e(t["name"])}</a>'
+            )
+    temple_block = (
+        f'<p class="devotion-related"><strong>Related temples:</strong> {"".join(temples)}</p>'
+        if temples
+        else ""
+    )
+    audio_block = devotion_audio_block(item)
+    body = f"""
+{nav('devotion', prefix)}
+<section class="page-head">
+  <p class="breadcrumb">
+    <a href="{prefix}index.html">Home</a> ·
+    <a href="{prefix}devotion/index.html">Devotion</a> ·
+    <a href="{prefix}devotion/{e(item['type'])}.html">{e(dtype.get('name', item['type']))}</a>
+  </p>
+  <p class="section-kicker" style="margin-bottom:0.5rem">{e(dtype.get('nameHi', ''))} · {e(deity.get('nameHi', ''))}</p>
+  <h1>{e(item['titleHi'])}</h1>
+  <p class="lede">{e(item['title'])}</p>
+</section>
+<section class="section devotion-section">
+  <article class="devotion-article">
+    <div class="fact-grid">
+      <div class="fact"><dt>Deity</dt><dd><a href="{prefix}devotion/deity-{e(item['deity'])}.html">{e(deity.get('name', item['deity']))}</a></dd></div>
+      <div class="fact"><dt>Tradition / author</dt><dd>{e(item.get('author', 'Traditional'))}</dd></div>
+      <div class="fact"><dt>When to recite</dt><dd>{e(item.get('when', ''))}</dd></div>
+    </div>
+    <p class="devotion-summary">{e(item.get('summary', ''))}</p>
+    {audio_block}
+    <h2>पाठ · Text</h2>
+    <div class="devotion-verses">{verses}</div>
+    <h2>Meaning</h2>
+    <p class="devotion-meaning">{e(item.get('meaning', ''))}</p>
+    {temple_block}
+    <aside class="belief-disclaimer">
+      <strong>Note:</strong>
+      {e(DEVOTION.get('section', {}).get('disclaimer', ''))}
+    </aside>
+    <p class="devotion-actions">
+      <a class="btn btn-ghost" href="{prefix}devotion/{e(item['type'])}.html">More {e(dtype.get('name', 'texts'))}</a>
+      <a class="btn btn-ghost" href="{prefix}deities/{e(item['deity'])}.html">{e(deity.get('name', 'Deity'))} temples</a>
+    </p>
+  </article>
+</section>
+{footer(prefix)}
+</body>
+</html>
+"""
+    return head(
+        f"{item['title']} — TirthaYatra",
+        item.get("summary", item["title"]),
+        prefix,
+    ) + body
+
+
+def build_deity_page(fam: str, temples: list) -> str:
+    prefix = "../"
+    meta = DEITIES[fam]
+    members = sorted(
+        [t for t in temples if fam in (t.get("deityFamilies") or [])],
+        key=lambda t: t["name"],
+    )
+    rows = [
+        temple_row(t, f"{prefix}temples/{t['slug']}.html", prefix, "Open guide →")
+        for t in members
+    ]
+    dev_items = [i for i in devotion_items() if i.get("deity") == fam]
+    dev_block = ""
+    if dev_items:
+        links = "".join(
+            f'<a class="tag" href="{prefix}devotion/{e(i["slug"])}.html">{e(i["titleHi"])}</a>'
+            for i in dev_items
+        )
+        dev_block = f"""
+        <section class="section">
+          <div class="section-head">
+            <p class="section-kicker">भक्ति पाठ</p>
+            <h2 class="section-title">Aarti · Chalisa · Vrat Katha</h2>
+            <p class="section-desc">Recite at home or after darshan — <a href="{prefix}devotion/deity-{e(fam)}.html">all {e(meta['name'])} devotion texts</a>.</p>
+          </div>
+          <div class="temple-tags" style="justify-content:flex-start;flex-wrap:wrap;gap:0.5rem">{links}</div>
+        </section>
+        """
+    body = f"""
+{nav('deities', prefix)}
+<section class="page-head">
+  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}deities/index.html">Deities</a> · {e(meta['name'])}</p>
+  <p class="section-kicker" style="margin-bottom:0.5rem">{e(meta.get('sanskrit', ''))}</p>
+  <h1>{e(meta['nameHi'])} · {e(meta['name'])} — {len(members)} guides</h1>
+  <p class="lede">{e(meta['lede'])}</p>
+</section>
+{dev_block}
+<section class="section">
+  <div class="temple-list">{''.join(rows)}</div>
+</section>
+{footer(prefix)}
+</body>
+</html>
+"""
+    return head(
+        f"{meta['name']} Temples — TirthaYatra",
+        meta["blurb"],
+        prefix,
+    ) + body
+
+
+def state_tiles_home(temples: list, limit: int = 8) -> list[str]:
+    india = [t for t in temples if t.get("country", "India") == "India" and t.get("state")]
+    by_state: dict[str, int] = {}
+    for t in india:
+        by_state[t["state"]] = by_state.get(t["state"], 0) + 1
+    top = sorted(by_state.items(), key=lambda kv: (-kv[1], kv[0]))[:limit]
+    tiles = []
+    for state, count in top:
+        portal = STATE_PORTALS.get(state, {})
+        blurb = portal.get("portalName", "State temple guides")
+        tiles.append(
+            f"""
+            <a class="circuit-tile reveal" href="states/{e(state_slug(state))}.html">
+              <p class="circuit-count">{count} temples</p>
+              <h3 class="circuit-name">{e(state)}</h3>
+              <p class="circuit-blurb">{e(blurb)}</p>
+              <span class="circuit-arrow">Open state →</span>
+            </a>
+            """
+        )
+    return tiles
+
+
+def state_portal_html(t: dict, prefix: str) -> str:
+    portal = t.get("statePortal") or STATE_PORTALS.get(t.get("state", ""), {})
+    if not portal:
+        return ""
+    name = portal.get("name") or portal.get("portalName", "State portal")
+    url = portal.get("url") or portal.get("portalUrl", "#")
+    st = t.get("state", "")
+    browse = (
+        f'<p style="margin-top:0.75rem"><a class="tag" href="{prefix}states/{e(state_slug(st))}.html">More temples in {e(st)}</a></p>'
+        if st
+        else ""
+    )
+    return f"""
+    <p class="official-link" style="display:block;margin-top:0.75rem">
+      State / board reference:
+      <a href="{e(url)}" target="_blank" rel="noopener noreferrer">{e(name)} ↗</a>
+    </p>
+    {browse}
+    """
+
+
+def build_states_index(temples: list) -> str:
+    prefix = "../"
+    india = [t for t in temples if t.get("country", "India") == "India" and t.get("state")]
+    by_state: dict[str, list] = {}
+    for t in india:
+        by_state.setdefault(t["state"], []).append(t)
+    tiles = []
+    for state in sorted(by_state, key=lambda s: (-len(by_state[s]), s)):
+        portal = STATE_PORTALS.get(state, {})
+        portal_line = ""
+        if portal:
+            portal_line = f'<p class="circuit-blurb">Official ref: {e(portal.get("portalName", ""))}</p>'
+        tiles.append(
+            f"""
+            <a class="circuit-tile reveal" href="{e(state_slug(state))}.html">
+              <p class="circuit-count">{len(by_state[state])} temples on TirthaYatra</p>
+              <h3 class="circuit-name">{e(state)}</h3>
+              {portal_line}
+              <span class="circuit-arrow">Browse state →</span>
+            </a>
+            """
+        )
+    body = f"""
+{nav('states', prefix)}
+<section class="page-head">
+  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · States</p>
+  <h1>Temples by State</h1>
+  <p class="lede">Browse Indian temples state-wise. Each state page links to official government / Devasthan / HRCE portals for verification.</p>
+</section>
+<section class="section">
+  <div class="circuit-grid">{''.join(tiles)}</div>
+</section>
+{footer(prefix)}
+</body>
+</html>
+"""
+    return head("Temples by State — TirthaYatra", "Browse Indian temples grouped by state with official portal references.", prefix) + body
+
+
+def build_state_page(state: str, temples: list) -> str:
+    prefix = "../"
+    members = sorted(
+        [t for t in temples if t.get("state") == state and t.get("country", "India") == "India"],
+        key=lambda t: t["name"],
+    )
+    portal = STATE_PORTALS.get(state, {})
+    portal_block = ""
+    if portal:
+        also = "".join(
+            f'<li><a href="{e(a["url"])}" target="_blank" rel="noopener noreferrer">{e(a["name"])} ↗</a></li>'
+            for a in portal.get("also", [])
+        )
+        also_html = f"<ul>{also}</ul>" if also else ""
+        portal_block = f"""
+        <section class="official-refs" aria-label="Official portals">
+          <div class="section-head">
+            <p class="section-kicker">Verify before you travel</p>
+            <h2 class="section-title">Official sites &amp; tourism links</h2>
+            <p class="section-desc">Use these government / trust portals for current darshan rules, tickets, and notices.</p>
+          </div>
+          <div class="fact-grid">
+            <div class="fact">
+              <dt>Official state / board portal</dt>
+              <dd><a href="{e(portal['portalUrl'])}" target="_blank" rel="noopener noreferrer">{e(portal['portalName'])} ↗</a></dd>
+            </div>
+            <div class="fact">
+              <dt>Note</dt>
+              <dd>{e(portal.get('note', 'Verify darshan details on official channels.'))}</dd>
+            </div>
+          </div>
+          {also_html}
+        </section>
+        """
+    rows = [
+        temple_row(t, f"{prefix}temples/{t['slug']}.html", prefix, "Open guide →")
+        for t in members
+    ]
+    body = f"""
+{nav('states', prefix)}
+<section class="page-head">
+  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}states/index.html">States</a> · {e(state)}</p>
+  <h1>{e(state)} - {len(members)} guides</h1>
+</section>
+<section class="section">
+  <div class="temple-list">{''.join(rows)}</div>
+</section>
+<section class="section section-band">
+  {portal_block if portal_block else '<p class="section-desc">Official portal links will appear here when available for this state.</p>'}
+</section>
+{footer(prefix)}
+</body>
+</html>
+"""
+    return head(f"{state} Temples — TirthaYatra", f"Temple pilgrimage guides in {state}", prefix) + body
+
+
+def build_legal(slug: str, title: str, blocks: list) -> str:
+    prefix = "../"
+    parts = [f"<h1>{e(title)}</h1>"]
+    for h, paras in blocks:
+        parts.append(f"<h2>{e(h)}</h2>")
+        for p in paras:
+            parts.append(f"<p>{p}</p>")
+    body = f"""
+{nav('about' if slug == 'about' else '', prefix)}
+<main class="prose">
+{''.join(parts)}
+</main>
+{footer(prefix)}
+</body>
+</html>
+"""
+    return head(f"{title} — TirthaYatra", title, prefix) + body
+
+
+def main() -> None:
+    global MEDIA, GROUPS, STATE_PORTALS, DEITIES, DEVOTION
+    OUT_TEMPLES.mkdir(parents=True, exist_ok=True)
+    OUT_CIRCUITS.mkdir(parents=True, exist_ok=True)
+    OUT_PAGES.mkdir(parents=True, exist_ok=True)
+    OUT_STATES.mkdir(parents=True, exist_ok=True)
+    OUT_DEITIES.mkdir(parents=True, exist_ok=True)
+    OUT_DEVOTION.mkdir(parents=True, exist_ok=True)
+
+    media_path = DATA / "media.json"
+    MEDIA = load_json(media_path) if media_path.exists() else {}
+    groups_path = DATA / "groups.json"
+    GROUPS = load_json(groups_path) if groups_path.exists() else {}
+    portals_path = DATA / "state-portals.json"
+    STATE_PORTALS = load_json(portals_path) if portals_path.exists() else {}
+    deities_path = DATA / "deities.json"
+    DEITIES = load_json(deities_path) if deities_path.exists() else {}
+    devotion_path = DATA / "devotion.json"
+    DEVOTION = load_json(devotion_path) if devotion_path.exists() else {}
+
+    circuits = load_json(DATA / "circuits.json")
+    index = load_json(DATA / "temples.json")
+    validate_fixed_groups(index)
+    circuits_by_slug = {c["slug"]: c for c in circuits}
+
+    detailed = []
+    for meta in index:
+        path = DATA / "temples" / f"{meta['slug']}.json"
+        if not path.exists():
+            raise SystemExit(f"Missing detail file: {path}")
+        detail = load_json(path)
+        detail.setdefault("tier", meta.get("tier", ""))
+        detail.setdefault("country", meta.get("country", "India"))
+        detailed.append(detail)
+
+    # Lightweight search index for client-side temple + devotion search
+    search_index = [
+        {
+            "slug": t["slug"],
+            "name": t["name"],
+            "location": t.get("location", ""),
+            "state": t.get("state", ""),
+            "country": t.get("country", "India"),
+            "famousFor": t.get("famousFor", ""),
+            "tags": t.get("tagLabels", []),
+            "deities": [
+                DEITIES[f]["name"]
+                for f in t.get("deityFamilies", [])
+                if f in DEITIES
+            ],
+            "href": f"temples/{t['slug']}.html",
+        }
+        for t in index
+    ]
+    for item in devotion_items():
+        deity = DEITIES.get(item.get("deity", {}), {})
+        dtype = DEVOTION.get("types", {}).get(item.get("type", ""), {})
+        search_index.append(
+            {
+                "slug": item["slug"],
+                "name": f"{item.get('titleHi', '')} {item.get('title', '')}".strip(),
+                "location": "",
+                "state": "",
+                "country": "India",
+                "famousFor": item.get("summary", ""),
+                "tags": [dtype.get("name", ""), deity.get("name", "")],
+                "deities": [deity.get("name", "")] if deity else [],
+                "href": f"devotion/{item['slug']}.html",
+            }
+        )
+    (DATA / "search-index.json").write_text(
+        json.dumps(search_index, ensure_ascii=False), encoding="utf-8"
+    )
+
+    (ROOT / "index.html").write_text(build_home(circuits, index), encoding="utf-8")
+    (OUT_TEMPLES / "index.html").write_text(build_temple_index(index), encoding="utf-8")
+    (OUT_CIRCUITS / "index.html").write_text(
+        build_circuit_index(circuits, index), encoding="utf-8"
+    )
+    (OUT_STATES / "index.html").write_text(build_states_index(index), encoding="utf-8")
+    (OUT_DEITIES / "index.html").write_text(build_deities_index(index), encoding="utf-8")
+
+    if DEVOTION:
+        (OUT_DEVOTION / "index.html").write_text(build_devotion_index(), encoding="utf-8")
+        for type_key in DEVOTION.get("types", {}):
+            (OUT_DEVOTION / f"{type_key}.html").write_text(
+                build_devotion_type_page(type_key), encoding="utf-8"
+            )
+        for fam in DEITIES:
+            if any(i.get("deity") == fam for i in devotion_items()):
+                (OUT_DEVOTION / f"deity-{fam}.html").write_text(
+                    build_devotion_deity_page(fam), encoding="utf-8"
+                )
+        for item in devotion_items():
+            (OUT_DEVOTION / f"{item['slug']}.html").write_text(
+                build_devotion_item(item), encoding="utf-8"
+            )
+
+    for c in circuits:
+        (OUT_CIRCUITS / f"{c['slug']}.html").write_text(
+            build_circuit(c, index), encoding="utf-8"
+        )
+
+    india_states = sorted(
+        {
+            t["state"]
+            for t in index
+            if t.get("country", "India") == "India" and t.get("state")
+        }
+    )
+    for state in india_states:
+        (OUT_STATES / f"{state_slug(state)}.html").write_text(
+            build_state_page(state, index), encoding="utf-8"
+        )
+
+    for fam in DEITIES:
+        members = [t for t in index if fam in (t.get("deityFamilies") or [])]
+        if members:
+            (OUT_DEITIES / f"{fam}.html").write_text(
+                build_deity_page(fam, index), encoding="utf-8"
+            )
+
+    for t in detailed:
+        (OUT_TEMPLES / f"{t['slug']}.html").write_text(
+            build_temple(t, index, circuits_by_slug), encoding="utf-8"
+        )
+
+    pages = {
+        "about": (
+            "About TirthaYatra",
+            [
+                (
+                    "Our purpose",
+                    [
+                        "TirthaYatra is an independent informational guide to temples and pilgrimage circuits across India and related sacred sites in Nepal, Sri Lanka, and the Kailash region.",
+                        "We help travellers understand mythology, see the place (licensed photos), find it on the map, and arrive prepared with dress codes, darshan timings, and official links.",
+                    ],
+                ),
+                (
+                    "Images",
+                    [
+                        "Temple photographs are sourced from Wikimedia Commons under their stated free licenses (Public Domain / Creative Commons). Each page credits the photographer and license. We do not scrape photos from government temple portals (for example AP Temples, TN HR&CE) because those sites typically retain copyright — we link them for official details instead.",
+                    ],
+                ),
+                (
+                    "Official state portals",
+                    [
+                        'We reference government and Devasthan portals such as <a href="https://www.aptemples.org/en-in/home" target="_blank" rel="noopener noreferrer">AP Temples</a>, TN HR&CE, Telangana Endowments, Karnataka HRI&CE, Rajasthan Devasthan, and temple trusts. TirthaYatra remains independent and unaffiliated.',
+                    ],
+                ),
+                (
+                    "Editorial standards",
+                    [
+                        "We aim for respectful, non-sectarian language. Practical details can change — always reconfirm on official websites before travel. TirthaYatra is not affiliated with any temple trust.",
+                    ],
+                ),
+            ],
+        ),
+        "contact": (
+            "Contact",
+            [
+                (
+                    "Reach us",
+                    [
+                        'For corrections, image credit updates, or to suggest a temple: <a href="mailto:TirthaYatraOnline@gmail.com">TirthaYatraOnline@gmail.com</a>.',
+                    ],
+                ),
+            ],
+        ),
+        "privacy": (
+            "Privacy Policy",
+            [
+                (
+                    "Information we collect",
+                    [
+                        "TirthaYatra is primarily a static informational website. Optional comments may be stored locally in your browser.",
+                        "Embedded Google Maps may set cookies according to Google’s policies. When we enable AdSense or analytics, those services may also use cookies.",
+                    ],
+                ),
+                (
+                    "Advertising",
+                    [
+                        "If ads are shown via Google AdSense, Google may use advertising cookies. We do not collect affirmative information about your religious beliefs for advertising purposes.",
+                    ],
+                ),
+                (
+                    "Contact",
+                    [
+                        'Privacy questions: <a href="mailto:TirthaYatraOnline@gmail.com">TirthaYatraOnline@gmail.com</a>.',
+                    ],
+                ),
+            ],
+        ),
+        "disclaimer": (
+            "Disclaimer",
+            [
+                (
+                    "Not official advice",
+                    [
+                        "Temple timings, dress codes, permits (especially Kailash / Mustang), and road status change frequently. Content is general information only.",
+                        "Always verify on official trust, tourism, or authorised operator channels before travel.",
+                    ],
+                ),
+                (
+                    "Maps &amp; photos",
+                    [
+                        "Map pins are approximate. Photos are illustrative and credited to Wikimedia Commons contributors.",
+                    ],
+                ),
+            ],
+        ),
+        "terms": (
+            "Terms of Use",
+            [
+                (
+                    "Acceptance",
+                    [
+                        "By using TirthaYatra you agree to use the content for lawful, respectful purposes.",
+                    ],
+                ),
+                (
+                    "Content &amp; images",
+                    [
+                        "Text is for personal learning unless noted. Wikimedia images remain under their original licenses; temple names and logos belong to their trusts.",
+                    ],
+                ),
+            ],
+        ),
+    }
+
+    for slug, (title, blocks) in pages.items():
+        (OUT_PAGES / f"{slug}.html").write_text(
+            build_legal(slug, title, blocks), encoding="utf-8"
+        )
+
+    print(
+        f"Built {len(detailed)} temples, {len(circuits)} circuits, {len(MEDIA)} images wired."
+    )
+
+
+if __name__ == "__main__":
+    main()

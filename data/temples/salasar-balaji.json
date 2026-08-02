@@ -1,0 +1,79 @@
+{
+  "slug": "salasar-balaji",
+  "name": "Salasar Balaji Temple",
+  "deity": "Lord Hanuman (Salasar Balaji)",
+  "location": "Salasar, Churu, Rajasthan",
+  "state": "Rajasthan",
+  "country": "India",
+  "glyph": "स",
+  "tags": [
+    "ramayana-trail"
+  ],
+  "tagLabels": [
+    "Ramayana Trail"
+  ],
+  "summary": "Salasar Balaji — major Hanuman shrine of Rajasthan’s Shekhawati pilgrimage belt.",
+  "famousFor": "Rajasthan Hanuman pilgrimage",
+  "mythology": "Salasar Balaji is a major Hanuman pilgrimage of Rajasthan. Regional tradition narrates the self-manifestation of the Hanuman image and the spread of Balaji devotion through Shekhawati villages — situating the shrine in the wider Ramayana-linked Hanuman theology of North India.",
+  "scriptureLinks": [
+    "Ramayana Hanuman devotion",
+    "Rajasthan folk-Hanuman sthala lore",
+    "Shekhawati pilgrimage tradition",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Major local festival days",
+    "Navaratri / Shiva-related observances as applicable"
+  ],
+  "bestTime": "October–March for most plains sites; confirm Himalayan seasonal windows separately.",
+  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Varies by region — check seasonal weather before travel.",
+  "nearestRail": "Sujangarh / Jaipur",
+  "nearestAirport": "Jaipur",
+  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
+  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
+  "otherFood": "Wider options usually in the nearest city.",
+  "localLanguage": "Regional language and Hindi; English varies.",
+  "dressCode": "Modest clothing; follow temple boards for traditional dress rules.",
+  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "specialEntry": "Special entry, if any, only via official temple counters.",
+  "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
+  "lockers": "Cloakrooms where available near the entrance.",
+  "officialWebsite": "https://devasthan.rajasthan.gov.in/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Salasar+Balaji+Temple+temple",
+  "videoNote": "Orientation videos only — verify timings on official sources.",
+  "lat": 27.727,
+  "lng": 74.717,
+  "mapQuery": "Salasar Balaji Temple",
+  "nearby": [],
+  "packages": [
+    "Salasar Balaji Temple day darshan",
+    "Regional multi-temple circuit"
+  ],
+  "sources": [
+    "Devasthan Department, Rajasthan: https://devasthan.rajasthan.gov.in/",
+    "Temple trust / local administration notices",
+    "State tourism materials",
+    "Puranic / pilgrimage tradition (lists can vary by scripture)"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
+  "statePortal": {
+    "name": "Devasthan Department, Rajasthan",
+    "url": "https://devasthan.rajasthan.gov.in/",
+    "slug": "rajasthan"
+  },
+  "mythologySignificance": "Salasar Balaji is a major Hanuman pilgrimage of Rajasthan. Regional tradition narrates the self-manifestation of the Hanuman image and the spread of Balaji devotion through Shekhawati villages — situating the shrine in the wider Ramayana-linked Hanuman theology of North India.\n\nPilgrimage literature treats Salasar Balaji Temple as a tirtha — a crossing where devotion to Lord Hanuman (Salasar Balaji) is believed to bear fruit more readily than in ordinary space. Accounts summarised here follow widely cited epic, Puranic, and regional mahatmya traditions; temple priests remain the guides for ritual detail.",
+  "localBeliefs": "Tuesday and Saturday crowds believe Balaji fulfils vows swiftly. Offerings of chola, ladoo, and flags mark completed mannat (vows).\n\nThe temple town’s growth is itself narrated by locals as Hanuman’s living grace in the desert belt.\n\nFirst-time visitors often hear several versions of the same story from pandas, taxi guides, and elderly pilgrims — a reminder that local belief is living conversation, not a single fixed text.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "जय हनुमान ज्ञान गुण सागर",
+    "meaning": "Victory to Hanuman, ocean of wisdom and virtue",
+    "source": "Opening of the Hanuman Chalisa — sung widely at Salasar"
+  },
+  "deityFamilies": [
+    "hanuman",
+    "rama",
+    "vishnu"
+  ]
+}

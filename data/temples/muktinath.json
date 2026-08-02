@@ -1,0 +1,89 @@
+{
+  "slug": "muktinath",
+  "name": "Muktinath Temple",
+  "deity": "Lord Vishnu (Muktinath) / Shiva-Shakti traditions",
+  "location": "Mustang District, Nepal",
+  "state": "Gandaki Province",
+  "country": "Nepal",
+  "glyph": "मु",
+  "tags": [
+    "51-shakti-peeth",
+    "beyond-india"
+  ],
+  "tagLabels": [
+    "51 Shakti Peeth",
+    "Beyond India"
+  ],
+  "summary": "A high Himalayan tirtha sacred to both Hindus and Buddhists — linked to liberation (mukti) and often woven into Nepal–India pilgrimage circuits.",
+  "famousFor": "108 water spouts & dual faith shrine",
+  "mythology": "Muktinath in Mustang is a high Himalayan tirtha of liberation (mukti), sacred to both Hindus and Buddhists. In Shakti Peetha enumerations it is also remembered as the Gandaki peetha. Vaishnava and Himalayan Buddhist geographies meet here.",
+  "scriptureLinks": [
+    "Vaishnava mukti-tirtha tradition",
+    "Shakti Peetha (Gandaki) lists",
+    "Himalayan Buddhist sacred geography",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Janai Purnima / regional fairs",
+    "Local Mustang festival calendar"
+  ],
+  "bestTime": "March–May and September–November. Winter access can be harsh; monsoon landslides possible.",
+  "whatToCarry": "Warm layers, altitude awareness, permits as required for Mustang, water, ID/passport.",
+  "climate": "High-altitude cold desert influence; strong sun, cold nights.",
+  "nearestRail": "No rail; approach via Pokhara then road/flight toward Jomsom.",
+  "nearestAirport": "Jomsom (weather-dependent) or Pokhara as main gateway.",
+  "accommodation": "Teahouses and lodges in Ranipauwa / Muktinath area; book in peak trekking seasons.",
+  "localFood": "Dal-bhat, Tibetan-influenced vegetarian meals, tea-house food.",
+  "otherFood": "Limited; stick to busy kitchens at altitude.",
+  "localLanguage": "Nepali, Tibetan dialects; some English/Hindi with guides.",
+  "dressCode": "Warm modest clothing. Temple footwear rules apply.",
+  "darshanTimings": "Daytime access typical; weather and local custom matter more than clock hours.",
+  "specialEntry": "Restricted-area permits may apply for parts of Mustang — check Nepal immigration / tourism rules.",
+  "restrictions": "Respect both Hindu and Buddhist ritual spaces. Drones often restricted.",
+  "lockers": "Not typical — hotels hold luggage in Pokhara/Jomsom.",
+  "officialWebsite": "https://www.welcomenepal.com/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Muktinath+Temple+Mustang+pilgrimage",
+  "videoNote": "Trek/jeep approach videos help with planning altitude and weather.",
+  "lat": 28.8167,
+  "lng": 83.8718,
+  "mapQuery": "Muktinath Temple Mustang Nepal",
+  "nearby": [
+    {
+      "name": "Jomsom",
+      "slug": null,
+      "note": "Gateway town"
+    },
+    {
+      "name": "Pashupatinath",
+      "slug": "pashupatinath",
+      "note": "Kathmandu Shaiva anchor"
+    },
+    {
+      "name": "Mount Kailash",
+      "slug": "mount-kailash",
+      "note": "Greater Himalayan sacred geography"
+    }
+  ],
+  "packages": [
+    "Pokhara–Jomsom–Muktinath — 3–5 days",
+    "Kathmandu + Muktinath Nepal yatra — 6–8 days"
+  ],
+  "sources": [
+    "Nepal Tourism Board",
+    "Local Mustang administration / permit notices"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Mustang permit rules and flight reliability change — verify before booking.",
+  "mythologySignificance": "Muktinath in Mustang is a high Himalayan tirtha of liberation (mukti), sacred to both Hindus and Buddhists. In Shakti Peetha enumerations it is also remembered as the Gandaki peetha. Vaishnava and Himalayan Buddhist geographies meet here.\n\nPilgrimage literature treats Muktinath Temple as a tirtha — a crossing where devotion to Lord Vishnu (Muktinath) / Shiva-Shakti traditions is believed to bear fruit more readily than in ordinary space. Accounts summarised here follow widely cited epic, Puranic, and regional mahatmya traditions; temple priests remain the guides for ritual detail.",
+  "localBeliefs": "Bathing under the 108 water spouts and visiting the eternal flame shrine are core pilgrim acts. Hindus and Buddhists share the precinct with distinct yet coexisting ritual styles.\n\nAltitude and wind are read as purifying forces on the path to mukti.\n\nFirst-time visitors often hear several versions of the same story from pandas, taxi guides, and elderly pilgrims — a reminder that local belief is living conversation, not a single fixed text.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "मुक्तिनाथाय नमः",
+    "meaning": "Salutation to the Lord of Liberation",
+    "source": "Name-theology of the Mustang mukti tirtha"
+  },
+  "deityFamilies": [
+    "vishnu",
+    "devi"
+  ]
+}

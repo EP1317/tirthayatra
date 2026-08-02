@@ -1,0 +1,66 @@
+{
+  "shiva": {
+    "slug": "shiva",
+    "name": "Shiva",
+    "nameHi": "शिव जी",
+    "sanskrit": "ॐ नमः शिवाय",
+    "blurb": "Jyotirlingas, Panch Kedar, Pancha Bhuta Sthalams, and living Shaiva shrines across India and the Himalaya.",
+    "lede": "Temples where Shiva is the primary deity — from Kedarnath and Kashi to coastal and Deccan linga kshetras."
+  },
+  "vishnu": {
+    "slug": "vishnu",
+    "name": "Vishnu",
+    "nameHi": "विष्णु जी",
+    "sanskrit": "ॐ नमो नारायणाय",
+    "blurb": "Vaishnava seats of Narayana / Vishnu — Tirumala, Badrinath, Srirangam, Padmanabha, and related forms.",
+    "lede": "Temples centred on Vishnu and his classic forms (excluding Krishna-primary Braj–Dwarka pages, which have their own list)."
+  },
+  "krishna": {
+    "slug": "krishna",
+    "name": "Krishna",
+    "nameHi": "कृष्ण जी",
+    "sanskrit": "हरे कृष्ण",
+    "blurb": "Braj, Dwarka, Vitthal, Jagannath, Guruvayur, Nathdwara, and modern ISKCON — the living Krishna trail.",
+    "lede": "Temples and tirthas where Krishna (and closely related forms such as Vitthal, Shrinathji, Jagannath) is the heart of devotion."
+  },
+  "devi": {
+    "slug": "devi",
+    "name": "Devi / Shakti",
+    "nameHi": "देवी जी",
+    "sanskrit": "या देवी सर्वभूतेषु",
+    "blurb": "Shakti Peethas and great Devi temples — Kamakhya, Kalighat, Meenakshi, Vaishno Devi, and more.",
+    "lede": "Goddess temples across Shakta, Durga, Kali, Lakshmi, and regional Mother traditions."
+  },
+  "ganesha": {
+    "slug": "ganesha",
+    "name": "Ganesha",
+    "nameHi": "गणेश जी",
+    "sanskrit": "ॐ गणेशाय नमः",
+    "blurb": "Ashtavinayak and beloved Vinayaka shrines — Morgaon to Mumbai Siddhivinayak.",
+    "lede": "Temples of Ganesha, remover of obstacles, across Maharashtra and beyond."
+  },
+  "rama": {
+    "slug": "rama",
+    "name": "Rama",
+    "nameHi": "राम जी",
+    "sanskrit": "जय श्री राम",
+    "blurb": "Ayodhya, Bhadrachalam, Chitrakoot, and Ramayana-trail temples of Rama devotion.",
+    "lede": "Shrines where Rama is the primary deity or the clear focus of pilgrimage."
+  },
+  "hanuman": {
+    "slug": "hanuman",
+    "name": "Hanuman",
+    "nameHi": "हनुमान जी",
+    "sanskrit": "जय हनुमान",
+    "blurb": "Salasar, Sankat Mochan, Jakhoo, Patna Mahavir, and other living Hanuman seats.",
+    "lede": "Temples dedicated to Hanuman — strength, devotion, and Ramayana seva."
+  },
+  "ayyappa": {
+    "slug": "ayyappa",
+    "name": "Ayyappa",
+    "nameHi": "अय्यप्पा स्वामी",
+    "sanskrit": "स्वामिये शरणं अय्यप्पा",
+    "blurb": "Sabarimala and related Sastha–Ayyappa devotion.",
+    "lede": "Hill and forest pilgrimage centred on Lord Ayyappa."
+  }
+}

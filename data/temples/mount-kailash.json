@@ -1,0 +1,86 @@
+{
+  "slug": "mount-kailash",
+  "name": "Mount Kailash (Kailasa)",
+  "deity": "Lord Shiva’s abode (Kailasa) / sacred mountain",
+  "location": "Ngari Prefecture, Tibet Autonomous Region",
+  "state": "Tibet Autonomous Region",
+  "country": "China",
+  "glyph": "कै",
+  "tags": [
+    "beyond-india"
+  ],
+  "tagLabels": [
+    "Beyond India"
+  ],
+  "summary": "The Himalayan peak revered as Shiva’s Kailasa — a cross-faith pilgrimage (Hindu, Buddhist, Jain, Bon) around Lake Manasarovar, not a conventional temple complex.",
+  "famousFor": "Kailasa parikrama & Manasarovar",
+  "mythology": "Mount Kailash is revered in Hindu cosmology as Kailasa, the abode of Shiva and Parvati. The Mahabharata and Puranas celebrate it as a cosmic axis. Jain tradition associates the region with Rishabhadeva; Tibetan Buddhist and Bon traditions also hold the mountain sacred — a rare cross-faith geography.",
+  "scriptureLinks": [
+    "Shiva Purana / Kailasa lore",
+    "Mahabharata Himalayan geography",
+    "Jain and Tibetan sacred mountain traditions",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Saga Dawa (Tibetan calendar)",
+    "Seasonal yatra windows (summer)"
+  ],
+  "bestTime": "Typically May–September depending on permits and weather. Winter is not a practical pilgrimage window.",
+  "whatToCarry": "High-altitude gear, medical consultation for altitude, permits via authorised operators, layers, sun protection.",
+  "climate": "Extreme high altitude — cold, thin air, rapid weather changes.",
+  "nearestRail": "Not a simple rail pilgrimage; organised overland routes from Nepal or within Tibet via authorised travel.",
+  "nearestAirport": "Regional Tibet airports on organised routes; many groups stage via Kathmandu / Lhasa depending on itinerary.",
+  "accommodation": "Basic guesthouses on kora route; organised yatra packages handle lodging.",
+  "localFood": "Simple vegetarian options in yatra camps; carry personal dietary needs.",
+  "otherFood": "Limited at altitude.",
+  "localLanguage": "Tibetan, Chinese; Hindi/English via Indian/Nepali guides on some packages.",
+  "dressCode": "Cold-weather modest clothing. This is a sacred landscape — behave as at a temple throughout the kora.",
+  "darshanTimings": "Seasonal access only. Parikrama is multi-day; there is no single ‘darshan slot’ like a plains temple.",
+  "specialEntry": "Chinese/Tibet travel permits and group rules are mandatory — book only through authorised agencies. Rules change often.",
+  "restrictions": "Climbing the peak is not permitted. Photography and drone rules are strict. Respect all faiths sharing the site.",
+  "lockers": "Not applicable in the usual sense — travel with organised logistics.",
+  "officialWebsite": "https://www.tibettravel.org/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Mount+Kailash+Manasarovar+yatra",
+  "videoNote": "Use videos for landscape orientation only — permit and route rules must come from authorised operators.",
+  "lat": 31.0667,
+  "lng": 81.3125,
+  "mapQuery": "Mount Kailash Tibet",
+  "nearby": [
+    {
+      "name": "Lake Manasarovar",
+      "slug": null,
+      "note": "Sacred lake paired with Kailasa"
+    },
+    {
+      "name": "Pashupatinath",
+      "slug": "pashupatinath",
+      "note": "Common staging via Nepal"
+    },
+    {
+      "name": "Muktinath",
+      "slug": "muktinath",
+      "note": "Nepal Himalayan tirtha"
+    }
+  ],
+  "packages": [
+    "Kailash–Manasarovar organised yatra (permit-based)",
+    "Kathmandu staging + Kailash overland package"
+  ],
+  "sources": [
+    "Authorised Tibet / Nepal yatra operators",
+    "Public pilgrimage advisories"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Access is highly regulated. TirthaYatra does not arrange permits; verify every rule with authorised operators and current government advisories.",
+  "mythologySignificance": "Mount Kailash is revered in Hindu cosmology as Kailasa, the abode of Shiva and Parvati. The Mahabharata and Puranas celebrate it as a cosmic axis. Jain tradition associates the region with Rishabhadeva; Tibetan Buddhist and Bon traditions also hold the mountain sacred — a rare cross-faith geography.\n\nPilgrimage literature treats Mount Kailash (Kailasa) as a tirtha — a crossing where devotion to Lord Shiva’s abode (Kailasa) / sacred mountain is believed to bear fruit more readily than in ordinary space. Accounts summarised here follow widely cited epic, Puranic, and regional mahatmya traditions; temple priests remain the guides for ritual detail.",
+  "localBeliefs": "Pilgrims perform kora / parikrama rather than summiting — climbing is forbidden and believed spiritually improper. Lake Manasarovar baths and the multi-day circuit are the lived rite.\n\nAltitude, thin air, and silence become part of the belief that one walks the edge of the human and the divine.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "कैलासवासिने नमः",
+    "meaning": "Salutation to the One who dwells on Kailasa",
+    "source": "Shaiva praise of Shiva’s cosmic abode"
+  },
+  "deityFamilies": [
+    "shiva"
+  ]
+}

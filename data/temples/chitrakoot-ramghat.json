@@ -1,0 +1,93 @@
+{
+  "slug": "chitrakoot-ramghat",
+  "name": "Ramghat, Chitrakoot",
+  "deity": "Lord Rama",
+  "location": "Chitrakoot (Madhya Pradesh / Uttar Pradesh border)",
+  "state": "Madhya Pradesh",
+  "glyph": "चि",
+  "tags": [
+    "ramayana-trail"
+  ],
+  "tagLabels": [
+    "Ramayana Trail"
+  ],
+  "summary": "Where Rama, Sita, and Lakshmana are believed to have spent years of exile — ghats, hills, and quiet temples away from mega-city crowds.",
+  "famousFor": "Ramayana exile landscape",
+  "mythology": "Chitrakoot is cherished in the Ramayana and later Ramcharitmanas tradition as a principal forest home of Rama, Sita, and Lakshmana during exile. Ghats, hills, and caves preserve that epic geography in North Indian devotion.",
+  "scriptureLinks": [
+    "Valmiki Ramayana",
+    "Ramcharitmanas (Tulsidas)",
+    "Local Chitrakoot sthala lore",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Ram Navami",
+    "Diwali deepdan on ghats",
+    "Sharad Purnima aarti"
+  ],
+  "bestTime": "October–March. Summers are hot; monsoon makes ghats slippery.",
+  "whatToCarry": "Cotton clothes, comfortable walking shoes for Kamadgiri, torch for evening aarti, water.",
+  "climate": "North Indian plains — hot summers, cool winters, monsoon rains.",
+  "nearestRail": "Chitrakoot Dham Karwi; also Satna for some routes.",
+  "nearestAirport": "Prayagraj / Khajuraho / Lucknow with road onward.",
+  "accommodation": "Dharamshalas, MP/UP tourism properties, and small hotels near Ramghat and Sitapur area.",
+  "localFood": "Simple sattvic thalis, poori-sabzi, local sweets; ghat-side tea stalls.",
+  "otherFood": "Limited multi-cuisine; pilgrim food dominates.",
+  "localLanguage": "Hindi Bundeli dialects; basic English rare outside hotels.",
+  "dressCode": "Modest clothing. Traditional dress common but not strictly mandated like some South Indian temples.",
+  "darshanTimings": "Temples typically open early morning and evening; Ramghat aarti at dusk is a highlight.",
+  "specialEntry": "Generally open access; festival days mean heavy crowds at ghats.",
+  "restrictions": "Respect ghat cleanliness drives; avoid littering in the Mandakini.",
+  "lockers": "Usually not required; hotels hold luggage. Keep phones secure in evening crowds.",
+  "officialWebsite": "https://www.mptourism.com/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Ramghat,+Chitrakoot+temple+pilgrimage",
+  "videoNote": "Ramghat evening atmosphere — helpful for trip mood-setting.",
+  "nearby": [
+    {
+      "name": "Kamadgiri",
+      "slug": null,
+      "note": "Sacred hill parikrama"
+    },
+    {
+      "name": "Gupta Godavari",
+      "slug": null,
+      "note": "Cave pair linked to local legend"
+    },
+    {
+      "name": "Sphatik Shila",
+      "slug": null,
+      "note": "Rama–Sati memory site"
+    }
+  ],
+  "packages": [
+    "Chitrakoot 2-day Ramayana circuit (Ramghat + Kamadgiri + key caves)",
+    "Prayagraj + Chitrakoot — 3–4 days"
+  ],
+  "sources": [
+    "Madhya Pradesh Tourism: https://www.mptourism.com/",
+    "Madhya Pradesh Tourism",
+    "Local temple / municipality notices"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Chitrakoot spans MP–UP administration in places; check local advisories for ghat events.",
+  "lat": 25.1692,
+  "lng": 80.8686,
+  "mapQuery": "Ramghat Chitrakoot",
+  "country": "India",
+  "statePortal": {
+    "name": "Madhya Pradesh Tourism",
+    "url": "https://www.mptourism.com/",
+    "slug": "madhya-pradesh"
+  },
+  "mythologySignificance": "Chitrakoot is cherished in the Ramayana and later Ramcharitmanas tradition as a principal forest home of Rama, Sita, and Lakshmana during exile. Ghats, hills, and caves preserve that epic geography in North Indian devotion.\n\nPilgrimage literature treats Ramghat, Chitrakoot as a tirtha — a crossing where devotion to Lord Rama is believed to bear fruit more readily than in ordinary space. Accounts summarised here follow widely cited epic, Puranic, and regional mahatmya traditions; temple priests remain the guides for ritual detail.",
+  "localBeliefs": "Ramghat aarti, Kamadgiri parikrama, and sites of Bharata’s meeting with Rama structure local belief. Pilgrims feel the Mandakini landscape as still echoing Rama’s footsteps.\n\nCompared with metro temples, Chitrakoot’s quieter rhythm is itself treated as a spiritual quality.\n\nFirst-time visitors often hear several versions of the same story from pandas, taxi guides, and elderly pilgrims — a reminder that local belief is living conversation, not a single fixed text.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "चित्रकूट के घाट घाट…",
+    "meaning": "On every ghat of Chitrakoot…",
+    "source": "Echo of Ramcharitmanas devotion to Rama’s forest home"
+  },
+  "deityFamilies": [
+    "rama"
+  ]
+}

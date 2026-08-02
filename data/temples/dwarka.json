@@ -1,0 +1,99 @@
+{
+  "slug": "dwarka",
+  "name": "Dwarkadhish Temple",
+  "deity": "Lord Krishna (Dwarkadhish)",
+  "location": "Dwarka, Gujarat",
+  "state": "Gujarat",
+  "glyph": "द्वा",
+  "tags": [
+    "char-dham",
+    "mahabharata-sites"
+  ],
+  "tagLabels": [
+    "Char Dham",
+    "Mahabharata Sites"
+  ],
+  "summary": "Krishna’s legendary capital and a Char Dham seat on the western coast — linked to Mahabharata memory and coastal pilgrimage.",
+  "famousFor": "Char Dham & Krishna’s city",
+  "mythology": "Dwarka is Krishna’s legendary capital after Mathura and the western Char Dham seat. The Mahabharata and Bhagavata Purana describe Dwarka’s glory and eventual submersion. The Dwarkadhish temple continues that Vaishnava geography on Gujarat’s coast.",
+  "scriptureLinks": [
+    "Bhagavata Purana",
+    "Mahabharata — Dwarka narratives",
+    "Char Dham pilgrimage tradition",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Janmashtami",
+    "Holi",
+    "Kartik celebrations",
+    "Daily flag-changing ritual interest"
+  ],
+  "bestTime": "October–March.",
+  "whatToCarry": "Light layers, sun protection, ID, modest clothes.",
+  "climate": "Coastal — warm, breezy winters; hot summers.",
+  "nearestRail": "Dwarka railway station.",
+  "nearestAirport": "Jamnagar / Rajkot with road links.",
+  "accommodation": "Temple trust guest houses and many pilgrim hotels near Gomti Ghat and temple.",
+  "localFood": "Gujarati vegetarian, Kathiawadi thali, prasadam.",
+  "otherFood": "Jain / sattvic common; non-veg away from temple core.",
+  "localLanguage": "Gujarati, Hindi; English at hotels.",
+  "dressCode": "Modest clothing; traditional dress common. Footwear outside.",
+  "darshanTimings": "Early morning to night with aarti schedule — check trust notices for exact slots.",
+  "specialEntry": "Managed queues; special darshan if announced at official counters.",
+  "restrictions": "Phone/camera rules inside sanctum as posted. Security screening at peak times.",
+  "lockers": "Cloak facilities typically near complex for bags and restricted items.",
+  "officialWebsite": "https://www.dwarkadhish.org/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Dwarkadhish+Temple+temple+pilgrimage",
+  "videoNote": "Temple and Gomti Ghat orientation.",
+  "nearby": [
+    {
+      "name": "Bet Dwarka",
+      "slug": null,
+      "note": "Island shrine by boat"
+    },
+    {
+      "name": "Nageshwar Jyotirlinga",
+      "slug": null,
+      "note": "Nearby Jyotirlinga"
+    },
+    {
+      "name": "Somnath",
+      "slug": "somnath",
+      "note": "Classic Gujarat coastal combo"
+    }
+  ],
+  "packages": [
+    "Dwarka + Bet Dwarka + Nageshwar — 2 days",
+    "Dwarka + Somnath — 3–4 days"
+  ],
+  "sources": [
+    "Shree Somnath Trust: https://somnath.org/",
+    "Dwarkadhish Temple Trust",
+    "Gujarat Tourism",
+    "Dwarkadhish Temple: https://www.dwarkadhish.org/",
+    "Gujarat Tourism: https://www.gujarattourism.com/"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Boat schedules to Bet Dwarka depend on sea conditions.",
+  "lat": 22.2376,
+  "lng": 68.9674,
+  "mapQuery": "Dwarkadhish Temple Dwarka",
+  "country": "India",
+  "statePortal": {
+    "name": "Shree Somnath Trust",
+    "url": "https://somnath.org/",
+    "slug": "gujarat"
+  },
+  "mythologySignificance": "Dwarka is Krishna’s legendary capital after Mathura and the western Char Dham seat. The Mahabharata and Bhagavata Purana describe Dwarka’s glory and eventual submersion. The Dwarkadhish temple continues that Vaishnava geography on Gujarat’s coast.\n\nPilgrimage literature treats Dwarkadhish Temple as a tirtha — a crossing where devotion to Lord Krishna (Dwarkadhish) is believed to bear fruit more readily than in ordinary space. Accounts summarised here follow widely cited epic, Puranic, and regional mahatmya traditions; temple priests remain the guides for ritual detail.",
+  "localBeliefs": "Flag-changing rituals, Gomti Ghat baths, and the boat trip to Bet Dwarka structure pilgrim belief. Many hold that Krishna still ‘rules’ from Dwarka in a mystical sense.\n\nCoastal storms and underwater archaeology stories feed popular imagination about the submerged city, though faith and science remain distinct domains.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "द्वारकाधीश की जय",
+    "meaning": "Victory to the Lord of Dwarka",
+    "source": "Living Gujarat pilgrim cry at Dwarkadhish"
+  },
+  "deityFamilies": [
+    "krishna",
+    "vishnu"
+  ]
+}

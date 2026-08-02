@@ -1,0 +1,78 @@
+{
+  "slug": "gangotri",
+  "name": "Gangotri Temple",
+  "deity": "Goddess Ganga",
+  "location": "Uttarkashi district, Uttarakhand",
+  "state": "Uttarakhand",
+  "country": "India",
+  "glyph": "ग",
+  "tags": [
+    "chota-char-dham"
+  ],
+  "tagLabels": [
+    "Chota Char Dham"
+  ],
+  "summary": "Chota Char Dham shrine of Ganga at Gangotri, gateway toward Gaumukh glacier traditions.",
+  "famousFor": "Ganga’s Himalayan shrine; Chota Char Dham",
+  "mythology": "Gangotri commemorates Ganga’s descent to earth — a central theme of the Ramayana and Puranas (Bhagiratha’s penance). The Himalayan temple marks the sacred geography of Ganga’s appearance in the Chota Char Dham circuit.",
+  "scriptureLinks": [
+    "Ramayana — Bhagiratha / Ganga descent",
+    "Puranic Ganga mahatmya",
+    "Chota Char Dham tradition",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Major local festival days",
+    "Navaratri / Shiva-related observances as applicable"
+  ],
+  "bestTime": "May–June and September–October; closed in winter.",
+  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Varies by region — check seasonal weather before travel.",
+  "nearestRail": "Rishikesh then long road journey",
+  "nearestAirport": "Dehradun",
+  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
+  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
+  "otherFood": "Wider options usually in the nearest city.",
+  "localLanguage": "Regional language and Hindi; English varies.",
+  "dressCode": "Modest clothing; follow temple boards for traditional dress rules.",
+  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "specialEntry": "Special entry, if any, only via official temple counters.",
+  "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
+  "lockers": "Cloakrooms where available near the entrance.",
+  "officialWebsite": "https://badrinath-kedarnath.gov.in/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Gangotri+Temple+temple",
+  "videoNote": "Orientation videos only — verify timings on official sources.",
+  "lat": 30.9947,
+  "lng": 78.9398,
+  "mapQuery": "Gangotri Temple",
+  "nearby": [],
+  "packages": [
+    "Gangotri Temple day darshan",
+    "Regional multi-temple circuit"
+  ],
+  "sources": [
+    "Shri Badrinath–Kedarnath Temple Committee: https://badrinath-kedarnath.gov.in/",
+    "Temple trust / local administration notices",
+    "State tourism materials",
+    "Puranic / pilgrimage tradition (lists can vary by scripture)",
+    "Uttarakhand Tourism: https://uttarakhandtourism.gov.in/"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
+  "statePortal": {
+    "name": "Shri Badrinath–Kedarnath Temple Committee",
+    "url": "https://badrinath-kedarnath.gov.in/",
+    "slug": "uttarakhand"
+  },
+  "mythologySignificance": "Gangotri commemorates Ganga’s descent to earth — a central theme of the Ramayana and Puranas (Bhagiratha’s penance). The Himalayan temple marks the sacred geography of Ganga’s appearance in the Chota Char Dham circuit.\n\nPilgrimage literature treats Gangotri Temple as a tirtha — a crossing where devotion to Goddess Ganga is believed to bear fruit more readily than in ordinary space. Accounts summarised here follow widely cited epic, Puranic, and regional mahatmya traditions; temple priests remain the guides for ritual detail.",
+  "localBeliefs": "Gaumukh glacier journeys extend the belief that Ganga’s true ‘mouth’ lies further in ice and stone. Pilgrims collect Gangajal here for rituals across India.\n\nWinter closure and the deity’s seasonal seat elsewhere echo other Garhwal dham practices.\n\nFirst-time visitors often hear several versions of the same story from pandas, taxi guides, and elderly pilgrims — a reminder that local belief is living conversation, not a single fixed text.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "नमो गङ्गे",
+    "meaning": "Salutation to Mother Ganga",
+    "source": "River-goddess praise at her Himalayan shrine"
+  },
+  "deityFamilies": [
+    "devi"
+  ]
+}

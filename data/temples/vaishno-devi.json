@@ -1,0 +1,74 @@
+{
+  "slug": "vaishno-devi",
+  "name": "Shri Mata Vaishno Devi",
+  "deity": "Goddess Vaishno Devi",
+  "location": "Trikuta Hills, Katra, Jammu",
+  "state": "Jammu and Kashmir",
+  "country": "India",
+  "glyph": "वै",
+  "tags": [],
+  "tagLabels": [],
+  "summary": "Vaishno Devi — one of India’s largest Devi pilgrimages, administered by the Shrine Board.",
+  "famousFor": "Himalayan Devi yatra administered by shrine board",
+  "mythology": "Vaishno Devi on Trikuta is worshipped as a form of the Goddess combining Vaishnava and Shakta resonances in North Indian devotion. Regional mahatmya narrates the goddess’s pursuit of the devotee-turned-adversary Bhairon and her establishment in the holy cave — a story that frames the yatra as both refuge and testing.",
+  "scriptureLinks": [
+    "North Indian Devi / Vaishno tradition",
+    "Regional Jammu mahatmya and oral lore",
+    "Shrine Board pilgrimage literature",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Major local festival days",
+    "Navaratri / Shiva-related observances as applicable"
+  ],
+  "bestTime": "September–June; monsoon/winter advisories apply.",
+  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Varies by region — check seasonal weather before travel.",
+  "nearestRail": "Katra / Jammu Tawi",
+  "nearestAirport": "Jammu",
+  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
+  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
+  "otherFood": "Wider options usually in the nearest city.",
+  "localLanguage": "Regional language and Hindi; English varies.",
+  "dressCode": "Modest clothing; follow temple boards for traditional dress rules.",
+  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "specialEntry": "Special entry, if any, only via official temple counters.",
+  "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
+  "lockers": "Cloakrooms where available near the entrance.",
+  "officialWebsite": "https://www.maavaishnodevi.org/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Shri+Mata+Vaishno+Devi+temple",
+  "videoNote": "Orientation videos only — verify timings on official sources.",
+  "lat": 33.03,
+  "lng": 74.949,
+  "mapQuery": "Vaishno Devi Katra",
+  "nearby": [],
+  "packages": [
+    "Shri Mata Vaishno Devi day darshan",
+    "Regional multi-temple circuit"
+  ],
+  "sources": [
+    "JK Tourism: https://www.jktourism.jk.gov.in/",
+    "Temple trust / local administration notices",
+    "State tourism materials",
+    "Puranic / pilgrimage tradition (lists can vary by scripture)",
+    "Shri Mata Vaishno Devi Shrine Board: https://www.maavaishnodevi.org/"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
+  "statePortal": {
+    "name": "JK Tourism",
+    "url": "https://www.jktourism.jk.gov.in/",
+    "slug": "jammu-and-kashmir"
+  },
+  "mythologySignificance": "Vaishno Devi on Trikuta is worshipped as a form of the Goddess combining Vaishnava and Shakta resonances in North Indian devotion. Regional mahatmya narrates the goddess’s pursuit of the devotee-turned-adversary Bhairon and her establishment in the holy cave — a story that frames the yatra as both refuge and testing.\n\nThe shrine board pilgrimage is among India’s largest Devi yatras, placing Trikuta alongside pan-Indian Shakta geography even where formal peetha lists differ.",
+  "localBeliefs": "The climb from Katra, the holy cave (garbha joon), and the three pindis are the core of belief. Devotees hold that the Mother calls whom she chooses.\n\nBhairavnath temple visit after the main cave is a customary completion of the yatra in local teaching — gratitude after the Mother’s grace, and closure of the pursuit story told on the trail.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "जय माता दी",
+    "meaning": "Victory to the Mother",
+    "source": "North Indian pilgrim greeting of the Trikuta yatra"
+  },
+  "deityFamilies": [
+    "devi"
+  ]
+}

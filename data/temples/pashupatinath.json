@@ -1,0 +1,87 @@
+{
+  "slug": "pashupatinath",
+  "name": "Pashupatinath Temple",
+  "deity": "Lord Shiva (Pashupati)",
+  "location": "Kathmandu, Nepal",
+  "state": "Bagmati Province",
+  "country": "Nepal",
+  "glyph": "प",
+  "tags": [
+    "beyond-india"
+  ],
+  "tagLabels": [
+    "Beyond India"
+  ],
+  "summary": "Nepal’s foremost Shiva temple on the Bagmati — a UNESCO-linked sacred landscape and a living bridge between Himalayan Shaivism and Indian pilgrimage.",
+  "famousFor": "Nepal’s holiest Shiva shrine",
+  "mythology": "Pashupatinath in Kathmandu is Nepal’s foremost Shiva temple. Pashupati — ‘Lord of Beings’ — is an ancient form of Shiva celebrated in Himalayan and pan-Indian Shaiva devotion. The Bagmati riverside complex is a major cremation and pilgrimage landscape.",
+  "scriptureLinks": [
+    "Shaiva / Pashupata traditions",
+    "Nepalese chronicles and sthala lore",
+    "Himalayan Shaiva pilgrimage tradition",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Maha Shivaratri (huge international gathering)",
+    "Teej",
+    "Bol Bom season approaches"
+  ],
+  "bestTime": "October–March. Shivaratri needs lodging booked far ahead.",
+  "whatToCarry": "Modest clothes, cash for offerings, passport/visa docs, scarf for temple norms.",
+  "climate": "Valley climate — cool winters, warm summers, monsoon mid-year.",
+  "nearestRail": "No direct Indian rail to Kathmandu; common route via Raxaul–Birgunj or flights.",
+  "nearestAirport": "Tribhuvan International Airport, Kathmandu.",
+  "accommodation": "Hotels across Kathmandu; guesthouses near Thamel and airport corridor.",
+  "localFood": "Newari and Nepali vegetarian thalis, temple-area snacks; sattvic options common for pilgrims.",
+  "otherFood": "Kathmandu offers global cuisine away from the temple core.",
+  "localLanguage": "Nepali; Hindi widely understood; English in tourist areas.",
+  "dressCode": "Modest dress. Non-Hindus may face entry limits to the main sanctum — follow posted rules and guides.",
+  "darshanTimings": "Early morning to evening with ritual breaks; confirm locally especially on festival days.",
+  "specialEntry": "Security and queue systems intensify on Shivaratri; use official/local guidance only.",
+  "restrictions": "Photography restricted in inner areas. Respect cremation ghats — no intrusive filming.",
+  "lockers": "Bag rules vary; travel light inside the complex.",
+  "officialWebsite": "https://pashupatinathtemple.org/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Pashupatinath+Temple+Kathmandu+pilgrimage",
+  "videoNote": "Orientation videos — verify entry rules for international visitors.",
+  "lat": 27.7105,
+  "lng": 85.3487,
+  "mapQuery": "Pashupatinath Temple Kathmandu",
+  "nearby": [
+    {
+      "name": "Budhanilkantha",
+      "slug": null,
+      "note": "Sleeping Vishnu shrine in the valley"
+    },
+    {
+      "name": "Swayambhunath",
+      "slug": null,
+      "note": "Same-city sacred hill"
+    },
+    {
+      "name": "Muktinath",
+      "slug": "muktinath",
+      "note": "Nepal Vaishnava/Shaiva highland tirtha"
+    }
+  ],
+  "packages": [
+    "Kathmandu valley temple day (Pashupatinath + Budhanilkantha)",
+    "Nepal + Kailash / Muktinath extended Himalayan yatra"
+  ],
+  "sources": [
+    "Pashupatinath Area Development Trust / official temple channels",
+    "Nepal Tourism Board"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Entry rules for non-Hindus and festival schedules change — confirm on official channels before travel.",
+  "mythologySignificance": "Pashupatinath in Kathmandu is Nepal’s foremost Shiva temple. Pashupati — ‘Lord of Beings’ — is an ancient form of Shiva celebrated in Himalayan and pan-Indian Shaiva devotion. The Bagmati riverside complex is a major cremation and pilgrimage landscape.\n\nPilgrimage literature treats Pashupatinath Temple as a tirtha — a crossing where devotion to Lord Shiva (Pashupati) is believed to bear fruit more readily than in ordinary space. Accounts summarised here follow widely cited epic, Puranic, and regional mahatmya traditions; temple priests remain the guides for ritual detail.",
+  "localBeliefs": "Shivaratri draws Himalayan and Indian pilgrims in vast numbers. Local Newar and Nepali traditions maintain distinctive ritual calendars around the shrine.\n\nProximity to Guhyeshwari Shakti Peetha creates a paired Shiva–Shakti belief for many Kathmandu valley devotees.\n\nFirst-time visitors often hear several versions of the same story from pandas, taxi guides, and elderly pilgrims — a reminder that local belief is living conversation, not a single fixed text.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "ॐ पशुपतये नमः",
+    "meaning": "Om, salutation to Pashupati — Lord of all beings",
+    "source": "Classical name-mantra of Kathmandu’s great Shaiva seat"
+  },
+  "deityFamilies": [
+    "shiva"
+  ]
+}

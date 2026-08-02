@@ -1,0 +1,93 @@
+{
+  "slug": "thiruvanaikaval",
+  "name": "Jambukeswarar Temple",
+  "deity": "Lord Shiva (Appu Lingam — Water)",
+  "location": "Thiruvanaikaval, Tiruchirappalli, Tamil Nadu",
+  "state": "Tamil Nadu",
+  "glyph": "जं",
+  "tags": [
+    "pancha-bhuta"
+  ],
+  "tagLabels": [
+    "Pancha Bhuta"
+  ],
+  "summary": "The water element among the Pancha Bhuta Sthalams — an underground spring beneath the lingam, with distinctive South Indian dress and ritual norms.",
+  "famousFor": "Appu Lingam (water element)",
+  "mythology": "Jambukeswarar at Thiruvanaikaval is the water (Appu) element among the Pancha Bhuta Sthalams of Tamil Shaivism. Tevaram hymns and sthala purana describe an underground spring beneath the lingam and Parvati’s penance as Akhilandeshwari.",
+  "scriptureLinks": [
+    "Tevaram hymns",
+    "Pancha Bhuta Shaiva tradition",
+    "Tamil sthala purana",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Panguni / temple car festivals",
+    "Maha Shivaratri",
+    "Akhilandeshwari processions"
+  ],
+  "bestTime": "November–February. Summers are very hot in Trichy.",
+  "whatToCarry": "Dhoti/saree for sanctum norms, cotton clothes, water, ID.",
+  "climate": "Hot tropical plains.",
+  "nearestRail": "Tiruchirappalli Junction.",
+  "nearestAirport": "Tiruchirappalli International Airport.",
+  "accommodation": "Hotels in Trichy city; pilgrim lodges near Srirangam / Thiruvanaikaval.",
+  "localFood": "Tamil Brahmin meals, filter coffee, temple prasadam; banana-leaf lunches nearby.",
+  "otherFood": "Trichy city has multi-cuisine; temple streets stay traditional.",
+  "localLanguage": "Tamil; English/Hindi limited outside hotels.",
+  "dressCode": "Strict traditional norms common: men — dhoti (veshti), often bare-chested for inner areas; women — saree preferred. Western clothes may be restricted for sanctum entry. Rent/buy dhoti near temple if needed.",
+  "darshanTimings": "Early morning to night with midday closure typical of TN temples. Confirm daily board timings.",
+  "specialEntry": "Special entrance tickets when offered at official counters only.",
+  "restrictions": "Mobiles and leather items usually barred inside — use cloakroom. Photography often banned in sanctum.",
+  "lockers": "Cloakrooms for phones, bags, belts near entrance.",
+  "officialWebsite": "https://hrce.tn.gov.in/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Jambukeswarar+Temple+temple+pilgrimage",
+  "videoNote": "Temple complex orientation — check dress rules before you go.",
+  "nearby": [
+    {
+      "name": "Srirangam Ranganathaswamy",
+      "slug": null,
+      "note": "Across the river — same-day pair"
+    },
+    {
+      "name": "Rockfort Temple",
+      "slug": null,
+      "note": "Trichy city icon"
+    },
+    {
+      "name": "Other Pancha Bhuta temples",
+      "slug": null,
+      "note": "Club into a Tamil Nadu element circuit"
+    }
+  ],
+  "packages": [
+    "Trichy temple day (Srirangam + Jambukeswarar + Rockfort)",
+    "Pancha Bhuta mini-circuit (plan multi-day TN)"
+  ],
+  "sources": [
+    "TN HR&CE Department: https://hrce.tn.gov.in/hrcehome/",
+    "TN HR&CE",
+    "Tamil Nadu Tourism"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Dress-code enforcement is real here — prepare traditional attire.",
+  "lat": 10.8534,
+  "lng": 78.7054,
+  "mapQuery": "Jambukeswarar Temple Thiruvanaikaval",
+  "country": "India",
+  "statePortal": {
+    "name": "TN HR&CE Department",
+    "url": "https://hrce.tn.gov.in/hrcehome/",
+    "slug": "tamil-nadu"
+  },
+  "mythologySignificance": "Jambukeswarar at Thiruvanaikaval is the water (Appu) element among the Pancha Bhuta Sthalams of Tamil Shaivism. Tevaram hymns and sthala purana describe an underground spring beneath the lingam and Parvati’s penance as Akhilandeshwari.\n\nPilgrimage literature treats Jambukeswarar Temple as a tirtha — a crossing where devotion to Lord Shiva (Appu Lingam — Water) is believed to bear fruit more readily than in ordinary space. Accounts summarised here follow widely cited epic, Puranic, and regional mahatmya traditions; temple priests remain the guides for ritual detail.",
+  "localBeliefs": "The ever-moist lingam is shown as proof of the water element’s living presence. Paired darshan with Srirangam across the Kaveri is a classic Trichy belief-circuit.\n\nStrict South Indian dress norms are treated as part of elemental temple discipline.\n\nFirst-time visitors often hear several versions of the same story from pandas, taxi guides, and elderly pilgrims — a reminder that local belief is living conversation, not a single fixed text.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "जम्बुकेश्वराय नमः",
+    "meaning": "Salutation to Jambukeswara — Shiva of the water lingam",
+    "source": "Name-mantra of the Appu (water) Pancha Bhuta Sthalam"
+  },
+  "deityFamilies": [
+    "shiva"
+  ]
+}

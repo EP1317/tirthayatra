@@ -1,0 +1,156 @@
+{
+  "fixed": {
+    "12-jyotirlinga": {
+      "expected": 12,
+      "order": [
+        "somnath",
+        "mallikarjuna-srisailam",
+        "mahakaleshwar-ujjain",
+        "omkareshwar",
+        "kedarnath",
+        "bhimashankar",
+        "kashi-vishwanath",
+        "trimbakeshwar",
+        "vaidyanath-deoghar",
+        "nageshwar",
+        "rameswaram",
+        "grishneshwar"
+      ]
+    },
+    "char-dham": {
+      "expected": 4,
+      "order": [
+        "badrinath",
+        "dwarka",
+        "jagannath-puri",
+        "rameswaram"
+      ]
+    },
+    "chota-char-dham": {
+      "expected": 4,
+      "order": [
+        "yamunotri",
+        "gangotri",
+        "kedarnath",
+        "badrinath"
+      ]
+    },
+    "panch-kedar": {
+      "expected": 5,
+      "order": [
+        "kedarnath",
+        "tungnath",
+        "rudranath",
+        "madhyamaheshwar",
+        "kalpeshwar"
+      ]
+    },
+    "pancha-bhuta": {
+      "expected": 5,
+      "order": [
+        "ekambareswarar-kanchipuram",
+        "thiruvanaikaval",
+        "arunachaleswarar-tiruvannamalai",
+        "srikalahasti",
+        "nataraja-chidambaram"
+      ]
+    },
+    "ashtavinayak": {
+      "expected": 8,
+      "order": [
+        "moreshwar-morgaon",
+        "siddhivinayak-siddhatek",
+        "ballaleshwar-pali",
+        "varadavinayak-mahad",
+        "chintamani-theur",
+        "girijatmaj-lenyadri",
+        "vighnahar-ozar",
+        "mahaganapati-ranjangaon"
+      ]
+    },
+    "51-shakti-peeth": {
+      "expected": 52,
+      "order": [
+        "amarnath-shakti",
+        "attahas",
+        "bahula-ketugram",
+        "bakreshwar",
+        "jagannath-puri",
+        "bhabanipur",
+        "biraja-jajpur",
+        "mithila-janakpur",
+        "surkanda-devi",
+        "panchsagar-champawat",
+        "guhyeshwari",
+        "muktinath",
+        "saptashrungi",
+        "hinglaj",
+        "kalighat",
+        "kamakhya",
+        "kankalitala",
+        "kanyakumari",
+        "brajeshwari-kangra",
+        "kiriteswari",
+        "ratnavali",
+        "bhramari-jalpaiguri",
+        "manasa-manasarovar",
+        "ugratara-mahishi",
+        "manibandh-pushkar",
+        "indrakshi-nainativu",
+        "jayanti-nartiang",
+        "jeshoreshwari",
+        "jwalamukhi",
+        "tara-tarini",
+        "prabhas-chandrabhaga",
+        "alopi-devi-prayagraj",
+        "bhadrakali-kurukshetra",
+        "sharada-maihar",
+        "nandikeshwari-sainthia",
+        "manikyamba-draksharama",
+        "naina-devi",
+        "shondesh-amarkantak",
+        "mallikarjuna-srisailam",
+        "narayani-suchindram",
+        "sugandha-shikarpur",
+        "tripura-sundari",
+        "ujani-mangalchandika",
+        "vishalakshi-kashi",
+        "vibhash-tamluk",
+        "viraat-ambika",
+        "katyayani-vrindavan",
+        "tripuramalini-jalandhar",
+        "vaidyanath-deoghar",
+        "kamakshi-kanchipuram",
+        "jogadya-kshirgram",
+        "puruhutika-pithapuram"
+      ]
+    }
+  },
+  "open": {
+    "mahabharata-sites": {
+      "labelFlexible": true
+    },
+    "modern-temples": {
+      "labelFlexible": true
+    },
+    "beyond-india": {
+      "labelFlexible": true
+    },
+    "ramayana-trail": {
+      "labelFlexible": true
+    }
+  },
+  "labels": {
+    "12-jyotirlinga": "12 Jyotirlinga",
+    "51-shakti-peeth": "51 Shakti Peeth",
+    "char-dham": "Char Dham",
+    "chota-char-dham": "Chota Char Dham",
+    "panch-kedar": "Panch Kedar",
+    "pancha-bhuta": "Pancha Bhuta",
+    "ashtavinayak": "Ashtavinayak",
+    "ramayana-trail": "Ramayana Trail",
+    "mahabharata-sites": "Mahabharata Sites",
+    "beyond-india": "Beyond India",
+    "modern-temples": "Modern Temples"
+  }
+}

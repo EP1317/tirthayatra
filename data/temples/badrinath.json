@@ -1,0 +1,96 @@
+{
+  "slug": "badrinath",
+  "name": "Badrinath Temple",
+  "deity": "Lord Vishnu (Badrinarayan)",
+  "location": "Chamoli district, Uttarakhand",
+  "state": "Uttarakhand",
+  "glyph": "ब",
+  "tags": [
+    "char-dham",
+    "chota-char-dham"
+  ],
+  "tagLabels": [
+    "Char Dham",
+    "Chota Char Dham"
+  ],
+  "summary": "The Himalayan Vishnu dham of the Char Dham circuit, open seasonally, with deep ties to Adi Shankaracharya’s tradition.",
+  "famousFor": "Seasonal Himalayan Char Dham",
+  "mythology": "Badrinath is the Himalayan Vishnu seat of Adi Shankaracharya’s Char Dham and also belongs to the Uttarakhand Chota Char Dham. Classical tradition associates the site with Nar-Narayan meditation and Vishnu’s presence in the Badri forest. Shankaracharya’s digvijaya narratives credit him with establishing the living pilgrimage and monastic order connected to the shrine.",
+  "scriptureLinks": [
+    "Vishnu Purana / Nar-Narayan traditions",
+    "Skanda Purana Badri mahatmya lore",
+    "Shankara digvijaya pilgrimage traditions",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Temple opening (spring)",
+    "Closing for winter (deity moves to Joshimath)",
+    "Mata Murti Ka Mela"
+  ],
+  "bestTime": "May–June and September–October. Closed in deep winter.",
+  "whatToCarry": "Woolens, rain protection, altitude awareness meds if advised by your doctor, ID, offline maps.",
+  "climate": "High-altitude cold; sudden weather shifts common.",
+  "nearestRail": "Rishikesh / Haridwar, then long road journey via Joshimath.",
+  "nearestAirport": "Dehradun; limited helicopter options in Char Dham season.",
+  "accommodation": "Temple committee and GMVN rooms, plus private hotels in Badrinath town — book ahead in peak season.",
+  "localFood": "Simple vegetarian Garhwali / North Indian pilgrim food; prasadam.",
+  "otherFood": "Limited; stick to sealed water and busy kitchens at altitude.",
+  "localLanguage": "Hindi, Garhwali; some English.",
+  "dressCode": "Warm modest clothing. Footwear off in temple. No South-Indian-style dhoti mandate.",
+  "darshanTimings": "Seasonal schedule with morning and evening aartis. Winter worship continues at Joshimath.",
+  "specialEntry": "Online / counter systems vary by year under temple committee rules.",
+  "restrictions": "Respect plastic bans and fragile mountain ecology. Follow VIP / queue notices only from official counters.",
+  "lockers": "Small cloak facilities near temple approaches; travel light.",
+  "officialWebsite": "https://badrinath-kedarnath.gov.in/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Badrinath+Temple+temple+pilgrimage",
+  "videoNote": "Seasonal town and temple approach overview.",
+  "nearby": [
+    {
+      "name": "Kedarnath",
+      "slug": "kedarnath",
+      "note": "Pair on Char Dham"
+    },
+    {
+      "name": "Mana Village",
+      "slug": null,
+      "note": "Last Indian village, Vyas Gufa"
+    },
+    {
+      "name": "Joshimath",
+      "slug": null,
+      "note": "Winter seat of the deity"
+    }
+  ],
+  "packages": [
+    "Full Uttarakhand Char Dham — 10–14 days",
+    "Badrinath–Kedarnath dual yatra — 6–8 days"
+  ],
+  "sources": [
+    "Shri Badrinath–Kedarnath Temple Committee: https://badrinath-kedarnath.gov.in/",
+    "Badrinath-Kedarnath Temple Committee",
+    "Uttarakhand Tourism",
+    "Uttarakhand Tourism: https://uttarakhandtourism.gov.in/"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Opening/closing dates and road status change yearly — confirm before booking.",
+  "lat": 30.7433,
+  "lng": 79.4938,
+  "mapQuery": "Badrinath Temple Uttarakhand",
+  "country": "India",
+  "statePortal": {
+    "name": "Shri Badrinath–Kedarnath Temple Committee",
+    "url": "https://badrinath-kedarnath.gov.in/",
+    "slug": "uttarakhand"
+  },
+  "mythologySignificance": "Badrinath is the Himalayan Vishnu seat of Adi Shankaracharya’s Char Dham and also belongs to the Uttarakhand Chota Char Dham. Classical tradition associates the site with Nar-Narayan meditation and Vishnu’s presence in the Badri forest. Shankaracharya’s digvijaya narratives credit him with establishing the living pilgrimage and monastic order connected to the shrine.",
+  "localBeliefs": "Garhwal belief holds that the deity ‘resides’ at Badrinath in the open season and moves to Joshimath for winter worship — a seasonal theology shared with other high Himalayan dhams. Mana village, Vyas Gufa, and related spots are woven into local Mahabharata and sage lore.\n\nPilgrims often combine Badrinath with Kedarnath, treating the dual Vishnu–Shiva Himalayan yatra as a complete spiritual circuit.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "ॐ नमो भगवते वासुदेवाय",
+    "meaning": "Om, salutation to the Blessed Vasudeva",
+    "source": "Dwadasakshari mantra of Vaishnava Badri devotion"
+  },
+  "deityFamilies": [
+    "vishnu"
+  ]
+}

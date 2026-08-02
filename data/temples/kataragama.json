@@ -1,0 +1,84 @@
+{
+  "slug": "kataragama",
+  "name": "Kataragama Temple",
+  "deity": "Lord Murugan / Kataragama Deviyo",
+  "location": "Kataragama, Sri Lanka",
+  "state": "Uva Province",
+  "country": "Sri Lanka",
+  "glyph": "क",
+  "tags": [
+    "beyond-india",
+    "ramayana-trail"
+  ],
+  "tagLabels": [
+    "Beyond India",
+    "Ramayana Trail"
+  ],
+  "summary": "A powerful multi-faith shrine in southern Sri Lanka — Murugan for Hindus, Kataragama Deviyo for Buddhists — often included in broader Ramayana and South-Asian pilgrimage maps.",
+  "famousFor": "Multi-faith Murugan / Kataragama shrine",
+  "mythology": "Kataragama is a multi-faith shrine of southern Sri Lanka — Murugan for Hindus, Kataragama Deviyo for Buddhists, with indigenous resonances. It sits in the wider Indian Ocean sacred geography that pilgrims also associate with Ramayana Lanka.",
+  "scriptureLinks": [
+    "Murugan / Skanda traditions",
+    "Sri Lankan Buddhist and Hindu chronicle culture",
+    "Indian Ocean pilgrimage routes",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Kataragama festival / Esala processions",
+    "Vel and Murugan observances"
+  ],
+  "bestTime": "May–July festival season is vibrant but crowded; December–March for calmer weather in many years.",
+  "whatToCarry": "Modest white/light clothes common for shrine visits, water, passport, sun protection.",
+  "climate": "Hot lowland tropical climate.",
+  "nearestRail": "Regional Sri Lankan rail + bus/taxi combinations toward Tissamaharama / Kataragama.",
+  "nearestAirport": "Colombo or Mattala Rajapaksa (regional) depending on routing.",
+  "accommodation": "Pilgrim lodges and hotels in Kataragama / Tissa area.",
+  "localFood": "Vegetarian pilgrim meals, Sri Lankan rice & curry, fruits.",
+  "otherFood": "Town eateries; hotels for wider options.",
+  "localLanguage": "Sinhala, Tamil; English in tourist services.",
+  "dressCode": "Modest clothing; whites often preferred. Footwear off in shrine areas.",
+  "darshanTimings": "Morning and evening ritual peaks; follow local boards during festival weeks.",
+  "specialEntry": "Festival crowd control — follow police/temple volunteers.",
+  "restrictions": "Alcohol and disrespectful behaviour banned in sacred precincts. Photography may be limited near shrines.",
+  "lockers": "Basic facilities may exist in peak season; keep valuables minimal.",
+  "officialWebsite": "https://www.srilanka.travel/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Kataragama+Temple+Sri+Lanka+festival",
+  "videoNote": "Festival films show atmosphere — plan logistics separately.",
+  "lat": 6.4135,
+  "lng": 81.332,
+  "mapQuery": "Kataragama Temple Sri Lanka",
+  "nearby": [
+    {
+      "name": "Yala National Park",
+      "slug": null,
+      "note": "Same-region nature extension"
+    },
+    {
+      "name": "Seetha Amman Temple",
+      "slug": "seetha-amman-nuwara-eliya",
+      "note": "Ramayana highland shrine"
+    },
+    {
+      "name": "Rameswaram",
+      "slug": "rameswaram",
+      "note": "India link across the strait"
+    }
+  ],
+  "packages": [
+    "Southern Sri Lanka: Kataragama + coast — 3 days",
+    "Ramayana trail Sri Lanka loop — 6–8 days"
+  ],
+  "sources": [
+    "Sri Lanka Tourism",
+    "Local shrine administration"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Multi-faith etiquette matters here — follow local guidance inside the complex.",
+  "mythologySignificance": "Kataragama is a multi-faith shrine of southern Sri Lanka — Murugan for Hindus, Kataragama Deviyo for Buddhists, with indigenous resonances. It sits in the wider Indian Ocean sacred geography that pilgrims also associate with Ramayana Lanka.\n\nPilgrimage literature treats Kataragama Temple as a tirtha — a crossing where devotion to Lord Murugan / Kataragama Deviyo is believed to bear fruit more readily than in ordinary space. Accounts summarised here follow widely cited epic, Puranic, and regional mahatmya traditions; temple priests remain the guides for ritual detail.",
+  "localBeliefs": "Fire-walking, processions, and vow offerings define festival belief. Devotees of different communities share pathways while keeping distinct ritual styles.\n\nThe dry-zone landscape and pilgrimage town rhythm are part of Kataragama’s felt holiness.\n\nFirst-time visitors often hear several versions of the same story from pandas, taxi guides, and elderly pilgrims — a reminder that local belief is living conversation, not a single fixed text.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "deityFamilies": [
+    "rama",
+    "devi"
+  ]
+}

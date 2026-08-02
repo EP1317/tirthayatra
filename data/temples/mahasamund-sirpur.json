@@ -1,0 +1,87 @@
+{
+  "slug": "mahasamund-sirpur",
+  "name": "Lakshmana Temple, Sirpur",
+  "deity": "Lord Vishnu",
+  "location": "Sirpur, Mahasamund district, Chhattisgarh",
+  "state": "Chhattisgarh",
+  "glyph": "सि",
+  "tags": [
+    "mahabharata-sites"
+  ],
+  "tagLabels": [
+    "Mahabharata Sites"
+  ],
+  "summary": "A brick-temple masterpiece on the Mahanadi — quieter heritage pilgrimage linking early medieval Vaishnava devotion in a Tier-3 landscape.",
+  "famousFor": "7th-century brick temple & quiet tirtha",
+  "mythology": "Sirpur (ancient Shripura) was a major capital on the Mahanadi. The Lakshmana Temple — a finely built brick shrine to Vishnu — stands among Buddhist and Shaiva remains, showing a multi-faith sacred landscape. Local and scholarly traditions place the region within broader epic and Puranic geography of central India, making it ideal for travellers seeking significant but uncrowded tirthas beyond the famous circuits.",
+  "scriptureLinks": [
+    "Vaishnava temple tradition",
+    "Regional sthala history",
+    "Epic geography of central India",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Sirpur National Dance & Music Festival (cultural, seasonal)",
+    "Local Vaishnava / village festival days"
+  ],
+  "bestTime": "November–February. Avoid peak summer heat.",
+  "whatToCarry": "Sun hat, water, mosquito protection, comfortable walking shoes for ASI site paths, ID.",
+  "climate": "Central Indian — hot summers, pleasant winters, monsoon humidity.",
+  "nearestRail": "Mahasamund / Raipur junctions with road to Sirpur.",
+  "nearestAirport": "Raipur (Swami Vivekananda Airport).",
+  "accommodation": "Limited on-site; better base in Mahasamund or Raipur. Check CG tourism properties when available.",
+  "localFood": "Chhattisgarhi vegetarian meals in town; carry snacks for the site.",
+  "otherFood": "Raipur offers full multi-cuisine as a base city.",
+  "localLanguage": "Hindi, Chhattisgarhi; English limited.",
+  "dressCode": "Modest comfortable clothes for heritage site + any living shrines nearby. No strict dhoti rule at ASI monument.",
+  "darshanTimings": "ASI site hours typically daytime. Living temple timings may differ — ask locally.",
+  "specialEntry": "ASI ticketed entry for monument complex where applicable.",
+  "restrictions": "Do not climb fragile brick structures. Follow ASI photography rules. No littering.",
+  "lockers": "Not typical — leave heavy luggage at hotel.",
+  "officialWebsite": "https://www.tourism.cg.gov.in/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Lakshmana+Temple,+Sirpur+temple+pilgrimage",
+  "videoNote": "Sirpur heritage overview for planning a quiet day trip.",
+  "nearby": [
+    {
+      "name": "Gandheshwar Temple, Sirpur",
+      "slug": null,
+      "note": "Living shrine by the river"
+    },
+    {
+      "name": "Raipur city temples",
+      "slug": null,
+      "note": "Base-city options"
+    },
+    {
+      "name": "Rajim",
+      "slug": null,
+      "note": "Triveni sangam temple town nearby region"
+    }
+  ],
+  "packages": [
+    "Raipur–Sirpur day heritage yatra",
+    "Sirpur + Rajim weekend — 2 days"
+  ],
+  "sources": [
+    "Chhattisgarh Tourism: https://www.tourism.cg.gov.in/",
+    "Chhattisgarh Tourism",
+    "ASI / site notices"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Monument hours and festival dates change — confirm with CG Tourism before travel.",
+  "lat": 21.345,
+  "lng": 82.186,
+  "mapQuery": "Lakshmana Temple Sirpur",
+  "country": "India",
+  "statePortal": {
+    "name": "Chhattisgarh Tourism",
+    "url": "https://www.tourism.cg.gov.in/",
+    "slug": "chhattisgarh"
+  },
+  "mythologySignificance": "Sirpur (ancient Shripura) was a major capital on the Mahanadi. The Lakshmana Temple — a finely built brick shrine to Vishnu — stands among Buddhist and Shaiva remains, showing a multi-faith sacred landscape. Local and scholarly traditions place the region within broader epic and Puranic geography of central India, making it ideal for travellers seeking significant but uncrowded tirthas beyond the famous circuits.\n\nMahabharata-linked sacred geography — battlefield, teaching, or Krishna traditions — frames the significance retained in epic and regional mahatmya.",
+  "localBeliefs": "In popular pilgrimage memory, Lakshmana Temple, Sirpur is especially associated with 7th-century brick temple & quiet tirtha. Guides and elders retell this identity to first-time visitors as the living ‘reason’ the tirtha draws crowds.\n\nLocal sthala-purana and priestly teaching at Lakshmana Temple, Sirpur elaborate how Lord Vishnu blesses devotees who arrive with vows, gratitude, or grief. Festival days intensify these beliefs through processions, special alankara, and community feeding where practised.\n\nPilgrims commonly link practical customs — dress, queue, prasadam, and parikrama — with spiritual fruit. Such customs are living belief: they vary by region and should be followed as posted by the temple trust or endowment board.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "deityFamilies": [
+    "vishnu"
+  ]
+}

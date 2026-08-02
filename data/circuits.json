@@ -1,0 +1,108 @@
+[
+  {
+    "slug": "12-jyotirlinga",
+    "name": "12 Jyotirlinga",
+    "shortName": "Jyotirlinga",
+    "countLabel": "12 sacred lingas",
+    "blurb": "All twelve Jyotirlingas — Somnath to Grishneshwar — one shared guide per shrine, even when a site also sits on another circuit.",
+    "lede": "Complete set of twelve Jyotirlinga temples. Kedarnath also appears in Chota Char Dham and Panch Kedar — same page, same facts.",
+    "sanskrit": "द्वादश ज्योतिर्लिङ्ग",
+    "expected": 12
+  },
+  {
+    "slug": "51-shakti-peeth",
+    "name": "51 Shakti Peeth",
+    "shortName": "Shakti Peeth",
+    "countLabel": "52 peethas",
+    "blurb": "Shakti Peethas from the popular pilgrimage enumeration across India and neighbouring lands — including Himalayan seats such as Surkanda Devi and Champawat’s Panchsagar.",
+    "lede": "Where tradition places Sati’s sacred fragments. Scriptural lists vary (often 51, 52, or 108); TirthaYatra’s circuit includes Surkanda Devi (head) and Panchsagar Champawat among the Himalayan peethas. Overlaps with Jyotirlinga / Char Dham complexes share the same temple guide.",
+    "sanskrit": "एकपञ्चाशत् शक्तिपीठ",
+    "expected": 52
+  },
+  {
+    "slug": "char-dham",
+    "name": "Char Dham",
+    "shortName": "Char Dham",
+    "countLabel": "4 dhams",
+    "blurb": "Adi Shankaracharya’s four cardinal dhams only: Badrinath, Dwarka, Puri, and Rameswaram — not the Uttarakhand Chota Char Dham.",
+    "lede": "Exactly four seats. Kedarnath is not part of this circuit (see Chota Char Dham). Badrinath appears in both Char Dham and Chota Char Dham with the same guide.",
+    "sanskrit": "चार धाम",
+    "expected": 4
+  },
+  {
+    "slug": "chota-char-dham",
+    "name": "Chota Char Dham",
+    "shortName": "Chota Char Dham",
+    "countLabel": "4 Himalayan dhams",
+    "blurb": "Uttarakhand’s Yamunotri, Gangotri, Kedarnath, and Badrinath — the classic Himalayan Char Dham yatra.",
+    "lede": "Do not confuse with Adi Shankaracharya’s pan-India Char Dham. This circuit is the seasonal Uttarakhand pilgrimage.",
+    "sanskrit": "छोटा चार धाम",
+    "expected": 4
+  },
+  {
+    "slug": "panch-kedar",
+    "name": "Panch Kedar",
+    "shortName": "Panch Kedar",
+    "countLabel": "5 Kedars",
+    "blurb": "Five Garhwal shrines of Shiva’s form after the Pandava legend — Kedarnath, Tungnath, Rudranath, Madhyamaheshwar, Kalpeshwar.",
+    "lede": "Kedarnath is shared with Jyotirlinga and Chota Char Dham; the other four complete the Panch Kedar set.",
+    "sanskrit": "पंच केदार",
+    "expected": 5
+  },
+  {
+    "slug": "pancha-bhuta",
+    "name": "Pancha Bhuta Sthalams",
+    "shortName": "Pancha Bhuta",
+    "countLabel": "5 elements",
+    "blurb": "Earth, water, fire, air, and space — five South Indian Shiva temples of the elemental circuit.",
+    "lede": "Complete five-temple set: Kanchipuram, Thiruvanaikaval, Tiruvannamalai, Srikalahasti, and Chidambaram.",
+    "sanskrit": "पञ्चभूत स्थलम्",
+    "expected": 5
+  },
+  {
+    "slug": "ashtavinayak",
+    "name": "Ashtavinayak",
+    "shortName": "Ashtavinayak",
+    "countLabel": "8 Ganesha temples",
+    "blurb": "Maharashtra’s eight sacred Ganesha temples — the classic Ashtavinayak yatra around Pune.",
+    "lede": "Complete eight-temple set in traditional Morgaon-start order. Ideal 2–3 day road circuit from Pune.",
+    "sanskrit": "अष्टविनायक",
+    "expected": 8
+  },
+  {
+    "slug": "modern-temples",
+    "name": "Modern Temples",
+    "shortName": "Modern",
+    "countLabel": "New-age shrines",
+    "blurb": "Contemporary pilgrimage landmarks — Akshardham, ISKCON, and other living temples of the modern era.",
+    "lede": "Open trail of newer or rebuilt sacred complexes that draw huge urban and international crowds.",
+    "sanskrit": "आधुनिक मंदिर"
+  },
+  {
+    "slug": "ramayana-trail",
+    "name": "Ramayana Trail",
+    "shortName": "Ramayana",
+    "countLabel": "Epic sites",
+    "blurb": "Temples and tirthas woven into Rama’s journey — growing trail, not a fixed count.",
+    "lede": "Walk Ramayana geography through temples that preserve local memory of exile, devotion, and return.",
+    "sanskrit": "रामायण पथ"
+  },
+  {
+    "slug": "mahabharata-sites",
+    "name": "Mahabharata Sites",
+    "shortName": "Mahabharata",
+    "countLabel": "Epic sites",
+    "blurb": "Sites tied to the Mahabharata and Bhagavad Gita — open trail, not a fixed count.",
+    "lede": "From Kurukshetra to Dwarka and quieter epic-linked tirthas.",
+    "sanskrit": "महाभारत स्थल"
+  },
+  {
+    "slug": "beyond-india",
+    "name": "Beyond India",
+    "shortName": "Beyond India",
+    "countLabel": "Nepal · Sri Lanka · Kailash",
+    "blurb": "Sacred sites beyond India’s borders linked by shared mythology.",
+    "lede": "Nepal, Sri Lanka, and the Kailash–Manasarovar landscape.",
+    "sanskrit": "अन्तर्राष्ट्रीय तीर्थ"
+  }
+]

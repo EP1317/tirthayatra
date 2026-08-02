@@ -1,0 +1,98 @@
+{
+  "slug": "rameswaram",
+  "name": "Ramanathaswamy Temple",
+  "deity": "Lord Shiva (Ramanathaswamy)",
+  "location": "Rameswaram Island, Tamil Nadu",
+  "state": "Tamil Nadu",
+  "glyph": "रा",
+  "tags": [
+    "12-jyotirlinga",
+    "char-dham",
+    "ramayana-trail"
+  ],
+  "tagLabels": [
+    "12 Jyotirlinga",
+    "Char Dham",
+    "Ramayana Trail"
+  ],
+  "summary": "A Jyotirlinga and Char Dham seat linked to Rama’s worship of Shiva before crossing to Lanka — famous for its corridors and 22 sacred wells.",
+  "famousFor": "Longest temple corridor & 22 theerthams",
+  "mythology": "Rameswaram’s Ramanathaswamy temple is both a Jyotirlinga and a seat of Adi Shankaracharya’s Char Dham. In the Ramayana tradition, Rama worshipped Shiva here before (and in some tellings after) the battle with Ravana, installing a lingam on the seashore. The temple thus joins Shaiva Jyotirlinga theology with the Ramayana’s geography of exile, devotion, and return.",
+  "scriptureLinks": [
+    "Valmiki Ramayana",
+    "Shiva Purana / Jyotirlinga tradition",
+    "Skanda Purana Setu–Rameswara mahatmya lore",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Maha Shivaratri",
+    "Thai floating festival traditions",
+    "Ramalinga Pratishta commemorations"
+  ],
+  "bestTime": "November–February. Summers are hot; monsoon can bring rough seas for island travel.",
+  "whatToCarry": "Cotton clothes, spare set for after theertham baths, waterproof pouch for phone, ID.",
+  "climate": "Tropical coastal — humid year-round.",
+  "nearestRail": "Rameswaram railway station.",
+  "nearestAirport": "Madurai (approx. 170 km) with road/rail onward.",
+  "accommodation": "Temple-linked choultries, trust guest houses, and private hotels near the temple and Agni Theertham beach.",
+  "localFood": "Tamil vegetarian meals, filter coffee, temple prasadam. Island town has many pilgrim messes.",
+  "otherFood": "Multi-cuisine in hotels; seafood towns nearby but temple area stays predominantly vegetarian.",
+  "localLanguage": "Tamil; Hindi and English at tourist points.",
+  "dressCode": "Traditional expectation: men often wear dhoti (veshti) without shirt for inner sanctum entry; women in saree or modest traditional dress. Rules are actively enforced — carry a dhoti/saree or hire/buy near the temple.",
+  "darshanTimings": "Early morning to night with specific spa / aarti windows. Theertham bathing sequence before darshan is customary.",
+  "specialEntry": "Special entry / quicker darshan tickets when available at official counters. Follow temple notice boards.",
+  "restrictions": "Phones and leather items often not allowed in inner areas — use cloakrooms. Photography restricted in sanctum.",
+  "lockers": "Paid cloakrooms for mobiles, cameras, belts, wallets near entrances.",
+  "officialWebsite": "https://www.rameswaramtemple.tn.gov.in/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Ramanathaswamy+Temple+temple+pilgrimage",
+  "videoNote": "Corridor and theertham context for planning your visit sequence.",
+  "nearby": [
+    {
+      "name": "Dhanushkodi",
+      "slug": null,
+      "note": "Ramayana seashore landscape"
+    },
+    {
+      "name": "Pamban Bridge",
+      "slug": null,
+      "note": "Iconic approach to the island"
+    },
+    {
+      "name": "Madurai Meenakshi",
+      "slug": null,
+      "note": "Major temple stop on the same TN loop"
+    }
+  ],
+  "packages": [
+    "Madurai + Rameswaram — 3 days",
+    "Char Dham South leg: Rameswaram focus — 2 days"
+  ],
+  "sources": [
+    "TN HR&CE Department: https://hrce.tn.gov.in/hrcehome/",
+    "Ramanathaswamy Temple official / TN HR&CE notices",
+    "Tamil Nadu Tourism"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Dress-code enforcement and ticket systems change; confirm on the official temple site the day before darshan.",
+  "lat": 9.2881,
+  "lng": 79.3174,
+  "mapQuery": "Ramanathaswamy Temple Rameswaram",
+  "country": "India",
+  "statePortal": {
+    "name": "TN HR&CE Department",
+    "url": "https://hrce.tn.gov.in/hrcehome/",
+    "slug": "tamil-nadu"
+  },
+  "mythologySignificance": "Rameswaram’s Ramanathaswamy temple is both a Jyotirlinga and a seat of Adi Shankaracharya’s Char Dham. In the Ramayana tradition, Rama worshipped Shiva here before (and in some tellings after) the battle with Ravana, installing a lingam on the seashore. The temple thus joins Shaiva Jyotirlinga theology with the Ramayana’s geography of exile, devotion, and return.",
+  "localBeliefs": "Pilgrims bathe in the temple’s twenty-two theerthams before darshan — a ritual sequence believed to purify body and mind. Local belief holds that the corridors and wells mark Rama’s sacred footprint on the island.\n\nDress customs (dhoti/veshti, saree) and theertham discipline are treated as part of respectful approach to Ramanathaswamy. The island is also woven into the wider Ramayana trail toward Dhanushkodi.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "श्री रामेश्वराय नमः",
+    "meaning": "Salutation to Rameshwara — Shiva worshipped by Rama",
+    "source": "Ramayana-linked consecration of the lingam on this shore"
+  },
+  "deityFamilies": [
+    "shiva",
+    "rama"
+  ]
+}

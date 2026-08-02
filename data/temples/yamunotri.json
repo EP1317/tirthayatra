@@ -1,0 +1,77 @@
+{
+  "slug": "yamunotri",
+  "name": "Yamunotri Temple",
+  "deity": "Goddess Yamuna",
+  "location": "Uttarkashi district, Uttarakhand",
+  "state": "Uttarakhand",
+  "country": "India",
+  "glyph": "य",
+  "tags": [
+    "chota-char-dham"
+  ],
+  "tagLabels": [
+    "Chota Char Dham"
+  ],
+  "summary": "First stop of the Uttarakhand Chota Char Dham — Yamunotri temple near the Yamuna’s sacred source region.",
+  "famousFor": "Source-region shrine of the Yamuna; Chota Char Dham",
+  "mythology": "Yamunotri is the Devi shrine of the Yamuna in the Uttarakhand Chota Char Dham. Puranic river goddess theology treats Yamuna as sister of Yama and a purifying tirtha; the Himalayan shrine marks the sacred source-region of that devotion.",
+  "scriptureLinks": [
+    "Puranic Yamuna mahatmya traditions",
+    "Uttarakhand Chota Char Dham pilgrimage lore",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Major local festival days",
+    "Navaratri / Shiva-related observances as applicable"
+  ],
+  "bestTime": "May–June and September–October; closed in winter.",
+  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Varies by region — check seasonal weather before travel.",
+  "nearestRail": "Rishikesh / Dehradun then road to Janki Chatti + trek",
+  "nearestAirport": "Dehradun",
+  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
+  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
+  "otherFood": "Wider options usually in the nearest city.",
+  "localLanguage": "Regional language and Hindi; English varies.",
+  "dressCode": "Modest clothing; follow temple boards for traditional dress rules.",
+  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "specialEntry": "Special entry, if any, only via official temple counters.",
+  "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
+  "lockers": "Cloakrooms where available near the entrance.",
+  "officialWebsite": "https://badrinath-kedarnath.gov.in/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Yamunotri+Temple+temple",
+  "videoNote": "Orientation videos only — verify timings on official sources.",
+  "lat": 30.9987,
+  "lng": 78.4627,
+  "mapQuery": "Yamunotri Temple",
+  "nearby": [],
+  "packages": [
+    "Yamunotri Temple day darshan",
+    "Regional multi-temple circuit"
+  ],
+  "sources": [
+    "Shri Badrinath–Kedarnath Temple Committee: https://badrinath-kedarnath.gov.in/",
+    "Temple trust / local administration notices",
+    "State tourism materials",
+    "Puranic / pilgrimage tradition (lists can vary by scripture)",
+    "Uttarakhand Tourism: https://uttarakhandtourism.gov.in/"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
+  "statePortal": {
+    "name": "Shri Badrinath–Kedarnath Temple Committee",
+    "url": "https://badrinath-kedarnath.gov.in/",
+    "slug": "uttarakhand"
+  },
+  "mythologySignificance": "Yamunotri is the Devi shrine of the Yamuna in the Uttarakhand Chota Char Dham. Puranic river goddess theology treats Yamuna as sister of Yama and a purifying tirtha; the Himalayan shrine marks the sacred source-region of that devotion.\n\nPilgrimage literature treats Yamunotri Temple as a tirtha — a crossing where devotion to Goddess Yamuna is believed to bear fruit more readily than in ordinary space. Accounts summarised here follow widely cited epic, Puranic, and regional mahatmya traditions; temple priests remain the guides for ritual detail.",
+  "localBeliefs": "Pilgrims cook rice in hot springs near the temple as prasadam tradition and regard the tough trek as offering. Seasonal opening and closing frame the goddess’s presence in local calendrical belief.\n\nYamunotri is consciously distinguished from Adi Shankaracharya’s pan-India Char Dham in informed pilgrimage teaching.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "यमुनायै नमः",
+    "meaning": "Salutation to Goddess Yamuna",
+    "source": "Devi mantra of the Yamunotri dham"
+  },
+  "deityFamilies": [
+    "devi"
+  ]
+}

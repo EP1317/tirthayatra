@@ -1,0 +1,199 @@
+{
+  "Andhra Pradesh": {
+    "slug": "andhra-pradesh",
+    "portalName": "AP Temples — Government of Andhra Pradesh",
+    "portalUrl": "https://www.aptemples.org/en-in/home",
+    "also": [
+      { "name": "Tirumala Tirupati Devasthanams", "url": "https://www.tirumala.org/" },
+      { "name": "Srisailam Devasthanam", "url": "https://www.srisailamonline.com/" }
+    ],
+    "note": "Primary state temple information portal for Andhra Pradesh."
+  },
+  "Tamil Nadu": {
+    "slug": "tamil-nadu",
+    "portalName": "TN HR&CE Department",
+    "portalUrl": "https://hrce.tn.gov.in/hrcehome/",
+    "also": [],
+    "note": "Hindu Religious & Charitable Endowments Department administers thousands of TN temples."
+  },
+  "Telangana": {
+    "slug": "telangana",
+    "portalName": "Telangana Endowments Department",
+    "portalUrl": "https://endowments.ts.nic.in/",
+    "also": [],
+    "note": "Official endowments portal for Telangana temples."
+  },
+  "Karnataka": {
+    "slug": "karnataka",
+    "portalName": "Karnataka HRI & CE Department",
+    "portalUrl": "https://itms.kar.nic.in/hrcehome/index.php",
+    "also": [],
+    "note": "Hindu Religious Institutions & Charitable Endowments Department, Government of Karnataka."
+  },
+  "Rajasthan": {
+    "slug": "rajasthan",
+    "portalName": "Devasthan Department, Rajasthan",
+    "portalUrl": "https://devasthan.rajasthan.gov.in/",
+    "also": [],
+    "note": "State Devasthan Department monitors temples, trusts and dharmshalas."
+  },
+  "Uttarakhand": {
+    "slug": "uttarakhand",
+    "portalName": "Shri Badrinath–Kedarnath Temple Committee",
+    "portalUrl": "https://badrinath-kedarnath.gov.in/",
+    "also": [
+      { "name": "Uttarakhand Tourism", "url": "https://uttarakhandtourism.gov.in/" }
+    ],
+    "note": "Official committee portal for major Char Dham / Kedarnath–Badrinath administration."
+  },
+  "Odisha": {
+    "slug": "odisha",
+    "portalName": "Shree Jagannath Temple Administration",
+    "portalUrl": "https://www.jagannath.nic.in/",
+    "also": [
+      { "name": "Odisha Tourism", "url": "https://odishatourism.gov.in/" }
+    ],
+    "note": "Official Puri Jagannath administration and state tourism references."
+  },
+  "Gujarat": {
+    "slug": "gujarat",
+    "portalName": "Shree Somnath Trust",
+    "portalUrl": "https://somnath.org/",
+    "also": [
+      { "name": "Dwarkadhish Temple", "url": "https://www.dwarkadhish.org/" },
+      { "name": "Gujarat Tourism", "url": "https://www.gujarattourism.com/" }
+    ],
+    "note": "Major Gujarat pilgrimage trusts plus state tourism."
+  },
+  "Maharashtra": {
+    "slug": "maharashtra",
+    "portalName": "Maharashtra Tourism",
+    "portalUrl": "https://www.maharashtratourism.gov.in/",
+    "also": [],
+    "note": "Use state tourism and individual temple trusts for darshan updates."
+  },
+  "Madhya Pradesh": {
+    "slug": "madhya-pradesh",
+    "portalName": "Madhya Pradesh Tourism",
+    "portalUrl": "https://www.mptourism.com/",
+    "also": [],
+    "note": "State tourism covers Ujjain, Omkareshwar, Maihar and other tirthas."
+  },
+  "Uttar Pradesh": {
+    "slug": "uttar-pradesh",
+    "portalName": "Shri Kashi Vishwanath Temple",
+    "portalUrl": "https://www.shrikashivishwanath.org/",
+    "also": [
+      { "name": "UP Tourism", "url": "https://uptourism.gov.in/" }
+    ],
+    "note": "Major temple trusts and UP Tourism for Varanasi, Prayagraj, Mathura–Vrindavan."
+  },
+  "Kerala": {
+    "slug": "kerala",
+    "portalName": "Guruvayur Devaswom",
+    "portalUrl": "https://www.guruvayurdevaswom.nic.in/",
+    "also": [
+      { "name": "Travancore Devaswom Board", "url": "https://travancoredevaswomboard.org/" },
+      { "name": "Kerala Tourism", "url": "https://www.keralatourism.org/" }
+    ],
+    "note": "Kerala temples are largely under Devaswom boards."
+  },
+  "West Bengal": {
+    "slug": "west-bengal",
+    "portalName": "West Bengal Tourism",
+    "portalUrl": "https://wbtourism.gov.in/",
+    "also": [],
+    "note": "Many Shakti Peethas; verify individual temple committees for timings."
+  },
+  "Himachal Pradesh": {
+    "slug": "himachal-pradesh",
+    "portalName": "Himachal Tourism",
+    "portalUrl": "https://himachaltourism.gov.in/",
+    "also": [],
+    "note": "Jwalamukhi, Naina Devi, Kangra Brajeshwari and other Devi shrines."
+  },
+  "Assam": {
+    "slug": "assam",
+    "portalName": "Kamakhya Temple",
+    "portalUrl": "https://www.kamakhyatemple.org/",
+    "also": [
+      { "name": "Assam Tourism", "url": "https://tourism.assam.gov.in/" }
+    ],
+    "note": "Kamakhya and Assam Tourism for Northeast pilgrimage."
+  },
+  "Jharkhand": {
+    "slug": "jharkhand",
+    "portalName": "Jharkhand Tourism",
+    "portalUrl": "https://tourism.jharkhand.gov.in/",
+    "also": [],
+    "note": "Baidyanath Deoghar and regional tirthas."
+  },
+  "Bihar": {
+    "slug": "bihar",
+    "portalName": "Bihar Tourism",
+    "portalUrl": "https://tourism.bihar.gov.in/",
+    "also": [],
+    "note": "Gaya, Mahishi and other peetha / pilgrimage sites."
+  },
+  "Haryana": {
+    "slug": "haryana",
+    "portalName": "Haryana Tourism",
+    "portalUrl": "https://haryanatourism.gov.in/",
+    "also": [],
+    "note": "Kurukshetra sacred geography and Bhadrakali."
+  },
+  "Punjab": {
+    "slug": "punjab",
+    "portalName": "Punjab Tourism",
+    "portalUrl": "https://punjabtourism.punjab.gov.in/",
+    "also": [],
+    "note": "Devi Talab / Tripuramalini and other shrines."
+  },
+  "Tripura": {
+    "slug": "tripura",
+    "portalName": "Tripura Tourism",
+    "portalUrl": "https://tripuratourism.gov.in/",
+    "also": [],
+    "note": "Tripura Sundari temple at Udaipur."
+  },
+  "Meghalaya": {
+    "slug": "meghalaya",
+    "portalName": "Meghalaya Tourism",
+    "portalUrl": "https://www.meghalayatourism.in/",
+    "also": [],
+    "note": "Nartiang Jayanti and regional shrines."
+  },
+  "Chhattisgarh": {
+    "slug": "chhattisgarh",
+    "portalName": "Chhattisgarh Tourism",
+    "portalUrl": "https://www.tourism.cg.gov.in/",
+    "also": [],
+    "note": "Sirpur heritage and Danteshwari region."
+  },
+  "Jammu and Kashmir": {
+    "slug": "jammu-and-kashmir",
+    "portalName": "JK Tourism",
+    "portalUrl": "https://www.jktourism.jk.gov.in/",
+    "also": [
+      { "name": "Shri Mata Vaishno Devi Shrine Board", "url": "https://www.maavaishnodevi.org/" }
+    ],
+    "note": "Amarnath and Vaishno Devi pilgrimage administration references."
+  },
+  "Delhi": {
+    "slug": "delhi",
+    "portalName": "Delhi Tourism",
+    "portalUrl": "https://delhitourism.gov.in/",
+    "also": [
+      { "name": "Akshardham", "url": "https://akshardham.com/" },
+      { "name": "ISKCON Delhi", "url": "https://iskcondelhi.com/" }
+    ],
+    "note": "Capital-region pilgrimage: Akshardham, ISKCON, and major urban temples."
+  },
+  "Goa": {
+    "slug": "goa",
+    "portalName": "Goa Tourism",
+    "portalUrl": "https://www.goatourism.gov.in/",
+    "also": [],
+    "note": "Goan temple culture — Mangueshi, Shantadurga and other family deities."
+  }
+}

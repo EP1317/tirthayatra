@@ -1,0 +1,94 @@
+{
+  "slug": "kamakhya",
+  "name": "Kamakhya Temple",
+  "deity": "Goddess Kamakhya",
+  "location": "Nilachal Hill, Guwahati, Assam",
+  "state": "Assam",
+  "glyph": "का",
+  "tags": [
+    "51-shakti-peeth"
+  ],
+  "tagLabels": [
+    "51 Shakti Peeth"
+  ],
+  "summary": "A foremost Shakti Peetha on Nilachal Hill — centre of Tantric tradition and the Ambubachi Mela.",
+  "famousFor": "Ambubachi Mela & Shakti Peetha",
+  "mythology": "Kamakhya on Nilachal Hill is among the foremost Shakti Peethas. In the Sati–Daksha narrative retained in Devi and Kalika Purana traditions, the yoni of Sati fell here. Kamakhya thus stands at the centre of Shakta and Tantric geography in eastern India.",
+  "scriptureLinks": [
+    "Kalika Purana",
+    "Devi Purana / Shakta traditions",
+    "Pithanirnaya Shakti Peetha lists",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Ambubachi Mela (June typically)",
+    "Durga Puja",
+    "Manasha Puja season"
+  ],
+  "bestTime": "October–April for weather. Ambubachi draws huge crowds — plan lodging months ahead.",
+  "whatToCarry": "Modest clothes, umbrella (rain-prone), ID, small cash for offerings and local transport.",
+  "climate": "Humid subtropical; heavy monsoon mid-year.",
+  "nearestRail": "Guwahati railway station.",
+  "nearestAirport": "Lokpriya Gopinath Bordoloi International Airport, Guwahati.",
+  "accommodation": "Hotels across Guwahati; limited stays near Nilachal. During Ambubachi, book early.",
+  "localFood": "Assamese vegetarian thali, temple prasadam, pithas in festival season.",
+  "otherFood": "City offers multi-cuisine; temple hill area leans traditional.",
+  "localLanguage": "Assamese, Hindi, Bengali; English in city hotels.",
+  "dressCode": "Modest traditional clothing preferred. Follow instructions of temple authorities inside complex.",
+  "darshanTimings": "Morning to evening with breaks; special schedules during Ambubachi (temple may close briefly for ritual).",
+  "specialEntry": "Queue systems intensify during mela; official notices only.",
+  "restrictions": "Photography may be restricted in sanctum. Respect Tantric ritual spaces — do not film ceremonies without permission.",
+  "lockers": "Bag/phone rules and cloak facilities as posted at entry points.",
+  "officialWebsite": "https://www.kamakhyatemple.org/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Kamakhya+Temple+temple+pilgrimage",
+  "videoNote": "Nilachal Hill approach — useful orientation (not a substitute for official mela advisories).",
+  "nearby": [
+    {
+      "name": "Umananda Temple",
+      "slug": null,
+      "note": "Peacock Island on Brahmaputra"
+    },
+    {
+      "name": "Basistha Temple",
+      "slug": null,
+      "note": "Same-city Shiva shrine"
+    },
+    {
+      "name": "Sualkuchi",
+      "slug": null,
+      "note": "Silk village day trip"
+    }
+  ],
+  "packages": [
+    "Guwahati Kamakhya day pilgrimage",
+    "Kamakhya + Kaziranga extension — 3–4 days"
+  ],
+  "sources": [
+    "Kamakhya Temple: https://www.kamakhyatemple.org/",
+    "Kamakhya Temple official channels",
+    "Assam Tourism",
+    "Assam Tourism: https://tourism.assam.gov.in/"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Ambubachi dates and access rules are announced yearly — verify before travel.",
+  "lat": 26.1664,
+  "lng": 91.7055,
+  "mapQuery": "Kamakhya Temple Guwahati",
+  "country": "India",
+  "statePortal": {
+    "name": "Kamakhya Temple",
+    "url": "https://www.kamakhyatemple.org/",
+    "slug": "assam"
+  },
+  "mythologySignificance": "Kamakhya on Nilachal Hill is among the foremost Shakti Peethas. In the Sati–Daksha narrative retained in Devi and Kalika Purana traditions, the yoni of Sati fell here. Kamakhya thus stands at the centre of Shakta and Tantric geography in eastern India.\n\nPilgrimage literature treats Kamakhya Temple as a tirtha — a crossing where devotion to Goddess Kamakhya is believed to bear fruit more readily than in ordinary space. Accounts summarised here follow widely cited epic, Puranic, and regional mahatmya traditions; temple priests remain the guides for ritual detail.",
+  "localBeliefs": "Ambubachi Mela marks the goddess’s annual menstrual cycle in local theology — a rare public sacralising of feminine creative power. During this time the temple follows special closure and reopening rites.\n\nAssamese and wider eastern devotees regard Nilachal as a living seat of desire (kama) transformed into sacred Shakti.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "ॐ कामाख्यायै नमः",
+    "meaning": "Om, salutation to Goddess Kamakhya",
+    "source": "Mantra of Nilachal’s foremost Shakti Peetha"
+  },
+  "deityFamilies": [
+    "devi"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "jagannath-puri",
+  "name": "Jagannath Temple, Puri",
+  "deity": "Lord Jagannath (with Balabhadra & Subhadra); Vimala Devi (Shakti Peetha)",
+  "location": "Puri, Odisha",
+  "state": "Odisha",
+  "country": "India",
+  "glyph": "ज",
+  "tags": [
+    "char-dham",
+    "51-shakti-peeth"
+  ],
+  "tagLabels": [
+    "Char Dham",
+    "51 Shakti Peeth"
+  ],
+  "summary": "Eastern Char Dham seat of Jagannath. The Vimala temple inside the same complex is counted as a Shakti Peetha — one shared page for both circuit tags.",
+  "famousFor": "Char Dham seat & Rath Yatra; Vimala Shakti Peetha inside",
+  "mythology": "Puri’s Jagannath temple is the eastern seat of Adi Shankaracharya’s Char Dham. Jagannath, with Balabhadra and Subhadra, represents a distinctive form of Vishnu–Krishna devotion rooted in Odisha’s temple culture. Within the same complex, Goddess Vimala is venerated as a Shakti Peetha (feet of Sati in peetha lists).",
+  "scriptureLinks": [
+    "Skanda Purana / Purushottama Kshetra traditions",
+    "Char Dham pilgrimage tradition",
+    "Shakti Peetha lists — Vimala of Puri",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Rath Yatra",
+    "Snana Yatra",
+    "Kartika"
+  ],
+  "bestTime": "October–March for most plains sites; confirm Himalayan seasonal windows separately.",
+  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Varies by region — check seasonal weather before travel.",
+  "nearestRail": "Puri",
+  "nearestAirport": "Bhubaneswar",
+  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
+  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
+  "otherFood": "Wider options usually in the nearest city.",
+  "localLanguage": "Regional language and Hindi; English varies.",
+  "dressCode": "Strict entry rules historically for non-Hindus to the main temple — follow current official policy. Modest dress required.",
+  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "specialEntry": "Special entry, if any, only via official temple counters.",
+  "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
+  "lockers": "Cloakrooms where available near the entrance.",
+  "officialWebsite": "https://www.jagannath.nic.in/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Jagannath+Temple,+Puri+temple",
+  "videoNote": "Orientation videos only — verify timings on official sources.",
+  "lat": 19.8047,
+  "lng": 85.818,
+  "mapQuery": "Jagannath Temple Puri",
+  "nearby": [],
+  "packages": [
+    "Jagannath Temple, Puri day darshan",
+    "Regional multi-temple circuit"
+  ],
+  "sources": [
+    "Shree Jagannath Temple Administration: https://www.jagannath.nic.in/",
+    "Temple trust / local administration notices",
+    "State tourism materials",
+    "Puranic / pilgrimage tradition (lists can vary by scripture)",
+    "Odisha Tourism: https://odishatourism.gov.in/"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
+  "statePortal": {
+    "name": "Shree Jagannath Temple Administration",
+    "url": "https://www.jagannath.nic.in/",
+    "slug": "odisha"
+  },
+  "mythologySignificance": "Puri’s Jagannath temple is the eastern seat of Adi Shankaracharya’s Char Dham. Jagannath, with Balabhadra and Subhadra, represents a distinctive form of Vishnu–Krishna devotion rooted in Odisha’s temple culture. Within the same complex, Goddess Vimala is venerated as a Shakti Peetha (feet of Sati in peetha lists).\n\nPilgrimage literature treats Jagannath Temple, Puri as a tirtha — a crossing where devotion to Lord Jagannath (with Balabhadra & Subhadra); Vimala Devi (Shakti Peetha) is believed to bear fruit more readily than in ordinary space. Accounts summarised here follow widely cited epic, Puranic, and regional mahatmya traditions; temple priests remain the guides for ritual detail.",
+  "localBeliefs": "Rath Yatra — the deities’ chariot festival — is Odisha’s greatest public theology: gods come out among the people. Mahaprasad from the temple kitchen is believed to carry unique sanctity.\n\nLocal identity binds Jagannath to Odia language, arts, and the idea of the lord as universal ‘Jagannath’ — lord of the world.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "जगन्नाथ स्वामी नयन-पथ-गामी भवतु मे",
+    "meaning": "May Lord Jagannath stay upon the path of my eyes",
+    "source": "Beloved Odia–Sanskrit prayer of Puri devotees"
+  },
+  "deityFamilies": [
+    "krishna",
+    "vishnu",
+    "devi"
+  ]
+}

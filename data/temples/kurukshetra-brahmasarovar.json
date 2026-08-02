@@ -1,0 +1,94 @@
+{
+  "slug": "kurukshetra-brahmasarovar",
+  "name": "Brahma Sarovar & Jyotisar",
+  "deity": "Lord Krishna / Dharma tradition",
+  "location": "Kurukshetra, Haryana",
+  "state": "Haryana",
+  "glyph": "कु",
+  "tags": [
+    "mahabharata-sites"
+  ],
+  "tagLabels": [
+    "Mahabharata Sites"
+  ],
+  "summary": "The land of the Mahabharata war and the Bhagavad Gita — tanks, tirthas, and museums that frame the epic’s geography.",
+  "famousFor": "Gita Upadesh site at Jyotisar",
+  "mythology": "Kurukshetra is the Mahabharata’s dharma-field. Jyotisar is traditionally identified with the place of the Bhagavad Gita’s teaching to Arjuna. Brahma Sarovar is a vast sacred tank praised in regional mahatmya for ancestral rites and eclipse baths.",
+  "scriptureLinks": [
+    "Mahabharata",
+    "Bhagavad Gita",
+    "Vamana Purana — Kurukshetra mahatmya traditions",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Gita Jayanti",
+    "Solar eclipse snans (when applicable)",
+    "Kartik bathing days"
+  ],
+  "bestTime": "October–March. Summers are extreme.",
+  "whatToCarry": "Sun protection, water, modest clothes for temple/tank areas, ID.",
+  "climate": "Hot semi-arid plains.",
+  "nearestRail": "Kurukshetra Junction.",
+  "nearestAirport": "Chandigarh / Delhi with road/rail links.",
+  "accommodation": "Haryana Tourism hotels, dharamshalas, and private lodges in Kurukshetra town.",
+  "localFood": "Haryanvi / North Indian vegetarian; sweets shops common near tanks.",
+  "otherFood": "City restaurants offer wider menus away from tank precincts.",
+  "localLanguage": "Hindi, Haryanvi; English in hotels.",
+  "dressCode": "Modest dress at tanks and temples. No special dhoti rule for most sites.",
+  "darshanTimings": "Sarovar access generally daylight-focused; temples follow standard morning/evening hours. Jyotisar open daytime.",
+  "specialEntry": "Museum and some exhibits may have tickets; tank areas usually open.",
+  "restrictions": "Follow cleanliness rules around sarovars; swimming only where permitted.",
+  "lockers": "Not typically required for day visits.",
+  "officialWebsite": "https://kurukshetra.gov.in/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Brahma+Sarovar+&+Jyotisar+temple+pilgrimage",
+  "videoNote": "Brahma Sarovar scale overview for first-time visitors.",
+  "nearby": [
+    {
+      "name": "Jyotisar",
+      "slug": null,
+      "note": "Gita Upadesh memorial"
+    },
+    {
+      "name": "Sheikh Chilli Tomb / local heritage",
+      "slug": null,
+      "note": "Same-city culture stop"
+    },
+    {
+      "name": "Thaneshwar / Sthaneshwar Mahadev",
+      "slug": null,
+      "note": "Ancient Shiva association"
+    }
+  ],
+  "packages": [
+    "Kurukshetra day circuit (Brahma Sarovar + Jyotisar + Krishna Museum)",
+    "Delhi–Kurukshetra weekend — 2 days"
+  ],
+  "sources": [
+    "Haryana Tourism: https://haryanatourism.gov.in/",
+    "Kurukshetra district administration",
+    "Haryana Tourism"
+  ],
+  "lastUpdated": "2026-07-30",
+  "disclaimer": "Eclipse-day crowds are exceptional — follow district advisories.",
+  "lat": 29.9695,
+  "lng": 76.8783,
+  "mapQuery": "Brahma Sarovar Kurukshetra",
+  "country": "India",
+  "statePortal": {
+    "name": "Haryana Tourism",
+    "url": "https://haryanatourism.gov.in/",
+    "slug": "haryana"
+  },
+  "mythologySignificance": "Kurukshetra is the Mahabharata’s dharma-field. Jyotisar is traditionally identified with the place of the Bhagavad Gita’s teaching to Arjuna. Brahma Sarovar is a vast sacred tank praised in regional mahatmya for ancestral rites and eclipse baths.\n\nPilgrimage literature treats Brahma Sarovar & Jyotisar as a tirtha — a crossing where devotion to Lord Krishna / Dharma tradition is believed to bear fruit more readily than in ordinary space. Accounts summarised here follow widely cited epic, Puranic, and regional mahatmya traditions; temple priests remain the guides for ritual detail.",
+  "localBeliefs": "Eclipse-day snans and Gita Jayanti gatherings renew the belief that this land still echoes Krishna’s words. Museums and marked tirthas help pilgrims map epic memory onto modern Haryana.\n\nLocal guides narrate tank, banyan, and battlefield traditions as one continuum.\n\nFirst-time visitors often hear several versions of the same story from pandas, taxi guides, and elderly pilgrims — a reminder that local belief is living conversation, not a single fixed text.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "धर्मक्षेत्रे कुरुक्षेत्रे",
+    "meaning": "On the field of dharma, at Kurukshetra…",
+    "source": "Opening words of the Bhagavad Gita (1.1)"
+  },
+  "deityFamilies": [
+    "krishna",
+    "vishnu"
+  ]
+}
