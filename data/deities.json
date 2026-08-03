@@ -62,5 +62,13 @@
     "sanskrit": "स्वामिये शरणं अय्यप्पा",
     "blurb": "Sabarimala and related Sastha–Ayyappa devotion.",
     "lede": "Hill and forest pilgrimage centred on Lord Ayyappa."
+  },
+  "sai": {
+    "slug": "sai",
+    "name": "Sai Baba",
+    "nameHi": "साईं बाबा",
+    "sanskrit": "ॐ साईं राम",
+    "blurb": "Shirdi Sai Baba devotion — faith (shraddha) and patience (saburi).",
+    "lede": "Temples and aarti dedicated to Sai Baba of Shirdi."
   }
 }

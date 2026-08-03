@@ -259,8 +259,8 @@ def panchang_widget(prefix: str = "") -> str:
 def nav(active: str = "", prefix: str = "", *, show_panchang: bool = False) -> str:
     links = [
         ("index.html", "Home", "home"),
-        ("circuits/index.html", "तीर्थ चक्र", "circuits"),
-        ("deities/index.html", "देवी-देवता", "deities"),
+        ("circuits/index.html", "Tirtha Chakra", "circuits"),
+        ("deities/index.html", "Devi-Devata", "deities"),
         ("devotion/aarti.html", "Aarti", "aarti"),
         ("devotion/chalisa.html", "Chalisa", "chalisa"),
         ("devotion/vrat-katha.html", "Vrat Katha", "vrat-katha"),
@@ -1113,21 +1113,70 @@ def build_devotion_index() -> str:
     ) + body
 
 
+def devotion_sangrah_grid(items: list, prefix: str, aria_label: str = "Sangrah") -> str:
+    """Pill grid for Aarti / Chalisa / Vrat Katha collections."""
+    pills = []
+    for item in items:
+        label = item.get("sangrahLabel") or item.get("titleHi") or item.get("title")
+        pills.append(
+            f'<a class="aarti-pill" href="{prefix}devotion/{e(item["slug"])}.html">{e(label)}</a>'
+        )
+    return (
+        f'<div class="aarti-sangrah" role="navigation" aria-label="{e(aria_label)}">'
+        f'{"".join(pills)}</div>'
+    )
+
+
 def build_devotion_type_page(type_key: str) -> str:
     prefix = "../"
     meta = DEVOTION["types"][type_key]
     items = [i for i in devotion_items() if i.get("type") == type_key]
     rows = [devotion_item_row(i, prefix) for i in items]
+    list_titles = {
+        "aarti": ("Full aarti texts", "Open any aarti for complete verses and listen-along audio."),
+        "chalisa": ("Full chalisa texts", "Open any chalisa for complete verses and listen-along audio."),
+        "vrat-katha": (
+            "Full vrat katha texts",
+            "Open any vrat katha for the complete story and watch/listen along.",
+        ),
+    }
+    sangrah_labels = {
+        "aarti": "Aarti Sangrah",
+        "chalisa": "Chalisa Sangrah",
+        "vrat-katha": "Vrat Katha Sangrah",
+    }
+    hidden_titles = {
+        "aarti": "Aarti names",
+        "chalisa": "Chalisa names",
+        "vrat-katha": "Vrat katha names",
+    }
+    sangrah = ""
+    if type_key in sangrah_labels:
+        sangrah = f"""
+<section class="section aarti-sangrah-section">
+  <h2 class="section-title visually-hidden">{e(hidden_titles[type_key])}</h2>
+  {devotion_sangrah_grid(items, prefix, sangrah_labels[type_key])}
+</section>
+"""
+    title, desc = list_titles.get(
+        type_key, ("All texts", "Browse the full collection below.")
+    )
+    list_block = f"""
+<section class="section aarti-list-section">
+  <h2 class="section-title">{e(title)}</h2>
+  <p class="section-desc">{e(desc)}</p>
+  <div class="temple-list">{''.join(rows)}</div>
+</section>
+"""
     body = f"""
 {nav(type_key, prefix)}
 <section class="page-head">
-  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}devotion/index.html">Devotion</a> · {e(meta['name'])}</p>
+  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · {e(meta['name'])}</p>
   <h1>{e(meta['nameHi'])} · {e(meta['name'])} — {len(items)}</h1>
   <p class="lede">{e(meta.get('lede', ''))}</p>
 </section>
-<section class="section">
-  <div class="temple-list">{''.join(rows)}</div>
-</section>
+{sangrah}
+{list_block}
 {footer(prefix)}
 </body>
 </html>
@@ -1143,7 +1192,7 @@ def build_devotion_deity_page(fam: str) -> str:
     body = f"""
 {nav('devotion', prefix)}
 <section class="page-head">
-  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}devotion/index.html">Devotion</a> · {e(meta['name'])}</p>
+  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · {e(meta['name'])}</p>
   <p class="section-kicker" style="margin-bottom:0.5rem">{e(meta.get('sanskrit', ''))}</p>
   <h1>{e(meta['nameHi'])} — Aarti, Chalisa &amp; Vrat Katha</h1>
   <p class="lede">Devotional texts for {e(meta['name'])}. Also explore <a href="{prefix}deities/{e(fam)}.html">{e(meta['name'])} temples</a>.</p>
@@ -1233,7 +1282,6 @@ def build_devotion_item(item: dict) -> str:
 <section class="page-head">
   <p class="breadcrumb">
     <a href="{prefix}index.html">Home</a> ·
-    <a href="{prefix}devotion/index.html">Devotion</a> ·
     <a href="{prefix}devotion/{e(item['type'])}.html">{e(dtype.get('name', item['type']))}</a>
   </p>
   <p class="section-kicker" style="margin-bottom:0.5rem">{e(dtype.get('nameHi', ''))} · {e(deity.get('nameHi', ''))}</p>

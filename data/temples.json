@@ -2957,7 +2957,9 @@
     "tagLabels": [
       "Modern Temples"
     ],
-    "deityFamilies": [],
+    "deityFamilies": [
+      "sai"
+    ],
     "summary": "Shirdi Sai Baba samadhi mandir — a defining Maharashtra and pan-India faith destination.",
     "famousFor": "One of India’s largest modern pilgrimages"
   },

@@ -20,7 +20,8 @@ AUDIO: dict[str, tuple[str | None, str]] = {
     "krishna-chalisa": (None, "Krishna Chalisa full"),
     "devi-aarti": ("RY1jmTTjvhI", "Anuradha Paudwal · Jai Ambe Gauri"),
     "durga-chalisa": ("bwPdADAHWtE", "Anuradha Paudwal · Durga Chalisa"),
-    "ganesha-aarti": ("x3eVLuHDdfM", "Sadhana Sargam · Sukhkarta Dukhharta"),
+    # Previous Sadhana Sargam ID (x3eVLuHDdfM) disables embedding on other sites
+    "ganesha-aarti": ("pLkirAh4WLE", "Anuradha Paudwal · Sukhkarta Dukhharta"),
     "ganesha-chalisa": ("WyHFSjN0miU", "Anuradha Paudwal · Ganesh Chalisa"),
     "rama-aarti": ("-v8GkdHngD4", "Shri Ramchandra Kripalu Bhajman"),
     "rama-chalisa": ("FQlA6g1HNZk", "Ram Chalisa with lyrics"),
@@ -28,6 +29,16 @@ AUDIO: dict[str, tuple[str | None, str]] = {
     "hanuman-chalisa": ("AETFvQonfV8", "Hariharan · Gulshan Kumar · Hanuman Chalisa"),
     "ayyappa-aarti": ("-3dse1ajTSA", "Harivarasanam · Sabarimala evening hymn"),
     "ayyappa-chalisa": (None, "Ayyappa Chalisa full"),
+    # Extra Aarti Sangrah — in-page YouTube embeds
+    "kali-aarti": ("sOsKCTnb4N8", "Om Jai Kali Mata · Kali Mata Aarti"),
+    "mansa-devi-aarti": ("j4qlpADATt0", "Shree Mansa Devi Ki Aarti with Lyrics"),
+    "sai-baba-aarti": ("DT5PaaxItzY", "Rajshri Soul · Sai Baba Aarti"),
+    "lakshmi-aarti": ("SyqgAt-T0iQ", "Anuradha Paudwal · Om Jai Lakshmi Mata"),
+    "saraswati-aarti": ("8gDdZDaDg6s", "Anuradha Paudwal · Om Jai Saraswati Mata"),
+    "gayatri-aarti": ("UnSCmfR-TZs", "Gayatri Mata Aarti · Shantikunj Haridwar"),
+    "satyanarayan-aarti": ("aDxzdR0MVRY", "Anuradha Paudwal · Om Jai Lakshmi Ramana"),
+    "vaishno-devi-aarti": ("7TMeGrAiYXg", "Vaishno Devi Ki Aarti · Jai Vaishno Mata"),
+    "ganga-aarti": ("5X_cMif5qPM", "Anuradha Paudwal · Ganga Aarti / Om Jai Gange Mata"),
     # Vrat Katha — popular YouTube tellings with in-page embed (same as aarti)
     "pradosh-vrat-katha": ("y7IYZhCe4_8", "Pradosh Vrat Katha · Hindi"),
     "ekadashi-vrat-katha": ("zwtFgICr0UI", "Ekadashi Vrat Katha · Hindi"),
