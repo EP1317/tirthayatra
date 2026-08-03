@@ -56,11 +56,10 @@ a:hover { color: var(--vermillion); }
   top: 0;
   z-index: 100;
   min-height: var(--nav-h);
-  display: grid;
-  /* Same single-row composition on laptop + monitor: brand | search | links */
-  grid-template-columns: minmax(0, 1fr) minmax(200px, 380px) minmax(0, 1.25fr);
+  display: flex;
   align-items: center;
-  gap: 0.65rem clamp(0.75rem, 1.5vw, 1.25rem);
+  justify-content: space-between;
+  gap: 0.75rem clamp(0.85rem, 1.8vw, 1.5rem);
   padding: 0.55rem clamp(1rem, 2.5vw, 1.75rem);
   background: linear-gradient(180deg, rgba(42, 22, 14, 0.97), rgba(42, 22, 14, 0.92));
   backdrop-filter: blur(10px);
@@ -69,16 +68,27 @@ a:hover { color: var(--vermillion); }
   max-width: 100vw;
 }
 
-.nav-left { justify-self: start; min-width: 0; }
-.nav-center { justify-self: center; width: 100%; max-width: 380px; min-width: 0; }
+/* Brand + search sit together on the left */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem clamp(0.85rem, 1.5vw, 1.25rem);
+  min-width: 0;
+  flex: 0 1 auto;
+}
+
+.nav-left .temple-search {
+  width: clamp(11rem, 22vw, 17.5rem);
+  flex: 0 1 auto;
+}
+
 .nav-right {
-  justify-self: end;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 0.5rem;
+  gap: 0.55rem clamp(0.65rem, 1.2vw, 1rem);
   min-width: 0;
-  max-width: 100%;
+  flex: 1 1 auto;
 }
 
 .visually-hidden {
@@ -92,10 +102,11 @@ a:hover { color: var(--vermillion); }
   border: 0;
 }
 
-/* —— Top-center pill search —— */
+/* —— Nav pill search (left, beside brand) —— */
 .temple-search {
   position: relative;
   width: 100%;
+  min-width: 0;
 }
 
 .temple-search-shell {
@@ -1695,14 +1706,13 @@ a:hover { color: var(--vermillion); }
   .page-hero--photo { min-height: 18rem; }
 }
 
-/* Narrow desktop / small laptop: keep single-row nav; only tighten sizes */
+/* Narrow desktop / small laptop: keep brand+search left; tighten sizes */
 @media (max-width: 1180px) {
   .site-nav {
-    grid-template-columns: minmax(0, auto) minmax(160px, 280px) minmax(0, 1fr);
-    gap: 0.5rem 0.75rem;
+    gap: 0.55rem 0.75rem;
     padding-inline: 0.9rem;
   }
-  .nav-center { max-width: 280px; }
+  .nav-left .temple-search { width: clamp(9.5rem, 20vw, 14rem); }
   .nav-brand { font-size: 1.2rem; }
   .nav-brand span { font-size: 0.75rem; }
   .nav-links { gap: 0.5rem; }
@@ -1714,17 +1724,15 @@ a:hover { color: var(--vermillion); }
 }
 
 @media (max-width: 900px) {
-  .site-nav {
-    grid-template-columns: minmax(0, auto) minmax(140px, 1fr) auto;
-  }
-  .nav-center { max-width: none; }
+  .nav-left .temple-search { width: clamp(8.5rem, 22vw, 12rem); }
   .nav-links { gap: 0.45rem; }
   .nav-links a { font-size: 0.78rem; }
 }
 
-/* Phone / small tablet: hamburger + stacked hero copy */
+/* Phone / small tablet: brand+menu top row, search full-width below */
 @media (max-width: 780px) {
   .site-nav {
+    display: grid;
     grid-template-columns: 1fr auto;
     grid-template-areas:
       "brand menu"
@@ -1732,16 +1740,18 @@ a:hover { color: var(--vermillion); }
     gap: 0.5rem 0.75rem;
     padding: 0.55rem 1rem 0.7rem;
   }
-  .nav-left { grid-area: brand; }
-  .nav-center {
+  .nav-left {
+    display: contents;
+  }
+  .nav-brand { grid-area: brand; }
+  .nav-left .temple-search {
     grid-area: search;
-    max-width: none;
     width: 100%;
-    justify-self: stretch;
   }
   .nav-right {
     grid-area: menu;
     gap: 0.4rem;
+    flex: initial;
   }
   .panchang-chip {
     min-width: 0;

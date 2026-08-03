@@ -218,7 +218,7 @@ def state_slug(state_name: str) -> str:
 
 
 def search_widget(prefix: str = "") -> str:
-    """Single top-center pill search used in the site nav."""
+    """Pill search used in the site nav (left of menu links)."""
     return f"""
 <div class="temple-search" data-temple-search data-prefix="{e(prefix)}">
   <div class="temple-search-shell">
@@ -276,8 +276,6 @@ def nav(active: str = "", prefix: str = "", *, show_panchang: bool = False) -> s
 <header class="site-nav">
   <div class="nav-left">
     <a class="nav-brand" href="{prefix}index.html">TirthaYatra <span>तीर्थयात्रा</span></a>
-  </div>
-  <div class="nav-center">
     {search_widget(prefix)}
   </div>
   <div class="nav-right">
