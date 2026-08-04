@@ -1,0 +1,109 @@
+{
+  "section": {
+    "name": "Festivals",
+    "nameHi": "त्योहार कैलेंडर",
+    "lede": "Dates, meaning, and how the diaspora celebrates — with related aarti and vrat katha on TirthaYatra.",
+    "disclaimer": "Exact tithi dates can shift by region and almanac. Confirm with your local temple or panchang before planning."
+  },
+  "festivals": [
+    {
+      "slug": "diwali",
+      "name": "Diwali / Deepavali",
+      "nameHi": "दीपावली",
+      "importance": "high",
+      "dateNames": ["Diwali / Deepavali"],
+      "summary": "The festival of lights — Rama’s return, Lakshmi’s grace, and homes lit against the dark.",
+      "summaryHi": "प्रकाश का पर्व — राम की अयोध्या वापसी, लक्ष्मी की कृपा, और अँधेरे के विरुद्ध दीप।",
+      "meaningEn": "Diwali marks joy after struggle: many families remember Rama and Sita’s homecoming to Ayodhya; others emphasise Lakshmi Puja for prosperity and purity. Across India it closes the autumn festival season with lamps, sweets, and family gatherings.",
+      "meaningHi": "दीपावली संघर्ष के बाद आनंद है — कई परिवार राम-सीता की अयोध्या वापसी याद करते हैं; अन्य लक्ष्मी पूजा से समृद्धि और शुद्धता माँगते हैं। दीप, मिष्ठान और परिवार इस पर्व का हृदय हैं।",
+      "howCelebratedEn": [
+        "Clean and decorate the home; light diyas or lamps at dusk",
+        "Lakshmi–Ganesha puja in the evening (regional timings vary)",
+        "Share sweets, new clothes, and greetings with family and neighbours",
+        "Visit a temple if your community holds Diwali aarti or mela"
+      ],
+      "howCelebratedHi": [
+        "घर की सफाई और सजावट; संध्या पर दीप जलाना",
+        "लक्ष्मी–गणेश पूजा (समय क्षेत्र अनुसार भिन्न)",
+        "मिठाई, नए वस्त्र और शुभकामनाएँ",
+        "मंदिर आरती या मेला यदि समुदाय में हो"
+      ],
+      "diasporaEn": "Outside India, Diwali is often celebrated on the nearest weekend as well as the tithi night. Hindu temples in the US, UK, Canada, Gulf, Australia, and SE Asia host Lakshmi puja, cultural programmes, and community dinners. Apartment-safe LED diyas and temple visits are common where fireworks are restricted.",
+      "diasporaHi": "भारत के बाहर दीपावली अक्सर तिथि की रात और निकटतम सप्ताहांत दोनों पर मनाई जाती है। अमेरिका, ब्रिटेन, कनाडा, खाड़ी, ऑस्ट्रेलिया के मंदिर लक्ष्मी पूजा और सांस्कृतिक कार्यक्रम रखते हैं।",
+      "regions": [
+        { "region": "United States & Canada", "notes": "Temple Diwali nights, school/workplace celebrations, weekend melas." },
+        { "region": "United Kingdom & Europe", "notes": "Community halls and mandirs; fireworks rules vary by city." },
+        { "region": "Gulf & SE Asia", "notes": "Large temple gatherings; check public holiday calendars." },
+        { "region": "Australia & New Zealand", "notes": "Spring-season Diwali fairs; evening temple aarti." }
+      ],
+      "relatedDevotion": ["lakshmi-aarti", "devi-aarti", "ganesha-aarti"],
+      "relatedTemples": ["ayodhya-ram-mandir", "akshardham-delhi", "padmanabhaswamy-thiruvananthapuram"]
+    },
+    {
+      "slug": "navaratri",
+      "name": "Navaratri",
+      "nameHi": "नवरात्रि",
+      "importance": "high",
+      "dateNames": ["Sharad Navaratri begins", "Chaitra Navaratri begins"],
+      "summary": "Nine nights of the Goddess — courage, creativity, and community dance or quiet puja.",
+      "summaryHi": "माता की नौ रातें — शक्ति, साधना, गरबा/दुर्गा पूजा या शांत घर की आरती।",
+      "meaningEn": "Navaratri honours Devi in her many forms (Durga, Lakshmi, Saraswati, and regional Mothers). Sharad Navaratri in autumn is the most widely celebrated abroad; Chaitra Navaratri marks the spring cycle. The festival is about inner strength as much as outer celebration.",
+      "meaningHi": "नवरात्रि देवी के अनेक रूपों की आराधना है। शरद नवरात्रि प्रवासी समुदायों में सर्वाधिक मनाई जाती है; चैत्र नवरात्रि वसंत चक्र है। यह पर्व बाहरी उत्सव के साथ आंतरिक शक्ति का भी है।",
+      "howCelebratedEn": [
+        "Daily Devi puja or aarti for nine (or ten) nights",
+        "Garba / Dandiya in Gujarati and many diaspora communities",
+        "Durga Puja pandals in Bengali communities",
+        "Fasting or simple satvik food on chosen days; read Navaratri vrat katha"
+      ],
+      "howCelebratedHi": [
+        "नौ/दस रात देवी पूजा या आरती",
+        "गरबा / डांडिया — गुजराती और प्रवासी समुदायों में",
+        "बंगाली समुदाय में दुर्गा पूजा पंडाल",
+        "व्रत या सात्विक भोजन; नवरात्रि व्रत कथा"
+      ],
+      "diasporaEn": "Temples and cultural associations abroad run garba nights, Devi aarti, and children’s programmes. Many families keep a small golu / kalash at home even in apartments. Check your city’s Hindu association calendar — peak nights (Ashtami, Navami, Vijayadashami) fill quickly.",
+      "diasporaHi": "विदेश के मंदिर और सांस्कृतिक संस्थाएँ गरबा, देवी आरती और बाल कार्यक्रम रखती हैं। फ्लैट में भी छोटा कलश/गोलू संभव है। अष्टमी–नवमी–दशहरा की रातें जल्दी भर जाती हैं।",
+      "regions": [
+        { "region": "United States & Canada", "notes": "Garba leagues, temple Navaratri series, campus Hindu groups." },
+        { "region": "United Kingdom", "notes": "Strong garba culture; temple Devi aarti every night in many cities." },
+        { "region": "Gulf", "notes": "Community halls for garba; temple calendars for aarti timings." },
+        { "region": "East Africa & SE Asia", "notes": "Long-standing Navaratri traditions in Hindu communities." }
+      ],
+      "relatedDevotion": ["navaratri-vrat-katha", "devi-aarti", "durga-chalisa", "kali-aarti", "vaishno-devi-aarti"],
+      "relatedTemples": ["vaishno-devi", "kamakhya", "meenakshi-madurai", "kalighat"]
+    },
+    {
+      "slug": "janmashtami",
+      "name": "Janmashtami",
+      "nameHi": "जन्माष्टमी",
+      "importance": "high",
+      "dateNames": ["Janmashtami"],
+      "summary": "Krishna’s birth night — fasting, midnight aarti, and the play of the child-god.",
+      "summaryHi": "कृष्ण जन्मोत्सव — व्रत, अर्धरात्रि आरती, और बाल गोपाल की लीला।",
+      "meaningEn": "Janmashtami celebrates the birth of Krishna in Mathura’s prison narrative and his childhood in Braj. Devotees stay awake until midnight (or the local temple’s announced hour), offer butter and sweets, and sing of the playful protector who teaches the Gita later in life.",
+      "meaningHi": "जन्माष्टमी मथुरा की कथा और ब्रज की बाल लीला का उत्सव है। भक्त अर्धरात्रि तक जागते हैं, माखन–मिष्ठान चढ़ाते हैं, और उस रक्षक की कथा गाते हैं जो आगे गीता सुनाते हैं।",
+      "howCelebratedEn": [
+        "Fast until midnight aarti (or temple timing), then prasad",
+        "Decorate a jhula / cradle for Bal Krishna at home or temple",
+        "Sing Krishna aarti, bhajans, and read Janmashtami vrat katha",
+        "Dahi Handi in some communities (often on the following day)"
+      ],
+      "howCelebratedHi": [
+        "अर्धरात्रि आरती तक व्रत, फिर प्रसाद",
+        "बाल कृष्ण का झूला घर या मंदिर में",
+        "कृष्ण आरती, भजन, जन्माष्टमी व्रत कथा",
+        "कुछ समुदायों में दही हांडी (अक्सर अगले दिन)"
+      ],
+      "diasporaEn": "ISKCON and community temples worldwide hold midnight abhishek and kirtan. Diaspora families often stream temple aarti if the local centre is far. For children, costume plays of Krishna’s childhood are popular at weekend programmes.",
+      "diasporaHi": "विश्व भर के इस्कॉन और सामुदायिक मंदिर अर्धरात्रि अभिषेक और कीर्तन रखते हैं। दूर होने पर कई परिवार मंदिर आरती ऑनलाइन देखते हैं। बच्चों के लिए कृष्ण लीला नाटक लोकप्रिय हैं।",
+      "regions": [
+        { "region": "United States & Canada", "notes": "ISKCON midnight festivals; Indian associations’ cultural nights." },
+        { "region": "United Kingdom & Europe", "notes": "Temple jagrans; vegetarian community feasts after aarti." },
+        { "region": "Gulf & Africa", "notes": "Large mandir gatherings; check evening traffic and timings." },
+        { "region": "Australia & Fiji / Caribbean diaspora", "notes": "Strong Krishna traditions; temple calendars online." }
+      ],
+      "relatedDevotion": ["janmashtami-vrat-katha", "krishna-aarti", "krishna-chalisa"],
+      "relatedTemples": ["krishna-janmabhoomi-mathura", "banke-bihari-vrindavan", "dwarka", "iskcon-vrindavan", "guruvayur"]
+    }
+  ]
+}

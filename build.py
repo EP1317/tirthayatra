@@ -23,6 +23,9 @@ DEVOTION: dict = {}
 OUT_STATES = ROOT / "states"
 OUT_DEITIES = ROOT / "deities"
 OUT_DEVOTION = ROOT / "devotion"
+OUT_FESTIVALS = ROOT / "festivals"
+
+FESTIVAL_GUIDE: dict = {}
 
 # Bump on every build so browsers don't keep stale HTML-linked CSS/JS.
 ASSET_VER = str(int(time.time()))
@@ -267,6 +270,7 @@ def nav(active: str = "", prefix: str = "", *, show_panchang: bool = False) -> s
         ("devotion/aarti.html", "Aarti", "aarti"),
         ("devotion/chalisa.html", "Chalisa", "chalisa"),
         ("devotion/vrat-katha.html", "Vrat Katha", "vrat-katha"),
+        ("festivals/index.html", "Festivals", "festivals"),
         ("states/index.html", "States", "states"),
         ("pages/about.html", "About", "about"),
     ]
@@ -307,6 +311,7 @@ def footer(prefix: str = "") -> str:
       <a href="{prefix}circuits/char-dham.html">Char Dham</a>
       <a href="{prefix}circuits/modern-temples.html">Modern Temples</a>
       <a href="{prefix}circuits/beyond-india.html">Beyond India</a>
+      <a href="{prefix}festivals/index.html">Festivals calendar</a>
       <a href="{prefix}deities/index.html">By Deity</a>
       <a href="{prefix}devotion/index.html">Aarti · Chalisa · Vrat</a>
       <a href="{prefix}states/index.html">By State</a>
@@ -795,9 +800,16 @@ def build_home(circuits: list, temples: list) -> str:
         <p class="circuit-blurb">Ekadashi, Pradosh, Chaturthi, Navaratri &amp; Mandala stories.</p>
         <span class="circuit-arrow">Open →</span>
       </a>
+      <a class="circuit-tile reveal" href="festivals/index.html">
+        <p class="circuit-count">Festivals</p>
+        <h3 class="circuit-name">त्योहार</h3>
+        <p class="circuit-blurb">Diwali, Navaratri, Janmashtami — meaning, diaspora tips, related aarti.</p>
+        <span class="circuit-arrow">Open calendar →</span>
+      </a>
     </div>
     <p style="margin-top:1.5rem">
       <a class="btn btn-primary" href="devotion/index.html">All devotion texts</a>
+      <a class="btn btn-ghost" href="festivals/index.html" style="margin-left:0.75rem">Festivals calendar</a>
     </p>
   </div>
 </section>
@@ -1519,6 +1531,147 @@ def build_state_page(state: str, temples: list) -> str:
     return head(f"{state} Temples — TirthaYatra", f"Temple pilgrimage guides in {state}", prefix) + body
 
 
+def _temple_by_slug(temples: list, slug: str) -> dict | None:
+    for t in temples:
+        if t.get("slug") == slug:
+            return t
+    return None
+
+
+def _festival_dates(fest: dict, festivals_data: dict) -> list[dict]:
+    names = set(fest.get("dateNames") or [])
+    out = []
+    for row in festivals_data.get("fixed") or []:
+        if row.get("name") in names:
+            out.append(row)
+    out.sort(key=lambda r: r.get("date", ""), reverse=True)
+    return out
+
+
+def build_festivals_index(festivals_data: dict) -> str:
+    prefix = "../"
+    sec = FESTIVAL_GUIDE.get("section", {})
+    cards = []
+    for fest in FESTIVAL_GUIDE.get("festivals", []):
+        dates = _festival_dates(fest, festivals_data)
+        next_date = dates[0]["date"] if dates else "—"
+        cards.append(
+            f"""
+            <a class="circuit-tile reveal" href="{prefix}festivals/{e(fest['slug'])}.html">
+              <p class="circuit-count">Next listed · {e(next_date)}</p>
+              <h3 class="circuit-name">{e(fest.get('nameHi', ''))}</h3>
+              <p class="circuit-blurb"><strong>{e(fest['name'])}</strong> — {e(fest.get('summary', ''))}</p>
+              <span class="circuit-arrow">Open guide →</span>
+            </a>
+            """
+        )
+    body = f"""
+{nav('festivals', prefix)}
+<section class="page-head">
+  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · Festivals</p>
+  <h1>{e(sec.get('nameHi', 'त्योहार'))} · {e(sec.get('name', 'Festivals'))}</h1>
+  <p class="lede">{e(sec.get('lede', ''))}</p>
+</section>
+<section class="section">
+  <div class="circuit-grid">{''.join(cards)}</div>
+  <aside class="belief-disclaimer" style="margin-top:2rem">
+    <strong>Note:</strong> {e(sec.get('disclaimer', ''))}
+  </aside>
+</section>
+{footer(prefix)}
+</body>
+</html>
+"""
+    return head(
+        "Festivals Calendar — TirthaYatra",
+        sec.get("lede", "Hindu festivals for home and diaspora"),
+        prefix,
+    ) + body
+
+
+def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> str:
+    prefix = "../"
+    dates = _festival_dates(fest, festivals_data)
+    date_rows = "".join(
+        f"<li><strong>{e(r['date'])}</strong> — {e(r.get('nameHi') or r['name'])}</li>"
+        for r in dates[:6]
+    )
+    how_en = "".join(f"<li>{e(x)}</li>" for x in fest.get("howCelebratedEn") or [])
+    how_hi = "".join(f"<li>{e(x)}</li>" for x in fest.get("howCelebratedHi") or [])
+    regions = "".join(
+        f"<li><strong>{e(r['region'])}:</strong> {e(r['notes'])}</li>"
+        for r in fest.get("regions") or []
+    )
+    devotion_links = []
+    for slug in fest.get("relatedDevotion") or []:
+        item = next((i for i in devotion_items() if i.get("slug") == slug), None)
+        label = (item.get("titleHi") or item.get("title") or slug) if item else slug
+        devotion_links.append(
+            f'<a class="tag" href="{prefix}devotion/{e(slug)}.html">{e(label)}</a>'
+        )
+    temple_links = []
+    for slug in fest.get("relatedTemples") or []:
+        t = _temple_by_slug(temples, slug)
+        if not t:
+            continue
+        temple_links.append(
+            f'<a class="tag" href="{prefix}temples/{e(slug)}.html">{e(t["name"])}</a>'
+        )
+    devotion_block = (
+        '<h2 class="section-title">Related aarti &amp; katha</h2>'
+        f'<p class="devotion-related">{"".join(devotion_links)}</p>'
+        if devotion_links
+        else ""
+    )
+    temple_block = (
+        '<h2 class="section-title">Related temples</h2>'
+        f'<p class="devotion-related">{"".join(temple_links)}</p>'
+        if temple_links
+        else ""
+    )
+    body = f"""
+{nav('festivals', prefix)}
+<section class="page-head">
+  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}festivals/index.html">Festivals</a> · {e(fest['name'])}</p>
+  <h1>{e(fest.get('nameHi', ''))} · {e(fest['name'])}</h1>
+  <p class="lede">{e(fest.get('summary', ''))}</p>
+  <p class="lede trail-lede-hi">{e(fest.get('summaryHi', ''))}</p>
+</section>
+<section class="section festival-section">
+  <h2 class="section-title">Listed dates</h2>
+  <ul class="festival-date-list">{date_rows or '<li>See panchang / local temple calendar</li>'}</ul>
+  <h2 class="section-title">Meaning · अर्थ</h2>
+  <p>{e(fest.get('meaningEn', ''))}</p>
+  <p class="trail-story-hi">{e(fest.get('meaningHi', ''))}</p>
+  <h2 class="section-title">How it is celebrated · कैसे मनाएँ</h2>
+  <div class="festival-cols">
+    <ul>{how_en}</ul>
+    <ul class="trail-story-hi">{how_hi}</ul>
+  </div>
+  <h2 class="section-title">For the diaspora · प्रवासी समुदाय</h2>
+  <p>{e(fest.get('diasporaEn', ''))}</p>
+  <p class="trail-story-hi">{e(fest.get('diasporaHi', ''))}</p>
+  <ul class="festival-regions">{regions}</ul>
+  {devotion_block}
+  {temple_block}
+  <aside class="belief-disclaimer" style="margin-top:2rem">
+    <strong>Note:</strong> {e(FESTIVAL_GUIDE.get('section', {}).get('disclaimer', ''))}
+  </aside>
+  <p style="margin-top:1.5rem">
+    <a class="btn btn-ghost" href="{prefix}festivals/index.html">All festivals</a>
+  </p>
+</section>
+{footer(prefix)}
+</body>
+</html>
+"""
+    return head(
+        f"{fest['name']} — TirthaYatra",
+        fest.get("summary", fest["name"]),
+        prefix,
+    ) + body
+
+
 def sitemap_loc(path: str) -> str:
     """Absolute URL for a site-relative path (no leading slash required)."""
     path = path.lstrip("/")
@@ -1552,6 +1705,10 @@ def write_sitemap(
     add("devotion/aarti.html", "weekly", "0.8")
     add("devotion/chalisa.html", "weekly", "0.8")
     add("devotion/vrat-katha.html", "weekly", "0.8")
+    add("festivals/index.html", "weekly", "0.8")
+
+    for fest in FESTIVAL_GUIDE.get("festivals", []):
+        add(f"festivals/{fest['slug']}.html", "monthly", "0.75")
 
     for c in circuits:
         add(f"circuits/{c['slug']}.html", "monthly", "0.7")
@@ -1627,13 +1784,14 @@ def build_legal(slug: str, title: str, blocks: list) -> str:
 
 
 def main() -> None:
-    global MEDIA, GROUPS, STATE_PORTALS, DEITIES, DEVOTION
+    global MEDIA, GROUPS, STATE_PORTALS, DEITIES, DEVOTION, FESTIVAL_GUIDE
     OUT_TEMPLES.mkdir(parents=True, exist_ok=True)
     OUT_CIRCUITS.mkdir(parents=True, exist_ok=True)
     OUT_PAGES.mkdir(parents=True, exist_ok=True)
     OUT_STATES.mkdir(parents=True, exist_ok=True)
     OUT_DEITIES.mkdir(parents=True, exist_ok=True)
     OUT_DEVOTION.mkdir(parents=True, exist_ok=True)
+    OUT_FESTIVALS.mkdir(parents=True, exist_ok=True)
 
     media_path = DATA / "media.json"
     MEDIA = load_json(media_path) if media_path.exists() else {}
@@ -1645,6 +1803,11 @@ def main() -> None:
     DEITIES = load_json(deities_path) if deities_path.exists() else {}
     devotion_path = DATA / "devotion.json"
     DEVOTION = load_json(devotion_path) if devotion_path.exists() else {}
+    fest_guide_path = DATA / "festival-guide.json"
+    FESTIVAL_GUIDE = load_json(fest_guide_path) if fest_guide_path.exists() else {}
+    festivals_dates = (
+        load_json(DATA / "festivals.json") if (DATA / "festivals.json").exists() else {}
+    )
 
     circuits = load_json(DATA / "circuits.json")
     index = load_json(DATA / "temples.json")
@@ -1752,6 +1915,15 @@ def main() -> None:
         (OUT_TEMPLES / f"{t['slug']}.html").write_text(
             build_temple(t, index, circuits_by_slug), encoding="utf-8"
         )
+
+    if FESTIVAL_GUIDE.get("festivals"):
+        (OUT_FESTIVALS / "index.html").write_text(
+            build_festivals_index(festivals_dates), encoding="utf-8"
+        )
+        for fest in FESTIVAL_GUIDE["festivals"]:
+            (OUT_FESTIVALS / f"{fest['slug']}.html").write_text(
+                build_festival_detail(fest, festivals_dates, index), encoding="utf-8"
+            )
 
     pages = {
         "about": (

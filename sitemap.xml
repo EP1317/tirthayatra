@@ -55,6 +55,30 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.tirthayatraonline.in/festivals/index.html</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/festivals/diwali.html</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/festivals/navaratri.html</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/festivals/janmashtami.html</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://www.tirthayatraonline.in/circuits/12-jyotirlinga.html</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
