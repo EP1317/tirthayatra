@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tirthayatra.example/sitemap.xml
+Sitemap: https://www.tirthayatraonline.in/sitemap.xml

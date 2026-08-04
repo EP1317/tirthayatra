@@ -27,6 +27,9 @@ OUT_DEVOTION = ROOT / "devotion"
 # Bump on every build so browsers don't keep stale HTML-linked CSS/JS.
 ASSET_VER = str(int(time.time()))
 
+# Canonical production origin (apex redirects to www).
+SITE_URL = "https://www.tirthayatraonline.in"
+
 
 def load_json(path: Path):
     with path.open(encoding="utf-8") as f:
@@ -1516,6 +1519,94 @@ def build_state_page(state: str, temples: list) -> str:
     return head(f"{state} Temples — TirthaYatra", f"Temple pilgrimage guides in {state}", prefix) + body
 
 
+def sitemap_loc(path: str) -> str:
+    """Absolute URL for a site-relative path (no leading slash required)."""
+    path = path.lstrip("/")
+    if not path or path == "index.html":
+        return f"{SITE_URL}/"
+    return f"{SITE_URL}/{path}"
+
+
+def write_sitemap(
+    temples: list,
+    circuits: list,
+    states: list[str],
+    *,
+    lastmod: str | None = None,
+) -> int:
+    """Write sitemap.xml covering public HTML pages. Returns URL count."""
+    from datetime import date
+
+    lastmod = lastmod or date.today().isoformat()
+    urls: list[tuple[str, str, str]] = []  # loc path, changefreq, priority
+
+    def add(path: str, changefreq: str = "weekly", priority: str = "0.5") -> None:
+        urls.append((path, changefreq, priority))
+
+    add("index.html", "daily", "1.0")
+    add("temples/index.html", "weekly", "0.8")
+    add("circuits/index.html", "weekly", "0.8")
+    add("deities/index.html", "weekly", "0.8")
+    add("states/index.html", "weekly", "0.7")
+    add("devotion/index.html", "weekly", "0.8")
+    add("devotion/aarti.html", "weekly", "0.8")
+    add("devotion/chalisa.html", "weekly", "0.8")
+    add("devotion/vrat-katha.html", "weekly", "0.8")
+
+    for c in circuits:
+        add(f"circuits/{c['slug']}.html", "monthly", "0.7")
+
+    for fam in DEITIES:
+        if any(fam in (t.get("deityFamilies") or []) for t in temples):
+            add(f"deities/{fam}.html", "monthly", "0.7")
+        if any(i.get("deity") == fam for i in devotion_items()):
+            add(f"devotion/deity-{fam}.html", "monthly", "0.6")
+
+    for state in states:
+        add(f"states/{state_slug(state)}.html", "monthly", "0.6")
+
+    for t in temples:
+        add(f"temples/{t['slug']}.html", "monthly", "0.7")
+
+    for item in devotion_items():
+        add(f"devotion/{item['slug']}.html", "monthly", "0.6")
+
+    for slug in ("about", "contact", "privacy", "disclaimer", "terms"):
+        add(f"pages/{slug}.html", "yearly", "0.3")
+
+    # Deduplicate while preserving order
+    seen: set[str] = set()
+    entries = []
+    for path, changefreq, priority in urls:
+        if path in seen:
+            continue
+        seen.add(path)
+        entries.append(
+            "  <url>\n"
+            f"    <loc>{e(sitemap_loc(path))}</loc>\n"
+            f"    <lastmod>{lastmod}</lastmod>\n"
+            f"    <changefreq>{changefreq}</changefreq>\n"
+            f"    <priority>{priority}</priority>\n"
+            "  </url>"
+        )
+
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "\n".join(entries)
+        + "\n</urlset>\n"
+    )
+    (ROOT / "sitemap.xml").write_text(xml, encoding="utf-8")
+    (ROOT / "robots.txt").write_text(
+        "User-agent: *\n"
+        "Allow: /\n"
+        "\n"
+        f"Sitemap: {SITE_URL}/sitemap.xml\n",
+        encoding="utf-8",
+    )
+    return len(entries)
+
+
 def build_legal(slug: str, title: str, blocks: list) -> str:
     prefix = "../"
     parts = [f"<h1>{e(title)}</h1>"]
@@ -1770,8 +1861,10 @@ def main() -> None:
             build_legal(slug, title, blocks), encoding="utf-8"
         )
 
+    n_urls = write_sitemap(index, circuits, india_states)
     print(
-        f"Built {len(detailed)} temples, {len(circuits)} circuits, {len(MEDIA)} images wired."
+        f"Built {len(detailed)} temples, {len(circuits)} circuits, "
+        f"{len(MEDIA)} images wired, {n_urls} sitemap URLs."
     )
 
 
