@@ -21,3 +21,4 @@ venv/
 .cache/
 tmp/
 temp/
+.tools/
