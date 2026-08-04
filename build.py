@@ -324,6 +324,10 @@ def footer(prefix: str = "") -> str:
 </footer>
 <script src="{prefix}js/main.js?v={ASSET_VER}"></script>
 <script src="{prefix}js/search.js?v={ASSET_VER}"></script>
+<script>
+  window.va = window.va || function () {{ (window.vaq = window.vaq || []).push(arguments); }};
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 """
 
 
