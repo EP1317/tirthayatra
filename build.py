@@ -803,7 +803,7 @@ def build_home(circuits: list, temples: list) -> str:
       <a class="circuit-tile reveal" href="festivals/index.html">
         <p class="circuit-count">Festivals</p>
         <h3 class="circuit-name">त्योहार</h3>
-        <p class="circuit-blurb">Diwali, Navaratri, Janmashtami — meaning, diaspora tips, related aarti.</p>
+        <p class="circuit-blurb">Shivaratri, Holi, Diwali, Pongal &amp; more — stories, mythology, diaspora tips.</p>
         <span class="circuit-arrow">Open calendar →</span>
       </a>
     </div>
@@ -1602,6 +1602,37 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
         f"<li><strong>{e(r['region'])}:</strong> {e(r['notes'])}</li>"
         for r in fest.get("regions") or []
     )
+    deity_cards = []
+    for ds in fest.get("deityStories") or []:
+        deity_cards.append(
+            f"""
+            <article class="festival-deity-card">
+              <h3>{e(ds.get('deityHi', ''))} · {e(ds.get('deity', ''))}</h3>
+              <p>{e(ds.get('en', ''))}</p>
+              <p class="trail-story-hi">{e(ds.get('hi', ''))}</p>
+            </article>
+            """
+        )
+    deity_block = (
+        '<h2 class="section-title">Devi–Devata stories · देवी–देवता कथा</h2>'
+        f'<div class="festival-deity-grid">{"".join(deity_cards)}</div>'
+        if deity_cards
+        else ""
+    )
+    story_block = ""
+    if fest.get("storyEn") or fest.get("storyHi"):
+        story_block = f"""
+  <h2 class="section-title">The story · कथा</h2>
+  <p>{e(fest.get('storyEn', ''))}</p>
+  <p class="trail-story-hi">{e(fest.get('storyHi', ''))}</p>
+"""
+    myth_block = ""
+    if fest.get("mythologyEn") or fest.get("mythologyHi"):
+        myth_block = f"""
+  <h2 class="section-title">Mythological significance · पौराणिक महत्व</h2>
+  <p>{e(fest.get('mythologyEn', ''))}</p>
+  <p class="trail-story-hi">{e(fest.get('mythologyHi', ''))}</p>
+"""
     devotion_links = []
     for slug in fest.get("relatedDevotion") or []:
         item = next((i for i in devotion_items() if i.get("slug") == slug), None)
@@ -1643,6 +1674,9 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
   <h2 class="section-title">Meaning · अर्थ</h2>
   <p>{e(fest.get('meaningEn', ''))}</p>
   <p class="trail-story-hi">{e(fest.get('meaningHi', ''))}</p>
+  {story_block}
+  {myth_block}
+  {deity_block}
   <h2 class="section-title">How it is celebrated · कैसे मनाएँ</h2>
   <div class="festival-cols">
     <ul>{how_en}</ul>

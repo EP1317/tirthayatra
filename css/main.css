@@ -1522,6 +1522,33 @@ a:hover { color: var(--vermillion); }
   line-height: 1.6;
 }
 
+.festival-deity-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 0.85rem;
+}
+
+.festival-deity-card {
+  padding: 1rem 1.15rem;
+  border-left: 3px solid var(--marigold);
+  background: rgba(212, 146, 10, 0.06);
+  border-radius: 0 0.75rem 0.75rem 0;
+}
+
+.festival-deity-card h3 {
+  margin: 0 0 0.45rem;
+  font-family: var(--font-brand);
+  font-size: 1.15rem;
+  color: var(--stone-deep);
+}
+
+.festival-deity-card p {
+  margin: 0 0 0.45rem;
+  line-height: 1.65;
+}
+
+.festival-deity-card p:last-child { margin-bottom: 0; }
+
 @media (max-width: 720px) {
   .festival-cols { grid-template-columns: 1fr; }
 }
