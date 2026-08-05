@@ -5,9 +5,12 @@ from __future__ import annotations
 
 import html
 import json
+import os
+import shutil
 import time
 import urllib.parse
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
@@ -91,6 +94,47 @@ def validate_fixed_groups(temples: list) -> None:
             )
 
 
+YOUTUBE_EMBED_HOSTS = {
+    "www.youtube.com",
+    "youtube.com",
+    "www.youtube-nocookie.com",
+    "youtube-nocookie.com",
+}
+
+
+def safe_url(url: str | None, *, allow_mailto: bool = False) -> str:
+    """Return url only if scheme/host are safe for href/iframe use; else ''."""
+    if not url or not isinstance(url, str):
+        return ""
+    raw = url.strip()
+    if not raw or raw.startswith("//") or "\\" in raw or "\n" in raw or "\r" in raw:
+        return ""
+    parsed = urlparse(raw)
+    scheme = (parsed.scheme or "").lower()
+    if scheme == "mailto":
+        if not allow_mailto:
+            return ""
+        addr = parsed.path or ""
+        if "@" in addr and all(c not in addr for c in '<>"\''):
+            return raw
+        return ""
+    if scheme in ("http", "https") and parsed.netloc:
+        return raw
+    return ""
+
+
+def is_youtube_embed(url: str | None) -> bool:
+    raw = safe_url(url)
+    if not raw:
+        return False
+    parsed = urlparse(raw)
+    host = (parsed.hostname or "").lower()
+    if host not in YOUTUBE_EMBED_HOSTS:
+        return False
+    path = parsed.path or ""
+    return path.startswith("/embed/") and len(path) > len("/embed/")
+
+
 def e(text) -> str:
     return html.escape(str(text), quote=True)
 
@@ -110,10 +154,15 @@ def credit_html(slug: str) -> str:
     m = media_for(slug)
     if not m:
         return ""
+    page = safe_url(m.get("page"))
+    link = (
+        f'<a href="{e(page)}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>'
+        if page
+        else "Wikimedia Commons"
+    )
     return (
         f'<p class="img-credit">Photo: {e(m.get("credit", "Wikimedia Commons"))} · '
-        f'{e(m.get("license", ""))} · '
-        f'<a href="{e(m.get("page", "#"))}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></p>'
+        f"{e(m.get('license', ''))} · {link}</p>"
     )
 
 
@@ -332,9 +381,7 @@ def footer(prefix: str = "") -> str:
 </footer>
 <script src="{prefix}js/main.js?v={ASSET_VER}"></script>
 <script src="{prefix}js/search.js?v={ASSET_VER}"></script>
-<script>
-  window.va = window.va || function () {{ (window.vaq = window.vaq || []).push(arguments); }};
-</script>
+<script src="{prefix}js/vercel-analytics.js?v={ASSET_VER}"></script>
 <script defer src="/_vercel/insights/script.js"></script>
 """
 
@@ -418,20 +465,29 @@ def build_temple(t: dict, all_temples: list, circuits_by_slug: dict) -> str:
     tags = deity_tags_html(t, prefix) + tags
     scripture = ", ".join(t.get("scriptureLinks", []))
     video = ""
-    if t.get("videoUrl") and "youtube.com/embed/" in t["videoUrl"]:
+    video_url = safe_url(t.get("videoUrl"))
+    if video_url and is_youtube_embed(video_url):
         video = f"""
         <div class="video-embed">
-          <iframe src="{e(t['videoUrl'])}" title="{e(t['name'])} video"
+          <iframe src="{e(video_url)}" title="{e(t['name'])} video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen loading="lazy"></iframe>
         </div>
         <p>{e(t.get('videoNote', ''))}</p>
         """
-    elif t.get("videoUrl"):
+    elif video_url:
         video = f"""
         <p>{e(t.get('videoNote', 'Watch curated videos for orientation — then verify details on official sites.'))}</p>
-        <p><a class="btn btn-ghost" href="{e(t['videoUrl'])}" target="_blank" rel="noopener noreferrer">Open related videos ↗</a></p>
+        <p><a class="btn btn-ghost" href="{e(video_url)}" target="_blank" rel="noopener noreferrer">Open related videos ↗</a></p>
         """
+
+    official = safe_url(t.get("officialWebsite"))
+    official_html = (
+        f'<p><a class="official-link" href="{e(official)}" target="_blank" rel="noopener noreferrer">'
+        "Official trust / tourism website ↗</a></p>"
+        if official
+        else ""
+    )
 
     related = []
     for n in t.get("nearby", []):
@@ -558,7 +614,7 @@ def build_temple(t: dict, all_temples: list, circuits_by_slug: dict) -> str:
       </div>
       <h3>Restrictions at gates</h3>
       <p>{e(t['restrictions'])}</p>
-      <p><a class="official-link" href="{e(t['officialWebsite'])}" target="_blank" rel="noopener noreferrer">Official trust / tourism website ↗</a></p>
+      {official_html}
       {state_portal_html(t, prefix)}
     </section>
 
@@ -620,7 +676,7 @@ def build_temple(t: dict, all_temples: list, circuits_by_slug: dict) -> str:
   </aside>
 </div>
 {footer(prefix)}
-<script src="{prefix}js/comments.js"></script>
+<script src="{prefix}js/comments.js?v={ASSET_VER}"></script>
 </body>
 </html>
 """
@@ -1232,8 +1288,8 @@ def devotion_audio_block(item: dict) -> str:
     """YouTube listen/watch player / link for aarti, chalisa & vrat-katha pages."""
     if item.get("type") not in ("aarti", "chalisa", "vrat-katha"):
         return ""
-    audio_url = (item.get("audioUrl") or "").strip()
-    watch_url = (item.get("audioWatchUrl") or audio_url).strip()
+    audio_url = safe_url(item.get("audioUrl"))
+    watch_url = safe_url(item.get("audioWatchUrl")) or audio_url
     if not audio_url and not watch_url:
         return ""
     is_vrat = item.get("type") == "vrat-katha"
@@ -1248,7 +1304,7 @@ def devotion_audio_block(item: dict) -> str:
         "TirthaYatra does not host the audio file."
     )
     player = ""
-    if "youtube.com/embed/" in audio_url:
+    if audio_url and is_youtube_embed(audio_url):
         player = f"""
     <div class="video-embed devotion-audio-embed">
       <iframe src="{e(audio_url)}" title="{e(item.get('title', 'Devotion'))} {'video' if is_vrat else 'audio'}"
@@ -1258,14 +1314,19 @@ def devotion_audio_block(item: dict) -> str:
     link_href = watch_url or audio_url
     heading = "सुनें · Watch / Listen" if is_vrat else "सुनें · Listen"
     btn = "Open video on YouTube ↗" if is_vrat else "Open audio on YouTube ↗"
+    actions = (
+        f'<p class="devotion-audio-actions">'
+        f'<a class="btn btn-primary" href="{e(link_href)}" target="_blank" rel="noopener noreferrer">{btn}</a>'
+        f"</p>"
+        if link_href
+        else ""
+    )
     return f"""
     <div class="devotion-audio">
       <h2>{heading}</h2>
       <p class="devotion-audio-label">{e(label)}</p>
       {player}
-      <p class="devotion-audio-actions">
-        <a class="btn btn-primary" href="{e(link_href)}" target="_blank" rel="noopener noreferrer">{btn}</a>
-      </p>
+      {actions}
       <p class="devotion-audio-note">{e(note)}</p>
     </div>
     """
@@ -1419,7 +1480,9 @@ def state_portal_html(t: dict, prefix: str) -> str:
     if not portal:
         return ""
     name = portal.get("name") or portal.get("portalName", "State portal")
-    url = portal.get("url") or portal.get("portalUrl", "#")
+    url = safe_url(portal.get("url") or portal.get("portalUrl"))
+    if not url:
+        return ""
     st = t.get("state", "")
     browse = (
         f'<p style="margin-top:0.75rem"><a class="tag" href="{prefix}states/{e(state_slug(st))}.html">More temples in {e(st)}</a></p>'
@@ -1482,10 +1545,12 @@ def build_state_page(state: str, temples: list) -> str:
     )
     portal = STATE_PORTALS.get(state, {})
     portal_block = ""
-    if portal:
+    portal_url = safe_url(portal.get("portalUrl")) if portal else ""
+    if portal and portal_url:
         also = "".join(
-            f'<li><a href="{e(a["url"])}" target="_blank" rel="noopener noreferrer">{e(a["name"])} ↗</a></li>'
+            f'<li><a href="{e(u)}" target="_blank" rel="noopener noreferrer">{e(a["name"])} ↗</a></li>'
             for a in portal.get("also", [])
+            if (u := safe_url(a.get("url")))
         )
         also_html = f"<ul>{also}</ul>" if also else ""
         portal_block = f"""
@@ -1498,7 +1563,7 @@ def build_state_page(state: str, temples: list) -> str:
           <div class="fact-grid">
             <div class="fact">
               <dt>Official state / board portal</dt>
-              <dd><a href="{e(portal['portalUrl'])}" target="_blank" rel="noopener noreferrer">{e(portal['portalName'])} ↗</a></dd>
+              <dd><a href="{e(portal_url)}" target="_blank" rel="noopener noreferrer">{e(portal['portalName'])} ↗</a></dd>
             </div>
             <div class="fact">
               <dt>Note</dt>
@@ -2007,14 +2072,15 @@ def main() -> None:
                 (
                     "Information we collect",
                     [
-                        "TirthaYatra is primarily a static informational website. Optional comments may be stored locally in your browser.",
-                        "Embedded Google Maps may set cookies according to Google’s policies. When we enable AdSense or analytics, those services may also use cookies.",
+                        "TirthaYatra is primarily a static informational website. Optional pilgrim notes may be stored locally in your browser (not sent to our servers).",
+                        "We use Vercel Web Analytics for aggregated page-view statistics (privacy-friendly, cookieless where supported by the platform).",
+                        "Embedded Google Maps and YouTube players may set cookies or similar technologies according to Google’s policies.",
                     ],
                 ),
                 (
                     "Advertising",
                     [
-                        "If ads are shown via Google AdSense, Google may use advertising cookies. We do not collect affirmative information about your religious beliefs for advertising purposes.",
+                        "We do not currently show third-party ads. If Google AdSense is enabled later, Google may use advertising cookies; we will update this policy before that change. We do not collect affirmative information about your religious beliefs for advertising purposes.",
                     ],
                 ),
                 (
@@ -2072,6 +2138,28 @@ def main() -> None:
         f"Built {len(detailed)} temples, {len(circuits)} circuits, "
         f"{len(MEDIA)} images wired, {n_urls} sitemap URLs."
     )
+    prune_deploy_artifacts()
+
+
+def prune_deploy_artifacts() -> None:
+    """On Vercel, drop build-only sources from the published static root."""
+    if os.environ.get("VERCEL") != "1":
+        return
+    keep_data = {"search-index.json", "festivals.json"}
+    data_dir = DATA
+    if data_dir.is_dir():
+        for path in data_dir.iterdir():
+            if path.is_file() and path.name not in keep_data:
+                path.unlink(missing_ok=True)
+            elif path.is_dir():
+                shutil.rmtree(path, ignore_errors=True)
+    for name in ("build.py", "scripts", "README.md", ".git"):
+        target = ROOT / name
+        if target.is_file():
+            target.unlink(missing_ok=True)
+        elif target.is_dir():
+            shutil.rmtree(target, ignore_errors=True)
+    print("Pruned build-only artifacts from Vercel output.")
 
 
 if __name__ == "__main__":

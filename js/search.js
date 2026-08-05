@@ -75,6 +75,25 @@
       .replace(/"/g, "&quot;");
   }
 
+  /** Allow only relative site paths like temples/foo.html (no schemes / //). */
+  function safeRelativeHref(prefix, href) {
+    var raw = String(href || "").trim();
+    if (!raw || /^[a-zA-Z][a-zA-Z0-9+.-]*:/.test(raw) || raw.indexOf("//") === 0) {
+      return "";
+    }
+    if (
+      raw.indexOf("\\") !== -1 ||
+      raw.indexOf("..") !== -1 ||
+      /[\u0000-\u001f\u007f]/.test(raw)
+    ) {
+      return "";
+    }
+    if (!/^[a-zA-Z0-9._/-]+\.html$/.test(raw)) return "";
+    var p = String(prefix || "");
+    if (p && !/^(?:\.\.\/)+$/.test(p)) return "";
+    return p + raw;
+  }
+
   function render(widget, items, q) {
     var box = widget.querySelector("[data-search-results]");
     if (!box) return;
@@ -95,7 +114,8 @@
     box.hidden = false;
     box.innerHTML = items
       .map(function (item) {
-        var href = prefix + item.href;
+        var href = safeRelativeHref(prefix, item.href);
+        if (!href) return "";
         var meta = [item.state || item.country, item.famousFor]
           .filter(Boolean)
           .join(" · ");
@@ -117,6 +137,7 @@
           "</span></a>"
         );
       })
+      .filter(Boolean)
       .join("");
   }
 

@@ -1,0 +1,8 @@
+.git
+.tools
+.cursor
+.DS_Store
+**/__pycache__
+*.pyc
+scripts/
+*.md

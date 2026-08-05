@@ -35,6 +35,20 @@
     return n < 10 ? "0" + n : String(n);
   }
 
+  function safeHttpUrl(url) {
+    var raw = String(url || "").trim();
+    if (!raw || raw.indexOf("\\") !== -1 || /[\u0000-\u001f\u007f]/.test(raw)) {
+      return "";
+    }
+    try {
+      var u = new URL(raw, window.location.origin);
+      if (u.protocol !== "http:" && u.protocol !== "https:") return "";
+      return u.href;
+    } catch (err) {
+      return "";
+    }
+  }
+
   function istParts(d) {
     var fmt = new Intl.DateTimeFormat("en-CA", {
       timeZone: "Asia/Kolkata",
@@ -287,11 +301,17 @@
         '<p class="panchang-note">' +
         escapeHtml(disc) +
         "</p>" +
-        '<p class="panchang-ref"><a href="' +
-        escapeHtml(ref.url) +
-        '" target="_blank" rel="noopener noreferrer">' +
-        escapeHtml(ref.label) +
-        " ↗</a></p>";
+        (function () {
+          var refUrl = safeHttpUrl(ref && ref.url);
+          if (!refUrl) return "";
+          return (
+            '<p class="panchang-ref"><a href="' +
+            escapeHtml(refUrl) +
+            '" target="_blank" rel="noopener noreferrer">' +
+            escapeHtml(ref.label) +
+            " ↗</a></p>"
+          );
+        })();
     }
   }
 
