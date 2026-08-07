@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Festival Calendar — TirthaYatra</title>
+  <meta name="description" content="Month view and next 30 days of Hindu festivals for home puja and diaspora families." />
+  <meta name="theme-color" content="#2a160e" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <link rel="stylesheet" href="../css/main.css?v=1786098726" />
+  
+</head>
+<body>
+
+
+<header class="site-nav">
+  <div class="nav-left">
+    <a class="nav-brand" href="../index.html">TirthaYatra <span>तीर्थयात्रा</span></a>
+    
+<div class="temple-search" data-temple-search data-prefix="../">
+  <div class="temple-search-shell">
+    <label class="temple-search-label" for="temple-search-input">
+      <svg class="temple-search-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+        <circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M16.2 16.2L21 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span class="visually-hidden">Search temples</span>
+    </label>
+    <input id="temple-search-input" class="temple-search-input" type="search"
+      placeholder="Search temples, deities, states…" autocomplete="off" spellcheck="false"
+      data-search-input aria-autocomplete="list" aria-controls="temple-search-results" />
+  </div>
+  <div id="temple-search-results" class="temple-search-results" data-search-results role="listbox" hidden></div>
+</div>
+
+  </div>
+  <div class="nav-right">
+    <button class="nav-toggle" type="button" aria-label="Menu" data-nav-toggle>Menu</button>
+    <ul class="nav-links" data-nav-links>
+      <li><a href="../index.html">Home</a></li><li><a href="../circuits/index.html">Tirtha Chakra</a></li><li><a href="../deities/index.html">Devi-Devata</a></li><li><a href="../devotion/aarti.html">Aarti</a></li><li><a href="../devotion/chalisa.html">Chalisa</a></li><li><a href="../devotion/vrat-katha.html">Vrat Katha</a></li><li><a href="../festivals/index.html" class="active">Festivals</a></li><li><a href="../stories/index.html">Stories</a></li><li><a href="../devotion/daily.html">Today</a></li><li><a href="../my-board.html">My Board</a></li><li><a href="../states/index.html">States</a></li><li><a href="../pages/about.html">About</a></li>
+    </ul>
+    
+  </div>
+</header>
+
+<section class="page-head">
+  <p class="breadcrumb"><a href="../index.html">Home</a> · <a href="../festivals/index.html">Festivals</a> · Calendar</p>
+  <h1>त्योहार कैलेंडर · Festival calendar</h1>
+  <p class="lede">Month view and the next 30 days — for home puja planning and seasonal reading. Share a plain-text card with family abroad. Dates are listed guides; confirm tithi with your panchang.</p>
+</section>
+<section class="section festival-calendar" data-festival-calendar data-prefix="../" data-guide-map="{&quot;Makar Sankranti&quot;: &quot;makar-sankranti&quot;, &quot;Lohri&quot;: &quot;lohri&quot;, &quot;Thai Pongal&quot;: &quot;pongal&quot;, &quot;Maha Shivaratri&quot;: &quot;maha-shivaratri&quot;, &quot;Holi&quot;: &quot;holi&quot;, &quot;Holika Dahan&quot;: &quot;holi&quot;, &quot;Gudi Padwa&quot;: &quot;gudi-padwa&quot;, &quot;Raksha Bandhan&quot;: &quot;raksha-bandhan&quot;, &quot;Janmashtami&quot;: &quot;janmashtami&quot;, &quot;Ganesh Chaturthi&quot;: &quot;ganesh-chaturthi&quot;, &quot;Sharad Navaratri begins&quot;: &quot;navaratri&quot;, &quot;Chaitra Navaratri begins&quot;: &quot;navaratri&quot;, &quot;Dussehra / Vijayadashami&quot;: &quot;dussehra&quot;, &quot;Diwali / Deepavali&quot;: &quot;diwali&quot;, &quot;Bhai Dooj&quot;: &quot;bhai-dooj&quot;}">
+  <div class="cal-toolbar">
+    <button type="button" class="btn btn-ghost" data-cal-prev>← Prev</button>
+    <h2 class="cal-label" data-cal-label>Month</h2>
+    <button type="button" class="btn btn-ghost" data-cal-next-btn>Next →</button>
+  </div>
+  <div data-cal-month></div>
+  <h2 class="section-title">Next 30 days</h2>
+  <div class="cal-next-grid" data-cal-next></div>
+  <div class="cal-share-box" data-cal-share hidden>
+    <h3>Shareable card</h3>
+    <p class="engage-note">Plain text you can paste into WhatsApp / email. No images copied from third parties.</p>
+    <textarea rows="5" data-share-text readonly></textarea>
+    <button type="button" class="btn btn-primary" data-share-copy>Copy text</button>
+  </div>
+  <aside class="belief-disclaimer" style="margin-top:2rem">
+    <strong>Note:</strong> Informational calendar only. Regional observance can differ by a day. Not an itinerary planner.
+  </aside>
+  <p style="margin-top:1.5rem">
+    <a class="btn btn-ghost" href="../festivals/index.html">All festival guides</a>
+  </p>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-brand">TirthaYatra</p>
+      <p>Stories, circuits, and practical darshan guides — India, Nepal, Sri Lanka, and the Kailash pilgrimage landscape.</p>
+    </div>
+    <div class="footer-col footer-col-explore">
+      <h3>Explore</h3>
+      <div class="footer-explore-grid">
+        <a href="../circuits/12-jyotirlinga.html">12 Jyotirlinga</a>
+        <a href="../festivals/calendar.html">Festival calendar</a>
+        <a href="../circuits/ashtavinayak.html">Ashtavinayak</a>
+        <a href="../festivals/index.html">Festival guides</a>
+        <a href="../circuits/char-dham.html">Char Dham</a>
+        <a href="../stories/index.html">Short stories</a>
+        <a href="../circuits/modern-temples.html">Modern Temples</a>
+        <a href="../devotion/daily.html">Today’s practice</a>
+        <a href="../circuits/beyond-india.html">Beyond India</a>
+        <a href="../my-board.html">My Board</a>
+        <a href="../deities/index.html">By Deity</a>
+        <a href="../devotion/index.html">Aarti · Chalisa · Vrat</a>
+        <a href="../states/index.html">By State</a>
+        <a href="../temples/index.html">All Temples</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h3>Trust</h3>
+      <a href="../pages/about.html">About</a>
+      <a href="../pages/contact.html">Contact</a>
+      <a href="../pages/feedback.html">Feedback</a>
+      <a href="../pages/privacy.html">Privacy Policy</a>
+      <a href="../pages/disclaimer.html">Disclaimer</a>
+      <a href="../pages/terms.html">Terms</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 TirthaYatra. Informational home-devotion &amp; temple guide — not affiliated with any temple trust. Photos via Wikimedia Commons (see credits). Traditional narratives retold for learning; confirm ritual timing with your panchang or family priest.</p>
+  </div>
+</footer>
+<script src="../js/main.js?v=1786098726"></script>
+<script src="../js/search.js?v=1786098726"></script>
+<script src="../js/board.js?v=1786098726"></script>
+<script src="../js/feedback.js?v=1786098726"></script>
+<script src="../js/vercel-analytics.js?v=1786098726"></script>
+<script defer src="/_vercel/insights/script.js"></script>
+
+<script src="../js/calendar.js?v=1786098726"></script>
+</body>
+</html>

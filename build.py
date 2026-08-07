@@ -27,8 +27,11 @@ OUT_STATES = ROOT / "states"
 OUT_DEITIES = ROOT / "deities"
 OUT_DEVOTION = ROOT / "devotion"
 OUT_FESTIVALS = ROOT / "festivals"
+OUT_STORIES = ROOT / "stories"
 
 FESTIVAL_GUIDE: dict = {}
+STORIES: dict = {}
+ENGAGEMENT: dict = {}
 
 # Bump on every build so browsers don't keep stale HTML-linked CSS/JS.
 ASSET_VER = str(int(time.time()))
@@ -320,6 +323,9 @@ def nav(active: str = "", prefix: str = "", *, show_panchang: bool = False) -> s
         ("devotion/chalisa.html", "Chalisa", "chalisa"),
         ("devotion/vrat-katha.html", "Vrat Katha", "vrat-katha"),
         ("festivals/index.html", "Festivals", "festivals"),
+        ("stories/index.html", "Stories", "stories"),
+        ("devotion/daily.html", "Today", "daily"),
+        ("my-board.html", "My Board", "board"),
         ("states/index.html", "States", "states"),
         ("pages/about.html", "About", "about"),
     ]
@@ -353,34 +359,43 @@ def footer(prefix: str = "") -> str:
       <p class="footer-brand">TirthaYatra</p>
       <p>Stories, circuits, and practical darshan guides — India, Nepal, Sri Lanka, and the Kailash pilgrimage landscape.</p>
     </div>
-    <div class="footer-col">
+    <div class="footer-col footer-col-explore">
       <h3>Explore</h3>
-      <a href="{prefix}circuits/12-jyotirlinga.html">12 Jyotirlinga</a>
-      <a href="{prefix}circuits/ashtavinayak.html">Ashtavinayak</a>
-      <a href="{prefix}circuits/char-dham.html">Char Dham</a>
-      <a href="{prefix}circuits/modern-temples.html">Modern Temples</a>
-      <a href="{prefix}circuits/beyond-india.html">Beyond India</a>
-      <a href="{prefix}festivals/index.html">Festivals calendar</a>
-      <a href="{prefix}deities/index.html">By Deity</a>
-      <a href="{prefix}devotion/index.html">Aarti · Chalisa · Vrat</a>
-      <a href="{prefix}states/index.html">By State</a>
-      <a href="{prefix}temples/index.html">All Temples</a>
+      <div class="footer-explore-grid">
+        <a href="{prefix}circuits/12-jyotirlinga.html">12 Jyotirlinga</a>
+        <a href="{prefix}festivals/calendar.html">Festival calendar</a>
+        <a href="{prefix}circuits/ashtavinayak.html">Ashtavinayak</a>
+        <a href="{prefix}festivals/index.html">Festival guides</a>
+        <a href="{prefix}circuits/char-dham.html">Char Dham</a>
+        <a href="{prefix}stories/index.html">Short stories</a>
+        <a href="{prefix}circuits/modern-temples.html">Modern Temples</a>
+        <a href="{prefix}devotion/daily.html">Today’s practice</a>
+        <a href="{prefix}circuits/beyond-india.html">Beyond India</a>
+        <a href="{prefix}my-board.html">My Board</a>
+        <a href="{prefix}deities/index.html">By Deity</a>
+        <a href="{prefix}devotion/index.html">Aarti · Chalisa · Vrat</a>
+        <a href="{prefix}states/index.html">By State</a>
+        <a href="{prefix}temples/index.html">All Temples</a>
+      </div>
     </div>
     <div class="footer-col">
       <h3>Trust</h3>
       <a href="{prefix}pages/about.html">About</a>
       <a href="{prefix}pages/contact.html">Contact</a>
+      <a href="{prefix}pages/feedback.html">Feedback</a>
       <a href="{prefix}pages/privacy.html">Privacy Policy</a>
       <a href="{prefix}pages/disclaimer.html">Disclaimer</a>
       <a href="{prefix}pages/terms.html">Terms</a>
     </div>
   </div>
   <div class="footer-bottom">
-    <p>© 2026 TirthaYatra. Informational guide — not affiliated with any temple trust. Photos via Wikimedia Commons (see credits). Timings change; verify on official sites.</p>
+    <p>© 2026 TirthaYatra. Informational home-devotion &amp; temple guide — not affiliated with any temple trust. Photos via Wikimedia Commons (see credits). Traditional narratives retold for learning; confirm ritual timing with your panchang or family priest.</p>
   </div>
 </footer>
 <script src="{prefix}js/main.js?v={ASSET_VER}"></script>
 <script src="{prefix}js/search.js?v={ASSET_VER}"></script>
+<script src="{prefix}js/board.js?v={ASSET_VER}"></script>
+<script src="{prefix}js/feedback.js?v={ASSET_VER}"></script>
 <script src="{prefix}js/vercel-analytics.js?v={ASSET_VER}"></script>
 <script defer src="/_vercel/insights/script.js"></script>
 """
@@ -507,6 +522,18 @@ def build_temple(t: dict, all_temples: list, circuits_by_slug: dict) -> str:
         if len(related) >= 4:
             break
 
+    import build_engage
+
+    post_visit = build_engage.temple_post_visit_loop(
+        t,
+        prefix=prefix,
+        related_html=nearby_html(related[:4], prefix),
+        devotion_items=devotion_items(),
+        festival_guide=FESTIVAL_GUIDE,
+        stories_data=STORIES,
+    )
+    feedback_block = build_engage.feedback_section_html("temple")
+
     src = img_src(t["slug"], prefix)
     hero_media = ""
     gallery = ""
@@ -625,33 +652,9 @@ def build_temple(t: dict, all_temples: list, circuits_by_slug: dict) -> str:
       <p class="updated">Last updated: {e(t['lastUpdated'])}. {e(t.get('disclaimer', ''))}</p>
     </section>
 
-    <section class="temple-section" id="related">
-      <h2>Continue Your Yatra</h2>
-      <p>Explore more temples on related circuits — keep the journey going.</p>
-      {nearby_html(related[:4], prefix)}
-    </section>
+    {post_visit}
 
-    <section class="comments" id="comments" data-temple="{e(t['slug'])}">
-      <h2>Pilgrim Notes &amp; Reviews</h2>
-      <p class="comments-note">Share respectful travel tips. Comments are stored on your device for this demo — no hate or spam.</p>
-      <form class="comment-form" data-comment-form>
-        <label>Name (Optional) <input name="name" maxlength="60" placeholder="Your name" /></label>
-        <label>Visit rating
-          <select name="rating" required>
-            <option value="5">5 — Profound</option>
-            <option value="4">4 — Very good</option>
-            <option value="3">3 — Good</option>
-            <option value="2">2 — Mixed</option>
-            <option value="1">1 — Difficult</option>
-          </select>
-        </label>
-        <label>Your note
-          <textarea name="body" required maxlength="800" placeholder="Tip on dress code, queues, food, or best time…"></textarea>
-        </label>
-        <button class="btn btn-primary" type="submit">Add note</button>
-      </form>
-      <div class="comment-list" data-comment-list></div>
-    </section>
+    {feedback_block}
   </article>
 
   <aside class="temple-aside">
@@ -666,7 +669,7 @@ def build_temple(t: dict, all_temples: list, circuits_by_slug: dict) -> str:
         <li><a href="#itinerary">Travel &amp; food</a></li>
         <li><a href="#nearby">Nearby &amp; packages</a></li>
         <li><a href="#practical">Dress code &amp; timings</a></li>
-        <li><a href="#comments">Reviews</a></li>
+        <li><a href="#feedback">Feedback</a></li>
       </ol>
     </nav>
     <div class="aside-tags">{tags}</div>
@@ -676,7 +679,6 @@ def build_temple(t: dict, all_temples: list, circuits_by_slug: dict) -> str:
   </aside>
 </div>
 {footer(prefix)}
-<script src="{prefix}js/comments.js?v={ASSET_VER}"></script>
 </body>
 </html>
 """
@@ -739,6 +741,8 @@ def build_circuit(c: dict, temples: list) -> str:
 
 
 def build_home(circuits: list, temples: list) -> str:
+    import build_engage
+
     prefix = ""
     tiles = []
     for c in circuits:
@@ -795,7 +799,7 @@ def build_home(circuits: list, temples: list) -> str:
   <div class="section-head reveal">
     <p class="section-kicker">तीर्थ चक्र · Sacred circuits</p>
     <h2 class="section-title">Begin with a path, not a list</h2>
-    <p class="section-desc">Choose a legendary circuit — then open each temple’s mythology, map, itinerary, and practical gate rules.</p>
+    <p class="section-desc">Choose a legendary circuit — then open each temple’s mythology, map, photos, and practical gate rules for respectful visits.</p>
   </div>
   <div class="circuit-grid">
     {''.join(tiles)}
@@ -856,19 +860,34 @@ def build_home(circuits: list, temples: list) -> str:
         <p class="circuit-blurb">Ekadashi, Pradosh, Chaturthi, Navaratri &amp; Mandala stories.</p>
         <span class="circuit-arrow">Open →</span>
       </a>
-      <a class="circuit-tile reveal" href="festivals/index.html">
+      <a class="circuit-tile reveal" href="festivals/calendar.html">
         <p class="circuit-count">Festivals</p>
         <h3 class="circuit-name">त्योहार</h3>
-        <p class="circuit-blurb">Shivaratri, Holi, Diwali, Pongal &amp; more — stories, mythology, diaspora tips.</p>
+        <p class="circuit-blurb">Calendar, home-puja guides, diaspora tips — Shivaratri to Diwali.</p>
         <span class="circuit-arrow">Open calendar →</span>
+      </a>
+      <a class="circuit-tile reveal" href="stories/index.html">
+        <p class="circuit-count">Short stories</p>
+        <h3 class="circuit-name">कथा</h3>
+        <p class="circuit-blurb">60–90 second myth explainers for first-timers and families.</p>
+        <span class="circuit-arrow">Read →</span>
+      </a>
+      <a class="circuit-tile reveal" href="devotion/daily.html">
+        <p class="circuit-count">Daily habit</p>
+        <h3 class="circuit-name">आज</h3>
+        <p class="circuit-blurb">Today’s aarti + katha + story — for home practice.</p>
+        <span class="circuit-arrow">Start →</span>
       </a>
     </div>
     <p style="margin-top:1.5rem">
       <a class="btn btn-primary" href="devotion/index.html">All devotion texts</a>
-      <a class="btn btn-ghost" href="festivals/index.html" style="margin-left:0.75rem">Festivals calendar</a>
+      <a class="btn btn-ghost" href="festivals/calendar.html" style="margin-left:0.75rem">Festival calendar</a>
+      <a class="btn btn-ghost" href="my-board.html" style="margin-left:0.75rem">My Board</a>
     </p>
   </div>
 </section>
+
+{build_engage.build_home_engage_band(ENGAGEMENT, FESTIVAL_GUIDE, ASSET_VER, prefix)}
 
 <section class="section">
   <div class="section-head reveal">
@@ -1355,6 +1374,15 @@ def build_devotion_item(item: dict) -> str:
     )
     audio_block = devotion_audio_block(item)
     nav_active = item.get("type") if item.get("type") in ("aarti", "chalisa", "vrat-katha") else "aarti"
+    import build_engage
+
+    dev_save = build_engage.save_btn(
+        "devotion",
+        item["slug"],
+        item.get("title") or item["slug"],
+        f"{prefix}devotion/{item['slug']}.html",
+    )
+    dev_feedback = build_engage.feedback_section_html("devotion")
     body = f"""
 {nav(nav_active, prefix)}
 <section class="page-head">
@@ -1365,8 +1393,10 @@ def build_devotion_item(item: dict) -> str:
   <p class="section-kicker" style="margin-bottom:0.5rem">{e(dtype.get('nameHi', ''))} · {e(deity.get('nameHi', ''))}</p>
   <h1>{e(item['titleHi'])}</h1>
   <p class="lede">{e(item['title'])}</p>
+  <p>{dev_save} <a class="btn btn-ghost" href="{prefix}devotion/daily.html">Today’s practice</a>
+  <button type="button" class="btn btn-ghost" data-feedback-open data-type="correction">Suggest correction</button></p>
 </section>
-<section class="section devotion-section">
+<section class="section devotion-section" data-board-open="devotion" data-slug="{e(item['slug'])}">
   <article class="devotion-article">
     <div class="fact-grid">
       <div class="fact"><dt>Deity</dt><dd><a href="{prefix}devotion/deity-{e(item['deity'])}.html">{e(deity.get('name', item['deity']))}</a></dd></div>
@@ -1374,6 +1404,7 @@ def build_devotion_item(item: dict) -> str:
       <div class="fact"><dt>When to recite</dt><dd>{e(item.get('when', ''))}</dd></div>
     </div>
     <p class="devotion-summary">{e(item.get('summary', ''))}</p>
+    <aside class="belief-disclaimer"><strong>Text note:</strong> Traditional hymn / katha presented for personal learning and home puja. Authors and lineages remain with their traditions; TirthaYatra does not claim copyright over classical verses. Optional YouTube listens belong to their uploaders.</aside>
     {audio_block}
     <h2>पाठ · Text</h2>
     <div class="devotion-verses">{verses}</div>
@@ -1388,6 +1419,7 @@ def build_devotion_item(item: dict) -> str:
       <a class="btn btn-ghost" href="{prefix}devotion/{e(item['type'])}.html">More {e(dtype.get('name', 'texts'))}</a>
       <a class="btn btn-ghost" href="{prefix}deities/{e(item['deity'])}.html">{e(deity.get('name', 'Deity'))} temples</a>
     </p>
+    {dev_feedback}
   </article>
 </section>
 {footer(prefix)}
@@ -1636,6 +1668,7 @@ def build_festivals_index(festivals_data: dict) -> str:
   <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · Festivals</p>
   <h1>{e(sec.get('nameHi', 'त्योहार'))} · {e(sec.get('name', 'Festivals'))}</h1>
   <p class="lede">{e(sec.get('lede', ''))}</p>
+  <p><a class="btn btn-primary" href="{prefix}festivals/calendar.html">Month calendar · next 30 days</a></p>
 </section>
 <section class="section">
   <div class="circuit-grid">{''.join(cards)}</div>
@@ -1648,14 +1681,23 @@ def build_festivals_index(festivals_data: dict) -> str:
 </html>
 """
     return head(
-        "Festivals Calendar — TirthaYatra",
+        "Festival Guides — TirthaYatra",
         sec.get("lede", "Hindu festivals for home and diaspora"),
         prefix,
     ) + body
 
 
 def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> str:
+    import build_engage
+
     prefix = "../"
+    fest_save = build_engage.save_btn(
+        "festival",
+        fest["slug"],
+        fest["name"],
+        f"{prefix}festivals/{fest['slug']}.html",
+    )
+    fest_feedback = build_engage.feedback_section_html("festival")
     dates = _festival_dates(fest, festivals_data)
     date_rows = "".join(
         f"<li><strong>{e(r['date'])}</strong> — {e(r.get('nameHi') or r['name'])}</li>"
@@ -1732,8 +1774,10 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
   <h1>{e(fest.get('nameHi', ''))} · {e(fest['name'])}</h1>
   <p class="lede">{e(fest.get('summary', ''))}</p>
   <p class="lede trail-lede-hi">{e(fest.get('summaryHi', ''))}</p>
+  <p>{fest_save}</p>
+  <p><a class="btn btn-ghost" href="{prefix}festivals/calendar.html">Open festival calendar</a></p>
 </section>
-<section class="section festival-section">
+<section class="section festival-section" data-board-open="festival" data-slug="{e(fest['slug'])}">
   <h2 class="section-title">Listed dates</h2>
   <ul class="festival-date-list">{date_rows or '<li>See panchang / local temple calendar</li>'}</ul>
   <h2 class="section-title">Meaning · अर्थ</h2>
@@ -1756,6 +1800,7 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
   <aside class="belief-disclaimer" style="margin-top:2rem">
     <strong>Note:</strong> {e(FESTIVAL_GUIDE.get('section', {}).get('disclaimer', ''))}
   </aside>
+  {fest_feedback}
   <p style="margin-top:1.5rem">
     <a class="btn btn-ghost" href="{prefix}festivals/index.html">All festivals</a>
   </p>
@@ -1805,9 +1850,15 @@ def write_sitemap(
     add("devotion/chalisa.html", "weekly", "0.8")
     add("devotion/vrat-katha.html", "weekly", "0.8")
     add("festivals/index.html", "weekly", "0.8")
+    add("festivals/calendar.html", "daily", "0.85")
+    add("stories/index.html", "weekly", "0.8")
+    add("devotion/daily.html", "daily", "0.85")
+    add("my-board.html", "monthly", "0.5")
 
     for fest in FESTIVAL_GUIDE.get("festivals", []):
         add(f"festivals/{fest['slug']}.html", "monthly", "0.75")
+    for story in STORIES.get("stories", []):
+        add(f"stories/{story['slug']}.html", "monthly", "0.7")
 
     for c in circuits:
         add(f"circuits/{c['slug']}.html", "monthly", "0.7")
@@ -1827,7 +1878,7 @@ def write_sitemap(
     for item in devotion_items():
         add(f"devotion/{item['slug']}.html", "monthly", "0.6")
 
-    for slug in ("about", "contact", "privacy", "disclaimer", "terms"):
+    for slug in ("about", "contact", "feedback", "privacy", "disclaimer", "terms"):
         add(f"pages/{slug}.html", "yearly", "0.3")
 
     # Deduplicate while preserving order
@@ -1883,7 +1934,9 @@ def build_legal(slug: str, title: str, blocks: list) -> str:
 
 
 def main() -> None:
-    global MEDIA, GROUPS, STATE_PORTALS, DEITIES, DEVOTION, FESTIVAL_GUIDE
+    import build_engage
+
+    global MEDIA, GROUPS, STATE_PORTALS, DEITIES, DEVOTION, FESTIVAL_GUIDE, STORIES, ENGAGEMENT
     OUT_TEMPLES.mkdir(parents=True, exist_ok=True)
     OUT_CIRCUITS.mkdir(parents=True, exist_ok=True)
     OUT_PAGES.mkdir(parents=True, exist_ok=True)
@@ -1891,6 +1944,7 @@ def main() -> None:
     OUT_DEITIES.mkdir(parents=True, exist_ok=True)
     OUT_DEVOTION.mkdir(parents=True, exist_ok=True)
     OUT_FESTIVALS.mkdir(parents=True, exist_ok=True)
+    OUT_STORIES.mkdir(parents=True, exist_ok=True)
 
     media_path = DATA / "media.json"
     MEDIA = load_json(media_path) if media_path.exists() else {}
@@ -1904,6 +1958,10 @@ def main() -> None:
     DEVOTION = load_json(devotion_path) if devotion_path.exists() else {}
     fest_guide_path = DATA / "festival-guide.json"
     FESTIVAL_GUIDE = load_json(fest_guide_path) if fest_guide_path.exists() else {}
+    stories_path = DATA / "stories.json"
+    STORIES = load_json(stories_path) if stories_path.exists() else {}
+    engage_path = DATA / "engagement.json"
+    ENGAGEMENT = load_json(engage_path) if engage_path.exists() else {}
     festivals_dates = (
         load_json(DATA / "festivals.json") if (DATA / "festivals.json").exists() else {}
     )
@@ -2019,10 +2077,56 @@ def main() -> None:
         (OUT_FESTIVALS / "index.html").write_text(
             build_festivals_index(festivals_dates), encoding="utf-8"
         )
+        (OUT_FESTIVALS / "calendar.html").write_text(
+            build_engage.build_festivals_calendar(
+                FESTIVAL_GUIDE, ASSET_VER, nav, footer, head
+            ),
+            encoding="utf-8",
+        )
         for fest in FESTIVAL_GUIDE["festivals"]:
             (OUT_FESTIVALS / f"{fest['slug']}.html").write_text(
                 build_festival_detail(fest, festivals_dates, index), encoding="utf-8"
             )
+
+    if STORIES.get("stories"):
+        (OUT_STORIES / "index.html").write_text(
+            build_engage.build_stories_index(STORIES, ASSET_VER, nav, footer, head),
+            encoding="utf-8",
+        )
+        for story in STORIES["stories"]:
+            (OUT_STORIES / f"{story['slug']}.html").write_text(
+                build_engage.build_story_detail(
+                    story, STORIES, ASSET_VER, nav, footer, head
+                ),
+                encoding="utf-8",
+            )
+
+    (OUT_DEVOTION / "daily.html").write_text(
+        build_engage.build_daily_practice(
+            ENGAGEMENT,
+            devotion_items(),
+            STORIES,
+            ASSET_VER,
+            nav,
+            footer,
+            head,
+        ),
+        encoding="utf-8",
+    )
+    (ROOT / "my-board.html").write_text(
+        build_engage.build_my_board(
+            ENGAGEMENT,
+            index,
+            FESTIVAL_GUIDE,
+            devotion_items(),
+            STORIES,
+            ASSET_VER,
+            nav,
+            footer,
+            head,
+        ),
+        encoding="utf-8",
+    )
 
     pages = {
         "about": (
@@ -2031,8 +2135,8 @@ def main() -> None:
                 (
                     "Our purpose",
                     [
-                        "TirthaYatra is an independent informational guide to temples and pilgrimage circuits across India and related sacred sites in Nepal, Sri Lanka, and the Kailash region.",
-                        "We help travellers understand mythology, see the place (licensed photos), find it on the map, and arrive prepared with dress codes, darshan timings, and official links.",
+                        "TirthaYatra is an independent informational site for home devotion (aarti, chalisa, vrat katha, festival stories) and temple learning across India and related sacred sites in Nepal, Sri Lanka, and the Kailash region.",
+                        "We are not a booking engine or guaranteed itinerary planner. Practical temple details can change — verify on official trust or tourism channels before travel.",
                     ],
                 ),
                 (
@@ -2062,6 +2166,34 @@ def main() -> None:
                     "Reach us",
                     [
                         'For corrections, image credit updates, or to suggest a temple: <a href="mailto:TirthaYatraOnline@gmail.com">TirthaYatraOnline@gmail.com</a>.',
+                        'Prefer a guided form? Use <a href="../pages/feedback.html">Feedback</a> or the Feedback button on any page.',
+                    ],
+                ),
+            ],
+        ),
+        "feedback": (
+            "Feedback &amp; content tips",
+            [
+                (
+                    "Help improve TirthaYatra",
+                    [
+                        "Use the <strong>Feedback</strong> button (bottom-right on every page) to suggest a correction, add a detail, highlight something useful, ask a question, or share appreciation.",
+                        "Choose a type, write a clear note, then <strong>Email to TirthaYatra</strong> so editors can review it. You may also save a personal copy on this device.",
+                        "Feedback is for editorial review and is <strong>not published live automatically</strong>. That protects readers from spam and keeps us aligned with advertising and copyright policies.",
+                    ],
+                ),
+                (
+                    "What helps most",
+                    [
+                        "Name the page section (e.g. “Darshan timings”, “Diwali story”).",
+                        "For corrections: what is wrong, and what should it say (with a source if you have one).",
+                        "For home-puja tips: keep them respectful, non-commercial, and free of hate.",
+                    ],
+                ),
+                (
+                    "Direct email",
+                    [
+                        'You can also write <a href="mailto:TirthaYatraOnline@gmail.com">TirthaYatraOnline@gmail.com</a>.',
                     ],
                 ),
             ],
@@ -2072,7 +2204,9 @@ def main() -> None:
                 (
                     "Information we collect",
                     [
-                        "TirthaYatra is primarily a static informational website. Optional pilgrim notes may be stored locally in your browser (not sent to our servers).",
+                        "TirthaYatra is primarily a static informational website for home devotion and temple learning.",
+                        "Optional My Board saves, checklists, practice marks, and personal copies of feedback notes may be stored locally in your browser (localStorage) and are not uploaded automatically.",
+                        "When you choose <strong>Email to TirthaYatra</strong>, your feedback opens in your email app and is sent to us only if you send that message. We use emailed feedback for editorial review and corrections.",
                         "We use Vercel Web Analytics for aggregated page-view statistics (privacy-friendly, cookieless where supported by the platform).",
                         "Embedded Google Maps and YouTube players may set cookies or similar technologies according to Google’s policies.",
                     ],
@@ -2080,7 +2214,16 @@ def main() -> None:
                 (
                     "Advertising",
                     [
-                        "We do not currently show third-party ads. If Google AdSense is enabled later, Google may use advertising cookies; we will update this policy before that change. We do not collect affirmative information about your religious beliefs for advertising purposes.",
+                        "We do not currently show third-party ads. Before enabling Google AdSense we will update this policy, place ads according to Google’s publisher policies, and avoid ad placement that implies endorsement of rituals or temple trusts.",
+                        "Visitor feedback is moderated before any public display. We do not use feedback content to build advertising profiles of religious beliefs. My Board / practice data stays on-device unless a future sync feature is clearly disclosed.",
+                    ],
+                ),
+                (
+                    "Copyright &amp; content",
+                    [
+                        "Short stories on TirthaYatra are original editorial retellings of traditional themes for learning — not verbatim scripture reprints.",
+                        "Aarti, Chalisa, and vrat katha texts are traditional materials presented for personal study and home puja; classical authorship remains with their traditions. Wikimedia photos keep their stated licenses. Temple names and logos belong to their trusts.",
+                        "Do not scrape or republish our pages as your own scripture edition. Contact us for correction requests.",
                     ],
                 ),
                 (
@@ -2121,7 +2264,14 @@ def main() -> None:
                 (
                     "Content &amp; images",
                     [
-                        "Text is for personal learning unless noted. Wikimedia images remain under their original licenses; temple names and logos belong to their trusts.",
+                        "Text is for personal learning and home puja unless noted. Short stories are original retellings; traditional hymns remain with their lineages. Wikimedia images keep their licenses; temple names and logos belong to their trusts.",
+                        "You may not republish TirthaYatra pages as scripture editions, scrape content for competing commercial apps without permission, or use our marks to imply temple-trust affiliation.",
+                    ],
+                ),
+                (
+                    "User-stored notes",
+                    [
+                        "Optional on-device notes and My Board items are your responsibility. Do not store unlawful, hateful, or infringing material. We may remove server-side features in future versions if moderation is required for ads compliance.",
                     ],
                 ),
             ],

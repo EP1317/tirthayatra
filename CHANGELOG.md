@@ -1,0 +1,65 @@
+# Changelog
+
+All notable changes to **TirthaYatra** are documented here.
+
+This project follows [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PATCH`.
+
+| Bump | When |
+|------|------|
+| **MAJOR** | Breaking site structure or removed public URLs without redirects |
+| **MINOR** | New features / content areas (festivals, stories, practice, etc.) |
+| **PATCH** | Fixes, copy edits, small UI/security hardenings |
+
+The current version is in [`VERSION`](./VERSION). Released versions should also be git tags (`v0.3.0`, etc.) so any earlier build can be checked out or promoted on Vercel.
+
+## [0.3.0] - 2026-08-07
+
+Home-devotion engagement demo (local commit; deploy when ready).
+
+### Added
+- **Festival calendar** — month view, next 30 days, shareable plain-text cards (`festivals/calendar.html`)
+- **Short stories** — myth explainers with story / why-ritual / takeaway (`stories/`, `data/stories.json`)
+- **Today’s practice** — IST-rotated aarti + katha + story and streak-light challenges (`devotion/daily.html`)
+- **My Board** — localStorage saves, Diwali/Navaratri checklists (`my-board.html`, `js/board.js`)
+- **Home engagement band** — festival countdown, editor picks / first-timers / family-friendly
+- **Feedback loop** — correction / add-detail / highlight / tip via email + optional on-device copy (`js/feedback.js`, `pages/feedback.html`)
+- **Temple post-visit loop** — related aarti, festivals, stories, ask/feedback CTAs
+- Compact **Explore** footer as a two-column link grid
+- This **CHANGELOG** and **VERSION** file for ongoing versioning
+
+### Changed
+- Story bodies rewritten as real myth narratives (removed “foreign reader / page intent” meta copy)
+- Privacy / Terms / About updated for on-device board data, moderated feedback, and copyright notes
+- Nav links for Stories, Today, My Board
+
+### Security / policy
+- Feedback is emailed for editorial review and **not** auto-published (AdSense-friendlier UGC stance)
+- Social proof labeled as editorial picks; on-device “opened often” is local-only, not fabricated traffic
+
+## [0.2.0] - 2026-08-05
+
+### Added
+- Expanded **festival guides** (Shivaratri, Holi, Dussehra, Lohri, Sankranti, Pongal, Gudi Padwa, Raksha Bandhan, Ganesh Chaturthi, Bhai Dooj, plus richer Diwali / Navaratri / Janmashtami)
+- Festival story, mythology, and Devi–Devata sections
+- Security hardenings: CSP / HSTS / framing headers, `safe_url` + YouTube host checks, deploy prune, privacy alignment for Vercel Analytics
+
+### Removed
+- **Epic Trails** (story maps) — removed from nav, build, and sitemap for now
+
+## [0.1.0] - 2026-08-04
+
+### Added
+- Initial TirthaYatra static site: temples, circuits, deities, devotion (aarti / chalisa / vrat katha)
+- Client IST panchang, search, Vercel hosting, sitemap / robots, Web Analytics
+- First festival guide set (Diwali, Navaratri, Janmashtami)
+
+---
+
+## Versioning workflow
+
+1. Change code / content as usual; run `python3 build.py` before committing generated HTML when needed.
+2. Update [`VERSION`](./VERSION) and add a section under **Unreleased** or a dated version in this file.
+3. Commit locally: `git commit …`
+4. Optional: `git tag vX.Y.Z` after the release commit.
+5. Deploy: `git push origin main` (and `git push --tags` if tagged).
+6. Rollback live site: promote an older Vercel deployment, and/or check out / revert to an earlier git tag or commit.

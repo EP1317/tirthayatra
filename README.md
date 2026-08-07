@@ -1,6 +1,8 @@
 # TirthaYatra
 
-Static Indian temple & pilgrimage guide site — mythology, sacred circuits, itineraries, and practical darshan details. Built for later Google AdSense monetisation.
+Static Indian temple & pilgrimage guide site — mythology, sacred circuits, home devotion (aarti / chalisa / vrat / festivals / short stories), and practical darshan details. Built for later Google AdSense monetisation.
+
+**Version:** see [`VERSION`](./VERSION) · **Changes:** see [`CHANGELOG.md`](./CHANGELOG.md) (Semantic Versioning; git tags like `v0.3.0` for rollbacks).
 
 ## Quick start
 

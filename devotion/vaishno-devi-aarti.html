@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#2a160e" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
-  <link rel="stylesheet" href="../css/main.css?v=1785918184" />
+  <link rel="stylesheet" href="../css/main.css?v=1786098726" />
   
 </head>
 <body>
@@ -38,7 +38,7 @@
   <div class="nav-right">
     <button class="nav-toggle" type="button" aria-label="Menu" data-nav-toggle>Menu</button>
     <ul class="nav-links" data-nav-links>
-      <li><a href="../index.html">Home</a></li><li><a href="../circuits/index.html">Tirtha Chakra</a></li><li><a href="../deities/index.html">Devi-Devata</a></li><li><a href="../devotion/aarti.html" class="active">Aarti</a></li><li><a href="../devotion/chalisa.html">Chalisa</a></li><li><a href="../devotion/vrat-katha.html">Vrat Katha</a></li><li><a href="../festivals/index.html">Festivals</a></li><li><a href="../states/index.html">States</a></li><li><a href="../pages/about.html">About</a></li>
+      <li><a href="../index.html">Home</a></li><li><a href="../circuits/index.html">Tirtha Chakra</a></li><li><a href="../deities/index.html">Devi-Devata</a></li><li><a href="../devotion/aarti.html" class="active">Aarti</a></li><li><a href="../devotion/chalisa.html">Chalisa</a></li><li><a href="../devotion/vrat-katha.html">Vrat Katha</a></li><li><a href="../festivals/index.html">Festivals</a></li><li><a href="../stories/index.html">Stories</a></li><li><a href="../devotion/daily.html">Today</a></li><li><a href="../my-board.html">My Board</a></li><li><a href="../states/index.html">States</a></li><li><a href="../pages/about.html">About</a></li>
     </ul>
     
   </div>
@@ -52,8 +52,10 @@
   <p class="section-kicker" style="margin-bottom:0.5rem">आरती संग्रह · देवी जी</p>
   <h1>जय वैष्णो माता</h1>
   <p class="lede">Vaishno Devi Aarti</p>
+  <p><button type="button" class="btn btn-ghost save-btn" data-save="devotion" data-slug="vaishno-devi-aarti" data-title="Vaishno Devi Aarti" data-href="../devotion/vaishno-devi-aarti.html" data-label="Save to My Board">Save to My Board</button> <a class="btn btn-ghost" href="../devotion/daily.html">Today’s practice</a>
+  <button type="button" class="btn btn-ghost" data-feedback-open data-type="correction">Suggest correction</button></p>
 </section>
-<section class="section devotion-section">
+<section class="section devotion-section" data-board-open="devotion" data-slug="vaishno-devi-aarti">
   <article class="devotion-article">
     <div class="fact-grid">
       <div class="fact"><dt>Deity</dt><dd><a href="../devotion/deity-devi.html">Devi / Shakti</a></dd></div>
@@ -61,6 +63,7 @@
       <div class="fact"><dt>When to recite</dt><dd>Navaratri, temple aarti at Vaishno Devi Bhawan</dd></div>
     </div>
     <p class="devotion-summary">Complete traditional aarti. Aarti of Mata Vaishno Devi — Trikuta’s beloved Shakti seat.</p>
+    <aside class="belief-disclaimer"><strong>Text note:</strong> Traditional hymn / katha presented for personal learning and home puja. Authors and lineages remain with their traditions; TirthaYatra does not claim copyright over classical verses. Optional YouTube listens belong to their uploaders.</aside>
     
     <div class="devotion-audio">
       <h2>सुनें · Listen</h2>
@@ -88,6 +91,21 @@
       <a class="btn btn-ghost" href="../devotion/aarti.html">More Aarti</a>
       <a class="btn btn-ghost" href="../deities/devi.html">Devi / Shakti temples</a>
     </p>
+    
+    <section class="temple-section feedback-inline" id="feedback" data-feedback-inline data-kind="devotion">
+      <h2>Feedback · सुधार</h2>
+      <p>Help us validate this page: suggest a <strong>correction</strong>, <strong>add a detail</strong>, or <strong>highlight</strong> something useful for home puja readers.</p>
+      <p class="comments-note">Feedback is emailed to TirthaYatra for editorial review. It is <strong>not published live automatically</strong> (safer for quality and ads policy). You can also keep a personal copy on this device.</p>
+      <div class="feedback-inline-actions">
+        <button type="button" class="btn btn-primary" data-feedback-open data-type="correction">Suggest a correction</button>
+        <button type="button" class="btn btn-ghost" data-feedback-open data-type="add-detail">Add a detail</button>
+        <button type="button" class="btn btn-ghost" data-feedback-open data-type="highlight">Highlight something</button>
+        <button type="button" class="btn btn-ghost" data-feedback-open data-type="tip">Leave a tip</button>
+      </div>
+      <h3 class="engage-subhead">Your notes on this page</h3>
+      <div data-feedback-inline-list></div>
+    </section>
+    
   </article>
 </section>
 
@@ -97,35 +115,44 @@
       <p class="footer-brand">TirthaYatra</p>
       <p>Stories, circuits, and practical darshan guides — India, Nepal, Sri Lanka, and the Kailash pilgrimage landscape.</p>
     </div>
-    <div class="footer-col">
+    <div class="footer-col footer-col-explore">
       <h3>Explore</h3>
-      <a href="../circuits/12-jyotirlinga.html">12 Jyotirlinga</a>
-      <a href="../circuits/ashtavinayak.html">Ashtavinayak</a>
-      <a href="../circuits/char-dham.html">Char Dham</a>
-      <a href="../circuits/modern-temples.html">Modern Temples</a>
-      <a href="../circuits/beyond-india.html">Beyond India</a>
-      <a href="../festivals/index.html">Festivals calendar</a>
-      <a href="../deities/index.html">By Deity</a>
-      <a href="../devotion/index.html">Aarti · Chalisa · Vrat</a>
-      <a href="../states/index.html">By State</a>
-      <a href="../temples/index.html">All Temples</a>
+      <div class="footer-explore-grid">
+        <a href="../circuits/12-jyotirlinga.html">12 Jyotirlinga</a>
+        <a href="../festivals/calendar.html">Festival calendar</a>
+        <a href="../circuits/ashtavinayak.html">Ashtavinayak</a>
+        <a href="../festivals/index.html">Festival guides</a>
+        <a href="../circuits/char-dham.html">Char Dham</a>
+        <a href="../stories/index.html">Short stories</a>
+        <a href="../circuits/modern-temples.html">Modern Temples</a>
+        <a href="../devotion/daily.html">Today’s practice</a>
+        <a href="../circuits/beyond-india.html">Beyond India</a>
+        <a href="../my-board.html">My Board</a>
+        <a href="../deities/index.html">By Deity</a>
+        <a href="../devotion/index.html">Aarti · Chalisa · Vrat</a>
+        <a href="../states/index.html">By State</a>
+        <a href="../temples/index.html">All Temples</a>
+      </div>
     </div>
     <div class="footer-col">
       <h3>Trust</h3>
       <a href="../pages/about.html">About</a>
       <a href="../pages/contact.html">Contact</a>
+      <a href="../pages/feedback.html">Feedback</a>
       <a href="../pages/privacy.html">Privacy Policy</a>
       <a href="../pages/disclaimer.html">Disclaimer</a>
       <a href="../pages/terms.html">Terms</a>
     </div>
   </div>
   <div class="footer-bottom">
-    <p>© 2026 TirthaYatra. Informational guide — not affiliated with any temple trust. Photos via Wikimedia Commons (see credits). Timings change; verify on official sites.</p>
+    <p>© 2026 TirthaYatra. Informational home-devotion &amp; temple guide — not affiliated with any temple trust. Photos via Wikimedia Commons (see credits). Traditional narratives retold for learning; confirm ritual timing with your panchang or family priest.</p>
   </div>
 </footer>
-<script src="../js/main.js?v=1785918184"></script>
-<script src="../js/search.js?v=1785918184"></script>
-<script src="../js/vercel-analytics.js?v=1785918184"></script>
+<script src="../js/main.js?v=1786098726"></script>
+<script src="../js/search.js?v=1786098726"></script>
+<script src="../js/board.js?v=1786098726"></script>
+<script src="../js/feedback.js?v=1786098726"></script>
+<script src="../js/vercel-analytics.js?v=1786098726"></script>
 <script defer src="/_vercel/insights/script.js"></script>
 
 </body>
