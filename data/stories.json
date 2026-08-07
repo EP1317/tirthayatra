@@ -12,7 +12,11 @@
       "titleHi": "शिव को नीलकंठ क्यों कहते हैं",
       "readSeconds": 80,
       "deity": "shiva",
-      "tags": ["ritual-why", "first-timer", "family"],
+      "tags": [
+        "ritual-why",
+        "first-timer",
+        "family"
+      ],
       "hook": "One sip of cosmic poison — and the throat that saved the worlds turned blue.",
       "hookHi": "एक घूँट हलाहल — और लोक रक्षक कंठ नीला हो गया।",
       "whyRitual": "On Maha Shivaratri, devotees keep vigil and offer water or milk to the linga remembering Neelkanth — strength that absorbs harm so others may live.",
@@ -20,9 +24,18 @@
       "storyEn": "Long ago the gods and the asuras churned the ocean of milk for amrita, the nectar of immortality. Mount Mandara was their churning rod; Vasuki the serpent was the rope. As the ocean turned, first rose not nectar but halahal — a poison so fierce that creation itself began to burn. Neither side could hold it. Shiva stepped forward, gathered the poison in his palm, and drank. He did not swallow it into his stomach, nor spit it back upon the world; he held it in his throat. The venom stained his neck blue, and from that day he was called Neelkanth, the blue-throated one. Parvati is remembered as pressing his throat so the poison would go no further. The worlds were saved because one being chose to carry what others could not.",
       "storyHi": "देव और असुर अमृत के लिए क्षीरसागर का मंथन कर रहे थे। मंथन से पहले अमृत नहीं, हलाहल उठा — इतना प्रचंड कि सृष्टि जलने लगी। कोई धारण न कर सका। तब शिव ने विष हथेली में लिया और पान किया। उन्होंने उसे पेट में नहीं उतारा, न लौटाया — कंठ में ही रोक लिया। कंठ नीला हो गया; तभी से वे नीलकंठ कहलाए। पार्वती ने कंठ दबाकर विष को आगे बढ़ने से रोका — ऐसी स्मृति है। लोक इसलिए बचे कि एक ने वह भार उठाया जो अन्य नहीं उठा सकते थे।",
       "takeaway": "When you offer water or bilva to Shiva, remember Neelkanth: hold one harsh impulse today instead of pouring it onto others.",
-      "relatedDevotion": ["shiva-aarti", "shiva-chalisa", "pradosh-vrat-katha"],
-      "relatedFestivals": ["maha-shivaratri"],
-      "relatedTemples": ["kashi-vishwanath", "mahakaleshwar-ujjain"]
+      "relatedDevotion": [
+        "shiva-aarti",
+        "shiva-chalisa",
+        "pradosh-vrat-katha"
+      ],
+      "relatedFestivals": [
+        "maha-shivaratri"
+      ],
+      "relatedTemples": [
+        "kashi-vishwanath",
+        "mahakaleshwar-ujjain"
+      ]
     },
     {
       "slug": "prahlad-holika",
@@ -30,7 +43,12 @@
       "titleHi": "प्रह्लाद, होलिका और भक्ति की अग्नि",
       "readSeconds": 85,
       "deity": "vishnu",
-      "tags": ["ritual-why", "festival", "family", "first-timer"],
+      "tags": [
+        "ritual-why",
+        "festival",
+        "family",
+        "first-timer"
+      ],
       "hook": "A child refused to worship fear — and the fire chose who would burn.",
       "hookHi": "एक बालक ने भय की पूजा ठुकराई — अग्नि ने तय किया कौन जले।",
       "whyRitual": "Holika Dahan remembers Holika’s fall and Prahlad’s safety; Holi’s colours the next day celebrate joy after trial — and in Braj, Krishna’s playful love.",
@@ -38,9 +56,17 @@
       "storyEn": "The asura king Hiranyakashipu had won a boon that made him almost impossible to kill. Drunk on power, he ordered the three worlds to worship him alone. His own son, Prahlad, would not. From childhood Prahlad’s tongue held only Vishnu’s name. The king tried fear, teachers, and weapons; the boy’s devotion did not break. Then Holika, the king’s sister, who believed fire could not burn her, took Prahlad onto a blazing pyre. The flames consumed Holika. Prahlad walked out unharmed, still chanting. Later, when the father’s rage climaxed, Vishnu appeared as Narasimha — neither man nor beast, at twilight, on a threshold — and ended the tyranny. Holika’s fire is why Holika Dahan is lit: arrogance burns; sincere bhakti is protected.",
       "storyHi": "राजा हिरण्यकशिपु को ऐसा वर मिला था कि उसकी मृत्यु लगभग असंभव थी। अहंकार में उसने आदेश दिया — केवल मेरी पूजा हो। पुत्र प्रह्लाद ने माना नहीं; उनके मुख से विष्णु नाम ही निकलता। राजा ने भय, दंड, शस्त्र सब आजमाए — भक्ति नहीं टूटी। तब बहन होलिका, जो स्वयं को अग्नि से अजेय मानती थी, प्रह्लाद को प्रज्वलित चिता पर ले बैठी। अग्नि ने होलिका को भस्म किया; प्रह्लाद नाम जपते सुरक्षित निकले। आगे क्रोध की सीमा पर विष्णु नरसिंह रूप में आए — न दिन न रात, न घर न बाहर — और अधर्म का अंत किया। होलिका दहन इसलिए जलाया जाता है: अहंकार जलता है, सच्ची भक्ति बचती है।",
       "takeaway": "Before Holi colours, tell children Prahlad’s story — faith without cruelty.",
-      "relatedDevotion": ["vishnu-aarti", "krishna-aarti"],
-      "relatedFestivals": ["holi"],
-      "relatedTemples": ["banke-bihari-vrindavan", "dwarka"]
+      "relatedDevotion": [
+        "vishnu-aarti",
+        "krishna-aarti"
+      ],
+      "relatedFestivals": [
+        "holi"
+      ],
+      "relatedTemples": [
+        "banke-bihari-vrindavan",
+        "dwarka"
+      ]
     },
     {
       "slug": "krishna-birth-night",
@@ -48,7 +74,11 @@
       "titleHi": "कृष्ण जन्म की रात",
       "readSeconds": 80,
       "deity": "krishna",
-      "tags": ["festival", "family", "first-timer"],
+      "tags": [
+        "festival",
+        "family",
+        "first-timer"
+      ],
       "hook": "Prison doors, a storm, a river — and a child who slipped past a tyrant’s fear.",
       "hookHi": "कारागार, तूफान, नदी — और वह शिशु जो अत्याचारी के भय से निकल गया।",
       "whyRitual": "Janmashtami midnight aarti and fasting remember the hour Krishna entered the world — doors opened, the Yamuna parted, and Gokul received him.",
@@ -56,9 +86,18 @@
       "storyEn": "A prophecy warned Kamsa that the eighth child of his sister Devaki would end him. He cast Devaki and her husband Vasudeva into a prison cell and killed their children one by one. On a night of storm and darkness the eighth child was born — Krishna, dark as a raincloud, marked with divine signs. Shackles fell. Guards slept. The prison doors opened of their own accord. Vasudeva lifted the newborn and walked into the rain toward the Yamuna. The river, swollen and fierce, parted enough for him to cross. In Gokul, Yashoda had just given birth to a girl. Vasudeva laid Krishna in her bed and carried the infant girl back to Mathura. When Kamsa came to destroy the child, the girl slipped from his hands, rose into the sky as Yogamaya, and warned him that his end had already been born elsewhere. That is the night Janmashtami keeps awake for.",
       "storyHi": "कंस को भय था — देवकी का आठवाँ पुत्र उसका अंत करेगा। उसने देवकी–वसुदेव को कारागार में डाला और उनके बच्चों की हत्या की। एक तूफानी अँधेरी रात आठवें बालक कृष्ण का जन्म हुआ। बेड़ियाँ खुल गईं, पहरेदार सो गए, द्वार स्वयं खुल गए। वसुदेव शिशु को गोद में लेकर वर्षा में यमुना की ओर चले। उफनती नदी ने मार्ग दिया। गोकुल में यशोदा कन्या जनी थीं; वसुदेव ने कृष्ण उनके बिस्तर पर रखा और कन्या को मथुरा वापस ले आए। कंस जब उस शिशु को मारने आया, कन्या हाथ से छूट योगमाया रूप आकाश में उठीं और कहा — तुम्हारा अंत अन्यत्र जन्म ले चुका है। जन्माष्टमी उसी रात की जागरण-स्मृति है।",
       "takeaway": "At midnight aarti, rock a small cradle or keep a lamp lit — welcome the child who arrived against every lock.",
-      "relatedDevotion": ["janmashtami-vrat-katha", "krishna-aarti", "krishna-chalisa"],
-      "relatedFestivals": ["janmashtami"],
-      "relatedTemples": ["krishna-janmabhoomi-mathura", "guruvayur"]
+      "relatedDevotion": [
+        "janmashtami-vrat-katha",
+        "krishna-aarti",
+        "krishna-chalisa"
+      ],
+      "relatedFestivals": [
+        "janmashtami"
+      ],
+      "relatedTemples": [
+        "krishna-janmabhoomi-mathura",
+        "guruvayur"
+      ]
     },
     {
       "slug": "durga-mahishasura",
@@ -66,7 +105,11 @@
       "titleHi": "दुर्गा और युद्ध की नौ रातें",
       "readSeconds": 90,
       "deity": "devi",
-      "tags": ["festival", "ritual-why", "first-timer"],
+      "tags": [
+        "festival",
+        "ritual-why",
+        "first-timer"
+      ],
       "hook": "When the gods’ separate powers failed, they poured their light into one Mother.",
       "hookHi": "जब देवताओं का अलग–अलग बल हार गया, उन्होंने अपना तेज एक माँ में उंडेल दिया।",
       "whyRitual": "Navaratri’s nine nights remember Durga’s battle; Vijayadashami remembers the tenth day’s victory over Mahishasura.",
@@ -74,9 +117,20 @@
       "storyEn": "Mahishasura the buffalo-demon had received a boon: no man could kill him. He drove the gods from heaven and ruled with cruelty. The gods, helpless alone, gathered their radiance — Shiva’s, Vishnu’s, Brahma’s, and the rest — and from that blaze the Goddess Durga appeared, fully armed, riding a lion. For nine nights she fought Mahishasura’s armies. He changed form again and again — buffalo, lion, man — trying to escape the fate his boon had left open. On the tenth day Durga struck him down. The earth breathed. That arc is Navaratri into Vijayadashami: nine nights of struggle, one dawn of victory — not only in a distant myth, but as courage against the “buffalo” of arrogance within.",
       "storyHi": "महिषासुर को वर था — कोई पुरुष उसे न मार सके। उसने देवताओं को स्वर्ग से खदेड़ दिया। देव अलग–अलग विफल रहे तो उन्होंने अपना तेज एकत्र किया; उस ज्योति से दुर्गा प्रकट हुईं — सिंह पर सवार, शस्त्रों से सुसज्जित। नौ रात उन्होंने महिषासुर की सेना से युद्ध किया। वह बार–बार रूप बदलता — महिष, सिंह, मनुष्य — वर की दरार खोजता। दसवें दिन दुर्गा ने उसका वध किया। नवरात्रि से विजयदशमी वही कथा है: नौ रात संघर्ष, एक विजय — बाहरी असुर की और भीतर के अहंकार की भी।",
       "takeaway": "On one Navaratri night, read this battle story aloud, then offer Devi aarti with a steady lamp.",
-      "relatedDevotion": ["navaratri-vrat-katha", "devi-aarti", "durga-chalisa"],
-      "relatedFestivals": ["navaratri", "dussehra"],
-      "relatedTemples": ["vaishno-devi", "kamakhya", "meenakshi-madurai"]
+      "relatedDevotion": [
+        "navaratri-vrat-katha",
+        "devi-aarti",
+        "durga-chalisa"
+      ],
+      "relatedFestivals": [
+        "navaratri",
+        "dussehra"
+      ],
+      "relatedTemples": [
+        "vaishno-devi",
+        "kamakhya",
+        "meenakshi-madurai"
+      ]
     },
     {
       "slug": "rama-homecoming-lamps",
@@ -84,7 +138,11 @@
       "titleHi": "दीपावली के दीप और घर वापसी",
       "readSeconds": 80,
       "deity": "rama",
-      "tags": ["festival", "family", "first-timer"],
+      "tags": [
+        "festival",
+        "family",
+        "first-timer"
+      ],
       "hook": "A city lit itself so Rama could see the road home.",
       "hookHi": "एक नगरी ने दीप जलाए ताकि राम घर का मार्ग देख सकें।",
       "whyRitual": "Diyas remember Ayodhya’s welcome. Lakshmi–Ganesha puja asks that prosperity enter with wisdom after the dark Amavasya night.",
@@ -92,9 +150,17 @@
       "storyEn": "Rama, Sita, and Lakshmana had spent fourteen years in exile. Ravana had stolen Sita; a great war followed in Lanka; dharma was restored at terrible cost. When the exile ended, they turned toward Ayodhya. The people of the city could not wait behind closed doors. They cleaned their thresholds, strung flowers, and set rows of earthen lamps along streets and rooftops so the returning party would not lose the way in the dark. Light became a public vow: the rightful king and his family were welcome home. That lamp-lined homecoming is the heart of Diwali’s Rama story. Other regions also remember Krishna’s victory over Narakasura or Lakshmi’s arrival on Amavasya — but the shared act is the same: defeat the dark, open the door, light the path.",
       "storyHi": "राम, सीता और लक्ष्मण चौदह वर्ष वनवास में रहे। रावण ने सीता हरीं; लंका में घोर युद्ध हुआ; धर्म बड़ी कीमत पर बचा। वनवास पूरा होने पर वे अयोध्या लौटे। नगरी की प्रजा द्वार बंद रखकर नहीं बैठी। उन्होंने द्वार साफ किए, तोरण बाँधे, गलियों और छतों पर मिट्टी के दीप की पंक्तियाँ जलाईं — ताकि अँधेरे में मार्ग न चूकें। प्रकाश सार्वजनिक संकल्प बना: धर्म्य राजा स्वागत योग्य हैं। दीपावली की राम-कथा का हृदय यही दीप-पंक्ति है। अन्य कथाएँ नरकासुर वध या लक्ष्मी आगमन भी जोड़ती हैं — पर कर्म एक है: अँधेरा हारो, द्वार खोलो, मार्ग जलाओ।",
       "takeaway": "At dusk on Diwali, light even a few diyas at the door — a small Ayodhya of welcome in your own home.",
-      "relatedDevotion": ["lakshmi-aarti", "rama-aarti", "ganesha-aarti"],
-      "relatedFestivals": ["diwali"],
-      "relatedTemples": ["ayodhya-ram-mandir"]
+      "relatedDevotion": [
+        "lakshmi-aarti",
+        "rama-aarti",
+        "ganesha-aarti"
+      ],
+      "relatedFestivals": [
+        "diwali"
+      ],
+      "relatedTemples": [
+        "ayodhya-ram-mandir"
+      ]
     },
     {
       "slug": "ganesha-door-guardian",
@@ -102,7 +168,11 @@
       "titleHi": "गणेश आरंभ के अधिपति कैसे बने",
       "readSeconds": 85,
       "deity": "ganesha",
-      "tags": ["ritual-why", "festival", "family"],
+      "tags": [
+        "ritual-why",
+        "festival",
+        "family"
+      ],
       "hook": "A child shaped by the Goddess guarded her door — and became the first name of every rite.",
       "hookHi": "देवी ने द्वार रक्षक रचा — और वे हर अनुष्ठान का पहला नाम बन गए।",
       "whyRitual": "Ganesh Chaturthi installs his murti, offers modak, and later immerses him — beginnings blessed, pride returned to humility.",
@@ -110,9 +180,18 @@
       "storyEn": "Parvati wished to bathe undisturbed. From the unguents of her own body she fashioned a boy, breathed life into him, and set him as guardian at her door: let no one enter. Shiva returned and was stopped by the unknown child. Anger rose; in the clash the boy’s head was severed. Parvati’s grief shook the worlds. To restore him, Shiva sent his ganas to bring the head of the first creature facing north; they returned with an elephant’s head. Joined to the boy’s body, he rose again — Ganesha, elephant-faced, beloved of the Goddess. Shiva declared him foremost among the ganas and first to be worshipped before every undertaking. That is why a new ledger, a wedding, a journey, or a vrat begins with Ganesha: the door opens only when the guardian blesses the beginning.",
       "storyHi": "पार्वती अकेली स्नान करना चाहती थीं। अपने अंगराग से उन्होंने एक बालक रचा, उसमें प्राण फूँके, और द्वार पर रक्षक बैठाया — कोई भीतर न आए। शिव लौटे; अपरिचित बालक ने रोका। क्रोध में संघर्ष हुआ; बालक का सिर कट गया। पार्वती का शोक तीनों लोक हिला गया। शिव ने गणों को उत्तरमुखी प्रथम प्राणी का सिर लाने को कहा; वे गज का सिर लाए। जुड़ते ही बालक पुनः जीवित हुए — गजमुख गणेश, देवी के प्रिय। शिव ने उन्हें गणों में अग्रणी और हर कार्य से पूर्व प्रथम पूज्य घोषित किया। इसलिए नया कार्य, विवाह, यात्रा या व्रत गणेश से शुरू होता है — रक्षक की अनुमति के बिना आरंभ अधूरा है।",
       "takeaway": "Before a hard task this week, pause and recite Ganesha’s name or aarti once — then begin.",
-      "relatedDevotion": ["ganesh-chaturthi-vrat-katha", "ganesha-aarti", "ganesha-chalisa"],
-      "relatedFestivals": ["ganesh-chaturthi"],
-      "relatedTemples": ["siddhivinayak-mumbai", "moreshwar-morgaon"]
+      "relatedDevotion": [
+        "ganesh-chaturthi-vrat-katha",
+        "ganesha-aarti",
+        "ganesha-chalisa"
+      ],
+      "relatedFestivals": [
+        "ganesh-chaturthi"
+      ],
+      "relatedTemples": [
+        "siddhivinayak-mumbai",
+        "moreshwar-morgaon"
+      ]
     },
     {
       "slug": "draupadi-rakhi-bond",
@@ -120,7 +199,11 @@
       "titleHi": "द्रौपदी, कृष्ण और रक्षा का सूत्र",
       "readSeconds": 75,
       "deity": "krishna",
-      "tags": ["festival", "family", "ritual-why"],
+      "tags": [
+        "festival",
+        "family",
+        "ritual-why"
+      ],
       "hook": "A strip of cloth on a wound became a vow that outlived kingdoms.",
       "hookHi": "घाव पर बँधा वस्त्र का टुकड़ा राज्यों से लंबा वचन बन गया।",
       "whyRitual": "Raksha Bandhan remembers such vows of care — a thread, a tilak, a spoken promise between those who protect each other.",
@@ -128,9 +211,16 @@
       "storyEn": "In one beloved telling from the Mahabharata world, Krishna’s finger was cut and bleeding. Draupadi, without waiting for a bandage, tore a strip from her own sari and bound the wound. Krishna accepted the care as sacred. In return he vowed that he would protect her whenever she called — a promise later remembered when her honour was assailed in the Kuru court and the cloth of grace would not end. That exchange — care given, protection pledged — is the spirit families invoke when a rakhi is tied: not a bargain of gifts alone, but a bond that says, “Your harm is mine to guard against.” Older Puranic strands also speak of a protective thread given to Indra before battle; Raksha Bandhan gathers these memories into one simple rite of the hand and the heart.",
       "storyHi": "एक प्रिय कथा में कृष्ण की उँगली कटकर लहूलुहान हो गई। द्रौपदी ने प्रतीक्षा नहीं की — अपनी साड़ी का टुकड़ा फाड़ घाव बाँध दिया। कृष्ण ने उस सेवा को पवित्र माना और वचन दिया — जब भी पुकारोगी, रक्षा करूँगा। कुरु सभा में जब उनकी लाज पर प्रहार हुआ, वही अनुग्रह-वस्त्र असीम याद किया जाता है। राखी बाँधते समय परिवार यही भाव जगाते हैं: केवल उपहार का सौदा नहीं, बल्कि यह बंधन कि “तुम्हारी पीड़ा से रक्षा मेरा धर्म है।” पुराणों में इंद्र को युद्ध से पूर्व रक्षासूत्र दिए जाने की कथा भी है; रक्षाबंधन इन स्मृतियों को हाथ और हृदय के एक सरल संस्कार में बाँधता है।",
       "takeaway": "When you tie or receive a rakhi, speak one clear promise of care — that is the story’s real gift.",
-      "relatedDevotion": ["krishna-aarti", "vishnu-aarti"],
-      "relatedFestivals": ["raksha-bandhan"],
-      "relatedTemples": ["dwarka"]
+      "relatedDevotion": [
+        "krishna-aarti",
+        "vishnu-aarti"
+      ],
+      "relatedFestivals": [
+        "raksha-bandhan"
+      ],
+      "relatedTemples": [
+        "dwarka"
+      ]
     },
     {
       "slug": "surya-overflowing-pot",
@@ -138,7 +228,11 @@
       "titleHi": "जब फसल का हांडी उफन पड़ा",
       "readSeconds": 80,
       "deity": "surya",
-      "tags": ["festival", "ritual-why", "family"],
+      "tags": [
+        "festival",
+        "ritual-why",
+        "family"
+      ],
       "hook": "The sun turned north — and kitchens answered with an overflowing pot.",
       "hookHi": "सूर्य उत्तर मुड़ा — और रसोइयों ने उफनते हांडी से उत्तर दिया।",
       "whyRitual": "Makar Sankranti and Thai Pongal thank Surya and the harvest; overflowing rice is the prayer that plenty may brim beyond the pot.",
@@ -146,9 +240,18 @@
       "storyEn": "Makar Sankranti marks the sun’s entry into Capricorn and the turn toward Uttarayana — the northward path. Farmers watched that shift for centuries: colder nights easing, days lengthening, grain stores speaking of work already done. In Tamil homes the thank-you takes the shape of Pongal: fresh rice boiled with milk and jaggery until the pot refuses to stay quiet and froths over. The cry “Pongalo Pongal” is not waste; it is abundance announcing itself. The first offering goes to Surya, who ripened the fields. Cattle are honoured on the following day for their labour. In the north, sesame and jaggery change hands with the wish that speech stay sweet; kites claim the winter sky. Different kitchens, one story: the sun gave light, the earth gave grain, and humans answer with gratitude that overflows.",
       "storyHi": "मकर संक्रांति पर सूर्य मकर राशि में प्रवेश करता है और उत्तरायण आरंभ होती है। किसान सदियों से इस मोड़ को जानते रहे — रातें नरम, दिन लंबे, अन्न भंडार पिछले श्रम की कथा। तमिल घरों में आभार पोंगल बनता है: दूध–गुड़ में नया चावल उबलता है यहाँ तक कि हांडी शांत नहीं रहती और उफन पड़ता है। “पोंगलो पोंगल” बर्बादी नहीं, भरपूरी का उद्घोष है। प्रथम अर्पण सूर्य को — जिन्होंने खेत पकाए। अगले दिन श्रम किए पशुओं का सम्मान। उत्तर में तिल–गुड़ इस कामना से बाँटे जाते हैं कि वाणी मधुर रहे; पतंगें शीत आकाश का दावा करती हैं। रसोई भिन्न, कथा एक: सूर्य ने प्रकाश दिया, धरती ने अन्न, मनुष्य उफनते आभार से उत्तर देता है।",
       "takeaway": "Cook or share one sweet; before eating, thank the sun and the hands that grew the grain.",
-      "relatedDevotion": ["ganga-aarti"],
-      "relatedFestivals": ["makar-sankranti", "pongal", "lohri"],
-      "relatedTemples": ["gangotri", "rameswaram"]
+      "relatedDevotion": [
+        "ganga-aarti"
+      ],
+      "relatedFestivals": [
+        "makar-sankranti",
+        "pongal",
+        "lohri"
+      ],
+      "relatedTemples": [
+        "gangotri",
+        "rameswaram"
+      ]
     },
     {
       "slug": "hanuman-seva-strength",
@@ -156,7 +259,11 @@
       "titleHi": "हनुमान की छलांग और संजीवनी पर्वत",
       "readSeconds": 90,
       "deity": "hanuman",
-      "tags": ["first-timer", "family", "challenge"],
+      "tags": [
+        "first-timer",
+        "family",
+        "challenge"
+      ],
       "hook": "The greatest leap began with a single name — Rama.",
       "hookHi": "सबसे बड़ी छलांग एक नाम से शुरू हुई — राम।",
       "whyRitual": "Tuesday worship and the Hanuman Chalisa remember this seva: strength that carries others, not the self.",
@@ -164,9 +271,369 @@
       "storyEn": "When Rama’s army reached the shore, the ocean stretched endless toward Lanka where Sita was held. The vanaras hesitated. Jambavan turned to Hanuman and reminded him who he was — son of the wind, blessed with strength he had forgotten. Hanuman grew vast, bowed to Rama, and leapt. Mountains and clouds fell away beneath him; the sea could not bind him. In Lanka he found Sita in the ashoka grove, gave her Rama’s ring, and burned the city as a warning before returning. Later, when Lakshmana lay dying on the battlefield, only the herb Sanjivani from the Himalaya could save him. Hanuman flew north, could not tell plant from plant in the dark, and lifted the whole mountain peak upon his shoulders. He returned in time. Lakshmana rose. Through every deed Hanuman’s power stayed yoked to one purpose — Rama’s work, Sita’s safety, a brother’s life — never his own glory. That is why devotees call him the ideal sevaka: the servant whose strength is love in action.",
       "storyHi": "राम की सेना जब तट पर पहुँची, आगे सागर था और पार लंका में सीता। वानर हिचकिचाए। जामवंत ने हनुमान को याद दिलाया — तुम पवनपुत्र हो, तुम्हारा बल तुम भूल गए हो। हनुमान विशाल हुए, राम को प्रणाम कर कूदे। पर्वत और बादल नीचे रह गए; सागर बाँध न सका। लंका में अशोक वाटिका में सीता मिलीं; राम की अंगूठी दी; चेतावनी में नगरी जलाई और लौटे। बाद में युद्ध में लक्ष्मण मूच्छित पड़े — हिमालय की संजीवनी ही बचा सकती थी। हनुमान उत्तर उड़े, अँधेरे में औषधि पहचान न सके तो पूरा पर्वत कंधे पर उठा लाए। समय पर पहुँचे; लक्ष्मण उठे। हर कर्म में उनका बल एक ही ओर बँधा रहा — राम का कार्य, सीता की रक्षा, भाई का जीवन — अपनी कीर्ति नहीं। इसलिए वे आदर्श सेवक कहलाते हैं: जिनका बल प्रेम की क्रिया है।",
       "takeaway": "Read or listen to Hanuman Chalisa once this morning — remember the leap before you face your own wide sea.",
-      "relatedDevotion": ["hanuman-chalisa", "hanuman-aarti", "hanuman-jayanti-vrat-katha"],
+      "relatedDevotion": [
+        "hanuman-chalisa",
+        "hanuman-aarti",
+        "hanuman-jayanti-vrat-katha"
+      ],
       "relatedFestivals": [],
-      "relatedTemples": ["sankat-mochan-varanasi", "salasar-balaji", "jakhoo-hanuman-shimla"]
+      "relatedTemples": [
+        "sankat-mochan-varanasi",
+        "salasar-balaji",
+        "jakhoo-hanuman-shimla"
+      ]
+    },
+    {
+      "slug": "krishna-govardhan",
+      "title": "Krishna lifts Govardhan Hill",
+      "titleHi": "कृष्ण गोवर्धन उठाते हैं",
+      "readSeconds": 90,
+      "deity": "krishna",
+      "tags": [
+        "festival",
+        "family",
+        "first-timer"
+      ],
+      "hook": "When Indra’s rain tried to drown Braj, a child held up a mountain.",
+      "hookHi": "जब इंद्र की वर्षा ने ब्रज डुबोने चाहा, एक बालक ने पर्वत थाम लिया।",
+      "whyRitual": "Govardhan Puja (Annakut), the day after Diwali in many homes, remembers this shelter under the hill — gratitude to the mountain, cows, and the Lord who protects without pride.",
+      "whyRitualHi": "गोवर्धन पूजा / अन्नकूट इसी आश्रय की स्मृति है — पर्वत, गौ और रक्षक प्रभु का आभार।",
+      "storyEn": "The people of Braj prepared a great sacrifice for Indra, king of the storm gods, hoping for rain and favour. Young Krishna asked why they honoured a distant sky-lord while the Govardhan hill fed their cattle and held their forests. He persuaded them to offer their feast to the hill instead. Indra’s pride flared. He sent clouds and torrents to punish the village. Rivers rose; homes shook. Krishna then lifted Govardhan upon his little finger as an umbrella. For seven days and nights the cowherds, women, children, and cattle stood dry beneath the mountain while the storm spent its rage. At last Indra saw his error, withdrew the rain, and bowed. Krishna set the hill down. The story is not only of a miracle — it is of a child teaching that true worship protects life close at hand, not fear of a tyrant’s thunder.",
+      "storyHi": "ब्रजवासी इंद्र के लिए यज्ञ तैयार कर रहे थे — वर्षा और कृपा की आशा में। बाल कृष्ण ने पूछा — दूर के मेघराज की पूजा क्यों, जबकि गोवर्धन ही गौओं को चारा और वन देता है? उन्होंने सबको पर्वत को भोग अर्पित करने को कहा। इंद्र का अहंकार भड़का; उसने घनघोर वर्षा भेजी। तब कृष्ण ने गोवर्धन को कनिष्ठा पर उठा लिया — सात दिन-रात ब्रजवासी और पशु पर्वत की छत्रछाया में सूखे खड़े रहे। अंत में इंद्र ने भूल मानी, वर्षा रोकी, झुके। कृष्ण ने पर्वत उतारा। यह केवल चमत्कार नहीं — यह शिक्षा है कि सच्ची पूजा निकट के जीवन की रक्षा करती है, भय के वज्र की नहीं।",
+      "takeaway": "On Govardhan / Annakut, offer a simple plate of food in thanks — remember the hill that became a shelter.",
+      "relatedDevotion": [
+        "krishna-aarti",
+        "krishna-chalisa"
+      ],
+      "relatedFestivals": [
+        "diwali"
+      ],
+      "relatedTemples": [
+        "banke-bihari-vrindavan",
+        "nathdwara-shrinathji",
+        "prem-mandir-vrindavan"
+      ]
+    },
+    {
+      "slug": "krishna-kaliya",
+      "title": "Krishna and the serpent Kaliya",
+      "titleHi": "कृष्ण और कालीय नाग",
+      "readSeconds": 85,
+      "deity": "krishna",
+      "tags": [
+        "family",
+        "first-timer"
+      ],
+      "hook": "Poison blackened the Yamuna — until a boy danced on the serpent’s hoods.",
+      "hookHi": "यमुना विष से काली पड़ी — तब एक बालक नाग के फनों पर नाचा।",
+      "whyRitual": "Told in Braj and at Janmashtami gatherings: the Lord enters poisoned waters so life may drink again.",
+      "whyRitualHi": "ब्रज और जन्माष्टमी कथाओं में: प्रभु विषैले जल में उतरते हैं ताकि जीवन पुनः पी सके।",
+      "storyEn": "Kaliya, a many-hooded serpent, had fled into a deep pool of the Yamuna. His venom made the water black; birds that flew over fell; cattle that drank died. The cowherd boys of Vrindavan feared the pool. Krishna, still a child, climbed a kadamba tree and leapt into the poisoned water. Kaliya coiled around him. On the bank Yashoda and the gopas wept. Then Krishna rose, light as play, and danced upon the serpent’s hoods — each step a thunder of grace and power. Kaliya’s wives begged for mercy. Krishna spared the naga’s life but ordered him to leave the Yamuna so the river could run clear again. Kaliya bowed and departed. The pool that had meant death became a place of song — a story of courage that does not destroy when repentance is real.",
+      "storyHi": "बहुफना नाग कालीय यमुना के गहरे कुंड में बस गया था। उसके विष से जल काला हो गया; उड़ते पक्षी गिरे; पीने वाले पशु मर गए। वृंदावन के बालक उस कुंड से डरते। कृष्ण ने कदंब पर चढ़ कुलांचा मारा और विषैले जल में कूद पड़े। कालीय ने लपेट लिया। तट पर यशोदा और गोप रोए। फिर कृष्ण फनों पर नाच उठे — प्रत्येक पद करुणा और बल का गर्जन। कालीय की पत्नियों ने क्षमा माँगी। कृष्ण ने प्राण बख्शे पर आज्ञा दी — यमुना छोड़ो, नदी फिर स्वच्छ बहे। कालीय झुका और चला गया। मृत्यु का कुंड गीत का स्थल बना — यह साहस की कथा है जो पश्चाताप पर विनाश नहीं चुनता।",
+      "takeaway": "When fear poisons a place in your day, remember Kaliya’s pool — courage can clear the water without cruelty.",
+      "relatedDevotion": [
+        "krishna-aarti",
+        "janmashtami-vrat-katha"
+      ],
+      "relatedFestivals": [
+        "janmashtami"
+      ],
+      "relatedTemples": [
+        "banke-bihari-vrindavan",
+        "iskcon-vrindavan"
+      ]
+    },
+    {
+      "slug": "bhagavad-gita-kurukshetra",
+      "title": "Arjuna’s doubt and the Bhagavad Gita",
+      "titleHi": "अर्जुन का संशय और भगवद्गीता",
+      "readSeconds": 95,
+      "deity": "krishna",
+      "tags": [
+        "first-timer",
+        "festival"
+      ],
+      "hook": "On a battlefield of cousins, a warrior’s bow slipped — and wisdom spoke from the chariot.",
+      "hookHi": "सगे-संबंधियों के रण में धनुष ढीला पड़ा — और रथ से ज्ञान बोला।",
+      "whyRitual": "Gita Jayanti and quiet home reading remember this dialogue: dharma when the heart trembles.",
+      "whyRitualHi": "गीता जयंती और घर का पाठ इसी संवाद की स्मृति है — जब हृदय काँपे तब धर्म।",
+      "storyEn": "The armies of the Pandavas and Kauravas faced each other on Kurukshetra’s field. Arjuna, greatest of archers, asked Krishna to drive his chariot between the lines. There he saw teachers, uncles, cousins, and friends ready to die. Grief broke him. He set down Gandiva and said he would not fight. Krishna did not mock the sorrow. As friend and divine guide he spoke what the world knows as the Bhagavad Gita — on the soul that is not slain with the body, on duty without clinging to fruit, on devotion, knowledge, and disciplined action. Arjuna’s eyes cleared. He took up the bow again, not from hatred, but from understanding. The war that followed was terrible; the teaching that began in that chariot still steadies people who must act when every choice hurts.",
+      "storyHi": "कुरुक्षेत्र में पांडव और कौरव सेनाएँ आमने-सामने थीं। अर्जुन ने कृष्ण से रथ दोनों सेनाओं के बीच ले जाने को कहा। वहाँ गुरु, चाचा, चचेरे भाई — सब युद्ध के लिए खड़े दिखे। शोक ने उन्हें तोड़ दिया; गांडीव रख उन्होंने कहा — मैं नहीं लड़ूँगा। कृष्ण ने उस दुख का मजाक नहीं उड़ाया। सखा और योगेश्वर रूप में उन्होंने वह कहा जिसे जगत् भगवद्गीता कहता है — शरीर के संग न मरने वाली आत्मा, फल की आसक्ति रहित कर्म, भक्ति, ज्ञान, संयम। अर्जुन की दृष्टि स्पष्ट हुई। उन्होंने धनुष फिर उठाया — द्वेष से नहीं, समझ से। आगे का युद्ध भयंकर था; उस रथ में जन्मी शिक्षा आज भी उन्हें सँभालती है जिन्हें दर्द भरे कर्म करने पड़ते हैं।",
+      "takeaway": "Read even four or five Gita verses slowly today — start where Arjuna’s bow fell, not where slogans begin.",
+      "relatedDevotion": [
+        "krishna-aarti",
+        "vishnu-aarti",
+        "krishna-chalisa"
+      ],
+      "relatedFestivals": [],
+      "relatedTemples": [
+        "kurukshetra-brahmasarovar",
+        "dwarka",
+        "iskcon-delhi"
+      ]
+    },
+    {
+      "slug": "ganga-avatarana",
+      "title": "How Ganga came down to earth",
+      "titleHi": "गंगा पृथ्वी पर कैसे आईं",
+      "readSeconds": 90,
+      "deity": "shiva",
+      "tags": [
+        "ritual-why",
+        "family",
+        "first-timer"
+      ],
+      "hook": "A king’s vow, a sage’s ashes, and a river that needed Shiva’s hair to land safely.",
+      "hookHi": "राजा की प्रतिज्ञा, पूर्वजों की राख, और वह नदी जिसे अवतरण के लिए शिव की जटाएँ चाहिए थीं।",
+      "whyRitual": "Ganga aarti at dusk and pilgrimage to Gangotri / Haridwar / Kashi remember this descent — water as grace that purifies when received with reverence.",
+      "whyRitualHi": "गंगा आरती और गंगोत्री–हरिद्वार–काशी यात्रा इसी अवतरण की स्मृति हैं।",
+      "storyEn": "King Sagara’s sons were burned to ash by the sage Kapila’s wrath. Only the waters of heaven’s river, Ganga, could free their souls. Generations prayed. Bhagiratha undertook fierce tapas until Brahma agreed that Ganga might descend — but her force would shatter the earth. Bhagiratha then pleased Shiva, who caught the falling torrent in his matted locks, gentled her, and released her in streams. Bhagiratha led Ganga to the ocean and over the ashes; the sons were released. That is why Shiva is called Gangadhara, bearer of Ganga, and why the river is called Bhagirathi in the Himalaya — a story of persistence, divine restraint, and water that arrives as blessing only when pride does not demand it raw.",
+      "storyHi": "राजा सगर के पुत्र कपिल मुनि के रोष से भस्म हो गए। स्वर्गीय गंगा का जल ही उनकी मुक्ति कर सकता था। पीढ़ियाँ तपती रहीं। भगीरथ के घोर तप पर ब्रह्मा ने गंगा अवतरण माना — पर उनका वेग धरती तोड़ देता। तब भगीरथ ने शिव को प्रसन्न किया; शिव ने गिरती धारा जटाओं में रोकी, कोमल कर धाराओं में छोड़ा। भगीरथ गंगा को सागर तक ले गए; राख पर जल पड़ा; पुत्र मुक्त हुए। तभी शिव गंगाधर कहलाए और हिमालय में नदी भागीरथी — यह दृढ़ता, दिव्य संयम, और उस जल की कथा है जो अहंकार की माँग पर नहीं, श्रद्धा पर अवतरित होता है।",
+      "takeaway": "At Ganga aarti or with a bowl of clean water at home, thank the river’s patience — and the locks that held her fall.",
+      "relatedDevotion": [
+        "ganga-aarti",
+        "shiva-aarti"
+      ],
+      "relatedFestivals": [],
+      "relatedTemples": [
+        "gangotri",
+        "kashi-vishwanath",
+        "rameswaram"
+      ]
+    },
+    {
+      "slug": "vamana-bali",
+      "title": "Vamana and King Bali’s three steps",
+      "titleHi": "वामन और राजा बलि के तीन पग",
+      "readSeconds": 85,
+      "deity": "vishnu",
+      "tags": [
+        "festival",
+        "first-timer",
+        "ritual-why"
+      ],
+      "hook": "A dwarf asked for three paces of land — and measured heaven and earth.",
+      "hookHi": "एक वामन ने तीन पग भूमि माँगी — और स्वर्ग–पृथ्वी नाप ली।",
+      "whyRitual": "Onam in Kerala and Vamana Jayanti remember Bali’s generosity and Vishnu’s Vamana avatar — pride humbled, devotion honoured.",
+      "whyRitualHi": "ओणम और वामन जयंती बलि की उदारता व वामन अवतार की स्मृति हैं।",
+      "storyEn": "The asura king Bali, grandson of Prahlad, ruled with such power that he threatened the order of the three worlds — yet he was famed for keeping his word and giving freely. Vishnu came as Vamana, a small brahmachari, and asked for only three steps of land. Bali’s guru warned him; Bali smiled and granted the gift. Then Vamana grew vast. With one step he covered the earth, with the second the heavens. For the third, Bali bowed and offered his own head. Vishnu placed his foot there, sent Bali to rule in the nether world with honour, and left a door of return in the people’s memory. The story praises a king who would rather lose an empire than break a promise — and a Lord who measures the cosmos yet accepts a devotee’s surrender.",
+      "storyHi": "प्रह्लाद के पौत्र राजा बलि इतने प्रबल थे कि त्रिलोक डगमगाया — पर वचनभंग न करते, दान देते। विष्णु वामन रूप छोटे ब्रह्मचारी बने और केवल तीन पग भूमि माँगी। गुरु ने रोका; बलि ने हँसकर वर दिया। तब वामन विराट हुए — एक पग में पृथ्वी, दूसरे में स्वर्ग। तीसरे के लिए बलि ने अपना मस्तक झुकाया। विष्णु ने चरण रखा, बलि को सम्मान संग पाताल का राज्य दिया, और स्मृति में वापसी का द्वार छोड़ा। कथा उस राजा की है जो साम्राज्य खोकर भी वचन न तोड़े — और उस प्रभु की जो ब्रह्मांड नापकर भी भक्त के समर्पण को स्वीकार करें।",
+      "takeaway": "Before a promise this week, remember Bali’s third step — keep the word even when it costs.",
+      "relatedDevotion": [
+        "vishnu-aarti",
+        "vishnu-chalisa"
+      ],
+      "relatedFestivals": [],
+      "relatedTemples": [
+        "tirumala-venkateswara",
+        "padmanabhaswamy-thiruvananthapuram",
+        "srirangam-ranganathaswamy"
+      ]
+    },
+    {
+      "slug": "sudama-krishna",
+      "title": "Sudama’s fistful of rice",
+      "titleHi": "सुदामा की मुट्ठी चावल",
+      "readSeconds": 80,
+      "deity": "krishna",
+      "tags": [
+        "family",
+        "first-timer"
+      ],
+      "hook": "A poor friend’s shy gift meant more than a palace of gold.",
+      "hookHi": "निर्धन मित्र का संकोची उपहार सोने के महल से बड़ा था।",
+      "whyRitual": "Told whenever friendship and Krishna’s grace are praised — offering what little you have with love.",
+      "whyRitualHi": "मित्रता और कृष्ण कृपा की कथाओं में — थोड़ा भी प्रेम से अर्पित करो।",
+      "storyEn": "Sudama and Krishna had studied together as boys. Years later Sudama lived in deep poverty. His wife urged him to visit his old friend, now king in Dwarka. Sudama went with nothing but a small bundle of beaten rice — and almost hid it in shame. Krishna ran to embrace him, washed his feet, seated him like a king, and ate the humble rice with joy. Sudama asked for nothing. When he walked home, his hut had become a mansion; his family’s hunger was ended. He understood: Krishna had given not as payment for rice, but as love answering love. The story is searched across languages because it is simple — true friendship does not invoice the divine, and grace is not ashamed of a poor man’s gift.",
+      "storyHi": "सुदामा और कृष्ण बालपन में सहपाठी थे। वर्षों बाद सुदामा अति दरिद्र रहे। पत्नी ने कहा — द्वारका के मित्र के पास जाओ। सुदामा केवल चिउड़ा की पोटली लेकर गए, संकोच में छिपाने लगे। कृष्ण दौड़कर मिले, चरण धोए, राजपाट सा बिठाया, और वह साधारण अन्न आनंद से खाया। सुदामा ने कुछ नहीं माँगा। घर लौटे तो झोपड़ी महल बन चुकी थी; अभाव मिटा। समझे — कृष्ण ने चिउड़े का मोल नहीं चुकाया, प्रेम का उत्तर प्रेम से दिया। यह कथा इसलिए प्रिय है कि सच्ची मित्रता हिसाब नहीं रखती, और कृपा गरीब के उपहार से लजाती नहीं।",
+      "takeaway": "Offer one small, honest gift today — food, time, or help — without asking return.",
+      "relatedDevotion": [
+        "krishna-aarti",
+        "satyanarayan-aarti"
+      ],
+      "relatedFestivals": [],
+      "relatedTemples": [
+        "dwarka",
+        "bet-dwarka"
+      ]
+    },
+    {
+      "slug": "savitri-satyavan",
+      "title": "Savitri and Satyavan",
+      "titleHi": "सावित्री और सत्यवान",
+      "readSeconds": 90,
+      "deity": "devi",
+      "tags": [
+        "festival",
+        "family",
+        "ritual-why"
+      ],
+      "hook": "She followed Death itself down the road — and won her husband’s life with wisdom.",
+      "hookHi": "वे स्वयं यम के मार्ग पर चलीं — और बुद्धि से पति का जीवन वापस लिया।",
+      "whyRitual": "Vat Savitri and related vows remember Savitri’s steadfast love and clear speech before Yama.",
+      "whyRitualHi": "वट सावित्री व्रत इसी दृढ़ प्रेम और यम के सामने स्पष्ट वाणी की स्मृति है।",
+      "storyEn": "Princess Savitri chose Satyavan for her husband though she knew he was fated to die within a year. She married him anyway and served his forest home with quiet strength. On the foretold day, as Satyavan split wood, he grew faint. Yama, lord of orderly death, drew out his soul and turned away. Savitri followed on foot. Yama offered boons to make her turn back — restoration of her father-in-law’s sight and kingdom, sons for her line — everything except Satyavan’s life. With each gift she argued dharma so precisely that Yama was bound by his own justice. At last he returned Satyavan’s life. Husband and wife walked home together. The tale endures because love here is not only tears; it is courage that walks beside death and speaks truth until mercy must answer.",
+      "storyHi": "राजकुमारी सावित्री ने सत्यवान को पति चुना — जानते हुए कि एक वर्ष में उनकी मृत्यु निश्चित है। फिर भी विवाह किया, वन के घर में सेवा की। निर्धारित दिन लकड़ी चीरते सत्यवान मुर्छित हुए। यम ने प्राण खींचे और मुड़े। सावित्री पैदल पीछे चलीं। यम ने वर दिए कि लौट जाएँ — श्वसुर का राज्य–दृष्टि, वंश के पुत्र — पर सत्यवान का जीवन नहीं। प्रत्येक वर पर उन्होंने धर्म इतनी स्पष्टता से रखा कि यम स्वयं न्याय से बँध गए। अंत में प्राण लौटाए। दंपति घर लौटे। कथा इसलिए अमर है कि यहाँ प्रेम केवल अश्रु नहीं — वह साहस है जो मृत्यु के संग चलकर सत्य बोले जब तक करुणा उत्तर दे।",
+      "takeaway": "On Vat Savitri or any vow day, remember Savitri’s walk — loyalty paired with clear, courageous words.",
+      "relatedDevotion": [
+        "devi-aarti",
+        "lakshmi-aarti"
+      ],
+      "relatedFestivals": [],
+      "relatedTemples": [
+        "vaishno-devi",
+        "mahalaxmi-kolhapur"
+      ]
+    },
+    {
+      "slug": "markandeya-shiva",
+      "title": "Markandeya and the noose of Yama",
+      "titleHi": "मार्कंडेय और यम की पाश",
+      "readSeconds": 85,
+      "deity": "shiva",
+      "tags": [
+        "ritual-why",
+        "first-timer",
+        "family"
+      ],
+      "hook": "A boy hugged the Shiva linga — and Death’s rope could not take him.",
+      "hookHi": "बालक ने शिवलिंग लगा लिया — यम का पाश उन्हें न ले जा सका।",
+      "whyRitual": "Mrityunjaya worship and stories of Shiva as conqueror of death remember Markandeya’s refuge at the linga.",
+      "whyRitualHi": "मृत्युंजय आराधना और शिव की मृत्यु-विजय कथाएँ मार्कंडेय की लिंग-शरण याद दिलाती हैं।",
+      "storyEn": "The sage couple Mrikandu and Marudmati were granted a choice: a long-lived ordinary son, or a short-lived brilliant one. They chose brilliance. Markandeya was born — destined to die at sixteen, yet filled with devotion to Shiva. On the final day he sat embracing the linga, chanting. Yama cast his noose; it encircled boy and linga together. Shiva arose in wrath, struck Yama down, and blessed Markandeya with ageless life. Death was taught its limit before true surrender. That is why Shiva is praised as Mrityunjaya — not as cruelty against order, but as the refuge that holds when fear arrives on schedule.",
+      "storyHi": "मृकंडु–मरुद्वती को वर मिला — दीर्घायु साधारण पुत्र या अल्पायु तेजस्वी। उन्होंने तेज चुना। मार्कंडेय जन्मे — सोलह पर मृत्यु निश्चित, पर शिव भक्ति से भरे। अंतिम दिन वे लिंग लगा जप करते बैठे। यम ने पाश फेंका; वह बालक और लिंग दोनों पर पड़ा। शिव क्रोध में प्रकट हुए, यम को परास्त किया, मार्कंडेय को चिरजीवन दिया। मृत्यु को सीमा सिखाई गई। तभी शिव मृत्युंजय कहलाते हैं — व्यवस्था के प्रति क्रूरता नहीं, वह शरण जब भय समय पर आए।",
+      "takeaway": "Chant Om Namah Shivaya or Mrityunjaya once today with Markandeya’s trust — hold the refuge, not the panic.",
+      "relatedDevotion": [
+        "shiva-aarti",
+        "shiva-chalisa",
+        "pradosh-vrat-katha"
+      ],
+      "relatedFestivals": [
+        "maha-shivaratri"
+      ],
+      "relatedTemples": [
+        "mahakaleshwar-ujjain",
+        "kashi-vishwanath",
+        "rameswaram"
+      ]
+    },
+    {
+      "slug": "dhruva-pole-star",
+      "title": "Dhruva and the immovable star",
+      "titleHi": "ध्रुव और अचल तारा",
+      "readSeconds": 80,
+      "deity": "vishnu",
+      "tags": [
+        "family",
+        "first-timer"
+      ],
+      "hook": "A child’s hurt became a meditation so steady it turned into a star.",
+      "hookHi": "बालक की ठेस ऐसी समाधि बनी कि वह ध्रुव तारा हो गया।",
+      "whyRitual": "Parents tell Dhruva’s tale for perseverance in japa — the mind that does not leave its seat.",
+      "whyRitualHi": "ध्रुव कथा जप में दृढ़ता सिखाती है — मन जो अपनी आसन नहीं छोड़ता।",
+      "storyEn": "Prince Dhruva was denied his father’s lap when a stepmother’s words cut him. The boy left for the forest, not for revenge, but for a place in the Lord’s presence that no insult could steal. Under Narada’s guidance he sat in fierce meditation on Vishnu. The worlds trembled at the child’s tapas. Vishnu appeared, lifted him, and granted a boon: Dhruva would shine as the pole star — fixed, a guide for travellers and ages. The story is loved because the wound is ordinary and the answer is extraordinary: turn hurt into one-pointed remembrance, and even the sky keeps your seat.",
+      "storyHi": "राजकुमार ध्रुव को सौतेली माँ के शब्दों ने पिता की गोद से वंचित किया। बालक वन गए — प्रतिशोध नहीं, उस उपस्थिति की खोज जो अपमान छीन न सके। नारद की दीक्षा से उन्होंने विष्णु का घोर ध्यान किया। बाल तप से लोक काँपे। विष्णु प्रकट हुए, उठाया, वर दिया — ध्रुव ध्रुवतारा बन चमकेंगे, यात्रियों और युगों का अचल मार्गदर्शक। कथा इसलिए प्रिय है कि ठेस साधारण है और उत्तर असाधारण: पीड़ा को एकाग्र स्मरण बनाओ, आकाश भी तुम्हारी आसन रखे।",
+      "takeaway": "Sit for five quiet minutes of japa — one name, one seat, like Dhruva who would not move.",
+      "relatedDevotion": [
+        "vishnu-aarti",
+        "vishnu-chalisa",
+        "satyanarayan-aarti"
+      ],
+      "relatedFestivals": [],
+      "relatedTemples": [
+        "tirumala-venkateswara",
+        "badrinath"
+      ]
+    },
+    {
+      "slug": "shabari-rama",
+      "title": "Shabari’s berries and Rama’s visit",
+      "titleHi": "शबरी के बेर और राम का आगमन",
+      "readSeconds": 75,
+      "deity": "rama",
+      "tags": [
+        "family",
+        "first-timer",
+        "festival"
+      ],
+      "hook": "She tasted each berry for bitterness — so her Lord would receive only sweetness.",
+      "hookHi": "उन्होंने प्रत्येक बेर का स्वाद लिया — ताकि प्रभु को केवल मीठा मिले।",
+      "whyRitual": "Ram Navami and Rama stories praise Shabari’s waiting — devotion without status.",
+      "whyRitualHi": "राम नवमी कथाएँ शबरी की प्रतीक्षा गाती हैं — बिना पद की भक्ति।",
+      "storyEn": "In the Dandaka forest lived Shabari, a devotee who waited years because her guru had said Rama would come. Each day she swept the path, gathered fruits, and — in the telling loved across India — tasted the berries so that only the sweetest would touch Rama’s hand. When Rama and Lakshmana arrived, searching for Sita, she offered her humble meal with trembling joy. Rama accepted it as a king accepts a feast. He blessed her devotion and she attained peace. The tale is searched and sung because it says clearly: the Lord looks at the heart that waits and the love that tests itself for the guest’s sake, not at the grandeur of the plate.",
+      "storyHi": "दंडकारण्य में शबरी वर्षों प्रतीक्षा करती रहीं — गुरु ने कहा था राम आएंगे। प्रतिदिन मार्ग बुहारतीं, फल चुनतीं, और प्रिय कथा के अनुसार बेर चखतीं ताकि केवल मीठे राम के हाथ लगें। जब राम–लक्ष्मण सीता खोजते आए, उन्होंने संकोच भरी प्रसन्नता से वह साधारण भोजन परोसा। राम ने उसे राजभोज सा स्वीकारा, भक्ति पर आशीष दिया; शबरी को शांति मिली। कथा इसलिए गायी जाती है: प्रभु उस हृदय को देखते हैं जो प्रतीक्षा करे और अतिथि के लिए स्वयं को जाँचे — थाली की भव्यता को नहीं।",
+      "takeaway": "Before offering prasad or a meal to a guest, prepare it as Shabari did — with care that the other receive sweetness.",
+      "relatedDevotion": [
+        "rama-aarti",
+        "rama-chalisa",
+        "ram-navami-vrat-katha"
+      ],
+      "relatedFestivals": [],
+      "relatedTemples": [
+        "ayodhya-ram-mandir",
+        "bhadrachalam",
+        "rameswaram"
+      ]
+    },
+    {
+      "slug": "ganesha-chandra-curse",
+      "title": "Why Ganesha cursed the moon",
+      "titleHi": "गणेश ने चंद्रमा को शाप क्यों दिया",
+      "readSeconds": 80,
+      "deity": "ganesha",
+      "tags": [
+        "festival",
+        "ritual-why",
+        "family"
+      ],
+      "hook": "A laugh at the wrong moment — and the moon’s light carried a stigma.",
+      "hookHi": "गलत क्षण की हँसी — और चंद्र की चाँदनी पर कलंक लग गया।",
+      "whyRitual": "On Ganesh Chaturthi many avoid looking at the moon, remembering this tale of mockery and forgiveness.",
+      "whyRitualHi": "गणेश चतुर्थी पर कई चंद्र दर्शन नहीं करते — उपहास और क्षमा की इस कथा से।",
+      "storyEn": "After a feast of modaks, Ganesha rode home on his mouse. The mouse stumbled; Ganesha fell, and his belly spilled the sweets. The moon, Chandra, laughed. Anger rose in Ganesha and he cursed the moon to carry a stain and to be inauspicious when gazed upon on this tithi. The gods later softened the curse’s weight, yet the memory remains in custom: do not mock another’s awkward devotion or body. Chandra’s beauty was not cancelled, but laughter without kindness left a mark — a small Puranic story that still shapes Chaturthi nights.",
+      "storyHi": "मोदक भोजन के बाद गणेश मूषक पर जा रहे थे। मूषक लड़खड़ाया; गणेश गिरे, उदर से मिष्ठान बिखर गए। चंद्रमा हँसा। गणेश ने शाप दिया — चंद्र कलंक धरे और इस तिथि पर दर्शन अशुभ हो। बाद में शाप की तीव्रता कोमल हुई, पर रीति में स्मृति रही: किसी की भक्ति या शरीर का उपहास न करो। चंद्र की सुंदरता मिटी नहीं, पर बिना करुणा की हँसी ने दाग छोड़ा — छोटी पुराण कथा जो चतुर्थी की रात आज भी बाँधती है।",
+      "takeaway": "On Chaturthi evening, skip moon-gazing if that is your custom — and skip mockery every day.",
+      "relatedDevotion": [
+        "ganesha-aarti",
+        "ganesha-chalisa",
+        "ganesh-chaturthi-vrat-katha"
+      ],
+      "relatedFestivals": [
+        "ganesh-chaturthi"
+      ],
+      "relatedTemples": [
+        "siddhivinayak-mumbai",
+        "moreshwar-morgaon"
+      ]
+    },
+    {
+      "slug": "mohini-amrita",
+      "title": "Mohini and the nectar of immortality",
+      "titleHi": "मोहिनी और अमृत वितरण",
+      "readSeconds": 85,
+      "deity": "vishnu",
+      "tags": [
+        "first-timer",
+        "ritual-why"
+      ],
+      "hook": "After the ocean gave nectar, a enchanting form decided who would drink.",
+      "hookHi": "सागर ने अमृत दिया — तब एक मोहक रूप ने तय किया कौन पिए।",
+      "whyRitual": "Paired with Samudra Manthan / Neelkanth tellings: the churning’s fruit must be guarded from greed.",
+      "whyRitualHi": "समुद्र मंथन / नीलकंठ कथाओं के संग: मंथन का फल लोभ से बचाना होता है।",
+      "storyEn": "When the ocean of milk was churned, after poison came treasures — and at last amrita, the nectar of immortality. Gods and asuras both claimed it. Vishnu took the form of Mohini, a beauty so complete that the asuras agreed she should divide the cups. She poured for the gods with serene precision. Rahu, disguised among them, tasted a drop; the sun and moon exposed him; Vishnu’s discus severed his head — yet the sip had already made that head immortal, and so Rahu still chases the lights in eclipse lore. Mohini’s tale follows Neelkanth’s: first survival through sacrifice, then justice through discernment. Immortality without dharma would have burned the worlds twice.",
+      "storyHi": "क्षीरसागर मंथन में विष के बाद रत्न आए, अंत में अमृत। देव और असुर दोनों दावेदार। विष्णु मोहिनी रूप हुए — इतने मोहक कि असुर मान गए, वे ही बाँटें। उन्होंने शांत सटीकता से देवताओं को अमृत दिया। राहु छद्म वेश में एक बूँद पी गया; सूर्य–चंद्र ने भेद खोला; सुदर्शन ने सिर काटा — पर अमृत छू चुका था, इसलिए ग्रहण कथा में राहु आज भी ज्योति का पीछा करता है। मोहिनी कथा नीलकंठ के बाद आती है: पहले बलिदान से रक्षा, फिर विवेक से न्याय। बिना धर्म के अमरत्व लोकों को दो बार जलाता।",
+      "takeaway": "After reading Neelkanth, read Mohini — sacrifice first, then fair sharing of what was won.",
+      "relatedDevotion": [
+        "vishnu-aarti",
+        "shiva-aarti"
+      ],
+      "relatedFestivals": [
+        "maha-shivaratri"
+      ],
+      "relatedTemples": [
+        "tirumala-venkateswara",
+        "padmanabhaswamy-thiruvananthapuram"
+      ]
     }
   ]
 }

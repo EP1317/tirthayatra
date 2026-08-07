@@ -12,9 +12,15 @@ This project follows [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PA
 
 The current version is in [`VERSION`](./VERSION). Released versions should also be git tags (`v0.3.0`, etc.) so any earlier build can be checked out or promoted on Vercel.
 
+## [0.3.1] - 2026-08-07
+
+### Added
+- **12 popular short stories** often searched / retold online: Govardhan, Kaliya, Bhagavad Gita at Kurukshetra, Ganga avatarana, Vamana–Bali, Sudama, Savitri–Satyavan, Markandeya, Dhruva, Shabari, Ganesha–Chandra curse, Mohini–amrita (21 stories total)
+- Stories index / daily rotation / editor picks updated for the new set
+
 ## [0.3.0] - 2026-08-07
 
-Home-devotion engagement demo (local commit; deploy when ready).
+Home-devotion engagement (calendar, practice, My Board, feedback).
 
 ### Added
 - **Festival calendar** — month view, next 30 days, shareable plain-text cards (`festivals/calendar.html`)
