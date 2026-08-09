@@ -12,6 +12,11 @@ This project follows [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PA
 
 The current version is in [`VERSION`](./VERSION). Released versions should also be git tags (`v0.3.0`, etc.) so any earlier build can be checked out or promoted on Vercel.
 
+## [0.4.1] - 2026-08-09
+
+### Fixed
+- **Vrat Katha videos** — added YouTube watch/listen embeds for all 7 new kathas (Satyanarayan, Karva Chauth, Chhath, Teej, Vat Savitri, Maha Shivaratri, Ahoi Ashtami); player shown first on vrat pages; privacy-enhanced YouTube embeds
+
 ## [0.4.0] - 2026-08-09
 
 ### Added

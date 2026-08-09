@@ -1324,10 +1324,16 @@ def devotion_audio_block(item: dict) -> str:
     )
     player = ""
     if audio_url and is_youtube_embed(audio_url):
+        # Prefer privacy-enhanced host; keep original if already nocookie.
+        embed_src = audio_url.replace(
+            "https://www.youtube.com/embed/",
+            "https://www.youtube-nocookie.com/embed/",
+        )
         player = f"""
     <div class="video-embed devotion-audio-embed">
-      <iframe src="{e(audio_url)}" title="{e(item.get('title', 'Devotion'))} {'video' if is_vrat else 'audio'}"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      <iframe src="{e(embed_src)}" title="{e(item.get('title', 'Devotion'))} {'video' if is_vrat else 'audio'}"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen loading="lazy"></iframe>
     </div>"""
     link_href = watch_url or audio_url
@@ -1403,9 +1409,10 @@ def build_devotion_item(item: dict) -> str:
       <div class="fact"><dt>Tradition / author</dt><dd>{e(item.get('author', 'Traditional'))}</dd></div>
       <div class="fact"><dt>When to recite</dt><dd>{e(item.get('when', ''))}</dd></div>
     </div>
+    {audio_block if item.get("type") == "vrat-katha" else ""}
     <p class="devotion-summary">{e(item.get('summary', ''))}</p>
+    {audio_block if item.get("type") != "vrat-katha" else ""}
     <aside class="belief-disclaimer"><strong>Text note:</strong> Traditional hymn / katha presented for personal learning and home puja. Authors and lineages remain with their traditions; TirthaYatra does not claim copyright over classical verses. Optional YouTube listens belong to their uploaders.</aside>
-    {audio_block}
     <h2>पाठ · Text</h2>
     <div class="devotion-verses">{verses}</div>
     <h2>Meaning</h2>

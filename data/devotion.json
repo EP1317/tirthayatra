@@ -1283,7 +1283,10 @@
       ],
       "completeText": true,
       "sangrahLabel": "करवा चौथ",
-      "audioNote": "Optional listen-along video may be added later. Read the katha aloud at home; confirm ritual timing with your family custom or local temple."
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load. TirthaYatra does not host the media file.",
+      "audioUrl": "https://www.youtube.com/embed/1qUTRIJsBkI",
+      "audioWatchUrl": "https://www.youtube.com/watch?v=1qUTRIJsBkI",
+      "audioLabel": "Karva Chauth Vrat Katha · Hindi"
     },
     {
       "slug": "chhath-vrat-katha",
@@ -1314,7 +1317,10 @@
       ],
       "completeText": true,
       "sangrahLabel": "छठ",
-      "audioNote": "Optional listen-along video may be added later. Read the katha aloud at home; confirm ritual timing with your family custom or local temple."
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load. TirthaYatra does not host the media file.",
+      "audioUrl": "https://www.youtube.com/embed/sczjEISoNN4",
+      "audioWatchUrl": "https://www.youtube.com/watch?v=sczjEISoNN4",
+      "audioLabel": "Chhath Puja Katha · Hindi"
     },
     {
       "slug": "satyanarayan-vrat-katha",
@@ -1345,7 +1351,10 @@
       ],
       "completeText": true,
       "sangrahLabel": "सत्यनारायण",
-      "audioNote": "Optional listen-along video may be added later. Read the katha aloud at home; confirm ritual timing with your family custom or local temple."
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load. TirthaYatra does not host the media file.",
+      "audioUrl": "https://www.youtube.com/embed/Y6zWVa43B4Q",
+      "audioWatchUrl": "https://www.youtube.com/watch?v=Y6zWVa43B4Q",
+      "audioLabel": "Satyanarayan Vrat Katha · Hindi with aarti"
     },
     {
       "slug": "teej-vrat-katha",
@@ -1374,7 +1383,10 @@
       ],
       "completeText": true,
       "sangrahLabel": "हरतालिका तीज",
-      "audioNote": "Optional listen-along video may be added later. Read the katha aloud at home; confirm ritual timing with your family custom or local temple."
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load. TirthaYatra does not host the media file.",
+      "audioUrl": "https://www.youtube.com/embed/uxLVsxX-9Lc",
+      "audioWatchUrl": "https://www.youtube.com/watch?v=uxLVsxX-9Lc",
+      "audioLabel": "Hartalika Teej Vrat Katha · Hindi"
     },
     {
       "slug": "vat-savitri-vrat-katha",
@@ -1403,7 +1415,10 @@
       ],
       "completeText": true,
       "sangrahLabel": "वट सावित्री",
-      "audioNote": "Optional listen-along video may be added later. Read the katha aloud at home; confirm ritual timing with your family custom or local temple."
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load. TirthaYatra does not host the media file.",
+      "audioUrl": "https://www.youtube.com/embed/r9yvst7QwMg",
+      "audioWatchUrl": "https://www.youtube.com/watch?v=r9yvst7QwMg",
+      "audioLabel": "Vat Savitri Vrat Katha · Hindi"
     },
     {
       "slug": "maha-shivaratri-vrat-katha",
@@ -1433,7 +1448,10 @@
       ],
       "completeText": true,
       "sangrahLabel": "महाशिवरात्रि",
-      "audioNote": "Optional listen-along video may be added later. Read the katha aloud at home; confirm ritual timing with your family custom or local temple."
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load. TirthaYatra does not host the media file.",
+      "audioUrl": "https://www.youtube.com/embed/pnr_UFx8D1Y",
+      "audioWatchUrl": "https://www.youtube.com/watch?v=pnr_UFx8D1Y",
+      "audioLabel": "Maha Shivaratri Vrat Katha · Hindi"
     },
     {
       "slug": "ahoi-ashtami-vrat-katha",
@@ -1461,7 +1479,10 @@
       ],
       "completeText": true,
       "sangrahLabel": "अहोई अष्टमी",
-      "audioNote": "Optional listen-along video may be added later. Read the katha aloud at home; confirm ritual timing with your family custom or local temple."
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load. TirthaYatra does not host the media file.",
+      "audioUrl": "https://www.youtube.com/embed/8mGesAxcr_A",
+      "audioWatchUrl": "https://www.youtube.com/watch?v=8mGesAxcr_A",
+      "audioLabel": "Ahoi Ashtami Vrat Katha · Hindi"
     }
   ]
 }
