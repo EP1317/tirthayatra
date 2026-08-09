@@ -10,6 +10,12 @@
       },
       {
         "type": "story",
+        "slug": "krishna-makhan-chor",
+        "label": "Kids’ favourite",
+        "blurb": "Makhan chor — the butter thief of Braj."
+      },
+      {
+        "type": "story",
         "slug": "krishna-govardhan",
         "label": "Most watched theme",
         "blurb": "Govardhan lifted — the storm Indra could not win."
@@ -34,6 +40,12 @@
       }
     ],
     "firstTimers": [
+      {
+        "type": "story",
+        "slug": "samudra-manthan-kurma",
+        "label": "Epic classic",
+        "blurb": "Ocean churning — Kurma, poison, amrita."
+      },
       {
         "type": "story",
         "slug": "rama-homecoming-lamps",
@@ -174,7 +186,22 @@
       "dhruva-pole-star",
       "shabari-rama",
       "ganesha-chandra-curse",
-      "mohini-amrita"
+      "mohini-amrita",
+      "samudra-manthan-kurma",
+      "krishna-makhan-chor",
+      "krishna-virat-roop",
+      "narasimha-hiranyakashipu",
+      "lakshman-rekha",
+      "ahalya-rama",
+      "ganesha-vyasa-mahabharata",
+      "matsya-manu",
+      "varaha-earth",
+      "shravan-kumar",
+      "bhishma-pratigya",
+      "kali-raktabija",
+      "putana-krishna",
+      "narakasura-krishna",
+      "sita-swayamvara-bow"
     ]
   },
   "checklistPresets": {

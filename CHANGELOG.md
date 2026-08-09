@@ -12,6 +12,12 @@ This project follows [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PA
 
 The current version is in [`VERSION`](./VERSION). Released versions should also be git tags (`v0.3.0`, etc.) so any earlier build can be checked out or promoted on Vercel.
 
+## [0.4.2] - 2026-08-09
+
+### Added
+- **15 high-search short stories** (India + diaspora / YouTube favourites): Samudra Manthan–Kurma, Makhan Chor, Vishwarupa, Narasimha, Lakshman Rekha, Ahalya, Ganesha writes Mahabharata, Matsya–Manu, Varaha, Shravan Kumar, Bhishma Pratigya, Kali–Raktabija, Putana, Narakasura, Sita swayamvara bow (36 stories total)
+- Daily rotation and editor picks updated
+
 ## [0.4.1] - 2026-08-09
 
 ### Fixed
