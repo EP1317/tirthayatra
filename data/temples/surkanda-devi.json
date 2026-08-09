@@ -27,16 +27,16 @@
     "Local jatras"
   ],
   "bestTime": "March–June and September–November; winters bring snow and road risk.",
-  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
-  "climate": "Varies by region — check seasonal weather before travel.",
+  "whatToCarry": "Warm layers and rain protection for hills. Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Himalayan — cool to cold by altitude; monsoon landslide risk on hill roads.",
   "nearestRail": "Rishikesh / Dehradun",
   "nearestAirport": "Dehradun (Jolly Grant)",
-  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
-  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
-  "otherFood": "Wider options usually in the nearest city.",
-  "localLanguage": "Regional language and Hindi; English varies.",
-  "dressCode": "Modest clothing; follow temple boards for traditional dress rules.",
-  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "accommodation": "Dharamshalas, temple-trust guest houses, and private hotels near Surkanda Devi Temple. Book early for festival weeks; prefer official trust counters when available.",
+  "localFood": "Simple hill vegetarian meals and prasadam; carry dry snacks on treks.",
+  "otherFood": "Wider vegetarian and city cuisine usually in the nearest town; keep non-veg and alcohol away from temple precincts as posted.",
+  "localLanguage": "Hindi and Garhwali/Kumaoni; English in tourist towns.",
+  "dressCode": "Modest attire — shoulders and knees covered preferred. Follow temple boards for traditional dress, footwear, and phone rules.",
+  "darshanTimings": "Typically early morning to evening with aarti and ritual breaks. Confirm same-day timings on the temple trust / endowment board notices.",
   "specialEntry": "Special entry, if any, only via official temple counters.",
   "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
   "lockers": "Cloakrooms where available near the entrance.",
@@ -46,7 +46,23 @@
   "lat": 30.412,
   "lng": 78.288,
   "mapQuery": "Surkanda Devi Temple Kanatal",
-  "nearby": [],
+  "nearby": [
+    {
+      "name": "Yamunotri Temple",
+      "slug": "yamunotri",
+      "note": "About 67 km away"
+    },
+    {
+      "name": "Kedarnath Temple",
+      "slug": "kedarnath",
+      "note": "About 82 km away"
+    },
+    {
+      "name": "Tungnath Temple",
+      "slug": "tungnath",
+      "note": "About 89 km away"
+    }
+  ],
   "packages": [
     "Kanatal–Surkanda day trek/drive from Mussoorie",
     "Tehri Garhwal Devi circuit"
@@ -56,12 +72,17 @@
     "State tourism materials",
     "Puranic / pilgrimage tradition (lists can vary by scripture)"
   ],
-  "lastUpdated": "2026-07-31",
+  "lastUpdated": "2026-08-09",
   "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
   "deityFamilies": [
     "devi"
   ],
   "mythologySignificance": "The Shakti Peetha cycle rests on the Puranic narrative of Daksha’s yajna, Sati’s self-immolation, and Shiva’s grief-stricken tandava. Vishnu’s Sudarshana chakra is said to have dismembered Sati’s body; where each portion fell, a peetha of the Goddess arose.\n\nSurkanda Devi Temple at Near Kanatal, Tehri Garhwal, Uttarakhand is counted among these seats in widely followed pilgrimage lists. Tradition in the popular 51-peetha pilgrimage enumeration associates this seat with the Head of Sati · Kanatal ridge shrine of Goddess Sati. Scriptural enumerations differ (often 51, 52, or 108); Devi / Kalika Purana traditions and later Pithanirnaya-style lists underpin how pilgrims map this geography today.\n\nGoddess Surkanda Devi (Kali / Sati) is worshipped here as the living Shakti of the peetha — fierce or gentle according to local form, yet always as the mother who sanctifies place through the Sati–Shiva story.",
   "localBeliefs": "At Surkanda Devi Temple, priests and elders retell the peetha association (Head of Sati · Kanatal ridge shrine) as the reason devotees undertake long journeys for darshan of Goddess Surkanda Devi (Kali / Sati). Navaratri, local jatras, and family kuladevi vows intensify belief that the Goddess of this seat answers specifically here.\n\nOfferings, colours of flowers or cloth, and animal-sacrifice customs (where still practised under temple rules) vary by region — pilgrims are taught to follow only what the local peetha permits.\n\nBecause peetha lists themselves vary, local tradition at the shrine is treated as authoritative for ritual detail, while the pan-Indian Sati narrative supplies the shared mythological frame.",
-  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts."
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "sacredPhrase": {
+    "text": "जय माता दी",
+    "meaning": "Victory to the Mother",
+    "source": "Garhwal Devi call on the Surkanda ridge"
+  }
 }

@@ -22,20 +22,22 @@
     "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
   ],
   "festivals": [
-    "Major local festival days",
-    "Navaratri / Shiva-related observances as applicable"
+    "Navaratri",
+    "Local jatra / mela days",
+    "Ram Navami",
+    "Vivaha / local Rama festival days"
   ],
-  "bestTime": "October–March for most plains sites; confirm Himalayan seasonal windows separately.",
-  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
-  "climate": "Varies by region — check seasonal weather before travel.",
+  "bestTime": "October–March; summers are hot on the plains.",
+  "whatToCarry": "Sun cap and light cotton for hot plains. Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Hot summers, cool winters, monsoon mid-year.",
   "nearestRail": "See regional railhead; confirm current connectivity.",
   "nearestAirport": "Nearest major airport with road onward.",
-  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
-  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
-  "otherFood": "Wider options usually in the nearest city.",
-  "localLanguage": "Regional language and Hindi; English varies.",
-  "dressCode": "Modest clothing; follow temple boards for traditional dress rules.",
-  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "accommodation": "Dharamshalas, temple-trust guest houses, and private hotels near Tripuramalini / Devi Talab. Book early for festival weeks; prefer official trust counters when available.",
+  "localFood": "Punjabi vegetarian thalis and simple pilgrim meals near shrines.",
+  "otherFood": "Wider vegetarian and city cuisine usually in the nearest town; keep non-veg and alcohol away from temple precincts as posted.",
+  "localLanguage": "Punjabi and Hindi; English in cities.",
+  "dressCode": "Modest attire — shoulders and knees covered preferred. Follow temple boards for traditional dress, footwear, and phone rules.",
+  "darshanTimings": "Typically early morning to evening with aarti and ritual breaks. Confirm same-day timings on the temple trust / endowment board notices.",
   "specialEntry": "Special entry, if any, only via official temple counters.",
   "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
   "lockers": "Cloakrooms where available near the entrance.",
@@ -45,10 +47,27 @@
   "lat": 31.326,
   "lng": 75.576,
   "mapQuery": "Tripuramalini / Devi Talab",
-  "nearby": [],
+  "nearby": [
+    {
+      "name": "Devi Talab Mandir, Jalandhar",
+      "slug": "devi-talab-mandir",
+      "note": "Nearby in the same sacred belt"
+    },
+    {
+      "name": "Sheetla Mata Mandir, Ludhiana",
+      "slug": "sheetla-mata-ludhiana",
+      "note": "About 54 km away"
+    },
+    {
+      "name": "Shri Krishna Mandir, Ludhiana",
+      "slug": "shri-krishna-mandir-ludhiana",
+      "note": "About 54 km away"
+    }
+  ],
   "packages": [
-    "Tripuramalini / Devi Talab day darshan",
-    "Regional multi-temple circuit"
+    "Tripuramalini / Devi Talab — day darshan",
+    "Tripuramalini / Devi Talab + Devi Talab Mandir, Jalandhar — 2-day circuit",
+    "Regional Punjab multi-temple circuit"
   ],
   "sources": [
     "Punjab Tourism: https://punjabtourism.punjab.gov.in/",
@@ -56,7 +75,7 @@
     "State tourism materials",
     "Puranic / pilgrimage tradition (lists can vary by scripture)"
   ],
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-08-09",
   "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
   "statePortal": {
     "name": "Punjab Tourism",
@@ -69,5 +88,10 @@
   "deityFamilies": [
     "rama",
     "devi"
-  ]
+  ],
+  "sacredPhrase": {
+    "text": "जय श्री राम",
+    "meaning": "Victory to Lord Rama",
+    "source": "Living Rama pilgrim cry at this seat"
+  }
 }

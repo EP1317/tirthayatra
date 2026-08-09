@@ -1790,6 +1790,45 @@
     "famousFor": "Shakti Peetha — Back / hip"
   },
   {
+    "slug": "agroha-dham",
+    "name": "Agroha Dham",
+    "deity": "Goddess Mahalakshmi & Maharaja Agrasen lore",
+    "location": "Agroha, Hisar, Haryana",
+    "state": "Haryana",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "अ",
+    "tags": [
+      "modern-temples"
+    ],
+    "tagLabels": [
+      "Modern Temples"
+    ],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Agroha Dham — modern pilgrimage complex tied to Agrasen and community identity.",
+    "famousFor": "Agrawal community mega-temple · national diaspora search"
+  },
+  {
+    "slug": "ajgaibinath-sultanganj",
+    "name": "Ajgaibinath Temple, Sultanganj",
+    "deity": "Lord Shiva (Ajgaibinath)",
+    "location": "Sultanganj, Bhagalpur, Bihar",
+    "state": "Bihar",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "अज",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva",
+      "devi"
+    ],
+    "summary": "Ajgaibinath — island-adjacent Shiva temple where Kawad pilgrims collect Ganga water for Deoghar.",
+    "famousFor": "Kawariya Ganga jal origin · crores seasonal search (Sawan)"
+  },
+  {
     "slug": "ambaji",
     "name": "Ambaji Temple",
     "deity": "Goddess Amba",
@@ -1805,6 +1844,76 @@
     ],
     "summary": "Ambaji — one of Gujarat’s foremost Devi pilgrimages at the Aravalli edge.",
     "famousFor": "Major Shakti shrine of North Gujarat"
+  },
+  {
+    "slug": "ambalapuzha-krishna",
+    "name": "Ambalappuzha Sri Krishna Temple",
+    "deity": "Lord Krishna",
+    "location": "Ambalappuzha, Alappuzha, Kerala",
+    "state": "Kerala",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "अं",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "krishna"
+    ],
+    "summary": "Ambalappuzha — Krishna temple world-famous for daily palpayasam prasadam.",
+    "famousFor": "Palpayasam 400-year tradition · ~high coastal footfall / viral food-bhakti search"
+  },
+  {
+    "slug": "ananta-vasudeva-bhubaneswar",
+    "name": "Ananta Vasudeva Temple, Bhubaneswar",
+    "deity": "Lord Vishnu (Ananta Vasudeva)",
+    "location": "Bhubaneswar, Odisha",
+    "state": "Odisha",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "अन",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "vishnu",
+      "shiva"
+    ],
+    "summary": "Ananta Vasudeva — rare major Vishnu temple in Shaiva Bhubaneswar.",
+    "famousFor": "Old town Vishnu · Lingaraj circuit Vaishnava search"
+  },
+  {
+    "slug": "horanadu-annapoorneshwari",
+    "name": "Annpoorneshwari Temple, Horanadu",
+    "deity": "Goddess Annapoorneshwari",
+    "location": "Horanadu, Chikmagalur, Karnataka",
+    "state": "Karnataka",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "हो",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Horanadu Annapoorneshwari — Goddess of food in the Western Ghats.",
+    "famousFor": "Malnad Devi · high Karnataka tourism+temple search"
+  },
+  {
+    "slug": "ashwaklanta-guwahati",
+    "name": "Aswaklanta Temple, North Guwahati",
+    "deity": "Lord Krishna / Vishnu",
+    "location": "North Guwahati, Assam",
+    "state": "Assam",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "अ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "krishna",
+      "vishnu"
+    ],
+    "summary": "Asvaklanta — hill temple linked to Krishna–Arjuna lore on the Brahmaputra’s north bank.",
+    "famousFor": "Krishna–Arjuna horse legend · Assam Vaishnava search"
   },
   {
     "slug": "attukal-bhagavathy",
@@ -1824,6 +1933,57 @@
     "famousFor": "Attukal Pongala — among the world’s largest women’s gatherings"
   },
   {
+    "slug": "bahucharaji-temple",
+    "name": "Bahucharaji Temple",
+    "deity": "Goddess Bahuchara Mata",
+    "location": "Bahucharaji, Mehsana, Gujarat",
+    "state": "Gujarat",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ब",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Bahucharaji — one of Gujarat’s most visited Devi temples outside Ambaji–Pavagadh.",
+    "famousFor": "North Gujarat Devi · very high state search volume"
+  },
+  {
+    "slug": "baijnath-temple-hp",
+    "name": "Baijnath Temple, Himachal",
+    "deity": "Lord Shiva (Vaidyanath)",
+    "location": "Baijnath, Kangra, Himachal Pradesh",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "बै",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Baijnath — 13th-century Shiva temple, among Himachal’s finest stone shrines.",
+    "famousFor": "Nagara Shiva masterpiece · Kangra heritage search"
+  },
+  {
+    "slug": "bambleshwari-dongargarh",
+    "name": "Bambleshwari Temple, Dongargarh",
+    "deity": "Goddess Bambleshwari",
+    "location": "Dongargarh, Rajnandgaon, Chhattisgarh",
+    "state": "Chhattisgarh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "बं",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Maa Bambleshwari of Dongargarh — Chhattisgarh’s premier Devi hill temple.",
+    "famousFor": "Hill Devi · among CG’s highest pilgrim searches"
+  },
+  {
     "slug": "banke-bihari-vrindavan",
     "name": "Banke Bihari Temple, Vrindavan",
     "deity": "Lord Krishna (Banke Bihari)",
@@ -1839,6 +1999,58 @@
     ],
     "summary": "Banke Bihari — among Vrindavan’s most loved Krishna shrines in the Braj pilgrimage.",
     "famousFor": "Beloved Krishna temple of Vrindavan lanes"
+  },
+  {
+    "slug": "basistha-ashram",
+    "name": "Basistha Temple, Guwahati",
+    "deity": "Lord Shiva (Basistha)",
+    "location": "Basistha, Guwahati, Assam",
+    "state": "Assam",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ब",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Basistha ashram-temple — Shiva shrine tied to sage Vasistha’s Assam legend.",
+    "famousFor": "Sage Basistha lore · popular Guwahati weekend tirtha"
+  },
+  {
+    "slug": "basukinath-temple",
+    "name": "Basukinath Temple",
+    "deity": "Lord Shiva (Basukinath)",
+    "location": "Basukinath, Dumka, Jharkhand",
+    "state": "Jharkhand",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ब",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Basukinath — major Shaiva tirtha of Santhal Pargana, paired with Baba Baidyanath.",
+    "famousFor": "Sawan Kawad twin with Deoghar · massive seasonal search"
+  },
+  {
+    "slug": "bawe-wali-mata",
+    "name": "Bawe Wali Mata Temple, Jammu",
+    "deity": "Goddess Mahakali (Bawe Wali Mata)",
+    "location": "Bahu Fort, Jammu, Jammu and Kashmir",
+    "state": "Jammu and Kashmir",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ब",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva",
+      "devi"
+    ],
+    "summary": "Bawe Wali Mata inside Bahu Fort — tutelary goddess of Jammu.",
+    "famousFor": "Jammu’s guardian Devi · very high local search"
   },
   {
     "slug": "belur-math",
@@ -1878,6 +2090,108 @@
     "famousFor": "Island Krishna shrine of the Dwarka yatra"
   },
   {
+    "slug": "bhadrakali-itkhori",
+    "name": "Bhadrakali Temple, Itkhori",
+    "deity": "Goddess Bhadrakali",
+    "location": "Itkhori, Chatra, Jharkhand",
+    "state": "Jharkhand",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "भ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Itkhori Bhadrakali — Devi temple in a multi-layered sacred landscape.",
+    "famousFor": "Buddhist–Hindu heritage town · Chatra pilgrim search"
+  },
+  {
+    "slug": "bhagavati-pernem",
+    "name": "Bhagavati Temple, Pernem",
+    "deity": "Goddess Bhagavati",
+    "location": "Pernem, Goa",
+    "state": "Goa",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "भ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Bhagavati of Pernem — important North Goa goddess temple.",
+    "famousFor": "North Goa Devi · regional temple-trail search"
+  },
+  {
+    "slug": "valiaki-tirath",
+    "name": "Bhagwan Valmiki Tirath Sthal",
+    "deity": "Maharishi Valmiki",
+    "location": "Amritsar, Punjab",
+    "state": "Punjab",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "वा",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "rama"
+    ],
+    "summary": "Valmiki Tirath — developed pilgrimage site linked to Valmiki tradition near Amritsar.",
+    "famousFor": "Valmiki heritage tirtha · Amritsar search"
+  },
+  {
+    "slug": "bhoramdeo-temple",
+    "name": "Bhoramdeo Temple",
+    "deity": "Lord Shiva",
+    "location": "Kawardha, Chhattisgarh",
+    "state": "Chhattisgarh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "भो",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Bhoramdeo — ornate Shiva temple complex in Kabirdham, tourism and darshan combined.",
+    "famousFor": "‘Khajuraho of Chhattisgarh’ · heritage + pilgrim search"
+  },
+  {
+    "slug": "bhuvaneswari-udaipur-tripura",
+    "name": "Bhuvaneswari Temple, Udaipur",
+    "deity": "Goddess Bhuvaneswari",
+    "location": "Udaipur, Tripura",
+    "state": "Tripura",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "भु",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Bhuvaneswari temple on the Gomati — classic Udaipur (Tripura) Devi stop.",
+    "famousFor": "Gomati riverside Devi near Tripura Sundari"
+  },
+  {
+    "slug": "bijli-mahadev",
+    "name": "Bijli Mahadev Temple",
+    "deity": "Lord Shiva (Bijli Mahadev)",
+    "location": "Kullu, Himachal Pradesh",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "बि",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Bijli Mahadev — hilltop Shiva above Kullu, famous for the lightning-struck lingam lore.",
+    "famousFor": "Lightning lingam trek · viral Himachal YouTube"
+  },
+  {
     "slug": "kurukshetra-brahmasarovar",
     "name": "Brahma Sarovar & Jyotisar",
     "deity": "Lord Krishna / Dharma tradition",
@@ -1900,6 +2214,40 @@
     "famousFor": "Gita Upadesh site at Jyotisar"
   },
   {
+    "slug": "brahma-temple-pushkar",
+    "name": "Brahma Temple, Pushkar",
+    "deity": "Lord Brahma",
+    "location": "Pushkar, Ajmer, Rajasthan",
+    "state": "Rajasthan",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ब्र",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "vishnu"
+    ],
+    "summary": "Jagatpita Brahma Mandir — among the world’s few major Brahma temples.",
+    "famousFor": "Rare Brahma shrine · Pushkar fair global search"
+  },
+  {
+    "slug": "chamunda-devi-kangra",
+    "name": "Chamunda Devi Temple, Kangra",
+    "deity": "Goddess Chamunda",
+    "location": "Chamunda, Kangra, Himachal Pradesh",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "च",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Chamunda Nandikeshwar — riverside Devi temple near Dharamshala–Kangra.",
+    "famousFor": "Kangra valley Devi · high Himachal YouTube search"
+  },
+  {
     "slug": "chamundeshwari-mysuru",
     "name": "Chamundeshwari Temple, Mysuru",
     "deity": "Goddess Chamundeshwari",
@@ -1915,6 +2263,58 @@
     ],
     "summary": "Chamundeshwari of Mysuru — hill shrine central to Karnataka’s Dasara tradition.",
     "famousFor": "Mysuru Dasara deity"
+  },
+  {
+    "slug": "chandrahasini-devi",
+    "name": "Chandrahasini Devi Temple",
+    "deity": "Goddess Chandrahasini",
+    "location": "Chandrapur, Janjgir-Champa, Chhattisgarh",
+    "state": "Chhattisgarh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "च",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Chandrahasini on the Mahanadi — popular Devi temple of Janjgir region.",
+    "famousFor": "Mahanadi Devi · regional Navaratri crowds"
+  },
+  {
+    "slug": "chaturdasha-devata",
+    "name": "Chaturdasha Devata Temple",
+    "deity": "Fourteen gods (tribal–Hindu pantheon)",
+    "location": "Old Agartala, Tripura",
+    "state": "Tripura",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "च",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Chaturdasha Devata — royal-tribal temple of Tripura’s fourteen deities.",
+    "famousFor": "Fourteen gods of Tripura · state identity search"
+  },
+  {
+    "slug": "chengannur-mahadeva",
+    "name": "Chengannur Mahadeva Temple",
+    "deity": "Lord Shiva & Goddess Parvati",
+    "location": "Chengannur, Alappuzha, Kerala",
+    "state": "Kerala",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "चे",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva",
+      "devi"
+    ],
+    "summary": "Chengannur — rare temple where Goddess’s menstrual purity cycle is ritually marked.",
+    "famousFor": "Unique Devi–Shiva festival cycle · Central Travancore search"
   },
   {
     "slug": "chhatarpur-temple-delhi",
@@ -1955,6 +2355,74 @@
     "famousFor": "River-confluence Chhinnamasta shrine"
   },
   {
+    "slug": "chilkur-balaji",
+    "name": "Chilkur Balaji Temple",
+    "deity": "Lord Venkateswara (Chilkur Balaji)",
+    "location": "Chilkur, Hyderabad, Telangana",
+    "state": "Telangana",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "चि",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "vishnu"
+    ],
+    "summary": "Chilkur Balaji — famous as ‘Visa God’ for students and professionals abroad.",
+    "famousFor": "Visa Balaji · huge Hyderabad IT/diaspora search"
+  },
+  {
+    "slug": "chintpurni-temple",
+    "name": "Chintpurni Temple",
+    "deity": "Goddess Chintpurni (Chhinnamastika lore)",
+    "location": "Chintpurni, Una, Himachal Pradesh",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "चि",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Chintpurni — major Himachal Devi peetha on the Jwala–Chintpurni–Naina circuit.",
+    "famousFor": "Shakti circuit with Jwala/Naina · massive North India search"
+  },
+  {
+    "slug": "chottanikkara-temple",
+    "name": "Chottanikkara Temple",
+    "deity": "Goddess Bhagavathy (Chottanikkara Amma)",
+    "location": "Chottanikkara, Ernakulam, Kerala",
+    "state": "Kerala",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "चो",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Chottanikkara Bhagavathy — famous for vows related to mental affliction and protection.",
+    "famousFor": "Healing Devi · among Kerala’s top non-Sabarimala searches"
+  },
+  {
+    "slug": "cuttack-chandi",
+    "name": "Cuttack Chandi Temple",
+    "deity": "Goddess Chandi",
+    "location": "Cuttack, Odisha",
+    "state": "Odisha",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "क",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Cuttack Chandi — tutelary goddess of Cuttack with intense festival footfall.",
+    "famousFor": "Millennium City Devi · Durga Puja / Odda search"
+  },
+  {
     "slug": "dakshineswar-kali",
     "name": "Dakshineswar Kali Temple",
     "deity": "Goddess Kali (Bhavatarini)",
@@ -1976,6 +2444,24 @@
     "famousFor": "Rani Rashmoni’s temple linked to Sri Ramakrishna"
   },
   {
+    "slug": "damodar-zambaulim",
+    "name": "Damodar Temple, Zambaulim",
+    "deity": "Lord Damodar (Krishna/Shiva traditions)",
+    "location": "Zambaulim, Goa",
+    "state": "Goa",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "द",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "krishna",
+      "shiva"
+    ],
+    "summary": "Damodar of Zambaulim — shared sacred culture famous beyond Hindu-only audiences.",
+    "famousFor": "Sancti-spirit cultural festival · South Goa search"
+  },
+  {
     "slug": "danteshwari-dantewada",
     "name": "Danteshwari Temple, Dantewada",
     "deity": "Goddess Danteshwari",
@@ -1991,6 +2477,125 @@
     ],
     "summary": "Danteshwari of Dantewada — the spiritual heart of Bastar’s Devi tradition.",
     "famousFor": "Kuladevi of Bastar & major Chhattisgarh Shakti seat"
+  },
+  {
+    "slug": "devi-talab-mandir",
+    "name": "Devi Talab Mandir, Jalandhar",
+    "deity": "Goddess Durga",
+    "location": "Jalandhar, Punjab",
+    "state": "Punjab",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "दे",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Devi Talab — lake temple complex, among Punjab’s most visited Hindu shrines.",
+    "famousFor": "Punjab’s foremost Devi temple · very high state search"
+  },
+  {
+    "slug": "panipat-devi",
+    "name": "Devi temples of Panipat (local Shakti)",
+    "deity": "Goddess Durga / local Devi",
+    "location": "Panipat, Haryana",
+    "state": "Haryana",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "पा",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Panipat’s active Devi temples serve one of Haryana’s largest urban Hindu populations.",
+    "famousFor": "Industrial-belt Devi worship · Haryana urban search"
+  },
+  {
+    "slug": "dewri-mandir-tamar",
+    "name": "Dewri Mandir, Tamar",
+    "deity": "Goddess Dewri / Solha Bhuji Devi",
+    "location": "Tamar, Ranchi district, Jharkhand",
+    "state": "Jharkhand",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "दे",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Dewri Mandir — distinctive multi-armed Devi form near Ranchi.",
+    "famousFor": "16-armed Devi · Ranchi rural search spike"
+  },
+  {
+    "slug": "dichpally-ramalayam",
+    "name": "Dichpally Ramalayam",
+    "deity": "Lord Rama",
+    "location": "Dichpally, Nizamabad, Telangana",
+    "state": "Telangana",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "दि",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "rama"
+    ],
+    "summary": "Dichpally Ramalayam — ornate Rama temple of Nizamabad region.",
+    "famousFor": "Stone Rama temple · north Telangana search"
+  },
+  {
+    "slug": "dirgheswari-temple",
+    "name": "Dirgheswari Temple, North Guwahati",
+    "deity": "Goddess Dirgheswari (Devi)",
+    "location": "North Guwahati, Assam",
+    "state": "Assam",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "दी",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Dirgheswari — important Devi temple of North Guwahati often paired with Kamakhya.",
+    "famousFor": "Devi shrine · Durga Puja crowds across Brahmaputra"
+  },
+  {
+    "slug": "doul-govinda-guwahati",
+    "name": "Doul Govinda Temple, North Guwahati",
+    "deity": "Lord Krishna (Govinda)",
+    "location": "Rajaduar, North Guwahati, Assam",
+    "state": "Assam",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "दौ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "krishna"
+    ],
+    "summary": "Doul Govinda — Vaishnava temple famous for colourful Doul (Holi) celebrations.",
+    "famousFor": "Holi / Doul festival crowds · Assam Krishna temple search"
+  },
+  {
+    "slug": "kateel-durga-parameshwari",
+    "name": "Durga Parameshwari Temple, Kateel",
+    "deity": "Goddess Durga Parameshwari",
+    "location": "Kateel, Dakshina Kannada, Karnataka",
+    "state": "Karnataka",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "क",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Kateel — Devi temple on an islet in the Nandini river.",
+    "famousFor": "River-island Devi · coastal Karnataka search"
   },
   {
     "slug": "durgiana-amritsar",
@@ -2028,6 +2633,108 @@
     "famousFor": "Historic Krishna temple in Mathura city lanes"
   },
   {
+    "slug": "eklingji-udaipur",
+    "name": "Eklingji Temple",
+    "deity": "Lord Shiva (Eklingji)",
+    "location": "Kailashpuri, Udaipur, Rajasthan",
+    "state": "Rajasthan",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ए",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Eklingji — dynastic Shiva temple of Mewar rulers near Udaipur.",
+    "famousFor": "Mewar’s tutelary Shiva · Udaipur circuit search"
+  },
+  {
+    "slug": "ettumanoor-mahadeva",
+    "name": "Ettumanoor Mahadeva Temple",
+    "deity": "Lord Shiva",
+    "location": "Ettumanoor, Kottayam, Kerala",
+    "state": "Kerala",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ए",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Ettumanoor Mahadeva — one of Kerala’s great Shiva temples with famous mural and festival gold elephants.",
+    "famousFor": "Ezharaponnana festival · Central Kerala Shiva search"
+  },
+  {
+    "slug": "gauri-shankar-chandni-chowk",
+    "name": "Gauri Shankar Temple, Chandni Chowk",
+    "deity": "Lord Shiva & Goddess Gauri",
+    "location": "Chandni Chowk, Old Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "गौ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva",
+      "devi"
+    ],
+    "summary": "Gauri Shankar Mandir — active Shiva temple on Chandni Chowk’s sacred streetscape.",
+    "famousFor": "Old Delhi Shiva · heritage pilgrim walk search"
+  },
+  {
+    "slug": "mahadev-ghatarani",
+    "name": "Ghatarani Temple",
+    "deity": "Goddess Ghatarani / Shiva complex",
+    "location": "Ghatarani, Raipur region, Chhattisgarh",
+    "state": "Chhattisgarh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "घा",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva",
+      "devi"
+    ],
+    "summary": "Ghatarani — forest waterfall shrine popular with Raipur pilgrims.",
+    "famousFor": "Waterfall Devi · Raipur weekend search"
+  },
+  {
+    "slug": "giraudpuri-dham",
+    "name": "Giraudpuri Dham",
+    "deity": "Guru Ghasidas / Satnam tradition shrine",
+    "location": "Giraudpuri, Baloda Bazar, Chhattisgarh",
+    "state": "Chhattisgarh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "गि",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [],
+    "summary": "Giraudpuri — Satnami pilgrimage centre with enormous annual footfall.",
+    "famousFor": "Massive jaitkhamb fair · high CG social search"
+  },
+  {
+    "slug": "basara-gnana-saraswati",
+    "name": "Gnana Saraswati Temple, Basar",
+    "deity": "Goddess Saraswati",
+    "location": "Basar, Nirmal, Telangana",
+    "state": "Telangana",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "बा",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Basar Gnana Saraswati — among India’s few major Saraswati temples.",
+    "famousFor": "Akshara abhyasam · top Telangana education-pilgrim search"
+  },
+  {
     "slug": "gokul-raman-reti",
     "name": "Gokul & Raman Reti (Braj)",
     "deity": "Lord Krishna (childhood Gokul lore)",
@@ -2061,6 +2768,23 @@
     ],
     "summary": "Govind Dev Ji — the principal Krishna shrine of Jaipur’s old city.",
     "famousFor": "Jaipur’s royal Krishna temple"
+  },
+  {
+    "slug": "gupteswar-odisha",
+    "name": "Gupteswar Cave Temple",
+    "deity": "Lord Shiva (Gupteswar)",
+    "location": "Gupteswar, Koraput, Odisha",
+    "state": "Odisha",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "गु",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Gupteswar — limestone cave Shiva temple in Koraput forests.",
+    "famousFor": "Cave lingam · tribal Odisha tourism+pilgrim search"
   },
   {
     "slug": "guruvayur",
@@ -2100,6 +2824,94 @@
     ],
     "summary": "Hadimba Devi — Manali’s iconic wooden temple in a cedar grove.",
     "famousFor": "Cedar-forest pagoda temple of Manali"
+  },
+  {
+    "slug": "hanuman-mandir-cp",
+    "name": "Hanuman Mandir, Connaught Place",
+    "deity": "Lord Hanuman",
+    "location": "Connaught Place, New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ह",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "hanuman"
+    ],
+    "summary": "Hanuman Mandir near CP — Mughal-era origins, modern office-crowd devotion.",
+    "famousFor": "Central Delhi Tuesday crowds · top capital Hanuman search"
+  },
+  {
+    "slug": "harihar-dham-giridih",
+    "name": "Harihar Dham, Giridih",
+    "deity": "Lord Shiva (largest lingam complex lore)",
+    "location": "Bagodar, Giridih, Jharkhand",
+    "state": "Jharkhand",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ह",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Harihar Dham — pilgrimage complex near Giridih known for a massive Shiva lingam.",
+    "famousFor": "Colossal lingam complex · Jharkhand viral search"
+  },
+  {
+    "slug": "harsiddhi-ujjain",
+    "name": "Harsiddhi Temple, Ujjain",
+    "deity": "Goddess Harsiddhi",
+    "location": "Ujjain, Madhya Pradesh",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ह",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva",
+      "devi"
+    ],
+    "summary": "Harsiddhi — principal Devi temple of Ujjain beside the Mahakaleshwar yatra.",
+    "famousFor": "Shakti Peetha with Mahakal · Simhastha circuit search"
+  },
+  {
+    "slug": "hatkoti-temple",
+    "name": "Hatkoti Temple",
+    "deity": "Goddess Durga (Mahishasuramardini)",
+    "location": "Hatkoti, Shimla district, Himachal Pradesh",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ह",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "rama",
+      "devi"
+    ],
+    "summary": "Hatkoti — ancient Mahishasuramardini temple in the Pabbar valley.",
+    "famousFor": "Pabbar valley Devi · Shimla rural circuit search"
+  },
+  {
+    "slug": "hayagriva-madhava-hajo",
+    "name": "Hayagriva Madhava Temple, Hajo",
+    "deity": "Lord Hayagriva Madhava (Vishnu)",
+    "location": "Hajo, Kamrup, Assam",
+    "state": "Assam",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ह",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "vishnu",
+      "devi"
+    ],
+    "summary": "Hajo’s Hayagriva Madhava — among Assam’s most visited Vishnu temples after Kamakhya.",
+    "famousFor": "Major Assam Vaishnava shrine · high regional search with Kamakhya circuit"
   },
   {
     "slug": "iskcon-vrindavan",
@@ -2188,6 +3000,62 @@
     "famousFor": "Capital’s major ISKCON Krishna temple"
   },
   {
+    "slug": "iskcon-east-of-kailash",
+    "name": "ISKCON Temple, East of Kailash",
+    "deity": "Krishna–Balaram (ISKCON)",
+    "location": "East of Kailash, New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "इ",
+    "tags": [
+      "modern-temples"
+    ],
+    "tagLabels": [
+      "Modern Temples"
+    ],
+    "deityFamilies": [
+      "krishna"
+    ],
+    "summary": "ISKCON East of Kailash — large modern Krishna temple serving South Delhi and NCR.",
+    "famousFor": "Second major Delhi ISKCON · diaspora Sunday search"
+  },
+  {
+    "slug": "jagannath-agartala",
+    "name": "Jagannath Temple, Agartala",
+    "deity": "Lord Jagannath",
+    "location": "Agartala, Tripura",
+    "state": "Tripura",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ज",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "krishna",
+      "devi"
+    ],
+    "summary": "Agartala Jagannath Mandir — city temple with Rath Yatra celebrations.",
+    "famousFor": "Capital Jagannath · Tripura urban pilgrim search"
+  },
+  {
+    "slug": "jagannath-temple-ranchi",
+    "name": "Jagannath Temple, Ranchi",
+    "deity": "Lord Jagannath",
+    "location": "Ranchi, Jharkhand",
+    "state": "Jharkhand",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ज",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "krishna"
+    ],
+    "summary": "Ranchi Jagannath Mandir — hill temple with a popular Rath Yatra.",
+    "famousFor": "Ranchi’s Rath Yatra · capital pilgrim search"
+  },
+  {
     "slug": "jakhoo-hanuman-shimla",
     "name": "Jakhoo Hanuman Temple, Shimla",
     "deity": "Lord Hanuman",
@@ -2212,6 +3080,75 @@
     "famousFor": "Giant Hanuman statue overlooking Shimla"
   },
   {
+    "slug": "sitamarhi-janaki",
+    "name": "Janaki Temple, Sitamarhi",
+    "deity": "Goddess Sita (Janaki)",
+    "location": "Sitamarhi, Bihar",
+    "state": "Bihar",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "सी",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "rama",
+      "devi"
+    ],
+    "summary": "Sitamarhi’s Janaki temple — popularly remembered as Sita’s birthplace region.",
+    "famousFor": "Sita birthplace tradition · Ramayana trail search"
+  },
+  {
+    "slug": "jhandewalan-devi",
+    "name": "Jhandewalan Devi Mandir",
+    "deity": "Goddess Jhandewali Mata",
+    "location": "Jhandewalan, New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "झ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Jhandewalan Mata — flag-votive Devi temple famous across Delhi NCR.",
+    "famousFor": "Navaratri jhanda culture · West Delhi Devi search"
+  },
+  {
+    "slug": "jogulamba-alampur",
+    "name": "Jogulamba Temple, Alampur",
+    "deity": "Goddess Jogulamba",
+    "location": "Alampur, Jogulamba Gadwal, Telangana",
+    "state": "Telangana",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "जो",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Jogulamba — Telangana’s Shakti Peetha at Alampur with Chalukya temple environs.",
+    "famousFor": "Shakti Peetha · Tungabhadra heritage search"
+  },
+  {
+    "slug": "jyotisar-kurukshetra",
+    "name": "Jyotisar, Kurukshetra",
+    "deity": "Lord Krishna (Gita revelation site)",
+    "location": "Jyotisar, Kurukshetra, Haryana",
+    "state": "Haryana",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ज्यो",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "krishna"
+    ],
+    "summary": "Jyotisar — traditionally marked as the place of the Bhagavad Gita’s discourse.",
+    "famousFor": "Gita upadesh site · global spiritual tourism search"
+  },
+  {
     "slug": "kal-bhairav-ujjain",
     "name": "Kal Bhairav Temple, Ujjain",
     "deity": "Kal Bhairav",
@@ -2227,6 +3164,57 @@
     ],
     "summary": "Kal Bhairav of Ujjain — fierce guardian shrine often paired with Mahakaleshwar yatra.",
     "famousFor": "Liquor offering tradition & guardian of Ujjain"
+  },
+  {
+    "slug": "kali-mata-patiala",
+    "name": "Kali Mata Mandir, Patiala",
+    "deity": "Goddess Kali",
+    "location": "Patiala, Punjab",
+    "state": "Punjab",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "का",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Kali Mata temple — important Devi shrine of Patiala.",
+    "famousFor": "Patiala royal-city Devi · regional search"
+  },
+  {
+    "slug": "pavagadh-kalika",
+    "name": "Kalika Mata Temple, Pavagadh",
+    "deity": "Goddess Kalika",
+    "location": "Pavagadh, Panchmahal, Gujarat",
+    "state": "Gujarat",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "पा",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Kalika Mata atop Pavagadh — major Gujarat Devi pilgrimage with ropeway access.",
+    "famousFor": "Ropeway Devi · Champaner UNESCO + high pilgrim search"
+  },
+  {
+    "slug": "kalkaji-mandir-delhi",
+    "name": "Kalkaji Mandir, Delhi",
+    "deity": "Goddess Kali (Kalkaji)",
+    "location": "Kalkaji, New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "का",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Kalkaji Mandir — ancient Kali shrine in South Delhi with dense daily queues.",
+    "famousFor": "One of Delhi’s highest footfall Devi temples · metro-era search spike"
   },
   {
     "slug": "kanaka-durga-vijayawada",
@@ -2281,6 +3269,40 @@
     "famousFor": "Chennai’s classic Dravidian neighbourhood temple"
   },
   {
+    "slug": "karni-mata-deshnok",
+    "name": "Karni Mata Temple, Deshnok",
+    "deity": "Goddess Karni Mata",
+    "location": "Deshnok, Bikaner, Rajasthan",
+    "state": "Rajasthan",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "क",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Karni Mata Deshnok — famous for sacred rats and living folk-deity worship.",
+    "famousFor": "Temple of rats · global YouTube curiosity + pilgrim vows"
+  },
+  {
+    "slug": "kasba-kali-agartala",
+    "name": "Kasba Kali Temple, Agartala",
+    "deity": "Goddess Kali",
+    "location": "Agartala, Tripura",
+    "state": "Tripura",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "का",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Kasba Kali — popular urban Kali temple of Agartala.",
+    "famousFor": "Agartala Kali · capital Devi search"
+  },
+  {
     "slug": "kataragama",
     "name": "Kataragama Temple",
     "deity": "Lord Murugan / Kataragama Deviyo",
@@ -2303,6 +3325,24 @@
     ],
     "summary": "A powerful multi-faith shrine in southern Sri Lanka — Murugan for Hindus, Kataragama Deviyo for Buddhists — often included in broader Ramayana and South-Asian pilgrimage maps.",
     "famousFor": "Multi-faith Murugan / Kataragama shrine"
+  },
+  {
+    "slug": "keesaragutta-temple",
+    "name": "Keesaragutta Temple",
+    "deity": "Lord Shiva (Ramalingeshwara)",
+    "location": "Keesara, Medchal, Telangana",
+    "state": "Telangana",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "की",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "rama",
+      "shiva"
+    ],
+    "summary": "Keesaragutta — hill Shiva temple on Hyderabad’s outskirts.",
+    "famousFor": "Hyderabad weekend Shiva · high local search"
   },
   {
     "slug": "jejuri-khandoba",
@@ -2343,6 +3383,74 @@
     "famousFor": "Huge Rajasthan pilgrimage for Shyam Baba"
   },
   {
+    "slug": "kheer-bhawani",
+    "name": "Kheer Bhawani Temple",
+    "deity": "Goddess Ragnya Devi (Kheer Bhawani)",
+    "location": "Tulmulla, Ganderbal, Jammu and Kashmir",
+    "state": "Jammu and Kashmir",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "खी",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Kheer Bhawani — spring-temple of Ragnya Devi, central to Kashmiri Pandit devotion.",
+    "famousFor": "Kashmiri Pandit heart-shrine · global diaspora Jyeshtha Ashtami search"
+  },
+  {
+    "slug": "kirateshwar-legship",
+    "name": "Kirateshwar Mahadev Temple",
+    "deity": "Lord Shiva (Kirateshwar)",
+    "location": "Legship, Sikkim",
+    "state": "Sikkim",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "कि",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Kirateshwar Mahadev — important living Shiva temple of West Sikkim.",
+    "famousFor": "Sikkimese Shiva · Rangit river festival search"
+  },
+  {
+    "slug": "kodungallur-bhagavathy",
+    "name": "Kodungallur Bhagavathy Temple",
+    "deity": "Goddess Kodungallur Bhagavathy (Kurumba)",
+    "location": "Kodungallur, Thrissur, Kerala",
+    "state": "Kerala",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "को",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Kodungallur Amma — fierce Goddess temple with the renowned Bharani festival.",
+    "famousFor": "Bharani festival · intense Kerala Devi search"
+  },
+  {
+    "slug": "konark-sun-temple",
+    "name": "Konark Sun Temple",
+    "deity": "Surya (Sun God)",
+    "location": "Konark, Puri district, Odisha",
+    "state": "Odisha",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "को",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "vishnu"
+    ],
+    "summary": "Konark — 13th-century Sun Temple, Odisha’s world-famous architectural tirtha.",
+    "famousFor": "UNESCO chariot temple · global search; living Magha Saptami rites nearby"
+  },
+  {
     "slug": "krishna-janmabhoomi-mathura",
     "name": "Krishna Janmabhoomi, Mathura",
     "deity": "Lord Krishna",
@@ -2359,6 +3467,40 @@
     ],
     "summary": "Krishna Janmabhoomi — the spiritual centre of Mathura in the Braj yatra.",
     "famousFor": "Traditional birthplace complex of Krishna in Mathura"
+  },
+  {
+    "slug": "kukke-subramanya",
+    "name": "Kukke Subramanya Temple",
+    "deity": "Lord Subramanya (Kartikeya)",
+    "location": "Subramanya, Dakshina Kannada, Karnataka",
+    "state": "Karnataka",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "कु",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "rama"
+    ],
+    "summary": "Kukke Subramanya — rainforest temple of Kartikeya as serpent lord.",
+    "famousFor": "Sarpa dosha remedies · huge South India search"
+  },
+  {
+    "slug": "rajim-kuleshwar",
+    "name": "Kuleshwar Temple, Rajim",
+    "deity": "Lord Shiva (Kuleshwar) & Rajivalochan",
+    "location": "Rajim, Gariaband, Chhattisgarh",
+    "state": "Chhattisgarh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "रा",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Rajim — ‘Prayag of Chhattisgarh’ with Kuleshwar and Rajivalochan temples at river confluence.",
+    "famousFor": "Rajim Kumbh · Triveni sangam pilgrimage search"
   },
   {
     "slug": "mahasamund-sirpur",
@@ -2403,6 +3545,23 @@
     "famousFor": "Historic Birla temple of New Delhi"
   },
   {
+    "slug": "prayagraj-hanuman",
+    "name": "Lete Hanuman Mandir, Prayagraj",
+    "deity": "Lord Hanuman",
+    "location": "Prayagraj, Uttar Pradesh",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ह",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "hanuman"
+    ],
+    "summary": "Lete Hanuman Temple — famous reclining Hanuman near the Prayagraj Sangam.",
+    "famousFor": "Reclining Hanuman · Sangam yatra search"
+  },
+  {
     "slug": "lingaraj-bhubaneswar",
     "name": "Lingaraj Temple, Bhubaneswar",
     "deity": "Lord Shiva (Lingaraj / Harihara form traditions)",
@@ -2419,6 +3578,91 @@
     ],
     "summary": "Lingaraj — Bhubaneswar’s great Shiva temple and old-town axis.",
     "famousFor": "Kalinga architecture icon of Odisha"
+  },
+  {
+    "slug": "banbhori-devi",
+    "name": "Maa Banbhori Devi Temple",
+    "deity": "Goddess Banbhori",
+    "location": "Banbhori, Hisar, Haryana",
+    "state": "Haryana",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ब",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Banbhori Devi — popular rural–urban Devi shrine of Hisar belt.",
+    "famousFor": "West Haryana Devi · regional mela search"
+  },
+  {
+    "slug": "maa-sarala-temple",
+    "name": "Maa Sarala Temple, Jhankad",
+    "deity": "Goddess Sarala",
+    "location": "Jhankad, Jagatsinghpur, Odisha",
+    "state": "Odisha",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "सा",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Maa Sarala — important Shakta shrine of coastal Odisha.",
+    "famousFor": "Odisha Shakti peetha lore · coastal Devi search"
+  },
+  {
+    "slug": "maha-mrityunjay-nagaon",
+    "name": "Maha Mrityunjay Temple, Nagaon",
+    "deity": "Lord Shiva (Mrityunjay)",
+    "location": "Pithaikhowa, Nagaon, Assam",
+    "state": "Assam",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "मृ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Maha Mrityunjay Mandir near Nagaon — modern Assam landmark with a colossal Shiva lingam.",
+    "famousFor": "Giant lingam · viral YouTube / Assam pilgrimage search"
+  },
+  {
+    "slug": "gokarna-mahabaleshwar",
+    "name": "Mahabaleshwar Temple, Gokarna",
+    "deity": "Lord Shiva (Mahabaleshwar)",
+    "location": "Gokarna, Uttara Kannada, Karnataka",
+    "state": "Karnataka",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "गो",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Gokarna Mahabaleshwar — coastal Jyotirlinga-adjacent fame with Atmalinga tradition.",
+    "famousFor": "Atmalinga lore · beach-temple pilgrim/tourist search"
+  },
+  {
+    "slug": "tambdi-surla-mahadev",
+    "name": "Mahadev Temple, Tambdi Surla",
+    "deity": "Lord Shiva",
+    "location": "Tambdi Surla, Goa",
+    "state": "Goa",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "त",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Tambdi Surla Mahadev — Kadamba-era stone temple in forested Sanguem.",
+    "famousFor": "Goa’s oldest surviving temple · tourism+darshan search"
   },
   {
     "slug": "mahalaxmi-kolhapur",
@@ -2459,6 +3703,23 @@
     "famousFor": "Shakti Peetha — Knees (tradition)"
   },
   {
+    "slug": "mahamaya-ratanpur",
+    "name": "Mahamaya Temple, Ratanpur",
+    "deity": "Goddess Mahamaya",
+    "location": "Ratanpur, Bilaspur, Chhattisgarh",
+    "state": "Chhattisgarh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "म",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Mahamaya Ratanpur — historic capital’s Devi temple, still a major CG tirtha.",
+    "famousFor": "Kalchuri-era Devi · Bilaspur circuit search"
+  },
+  {
     "slug": "mahavir-mandir-patna",
     "name": "Mahavir Mandir, Patna",
     "deity": "Lord Hanuman",
@@ -2483,6 +3744,77 @@
     "famousFor": "Patna’s hugely popular Hanuman temple"
   },
   {
+    "slug": "malinithan-arunachal",
+    "name": "Malinithan Temple",
+    "deity": "Devi / Shiva sculptural remains (active pilgrimage site)",
+    "location": "Likabali, Arunachal Pradesh",
+    "state": "Arunachal Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "म",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva",
+      "devi"
+    ],
+    "summary": "Malinithan — archaeological temple site tied to Shiva–Sati–Krishna floral lore of the Northeast.",
+    "famousFor": "Sati–Shiva lore ruins · Arunachal heritage search"
+  },
+  {
+    "slug": "maluti-temples",
+    "name": "Maluti Temple Village",
+    "deity": "Multiple Devi–Shiva terracotta temples",
+    "location": "Maluti, Dumka, Jharkhand",
+    "state": "Jharkhand",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "मा",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva",
+      "devi"
+    ],
+    "summary": "Maluti — cluster of terracotta temples, a unique Jharkhand tirtha-tourism site.",
+    "famousFor": "Terracotta temple village · heritage pilgrim search"
+  },
+  {
+    "slug": "manakula-vinayagar",
+    "name": "Manakula Vinayagar Temple",
+    "deity": "Lord Ganesha (Manakula Vinayagar)",
+    "location": "Puducherry",
+    "state": "Puducherry",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "म",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "ganesha"
+    ],
+    "summary": "Manakula Vinayagar — the most famous temple in the Puducherry boulevard quarter.",
+    "famousFor": "Pondicherry’s favourite Ganesh · top UT temple search"
+  },
+  {
+    "slug": "mangla-gauri-gaya",
+    "name": "Mangla Gauri Temple, Gaya",
+    "deity": "Goddess Mangla Gauri",
+    "location": "Gaya, Bihar",
+    "state": "Bihar",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "मं",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "vishnu",
+      "devi"
+    ],
+    "summary": "Mangla Gauri hill — Devi temple combined with Gaya’s pind-daan pilgrimage economy.",
+    "famousFor": "Shakti seat with Vishnupad · Shraddha-season crowds"
+  },
+  {
     "slug": "mangueshi-goa",
     "name": "Mangueshi Temple, Goa",
     "deity": "Lord Shiva (Manguesh)",
@@ -2498,6 +3830,23 @@
     ],
     "summary": "Mangueshi — among Goa’s most important Hindu temples in the Ponda temple belt.",
     "famousFor": "Goa’s foremost Shiva temple"
+  },
+  {
+    "slug": "dharmasthala-manjunatha",
+    "name": "Manjunatha Temple, Dharmasthala",
+    "deity": "Lord Manjunatha (Shiva) · dharmadhikari tradition",
+    "location": "Dharmasthala, Dakshina Kannada, Karnataka",
+    "state": "Karnataka",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ध",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Dharmasthala Manjunatha — among Karnataka’s highest-footfall temples, famed for annadanam.",
+    "famousFor": "~35 lakh+/year · free meals tens of thousands daily"
   },
   {
     "slug": "mansa-devi-panchkula",
@@ -2518,6 +3867,40 @@
     "famousFor": "Popular Shivalik foothills Devi yatra"
   },
   {
+    "slug": "markandeshwar-shahabad",
+    "name": "Markandeshwar Temple, Shahabad",
+    "deity": "Lord Shiva (Markandeshwar)",
+    "location": "Shahabad Markanda, Kurukshetra, Haryana",
+    "state": "Haryana",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "मा",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Markandeshwar — ancient Shiva temple associated with sage Markandeya on the Saraswati ridge.",
+    "famousFor": "Markandeya lore · Saraswati belt Shiva search"
+  },
+  {
+    "slug": "matangeshwar-khajuraho",
+    "name": "Matangeshwar Temple, Khajuraho",
+    "deity": "Lord Shiva",
+    "location": "Khajuraho, Madhya Pradesh",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "म",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Matangeshwar — still-active Shiva temple among Khajuraho’s western group.",
+    "famousFor": "Living worship in UNESCO park · tourist+pilgrim search"
+  },
+  {
     "slug": "meenakshi-madurai",
     "name": "Meenakshi Amman Temple, Madurai",
     "deity": "Goddess Meenakshi & Lord Sundareswarar",
@@ -2536,6 +3919,23 @@
     "famousFor": "Dravidian temple city icon of Tamil Nadu"
   },
   {
+    "slug": "mhalasa-mardol",
+    "name": "Mhalasa Narayani Temple, Mardol",
+    "deity": "Goddess Mhalasa Narayani",
+    "location": "Mardol, Goa",
+    "state": "Goa",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "म्हा",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Mhalasa of Mardol — principal Goan goddess temple of the Ponda belt.",
+    "famousFor": "Top Goan Devi search after Shantadurga"
+  },
+  {
     "slug": "mookambika-kollur",
     "name": "Mookambika Temple, Kollur",
     "deity": "Goddess Mookambika",
@@ -2551,6 +3951,23 @@
     ],
     "summary": "Kollur Mookambika — major Shakti shrine of Karnataka’s coastal belt.",
     "famousFor": "Powerful coastal Karnataka Devi temple"
+  },
+  {
+    "slug": "moti-dungri-ganesh",
+    "name": "Moti Dungri Ganesh Temple",
+    "deity": "Lord Ganesha",
+    "location": "Jaipur, Rajasthan",
+    "state": "Rajasthan",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "मो",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "ganesha"
+    ],
+    "summary": "Moti Dungri — hill Ganesh temple beloved of Jaipur residents.",
+    "famousFor": "Jaipur’s favourite Ganesh · city wish-vows search"
   },
   {
     "slug": "mount-kailash",
@@ -2572,6 +3989,41 @@
     ],
     "summary": "The Himalayan peak revered as Shiva’s Kailasa — a cross-faith pilgrimage (Hindu, Buddhist, Jain, Bon) around Lake Manasarovar, not a conventional temple complex.",
     "famousFor": "Kailasa parikrama & Manasarovar"
+  },
+  {
+    "slug": "mudwan-hanuman-ludhiana",
+    "name": "Mudwan Hanuman Mandir, Ludhiana",
+    "deity": "Lord Hanuman",
+    "location": "Mudwan, Ludhiana, Punjab",
+    "state": "Punjab",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ह",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "hanuman"
+    ],
+    "summary": "Mudwan Hanuman Mandir — towering Hanuman statue temple near Ludhiana.",
+    "famousFor": "Giant Hanuman · Punjab viral temple search"
+  },
+  {
+    "slug": "mundeshwari-devi",
+    "name": "Mundeshwari Devi Temple",
+    "deity": "Goddess Mundeshwari & Lord Shiva",
+    "location": "Bhabua, Kaimur, Bihar",
+    "state": "Bihar",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "मु",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva",
+      "devi"
+    ],
+    "summary": "Mundeshwari — octagonal hill shrine often cited as one of India’s oldest continuously worshipped temples.",
+    "famousFor": "Among India’s oldest living temples · ASI / high heritage search"
   },
   {
     "slug": "murudeshwar",
@@ -2596,6 +4048,23 @@
     "famousFor": "Giant Shiva statue & sea-facing gopura"
   },
   {
+    "slug": "nagueshi-temple",
+    "name": "Nagueshi Temple, Goa",
+    "deity": "Lord Shiva (Naguesh)",
+    "location": "Nagueshi, Ponda, Goa",
+    "state": "Goa",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ना",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Nagueshi — ancient Shiva temple in the Ponda temple cluster.",
+    "famousFor": "Ponda Shiva circuit · Goa temple-trail search"
+  },
+  {
     "slug": "nandgaon-nandbaba",
     "name": "Nand Baba Temple, Nandgaon",
     "deity": "Nanda Baba / Krishna childhood lore",
@@ -2613,6 +4082,23 @@
     "famousFor": "Nanda’s village opposite Barsana in Braj"
   },
   {
+    "slug": "navagraha-guwahati",
+    "name": "Navagraha Temple, Guwahati",
+    "deity": "Navagraha (nine planetary deities)",
+    "location": "Chitrachal Hill, Guwahati, Assam",
+    "state": "Assam",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "न",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "vishnu"
+    ],
+    "summary": "Navagraha hill temple overlooking Guwahati — popular for graha shanti vows.",
+    "famousFor": "Assam’s planetary shrine · high astrology-pilgrim search"
+  },
+  {
     "slug": "padmanabhaswamy-thiruvananthapuram",
     "name": "Padmanabhaswamy Temple, Thiruvananthapuram",
     "deity": "Lord Vishnu (Ananta Padmanabha)",
@@ -2628,6 +4114,57 @@
     ],
     "summary": "Sree Padmanabhaswamy — Kerala’s foremost Vishnu temple in the capital city.",
     "famousFor": "Ananta-shayana Vishnu & Travancore royal temple"
+  },
+  {
+    "slug": "pahari-mandir-ranchi",
+    "name": "Pahari Mandir, Ranchi",
+    "deity": "Lord Shiva",
+    "location": "Ranchi Hill, Jharkhand",
+    "state": "Jharkhand",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "प",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Pahari Mandir — Shiva temple atop Ranchi’s signature hill.",
+    "famousFor": "City viewpoint Shiva · Ranchi tourism+darshan search"
+  },
+  {
+    "slug": "panchmukhi-hanuman-amritsar",
+    "name": "Panchmukhi Hanuman Mandir, Amritsar",
+    "deity": "Lord Hanuman (Panchmukhi)",
+    "location": "Amritsar, Punjab",
+    "state": "Punjab",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "पं",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "hanuman"
+    ],
+    "summary": "Panchmukhi Hanuman temple — popular Amritsar Hindu shrine for city and yatra visitors.",
+    "famousFor": "Amritsar Hindu stop · city pilgrim search"
+  },
+  {
+    "slug": "parshuram-kund",
+    "name": "Parshuram Kund",
+    "deity": "Lord Parshuram / sacred kund",
+    "location": "Lohit district, Arunachal Pradesh",
+    "state": "Arunachal Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "प",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "vishnu"
+    ],
+    "summary": "Parshuram Kund — sacred pool where tradition places Parshuram’s axe-washing lore.",
+    "famousFor": "Makar Sankranti fair · Northeast Hindu pilgrimage search"
   },
   {
     "slug": "pashupatinath",
@@ -2651,6 +4188,40 @@
     "famousFor": "Nepal’s holiest Shiva shrine"
   },
   {
+    "slug": "patan-devi-patna",
+    "name": "Patan Devi Temple, Patna",
+    "deity": "Goddess Patan Devi",
+    "location": "Patna, Bihar",
+    "state": "Bihar",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "प",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Patan Devi — twin Bari/Chhoti Patan Devi shrines anchoring Patna’s Shakti devotion.",
+    "famousFor": "Patna’s city Devi · high local footfall & search"
+  },
+  {
+    "slug": "mahadev-mandir-jammu",
+    "name": "Peer Kho Cave Temple, Jammu",
+    "deity": "Lord Shiva",
+    "location": "Jammu, Jammu and Kashmir",
+    "state": "Jammu and Kashmir",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "पी",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Peer Kho — riverside cave Shiva temple of Jammu.",
+    "famousFor": "Cave Shiva on Tawi · Jammu local search"
+  },
+  {
     "slug": "prem-mandir-vrindavan",
     "name": "Prem Mandir, Vrindavan",
     "deity": "Radha–Krishna (Jagadguru Kripalu Parishat)",
@@ -2670,6 +4241,23 @@
     ],
     "summary": "Prem Mandir — a contemporary Vrindavan landmark known for carved leela panels and evening lights.",
     "famousFor": "Illuminated modern marble temple of Braj"
+  },
+  {
+    "slug": "purmandal-temples",
+    "name": "Purmandal Temple Town",
+    "deity": "Lord Shiva (Chhota Kashi)",
+    "location": "Purmandal, Samba, Jammu and Kashmir",
+    "state": "Jammu and Kashmir",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "पु",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Purmandal — Devi/Shiva temple town called Chhota Kashi of Jammu region.",
+    "famousFor": "‘Chhota Kashi’ of Jammu · Shiva circuit search"
   },
   {
     "slug": "radha-raman-vrindavan",
@@ -2726,6 +4314,23 @@
     "famousFor": "Radhavallabha sampradaya seat in Vrindavan"
   },
   {
+    "slug": "raghunath-temple-jammu",
+    "name": "Raghunath Temple, Jammu",
+    "deity": "Lord Rama (Raghunath)",
+    "location": "Jammu city, Jammu and Kashmir",
+    "state": "Jammu and Kashmir",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "र",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "rama"
+    ],
+    "summary": "Raghunath Mandir — sprawling Rama temple complex in Jammu city.",
+    "famousFor": "Jammu’s largest temple complex · city pilgrim search"
+  },
+  {
     "slug": "ayodhya-ram-mandir",
     "name": "Ram Mandir, Ayodhya",
     "deity": "Lord Rama (Ramlala)",
@@ -2750,6 +4355,40 @@
     "famousFor": "Newly consecrated Ram Janmabhoomi temple"
   },
   {
+    "slug": "orchha-ram-raja",
+    "name": "Ram Raja Temple, Orchha",
+    "deity": "Lord Rama (Ram Raja)",
+    "location": "Orchha, Niwari, Madhya Pradesh",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ओ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "rama"
+    ],
+    "summary": "Ram Raja Mandir — where Rama is worshipped as a reigning king with state honours.",
+    "famousFor": "Rama as king with gun salute · unique MP search"
+  },
+  {
+    "slug": "ram-tirath-amritsar",
+    "name": "Ram Tirath Temple, Amritsar",
+    "deity": "Lord Rama / Valmiki ashram lore",
+    "location": "Ram Tirath, Amritsar, Punjab",
+    "state": "Punjab",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "रा",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "rama"
+    ],
+    "summary": "Ram Tirath — ashram-temple linked to Valmiki and Lava–Kusha birth tradition.",
+    "famousFor": "Valmiki–Sita lore · Amritsar Hindu circuit search"
+  },
+  {
     "slug": "chitrakoot-ramghat",
     "name": "Ramghat, Chitrakoot",
     "deity": "Lord Rama",
@@ -2769,6 +4408,40 @@
     ],
     "summary": "Where Rama, Sita, and Lakshmana are believed to have spent years of exile — ghats, hills, and quiet temples away from mega-city crowds.",
     "famousFor": "Ramayana exile landscape"
+  },
+  {
+    "slug": "ramnathi-temple",
+    "name": "Ramnathi Temple, Goa",
+    "deity": "Goddess Ramnathi / Ramnath",
+    "location": "Ramnathi, Ponda, Goa",
+    "state": "Goa",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "रा",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Ramnathi — important family-deity temple in Goa’s sacred Ponda taluka.",
+    "famousFor": "Ponda temple belt · diaspora Goan family-deity search"
+  },
+  {
+    "slug": "ranbireshwar-jammu",
+    "name": "Ranbireshwar Temple, Jammu",
+    "deity": "Lord Shiva",
+    "location": "Jammu, Jammu and Kashmir",
+    "state": "Jammu and Kashmir",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "र",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Ranbireshwar — Dogra-era Shiva temple famous for large crystal lingams.",
+    "famousFor": "Giant lingams · Jammu city Shiva search"
   },
   {
     "slug": "dakor-ranchhodrai",
@@ -2823,6 +4496,23 @@
     "famousFor": "Seasonal hill pilgrimage of Ayyappa"
   },
   {
+    "slug": "sakshi-gopal",
+    "name": "Sakshi Gopal Temple",
+    "deity": "Lord Krishna (Sakshi Gopal)",
+    "location": "Sakshigopal, Puri district, Odisha",
+    "state": "Odisha",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "सा",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "krishna"
+    ],
+    "summary": "Sakshi Gopal — Krishna as divine witness, classic stop on the Puri highway.",
+    "famousFor": "Witness-Gopal lore on Puri road · yatra stop search"
+  },
+  {
     "slug": "salasar-balaji",
     "name": "Salasar Balaji Temple",
     "deity": "Lord Hanuman (Salasar Balaji)",
@@ -2846,6 +4536,23 @@
     "famousFor": "Rajasthan Hanuman pilgrimage"
   },
   {
+    "slug": "salkanpur-devi",
+    "name": "Salkanpur Devi Temple",
+    "deity": "Goddess Durga (Siddhidatri)",
+    "location": "Salkanpur, Sehore, Madhya Pradesh",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "स",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Salkanpur — hill Devi temple with long stair climb, popular from Bhopal.",
+    "famousFor": "Stairway Devi near Bhopal · huge weekend NCR-MP search"
+  },
+  {
     "slug": "sankat-mochan-varanasi",
     "name": "Sankat Mochan Hanuman Temple, Varanasi",
     "deity": "Lord Hanuman",
@@ -2866,6 +4573,23 @@
     ],
     "summary": "Sankat Mochan — a key Hanuman shrine of Kashi, linked to Tulsidas tradition.",
     "famousFor": "Varanasi’s famous Hanuman temple & music tradition"
+  },
+  {
+    "slug": "saptakoteshwar-narve",
+    "name": "Saptakoteshwar Temple, Narve",
+    "deity": "Lord Shiva (Saptakoteshwar)",
+    "location": "Narve, Bicholim, Goa",
+    "state": "Goa",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "स",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Saptakoteshwar — historic Shiva temple rebuilt after Portuguese demolition cycles.",
+    "famousFor": "Kadamba royal Shiva · heritage + pilgrim search"
   },
   {
     "slug": "annavaram-satyanarayana",
@@ -2909,6 +4633,40 @@
     "famousFor": "Ramayana trail shrine for Sita"
   },
   {
+    "slug": "shamlaji-temple",
+    "name": "Shamlaji Temple",
+    "deity": "Lord Vishnu (Shamlaji / Gadadhar)",
+    "location": "Shamlaji, Aravalli, Gujarat",
+    "state": "Gujarat",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "श",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "vishnu"
+    ],
+    "summary": "Shamlaji — ancient Vishnu temple on the Gujarat–Rajasthan pilgrimage corridor.",
+    "famousFor": "Tribal–Vaishnava fair · North Gujarat pilgrimage search"
+  },
+  {
+    "slug": "shankaracharya-temple",
+    "name": "Shankaracharya Temple, Srinagar",
+    "deity": "Lord Shiva",
+    "location": "Takht-e-Suleiman hill, Srinagar, Jammu and Kashmir",
+    "state": "Jammu and Kashmir",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "शं",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Shankaracharya / Jyestheshwara temple overlooking Dal Lake.",
+    "famousFor": "Srinagar hill Shiva · heritage + pilgrim search"
+  },
+  {
     "slug": "shantadurga-goa",
     "name": "Shantadurga Temple, Kavlem",
     "deity": "Goddess Shantadurga",
@@ -2924,6 +4682,142 @@
     ],
     "summary": "Shantadurga of Kavlem — a principal Goan Devi shrine near Mangueshi.",
     "famousFor": "Goa’s great peace-bringing Devi temple"
+  },
+  {
+    "slug": "sringeri-sharada",
+    "name": "Sharadamba Temple, Sringeri",
+    "deity": "Goddess Sharada & Shankara Peetham",
+    "location": "Sringeri, Chikmagalur, Karnataka",
+    "state": "Karnataka",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "शृ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Sringeri Sharadamba — seat of the Sringeri Sharada Peetham founded in Shankara tradition.",
+    "famousFor": "Adi Shankara peetham · pan-India Vedanta pilgrim search"
+  },
+  {
+    "slug": "sharika-hari-parbat",
+    "name": "Sharika Devi Temple, Hari Parbat",
+    "deity": "Goddess Sharika (Tripura Sundari)",
+    "location": "Hari Parbat, Srinagar, Jammu and Kashmir",
+    "state": "Jammu and Kashmir",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "शा",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Sharika on Hari Parbat — Srinagar’s kuladevi for many Kashmiri Hindus.",
+    "famousFor": "Srinagar’s guardian Devi · Kashmiri Hindu search"
+  },
+  {
+    "slug": "sheetla-mata-gurgaon",
+    "name": "Sheetla Mata Mandir, Gurgaon",
+    "deity": "Goddess Sheetla",
+    "location": "Sector 6 / Sheetla Mata Road, Gurugram, Haryana",
+    "state": "Haryana",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "शी",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Sheetla Mata of Gurugram — among NCR’s highest daily footfall temples.",
+    "famousFor": "NCR’s busiest Devi temple · huge Tuesday/Sunday search"
+  },
+  {
+    "slug": "sheetla-mata-ludhiana",
+    "name": "Sheetla Mata Mandir, Ludhiana",
+    "deity": "Goddess Sheetla",
+    "location": "Ludhiana, Punjab",
+    "state": "Punjab",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "शी",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Sheetla Mata temple — popular Devi shrine of Ludhiana.",
+    "famousFor": "Ludhiana Devi · urban Punjab search"
+  },
+  {
+    "slug": "shiv-mandir-shillong",
+    "name": "Shiva Temple complexes, Shillong",
+    "deity": "Lord Shiva",
+    "location": "Shillong, Meghalaya",
+    "state": "Meghalaya",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "शि",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Shillong’s active Shiva temples serve the city’s Hindu communities and visitors.",
+    "famousFor": "Hill-station Hindu worship · Shillong city search"
+  },
+  {
+    "slug": "shivrinarayan-temple",
+    "name": "Shivrinarayan Temple",
+    "deity": "Lord Shiva / Narayan confluence lore",
+    "location": "Shivrinarayan, Janjgir-Champa, Chhattisgarh",
+    "state": "Chhattisgarh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "शि",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Shivrinarayan — sacred confluence town with Shiva–Vishnu traditions.",
+    "famousFor": "Mahanadi sangam tirtha · CG pilgrimage search"
+  },
+  {
+    "slug": "govindajee-imphal",
+    "name": "Shree Govindajee Temple, Imphal",
+    "deity": "Lord Krishna (Govindajee)",
+    "location": "Imphal, Manipur",
+    "state": "Manipur",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "गो",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "krishna"
+    ],
+    "summary": "Govindajee Temple — historic royal Krishna temple of Manipur.",
+    "famousFor": "Royal Vaishnava temple · Manipur identity search"
+  },
+  {
+    "slug": "shri-krishna-mandir-ludhiana",
+    "name": "Shri Krishna Mandir, Ludhiana",
+    "deity": "Lord Krishna",
+    "location": "Ludhiana, Punjab",
+    "state": "Punjab",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "कृ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "krishna"
+    ],
+    "summary": "Prominent Krishna temple serving Ludhiana’s large Hindu community.",
+    "famousFor": "Ludhiana’s major Krishna temple · urban Punjab pilgrim search"
   },
   {
     "slug": "vaishno-devi",
@@ -2957,11 +4851,26 @@
     "tagLabels": [
       "Modern Temples"
     ],
-    "deityFamilies": [
-      "sai"
-    ],
+    "deityFamilies": [],
     "summary": "Shirdi Sai Baba samadhi mandir — a defining Maharashtra and pan-India faith destination.",
     "famousFor": "One of India’s largest modern pilgrimages"
+  },
+  {
+    "slug": "shantadurga-kumbarjuem",
+    "name": "Shri Shantadurga Kunkolienkarin Temple",
+    "deity": "Goddess Shantadurga",
+    "location": "Fatorpa / Quepem region, Goa",
+    "state": "Goa",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "श",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Shantadurga Kunkolikarin — major South Goa Devi seat distinct from Kavlem.",
+    "famousFor": "Powerful Goan Devi · South Goa search"
   },
   {
     "slug": "nathdwara-shrinathji",
@@ -2980,6 +4889,27 @@
     ],
     "summary": "Nathdwara’s Shrinathji — among India’s foremost Krishna pilgrimage towns.",
     "famousFor": "Haveli of Shrinathji — major Pushtimarg Krishna seat"
+  },
+  {
+    "slug": "siddheshwar-dham-namchi",
+    "name": "Siddheshwar Dham, Namchi",
+    "deity": "Lord Shiva (char dham replicas) & Kirateshwar lore nearby",
+    "location": "Solophok, Namchi, Sikkim",
+    "state": "Sikkim",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "सि",
+    "tags": [
+      "modern-temples"
+    ],
+    "tagLabels": [
+      "Modern Temples"
+    ],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Siddheshwar Dham — monumental Shiva and Char Dham replica complex at Namchi.",
+    "famousFor": "Giant Shiva statue · top Sikkim Hindu tourism search"
   },
   {
     "slug": "siddhivinayak-mumbai",
@@ -3090,6 +5020,78 @@
     "famousFor": "One of the world’s most visited Vishnu temples"
   },
   {
+    "slug": "sthaneshwar-mahadev",
+    "name": "Sthaneshwar Mahadev Temple",
+    "deity": "Lord Shiva (Sthaneshwar)",
+    "location": "Thanesar, Kurukshetra, Haryana",
+    "state": "Haryana",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "स्था",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Sthaneshwar Mahadev — ancient Shiva temple of Thanesar–Kurukshetra.",
+    "famousFor": "Mahabharata-era Shiva seat · Kurukshetra circuit search"
+  },
+  {
+    "slug": "sukreswar-guwahati",
+    "name": "Sukreswar Temple, Guwahati",
+    "deity": "Lord Shiva (Sukreswar)",
+    "location": "Panbazar ghat, Guwahati, Assam",
+    "state": "Assam",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "सु",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Sukreswar — riverside Shiva temple on the Brahmaputra embankment.",
+    "famousFor": "Brahmaputra-ghat Shiva · old Guwahati landmark search"
+  },
+  {
+    "slug": "sun-temple-deo",
+    "name": "Sun Temple, Deo",
+    "deity": "Surya (Sun God)",
+    "location": "Deo, Aurangabad, Bihar",
+    "state": "Bihar",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "सू",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "vishnu"
+    ],
+    "summary": "Deo Sun Temple — rare standing Surya shrine of Magadh, active especially around Chhath.",
+    "famousFor": "Chhath / Surya heritage · Bihar sun-temple search"
+  },
+  {
+    "slug": "surendrapuri-temple",
+    "name": "Surendrapuri Mythological Theme Complex",
+    "deity": "Multiple deities (Kunda Satyanarayana Kaladhamam)",
+    "location": "Yadadri area, Telangana",
+    "state": "Telangana",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "सु",
+    "tags": [
+      "modern-temples"
+    ],
+    "tagLabels": [
+      "Modern Temples"
+    ],
+    "deityFamilies": [
+      "vishnu"
+    ],
+    "summary": "Surendrapuri — large mythological sculpture park with shrine worship near Yadagirigutta.",
+    "famousFor": "Mythology park + temples · family diaspora search"
+  },
+  {
     "slug": "akshardham-delhi",
     "name": "Swaminarayan Akshardham, Delhi",
     "deity": "Bhagwan Swaminarayan & Akshar Purushottam devotion",
@@ -3132,6 +5134,74 @@
     "famousFor": "BAPS Akshardham complex of Gujarat"
   },
   {
+    "slug": "tanot-mata",
+    "name": "Tanot Mata Temple",
+    "deity": "Goddess Tanot Mata",
+    "location": "Tanot, Jaisalmer, Rajasthan",
+    "state": "Rajasthan",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "त",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Tanot Mata — desert Devi temple maintained with BSF reverence near the Pakistan border.",
+    "famousFor": "1965/71 war lore · Border Road viral search"
+  },
+  {
+    "slug": "tapovan-deoghar",
+    "name": "Tapovan Temple, Deoghar",
+    "deity": "Lord Shiva",
+    "location": "Tapovan, Deoghar, Jharkhand",
+    "state": "Jharkhand",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "त",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Tapovan — cave Shiva shrine on the Deoghar–Basukinath pilgrim belt.",
+    "famousFor": "Deoghar circuit cave Shiva · Kawad search companion"
+  },
+  {
+    "slug": "thawe-mandir",
+    "name": "Thawe Mandir, Gopalganj",
+    "deity": "Goddess Thawewali Mai",
+    "location": "Thawe, Gopalganj, Bihar",
+    "state": "Bihar",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "था",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Thawe Mandir — powerful regional Devi shrine with huge fair crowds.",
+    "famousFor": "Massive mela footfall · top north-Bihar Devi search"
+  },
+  {
+    "slug": "thousand-pillars-hanamkonda",
+    "name": "Thousand Pillar Temple, Hanamkonda",
+    "deity": "Lord Shiva / Rudreshwara (Kakatiya)",
+    "location": "Hanamkonda, Warangal, Telangana",
+    "state": "Telangana",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "थ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Thousand Pillar Temple — Kakatiya masterpiece still revered as Rudreshwara shrine.",
+    "famousFor": "Kakatiya UNESCO-era temple · Warangal search"
+  },
+  {
     "slug": "tuljapur-bhavani",
     "name": "Tulja Bhavani Temple",
     "deity": "Goddess Bhavani",
@@ -3147,6 +5217,74 @@
     ],
     "summary": "Tulja Bhavani — among the foremost Devi temples of Maharashtra (Shakti tradition of the Deccan).",
     "famousFor": "One of Maharashtra’s Shakti peeth-like Ambabai shrines"
+  },
+  {
+    "slug": "umananda-guwahati",
+    "name": "Umananda Temple, Guwahati",
+    "deity": "Lord Shiva (Umananda)",
+    "location": "Peacock Island, Brahmaputra, Guwahati, Assam",
+    "state": "Assam",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "उ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Umananda on Peacock Island — Assam’s iconic river-island Shiva shrine.",
+    "famousFor": "Island Shiva temple · top Guwahati YouTube / boat-darshan search"
+  },
+  {
+    "slug": "unakoti-tripura",
+    "name": "Unakoti Rock Carvings",
+    "deity": "Lord Shiva (rock-cut faces)",
+    "location": "Unakoti, Tripura",
+    "state": "Tripura",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "उ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Unakoti — colossal rock-cut Shiva and divine faces, pilgrimage-heritage site.",
+    "famousFor": "Una-koti Shaiva rock art · viral Northeast search"
+  },
+  {
+    "slug": "vaikom-mahadeva",
+    "name": "Vaikom Mahadeva Temple",
+    "deity": "Lord Shiva",
+    "location": "Vaikom, Kottayam, Kerala",
+    "state": "Kerala",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "वै",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Vaikom Mahadeva — ancient Shiva temple also remembered for the temple-entry satyagraha.",
+    "famousFor": "Vaikom Satyagraha history + living Shiva tirtha"
+  },
+  {
+    "slug": "vedapureeswarar-pondy",
+    "name": "Vedapureeswarar Temple, Puducherry",
+    "deity": "Lord Shiva (Vedapureeswarar)",
+    "location": "Puducherry",
+    "state": "Puducherry",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "वे",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Vedapureeswarar — ancient Shiva temple in central Puducherry.",
+    "famousFor": "Historic Pondy Shiva · heritage street search"
   },
   {
     "slug": "lepakshi-veerabhadra",
@@ -3221,5 +5359,22 @@
     ],
     "summary": "Yadadri (Yadagirigutta) — major Telangana Narasimha pilgrimage under state endowments oversight.",
     "famousFor": "Rebuilt hill Narasimha temple of Telangana"
+  },
+  {
+    "slug": "yogmaya-mehrauli",
+    "name": "Yogmaya Temple, Mehrauli",
+    "deity": "Goddess Yogmaya",
+    "location": "Mehrauli, New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "यो",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi"
+    ],
+    "summary": "Yogmaya of Mehrauli — among Delhi’s oldest Devi temples, near Qutub complex.",
+    "famousFor": "Phool Walon Ki Sair · historic Delhi Devi search"
   }
 ]

@@ -22,20 +22,20 @@
     "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
   ],
   "festivals": [
-    "Major local festival days",
-    "Navaratri / Shiva-related observances as applicable"
+    "Navaratri",
+    "Local jatra / mela days"
   ],
-  "bestTime": "October–March for most plains sites; confirm Himalayan seasonal windows separately.",
-  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
-  "climate": "Varies by region — check seasonal weather before travel.",
+  "bestTime": "April–June and September–October for most circuits; check seasonal closures.",
+  "whatToCarry": "Warm layers and rain protection for hills. Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Alpine to subtropical by belt; winter snow and summer showers vary sharply.",
   "nearestRail": "See regional railhead; confirm current connectivity.",
   "nearestAirport": "Nearest major airport with road onward.",
-  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
-  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
-  "otherFood": "Wider options usually in the nearest city.",
-  "localLanguage": "Regional language and Hindi; English varies.",
-  "dressCode": "Modest clothing; follow temple boards for traditional dress rules.",
-  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "accommodation": "Dharamshalas, temple-trust guest houses, and private hotels near Amarnath Shakti Peetha. Book early for festival weeks; prefer official trust counters when available.",
+  "localFood": "Vegetarian pilgrim meals near shrines; carry layers and snacks for high routes.",
+  "otherFood": "Wider vegetarian and city cuisine usually in the nearest town; keep non-veg and alcohol away from temple precincts as posted.",
+  "localLanguage": "Kashmiri, Dogri, Hindi, Urdu; English in tourist zones.",
+  "dressCode": "Modest attire — shoulders and knees covered preferred. Follow temple boards for traditional dress, footwear, and phone rules.",
+  "darshanTimings": "Typically early morning to evening with aarti and ritual breaks. Confirm same-day timings on the temple trust / endowment board notices.",
   "specialEntry": "Special entry, if any, only via official temple counters.",
   "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
   "lockers": "Cloakrooms where available near the entrance.",
@@ -45,10 +45,27 @@
   "lat": 34.2197,
   "lng": 75.37,
   "mapQuery": "Amarnath Shakti Peetha",
-  "nearby": [],
+  "nearby": [
+    {
+      "name": "Shankaracharya Temple, Srinagar",
+      "slug": "shankaracharya-temple",
+      "note": "About 51 km away"
+    },
+    {
+      "name": "Sharika Devi Temple, Hari Parbat",
+      "slug": "sharika-hari-parbat",
+      "note": "About 52 km away"
+    },
+    {
+      "name": "Kheer Bhawani Temple",
+      "slug": "kheer-bhawani",
+      "note": "About 58 km away"
+    }
+  ],
   "packages": [
-    "Amarnath Shakti Peetha day darshan",
-    "Regional multi-temple circuit"
+    "Amarnath Shakti Peetha — day darshan",
+    "Amarnath Shakti Peetha + Shankaracharya Temple, Srinagar — 2-day circuit",
+    "Regional Jammu and Kashmir multi-temple circuit"
   ],
   "sources": [
     "JK Tourism: https://www.jktourism.jk.gov.in/",
@@ -57,7 +74,7 @@
     "Puranic / pilgrimage tradition (lists can vary by scripture)",
     "Shri Mata Vaishno Devi Shrine Board: https://www.maavaishnodevi.org/"
   ],
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-08-09",
   "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
   "statePortal": {
     "name": "JK Tourism",

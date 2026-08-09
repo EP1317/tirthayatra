@@ -21,20 +21,20 @@
     "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
   ],
   "festivals": [
-    "Major local festival days",
-    "Navaratri / Shiva-related observances as applicable"
+    "Maha Shivaratri",
+    "Mondays / Pradosham where observed"
   ],
-  "bestTime": "October–March for most plains sites; confirm Himalayan seasonal windows separately.",
-  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
-  "climate": "Varies by region — check seasonal weather before travel.",
+  "bestTime": "May–June and September–October for high dhams; plains milder October–March.",
+  "whatToCarry": "Warm layers and rain protection for hills. Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Himalayan — cool to cold by altitude; monsoon landslide risk on hill roads.",
   "nearestRail": "Rishikesh",
   "nearestAirport": "Dehradun",
-  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
-  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
-  "otherFood": "Wider options usually in the nearest city.",
-  "localLanguage": "Regional language and Hindi; English varies.",
-  "dressCode": "Modest clothing; follow temple boards for traditional dress rules.",
-  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "accommodation": "Dharamshalas, temple-trust guest houses, and private hotels near Kalpeshwar Temple. Book early for festival weeks; prefer official trust counters when available.",
+  "localFood": "Simple hill vegetarian meals and prasadam; carry dry snacks on treks.",
+  "otherFood": "Wider vegetarian and city cuisine usually in the nearest town; keep non-veg and alcohol away from temple precincts as posted.",
+  "localLanguage": "Hindi and Garhwali/Kumaoni; English in tourist towns.",
+  "dressCode": "Modest attire — shoulders and knees covered preferred. Follow temple boards for traditional dress, footwear, and phone rules.",
+  "darshanTimings": "Typically early morning to evening with aarti and ritual breaks. Confirm same-day timings on the temple trust / endowment board notices.",
   "specialEntry": "Special entry, if any, only via official temple counters.",
   "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
   "lockers": "Cloakrooms where available near the entrance.",
@@ -44,10 +44,27 @@
   "lat": 30.528,
   "lng": 79.455,
   "mapQuery": "Kalpeshwar Temple",
-  "nearby": [],
+  "nearby": [
+    {
+      "name": "Rudranath Temple",
+      "slug": "rudranath",
+      "note": "About 11 km away"
+    },
+    {
+      "name": "Tungnath Temple",
+      "slug": "tungnath",
+      "note": "About 23 km away"
+    },
+    {
+      "name": "Badrinath Temple",
+      "slug": "badrinath",
+      "note": "About 24 km away"
+    }
+  ],
   "packages": [
-    "Kalpeshwar Temple day darshan",
-    "Regional multi-temple circuit"
+    "Kalpeshwar Temple — day darshan",
+    "Kalpeshwar Temple + Rudranath Temple — 2-day circuit",
+    "Regional Uttarakhand multi-temple circuit"
   ],
   "sources": [
     "Shri Badrinath–Kedarnath Temple Committee: https://badrinath-kedarnath.gov.in/",
@@ -56,7 +73,7 @@
     "Puranic / pilgrimage tradition (lists can vary by scripture)",
     "Uttarakhand Tourism: https://uttarakhandtourism.gov.in/"
   ],
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-08-09",
   "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
   "statePortal": {
     "name": "Shri Badrinath–Kedarnath Temple Committee",
@@ -68,5 +85,10 @@
   "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
   "deityFamilies": [
     "shiva"
-  ]
+  ],
+  "sacredPhrase": {
+    "text": "ॐ नमः शिवाय",
+    "meaning": "I bow to Shiva — the auspicious one",
+    "source": "Universal Shaiva mantra of this shrine’s living devotion"
+  }
 }

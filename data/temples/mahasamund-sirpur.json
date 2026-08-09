@@ -67,7 +67,7 @@
     "Chhattisgarh Tourism",
     "ASI / site notices"
   ],
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-08-09",
   "disclaimer": "Monument hours and festival dates change — confirm with CG Tourism before travel.",
   "lat": 21.345,
   "lng": 82.186,
@@ -83,5 +83,10 @@
   "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
   "deityFamilies": [
     "vishnu"
-  ]
+  ],
+  "sacredPhrase": {
+    "text": "ॐ नमो नारायणाय",
+    "meaning": "Om, salutation to Narayana",
+    "source": "Classical Vaishnava mantra fitting this Vishnu seat"
+  }
 }

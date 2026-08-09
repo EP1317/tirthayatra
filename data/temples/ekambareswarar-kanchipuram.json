@@ -22,20 +22,20 @@
     "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
   ],
   "festivals": [
-    "Major local festival days",
-    "Navaratri / Shiva-related observances as applicable"
+    "Maha Shivaratri",
+    "Mondays / Pradosham where observed"
   ],
-  "bestTime": "October–March for most plains sites; confirm Himalayan seasonal windows separately.",
-  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
-  "climate": "Varies by region — check seasonal weather before travel.",
+  "bestTime": "November–February for cooler weather; summers are hot.",
+  "whatToCarry": "Sun cap and light cotton for hot plains. Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Tropical / hot plains; coastal humidity; northeast monsoon late year.",
   "nearestRail": "Kanchipuram",
   "nearestAirport": "Chennai",
-  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
-  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
-  "otherFood": "Wider options usually in the nearest city.",
-  "localLanguage": "Regional language and Hindi; English varies.",
+  "accommodation": "Dharamshalas, temple-trust guest houses, and private hotels near Ekambareswarar Temple. Book early for festival weeks; prefer official trust counters when available.",
+  "localFood": "Tamil vegetarian meals, temple prasadam, and sattvic thalis.",
+  "otherFood": "Wider vegetarian and city cuisine usually in the nearest town; keep non-veg and alcohol away from temple precincts as posted.",
+  "localLanguage": "Tamil; English in cities and major temple towns.",
   "dressCode": "South Indian temple norms — traditional attire often required for sanctum.",
-  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "darshanTimings": "Typically early morning to evening with aarti and ritual breaks. Confirm same-day timings on the temple trust / endowment board notices.",
   "specialEntry": "Special entry, if any, only via official temple counters.",
   "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
   "lockers": "Cloakrooms where available near the entrance.",
@@ -45,10 +45,27 @@
   "lat": 12.8475,
   "lng": 79.6997,
   "mapQuery": "Ekambareswarar Temple Kanchipuram",
-  "nearby": [],
+  "nearby": [
+    {
+      "name": "Kamakshi Amman Temple",
+      "slug": "kamakshi-kanchipuram",
+      "note": "Nearby in the same sacred belt"
+    },
+    {
+      "name": "Kapaleeshwarar Temple, Mylapore",
+      "slug": "kapaleeshwarar-chennai",
+      "note": "About 65 km away"
+    },
+    {
+      "name": "Arunachaleswarar Temple",
+      "slug": "arunachaleswarar-tiruvannamalai",
+      "note": "About 96 km away"
+    }
+  ],
   "packages": [
-    "Ekambareswarar Temple day darshan",
-    "Regional multi-temple circuit"
+    "Ekambareswarar Temple — day darshan",
+    "Ekambareswarar Temple + Kamakshi Amman Temple — 2-day circuit",
+    "Regional Tamil Nadu multi-temple circuit"
   ],
   "sources": [
     "TN HR&CE Department: https://hrce.tn.gov.in/hrcehome/",
@@ -56,7 +73,7 @@
     "State tourism materials",
     "Puranic / pilgrimage tradition (lists can vary by scripture)"
   ],
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-08-09",
   "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
   "statePortal": {
     "name": "TN HR&CE Department",

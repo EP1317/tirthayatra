@@ -21,17 +21,17 @@
     "Navaratri",
     "Float Festival"
   ],
-  "bestTime": "October–March for most plains sites; confirm Himalayan seasonal windows separately.",
-  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
-  "climate": "Varies by region — check seasonal weather before travel.",
+  "bestTime": "November–February for cooler weather; summers are hot.",
+  "whatToCarry": "Sun cap and light cotton for hot plains. Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Tropical / hot plains; coastal humidity; northeast monsoon late year.",
   "nearestRail": "Madurai Junction",
   "nearestAirport": "Madurai",
-  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
-  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
-  "otherFood": "Wider options usually in the nearest city.",
-  "localLanguage": "Regional language and Hindi; English varies.",
+  "accommodation": "Dharamshalas, temple-trust guest houses, and private hotels near Meenakshi Amman Temple, Madurai. Book early for festival weeks; prefer official trust counters when available.",
+  "localFood": "Tamil vegetarian meals, temple prasadam, and sattvic thalis.",
+  "otherFood": "Wider vegetarian and city cuisine usually in the nearest town; keep non-veg and alcohol away from temple precincts as posted.",
+  "localLanguage": "Tamil; English in cities and major temple towns.",
   "dressCode": "Traditional dress preferred; follow HR&CE notices.",
-  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "darshanTimings": "Typically early morning to evening with aarti and ritual breaks. Confirm same-day timings on the temple trust / endowment board notices.",
   "specialEntry": "Special entry, if any, only via official temple counters.",
   "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
   "lockers": "Cloakrooms where available near the entrance.",
@@ -41,10 +41,27 @@
   "lat": 9.9195,
   "lng": 78.1193,
   "mapQuery": "Meenakshi Temple Madurai",
-  "nearby": [],
+  "nearby": [
+    {
+      "name": "Ranganathaswamy Temple, Srirangam",
+      "slug": "srirangam-ranganathaswamy",
+      "note": "About 121 km away"
+    },
+    {
+      "name": "Jambukeswarar Temple",
+      "slug": "thiruvanaikaval",
+      "note": "About 122 km away"
+    },
+    {
+      "name": "Ramanathaswamy Temple",
+      "slug": "rameswaram",
+      "note": "About 148 km away"
+    }
+  ],
   "packages": [
-    "Meenakshi Amman Temple, Madurai day darshan",
-    "Regional multi-temple circuit"
+    "Meenakshi Amman Temple, Madurai — day darshan",
+    "Meenakshi Amman Temple, Madurai + Ranganathaswamy Temple, Srirangam — 2-day circuit",
+    "Regional Tamil Nadu multi-temple circuit"
   ],
   "sources": [
     "TN HR&CE Department: https://hrce.tn.gov.in/hrcehome/",
@@ -52,7 +69,7 @@
     "State tourism materials",
     "Puranic / pilgrimage tradition (lists can vary by scripture)"
   ],
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-08-09",
   "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
   "statePortal": {
     "name": "TN HR&CE Department",

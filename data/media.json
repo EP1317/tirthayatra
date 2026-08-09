@@ -376,5 +376,1706 @@
     "credit": "Himacharanbatchu",
     "license": "CC0",
     "local": "assets/temples/srikalahasti.jpg"
+  },
+  "konark-sun-temple": {
+    "filename": "Konark_Sun_Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Konark_Sun_Temple.jpg/1280px-Konark_Sun_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Konark_Sun_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Konark_Sun_Temple.jpg",
+    "credit": "Raveesh Vyas",
+    "license": "CC BY-SA 2.0",
+    "local": "assets/temples/konark-sun-temple.jpg"
+  },
+  "lingaraj-bhubaneswar": {
+    "filename": "Lingaraj_Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Lingaraj_Temple.jpg/1280px-Lingaraj_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Lingaraj_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Lingaraj_Temple.jpg",
+    "credit": "Halder97Sudipto",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/lingaraj-bhubaneswar.jpg"
+  },
+  "kukke-subramanya": {
+    "filename": "Kukke_Subramanya_Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Kukke_Subramanya_Temple.jpg/1280px-Kukke_Subramanya_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Kukke_Subramanya_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Kukke_Subramanya_Temple.jpg",
+    "credit": "Vedamurthy J",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/kukke-subramanya.jpg"
+  },
+  "dharmasthala-manjunatha": {
+    "filename": "Dharmasthala_Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Dharmasthala_Temple.jpg/1280px-Dharmasthala_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Dharmasthala_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Dharmasthala_Temple.jpg",
+    "credit": "Vedamurthy J",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/dharmasthala-manjunatha.jpg"
+  },
+  "chilkur-balaji": {
+    "filename": "Balaji temple, chilkoor.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Balaji_temple%2C_chilkoor.jpg/1280px-Balaji_temple%2C_chilkoor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Balaji_temple%2C_chilkoor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Balaji_temple%2C_chilkoor.jpg",
+    "credit": "Prabhavathi anaka",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/chilkur-balaji.jpg"
+  },
+  "karni-mata-deshnok": {
+    "filename": "Karni Mata Temple Deshnoke.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Karni_Mata_Temple_Deshnoke.jpg/1280px-Karni_Mata_Temple_Deshnoke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Karni_Mata_Temple_Deshnoke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Karni_Mata_Temple_Deshnoke.jpg",
+    "credit": "TheSlumPanda",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/karni-mata-deshnok.jpg"
+  },
+  "eklingji-udaipur": {
+    "filename": "Eklingji.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Eklingji.jpg/1280px-Eklingji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Eklingji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Eklingji.jpg",
+    "credit": "Mahandresoni1",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/eklingji-udaipur.jpg"
+  },
+  "raghunath-temple-jammu": {
+    "filename": "Raghunath Temple Jammu.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Raghunath_Temple_Jammu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Raghunath_Temple_Jammu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Raghunath_Temple_Jammu.JPG",
+    "credit": "Bhadani at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/raghunath-temple-jammu.jpg"
+  },
+  "shankaracharya-temple": {
+    "filename": "Shankaracharya_Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Shankaracharya_Temple.jpg/1280px-Shankaracharya_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Shankaracharya_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Shankaracharya_Temple.jpg",
+    "credit": "Tauqee Zahid",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/shankaracharya-temple.jpg"
+  },
+  "kheer-bhawani": {
+    "filename": "Kheer_Bhawani.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Kheer_Bhawani.jpg/1280px-Kheer_Bhawani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Kheer_Bhawani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Kheer_Bhawani.jpg",
+    "credit": "Akshey25",
+    "license": "CC BY 3.0",
+    "local": "assets/temples/kheer-bhawani.jpg"
+  },
+  "saptashrungi": {
+    "filename": "Saptashrungi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Saptashrungi.jpg/1280px-Saptashrungi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Saptashrungi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Saptashrungi.jpg",
+    "credit": "Krishnav25",
+    "license": "CC0",
+    "local": "assets/temples/saptashrungi.jpg"
+  },
+  "mundeshwari-devi": {
+    "filename": "Mundeshwari_Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Mundeshwari_Temple.jpg/1280px-Mundeshwari_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Mundeshwari_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Mundeshwari_Temple.jpg",
+    "credit": "Kamalvisualstoryteller",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/mundeshwari-devi.jpg"
+  },
+  "manakula-vinayagar": {
+    "filename": "Manakula Vinayagar Temple. Near Pondicherry, 2010.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Manakula_Vinayagar_Temple._Near_Pondicherry%2C_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Manakula_Vinayagar_Temple._Near_Pondicherry%2C_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Manakula_Vinayagar_Temple._Near_Pondicherry%2C_2010.jpg",
+    "credit": "John Hill",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/manakula-vinayagar.jpg"
+  },
+  "chottanikkara-temple": {
+    "filename": "Chottanikkara_Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Chottanikkara_Temple.jpg/1280px-Chottanikkara_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Chottanikkara_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Chottanikkara_Temple.jpg",
+    "credit": "Roney Maxwell",
+    "license": "CC BY 2.0",
+    "local": "assets/temples/chottanikkara-temple.jpg"
+  },
+  "ambalapuzha-krishna": {
+    "filename": "Ambalapuzha_Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Ambalapuzha_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Ambalapuzha_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambalapuzha_Temple.jpg",
+    "credit": "Bhoomi at Malayalam Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/ambalapuzha-krishna.jpg"
+  },
+  "agroha-dham": {
+    "filename": "Agroha Dhaam Hindu Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Agroha_Dhaam_Hindu_Temple.jpg/1280px-Agroha_Dhaam_Hindu_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Agroha_Dhaam_Hindu_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Agroha_Dhaam_Hindu_Temple.jpg",
+    "credit": "Hargoa",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/agroha-dham.jpg"
+  },
+  "ajgaibinath-sultanganj": {
+    "filename": "Ajgaibinath temple Day-View.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Ajgaibinath_temple_Day-View.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Ajgaibinath_temple_Day-View.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Ajgaibinath_temple_Day-View.png",
+    "credit": "Biharpro7252",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/ajgaibinath-sultanganj.png"
+  },
+  "akshardham-delhi": {
+    "filename": "Akshardham Delhi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Akshardham_Delhi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Akshardham_Delhi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Akshardham_Delhi.jpg",
+    "credit": "Swaminarayan Sanstha",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/akshardham-delhi.jpg"
+  },
+  "akshardham-gandhinagar": {
+    "filename": "BAPS Akshardham Gandhinagar.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/BAPS_Akshardham_Gandhinagar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/BAPS_Akshardham_Gandhinagar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:BAPS_Akshardham_Gandhinagar.jpg",
+    "credit": "Work for hire; Copyright held by BAPS Swaminarayan Sanstha (web: www.baps.org, email: info@baps.org); Unknown photographer",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/akshardham-gandhinagar.jpg"
+  },
+  "alopi-devi-prayagraj": {
+    "filename": "Alop Shankari Devi Mandir, Prayagraj.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Alop_Shankari_Devi_Mandir%2C_Prayagraj.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Alop_Shankari_Devi_Mandir%2C_Prayagraj.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Alop_Shankari_Devi_Mandir%2C_Prayagraj.jpg",
+    "credit": "आशीष भटनागर",
+    "license": "CC0",
+    "local": "assets/temples/alopi-devi-prayagraj.jpg"
+  },
+  "ambaji": {
+    "filename": "Ambaji Kamakshi Devi Temple Gujarat 2023 08 12 180745 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ambaji_Kamakshi_Devi_Temple_Gujarat_2023_08_12_180745_02.jpg/1280px-Ambaji_Kamakshi_Devi_Temple_Gujarat_2023_08_12_180745_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Ambaji_Kamakshi_Devi_Temple_Gujarat_2023_08_12_180745_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambaji_Kamakshi_Devi_Temple_Gujarat_2023_08_12_180745_02.jpg",
+    "credit": "Ms Sarah Welch",
+    "license": "CC0",
+    "local": "assets/temples/ambaji.jpg"
+  },
+  "ananta-vasudeva-bhubaneswar": {
+    "filename": "Court of Ananta Vasudeva Temple 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Court_of_Ananta_Vasudeva_Temple_02.jpg/1280px-Court_of_Ananta_Vasudeva_Temple_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Court_of_Ananta_Vasudeva_Temple_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Court_of_Ananta_Vasudeva_Temple_02.jpg",
+    "credit": "Kritzolina",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/ananta-vasudeva-bhubaneswar.jpg"
+  },
+  "annavaram-satyanarayana": {
+    "filename": "Farm lands at Annavaram, AP.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Farm_lands_at_Annavaram%2C_AP.JPG/1280px-Farm_lands_at_Annavaram%2C_AP.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Farm_lands_at_Annavaram%2C_AP.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Farm_lands_at_Annavaram%2C_AP.JPG",
+    "credit": "కాసుబాబు",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/annavaram-satyanarayana.jpg"
+  },
+  "ashwaklanta-guwahati": {
+    "filename": "Aswaklanta temple, North Guwahati.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Aswaklanta_temple%2C_North_Guwahati.jpg/1280px-Aswaklanta_temple%2C_North_Guwahati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Aswaklanta_temple%2C_North_Guwahati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Aswaklanta_temple%2C_North_Guwahati.jpg",
+    "credit": "Gitartha.bordoloi",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/ashwaklanta-guwahati.jpg"
+  },
+  "attahas": {
+    "filename": "Ma Bahula, Shri Bahula Shaktipeeth Temple, Ketugram.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ma_Bahula%2C_Shri_Bahula_Shaktipeeth_Temple%2C_Ketugram.jpg/1280px-Ma_Bahula%2C_Shri_Bahula_Shaktipeeth_Temple%2C_Ketugram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Ma_Bahula%2C_Shri_Bahula_Shaktipeeth_Temple%2C_Ketugram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Ma_Bahula%2C_Shri_Bahula_Shaktipeeth_Temple%2C_Ketugram.jpg",
+    "credit": "Romam1988",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/attahas.jpg"
+  },
+  "attukal-bhagavathy": {
+    "filename": "Attukal Bhagavathy temple 4.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Attukal_Bhagavathy_temple_4.jpg/1280px-Attukal_Bhagavathy_temple_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Attukal_Bhagavathy_temple_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Attukal_Bhagavathy_temple_4.jpg",
+    "credit": "Ms Sarah Welch",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/attukal-bhagavathy.jpg"
+  },
+  "ayodhya-ram-mandir": {
+    "filename": "Historical information board of Shri Ram Janmabhoomi Mandir, Ayodhya.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Historical_information_board_of_Shri_Ram_Janmabhoomi_Mandir%2C_Ayodhya.png/1280px-Historical_information_board_of_Shri_Ram_Janmabhoomi_Mandir%2C_Ayodhya.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Historical_information_board_of_Shri_Ram_Janmabhoomi_Mandir%2C_Ayodhya.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Historical_information_board_of_Shri_Ram_Janmabhoomi_Mandir%2C_Ayodhya.png",
+    "credit": "Gamerzer",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/ayodhya-ram-mandir.png"
+  },
+  "bahula-ketugram": {
+    "filename": "Shri Bahula Shaktipeeth Temple, Ketugram.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Shri_Bahula_Shaktipeeth_Temple%2C_Ketugram.jpg/1280px-Shri_Bahula_Shaktipeeth_Temple%2C_Ketugram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Shri_Bahula_Shaktipeeth_Temple%2C_Ketugram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Shri_Bahula_Shaktipeeth_Temple%2C_Ketugram.jpg",
+    "credit": "Romam1988",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/bahula-ketugram.jpg"
+  },
+  "baijnath-temple-hp": {
+    "filename": "BaijNath.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/BaijNath.jpg/1280px-BaijNath.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/BaijNath.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:BaijNath.jpg",
+    "credit": "Pdhang",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/baijnath-temple-hp.jpg"
+  },
+  "bakreshwar": {
+    "filename": "Bakreshwar or Bakreshwari Mahadev Bakreshwar Manakamna Gorkha Nepal Rajesh Dhungana (7).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bakreshwar_or_Bakreshwari_Mahadev_Bakreshwar_Manakamna_Gorkha_Nepal_Rajesh_Dhungana_%287%29.jpg/1280px-Bakreshwar_or_Bakreshwari_Mahadev_Bakreshwar_Manakamna_Gorkha_Nepal_Rajesh_Dhungana_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Bakreshwar_or_Bakreshwari_Mahadev_Bakreshwar_Manakamna_Gorkha_Nepal_Rajesh_Dhungana_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Bakreshwar_or_Bakreshwari_Mahadev_Bakreshwar_Manakamna_Gorkha_Nepal_Rajesh_Dhungana_%287%29.jpg",
+    "credit": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/bakreshwar.jpg"
+  },
+  "ballaleshwar-pali": {
+    "filename": "Ballaleshwar Pali Chamber.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Ballaleshwar_Pali_Chamber.jpg/1280px-Ballaleshwar_Pali_Chamber.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Ballaleshwar_Pali_Chamber.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Ballaleshwar_Pali_Chamber.jpg",
+    "credit": "Pradeep717",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/ballaleshwar-pali.jpg"
+  },
+  "bambleshwari-dongargarh": {
+    "filename": "Dongargarh.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Dongargarh.jpg/1280px-Dongargarh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Dongargarh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Dongargarh.jpg",
+    "credit": "Sushil Kumar",
+    "license": "CC BY 2.0",
+    "local": "assets/temples/bambleshwari-dongargarh.jpg"
+  },
+  "banke-bihari-vrindavan": {
+    "filename": "Banke-Bihari-Mandir-Vrindavan.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Banke-Bihari-Mandir-Vrindavan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Banke-Bihari-Mandir-Vrindavan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Banke-Bihari-Mandir-Vrindavan.jpg",
+    "credit": "Aman Kumar",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/banke-bihari-vrindavan.jpg"
+  },
+  "barsana-radha-rani": {
+    "filename": "Radharani Temple Barsana 3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Radharani_Temple_Barsana_3.jpg/1280px-Radharani_Temple_Barsana_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Radharani_Temple_Barsana_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Radharani_Temple_Barsana_3.jpg",
+    "credit": "Kridha20",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/barsana-radha-rani.jpg"
+  },
+  "basara-gnana-saraswati": {
+    "filename": "Goddess of Knowledge Saraswati Gnana Temple Basar India.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Goddess_of_Knowledge_Saraswati_Gnana_Temple_Basar_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Goddess_of_Knowledge_Saraswati_Gnana_Temple_Basar_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Goddess_of_Knowledge_Saraswati_Gnana_Temple_Basar_India.jpg",
+    "credit": "{ pranav } from Hyderabad, India",
+    "license": "CC BY 2.0",
+    "local": "assets/temples/basara-gnana-saraswati.jpg"
+  },
+  "basistha-ashram": {
+    "filename": "Basistha Temple, Guwahati.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Basistha_Temple%2C_Guwahati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Basistha_Temple%2C_Guwahati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Basistha_Temple%2C_Guwahati.jpg",
+    "credit": "Lachitbarphukan",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/basistha-ashram.jpg"
+  },
+  "basukinath-temple": {
+    "filename": "Baba Basukinath Temple complex at Basukinath, Jharkhand 09.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Baba_Basukinath_Temple_complex_at_Basukinath%2C_Jharkhand_09.jpg/1280px-Baba_Basukinath_Temple_complex_at_Basukinath%2C_Jharkhand_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Baba_Basukinath_Temple_complex_at_Basukinath%2C_Jharkhand_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Baba_Basukinath_Temple_complex_at_Basukinath%2C_Jharkhand_09.jpg",
+    "credit": "Pinakpani",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/basukinath-temple.jpg"
+  },
+  "belur-math": {
+    "filename": "Swami Vivekananda temple, Belur Math, Belur, India.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Swami_Vivekananda_temple%2C_Belur_Math%2C_Belur%2C_India.jpg/1280px-Swami_Vivekananda_temple%2C_Belur_Math%2C_Belur%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Swami_Vivekananda_temple%2C_Belur_Math%2C_Belur%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Swami_Vivekananda_temple%2C_Belur_Math%2C_Belur%2C_India.jpg",
+    "credit": "Ravi Dwivedi",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/belur-math.jpg"
+  },
+  "bet-dwarka": {
+    "filename": "Hanuman Temple at Bhent Dwarka.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Hanuman_Temple_at_Bhent_Dwarka.JPG/1280px-Hanuman_Temple_at_Bhent_Dwarka.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Hanuman_Temple_at_Bhent_Dwarka.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Hanuman_Temple_at_Bhent_Dwarka.JPG",
+    "credit": "Sunilkr05",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/bet-dwarka.jpg"
+  },
+  "bhadrachalam": {
+    "filename": "Lord Sree Sita Ramachandra Swamy temple view, Bhadrachalam (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Lord_Sree_Sita_Ramachandra_Swamy_temple_view%2C_Bhadrachalam_%28cropped%29.jpg/1280px-Lord_Sree_Sita_Ramachandra_Swamy_temple_view%2C_Bhadrachalam_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Lord_Sree_Sita_Ramachandra_Swamy_temple_view%2C_Bhadrachalam_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Lord_Sree_Sita_Ramachandra_Swamy_temple_view%2C_Bhadrachalam_%28cropped%29.jpg",
+    "credit": "WithShivaram",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/bhadrachalam.jpg"
+  },
+  "bhadrakali-itkhori": {
+    "filename": "Ma Bhadrakali Temple 3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Ma_Bhadrakali_Temple_3.jpg/1280px-Ma_Bhadrakali_Temple_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ma_Bhadrakali_Temple_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Ma_Bhadrakali_Temple_3.jpg",
+    "credit": "कृष्ण कान्त शर्मा",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/bhadrakali-itkhori.jpg"
+  },
+  "bhadrakali-kurukshetra": {
+    "filename": "Devi koop Bhadrakali Mandir, Kurukshetra.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Devi_koop_Bhadrakali_Mandir%2C_Kurukshetra.jpg/1280px-Devi_koop_Bhadrakali_Mandir%2C_Kurukshetra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Devi_koop_Bhadrakali_Mandir%2C_Kurukshetra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Devi_koop_Bhadrakali_Mandir%2C_Kurukshetra.jpg",
+    "credit": "आशीष_भटनागर",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/bhadrakali-kurukshetra.jpg"
+  },
+  "bhagavati-pernem": {
+    "filename": "Bhagavathi Pernem.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Bhagavathi_Pernem.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Bhagavathi_Pernem.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Bhagavathi_Pernem.jpg",
+    "credit": "Konkani Manis",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/bhagavati-pernem.jpg"
+  },
+  "bhoramdeo-temple": {
+    "filename": "Bhoramdeo Temple, Kawardha.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bhoramdeo_Temple%2C_Kawardha.jpg/1280px-Bhoramdeo_Temple%2C_Kawardha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Bhoramdeo_Temple%2C_Kawardha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Bhoramdeo_Temple%2C_Kawardha.jpg",
+    "credit": "Pankaj Oudhia",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/bhoramdeo-temple.jpg"
+  },
+  "bijli-mahadev": {
+    "filename": "Bijli Mahadev Temple Board.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Bijli_Mahadev_Temple_Board.jpg/1280px-Bijli_Mahadev_Temple_Board.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Bijli_Mahadev_Temple_Board.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Bijli_Mahadev_Temple_Board.jpg",
+    "credit": "Chinchu.c",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/bijli-mahadev.jpg"
+  },
+  "biraja-jajpur": {
+    "filename": "Front view from left side of Viraja(also named as Biraja) Temple as per list of State Protected Monuments in Odisha. Serial Number S-OR-105.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Front_view_from_left_side_of_Viraja%28also_named_as_Biraja%29_Temple_as_per_list_of_State_Protected_Monuments_in_Odisha._Serial_Number_S-OR-105.jpg/1280px-Front_view_from_left_side_of_Viraja%28also_named_as_Biraja%29_Temple_as_per_list_of_State_Protected_Monuments_in_Odisha._Serial_Number_S-OR-105.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Front_view_from_left_side_of_Viraja%28also_named_as_Biraja%29_Temple_as_per_list_of_State_Protected_Monuments_in_Odisha._Serial_Number_S-OR-105.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Front_view_from_left_side_of_Viraja%28also_named_as_Biraja%29_Temple_as_per_list_of_State_Protected_Monuments_in_Odisha._Serial_Number_S-OR-105.jpg",
+    "credit": "Pratap555",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/biraja-jajpur.jpg"
+  },
+  "birla-mandir-delhi": {
+    "filename": "Laxminarayan Temple Delhi 2013.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Laxminarayan_Temple_Delhi_2013.jpg/1280px-Laxminarayan_Temple_Delhi_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Laxminarayan_Temple_Delhi_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Laxminarayan_Temple_Delhi_2013.jpg",
+    "credit": "Billjones94",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/birla-mandir-delhi.jpg"
+  },
+  "brahma-temple-pushkar": {
+    "filename": "Ghats oni Pushkar's lake being dredged Rajasthan.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Ghats_oni_Pushkar%27s_lake_being_dredged_Rajasthan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Ghats_oni_Pushkar%27s_lake_being_dredged_Rajasthan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Ghats_oni_Pushkar%27s_lake_being_dredged_Rajasthan.jpg",
+    "credit": "Pierre André Leclercq",
+    "license": "CC0",
+    "local": "assets/temples/brahma-temple-pushkar.jpg"
+  },
+  "brajeshwari-kangra": {
+    "filename": "Brajeshwari Devi temple (6133397196).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Brajeshwari_Devi_temple_%286133397196%29.jpg/1280px-Brajeshwari_Devi_temple_%286133397196%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Brajeshwari_Devi_temple_%286133397196%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Brajeshwari_Devi_temple_%286133397196%29.jpg",
+    "credit": "Varun Shiv Kapur from New Delhi, India",
+    "license": "CC BY 2.0",
+    "local": "assets/temples/brajeshwari-kangra.jpg"
+  },
+  "chamunda-devi-kangra": {
+    "filename": "Chamunda Devi Temple 37.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Chamunda_Devi_Temple_37.JPG/1280px-Chamunda_Devi_Temple_37.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Chamunda_Devi_Temple_37.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Chamunda_Devi_Temple_37.JPG",
+    "credit": "Ashish3724",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/chamunda-devi-kangra.jpg"
+  },
+  "chengannur-mahadeva": {
+    "filename": "Chengannur Mahadeva Temple 2022 September.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Chengannur_Mahadeva_Temple_2022_September.jpg/1280px-Chengannur_Mahadeva_Temple_2022_September.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Chengannur_Mahadeva_Temple_2022_September.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Chengannur_Mahadeva_Temple_2022_September.jpg",
+    "credit": "Akhilan",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/chengannur-mahadeva.jpg"
+  },
+  "chhatarpur-temple-delhi": {
+    "filename": "Chhatarpur Temple, Delhi, India.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Chhatarpur_Temple%2C_Delhi%2C_India.jpg/1280px-Chhatarpur_Temple%2C_Delhi%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Chhatarpur_Temple%2C_Delhi%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Chhatarpur_Temple%2C_Delhi%2C_India.jpg",
+    "credit": "© ShadesofIndia",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/chhatarpur-temple-delhi.jpg"
+  },
+  "chintamani-theur": {
+    "filename": "Theur Chintamani Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Theur_Chintamani_Temple.jpg/1280px-Theur_Chintamani_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Theur_Chintamani_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Theur_Chintamani_Temple.jpg",
+    "credit": "Sakshi0905",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/chintamani-theur.jpg"
+  },
+  "chintpurni-temple": {
+    "filename": "Praying and wanting Maa's Blessings at the Maa Chintpurni Temple...Jai Mata Di.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Praying_and_wanting_Maa%27s_Blessings_at_the_Maa_Chintpurni_Temple...Jai_Mata_Di.JPG/1280px-Praying_and_wanting_Maa%27s_Blessings_at_the_Maa_Chintpurni_Temple...Jai_Mata_Di.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Praying_and_wanting_Maa%27s_Blessings_at_the_Maa_Chintpurni_Temple...Jai_Mata_Di.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Praying_and_wanting_Maa%27s_Blessings_at_the_Maa_Chintpurni_Temple...Jai_Mata_Di.JPG",
+    "credit": "Gopal Aggarwal from India",
+    "license": "CC BY 2.0",
+    "local": "assets/temples/chintpurni-temple.jpg"
+  },
+  "cuttack-chandi": {
+    "filename": "Katak Chandi temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Katak_Chandi_temple.jpg/1280px-Katak_Chandi_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Katak_Chandi_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Katak_Chandi_temple.jpg",
+    "credit": "Sidsahu",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/cuttack-chandi.jpg"
+  },
+  "dakor-ranchhodrai": {
+    "filename": "Dakor Ranchhod Ji Mandir and Tirtha, Gujarat 067.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Dakor_Ranchhod_Ji_Mandir_and_Tirtha%2C_Gujarat_067.jpg/1280px-Dakor_Ranchhod_Ji_Mandir_and_Tirtha%2C_Gujarat_067.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Dakor_Ranchhod_Ji_Mandir_and_Tirtha%2C_Gujarat_067.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Dakor_Ranchhod_Ji_Mandir_and_Tirtha%2C_Gujarat_067.jpg",
+    "credit": "Ms Sarah Welch",
+    "license": "CC0",
+    "local": "assets/temples/dakor-ranchhodrai.jpg"
+  },
+  "dakshineswar-kali": {
+    "filename": "Dakshineswar Kali Temple, Dakshineswar, North 24 Parganas district, India.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Dakshineswar_Kali_Temple%2C_Dakshineswar%2C_North_24_Parganas_district%2C_India.jpg/1280px-Dakshineswar_Kali_Temple%2C_Dakshineswar%2C_North_24_Parganas_district%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Dakshineswar_Kali_Temple%2C_Dakshineswar%2C_North_24_Parganas_district%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Dakshineswar_Kali_Temple%2C_Dakshineswar%2C_North_24_Parganas_district%2C_India.jpg",
+    "credit": "Ravi Dwivedi",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/dakshineswar-kali.jpg"
+  },
+  "damodar-zambaulim": {
+    "filename": "Shri Damodar Temple Zambaulim, Goa.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Shri_Damodar_Temple_Zambaulim%2C_Goa.jpg/1280px-Shri_Damodar_Temple_Zambaulim%2C_Goa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Shri_Damodar_Temple_Zambaulim%2C_Goa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Shri_Damodar_Temple_Zambaulim%2C_Goa.jpg",
+    "credit": "SADDP",
+    "license": "CC BY 4.0",
+    "local": "assets/temples/damodar-zambaulim.jpg"
+  },
+  "danteshwari-dantewada": {
+    "filename": "Danteshwari Temple , Jagdalpur.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Danteshwari_Temple_%2C_Jagdalpur.jpg/1280px-Danteshwari_Temple_%2C_Jagdalpur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Danteshwari_Temple_%2C_Jagdalpur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Danteshwari_Temple_%2C_Jagdalpur.jpg",
+    "credit": "Rajeshjena453",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/danteshwari-dantewada.jpg"
+  },
+  "devi-talab-mandir": {
+    "filename": "Carved wooden door at Devi Talab Mandir, Jalandhar 04.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Carved_wooden_door_at_Devi_Talab_Mandir%2C_Jalandhar_04.jpg/1280px-Carved_wooden_door_at_Devi_Talab_Mandir%2C_Jalandhar_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Carved_wooden_door_at_Devi_Talab_Mandir%2C_Jalandhar_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Carved_wooden_door_at_Devi_Talab_Mandir%2C_Jalandhar_04.jpg",
+    "credit": "Poojilsharma07",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/devi-talab-mandir.jpg"
+  },
+  "dichpally-ramalayam": {
+    "filename": "Dichpally Ramalayam- Dr. Murali Mohan Gurram (42).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Dichpally_Ramalayam-_Dr._Murali_Mohan_Gurram_%2842%29.jpg/1280px-Dichpally_Ramalayam-_Dr._Murali_Mohan_Gurram_%2842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Dichpally_Ramalayam-_Dr._Murali_Mohan_Gurram_%2842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Dichpally_Ramalayam-_Dr._Murali_Mohan_Gurram_%2842%29.jpg",
+    "credit": "Dr Murali Mohan Gurram",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/dichpally-ramalayam.jpg"
+  },
+  "dirgheswari-temple": {
+    "filename": "DeviDirgheswari Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/DeviDirgheswari_Temple.jpg/1280px-DeviDirgheswari_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/DeviDirgheswari_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:DeviDirgheswari_Temple.jpg",
+    "credit": "Eeshankur",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/dirgheswari-temple.jpg"
+  },
+  "doul-govinda-guwahati": {
+    "filename": "A member of Gayan-Bayan at Doul Govinda temple, Assam.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/A_member_of_Gayan-Bayan_at_Doul_Govinda_temple%2C_Assam.jpg/1280px-A_member_of_Gayan-Bayan_at_Doul_Govinda_temple%2C_Assam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/A_member_of_Gayan-Bayan_at_Doul_Govinda_temple%2C_Assam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:A_member_of_Gayan-Bayan_at_Doul_Govinda_temple%2C_Assam.jpg",
+    "credit": "Gitartha.bordoloi",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/doul-govinda-guwahati.jpg"
+  },
+  "durgiana-amritsar": {
+    "filename": "Durgiana Temple, Amritsar 03.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Durgiana_Temple%2C_Amritsar_03.jpg/1280px-Durgiana_Temple%2C_Amritsar_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Durgiana_Temple%2C_Amritsar_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Durgiana_Temple%2C_Amritsar_03.jpg",
+    "credit": "Bernard Gagnon",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/durgiana-amritsar.jpg"
+  },
+  "dwarkadhish-mathura": {
+    "filename": "Yamuna River, Mathura.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Yamuna_River%2C_Mathura.jpg/1280px-Yamuna_River%2C_Mathura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Yamuna_River%2C_Mathura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Yamuna_River%2C_Mathura.jpg",
+    "credit": "Bakeil",
+    "license": "CC0",
+    "local": "assets/temples/dwarkadhish-mathura.jpg"
+  },
+  "ettumanoor-mahadeva": {
+    "filename": "Ettumanoor Mahadeva Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Ettumanoor_Mahadeva_Temple.jpg/1280px-Ettumanoor_Mahadeva_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Ettumanoor_Mahadeva_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Ettumanoor_Mahadeva_Temple.jpg",
+    "credit": "Hari vaikom(harish)",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/ettumanoor-mahadeva.jpg"
+  },
+  "gauri-shankar-chandni-chowk": {
+    "filename": "Gauri shankar mandir, chandni chowk by ashish.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Gauri_shankar_mandir%2C_chandni_chowk_by_ashish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Gauri_shankar_mandir%2C_chandni_chowk_by_ashish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Gauri_shankar_mandir%2C_chandni_chowk_by_ashish.jpg",
+    "credit": "User:आशीष भटनागर",
+    "license": "Public domain",
+    "local": "assets/temples/gauri-shankar-chandni-chowk.jpg"
+  },
+  "giraudpuri-dham": {
+    "filename": "Giroudpuri Dham.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Giroudpuri_Dham.jpg/1280px-Giroudpuri_Dham.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Giroudpuri_Dham.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Giroudpuri_Dham.jpg",
+    "credit": "Saugata58243",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/giraudpuri-dham.jpg"
+  },
+  "gokarna-mahabaleshwar": {
+    "filename": "Main entry to the Mahabaleshwar Temple at Gokaran.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Main_entry_to_the_Mahabaleshwar_Temple_at_Gokaran.jpg/1280px-Main_entry_to_the_Mahabaleshwar_Temple_at_Gokaran.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Main_entry_to_the_Mahabaleshwar_Temple_at_Gokaran.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Main_entry_to_the_Mahabaleshwar_Temple_at_Gokaran.jpg",
+    "credit": "Nvvchar",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/gokarna-mahabaleshwar.jpg"
+  },
+  "govind-dev-ji-jaipur": {
+    "filename": "Govind Dev Ji Temple, Jaipur, 20191218 1059 9092.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Govind_Dev_Ji_Temple%2C_Jaipur%2C_20191218_1059_9092.jpg/1280px-Govind_Dev_Ji_Temple%2C_Jaipur%2C_20191218_1059_9092.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Govind_Dev_Ji_Temple%2C_Jaipur%2C_20191218_1059_9092.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Govind_Dev_Ji_Temple%2C_Jaipur%2C_20191218_1059_9092.jpg",
+    "credit": "Jakub Hałun",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/govind-dev-ji-jaipur.jpg"
+  },
+  "govindajee-imphal": {
+    "filename": "Shree Govindaji temple, Manipur.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Shree_Govindaji_temple%2C_Manipur.jpg/1280px-Shree_Govindaji_temple%2C_Manipur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Shree_Govindaji_temple%2C_Manipur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Shree_Govindaji_temple%2C_Manipur.jpg",
+    "credit": "kknila",
+    "license": "CC BY-SA 2.0",
+    "local": "assets/temples/govindajee-imphal.jpg"
+  },
+  "guhyeshwari": {
+    "filename": "Guhyeshwari Toran.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Guhyeshwari_Toran.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Guhyeshwari_Toran.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Guhyeshwari_Toran.jpg",
+    "credit": "Jujubhaju",
+    "license": "CC0",
+    "local": "assets/temples/guhyeshwari.jpg"
+  },
+  "gupteswar-odisha": {
+    "filename": "Gupteswar Mahadev Temple Gobardiha 1 Dhankhola Deukhuri Dang Nepal Rajesh Dhungana (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Gupteswar_Mahadev_Temple_Gobardiha_1_Dhankhola_Deukhuri_Dang_Nepal_Rajesh_Dhungana_%281%29.jpg/1280px-Gupteswar_Mahadev_Temple_Gobardiha_1_Dhankhola_Deukhuri_Dang_Nepal_Rajesh_Dhungana_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Gupteswar_Mahadev_Temple_Gobardiha_1_Dhankhola_Deukhuri_Dang_Nepal_Rajesh_Dhungana_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Gupteswar_Mahadev_Temple_Gobardiha_1_Dhankhola_Deukhuri_Dang_Nepal_Rajesh_Dhungana_%281%29.jpg",
+    "credit": "Rajesh Dhungana",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/gupteswar-odisha.jpg"
+  },
+  "hadimba-manali": {
+    "filename": "Hadimba Devi Temple Manali.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Hadimba_Devi_Temple_Manali.jpg/1280px-Hadimba_Devi_Temple_Manali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Hadimba_Devi_Temple_Manali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Hadimba_Devi_Temple_Manali.jpg",
+    "credit": "Itsarti",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/hadimba-manali.jpg"
+  },
+  "hanuman-mandir-cp": {
+    "filename": "Main shrine of Hanuman, Connaught Place.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Main_shrine_of_Hanuman%2C_Connaught_Place.JPG/1280px-Main_shrine_of_Hanuman%2C_Connaught_Place.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Main_shrine_of_Hanuman%2C_Connaught_Place.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Main_shrine_of_Hanuman%2C_Connaught_Place.JPG",
+    "credit": "Nvvchar",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/hanuman-mandir-cp.jpg"
+  },
+  "harsiddhi-ujjain": {
+    "filename": "Harsiddhi Temple, Ujjain 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Harsiddhi_Temple%2C_Ujjain_02.jpg/1280px-Harsiddhi_Temple%2C_Ujjain_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Harsiddhi_Temple%2C_Ujjain_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Harsiddhi_Temple%2C_Ujjain_02.jpg",
+    "credit": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/harsiddhi-ujjain.jpg"
+  },
+  "hatkoti-temple": {
+    "filename": "Hatkoti temples.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Hatkoti_temples.jpg/1280px-Hatkoti_temples.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Hatkoti_temples.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Hatkoti_temples.jpg",
+    "credit": "Varun Shiv Kapur",
+    "license": "CC BY 2.0",
+    "local": "assets/temples/hatkoti-temple.jpg"
+  },
+  "hayagriva-madhava-hajo": {
+    "filename": "Hayagriva Madhava Temple, Hajo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Hayagriva_Madhava_Temple%2C_Hajo.jpg/1280px-Hayagriva_Madhava_Temple%2C_Hajo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Hayagriva_Madhava_Temple%2C_Hajo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Hayagriva_Madhava_Temple%2C_Hajo.jpg",
+    "credit": "PrabalJeetBhagawati",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/hayagriva-madhava-hajo.jpg"
+  },
+  "hinglaj": {
+    "filename": "Hawan at Hinglaj Mata (Rani ki Mandir) During Yanglaj Yatra 2017 Photo by Aliraza Khatri.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Hawan_at_Hinglaj_Mata_%28Rani_ki_Mandir%29_During_Yanglaj_Yatra_2017_Photo_by_Aliraza_Khatri.jpg/1280px-Hawan_at_Hinglaj_Mata_%28Rani_ki_Mandir%29_During_Yanglaj_Yatra_2017_Photo_by_Aliraza_Khatri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Hawan_at_Hinglaj_Mata_%28Rani_ki_Mandir%29_During_Yanglaj_Yatra_2017_Photo_by_Aliraza_Khatri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Hawan_at_Hinglaj_Mata_%28Rani_ki_Mandir%29_During_Yanglaj_Yatra_2017_Photo_by_Aliraza_Khatri.jpg",
+    "credit": "Aliraza Khatri",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/hinglaj.jpg"
+  },
+  "horanadu-annapoorneshwari": {
+    "filename": "Annapoorneshwari Temple, Horanadu.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Annapoorneshwari_Temple%2C_Horanadu.jpg/1280px-Annapoorneshwari_Temple%2C_Horanadu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Annapoorneshwari_Temple%2C_Horanadu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Annapoorneshwari_Temple%2C_Horanadu.jpg",
+    "credit": "Prof tpms",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/horanadu-annapoorneshwari.jpg"
+  },
+  "iskcon-bengaluru": {
+    "filename": "Sri Krishna Janmashtami, ISKCON Temple, Vasanthpura (2024) 11.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Sri_Krishna_Janmashtami%2C_ISKCON_Temple%2C_Vasanthpura_%282024%29_11.jpg/1280px-Sri_Krishna_Janmashtami%2C_ISKCON_Temple%2C_Vasanthpura_%282024%29_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Sri_Krishna_Janmashtami%2C_ISKCON_Temple%2C_Vasanthpura_%282024%29_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Sri_Krishna_Janmashtami%2C_ISKCON_Temple%2C_Vasanthpura_%282024%29_11.jpg",
+    "credit": "Gpkp",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/iskcon-bengaluru.jpg"
+  },
+  "iskcon-delhi": {
+    "filename": "Iskcon Delhi Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Iskcon_Delhi_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Iskcon_Delhi_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Iskcon_Delhi_Temple.jpg",
+    "credit": "GourangaUK at English Wikipedia",
+    "license": "Public domain",
+    "local": "assets/temples/iskcon-delhi.jpg"
+  },
+  "iskcon-mayapur": {
+    "filename": "Main gate of ISKCON, Mayapur 07102013.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Main_gate_of_ISKCON%2C_Mayapur_07102013.jpg/1280px-Main_gate_of_ISKCON%2C_Mayapur_07102013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Main_gate_of_ISKCON%2C_Mayapur_07102013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Main_gate_of_ISKCON%2C_Mayapur_07102013.jpg",
+    "credit": "Joydeep",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/iskcon-mayapur.jpg"
+  },
+  "iskcon-vrindavan": {
+    "filename": "Sri Krishna Balaram Mandir Vrindavan 08.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sri_Krishna_Balaram_Mandir_Vrindavan_08.jpg/1280px-Sri_Krishna_Balaram_Mandir_Vrindavan_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Sri_Krishna_Balaram_Mandir_Vrindavan_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Sri_Krishna_Balaram_Mandir_Vrindavan_08.jpg",
+    "credit": "Goutam1962",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/iskcon-vrindavan.jpg"
+  },
+  "jagannath-temple-ranchi": {
+    "filename": "17th century Jagannath temple Ranchi Jharkhand - 9.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/17th_century_Jagannath_temple_Ranchi_Jharkhand_-_9.jpg/1280px-17th_century_Jagannath_temple_Ranchi_Jharkhand_-_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/17th_century_Jagannath_temple_Ranchi_Jharkhand_-_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:17th_century_Jagannath_temple_Ranchi_Jharkhand_-_9.jpg",
+    "credit": "Ms Sarah Welch",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/jagannath-temple-ranchi.jpg"
+  },
+  "jakhoo-hanuman-shimla": {
+    "filename": "Shri Hanuman Moorti at Jakhoo, Shimla.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Shri_Hanuman_Moorti_at_Jakhoo%2C_Shimla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Shri_Hanuman_Moorti_at_Jakhoo%2C_Shimla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Shri_Hanuman_Moorti_at_Jakhoo%2C_Shimla.jpg",
+    "credit": "Iamritwikaryan",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/jakhoo-hanuman-shimla.jpg"
+  },
+  "jayanti-nartiang": {
+    "filename": "Jayanti Shaktipeeth Nartiang Durga Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Jayanti_Shaktipeeth_Nartiang_Durga_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Jayanti_Shaktipeeth_Nartiang_Durga_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Jayanti_Shaktipeeth_Nartiang_Durga_Temple.jpg",
+    "credit": "Kotinwpb",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/jayanti-nartiang.jpg"
+  },
+  "jejuri-khandoba": {
+    "filename": "Khandoba temple Pune.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Khandoba_temple_Pune.jpg/1280px-Khandoba_temple_Pune.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Khandoba_temple_Pune.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Khandoba_temple_Pune.jpg",
+    "credit": "PKharote",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/jejuri-khandoba.jpg"
+  },
+  "jeshoreshwari": {
+    "filename": "Narendra Modi worshiping at Jeshoreshwari Kali Temple, Shyamnagar, Satkhira, 2021-03-27 (PID-0029729).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Narendra_Modi_worshiping_at_Jeshoreshwari_Kali_Temple%2C_Shyamnagar%2C_Satkhira%2C_2021-03-27_%28PID-0029729%29.jpg/1280px-Narendra_Modi_worshiping_at_Jeshoreshwari_Kali_Temple%2C_Shyamnagar%2C_Satkhira%2C_2021-03-27_%28PID-0029729%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Narendra_Modi_worshiping_at_Jeshoreshwari_Kali_Temple%2C_Shyamnagar%2C_Satkhira%2C_2021-03-27_%28PID-0029729%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Narendra_Modi_worshiping_at_Jeshoreshwari_Kali_Temple%2C_Shyamnagar%2C_Satkhira%2C_2021-03-27_%28PID-0029729%29.jpg",
+    "credit": "Press Information Department",
+    "license": "Public domain",
+    "local": "assets/temples/jeshoreshwari.jpg"
+  },
+  "jogulamba-alampur": {
+    "filename": "Jogulamba temple gopuram alampur.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Jogulamba_temple_gopuram_alampur.JPG/1280px-Jogulamba_temple_gopuram_alampur.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Jogulamba_temple_gopuram_alampur.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Jogulamba_temple_gopuram_alampur.JPG",
+    "credit": "రహ్మానుద్దీన్",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/jogulamba-alampur.jpg"
+  },
+  "jyotisar-kurukshetra": {
+    "filename": "Jyotisar-Kurukshetra.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Jyotisar-Kurukshetra.JPG/1280px-Jyotisar-Kurukshetra.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Jyotisar-Kurukshetra.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Jyotisar-Kurukshetra.JPG",
+    "credit": "Vjdchauhan",
+    "license": "Public domain",
+    "local": "assets/temples/jyotisar-kurukshetra.jpg"
+  },
+  "kal-bhairav-ujjain": {
+    "filename": "Kal Bhairav temple Ujjain.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Kal_Bhairav_temple_Ujjain.jpg/1280px-Kal_Bhairav_temple_Ujjain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Kal_Bhairav_temple_Ujjain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Kal_Bhairav_temple_Ujjain.jpg",
+    "credit": "Utcursch",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/kal-bhairav-ujjain.jpg"
+  },
+  "kali-mata-patiala": {
+    "filename": "Kaali mata mandir patiala.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Kaali_mata_mandir_patiala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Kaali_mata_mandir_patiala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Kaali_mata_mandir_patiala.jpg",
+    "credit": "Gurdeepdali",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/kali-mata-patiala.jpg"
+  },
+  "kalpeshwar": {
+    "filename": "Kalpeshwar Mahadev, Kalpnath temple, Panch Kedar Uttarakhand.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Kalpeshwar_Mahadev%2C_Kalpnath_temple%2C_Panch_Kedar_Uttarakhand.jpg/1280px-Kalpeshwar_Mahadev%2C_Kalpnath_temple%2C_Panch_Kedar_Uttarakhand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kalpeshwar_Mahadev%2C_Kalpnath_temple%2C_Panch_Kedar_Uttarakhand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Kalpeshwar_Mahadev%2C_Kalpnath_temple%2C_Panch_Kedar_Uttarakhand.jpg",
+    "credit": "Ms Sarah Welch",
+    "license": "CC0",
+    "local": "assets/temples/kalpeshwar.jpg"
+  },
+  "kamakshi-kanchipuram": {
+    "filename": "Kamakshi Amman Temple 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Kamakshi_Amman_Temple_2.jpg/1280px-Kamakshi_Amman_Temple_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Kamakshi_Amman_Temple_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Kamakshi_Amman_Temple_2.jpg",
+    "credit": "Luistxo",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/kamakshi-kanchipuram.jpg"
+  },
+  "kanipakam": {
+    "filename": "Kanipakam Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Kanipakam_Temple.jpg/1280px-Kanipakam_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Kanipakam_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Kanipakam_Temple.jpg",
+    "credit": "Vin09",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/kanipakam.jpg"
+  },
+  "kankalitala": {
+    "filename": "Kankalitala Temple complex, Birbhum, West Bengal 05.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Kankalitala_Temple_complex%2C_Birbhum%2C_West_Bengal_05.jpg/1280px-Kankalitala_Temple_complex%2C_Birbhum%2C_West_Bengal_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Kankalitala_Temple_complex%2C_Birbhum%2C_West_Bengal_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Kankalitala_Temple_complex%2C_Birbhum%2C_West_Bengal_05.jpg",
+    "credit": "Pinakpani",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/kankalitala.jpg"
+  },
+  "kanyakumari": {
+    "filename": "Kumari kanya.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Kumari_kanya.jpg/1280px-Kumari_kanya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kumari_kanya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Kumari_kanya.jpg",
+    "credit": "Smaranika123",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/kanyakumari.jpg"
+  },
+  "kapaleeshwarar-chennai": {
+    "filename": "Kapaleeshwarar Temple, Mylapore, Chennai, India.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Kapaleeshwarar_Temple%2C_Mylapore%2C_Chennai%2C_India.jpg/1280px-Kapaleeshwarar_Temple%2C_Mylapore%2C_Chennai%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Kapaleeshwarar_Temple%2C_Mylapore%2C_Chennai%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Kapaleeshwarar_Temple%2C_Mylapore%2C_Chennai%2C_India.jpg",
+    "credit": "N. Vivekananthamoorthy",
+    "license": "CC BY 4.0",
+    "local": "assets/temples/kapaleeshwarar-chennai.jpg"
+  },
+  "kateel-durga-parameshwari": {
+    "filename": "Shree Durga parameshwari Temple, Kateel 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Shree_Durga_parameshwari_Temple%2C_Kateel_02.jpg/1280px-Shree_Durga_parameshwari_Temple%2C_Kateel_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Shree_Durga_parameshwari_Temple%2C_Kateel_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Shree_Durga_parameshwari_Temple%2C_Kateel_02.jpg",
+    "credit": "A.Murali",
+    "license": "CC0",
+    "local": "assets/temples/kateel-durga-parameshwari.jpg"
+  },
+  "katyayani-vrindavan": {
+    "filename": "Katyayani Shakti Devi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Katyayani_Shakti_Devi.jpg/1280px-Katyayani_Shakti_Devi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Katyayani_Shakti_Devi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Katyayani_Shakti_Devi.jpg",
+    "credit": "Aliva Sahoo",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/katyayani-vrindavan.jpg"
+  },
+  "keesaragutta-temple": {
+    "filename": "Temple at Keesaragutta, AP W IMG 9127.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Temple_at_Keesaragutta%2C_AP_W_IMG_9127.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Temple_at_Keesaragutta%2C_AP_W_IMG_9127.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Temple_at_Keesaragutta%2C_AP_W_IMG_9127.jpg",
+    "credit": "J.M.Garg",
+    "license": "CC BY 3.0",
+    "local": "assets/temples/keesaragutta-temple.jpg"
+  },
+  "khatushyam": {
+    "filename": "Shree Shree Khatu Shyam Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Shree_Shree_Khatu_Shyam_Temple.jpg/1280px-Shree_Shree_Khatu_Shyam_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Shree_Shree_Khatu_Shyam_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Shree_Shree_Khatu_Shyam_Temple.jpg",
+    "credit": "SayandeepDutta",
+    "license": "CC BY 4.0",
+    "local": "assets/temples/khatushyam.jpg"
+  },
+  "kirateshwar-legship": {
+    "filename": "Legship shiva temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Legship_shiva_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Legship_shiva_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Legship_shiva_temple.jpg",
+    "credit": "Bhattaraibinod3",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/kirateshwar-legship.jpg"
+  },
+  "kiriteswari": {
+    "filename": "Kiriteswari Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Kiriteswari_Temple.jpg/1280px-Kiriteswari_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Kiriteswari_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Kiriteswari_Temple.jpg",
+    "credit": "Pinakpani",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/kiriteswari.jpg"
+  },
+  "kodungallur-bhagavathy": {
+    "filename": "Kodungallur Bhagavathy Temple 03 bnr.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Kodungallur_Bhagavathy_Temple_03_bnr.png/1280px-Kodungallur_Bhagavathy_Temple_03_bnr.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Kodungallur_Bhagavathy_Temple_03_bnr.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Kodungallur_Bhagavathy_Temple_03_bnr.png",
+    "credit": "Vis M",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/kodungallur-bhagavathy.png"
+  },
+  "krishna-janmabhoomi-mathura": {
+    "filename": "Mathura Temple-Mathura-India0002.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Mathura_Temple-Mathura-India0002.JPG/1280px-Mathura_Temple-Mathura-India0002.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Mathura_Temple-Mathura-India0002.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Mathura_Temple-Mathura-India0002.JPG",
+    "credit": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/krishna-janmabhoomi-mathura.jpg"
+  },
+  "lepakshi-veerabhadra": {
+    "filename": "Hampi - Uddana Veerabhadra Temple - Hanuman - 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Hampi_-_Uddana_Veerabhadra_Temple_-_Hanuman_-_2.jpg/1280px-Hampi_-_Uddana_Veerabhadra_Temple_-_Hanuman_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Hampi_-_Uddana_Veerabhadra_Temple_-_Hanuman_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Hampi_-_Uddana_Veerabhadra_Temple_-_Hanuman_-_2.jpg",
+    "credit": "Ingo Mehling",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/lepakshi-veerabhadra.jpg"
+  },
+  "madhyamaheshwar": {
+    "filename": "Madhyamaheshwar Temple, Uttarakhand.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Madhyamaheshwar_Temple%2C_Uttarakhand.JPG/1280px-Madhyamaheshwar_Temple%2C_Uttarakhand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Madhyamaheshwar_Temple%2C_Uttarakhand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Madhyamaheshwar_Temple%2C_Uttarakhand.JPG",
+    "credit": "Bodhisattwa",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/madhyamaheshwar.jpg"
+  },
+  "maha-mrityunjay-nagaon": {
+    "filename": "Maha Mrityunjay Temple, Nagaon.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Maha_Mrityunjay_Temple%2C_Nagaon.jpg/1280px-Maha_Mrityunjay_Temple%2C_Nagaon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Maha_Mrityunjay_Temple%2C_Nagaon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Maha_Mrityunjay_Temple%2C_Nagaon.jpg",
+    "credit": "পাপৰি বৰা",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/maha-mrityunjay-nagaon.jpg"
+  },
+  "mahadev-ghatarani": {
+    "filename": "Ghatarani temple siva.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Ghatarani_temple_siva.JPG/1280px-Ghatarani_temple_siva.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Ghatarani_temple_siva.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Ghatarani_temple_siva.JPG",
+    "credit": "Dvellakat",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/mahadev-ghatarani.jpg"
+  },
+  "mahadev-mandir-jammu": {
+    "filename": "Mukteshwar Mahadev Mandir.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Mukteshwar_Mahadev_Mandir.jpg/1280px-Mukteshwar_Mahadev_Mandir.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Mukteshwar_Mahadev_Mandir.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Mukteshwar_Mahadev_Mandir.jpg",
+    "credit": "DvigartaDogra123",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/mahadev-mandir-jammu.jpg"
+  },
+  "mahaganapati-ranjangaon": {
+    "filename": "Ranjangaon Mahaganapati Temple entrance view.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ranjangaon_Mahaganapati_Temple_entrance_view.jpg/1280px-Ranjangaon_Mahaganapati_Temple_entrance_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Ranjangaon_Mahaganapati_Temple_entrance_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Ranjangaon_Mahaganapati_Temple_entrance_view.jpg",
+    "credit": "Booradleyp1",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/mahaganapati-ranjangaon.jpg"
+  },
+  "mahalaxmi-kolhapur": {
+    "filename": "Mahalaxmi Temple, Kolhapur, Maharashtra 08.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Mahalaxmi_Temple%2C_Kolhapur%2C_Maharashtra_08.jpg/1280px-Mahalaxmi_Temple%2C_Kolhapur%2C_Maharashtra_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Mahalaxmi_Temple%2C_Kolhapur%2C_Maharashtra_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Mahalaxmi_Temple%2C_Kolhapur%2C_Maharashtra_08.jpg",
+    "credit": "A.Murali",
+    "license": "CC0",
+    "local": "assets/temples/mahalaxmi-kolhapur.jpg"
+  },
+  "mahamaya-ratanpur": {
+    "filename": "0010722 11th century Ratanpur Mahamaya Temple Chhattisgarh 051.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/0010722_11th_century_Ratanpur_Mahamaya_Temple_Chhattisgarh_051.jpg/1280px-0010722_11th_century_Ratanpur_Mahamaya_Temple_Chhattisgarh_051.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/0010722_11th_century_Ratanpur_Mahamaya_Temple_Chhattisgarh_051.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:0010722_11th_century_Ratanpur_Mahamaya_Temple_Chhattisgarh_051.jpg",
+    "credit": "Ms Sarah Welch",
+    "license": "CC0",
+    "local": "assets/temples/mahamaya-ratanpur.jpg"
+  },
+  "mahavir-mandir-patna": {
+    "filename": "Mahavir Mandir Patna, Patna Junction, Bihar INDIA.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Mahavir_Mandir_Patna%2C_Patna_Junction%2C_Bihar_INDIA.jpg/1280px-Mahavir_Mandir_Patna%2C_Patna_Junction%2C_Bihar_INDIA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Mahavir_Mandir_Patna%2C_Patna_Junction%2C_Bihar_INDIA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Mahavir_Mandir_Patna%2C_Patna_Junction%2C_Bihar_INDIA.jpg",
+    "credit": "KDhruv406",
+    "license": "CC BY 4.0",
+    "local": "assets/temples/mahavir-mandir-patna.jpg"
+  },
+  "maluti-temples": {
+    "filename": "Maluti Village Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Maluti_Village_Temple.jpg/1280px-Maluti_Village_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Maluti_Village_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Maluti_Village_Temple.jpg",
+    "credit": "Pinakpani",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/maluti-temples.jpg"
+  },
+  "mangla-gauri-gaya": {
+    "filename": "View of Gaya from Hills of Mangla Gauri.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/View_of_Gaya_from_Hills_of_Mangla_Gauri.jpg/1280px-View_of_Gaya_from_Hills_of_Mangla_Gauri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/View_of_Gaya_from_Hills_of_Mangla_Gauri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:View_of_Gaya_from_Hills_of_Mangla_Gauri.jpg",
+    "credit": "Ianasaman",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/mangla-gauri-gaya.jpg"
+  },
+  "mangueshi-goa": {
+    "filename": "Goa - Shri Mangueshi temple (3).JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Goa_-_Shri_Mangueshi_temple_%283%29.JPG/1280px-Goa_-_Shri_Mangueshi_temple_%283%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Goa_-_Shri_Mangueshi_temple_%283%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Goa_-_Shri_Mangueshi_temple_%283%29.JPG",
+    "credit": "Vinayaraj",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/mangueshi-goa.jpg"
+  },
+  "manikyamba-draksharama": {
+    "filename": "Manikyamba Ammavari Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Manikyamba_Ammavari_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Manikyamba_Ammavari_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Manikyamba_Ammavari_Temple.jpg",
+    "credit": "Kamalika Basu",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/manikyamba-draksharama.jpg"
+  },
+  "mansa-devi-panchkula": {
+    "filename": "A temple in Mansa Devi temple complex, Panchkula near Chandigarh.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/A_temple_in_Mansa_Devi_temple_complex%2C_Panchkula_near_Chandigarh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/A_temple_in_Mansa_Devi_temple_complex%2C_Panchkula_near_Chandigarh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:A_temple_in_Mansa_Devi_temple_complex%2C_Panchkula_near_Chandigarh.jpg",
+    "credit": "https://www.flickr.com/photos/ramansharma/",
+    "license": "CC BY 2.0",
+    "local": "assets/temples/mansa-devi-panchkula.jpg"
+  },
+  "matangeshwar-khajuraho": {
+    "filename": "0121821 Matangeshwar Mahadev Temple, Khajuraho Madhya Pradesh 079.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/0121821_Matangeshwar_Mahadev_Temple%2C_Khajuraho_Madhya_Pradesh_079.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/0121821_Matangeshwar_Mahadev_Temple%2C_Khajuraho_Madhya_Pradesh_079.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:0121821_Matangeshwar_Mahadev_Temple%2C_Khajuraho_Madhya_Pradesh_079.jpg",
+    "credit": "Ms Sarah Welch",
+    "license": "CC0",
+    "local": "assets/temples/matangeshwar-khajuraho.jpg"
+  },
+  "meenakshi-madurai": {
+    "filename": "MEENAKSHI TEMPLE- WEST TOWER.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/MEENAKSHI_TEMPLE-_WEST_TOWER.jpg/1280px-MEENAKSHI_TEMPLE-_WEST_TOWER.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/MEENAKSHI_TEMPLE-_WEST_TOWER.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:MEENAKSHI_TEMPLE-_WEST_TOWER.jpg",
+    "credit": "Mamichaelraj",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/meenakshi-madurai.jpg"
+  },
+  "mithila-janakpur": {
+    "filename": "Janakpur Dham Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Janakpur_Dham_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Janakpur_Dham_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Janakpur_Dham_Temple.jpg",
+    "credit": "Sandesh Budathoki",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/mithila-janakpur.jpg"
+  },
+  "mookambika-kollur": {
+    "filename": "Kollur Mookambika temple entrance gate.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Kollur_Mookambika_temple_entrance_gate.jpg/1280px-Kollur_Mookambika_temple_entrance_gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Kollur_Mookambika_temple_entrance_gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Kollur_Mookambika_temple_entrance_gate.jpg",
+    "credit": "Starstuffseyyon",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/mookambika-kollur.jpg"
+  },
+  "moti-dungri-ganesh": {
+    "filename": "Jaipur - Sri Moti Dungri Ganesh Ji Mandir (2022) - img 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Jaipur_-_Sri_Moti_Dungri_Ganesh_Ji_Mandir_%282022%29_-_img_01.jpg/1280px-Jaipur_-_Sri_Moti_Dungri_Ganesh_Ji_Mandir_%282022%29_-_img_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Jaipur_-_Sri_Moti_Dungri_Ganesh_Ji_Mandir_%282022%29_-_img_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Jaipur_-_Sri_Moti_Dungri_Ganesh_Ji_Mandir_%282022%29_-_img_01.jpg",
+    "credit": "Chainwit.",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/moti-dungri-ganesh.jpg"
+  },
+  "nagueshi-temple": {
+    "filename": "Nagueshi Inscription 1413AD.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Nagueshi_Inscription_1413AD.jpg/1280px-Nagueshi_Inscription_1413AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Nagueshi_Inscription_1413AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Nagueshi_Inscription_1413AD.jpg",
+    "credit": "Wikimedia contributor",
+    "license": "Public domain",
+    "local": "assets/temples/nagueshi-temple.jpg"
+  },
+  "naina-devi": {
+    "filename": "Naina Devi Temple, Himachal.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Naina_Devi_Temple%2C_Himachal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Naina_Devi_Temple%2C_Himachal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Naina_Devi_Temple%2C_Himachal.jpg",
+    "credit": "https://www.flickr.com/photos/ramansharma/",
+    "license": "CC BY 2.0",
+    "local": "assets/temples/naina-devi.jpg"
+  },
+  "nandgaon-nandbaba": {
+    "filename": "Lathmar Holi 2022 in Nandgaon, Uttar Pradesh (edited).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Lathmar_Holi_2022_in_Nandgaon%2C_Uttar_Pradesh_%28edited%29.jpg/1280px-Lathmar_Holi_2022_in_Nandgaon%2C_Uttar_Pradesh_%28edited%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Lathmar_Holi_2022_in_Nandgaon%2C_Uttar_Pradesh_%28edited%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Lathmar_Holi_2022_in_Nandgaon%2C_Uttar_Pradesh_%28edited%29.jpg",
+    "credit": "Original: Sachinghai09 Derivative work: Radomianin",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/nandgaon-nandbaba.jpg"
+  },
+  "nandikeshwari-sainthia": {
+    "filename": "Goddess Nandikeshwari.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Goddess_Nandikeshwari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Goddess_Nandikeshwari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Goddess_Nandikeshwari.jpg",
+    "credit": "Indraprakashinfo",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/nandikeshwari-sainthia.jpg"
+  },
+  "nathdwara-shrinathji": {
+    "filename": "A gathering at the Shrinathji temple, c.1880, in Mewar style.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/A_gathering_at_the_Shrinathji_temple%2C_c.1880%2C_in_Mewar_style.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/A_gathering_at_the_Shrinathji_temple%2C_c.1880%2C_in_Mewar_style.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:A_gathering_at_the_Shrinathji_temple%2C_c.1880%2C_in_Mewar_style.jpg",
+    "credit": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "local": "assets/temples/nathdwara-shrinathji.jpg"
+  },
+  "navagraha-guwahati": {
+    "filename": "Navagraha Temple, Guwahati 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Navagraha_Temple%2C_Guwahati_01.jpg/1280px-Navagraha_Temple%2C_Guwahati_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Navagraha_Temple%2C_Guwahati_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Navagraha_Temple%2C_Guwahati_01.jpg",
+    "credit": "অজয় দাস",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/navagraha-guwahati.jpg"
+  },
+  "orchha-ram-raja": {
+    "filename": "Ram Raja Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Ram_Raja_Temple.jpg/1280px-Ram_Raja_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Ram_Raja_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Ram_Raja_Temple.jpg",
+    "credit": "Yann (talk)",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/orchha-ram-raja.jpg"
+  },
+  "padmanabhaswamy-thiruvananthapuram": {
+    "filename": "Sree Padmanabhaswamy temple Thiruvananthapuram,.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Sree_Padmanabhaswamy_temple_Thiruvananthapuram%2C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Sree_Padmanabhaswamy_temple_Thiruvananthapuram%2C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Sree_Padmanabhaswamy_temple_Thiruvananthapuram%2C.jpg",
+    "credit": "Alaison bennny",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/padmanabhaswamy-thiruvananthapuram.jpg"
+  },
+  "pahari-mandir-ranchi": {
+    "filename": "Pahari Mandir - Ranchi Hill 9243.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Pahari_Mandir_-_Ranchi_Hill_9243.JPG/1280px-Pahari_Mandir_-_Ranchi_Hill_9243.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Pahari_Mandir_-_Ranchi_Hill_9243.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Pahari_Mandir_-_Ranchi_Hill_9243.JPG",
+    "credit": "Biswarup Ganguly",
+    "license": "CC BY 3.0",
+    "local": "assets/temples/pahari-mandir-ranchi.jpg"
+  },
+  "parshuram-kund": {
+    "filename": "ParshuramMahadevTempleWaterfall.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/ParshuramMahadevTempleWaterfall.JPG/1280px-ParshuramMahadevTempleWaterfall.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/ParshuramMahadevTempleWaterfall.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:ParshuramMahadevTempleWaterfall.JPG",
+    "credit": "Nkansara",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/parshuram-kund.jpg"
+  },
+  "patan-devi-patna": {
+    "filename": "Patna Devi temple alias Chandika Devi temple, Southwest of Chalisgaon, Maharashtra, India 05.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Patna_Devi_temple_alias_Chandika_Devi_temple%2C_Southwest_of_Chalisgaon%2C_Maharashtra%2C_India_05.jpg/1280px-Patna_Devi_temple_alias_Chandika_Devi_temple%2C_Southwest_of_Chalisgaon%2C_Maharashtra%2C_India_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Patna_Devi_temple_alias_Chandika_Devi_temple%2C_Southwest_of_Chalisgaon%2C_Maharashtra%2C_India_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Patna_Devi_temple_alias_Chandika_Devi_temple%2C_Southwest_of_Chalisgaon%2C_Maharashtra%2C_India_05.jpg",
+    "credit": "Amitabha Gupta",
+    "license": "CC BY 4.0",
+    "local": "assets/temples/patan-devi-patna.jpg"
+  },
+  "pavagadh-kalika": {
+    "filename": "Pavagadh, Kalika Mata Temple (9840241633).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Pavagadh%2C_Kalika_Mata_Temple_%289840241633%29.jpg/1280px-Pavagadh%2C_Kalika_Mata_Temple_%289840241633%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Pavagadh%2C_Kalika_Mata_Temple_%289840241633%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Pavagadh%2C_Kalika_Mata_Temple_%289840241633%29.jpg",
+    "credit": "Arian Zwegers from Brussels, Belgium",
+    "license": "CC BY 2.0",
+    "local": "assets/temples/pavagadh-kalika.jpg"
+  },
+  "prem-mandir-vrindavan": {
+    "filename": "Vrindavan Prem Mandir 4.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Vrindavan_Prem_Mandir_4.jpg/1280px-Vrindavan_Prem_Mandir_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Vrindavan_Prem_Mandir_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Vrindavan_Prem_Mandir_4.jpg",
+    "credit": "Apurba Biswas",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/prem-mandir-vrindavan.jpg"
+  },
+  "puruhutika-pithapuram": {
+    "filename": "Puruhutika Devi Sakthi Peetam Temple in Pithapuram.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Puruhutika_Devi_Sakthi_Peetam_Temple_in_Pithapuram.jpg/1280px-Puruhutika_Devi_Sakthi_Peetam_Temple_in_Pithapuram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Puruhutika_Devi_Sakthi_Peetam_Temple_in_Pithapuram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Puruhutika_Devi_Sakthi_Peetam_Temple_in_Pithapuram.jpg",
+    "credit": "Adityamadhav83",
+    "license": "CC BY 4.0",
+    "local": "assets/temples/puruhutika-pithapuram.jpg"
+  },
+  "radha-raman-vrindavan": {
+    "filename": "Entrance Radha Raman Temple, Vrindavan.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Entrance_Radha_Raman_Temple%2C_Vrindavan.jpg/1280px-Entrance_Radha_Raman_Temple%2C_Vrindavan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Entrance_Radha_Raman_Temple%2C_Vrindavan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Entrance_Radha_Raman_Temple%2C_Vrindavan.jpg",
+    "credit": "Ekabhishek",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/radha-raman-vrindavan.jpg"
+  },
+  "radha-vallabh-vrindavan": {
+    "filename": "Radha Vallabhlal.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Radha_Vallabhlal.jpg/1280px-Radha_Vallabhlal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Radha_Vallabhlal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Radha_Vallabhlal.jpg",
+    "credit": "Kridha20",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/radha-vallabh-vrindavan.jpg"
+  },
+  "rajim-kuleshwar": {
+    "filename": "0012723 Kuleshwar Mahadev temple, Nawagaon Rajim Chhattisgarh 011.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/0012723_Kuleshwar_Mahadev_temple%2C_Nawagaon_Rajim_Chhattisgarh_011.jpg/1280px-0012723_Kuleshwar_Mahadev_temple%2C_Nawagaon_Rajim_Chhattisgarh_011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/0012723_Kuleshwar_Mahadev_temple%2C_Nawagaon_Rajim_Chhattisgarh_011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:0012723_Kuleshwar_Mahadev_temple%2C_Nawagaon_Rajim_Chhattisgarh_011.jpg",
+    "credit": "Ms Sarah Welch",
+    "license": "CC0",
+    "local": "assets/temples/rajim-kuleshwar.jpg"
+  },
+  "rajrappa-chhinnamastika": {
+    "filename": "Chhinnamastika Temple, Rajrappa.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Chhinnamastika_Temple%2C_Rajrappa.jpg/1280px-Chhinnamastika_Temple%2C_Rajrappa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Chhinnamastika_Temple%2C_Rajrappa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Chhinnamastika_Temple%2C_Rajrappa.jpg",
+    "credit": "Flashthomsom",
+    "license": "CC0",
+    "local": "assets/temples/rajrappa-chhinnamastika.jpg"
+  },
+  "ram-tirath-amritsar": {
+    "filename": "Golden Temple - Amritsar - Punjab - 0001.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Golden_Temple_-_Amritsar_-_Punjab_-_0001.jpg/1280px-Golden_Temple_-_Amritsar_-_Punjab_-_0001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Golden_Temple_-_Amritsar_-_Punjab_-_0001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Golden_Temple_-_Amritsar_-_Punjab_-_0001.jpg",
+    "credit": "Rupeshsarkar",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/ram-tirath-amritsar.jpg"
+  },
+  "ramnathi-temple": {
+    "filename": "Ramnathi Temple at Goa 10-27-2008 6-19-24 PM.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ramnathi_Temple_at_Goa_10-27-2008_6-19-24_PM.JPG/1280px-Ramnathi_Temple_at_Goa_10-27-2008_6-19-24_PM.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Ramnathi_Temple_at_Goa_10-27-2008_6-19-24_PM.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Ramnathi_Temple_at_Goa_10-27-2008_6-19-24_PM.JPG",
+    "credit": "Amol.Gaitonde",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/ramnathi-temple.jpg"
+  },
+  "rudranath": {
+    "filename": "Entrance to the Rudranath temple, Panch Kedar Uttarakhand.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Entrance_to_the_Rudranath_temple%2C_Panch_Kedar_Uttarakhand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Entrance_to_the_Rudranath_temple%2C_Panch_Kedar_Uttarakhand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Rudranath_temple%2C_Panch_Kedar_Uttarakhand.jpg",
+    "credit": "rolling on",
+    "license": "CC BY-SA 2.0",
+    "local": "assets/temples/rudranath.jpg"
+  },
+  "sabarimala": {
+    "filename": "Idol of Lord Ayyappa in a Hall at Sabarimala.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Idol_of_Lord_Ayyappa_in_a_Hall_at_Sabarimala.jpg/1280px-Idol_of_Lord_Ayyappa_in_a_Hall_at_Sabarimala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Idol_of_Lord_Ayyappa_in_a_Hall_at_Sabarimala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Idol_of_Lord_Ayyappa_in_a_Hall_at_Sabarimala.jpg",
+    "credit": "Chinnareddy435",
+    "license": "CC BY 4.0",
+    "local": "assets/temples/sabarimala.jpg"
+  },
+  "sakshi-gopal": {
+    "filename": "Sakshi gopal.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sakshi_gopal.jpg/1280px-Sakshi_gopal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Sakshi_gopal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Sakshi_gopal.jpg",
+    "credit": "Subramanyam parinam",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/sakshi-gopal.jpg"
+  },
+  "salasar-balaji": {
+    "filename": "Salasar balaji 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Salasar_balaji_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Salasar_balaji_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Salasar_balaji_02.jpg",
+    "credit": "Dausaanoop",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/salasar-balaji.jpg"
+  },
+  "salkanpur-devi": {
+    "filename": "Vindhyavasini Vijayasana Mata Temple, Salkanpur.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Vindhyavasini_Vijayasana_Mata_Temple%2C_Salkanpur.jpg/1280px-Vindhyavasini_Vijayasana_Mata_Temple%2C_Salkanpur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Vindhyavasini_Vijayasana_Mata_Temple%2C_Salkanpur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Vindhyavasini_Vijayasana_Mata_Temple%2C_Salkanpur.jpg",
+    "credit": "03Ani03",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/salkanpur-devi.jpg"
+  },
+  "sankat-mochan-varanasi": {
+    "filename": "Sankat Mochan temple entrance, Varanasi - IRCTC 2017 (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Sankat_Mochan_temple_entrance%2C_Varanasi_-_IRCTC_2017_%281%29.jpg/1280px-Sankat_Mochan_temple_entrance%2C_Varanasi_-_IRCTC_2017_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Sankat_Mochan_temple_entrance%2C_Varanasi_-_IRCTC_2017_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Sankat_Mochan_temple_entrance%2C_Varanasi_-_IRCTC_2017_%281%29.jpg",
+    "credit": "Vinayaraj",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/sankat-mochan-varanasi.jpg"
+  },
+  "saptakoteshwar-narve": {
+    "filename": "Saptakoteshwar temple - Narve, Goa (Puruso).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Saptakoteshwar_temple_-_Narve%2C_Goa_%28Puruso%29.jpg/1280px-Saptakoteshwar_temple_-_Narve%2C_Goa_%28Puruso%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Saptakoteshwar_temple_-_Narve%2C_Goa_%28Puruso%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Saptakoteshwar_temple_-_Narve%2C_Goa_%28Puruso%29.jpg",
+    "credit": "Savika Gomes",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/saptakoteshwar-narve.jpg"
+  },
+  "shamlaji-temple": {
+    "filename": "Shamlaji Temple Wall.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Shamlaji_Temple_Wall.jpg/1280px-Shamlaji_Temple_Wall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Shamlaji_Temple_Wall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Shamlaji_Temple_Wall.jpg",
+    "credit": "Snehrashmi",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/shamlaji-temple.jpg"
+  },
+  "shantadurga-goa": {
+    "filename": "Lake at Shantadurga Temple at Kavle , Goa - panoramio.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Lake_at_Shantadurga_Temple_at_Kavle_%2C_Goa_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Lake_at_Shantadurga_Temple_at_Kavle_%2C_Goa_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Lake_at_Shantadurga_Temple_at_Kavle_%2C_Goa_-_panoramio.jpg",
+    "credit": "Deepak Patil",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/shantadurga-goa.jpg"
+  },
+  "sharika-hari-parbat": {
+    "filename": "Ancient Temple Hari Parvat (from Up).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Ancient_Temple_Hari_Parvat_%28from_Up%29.jpg/1280px-Ancient_Temple_Hari_Parvat_%28from_Up%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Ancient_Temple_Hari_Parvat_%28from_Up%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Ancient_Temple_Hari_Parvat_%28from_Up%29.jpg",
+    "credit": "Shibnaths2",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/sharika-hari-parbat.jpg"
+  },
+  "shirdi-sai": {
+    "filename": "Shirdi Shri Sai Baba Temple in Guwahati,Assam,India.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Shirdi_Shri_Sai_Baba_Temple_in_Guwahati%2CAssam%2CIndia.jpg/1280px-Shirdi_Shri_Sai_Baba_Temple_in_Guwahati%2CAssam%2CIndia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Shirdi_Shri_Sai_Baba_Temple_in_Guwahati%2CAssam%2CIndia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Shirdi_Shri_Sai_Baba_Temple_in_Guwahati%2CAssam%2CIndia.jpg",
+    "credit": "Nilotpal Hazarika123",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/shirdi-sai.jpg"
+  },
+  "shiv-mandir-shillong": {
+    "filename": "WLM@WB-Shiva Temples inside Gopalji Temple Complex in Kalna.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/WLM%40WB-Shiva_Temples_inside_Gopalji_Temple_Complex_in_Kalna.jpg/1280px-WLM%40WB-Shiva_Temples_inside_Gopalji_Temple_Complex_in_Kalna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/WLM%40WB-Shiva_Temples_inside_Gopalji_Temple_Complex_in_Kalna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:WLM%40WB-Shiva_Temples_inside_Gopalji_Temple_Complex_in_Kalna.jpg",
+    "credit": "Indrajit Das",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/shiv-mandir-shillong.jpg"
+  },
+  "shivrinarayan-temple": {
+    "filename": "12th-century Vishnu Shabari Shivrinarayan temple, Seorinarayan Janjgir Chhattisgarh, archive late 19th century - 1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/12th-century_Vishnu_Shabari_Shivrinarayan_temple%2C_Seorinarayan_Janjgir_Chhattisgarh%2C_archive_late_19th_century_-_1.jpg/1280px-12th-century_Vishnu_Shabari_Shivrinarayan_temple%2C_Seorinarayan_Janjgir_Chhattisgarh%2C_archive_late_19th_century_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/12th-century_Vishnu_Shabari_Shivrinarayan_temple%2C_Seorinarayan_Janjgir_Chhattisgarh%2C_archive_late_19th_century_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:12th-century_Vishnu_Shabari_Shivrinarayan_temple%2C_Seorinarayan_Janjgir_Chhattisgarh%2C_archive_late_19th_century_-_1.jpg",
+    "credit": "Ms Sarah Welch",
+    "license": "CC0",
+    "local": "assets/temples/shivrinarayan-temple.jpg"
+  },
+  "siddhivinayak-mumbai": {
+    "filename": "Shree Siddhivinayak Temple Mumbai.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Shree_Siddhivinayak_Temple_Mumbai.jpg/1280px-Shree_Siddhivinayak_Temple_Mumbai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Shree_Siddhivinayak_Temple_Mumbai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Shree_Siddhivinayak_Temple_Mumbai.jpg",
+    "credit": "Darwininan",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/siddhivinayak-mumbai.jpg"
+  },
+  "siddhivinayak-siddhatek": {
+    "filename": "Siddhi Vinayak at Siddhatek.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Siddhi_Vinayak_at_Siddhatek.jpg/1280px-Siddhi_Vinayak_at_Siddhatek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Siddhi_Vinayak_at_Siddhatek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Siddhi_Vinayak_at_Siddhatek.jpg",
+    "credit": "Borayin Maitreya Larios",
+    "license": "CC BY 2.0",
+    "local": "assets/temples/siddhivinayak-siddhatek.jpg"
+  },
+  "sitamarhi-janaki": {
+    "filename": "Janaki kund, Sitamarhi, Bihar.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Janaki_kund%2C_Sitamarhi%2C_Bihar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Janaki_kund%2C_Sitamarhi%2C_Bihar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Janaki_kund%2C_Sitamarhi%2C_Bihar.jpg",
+    "credit": "Mala chaubey at Hindi Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/sitamarhi-janaki.jpg"
+  },
+  "sringeri-sharada": {
+    "filename": "Sharadamba Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Sharadamba_Temple.jpg/1280px-Sharadamba_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Sharadamba_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Sharadamba_Temple.jpg",
+    "credit": "Naveenbm",
+    "license": "Public domain",
+    "local": "assets/temples/sringeri-sharada.jpg"
+  },
+  "srirangam-ranganathaswamy": {
+    "filename": "Srirangam temple pic by SM 03.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Srirangam_temple_pic_by_SM_03.jpg/1280px-Srirangam_temple_pic_by_SM_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Srirangam_temple_pic_by_SM_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Srirangam_temple_pic_by_SM_03.jpg",
+    "credit": "Saimohan311",
+    "license": "CC BY 4.0",
+    "local": "assets/temples/srirangam-ranganathaswamy.jpg"
+  },
+  "sthaneshwar-mahadev": {
+    "filename": "Sthaneshwar Mahadev temple Thanesar.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Sthaneshwar_Mahadev_temple_Thanesar.jpg/1280px-Sthaneshwar_Mahadev_temple_Thanesar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Sthaneshwar_Mahadev_temple_Thanesar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Sthaneshwar_Mahadev_temple_Thanesar.jpg",
+    "credit": "Sid Sharma5911",
+    "license": "CC BY 4.0",
+    "local": "assets/temples/sthaneshwar-mahadev.jpg"
+  },
+  "sukreswar-guwahati": {
+    "filename": "01.-SUKRESWAR-TEMPLE 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/01.-SUKRESWAR-TEMPLE_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/01.-SUKRESWAR-TEMPLE_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:01.-SUKRESWAR-TEMPLE_02.jpg",
+    "credit": "GK Dutta",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/sukreswar-guwahati.jpg"
+  },
+  "sun-temple-deo": {
+    "filename": "Sun-temple DEO Aurangabad Bihar,India.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Sun-temple_DEO_Aurangabad_Bihar%2CIndia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Sun-temple_DEO_Aurangabad_Bihar%2CIndia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Sun-temple_DEO_Aurangabad_Bihar%2CIndia.jpg",
+    "credit": "http://aurangabad.bih.nic.in/deosuryamandir/",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/sun-temple-deo.jpg"
+  },
+  "surendrapuri-temple": {
+    "filename": "Surendrapuri Kalasham.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Surendrapuri_Kalasham.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Surendrapuri_Kalasham.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Surendrapuri_Kalasham.JPG",
+    "credit": "Arkrishna",
+    "license": "Public domain",
+    "local": "assets/temples/surendrapuri-temple.jpg"
+  },
+  "surkanda-devi": {
+    "filename": "Surkanda Devi Temple, Uttarakhand India.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Surkanda_Devi_Temple%2C_Uttarakhand_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Surkanda_Devi_Temple%2C_Uttarakhand_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Surkanda_Devi_Temple%2C_Uttarakhand_India.jpg",
+    "credit": "Khushbu Raj",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/surkanda-devi.jpg"
+  },
+  "tambdi-surla-mahadev": {
+    "filename": "Mahadev Temple, Tambdi Surla in 2025.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Mahadev_Temple%2C_Tambdi_Surla_in_2025.jpg/1280px-Mahadev_Temple%2C_Tambdi_Surla_in_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Mahadev_Temple%2C_Tambdi_Surla_in_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Mahadev_Temple%2C_Tambdi_Surla_in_2025.jpg",
+    "credit": "SerChevalerie",
+    "license": "CC0",
+    "local": "assets/temples/tambdi-surla-mahadev.jpg"
+  },
+  "tanot-mata": {
+    "filename": "Tanot-Mata-Temple-Victory Pillar.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Tanot-Mata-Temple-Victory_Pillar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Tanot-Mata-Temple-Victory_Pillar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Tanot-Mata-Temple-Victory_Pillar.jpg",
+    "credit": "Lakshmikanta Manna",
+    "license": "CC0",
+    "local": "assets/temples/tanot-mata.jpg"
+  },
+  "tara-tarini": {
+    "filename": "Tara Tarini Temple Ganjam.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Tara_Tarini_Temple_Ganjam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Tara_Tarini_Temple_Ganjam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Tara_Tarini_Temple_Ganjam.jpg",
+    "credit": "Government of Odisha",
+    "license": "CC BY 4.0",
+    "local": "assets/temples/tara-tarini.jpg"
+  },
+  "thawe-mandir": {
+    "filename": "Thawe mandir outer view.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Thawe_mandir_outer_view.jpg/1280px-Thawe_mandir_outer_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Thawe_mandir_outer_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Thawe_mandir_outer_view.jpg",
+    "credit": "Manjeetchaurasia",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/thawe-mandir.jpg"
+  },
+  "thousand-pillars-hanamkonda": {
+    "filename": "Nandi Thousand Pillar Temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Nandi_Thousand_Pillar_Temple.jpg/1280px-Nandi_Thousand_Pillar_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Nandi_Thousand_Pillar_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Nandi_Thousand_Pillar_Temple.jpg",
+    "credit": "Shishirdasika",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/thousand-pillars-hanamkonda.jpg"
+  },
+  "tripura-sundari": {
+    "filename": "Tripura Sundari Temple.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Tripura_Sundari_Temple.JPG/1280px-Tripura_Sundari_Temple.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Tripura_Sundari_Temple.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Tripura_Sundari_Temple.JPG",
+    "credit": "Bodhisattwa",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/tripura-sundari.jpg"
+  },
+  "tuljapur-bhavani": {
+    "filename": "Tulja Bhavani Devi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Tulja_Bhavani_Devi.jpg/1280px-Tulja_Bhavani_Devi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Tulja_Bhavani_Devi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Tulja_Bhavani_Devi.jpg",
+    "credit": "Original photo is taken by Vandana Gaikwad.",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/tuljapur-bhavani.jpg"
+  },
+  "udupi-krishna": {
+    "filename": "Udupi Sri krishna matha Temple pond.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Udupi_Sri_krishna_matha_Temple_pond.jpg/1280px-Udupi_Sri_krishna_matha_Temple_pond.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Udupi_Sri_krishna_matha_Temple_pond.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Udupi_Sri_krishna_matha_Temple_pond.jpg",
+    "credit": "Outlander07",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/udupi-krishna.jpg"
+  },
+  "ugratara-mahishi": {
+    "filename": "Ugratara Shakti Peeth (Temple) in Mahishi, Near Saharsa Town.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Ugratara_Shakti_Peeth_%28Temple%29_in_Mahishi%2C_Near_Saharsa_Town.jpg/1280px-Ugratara_Shakti_Peeth_%28Temple%29_in_Mahishi%2C_Near_Saharsa_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Ugratara_Shakti_Peeth_%28Temple%29_in_Mahishi%2C_Near_Saharsa_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Ugratara_Shakti_Peeth_%28Temple%29_in_Mahishi%2C_Near_Saharsa_Town.jpg",
+    "credit": "Varunesh Chandra (Born Sambalpur, Odisha, India)",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/ugratara-mahishi.jpg"
+  },
+  "umananda-guwahati": {
+    "filename": "Umananda Temple in Peacock Island, Guwahati 07.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Umananda_Temple_in_Peacock_Island%2C_Guwahati_07.jpg/1280px-Umananda_Temple_in_Peacock_Island%2C_Guwahati_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Umananda_Temple_in_Peacock_Island%2C_Guwahati_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Umananda_Temple_in_Peacock_Island%2C_Guwahati_07.jpg",
+    "credit": "Pinakpani",
+    "license": "CC BY 4.0",
+    "local": "assets/temples/umananda-guwahati.jpg"
+  },
+  "unakoti-tripura": {
+    "filename": "Unakoti.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Unakoti.jpg/1280px-Unakoti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Unakoti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Unakoti.jpg",
+    "credit": "Vulpes-bengalensis",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/unakoti-tripura.jpg"
+  },
+  "vaikom-mahadeva": {
+    "filename": "Vaikom Temple.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Vaikom_Temple.JPG/1280px-Vaikom_Temple.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Vaikom_Temple.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Vaikom_Temple.JPG",
+    "credit": "Georgekutty",
+    "license": "Public domain",
+    "local": "assets/temples/vaikom-mahadeva.jpg"
+  },
+  "valiaki-tirath": {
+    "filename": "Bhagwan Valmiki Tirath Sthal 05.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Bhagwan_Valmiki_Tirath_Sthal_05.jpg/1280px-Bhagwan_Valmiki_Tirath_Sthal_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Bhagwan_Valmiki_Tirath_Sthal_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Bhagwan_Valmiki_Tirath_Sthal_05.jpg",
+    "credit": "Harvinder Chandigarh",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/valiaki-tirath.jpg"
+  },
+  "vedapureeswarar-pondy": {
+    "filename": "Lord Shiva temple, Puducherry (48922279088).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Lord_Shiva_temple%2C_Puducherry_%2848922279088%29.jpg/1280px-Lord_Shiva_temple%2C_Puducherry_%2848922279088%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Lord_Shiva_temple%2C_Puducherry_%2848922279088%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Lord_Shiva_temple%2C_Puducherry_%2848922279088%29.jpg",
+    "credit": "Dinesh Valke from Thane, India",
+    "license": "CC BY-SA 2.0",
+    "local": "assets/temples/vedapureeswarar-pondy.jpg"
+  },
+  "vemulawada": {
+    "filename": "Sri Raja Rajeshwara temple.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Sri_Raja_Rajeshwara_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Sri_Raja_Rajeshwara_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Sri_Raja_Rajeshwara_temple.jpg",
+    "credit": "Thistheyear2023",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/vemulawada.jpg"
+  },
+  "vighnahar-ozar": {
+    "filename": "Ozhar - Shri Vighnahar.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Ozhar_-_Shri_Vighnahar.jpg/1280px-Ozhar_-_Shri_Vighnahar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Ozhar_-_Shri_Vighnahar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Ozhar_-_Shri_Vighnahar.jpg",
+    "credit": "Borayin Maitreya Larios",
+    "license": "CC BY 2.0",
+    "local": "assets/temples/vighnahar-ozar.jpg"
+  },
+  "vishalakshi-kashi": {
+    "filename": "Vishalakshi mantap at Bangalore 3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Vishalakshi_mantap_at_Bangalore_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Vishalakshi_mantap_at_Bangalore_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Vishalakshi_mantap_at_Bangalore_3.jpg",
+    "credit": "Akshay Deokar",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/vishalakshi-kashi.jpg"
+  },
+  "vishnupad-gaya": {
+    "filename": "Vishnupad temple gaya bihar.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Vishnupad_temple_gaya_bihar.jpg/1280px-Vishnupad_temple_gaya_bihar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Vishnupad_temple_gaya_bihar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Vishnupad_temple_gaya_bihar.jpg",
+    "credit": "Surajkumar12111",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/vishnupad-gaya.jpg"
+  },
+  "yadagirigutta": {
+    "filename": "Sri Lakshminarasimha Swamy Temple Yadagirigutta Yadadri Telangana 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sri_Lakshminarasimha_Swamy_Temple_Yadagirigutta_Yadadri_Telangana_02.jpg/1280px-Sri_Lakshminarasimha_Swamy_Temple_Yadagirigutta_Yadadri_Telangana_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Sri_Lakshminarasimha_Swamy_Temple_Yadagirigutta_Yadadri_Telangana_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Sri_Lakshminarasimha_Swamy_Temple_Yadagirigutta_Yadadri_Telangana_02.jpg",
+    "credit": "Ravindraoudeptling",
+    "license": "CC BY 4.0",
+    "local": "assets/temples/yadagirigutta.jpg"
+  },
+  "yogmaya-mehrauli": {
+    "filename": "Yogmaya in Sanctum.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Yogmaya_in_Sanctum.JPG/1280px-Yogmaya_in_Sanctum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Yogmaya_in_Sanctum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Yogmaya_in_Sanctum.JPG",
+    "credit": "Nvvchar",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/yogmaya-mehrauli.jpg"
   }
 }

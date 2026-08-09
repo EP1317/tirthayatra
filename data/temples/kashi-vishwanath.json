@@ -22,20 +22,22 @@
     "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
   ],
   "festivals": [
-    "Major local festival days",
-    "Navaratri / Shiva-related observances as applicable"
+    "Maha Shivaratri",
+    "Mondays / Pradosham where observed",
+    "Navaratri",
+    "Local jatra / mela days"
   ],
-  "bestTime": "October–March for most plains sites; confirm Himalayan seasonal windows separately.",
-  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
-  "climate": "Varies by region — check seasonal weather before travel.",
+  "bestTime": "October–March; summers are hot on the plains.",
+  "whatToCarry": "Sun cap and light cotton for hot plains. Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Gangetic plains — hot summers, cool winters, monsoon mid-year.",
   "nearestRail": "Varanasi Junction / Banaras",
   "nearestAirport": "Lal Bahadur Shastri Airport, Varanasi",
-  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
-  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
-  "otherFood": "Wider options usually in the nearest city.",
-  "localLanguage": "Regional language and Hindi; English varies.",
+  "accommodation": "Dharamshalas, temple-trust guest houses, and private hotels near Kashi Vishwanath Temple. Book early for festival weeks; prefer official trust counters when available.",
+  "localFood": "North Indian vegetarian thalis, kachori-sabzi styles, and temple prasadam.",
+  "otherFood": "Wider vegetarian and city cuisine usually in the nearest town; keep non-veg and alcohol away from temple precincts as posted.",
+  "localLanguage": "Hindi; English in cities and major tirthas.",
   "dressCode": "Modest dress; security screening; follow corridor rules in the expanded corridor complex.",
-  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "darshanTimings": "Typically early morning to evening with aarti and ritual breaks. Confirm same-day timings on the temple trust / endowment board notices.",
   "specialEntry": "Special entry, if any, only via official temple counters.",
   "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
   "lockers": "Cloakrooms where available near the entrance.",
@@ -45,10 +47,27 @@
   "lat": 25.3109,
   "lng": 83.0107,
   "mapQuery": "Kashi Vishwanath Temple Varanasi",
-  "nearby": [],
+  "nearby": [
+    {
+      "name": "Vishalakshi Temple",
+      "slug": "vishalakshi-kashi",
+      "note": "Nearby in the same sacred belt"
+    },
+    {
+      "name": "Sankat Mochan Hanuman Temple, Varanasi",
+      "slug": "sankat-mochan-varanasi",
+      "note": "About 3 km away"
+    },
+    {
+      "name": "Lete Hanuman Mandir, Prayagraj",
+      "slug": "prayagraj-hanuman",
+      "note": "About 114 km away"
+    }
+  ],
   "packages": [
-    "Kashi Vishwanath Temple day darshan",
-    "Regional multi-temple circuit"
+    "Kashi Vishwanath Temple — day darshan",
+    "Kashi Vishwanath Temple + Vishalakshi Temple — 2-day circuit",
+    "Regional Uttar Pradesh multi-temple circuit"
   ],
   "sources": [
     "Shri Kashi Vishwanath Temple: https://www.shrikashivishwanath.org/",
@@ -57,7 +76,7 @@
     "Puranic / pilgrimage tradition (lists can vary by scripture)",
     "UP Tourism: https://uptourism.gov.in/"
   ],
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-08-09",
   "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
   "statePortal": {
     "name": "Shri Kashi Vishwanath Temple",

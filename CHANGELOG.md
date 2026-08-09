@@ -12,6 +12,20 @@ This project follows [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PA
 
 The current version is in [`VERSION`](./VERSION). Released versions should also be git tags (`v0.3.0`, etc.) so any earlier build can be checked out or promoted on Vercel.
 
+## [0.5.1] - 2026-08-09
+
+### Added
+- **Temple content enrichment** for thin / newly added pages: longer mythology openings, sacred phrases, nearby temple links, state-aware climate/best-time/food/language, deity-aware festivals
+- **Wikimedia Commons photos** for **231 / 283** temples — Public Domain / CC0 / CC BY / CC BY-SA only (AdSense-safe); **52** left without a photo where no clear licensed match was found
+
+## [0.5.0] - 2026-08-09
+
+### Added
+- **~125 high-search / high-footfall temples** (site **158 → 283** total), prioritizing Google/YouTube popularity and reported pilgrim visitors
+- **20 Indian states/UTs at ≥10 famous temples**; new coverage for Sikkim, Manipur, Arunachal Pradesh, Puducherry
+- Approximate visitor / search signals in `famousFor` (editorial estimates from public pilgrimage reporting — not paid rankings)
+- State portals for newly covered regions; Northeast states listed with fewer entries where fewer major Hindu tirthas exist
+
 ## [0.4.2] - 2026-08-09
 
 ### Added

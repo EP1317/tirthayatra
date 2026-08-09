@@ -21,17 +21,17 @@
     "Mysuru Dasara",
     "Navaratri"
   ],
-  "bestTime": "October–March for most plains sites; confirm Himalayan seasonal windows separately.",
-  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
-  "climate": "Varies by region — check seasonal weather before travel.",
+  "bestTime": "October–March for plains; Western Ghats can be wet in monsoon.",
+  "whatToCarry": "Sun cap and light cotton for hot plains. Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Varies from coastal humidity to Deccan heat; monsoon heavy in Ghats.",
   "nearestRail": "Mysuru",
   "nearestAirport": "Mysuru / Bengaluru",
-  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
-  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
-  "otherFood": "Wider options usually in the nearest city.",
-  "localLanguage": "Regional language and Hindi; English varies.",
-  "dressCode": "Modest clothing; follow temple boards for traditional dress rules.",
-  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "accommodation": "Dharamshalas, temple-trust guest houses, and private hotels near Chamundeshwari Temple, Mysuru. Book early for festival weeks; prefer official trust counters when available.",
+  "localFood": "Karnataka vegetarian meals, temple meals (anna dana) where offered, and prasadam.",
+  "otherFood": "Wider vegetarian and city cuisine usually in the nearest town; keep non-veg and alcohol away from temple precincts as posted.",
+  "localLanguage": "Kannada and Hindi; English in cities and tourist hubs.",
+  "dressCode": "Modest attire — shoulders and knees covered preferred. Follow temple boards for traditional dress, footwear, and phone rules.",
+  "darshanTimings": "Typically early morning to evening with aarti and ritual breaks. Confirm same-day timings on the temple trust / endowment board notices.",
   "specialEntry": "Special entry, if any, only via official temple counters.",
   "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
   "lockers": "Cloakrooms where available near the entrance.",
@@ -41,10 +41,27 @@
   "lat": 12.2726,
   "lng": 76.6707,
   "mapQuery": "Chamundeshwari Temple Mysore",
-  "nearby": [],
+  "nearby": [
+    {
+      "name": "Kukke Subramanya Temple",
+      "slug": "kukke-subramanya",
+      "note": "About 122 km away"
+    },
+    {
+      "name": "ISKCON Temple, Bengaluru",
+      "slug": "iskcon-bengaluru",
+      "note": "About 124 km away"
+    },
+    {
+      "name": "Manjunatha Temple, Dharmasthala",
+      "slug": "dharmasthala-manjunatha",
+      "note": "About 159 km away"
+    }
+  ],
   "packages": [
-    "Chamundeshwari Temple, Mysuru day darshan",
-    "Regional multi-temple circuit"
+    "Chamundeshwari Temple, Mysuru — day darshan",
+    "Chamundeshwari Temple, Mysuru + Kukke Subramanya Temple — 2-day circuit",
+    "Regional Karnataka multi-temple circuit"
   ],
   "sources": [
     "Karnataka HRI & CE Department: https://itms.kar.nic.in/hrcehome/index.php",
@@ -52,7 +69,7 @@
     "State tourism materials",
     "Puranic / pilgrimage tradition (lists can vary by scripture)"
   ],
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-08-09",
   "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
   "statePortal": {
     "name": "Karnataka HRI & CE Department",

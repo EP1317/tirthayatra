@@ -29,16 +29,16 @@
     "Sharad Purnima observances"
   ],
   "bestTime": "October–March; peak festival crowds need advance planning.",
-  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
-  "climate": "Varies by region — check seasonal weather before travel.",
+  "whatToCarry": "Sun cap and light cotton for hot plains. Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Gangetic plains — hot summers, cool winters, monsoon mid-year.",
   "nearestRail": "Ayodhya Cantt / Ayodhya Dham",
   "nearestAirport": "Ayodhya (AYJ) / Lucknow",
-  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
-  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
-  "otherFood": "Wider options usually in the nearest city.",
-  "localLanguage": "Regional language and Hindi; English varies.",
-  "dressCode": "Modest clothing; follow temple boards for traditional dress rules.",
-  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "accommodation": "Dharamshalas, temple-trust guest houses, and private hotels near Ram Mandir, Ayodhya. Book early for festival weeks; prefer official trust counters when available.",
+  "localFood": "North Indian vegetarian thalis, kachori-sabzi styles, and temple prasadam.",
+  "otherFood": "Wider vegetarian and city cuisine usually in the nearest town; keep non-veg and alcohol away from temple precincts as posted.",
+  "localLanguage": "Hindi; English in cities and major tirthas.",
+  "dressCode": "Modest attire — shoulders and knees covered preferred. Follow temple boards for traditional dress, footwear, and phone rules.",
+  "darshanTimings": "Typically early morning to evening with aarti and ritual breaks. Confirm same-day timings on the temple trust / endowment board notices.",
   "specialEntry": "Special entry, if any, only via official temple counters.",
   "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
   "lockers": "Cloakrooms where available near the entrance.",
@@ -48,10 +48,27 @@
   "lat": 26.7956,
   "lng": 82.2,
   "mapQuery": "Ram Mandir Ayodhya",
-  "nearby": [],
+  "nearby": [
+    {
+      "name": "Lete Hanuman Mandir, Prayagraj",
+      "slug": "prayagraj-hanuman",
+      "note": "About 155 km away"
+    },
+    {
+      "name": "Alopi Devi Temple",
+      "slug": "alopi-devi-prayagraj",
+      "note": "About 155 km away"
+    },
+    {
+      "name": "Kashi Vishwanath Temple",
+      "slug": "kashi-vishwanath",
+      "note": "About 183 km away"
+    }
+  ],
   "packages": [
-    "Ram Mandir, Ayodhya day darshan",
-    "Regional multi-temple circuit"
+    "Ram Mandir, Ayodhya — day darshan",
+    "Ram Mandir, Ayodhya + Lete Hanuman Mandir, Prayagraj — 2-day circuit",
+    "Regional Uttar Pradesh multi-temple circuit"
   ],
   "sources": [
     "Shri Kashi Vishwanath Temple: https://www.shrikashivishwanath.org/",
@@ -60,7 +77,7 @@
     "Puranic / pilgrimage tradition (lists can vary by scripture)",
     "UP Tourism: https://uptourism.gov.in/"
   ],
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-08-09",
   "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
   "statePortal": {
     "name": "Shri Kashi Vishwanath Temple",

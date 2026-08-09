@@ -22,20 +22,22 @@
     "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
   ],
   "festivals": [
-    "Major local festival days",
-    "Navaratri / Shiva-related observances as applicable"
+    "Maha Shivaratri",
+    "Mondays / Pradosham where observed",
+    "Ram Navami",
+    "Vivaha / local Rama festival days"
   ],
-  "bestTime": "October–March for most plains sites; confirm Himalayan seasonal windows separately.",
-  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
-  "climate": "Varies by region — check seasonal weather before travel.",
+  "bestTime": "October–March for cooler plains weather; summers are hot.",
+  "whatToCarry": "Sun cap and light cotton for hot plains. Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Tropical / hot plains; coastal humidity near the Bay of Bengal.",
   "nearestRail": "Hindupur",
   "nearestAirport": "Bengaluru / Kadapa",
-  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
-  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
-  "otherFood": "Wider options usually in the nearest city.",
-  "localLanguage": "Regional language and Hindi; English varies.",
-  "dressCode": "Modest clothing; follow temple boards for traditional dress rules.",
-  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "accommodation": "Dharamshalas, temple-trust guest houses, and private hotels near Veerabhadra Temple, Lepakshi. Book early for festival weeks; prefer official trust counters when available.",
+  "localFood": "Andhra vegetarian meals, temple prasadam, and sattvic thalis near pilgrim towns.",
+  "otherFood": "Wider vegetarian and city cuisine usually in the nearest town; keep non-veg and alcohol away from temple precincts as posted.",
+  "localLanguage": "Telugu and Hindi; English at hotels and larger towns.",
+  "dressCode": "Modest attire — shoulders and knees covered preferred. Follow temple boards for traditional dress, footwear, and phone rules.",
+  "darshanTimings": "Typically early morning to evening with aarti and ritual breaks. Confirm same-day timings on the temple trust / endowment board notices.",
   "specialEntry": "Special entry, if any, only via official temple counters.",
   "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
   "lockers": "Cloakrooms where available near the entrance.",
@@ -45,10 +47,27 @@
   "lat": 13.804,
   "lng": 77.609,
   "mapQuery": "Lepakshi Veerabhadra Temple",
-  "nearby": [],
+  "nearby": [
+    {
+      "name": "Kanipakam Vinayaka Temple",
+      "slug": "kanipakam",
+      "note": "About 169 km away"
+    },
+    {
+      "name": "Sri Venkateswara Temple, Tirumala",
+      "slug": "tirumala-venkateswara",
+      "note": "About 188 km away"
+    },
+    {
+      "name": "Srikalahasteeswara Temple",
+      "slug": "srikalahasti",
+      "note": "About 225 km away"
+    }
+  ],
   "packages": [
-    "Veerabhadra Temple, Lepakshi day darshan",
-    "Regional multi-temple circuit"
+    "Veerabhadra Temple, Lepakshi — day darshan",
+    "Veerabhadra Temple, Lepakshi + Kanipakam Vinayaka Temple — 2-day circuit",
+    "Regional Andhra Pradesh multi-temple circuit"
   ],
   "sources": [
     "AP Temples — Government of Andhra Pradesh: https://www.aptemples.org/en-in/home",
@@ -58,7 +77,7 @@
     "Tirumala Tirupati Devasthanams: https://www.tirumala.org/",
     "Srisailam Devasthanam: https://www.srisailamonline.com/"
   ],
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-08-09",
   "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
   "statePortal": {
     "name": "AP Temples — Government of Andhra Pradesh",
@@ -71,5 +90,10 @@
   "deityFamilies": [
     "rama",
     "shiva"
-  ]
+  ],
+  "sacredPhrase": {
+    "text": "जय श्री राम",
+    "meaning": "Victory to Lord Rama",
+    "source": "Living Rama pilgrim cry at this seat"
+  }
 }

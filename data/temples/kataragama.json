@@ -72,7 +72,7 @@
     "Sri Lanka Tourism",
     "Local shrine administration"
   ],
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-08-09",
   "disclaimer": "Multi-faith etiquette matters here — follow local guidance inside the complex.",
   "mythologySignificance": "Kataragama is a multi-faith shrine of southern Sri Lanka — Murugan for Hindus, Kataragama Deviyo for Buddhists, with indigenous resonances. It sits in the wider Indian Ocean sacred geography that pilgrims also associate with Ramayana Lanka.\n\nPilgrimage literature treats Kataragama Temple as a tirtha — a crossing where devotion to Lord Murugan / Kataragama Deviyo is believed to bear fruit more readily than in ordinary space. Accounts summarised here follow widely cited epic, Puranic, and regional mahatmya traditions; temple priests remain the guides for ritual detail.",
   "localBeliefs": "Fire-walking, processions, and vow offerings define festival belief. Devotees of different communities share pathways while keeping distinct ritual styles.\n\nThe dry-zone landscape and pilgrimage town rhythm are part of Kataragama’s felt holiness.\n\nFirst-time visitors often hear several versions of the same story from pandas, taxi guides, and elderly pilgrims — a reminder that local belief is living conversation, not a single fixed text.",
@@ -80,5 +80,10 @@
   "deityFamilies": [
     "rama",
     "devi"
-  ]
+  ],
+  "sacredPhrase": {
+    "text": "जय श्री राम",
+    "meaning": "Victory to Lord Rama",
+    "source": "Living Rama pilgrim cry at this seat"
+  }
 }

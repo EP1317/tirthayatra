@@ -4,8 +4,14 @@
     "portalName": "AP Temples — Government of Andhra Pradesh",
     "portalUrl": "https://www.aptemples.org/en-in/home",
     "also": [
-      { "name": "Tirumala Tirupati Devasthanams", "url": "https://www.tirumala.org/" },
-      { "name": "Srisailam Devasthanam", "url": "https://www.srisailamonline.com/" }
+      {
+        "name": "Tirumala Tirupati Devasthanams",
+        "url": "https://www.tirumala.org/"
+      },
+      {
+        "name": "Srisailam Devasthanam",
+        "url": "https://www.srisailamonline.com/"
+      }
     ],
     "note": "Primary state temple information portal for Andhra Pradesh."
   },
@@ -42,7 +48,10 @@
     "portalName": "Shri Badrinath–Kedarnath Temple Committee",
     "portalUrl": "https://badrinath-kedarnath.gov.in/",
     "also": [
-      { "name": "Uttarakhand Tourism", "url": "https://uttarakhandtourism.gov.in/" }
+      {
+        "name": "Uttarakhand Tourism",
+        "url": "https://uttarakhandtourism.gov.in/"
+      }
     ],
     "note": "Official committee portal for major Char Dham / Kedarnath–Badrinath administration."
   },
@@ -51,7 +60,10 @@
     "portalName": "Shree Jagannath Temple Administration",
     "portalUrl": "https://www.jagannath.nic.in/",
     "also": [
-      { "name": "Odisha Tourism", "url": "https://odishatourism.gov.in/" }
+      {
+        "name": "Odisha Tourism",
+        "url": "https://odishatourism.gov.in/"
+      }
     ],
     "note": "Official Puri Jagannath administration and state tourism references."
   },
@@ -60,8 +72,14 @@
     "portalName": "Shree Somnath Trust",
     "portalUrl": "https://somnath.org/",
     "also": [
-      { "name": "Dwarkadhish Temple", "url": "https://www.dwarkadhish.org/" },
-      { "name": "Gujarat Tourism", "url": "https://www.gujarattourism.com/" }
+      {
+        "name": "Dwarkadhish Temple",
+        "url": "https://www.dwarkadhish.org/"
+      },
+      {
+        "name": "Gujarat Tourism",
+        "url": "https://www.gujarattourism.com/"
+      }
     ],
     "note": "Major Gujarat pilgrimage trusts plus state tourism."
   },
@@ -84,7 +102,10 @@
     "portalName": "Shri Kashi Vishwanath Temple",
     "portalUrl": "https://www.shrikashivishwanath.org/",
     "also": [
-      { "name": "UP Tourism", "url": "https://uptourism.gov.in/" }
+      {
+        "name": "UP Tourism",
+        "url": "https://uptourism.gov.in/"
+      }
     ],
     "note": "Major temple trusts and UP Tourism for Varanasi, Prayagraj, Mathura–Vrindavan."
   },
@@ -93,8 +114,14 @@
     "portalName": "Guruvayur Devaswom",
     "portalUrl": "https://www.guruvayurdevaswom.nic.in/",
     "also": [
-      { "name": "Travancore Devaswom Board", "url": "https://travancoredevaswomboard.org/" },
-      { "name": "Kerala Tourism", "url": "https://www.keralatourism.org/" }
+      {
+        "name": "Travancore Devaswom Board",
+        "url": "https://travancoredevaswomboard.org/"
+      },
+      {
+        "name": "Kerala Tourism",
+        "url": "https://www.keralatourism.org/"
+      }
     ],
     "note": "Kerala temples are largely under Devaswom boards."
   },
@@ -117,7 +144,10 @@
     "portalName": "Kamakhya Temple",
     "portalUrl": "https://www.kamakhyatemple.org/",
     "also": [
-      { "name": "Assam Tourism", "url": "https://tourism.assam.gov.in/" }
+      {
+        "name": "Assam Tourism",
+        "url": "https://tourism.assam.gov.in/"
+      }
     ],
     "note": "Kamakhya and Assam Tourism for Northeast pilgrimage."
   },
@@ -175,7 +205,10 @@
     "portalName": "JK Tourism",
     "portalUrl": "https://www.jktourism.jk.gov.in/",
     "also": [
-      { "name": "Shri Mata Vaishno Devi Shrine Board", "url": "https://www.maavaishnodevi.org/" }
+      {
+        "name": "Shri Mata Vaishno Devi Shrine Board",
+        "url": "https://www.maavaishnodevi.org/"
+      }
     ],
     "note": "Amarnath and Vaishno Devi pilgrimage administration references."
   },
@@ -184,8 +217,14 @@
     "portalName": "Delhi Tourism",
     "portalUrl": "https://delhitourism.gov.in/",
     "also": [
-      { "name": "Akshardham", "url": "https://akshardham.com/" },
-      { "name": "ISKCON Delhi", "url": "https://iskcondelhi.com/" }
+      {
+        "name": "Akshardham",
+        "url": "https://akshardham.com/"
+      },
+      {
+        "name": "ISKCON Delhi",
+        "url": "https://iskcondelhi.com/"
+      }
     ],
     "note": "Capital-region pilgrimage: Akshardham, ISKCON, and major urban temples."
   },
@@ -195,5 +234,33 @@
     "portalUrl": "https://www.goatourism.gov.in/",
     "also": [],
     "note": "Goan temple culture — Mangueshi, Shantadurga and other family deities."
+  },
+  "Sikkim": {
+    "slug": "sikkim",
+    "portalName": "Sikkim Tourism",
+    "portalUrl": "https://www.sikkimtourism.gov.in/",
+    "also": [],
+    "note": "Namchi Siddheshwar Dham and regional Hindu shrines."
+  },
+  "Manipur": {
+    "slug": "manipur",
+    "portalName": "Manipur Tourism",
+    "portalUrl": "https://manipurtourism.gov.in/",
+    "also": [],
+    "note": "Govindajee Temple and Vaishnava heritage of Imphal."
+  },
+  "Arunachal Pradesh": {
+    "slug": "arunachal-pradesh",
+    "portalName": "Arunachal Tourism",
+    "portalUrl": "https://arunachaltourism.com/",
+    "also": [],
+    "note": "Parshuram Kund and Malinithan pilgrimage."
+  },
+  "Puducherry": {
+    "slug": "puducherry",
+    "portalName": "Puducherry Tourism",
+    "portalUrl": "https://www.pondytourism.in/",
+    "also": [],
+    "note": "Manakula Vinayagar and French-era temple town culture."
   }
 }

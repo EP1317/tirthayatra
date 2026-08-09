@@ -22,20 +22,20 @@
     "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
   ],
   "festivals": [
-    "Major local festival days",
-    "Navaratri / Shiva-related observances as applicable"
+    "Maha Shivaratri",
+    "Mondays / Pradosham where observed"
   ],
-  "bestTime": "October–March for most plains sites; confirm Himalayan seasonal windows separately.",
-  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
-  "climate": "Varies by region — check seasonal weather before travel.",
+  "bestTime": "October–February for cooler weather; monsoon green but slippery on ghats.",
+  "whatToCarry": "Sun cap and light cotton for hot plains. Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Coastal humidity west; hotter Deccan inland; monsoon June–September.",
   "nearestRail": "Nashik Road",
   "nearestAirport": "Nashik / Mumbai",
-  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
-  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
-  "otherFood": "Wider options usually in the nearest city.",
-  "localLanguage": "Regional language and Hindi; English varies.",
+  "accommodation": "Dharamshalas, temple-trust guest houses, and private hotels near Trimbakeshwar Temple. Book early for festival weeks; prefer official trust counters when available.",
+  "localFood": "Maharashtrian vegetarian meals, wari-style simple food, and prasadam.",
+  "otherFood": "Wider vegetarian and city cuisine usually in the nearest town; keep non-veg and alcohol away from temple precincts as posted.",
+  "localLanguage": "Marathi and Hindi; English in cities.",
   "dressCode": "Traditional expectation for men often includes dhoti for sanctum — follow temple rules.",
-  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "darshanTimings": "Typically early morning to evening with aarti and ritual breaks. Confirm same-day timings on the temple trust / endowment board notices.",
   "specialEntry": "Special entry, if any, only via official temple counters.",
   "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
   "lockers": "Cloakrooms where available near the entrance.",
@@ -45,10 +45,27 @@
   "lat": 19.932,
   "lng": 73.5307,
   "mapQuery": "Trimbakeshwar Temple Nashik",
-  "nearby": [],
+  "nearby": [
+    {
+      "name": "Saptashrungi Temple",
+      "slug": "saptashrungi",
+      "note": "About 64 km away"
+    },
+    {
+      "name": "Girijatmaj Temple, Lenyadri",
+      "slug": "girijatmaj-lenyadri",
+      "note": "About 89 km away"
+    },
+    {
+      "name": "Vighnahar Temple, Ozar",
+      "slug": "vighnahar-ozar",
+      "note": "About 94 km away"
+    }
+  ],
   "packages": [
-    "Trimbakeshwar Temple day darshan",
-    "Regional multi-temple circuit"
+    "Trimbakeshwar Temple — day darshan",
+    "Trimbakeshwar Temple + Saptashrungi Temple — 2-day circuit",
+    "Regional Maharashtra multi-temple circuit"
   ],
   "sources": [
     "Maharashtra Tourism: https://www.maharashtratourism.gov.in/",
@@ -56,7 +73,7 @@
     "State tourism materials",
     "Puranic / pilgrimage tradition (lists can vary by scripture)"
   ],
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-08-09",
   "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
   "statePortal": {
     "name": "Maharashtra Tourism",

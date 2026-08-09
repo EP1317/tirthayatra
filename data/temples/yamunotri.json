@@ -21,20 +21,20 @@
     "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
   ],
   "festivals": [
-    "Major local festival days",
-    "Navaratri / Shiva-related observances as applicable"
+    "Navaratri",
+    "Local jatra / mela days"
   ],
   "bestTime": "May–June and September–October; closed in winter.",
-  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
-  "climate": "Varies by region — check seasonal weather before travel.",
+  "whatToCarry": "Warm layers and rain protection for hills. Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Himalayan — cool to cold by altitude; monsoon landslide risk on hill roads.",
   "nearestRail": "Rishikesh / Dehradun then road to Janki Chatti + trek",
   "nearestAirport": "Dehradun",
-  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
-  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
-  "otherFood": "Wider options usually in the nearest city.",
-  "localLanguage": "Regional language and Hindi; English varies.",
-  "dressCode": "Modest clothing; follow temple boards for traditional dress rules.",
-  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "accommodation": "Dharamshalas, temple-trust guest houses, and private hotels near Yamunotri Temple. Book early for festival weeks; prefer official trust counters when available.",
+  "localFood": "Simple hill vegetarian meals and prasadam; carry dry snacks on treks.",
+  "otherFood": "Wider vegetarian and city cuisine usually in the nearest town; keep non-veg and alcohol away from temple precincts as posted.",
+  "localLanguage": "Hindi and Garhwali/Kumaoni; English in tourist towns.",
+  "dressCode": "Modest attire — shoulders and knees covered preferred. Follow temple boards for traditional dress, footwear, and phone rules.",
+  "darshanTimings": "Typically early morning to evening with aarti and ritual breaks. Confirm same-day timings on the temple trust / endowment board notices.",
   "specialEntry": "Special entry, if any, only via official temple counters.",
   "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
   "lockers": "Cloakrooms where available near the entrance.",
@@ -44,10 +44,27 @@
   "lat": 30.9987,
   "lng": 78.4627,
   "mapQuery": "Yamunotri Temple",
-  "nearby": [],
+  "nearby": [
+    {
+      "name": "Gangotri Temple",
+      "slug": "gangotri",
+      "note": "About 45 km away"
+    },
+    {
+      "name": "Kedarnath Temple",
+      "slug": "kedarnath",
+      "note": "About 64 km away"
+    },
+    {
+      "name": "Surkanda Devi Temple",
+      "slug": "surkanda-devi",
+      "note": "About 67 km away"
+    }
+  ],
   "packages": [
-    "Yamunotri Temple day darshan",
-    "Regional multi-temple circuit"
+    "Yamunotri Temple — day darshan",
+    "Yamunotri Temple + Gangotri Temple — 2-day circuit",
+    "Regional Uttarakhand multi-temple circuit"
   ],
   "sources": [
     "Shri Badrinath–Kedarnath Temple Committee: https://badrinath-kedarnath.gov.in/",
@@ -56,7 +73,7 @@
     "Puranic / pilgrimage tradition (lists can vary by scripture)",
     "Uttarakhand Tourism: https://uttarakhandtourism.gov.in/"
   ],
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-08-09",
   "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
   "statePortal": {
     "name": "Shri Badrinath–Kedarnath Temple Committee",

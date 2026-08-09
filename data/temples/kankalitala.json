@@ -22,20 +22,20 @@
     "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
   ],
   "festivals": [
-    "Major local festival days",
-    "Navaratri / Shiva-related observances as applicable"
+    "Navaratri",
+    "Local jatra / mela days"
   ],
-  "bestTime": "October–March for most plains sites; confirm Himalayan seasonal windows separately.",
-  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
-  "climate": "Varies by region — check seasonal weather before travel.",
+  "bestTime": "October–March; Durga Puja season is crowded and festive.",
+  "whatToCarry": "Sun cap and light cotton for hot plains. Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Humid subtropical; heavy monsoon mid-year.",
   "nearestRail": "See regional railhead; confirm current connectivity.",
   "nearestAirport": "Nearest major airport with road onward.",
-  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
-  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
-  "otherFood": "Wider options usually in the nearest city.",
-  "localLanguage": "Regional language and Hindi; English varies.",
-  "dressCode": "Modest clothing; follow temple boards for traditional dress rules.",
-  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "accommodation": "Dharamshalas, temple-trust guest houses, and private hotels near Kankalitala Temple. Book early for festival weeks; prefer official trust counters when available.",
+  "localFood": "Bengali vegetarian meals, sweets, and temple prasadam.",
+  "otherFood": "Wider vegetarian and city cuisine usually in the nearest town; keep non-veg and alcohol away from temple precincts as posted.",
+  "localLanguage": "Bengali and Hindi; English in Kolkata and tourist zones.",
+  "dressCode": "Modest attire — shoulders and knees covered preferred. Follow temple boards for traditional dress, footwear, and phone rules.",
+  "darshanTimings": "Typically early morning to evening with aarti and ritual breaks. Confirm same-day timings on the temple trust / endowment board notices.",
   "specialEntry": "Special entry, if any, only via official temple counters.",
   "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
   "lockers": "Cloakrooms where available near the entrance.",
@@ -45,10 +45,27 @@
   "lat": 23.68,
   "lng": 87.68,
   "mapQuery": "Kankalitala Temple",
-  "nearby": [],
+  "nearby": [
+    {
+      "name": "Attahas Shakti Peetha",
+      "slug": "attahas",
+      "note": "About 21 km away"
+    },
+    {
+      "name": "Bahula Temple",
+      "slug": "bahula-ketugram",
+      "note": "About 27 km away"
+    },
+    {
+      "name": "Nandikeshwari Temple",
+      "slug": "nandikeshwari-sainthia",
+      "note": "About 30 km away"
+    }
+  ],
   "packages": [
-    "Kankalitala Temple day darshan",
-    "Regional multi-temple circuit"
+    "Kankalitala Temple — day darshan",
+    "Kankalitala Temple + Attahas Shakti Peetha — 2-day circuit",
+    "Regional West Bengal multi-temple circuit"
   ],
   "sources": [
     "West Bengal Tourism: https://wbtourism.gov.in/",
@@ -56,7 +73,7 @@
     "State tourism materials",
     "Puranic / pilgrimage tradition (lists can vary by scripture)"
   ],
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-08-09",
   "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
   "statePortal": {
     "name": "West Bengal Tourism",
@@ -68,5 +85,10 @@
   "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
   "deityFamilies": [
     "devi"
-  ]
+  ],
+  "sacredPhrase": {
+    "text": "ॐ देव्यै नमः",
+    "meaning": "Om, salutation to the Goddess",
+    "source": "Devi mantra fitting devotion at Kankalitala Temple"
+  }
 }
