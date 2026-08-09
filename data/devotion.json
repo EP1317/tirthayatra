@@ -5,7 +5,7 @@
     "sanskrit": "आरती · चालीसा · व्रत कथा",
     "blurb": "Aarti, Chalisa, and Vrat Katha for the deities of TirthaYatra — for home puja and yatra evenings.",
     "lede": "Traditional hymns and vow-stories linked to Shiva, Vishnu, Krishna, Devi, Ganesha, Rama, Hanuman, and Ayyappa. Texts vary by region; follow your family or temple custom.",
-    "disclaimer": "Aarti, Chalisa, and Vrat Katha pages carry complete traditional texts as widely recited in popular devotion. Regional wording can differ. Audio/video players use popular public YouTube recordings for convenience; TirthaYatra does not host the media files. This is for devotion and cultural learning — not a substitute for guidance from your family priest or temple."
+    "disclaimer": "Aarti, Chalisa, and Vrat Katha pages are for devotion and cultural learning. Classical hymns remain with their traditions; TirthaYatra does not claim copyright over scripture. Many vrat katha pages are original TirthaYatra retellings of popular vow themes — not verbatim copies of commercial katha books. Audio/video players use public YouTube recordings when provided; TirthaYatra does not host media files. Confirm ritual timing with your panchang, family custom, or temple. Not a substitute for a guru or priest."
   },
   "types": {
     "aarti": {
@@ -26,8 +26,8 @@
       "slug": "vrat-katha",
       "name": "Vrat Katha",
       "nameHi": "व्रत कथा संग्रह",
-      "blurb": "Vow-day stories told after fasting and puja.",
-      "lede": "Complete vow-stories for Pradosh, Ekadashi, Janmashtami, Navaratri, Ganesh Chaturthi, Ram Navami, Hanuman Jayanti, and Ayyappa Mandala — with video to listen along."
+      "blurb": "Vow-day stories retold for fasting days and home puja — AdSense-safe original summaries of traditional themes.",
+      "lede": "Vow-stories for home puja — Karva Chauth, Chhath, Satyanarayan, Teej, Vat Savitri, Shivaratri, Ekadashi, Pradosh, Navaratri, Janmashtami, Ganesh Chaturthi, Ram Navami, Hanuman Jayanti, Ayyappa Mandala, and more. TirthaYatra pages use original retellings of traditional themes for learning; regional wording differs. Not a substitute for your family priest. Optional YouTube listens belong to their uploaders."
     }
   },
   "items": [
@@ -1253,6 +1253,215 @@
       "audioLabel": "Ayyappa / Sabarimala Katha",
       "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load.",
       "sangrahLabel": "अय्यप्पा मण्डल"
+    },
+    {
+      "slug": "karva-chauth-vrat-katha",
+      "type": "vrat-katha",
+      "deity": "devi",
+      "title": "Karva Chauth Vrat Katha",
+      "titleHi": "करवा चौथ व्रत कथा",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "when": "Karva Chauth (Kartik Krishna Chaturthi) — after evening puja, before moon arghya",
+      "summary": "Original TirthaYatra retelling of the popular Karva Chauth vow-story themes for home listening — not a publisher’s copyrighted edition.",
+      "verses": [
+        "॥ श्री गणेशाय नमः ॥\n॥ श्री पार्वत्यै नमः ॥\nकरवा चौथ व्रत कथा — श्रद्धा से सुनें। यह तिर्थयात्रा की मौलिक पुनर्प्रस्तुति है; किसी मुद्रित पुस्तक की प्रतिलिपि नहीं।",
+        "कार्तिक कृष्ण चतुर्थी को सुहागिनें सौभाग्य व्रत रखती हैं। दिन भर संयम, सायंकाल गौरी–शिव पूजा, फिर चंद्र दर्शन कर पारण — यही बाह्य विधि है। भीतर की कथा धैर्य और सत्य की है।",
+        "एक प्रिय लोककथा में रानी वीरावती की सात भाई थीं। व्रत में तड़प देख उन्होंने पेड़ पर दीपक उठा कर झूठा चंद्र दिखाया। रानी ने अधूरा व्रत तोड़ा; समाचार आया स्वामी संकट में हैं।",
+        "जब सच्ची तिथि और पूर्ण श्रद्धा से व्रत दोहराया गया — छलनी से चंद्र देख अर्घ्य दिया — तब संकट टला। कथा सिखाती है: व्रत प्रदर्शन नहीं, अनुशासन है; जल्दबाजी माया है।",
+        "दूसरी धारा पार्वती जी की याद कराती है — जिन्होंने कठिन तप से शिव जी को वर रूप पाया। करवा (मटकी) गृह की निरंतरता का चिह्न बनी। सौभाग्य केवल आभूषण नहीं, जिम्मेदारी का नाम है।",
+        "व्रत विधि (परिवार रीति से): प्रातः संकल्प, सात्त्विक दिन, सायंकाल पूजा। स्वास्थ्य दुर्बल हो तो चिकित्सक सलाह से फल–जल ग्रहण करें — भाव न टूटे।",
+        "पूजा के बाद यह कथा सुनें। चंद्रोदय पर छलनी/आँचल से चंद्र देख जल अर्घ्य दें। स्वामी या परिवार के आशीष संग पारण करें। अकेले व्रत रखने वालों के लिए भी चंद्र साक्षी पर्याप्त है।",
+        "फलश्रुति भाव: दीर्घायु की कामना के संग स्वयं में धैर्य, और संबंध में अहिंसक प्रेम बढ़े। जो व्रत डराव नहीं, स्नेह बनाए — वही करवा चौथ की सिद्धि।",
+        "॥ जय पार्वती जी ॥ जय शिव जी ॥"
+      ],
+      "meaning": "Karva Chauth remembers steadfast marital prayer through stories of Veeravati’s patience and Parvati Ji’s tapasya. Sight the moon, offer arghya, and keep health wiser than harshness.",
+      "relatedTemples": [
+        "vaishno-devi",
+        "mansa-devi-panchkula",
+        "kashi-vishwanath",
+        "mahakaleshwar-ujjain"
+      ],
+      "completeText": true,
+      "sangrahLabel": "करवा चौथ",
+      "audioNote": "Optional listen-along video may be added later. Read the katha aloud at home; confirm ritual timing with your family custom or local temple."
+    },
+    {
+      "slug": "chhath-vrat-katha",
+      "type": "vrat-katha",
+      "deity": "devi",
+      "title": "Chhath Vrat Katha",
+      "titleHi": "छठ व्रत कथा",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "when": "Chhath Puja — especially after Kharna and before Sandhya / Usha arghya",
+      "summary": "Original TirthaYatra retelling of Chhath’s Surya–Chhathi Maiya vow themes for home and ghat learning.",
+      "verses": [
+        "॥ श्री सूर्याय नमः ॥\n॥ छठी मैया की जय ॥\nछठ व्रत कथा — शुद्ध मन से सुनें। तिर्थयात्रा की मौलिक कथा–पुनर्कथन; कॉपीराइट ग्रंथ की नकल नहीं।",
+        "छठ सूर्य और छठी मैया का व्रत है। चार दिन — नहाय खाय, खरना, संध्या अर्घ्य, उषा अर्घ्य — शरीर को प्रकाश के सामने खड़ा करते हैं।",
+        "कथा कहते हैं छठी मैया संतान और प्रसव की रक्षिका हैं। सूर्य दृश्य देव हैं — अन्न पकाने वाले, रोग हरने वाले। जो आभार से अर्घ्य देता है, वह लेन–देन नहीं, ऋण–स्वीकार करता है।",
+        "महाभारत स्मृति में वनवास की कठिन घड़ी में द्रौपदी–पांडव सूर्य की शरण ले अन्न–शक्ति पाते हैं। राम वंश भी सूर्य का सम्मान करता है। छठ उसी आभार को घाट पर जीवंत करता है।",
+        "विधि का हृदय शुद्ध जल है। प्रदूषित नदी में खड़ा होना व्रत का मजाक है — इसलिए घाट सफाई स्वयं धर्म है। ठेकुआ और फल नैवेद्य सात्त्विक रखें।",
+        "संध्या को डूबते सूर्य को अर्घ्य; उषा को उगते सूर्य को। बीच का जागरण/उपवास परिवार क्षमता से। महिलाओं–पुरुषों दोनों की परंपरा क्षेत्रों में फल–फूल रही है।",
+        "कथा का फल: संतान सुख, रोग शांति, और अहंकार का घटना — क्योंकि सूर्य के सामने राजा और निर्धन एक जैसे खड़े होते हैं।",
+        "अर्घ्य के बाद प्रसाद विनम्रता से बाँटें। जो नहीं व्रत रख सके, वे घाट की सेवा–सफाई से पुण्य पा सकते हैं।",
+        "॥ जय सूर्य देव ॥ जय छठी मैया ॥"
+      ],
+      "meaning": "Chhath thanks Surya and Chhathi Maiya through rigorous purity and standing arghya. Keep the water clean; let gratitude, not transaction, lead the vow.",
+      "relatedTemples": [
+        "gangotri",
+        "jagannath-puri",
+        "ayodhya-ram-mandir",
+        "mahavir-mandir-patna"
+      ],
+      "completeText": true,
+      "sangrahLabel": "छठ",
+      "audioNote": "Optional listen-along video may be added later. Read the katha aloud at home; confirm ritual timing with your family custom or local temple."
+    },
+    {
+      "slug": "satyanarayan-vrat-katha",
+      "type": "vrat-katha",
+      "deity": "vishnu",
+      "title": "Satyanarayan Vrat Katha",
+      "titleHi": "सत्यनारायण व्रत कथा",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "when": "Any auspicious day — especially Purnima; after sankalp and before prasad",
+      "summary": "Original TirthaYatra condensed retelling of the widely loved Satyanarayan vow themes (truth, promise-keeping, gratitude). Not a verbatim copy of any commercial katha book.",
+      "verses": [
+        "॥ श्री गणेशाय नमः ॥\n॥ श्री सत्यनारायणाय नमः ॥\nसत्यनारायण व्रत कथा — संक्षेप में, घर के लिए। यह मौलिक पुनर्प्रस्तुति है।",
+        "भगवान विष्णु सत्यनारायण रूप में सत्य और वचन–पालन के रक्षक हैं। व्रत कोई एक त्योहार नहीं — जब भी गृहस्थ कृतज्ञता या संकट–निवृत्ति चाहे, कथा सुन श्रद्धा जगाता है।",
+        "कथा–सूत्र १: एक निर्धन ब्राह्मण ने सत्यनारायण व्रत कर दैन्य पार किया। समृद्धि आने पर यदि अहंकार से कथा/प्रसाद उपेक्षित हो, तो संकट लौटता सिखाया गया — कृपा स्मरण चाहती है।",
+        "कथा–सूत्र २: एक व्यापारी/राजा ने संकट में व्रत का संकल्प लिया, कार्य सिद्ध होने पर विलंब किया तो विस्मृति ने नया दुख जन्म दिया। वचन पूरा होते ही शांति आई। शिक्षा: संकल्प को अधूरा न छोड़ो।",
+        "कथा–सूत्र ३: गर्वित पात्रों ने प्रसाद अवज्ञा से देखा तो मुखान्धकार/अपमान के रूपक आए; क्षमा और पुनः श्रद्धा से दृष्टि लौटी। सत्यनारायण दर्प नहीं, विनम्र सत्य चाहते हैं।",
+        "ये धाराएँ स्कंद/रेवा आदि परंपराओं में विस्तार से गायी जाती हैं। यहाँ भाव केंद्र है — हम किसी एक प्रकाशक की पंक्ति नहीं दोहराते।",
+        "व्रत विधि सार: गणेश–गौरी स्मरण, सत्यनारायण कलश/छवि, पंचामृत–फल–मिठाई का भोग, कथा श्रवण, आरती, फिर सबको प्रसाद। झूठ और क्रूर वचन उस दिन विशेष वर्जित भाव से।",
+        "फलश्रुति भाव: सत्य में स्थिरता, परिवार में विश्वास, और पूरा किया हुआ वचन — यही लक्ष्मी का द्वार।",
+        "॥ जय श्री सत्यनारायण जी ॥"
+      ],
+      "meaning": "Satyanarayan puja celebrates Vishnu as guardian of truth and completed vows. Listen with family, share prasad, and let kept promises be the real offering.",
+      "relatedTemples": [
+        "tirumala-venkateswara",
+        "jagannath-puri",
+        "badrinath",
+        "pandharpur-vitthal"
+      ],
+      "completeText": true,
+      "sangrahLabel": "सत्यनारायण",
+      "audioNote": "Optional listen-along video may be added later. Read the katha aloud at home; confirm ritual timing with your family custom or local temple."
+    },
+    {
+      "slug": "teej-vrat-katha",
+      "type": "vrat-katha",
+      "deity": "devi",
+      "title": "Hartalika Teej Vrat Katha",
+      "titleHi": "हरतालिका तीज व्रत कथा",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "when": "Hartalika Teej — during night jagran or before concluding the fast",
+      "summary": "Original TirthaYatra retelling of Parvati Ji’s Teej tapasya themes for home devotion.",
+      "verses": [
+        "॥ श्री गणेशाय नमः ॥\n॥ श्री पार्वत्यै शिवाय नमः ॥\nहरतालिका तीज कथा — तिर्थयात्रा मौलिक पुनर्प्रस्तुति।",
+        "वर्षा ऋतु में धरती हरित होती है — पार्वती जी की लगन का रूपक। हरतालिका तीज पर सुहागिनें और कन्याएँ शिव–पार्वती की कथा गाती हैं।",
+        "कथा: पार्वती जी शिव जी को पति रूप में पाना चाहती थीं। जब तप में बाधा आई, वे सखी संग वन चली गईं — ‘हरत’ होकर भी साधना नहीं छोड़ी।",
+        "शिव जी ने योगी रूप में परीक्षा ली — वैभव का लोभ, भय, और विरक्ति के तर्क। पार्वती जी अटल रहीं। तब प्रसन्न होकर शिव ने उन्हें अर्धांगिनी स्वीकारा।",
+        "तीज सिखाती है: प्रेम जबरदस्ती नहीं, तप और स्पष्ट संकल्प है। हरा वस्त्र, मेहँदी, झूला — बाहरी उत्सव; भीतरी बात अखंड श्रद्धा है।",
+        "व्रत: यथाशक्ति निर्जला या फलाहार। रात्रि जागरण में कथा–गीत। प्रातः पूजा कर पारण। स्वास्थ्य की रक्षा भी पार्वती इच्छा है।",
+        "॥ जय गौरी शंकर ॥"
+      ],
+      "meaning": "Hartalika Teej retells Parvati Ji’s unwavering tapasya for Shiva Ji. Keep the fast wisely and let friendship (aalika) support devotion.",
+      "relatedTemples": [
+        "vaishno-devi",
+        "ambaji",
+        "mahakaleshwar-ujjain",
+        "kashi-vishwanath"
+      ],
+      "completeText": true,
+      "sangrahLabel": "हरतालिका तीज",
+      "audioNote": "Optional listen-along video may be added later. Read the katha aloud at home; confirm ritual timing with your family custom or local temple."
+    },
+    {
+      "slug": "vat-savitri-vrat-katha",
+      "type": "vrat-katha",
+      "deity": "devi",
+      "title": "Vat Savitri Vrat Katha",
+      "titleHi": "वट सावित्री व्रत कथा",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "when": "Vat Savitri / Vat Purnima — after tree worship, before concluding the vow",
+      "summary": "Original TirthaYatra retelling of the Savitri–Satyavan vow story for home reading.",
+      "verses": [
+        "॥ श्री गणेशाय नमः ॥\nवट सावित्री व्रत कथा — मौलिक कथा–पुनर्कथन।",
+        "राजकुमारी सावित्री ने सत्यवान को पति चुना — जानते हुए कि एक वर्ष में उनकी आयु पूर्ण होगी। यह अज्ञान नहीं, साहस था।",
+        "निर्धारित दिन सत्यवान वन में मुर्छित हुए। यम जी प्राण लेकर चले। सावित्री पैदल पीछे रहीं — रोष नहीं, धर्म की बातें करते हुए।",
+        "यम ने वर दिए: श्वसुर का राज्य और दृष्टि, वंश के पुत्र। सावित्री ने चतुराई से वरों की शृंखला ऐसी माँगी कि सत्यवान के बिना वर पूरे न हों। यम ने प्रसन्न हो प्राण लौटाए।",
+        "कथा कहती है — प्रेम जो विवेक संग चले, मृत्यु का भी संवाद सुनता है। वट वृक्ष पर धागा दीर्घ आश्रय का चिह्न है।",
+        "व्रत: वट/प्रतीक वृक्ष की परिक्रमा, कथा श्रवण, यथाशक्ति उपवास, परिवार दीर्घायु की प्रार्थना। तिथि क्षेत्रानुसार अमावस्या या पूर्णिमा — पंचांग देखें।",
+        "॥ जय सावित्री माँ ॥"
+      ],
+      "meaning": "Savitri follows Yama and wins Satyavan through wisdom and loyalty. Tie the banyan thread as a vow to shelter life with courage.",
+      "relatedTemples": [
+        "mahalaxmi-kolhapur",
+        "tuljapur-bhavani",
+        "vaishno-devi",
+        "ambaji"
+      ],
+      "completeText": true,
+      "sangrahLabel": "वट सावित्री",
+      "audioNote": "Optional listen-along video may be added later. Read the katha aloud at home; confirm ritual timing with your family custom or local temple."
+    },
+    {
+      "slug": "maha-shivaratri-vrat-katha",
+      "type": "vrat-katha",
+      "deity": "shiva",
+      "title": "Maha Shivaratri Vrat Katha",
+      "titleHi": "महाशिवरात्रि व्रत कथा",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "when": "Maha Shivaratri night — during jagran, between abhishek and aarti",
+      "summary": "Original TirthaYatra retelling of major Shivaratri myth themes (Neelkanth, lingodbhava, devotion over sleep).",
+      "verses": [
+        "॥ श्री गणेशाय नमः ॥\n॥ ॐ नमः शिवाय ॥\nमहाशिवरात्रि व्रत कथा — तिर्थयात्रा मौलिक पुनर्प्रस्तुति।",
+        "महाशिवरात्रि शिव जी की रात्रि है — जागरण, अभिषेक, बिल्वपत्र और मन को जगाए रखना।",
+        "एक कथा नीलकंठ की: क्षीरसागर मंथन से हलाहल उठा। शिव जी ने विष कंठ में धर लोक बचाए। जागरण उसी करुणा का स्मरण है — नींद का त्याग दूसरों की रक्षा हेतु।",
+        "दूसरी कथा लिंगोद्भव की: ब्रह्मा–विष्णु ने स्तंभ के आदि–अंत खोजे; अहंकार हारा, शिव अनंत ज्योति रहें। शिवरात्रि अहं की सीमा सिखाती है।",
+        "लोक कथा में बहेलिया/शिकारी बिल्व और जल की बूँदें अनजाने अर्पित कर पुण्य पाता है — भाव जाने बिना भी शिव कृपा देखते हैं; जानकर तो और अधिक।",
+        "व्रत: दिन संयम, रात्रि चार प्रहर पूजा यथाशक्ति, पंचाक्षर जप, आरती। प्रदोष कथा से जुड़ी नीलकंठ स्मृति यहाँ रात्रि भर फैलती है।",
+        "फल: भय शांति, क्रोध शमन, और वह जागरूकता जो घर में करुणा बनाए।",
+        "॥ हर हर महादेव ॥"
+      ],
+      "meaning": "Maha Shivaratri gathers Neelkanth compassion, lingodbhava humility, and night-long remembrance. Stay awake in kindness; offer bilva and water with a steady mind.",
+      "relatedTemples": [
+        "kashi-vishwanath",
+        "mahakaleshwar-ujjain",
+        "somnath",
+        "trimbakeshwar"
+      ],
+      "completeText": true,
+      "sangrahLabel": "महाशिवरात्रि",
+      "audioNote": "Optional listen-along video may be added later. Read the katha aloud at home; confirm ritual timing with your family custom or local temple."
+    },
+    {
+      "slug": "ahoi-ashtami-vrat-katha",
+      "type": "vrat-katha",
+      "deity": "devi",
+      "title": "Ahoi Ashtami Vrat Katha",
+      "titleHi": "अहोई अष्टमी व्रत कथा",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "when": "Ahoi Ashtami — evening star/puja time as per local custom",
+      "summary": "Original TirthaYatra retelling of the Ahoi Mata vow themes for children’s protection.",
+      "verses": [
+        "॥ श्री गणेशाय नमः ॥\nअहोई अष्टमी व्रत कथा — मौलिक पुनर्प्रस्तुति।",
+        "कार्तिक में अहोई अष्टमी पर माताएँ संतान सुख हेतु व्रत रखती हैं। दीवार पर अहोई चित्र/कलश और सायंकाल तारा/पूजा रीति क्षेत्रानुसार भिन्न।",
+        "लोककथा: एक माता ने अनजाने वन्य प्राणी के बच्चों को हानि पहुँचाई; पश्चाताप और अहोई माता की आराधना से संतान रक्षा का मार्ग खुला। शिक्षा — माता का व्रत करुणा से बड़ा है, हिंसा से नहीं।",
+        "दूसरा भाव: अहोई पृथ्वी–माता की स्नेह छाया हैं। व्रत में क्रोध–हिंसा छोड़, बच्चों को सत्य और दया सिखाएँ — वही वास्तविक फल।",
+        "विधि: यथाशक्ति उपवास, कथा श्रवण, संध्या पूजा, पारण। स्वास्थ्य साथ रखें।",
+        "॥ जय अहोई माता ॥"
+      ],
+      "meaning": "Ahoi Ashtami is a mother’s vow for children’s wellbeing. Let compassion — not fear — shape the fast and the storytelling.",
+      "relatedTemples": [
+        "mansa-devi-panchkula",
+        "vaishno-devi",
+        "ambaji",
+        "mahalaxmi-kolhapur"
+      ],
+      "completeText": true,
+      "sangrahLabel": "अहोई अष्टमी",
+      "audioNote": "Optional listen-along video may be added later. Read the katha aloud at home; confirm ritual timing with your family custom or local temple."
     }
   ]
 }

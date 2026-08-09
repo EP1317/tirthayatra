@@ -144,7 +144,14 @@
       "navaratri-vrat-katha",
       "janmashtami-vrat-katha",
       "ganesh-chaturthi-vrat-katha",
-      "ram-navami-vrat-katha"
+      "ram-navami-vrat-katha",
+      "satyanarayan-vrat-katha",
+      "karva-chauth-vrat-katha",
+      "chhath-vrat-katha",
+      "maha-shivaratri-vrat-katha",
+      "teej-vrat-katha",
+      "vat-savitri-vrat-katha",
+      "hanuman-jayanti-vrat-katha"
     ],
     "story": [
       "neelkanth-poison",
@@ -191,6 +198,24 @@
         "Read Navaratri vrat katha once",
         "If abroad: note local garba night timing",
         "Vijayadashami: thank-you prasad at home"
+      ]
+    },
+    "karva-chauth": {
+      "title": "My Karva Chauth home checklist",
+      "items": [
+        "Sankalp + sattvic day",
+        "Evening Gauri–Shiva puja",
+        "Listen to Karva Chauth katha",
+        "Moon arghya + gentle iftar"
+      ]
+    },
+    "chhath-puja": {
+      "title": "My Chhath Puja checklist",
+      "items": [
+        "Prepare clean naivedya (thekua/fruits)",
+        "Keep ghat/kitchen pure",
+        "Sandhya arghya",
+        "Usha arghya + share prasad"
       ]
     }
   }

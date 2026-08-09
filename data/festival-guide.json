@@ -2,8 +2,8 @@
   "section": {
     "name": "Festivals",
     "nameHi": "त्योहार कैलेंडर",
-    "lede": "Stories, mythology, dates, and how the diaspora celebrates — with related aarti, vrat katha, and Devi–Devata temples on TirthaYatra.",
-    "disclaimer": "Exact tithi dates can shift by region and almanac. Confirm with your local temple or panchang before planning."
+    "lede": "Stories, mythology, dates, and how India and the diaspora celebrate — with related aarti, vrat katha, and temples. High-search festivals included: Karva Chauth, Chhath, Ram Navami, Hanuman Jayanti, Onam, Ugadi, Rath Yatra, Dhanteras, Kartik Purnima, Teej, Vat Savitri, and more.",
+    "disclaimer": "Exact tithi dates can shift by region and almanac. Confirm with your local temple or panchang before planning. Festival stories are TirthaYatra retellings of traditional Puranic and folk themes for learning and home devotion — not verbatim scripture, not affiliated with any temple trust, and not a substitute for a family priest. Do not republish as official religious edicts."
   },
   "festivals": [
     {
@@ -11,7 +11,9 @@
       "name": "Makar Sankranti",
       "nameHi": "मकर संक्रांति",
       "importance": "high",
-      "dateNames": ["Makar Sankranti"],
+      "dateNames": [
+        "Makar Sankranti"
+      ],
       "summary": "Sun enters Capricorn — harvest thanks, kite skies, and sesame–jaggery blessings.",
       "summaryHi": "सूर्य मकर राशि में — फसल का आभार, पतंगें, और तिल–गुड़ का आशीर्वाद।",
       "meaningEn": "Makar Sankranti is one of the few Hindu festivals tied primarily to the solar calendar. It marks the sun’s northward journey (Uttarayana) and the shift into Makara (Capricorn). Across India it is a harvest thanksgiving — a day to honour Surya, share sweets, and begin a brighter half of the year.",
@@ -49,19 +51,37 @@
       "diasporaEn": "Temples abroad often hold Sankranti / Pongal weekend programmes with khichdi, til laddoo, and children’s kite crafts. Apartment communities share sweets even when outdoor kite flying is limited.",
       "diasporaHi": "विदेश के मंदिर संक्रांति/पोंगल सप्ताहांत पर खिचड़ी, तिल लड्डू और बच्चों के कार्यक्रम रखते हैं। फ्लैट में भी मिठाई बाँटना आसान है।",
       "regions": [
-        { "region": "North & West India", "notes": "Kites, til sweets, river baths; Uttarayan fervour in Gujarat." },
-        { "region": "East India", "notes": "Magh Bihu / Poush Sankranti feasts and community fires." },
-        { "region": "Diaspora", "notes": "Temple harvest brunches; combine with Thai Pongal where South Indian." }
+        {
+          "region": "North & West India",
+          "notes": "Kites, til sweets, river baths; Uttarayan fervour in Gujarat."
+        },
+        {
+          "region": "East India",
+          "notes": "Magh Bihu / Poush Sankranti feasts and community fires."
+        },
+        {
+          "region": "Diaspora",
+          "notes": "Temple harvest brunches; combine with Thai Pongal where South Indian."
+        }
       ],
-      "relatedDevotion": ["ganga-aarti", "vishnu-aarti"],
-      "relatedTemples": ["gangotri", "somnath", "trimbakeshwar"]
+      "relatedDevotion": [
+        "ganga-aarti",
+        "vishnu-aarti"
+      ],
+      "relatedTemples": [
+        "gangotri",
+        "somnath",
+        "trimbakeshwar"
+      ]
     },
     {
       "slug": "lohri",
       "name": "Lohri",
       "nameHi": "लोहड़ी",
       "importance": "high",
-      "dateNames": ["Lohri"],
+      "dateNames": [
+        "Lohri"
+      ],
       "summary": "Punjab’s winter harvest fire — songs, sesame, and gratitude around the bonfire.",
       "summaryHi": "पंजाब की शीतकालीन फसल — अलाव के चारों ओर गीत, तिल और आभार।",
       "meaningEn": "Lohri is the Punjabi mid-winter harvest festival, usually the night before Makar Sankranti. Families gather around a bonfire, toss sesame, jaggery, and popcorn into the flames, and sing of prosperity, new births, and the turning of the cold season.",
@@ -93,19 +113,36 @@
       "diasporaEn": "Gurdwara and Punjabi associations abroad host Lohri nights with folk dance and fire pits where local rules allow. Indoor candle/LED ‘fires’ and community langar-style meals are common alternatives.",
       "diasporaHi": "विदेश में गुरुद्वारे और पंजाबी संस्थाएँ लोहड़ी रातें रखती हैं। नियमों के अनुसार अलाव; अन्यथा सुरक्षित दीप और सामुदायिक भोजन।",
       "regions": [
-        { "region": "Punjab, Haryana, Delhi NCR", "notes": "Peak Lohri culture; neighbourhood fires and music." },
-        { "region": "United Kingdom & Canada", "notes": "Strong diaspora Lohri melas and Bhangra nights." },
-        { "region": "United States", "notes": "Temple/association halls; check open-fire regulations." }
+        {
+          "region": "Punjab, Haryana, Delhi NCR",
+          "notes": "Peak Lohri culture; neighbourhood fires and music."
+        },
+        {
+          "region": "United Kingdom & Canada",
+          "notes": "Strong diaspora Lohri melas and Bhangra nights."
+        },
+        {
+          "region": "United States",
+          "notes": "Temple/association halls; check open-fire regulations."
+        }
       ],
-      "relatedDevotion": ["ganga-aarti"],
-      "relatedTemples": ["vaishno-devi", "naina-devi", "jwalamukhi"]
+      "relatedDevotion": [
+        "ganga-aarti"
+      ],
+      "relatedTemples": [
+        "vaishno-devi",
+        "naina-devi",
+        "jwalamukhi"
+      ]
     },
     {
       "slug": "pongal",
       "name": "Pongal",
       "nameHi": "पोंगल",
       "importance": "high",
-      "dateNames": ["Thai Pongal"],
+      "dateNames": [
+        "Thai Pongal"
+      ],
       "summary": "Tamil harvest thanksgiving — boiling over with rice, sugarcane, and Surya’s grace.",
       "summaryHi": "तमिल फसल उत्सव — चावल का उफनना, गन्ना, और सूर्य की कृपा।",
       "meaningEn": "Pongal (Thai Pongal) is Tamil Nadu’s multi-day harvest festival. Fresh rice boiled with milk and jaggery is allowed to overflow — ‘Pongalo Pongal’ — a wish that prosperity may brim over. Surya, cattle, and the earth are thanked in sequence across the days.",
@@ -143,19 +180,38 @@
       "diasporaEn": "South Indian temples worldwide run Pongal weekends with community cooking, kolam contests, and classical music. Many diaspora kitchens keep the overflow ritual on a stove when outdoor cooking is not possible.",
       "diasporaHi": "विश्व भर के दक्षिण भारतीय मंदिर पोंगल सप्ताहांत, कोलम और संगीत रखते हैं। अपार्टमेंट में चूल्हे पर उफनने की रीति भी निभाई जाती है।",
       "regions": [
-        { "region": "Tamil Nadu & Sri Lankan Tamil communities", "notes": "Core Pongal culture across four days." },
-        { "region": "Southeast Asia & Gulf", "notes": "Temple Pongal feasts common among Tamil diaspora." },
-        { "region": "US, UK, Australia", "notes": "Association halls; sugarcane and venpongal prasad." }
+        {
+          "region": "Tamil Nadu & Sri Lankan Tamil communities",
+          "notes": "Core Pongal culture across four days."
+        },
+        {
+          "region": "Southeast Asia & Gulf",
+          "notes": "Temple Pongal feasts common among Tamil diaspora."
+        },
+        {
+          "region": "US, UK, Australia",
+          "notes": "Association halls; sugarcane and venpongal prasad."
+        }
       ],
-      "relatedDevotion": ["ganesha-aarti", "ganga-aarti"],
-      "relatedTemples": ["meenakshi-madurai", "rameswaram", "nataraja-chidambaram", "kapaleeshwarar-chennai"]
+      "relatedDevotion": [
+        "ganesha-aarti",
+        "ganga-aarti"
+      ],
+      "relatedTemples": [
+        "meenakshi-madurai",
+        "rameswaram",
+        "nataraja-chidambaram",
+        "kapaleeshwarar-chennai"
+      ]
     },
     {
       "slug": "maha-shivaratri",
       "name": "Maha Shivaratri",
       "nameHi": "महाशिवरात्रि",
       "importance": "high",
-      "dateNames": ["Maha Shivaratri"],
+      "dateNames": [
+        "Maha Shivaratri"
+      ],
       "summary": "The great night of Shiva — fasting, jagran, and abhishek of the linga.",
       "summaryHi": "शिव की महा रात्रि — व्रत, जागरण, और लिंगाभिषेक।",
       "meaningEn": "Maha Shivaratri is the most sacred night dedicated to Shiva. Devotees fast, keep vigil (jagran), chant, and offer bilva leaves and water or milk to the Shiva linga. It is both austere and intimate — a night to sit with stillness, courage, and the destroyer of ego.",
@@ -199,19 +255,43 @@
       "diasporaEn": "Hindu temples worldwide run all-night Shivaratri programmes with hourly abhishek. Diaspora devotees who cannot stay overnight often attend the evening aarti and complete japa at home.",
       "diasporaHi": "विश्व मंदिरों में रात भर अभिषेक चलता है। जो रात नहीं रुक सकते, संध्या आरती कर घर जप पूरा करते हैं।",
       "regions": [
-        { "region": "India — Jyotirlinga towns", "notes": "Huge night crowds at Ujjain, Varanasi, Somnath, and more." },
-        { "region": "Nepal", "notes": "Pashupatinath draws enormous Shivaratri pilgrimage." },
-        { "region": "Global diaspora", "notes": "Temple jagrans; livestream abhishek popular." }
+        {
+          "region": "India — Jyotirlinga towns",
+          "notes": "Huge night crowds at Ujjain, Varanasi, Somnath, and more."
+        },
+        {
+          "region": "Nepal",
+          "notes": "Pashupatinath draws enormous Shivaratri pilgrimage."
+        },
+        {
+          "region": "Global diaspora",
+          "notes": "Temple jagrans; livestream abhishek popular."
+        }
       ],
-      "relatedDevotion": ["shiva-aarti", "shiva-chalisa", "pradosh-vrat-katha"],
-      "relatedTemples": ["kashi-vishwanath", "mahakaleshwar-ujjain", "somnath", "kedarnath", "rameswaram", "pashupatinath"]
+      "relatedDevotion": [
+        "shiva-aarti",
+        "shiva-chalisa",
+        "pradosh-vrat-katha",
+        "maha-shivaratri-vrat-katha"
+      ],
+      "relatedTemples": [
+        "kashi-vishwanath",
+        "mahakaleshwar-ujjain",
+        "somnath",
+        "kedarnath",
+        "rameswaram",
+        "pashupatinath"
+      ]
     },
     {
       "slug": "holi",
       "name": "Holi",
       "nameHi": "होली",
       "importance": "high",
-      "dateNames": ["Holi", "Holika Dahan"],
+      "dateNames": [
+        "Holi",
+        "Holika Dahan"
+      ],
       "summary": "Festival of colours — Holika’s fire, Prahlad’s faith, and Krishna’s playful love.",
       "summaryHi": "रंगों का पर्व — होलिका की अग्नि, प्रह्लाद की भक्ति, और कृष्ण की लीला।",
       "meaningEn": "Holi welcomes spring with colour, music, and the burning of Holika the night before (Holika Dahan). It celebrates the triumph of devotion over fear, and in Braj it becomes Krishna’s festival of playful love with the gopis.",
@@ -255,19 +335,41 @@
       "diasporaEn": "Cities abroad host organised Holi festivals with safe colours and music. Many temples hold Holika Dahan on temple grounds. Families with young children often prefer temple or park events over street play.",
       "diasporaHi": "विदेश में सुरक्षित रंगों वाले होली उत्सव लोकप्रिय हैं। कई मंदिर प्रांगण में होलिका दहन रखते हैं।",
       "regions": [
-        { "region": "Braj (Mathura–Vrindavan)", "notes": "Extended temple Holi; book stays early." },
-        { "region": "North India towns", "notes": "Neighbourhood Holika fires; daytime colour play." },
-        { "region": "Global diaspora", "notes": "Ticketed Holi fests; temple Holika Dahan evenings." }
+        {
+          "region": "Braj (Mathura–Vrindavan)",
+          "notes": "Extended temple Holi; book stays early."
+        },
+        {
+          "region": "North India towns",
+          "notes": "Neighbourhood Holika fires; daytime colour play."
+        },
+        {
+          "region": "Global diaspora",
+          "notes": "Ticketed Holi fests; temple Holika Dahan evenings."
+        }
       ],
-      "relatedDevotion": ["krishna-aarti", "krishna-chalisa", "vishnu-aarti", "vishnu-chalisa"],
-      "relatedTemples": ["banke-bihari-vrindavan", "krishna-janmabhoomi-mathura", "dwarka", "iskcon-vrindavan", "prem-mandir-vrindavan"]
+      "relatedDevotion": [
+        "krishna-aarti",
+        "krishna-chalisa",
+        "vishnu-aarti",
+        "vishnu-chalisa"
+      ],
+      "relatedTemples": [
+        "banke-bihari-vrindavan",
+        "krishna-janmabhoomi-mathura",
+        "dwarka",
+        "iskcon-vrindavan",
+        "prem-mandir-vrindavan"
+      ]
     },
     {
       "slug": "gudi-padwa",
       "name": "Gudi Padwa",
       "nameHi": "गुड़ी पड़वा",
       "importance": "high",
-      "dateNames": ["Gudi Padwa"],
+      "dateNames": [
+        "Gudi Padwa"
+      ],
       "summary": "Marathi New Year — raising the gudi for victory, harvest, and Rama’s Ayodhya return memory.",
       "summaryHi": "मराठी नववर्ष — विजय–गुड़ी, नव फसल, और राम की अयोध्या स्मृति।",
       "meaningEn": "Gudi Padwa (also Ugadi in parts of the Deccan/South under related new-year customs) marks Chaitra Shukla Pratipada — the traditional new year for many Maharashtrian and Konkani households. A gudi (bright cloth, garland, and inverted pot on a pole) is raised as a sign of victory and invitation to prosperity.",
@@ -305,19 +407,42 @@
       "diasporaEn": "Maharashtrian associations abroad host Gudi Padwa brunches and cultural programmes. A small balcony gudi works in apartments; temples may hold special aarti.",
       "diasporaHi": "विदेश की मराठी संस्थाएँ गुड़ी पड़वा कार्यक्रम रखती हैं। बालकनी में छोटी गुड़ी पर्याप्त; मंदिर विशेष आरती कर सकते हैं।",
       "regions": [
-        { "region": "Maharashtra & Goa", "notes": "Core Gudi Padwa observance." },
-        { "region": "Deccan diaspora", "notes": "Often celebrated alongside Ugadi greetings among friends." },
-        { "region": "Global", "notes": "Community halls; temple new-year aarti." }
+        {
+          "region": "Maharashtra & Goa",
+          "notes": "Core Gudi Padwa observance."
+        },
+        {
+          "region": "Deccan diaspora",
+          "notes": "Often celebrated alongside Ugadi greetings among friends."
+        },
+        {
+          "region": "Global",
+          "notes": "Community halls; temple new-year aarti."
+        }
       ],
-      "relatedDevotion": ["rama-aarti", "rama-chalisa", "ram-navami-vrat-katha", "ganesha-aarti"],
-      "relatedTemples": ["siddhivinayak-mumbai", "ayodhya-ram-mandir", "tuljapur-bhavani", "mahalaxmi-kolhapur"]
+      "relatedDevotion": [
+        "rama-aarti",
+        "rama-chalisa",
+        "ram-navami-vrat-katha",
+        "ganesha-aarti",
+        "vishnu-aarti",
+        "satyanarayan-vrat-katha"
+      ],
+      "relatedTemples": [
+        "siddhivinayak-mumbai",
+        "ayodhya-ram-mandir",
+        "tuljapur-bhavani",
+        "mahalaxmi-kolhapur"
+      ]
     },
     {
       "slug": "raksha-bandhan",
       "name": "Raksha Bandhan",
       "nameHi": "रक्षाबंधन",
       "importance": "high",
-      "dateNames": ["Raksha Bandhan"],
+      "dateNames": [
+        "Raksha Bandhan"
+      ],
       "summary": "The sacred thread of protection — sisters, brothers, and vows of care.",
       "summaryHi": "रक्षा का पवित्र धागा — बहन–भाई और संरक्षण का वचन।",
       "meaningEn": "Raksha Bandhan (Rakhi) is celebrated on Shravan Purnima in many regions. A sister ties a rakhi on her brother’s wrist; he pledges protection and care. The festival has widened to include cousins, friends, and symbolic rakhis to mentors or soldiers — a day about mutual responsibility.",
@@ -355,18 +480,34 @@
       "diasporaEn": "Postal and courier rakhis are a diaspora institution. Temples and Indian associations host sibling meetups; many families schedule the ritual on the nearest weekend if workdays intervene.",
       "diasporaHi": "डाक/कूरियर राखी प्रवासी परंपरा है। मंदिर मिलन आयोजित करते हैं; व्यस्तता में निकटतम सप्ताहांत पर भी रीति निभाई जाती है।",
       "regions": [
-        { "region": "North & West India", "notes": "Widely observed family festival." },
-        { "region": "Global diaspora", "notes": "Courier rakhis; temple sibling events." }
+        {
+          "region": "North & West India",
+          "notes": "Widely observed family festival."
+        },
+        {
+          "region": "Global diaspora",
+          "notes": "Courier rakhis; temple sibling events."
+        }
       ],
-      "relatedDevotion": ["krishna-aarti", "vishnu-aarti", "lakshmi-aarti"],
-      "relatedTemples": ["dwarka", "iskcon-delhi", "banke-bihari-vrindavan"]
+      "relatedDevotion": [
+        "krishna-aarti",
+        "vishnu-aarti",
+        "lakshmi-aarti"
+      ],
+      "relatedTemples": [
+        "dwarka",
+        "iskcon-delhi",
+        "banke-bihari-vrindavan"
+      ]
     },
     {
       "slug": "janmashtami",
       "name": "Janmashtami",
       "nameHi": "जन्माष्टमी",
       "importance": "high",
-      "dateNames": ["Janmashtami"],
+      "dateNames": [
+        "Janmashtami"
+      ],
       "summary": "Krishna’s birth night — fasting, midnight aarti, and the play of the child-god.",
       "summaryHi": "कृष्ण जन्मोत्सव — व्रत, अर्धरात्रि आरती, और बाल गोपाल की लीला।",
       "meaningEn": "Janmashtami celebrates the birth of Krishna in Mathura’s prison narrative and his childhood in Braj. Devotees stay awake until midnight (or the local temple’s announced hour), offer butter and sweets, and sing of the playful protector who later teaches the Gita.",
@@ -410,20 +551,44 @@
       "diasporaEn": "ISKCON and community temples worldwide hold midnight abhishek and kirtan. Diaspora families often stream temple aarti if the local centre is far. For children, costume plays of Krishna’s childhood are popular at weekend programmes.",
       "diasporaHi": "विश्व भर के इस्कॉन और सामुदायिक मंदिर अर्धरात्रि अभिषेक और कीर्तन रखते हैं। दूर होने पर कई परिवार मंदिर आरती ऑनलाइन देखते हैं।",
       "regions": [
-        { "region": "United States & Canada", "notes": "ISKCON midnight festivals; Indian associations’ cultural nights." },
-        { "region": "United Kingdom & Europe", "notes": "Temple jagrans; vegetarian community feasts after aarti." },
-        { "region": "Gulf & Africa", "notes": "Large mandir gatherings; check evening traffic and timings." },
-        { "region": "Australia & Fiji / Caribbean diaspora", "notes": "Strong Krishna traditions; temple calendars online." }
+        {
+          "region": "United States & Canada",
+          "notes": "ISKCON midnight festivals; Indian associations’ cultural nights."
+        },
+        {
+          "region": "United Kingdom & Europe",
+          "notes": "Temple jagrans; vegetarian community feasts after aarti."
+        },
+        {
+          "region": "Gulf & Africa",
+          "notes": "Large mandir gatherings; check evening traffic and timings."
+        },
+        {
+          "region": "Australia & Fiji / Caribbean diaspora",
+          "notes": "Strong Krishna traditions; temple calendars online."
+        }
       ],
-      "relatedDevotion": ["janmashtami-vrat-katha", "krishna-aarti", "krishna-chalisa"],
-      "relatedTemples": ["krishna-janmabhoomi-mathura", "banke-bihari-vrindavan", "dwarka", "iskcon-vrindavan", "guruvayur"]
+      "relatedDevotion": [
+        "janmashtami-vrat-katha",
+        "krishna-aarti",
+        "krishna-chalisa"
+      ],
+      "relatedTemples": [
+        "krishna-janmabhoomi-mathura",
+        "banke-bihari-vrindavan",
+        "dwarka",
+        "iskcon-vrindavan",
+        "guruvayur"
+      ]
     },
     {
       "slug": "ganesh-chaturthi",
       "name": "Ganesh Chaturthi",
       "nameHi": "गणेश चतुर्थी",
       "importance": "high",
-      "dateNames": ["Ganesh Chaturthi"],
+      "dateNames": [
+        "Ganesh Chaturthi"
+      ],
       "summary": "Birth celebration of Ganesha — clay idols, aarti, and visarjan in the sea of farewell.",
       "summaryHi": "गणेश जन्म उत्सव — मिट्टी की मूर्ति, आरती, और विसर्जन।",
       "meaningEn": "Ganesh Chaturthi celebrates the birth (or public manifestation) of Ganesha, remover of obstacles and lord of beginnings. Homes and mandals install clay murti, offer modak, sing aarti for one and a half to ten days, then immerse the murti (visarjan) with the cry ‘Ganpati Bappa Morya’.",
@@ -467,19 +632,41 @@
       "diasporaEn": "From Mumbai-style mandals in New Jersey to temple Chaturthi in London and Dubai, diaspora Ganesha festivals are major cultural anchors. Many cities organise scheduled visarjan at designated water bodies.",
       "diasporaHi": "न्यू जर्सी से लंदन–दुबई तक प्रवासी गणेश उत्सव सांस्कृतिक केंद्र हैं। निर्धारित जलाशयों पर विसर्जन की व्यवस्था होती है।",
       "regions": [
-        { "region": "Maharashtra & Goa", "notes": "Peak sarvajanik mandal culture." },
-        { "region": "South & West India", "notes": "Strong home and temple observance." },
-        { "region": "Global diaspora", "notes": "Temple installs; community visarjan days." }
+        {
+          "region": "Maharashtra & Goa",
+          "notes": "Peak sarvajanik mandal culture."
+        },
+        {
+          "region": "South & West India",
+          "notes": "Strong home and temple observance."
+        },
+        {
+          "region": "Global diaspora",
+          "notes": "Temple installs; community visarjan days."
+        }
       ],
-      "relatedDevotion": ["ganesh-chaturthi-vrat-katha", "ganesha-aarti", "ganesha-chalisa"],
-      "relatedTemples": ["siddhivinayak-mumbai", "moreshwar-morgaon", "kanipakam", "vighnahar-ozar", "chintamani-theur"]
+      "relatedDevotion": [
+        "ganesh-chaturthi-vrat-katha",
+        "ganesha-aarti",
+        "ganesha-chalisa"
+      ],
+      "relatedTemples": [
+        "siddhivinayak-mumbai",
+        "moreshwar-morgaon",
+        "kanipakam",
+        "vighnahar-ozar",
+        "chintamani-theur"
+      ]
     },
     {
       "slug": "navaratri",
       "name": "Navaratri",
       "nameHi": "नवरात्रि",
       "importance": "high",
-      "dateNames": ["Sharad Navaratri begins", "Chaitra Navaratri begins"],
+      "dateNames": [
+        "Sharad Navaratri begins",
+        "Chaitra Navaratri begins"
+      ],
       "summary": "Nine nights of the Goddess — courage, creativity, and community dance or quiet puja.",
       "summaryHi": "माता की नौ रातें — शक्ति, साधना, गरबा/दुर्गा पूजा या शांत घर की आरती।",
       "meaningEn": "Navaratri honours Devi in her many forms (Durga, Lakshmi, Saraswati, and regional Mothers). Sharad Navaratri in autumn is the most widely celebrated abroad; Chaitra Navaratri marks the spring cycle. The festival is about inner strength as much as outer celebration.",
@@ -523,20 +710,45 @@
       "diasporaEn": "Temples and cultural associations abroad run garba nights, Devi aarti, and children’s programmes. Many families keep a small golu / kalash at home even in apartments.",
       "diasporaHi": "विदेश के मंदिर गरबा, देवी आरती और बाल कार्यक्रम रखते हैं। फ्लैट में भी छोटा कलश/गोलू संभव है।",
       "regions": [
-        { "region": "United States & Canada", "notes": "Garba leagues, temple Navaratri series, campus Hindu groups." },
-        { "region": "United Kingdom", "notes": "Strong garba culture; temple Devi aarti every night in many cities." },
-        { "region": "Gulf", "notes": "Community halls for garba; temple calendars for aarti timings." },
-        { "region": "East Africa & SE Asia", "notes": "Long-standing Navaratri traditions in Hindu communities." }
+        {
+          "region": "United States & Canada",
+          "notes": "Garba leagues, temple Navaratri series, campus Hindu groups."
+        },
+        {
+          "region": "United Kingdom",
+          "notes": "Strong garba culture; temple Devi aarti every night in many cities."
+        },
+        {
+          "region": "Gulf",
+          "notes": "Community halls for garba; temple calendars for aarti timings."
+        },
+        {
+          "region": "East Africa & SE Asia",
+          "notes": "Long-standing Navaratri traditions in Hindu communities."
+        }
       ],
-      "relatedDevotion": ["navaratri-vrat-katha", "devi-aarti", "durga-chalisa", "kali-aarti", "vaishno-devi-aarti"],
-      "relatedTemples": ["vaishno-devi", "kamakhya", "meenakshi-madurai", "kalighat"]
+      "relatedDevotion": [
+        "navaratri-vrat-katha",
+        "devi-aarti",
+        "durga-chalisa",
+        "kali-aarti",
+        "vaishno-devi-aarti"
+      ],
+      "relatedTemples": [
+        "vaishno-devi",
+        "kamakhya",
+        "meenakshi-madurai",
+        "kalighat"
+      ]
     },
     {
       "slug": "dussehra",
       "name": "Dussehra / Vijayadashami",
       "nameHi": "दशहरा · विजयदशमी",
       "importance": "high",
-      "dateNames": ["Dussehra / Vijayadashami"],
+      "dateNames": [
+        "Dussehra / Vijayadashami"
+      ],
       "summary": "Victory of dharma — Rama’s triumph over Ravana, and Devi’s victory on the tenth day.",
       "summaryHi": "धर्म की विजय — राम का रावण पर विजय, और देवी की दशमी विजय।",
       "meaningEn": "Dussehra (Vijayadashami) closes Navaratri’s arc. In North India, Rama’s victory over Ravana is staged with Ramlila and the burning of effigies. In many Shakta traditions, it is Devi’s victory day. It is also considered auspicious for learning, tools, and new beginnings (ayudha / vidya puja).",
@@ -580,20 +792,48 @@
       "diasporaEn": "Indian associations stage condensed Ramlila and community Dussehra. Many temples mark the day with Devi–Rama aarti even without effigy burning, focusing on the victory message for families.",
       "diasporaHi": "प्रवासी संस्थाएँ संक्षिप्त रामलीला रखती हैं। बिना पुतला दहन भी मंदिर विजय संदेश के संग आरती करते हैं।",
       "regions": [
-        { "region": "North India", "notes": "Ramlila grounds; large Ravana effigies." },
-        { "region": "East & Shakta regions", "notes": "Devi visarjan / Vijaya emphasis after Durga Puja." },
-        { "region": "Mysuru & South", "notes": "Royal / cultural Dasara processions; check local calendars." },
-        { "region": "Diaspora", "notes": "Community Ramlila; temple victory aarti." }
+        {
+          "region": "North India",
+          "notes": "Ramlila grounds; large Ravana effigies."
+        },
+        {
+          "region": "East & Shakta regions",
+          "notes": "Devi visarjan / Vijaya emphasis after Durga Puja."
+        },
+        {
+          "region": "Mysuru & South",
+          "notes": "Royal / cultural Dasara processions; check local calendars."
+        },
+        {
+          "region": "Diaspora",
+          "notes": "Community Ramlila; temple victory aarti."
+        }
       ],
-      "relatedDevotion": ["rama-aarti", "rama-chalisa", "ram-navami-vrat-katha", "hanuman-aarti", "hanuman-chalisa", "durga-chalisa", "devi-aarti"],
-      "relatedTemples": ["ayodhya-ram-mandir", "rameswaram", "bhadrachalam", "vaishno-devi", "meenakshi-madurai"]
+      "relatedDevotion": [
+        "rama-aarti",
+        "rama-chalisa",
+        "ram-navami-vrat-katha",
+        "hanuman-aarti",
+        "hanuman-chalisa",
+        "durga-chalisa",
+        "devi-aarti"
+      ],
+      "relatedTemples": [
+        "ayodhya-ram-mandir",
+        "rameswaram",
+        "bhadrachalam",
+        "vaishno-devi",
+        "meenakshi-madurai"
+      ]
     },
     {
       "slug": "diwali",
       "name": "Diwali / Deepavali",
       "nameHi": "दीपावली",
       "importance": "high",
-      "dateNames": ["Diwali / Deepavali"],
+      "dateNames": [
+        "Diwali / Deepavali"
+      ],
       "summary": "The festival of lights — Rama’s return, Lakshmi’s grace, and homes lit against the dark.",
       "summaryHi": "प्रकाश का पर्व — राम की अयोध्या वापसी, लक्ष्मी की कृपा, और अँधेरे के विरुद्ध दीप।",
       "meaningEn": "Diwali marks joy after struggle: many families remember Rama and Sita’s homecoming to Ayodhya; others emphasise Lakshmi Puja for prosperity and purity. Across India it closes the autumn festival season with lamps, sweets, and family gatherings.",
@@ -637,20 +877,44 @@
       "diasporaEn": "Outside India, Diwali is often celebrated on the nearest weekend as well as the tithi night. Hindu temples in the US, UK, Canada, Gulf, Australia, and SE Asia host Lakshmi puja, cultural programmes, and community dinners.",
       "diasporaHi": "भारत के बाहर दीपावली अक्सर तिथि की रात और निकटतम सप्ताहांत दोनों पर मनाई जाती है। मंदिर लक्ष्मी पूजा और सांस्कृतिक कार्यक्रम रखते हैं।",
       "regions": [
-        { "region": "United States & Canada", "notes": "Temple Diwali nights, school/workplace celebrations, weekend melas." },
-        { "region": "United Kingdom & Europe", "notes": "Community halls and mandirs; fireworks rules vary by city." },
-        { "region": "Gulf & SE Asia", "notes": "Large temple gatherings; check public holiday calendars." },
-        { "region": "Australia & New Zealand", "notes": "Spring-season Diwali fairs; evening temple aarti." }
+        {
+          "region": "United States & Canada",
+          "notes": "Temple Diwali nights, school/workplace celebrations, weekend melas."
+        },
+        {
+          "region": "United Kingdom & Europe",
+          "notes": "Community halls and mandirs; fireworks rules vary by city."
+        },
+        {
+          "region": "Gulf & SE Asia",
+          "notes": "Large temple gatherings; check public holiday calendars."
+        },
+        {
+          "region": "Australia & New Zealand",
+          "notes": "Spring-season Diwali fairs; evening temple aarti."
+        }
       ],
-      "relatedDevotion": ["lakshmi-aarti", "devi-aarti", "ganesha-aarti", "rama-aarti"],
-      "relatedTemples": ["ayodhya-ram-mandir", "akshardham-delhi", "padmanabhaswamy-thiruvananthapuram"]
+      "relatedDevotion": [
+        "lakshmi-aarti",
+        "devi-aarti",
+        "ganesha-aarti",
+        "rama-aarti",
+        "satyanarayan-vrat-katha"
+      ],
+      "relatedTemples": [
+        "ayodhya-ram-mandir",
+        "akshardham-delhi",
+        "padmanabhaswamy-thiruvananthapuram"
+      ]
     },
     {
       "slug": "bhai-dooj",
       "name": "Bhai Dooj",
       "nameHi": "भाई दूज",
       "importance": "medium",
-      "dateNames": ["Bhai Dooj"],
+      "dateNames": [
+        "Bhai Dooj"
+      ],
       "summary": "The post-Diwali sibling day — tilak, sweets, and prayers for a brother’s long life.",
       "summaryHi": "दीपावली के बाद का भाई–बहन पर्व — टीका, मिठाई, और दीर्घायु की प्रार्थना।",
       "meaningEn": "Bhai Dooj (also Bhai Tika / Bhau Beej) falls on the second day after Diwali Amavasya in many calendars. Sisters welcome brothers with a tilak and aarti; brothers offer gifts and care. It closes the Diwali cluster with kinship.",
@@ -688,12 +952,1084 @@
       "diasporaEn": "Often quieter than Diwali abroad, Bhai Dooj is kept inside the family. Some temples mention it in the Diwali week calendar; most celebration is at home.",
       "diasporaHi": "विदेश में भाई दूज प्रायः पारिवारिक और शांत रहता है — दीपावली सप्ताह के घर की रीति।",
       "regions": [
-        { "region": "North & West India", "notes": "Bhai Dooj / Bhau Beej widely kept." },
-        { "region": "Nepal", "notes": "Related Bhai Tika traditions in the Tihar sequence." },
-        { "region": "Diaspora", "notes": "Home observance after Diwali weekend." }
+        {
+          "region": "North & West India",
+          "notes": "Bhai Dooj / Bhau Beej widely kept."
+        },
+        {
+          "region": "Nepal",
+          "notes": "Related Bhai Tika traditions in the Tihar sequence."
+        },
+        {
+          "region": "Diaspora",
+          "notes": "Home observance after Diwali weekend."
+        }
       ],
-      "relatedDevotion": ["lakshmi-aarti", "krishna-aarti", "ganga-aarti"],
-      "relatedTemples": ["yamunotri", "dwarka", "ayodhya-ram-mandir"]
+      "relatedDevotion": [
+        "lakshmi-aarti",
+        "krishna-aarti",
+        "ganga-aarti"
+      ],
+      "relatedTemples": [
+        "yamunotri",
+        "dwarka",
+        "ayodhya-ram-mandir"
+      ]
+    },
+    {
+      "slug": "karva-chauth",
+      "name": "Karva Chauth",
+      "nameHi": "करवा चौथ",
+      "importance": "high",
+      "dateNames": [
+        "Karva Chauth"
+      ],
+      "summary": "A sunrise-to-moonrise fast of married love — sieve, moon, and a vow for a spouse’s long life.",
+      "summaryHi": "सूर्योदय से चंद्रोदय तक सौभाग्य व्रत — छलनी, चंद्रमा, और जीवनसाथी की दीर्घायु की कामना।",
+      "meaningEn": "Karva Chauth (Karaka Chaturthi) is among India’s most searched women’s vrats. Married women (and increasingly partners who join in solidarity) keep a day-long fast, often without water, until the moon is sighted. The evening ritual — viewing the moon through a sieve, offering arghya, and then breaking the fast — has become a cultural icon across North India and the diaspora.",
+      "meaningHi": "करवा चौथ भारत की सर्वाधिक खोजी जाने वाली स्त्री व्रतों में है। विवाहिताएँ प्रायः निर्जला व्रत रखती हैं और चंद्र दर्शन–अर्घ्य के बाद पारण करती हैं।",
+      "storyEn": "Popular tellings weave two strands. One remembers Queen Veeravati, who broke her fast too early when a false moon was shown and saw calamity until the vow was completed with faith. Another strand links the day to Parvati Ji’s austerities for Shiva Ji, and to the karva (earthen pot) as a symbol of household continuity. The heart of the observance is not spectacle: it is a public, patient prayer that love should outlast fear.",
+      "storyHi": "लोककथाओं में रानी वीरावती का उल्लेख है — अधूरे व्रत से संकट, पूर्ण श्रद्धा से रक्षा। दूसरी धारा पार्वती जी की शिव जी हेतु तप और करवा (मटकी) को गृह–सौभाग्य का चिह्न मानती है। व्रत का हृदय दिखावा नहीं — धैर्य और प्रेम की प्रार्थना है।",
+      "mythologyEn": "Mythologically the vow sits near Kartik’s season of lamps and fidelity. The moon (Chandra) is treated as witness; the sieve reminds devotees to filter haste and illusion. Family priests emphasise that the katha is heard after puja, and that health comes before harshness — many modern households adapt the fast with medical guidance while keeping the prayer intact.",
+      "mythologyHi": "पुराण–लोक परंपरा में यह व्रत कार्तिक की दीप–ऋतु और सौभाग्य से जुड़ता है। चंद्र साक्षी; छलनी अधीरता का निवारण। स्वास्थ्य पहले — कई घर चिकित्सकीय सलाह से व्रत ढालते हैं, भाव वही रखते हैं।",
+      "deityStories": [
+        {
+          "deity": "Parvati & Shiva",
+          "deityHi": "पार्वती जी और शिव जी",
+          "en": "Parvati Ji’s tapasya for Shiva Ji is remembered as the archetype of steadfast partnership — strength that chooses devotion over ease.",
+          "hi": "पार्वती जी की तपस्या अडिग साझेदारी का आदर्श है — सुविधा नहीं, भक्ति का बल।"
+        },
+        {
+          "deity": "Chandra (Moon)",
+          "deityHi": "चंद्र देव",
+          "en": "Moonrise ends the fast; arghya to Chandra marks the vow’s completion under the night sky.",
+          "hi": "चंद्रोदय पर व्रत पूरा; चंद्र अर्घ्य से नियम की पूर्ति।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Wake early; set a sankalp; keep a sattvic day (nirjala or as advised)",
+        "Evening Shiva–Parvati / Gauri puja; listen to Karva Chauth vrat katha",
+        "Sight the moon through a sieve; offer arghya; break the fast with spouse’s care",
+        "Exchange mehndi, bangles, and thalis as family custom allows"
+      ],
+      "howCelebratedHi": [
+        "प्रातः संकल्प; यथाशक्ति व्रत",
+        "संध्या गौरी–शिव पूजा; करवा चौथ व्रत कथा",
+        "छलनी से चंद्र दर्शन, अर्घ्य, फिर पारण",
+        "मेहँदी– downstreamूठी–थाली परिवार रीति से"
+      ],
+      "diasporaEn": "In the US, UK, Canada, Gulf, and Australia, temple associations host Karva Chauth evenings with collective moon-sighting apps and projected moonrise times. Apartment balconies replace open courtyards; the sieve and lamp still travel in hand luggage.",
+      "diasporaHi": "अमेरिका, ब्रिटेन, कनाडा, खाड़ी और ऑस्ट्रेलिया में मंदिर संघ चंद्रोदय समय संग सामुदायिक कार्यक्रम रखते हैं। छलनी और दीपक प्रवासी थैली में भी यात्रा करते हैं।",
+      "regions": [
+        {
+          "region": "North India & NCR",
+          "notes": "Peak cultural observance; bazaars for mehndi and sargi."
+        },
+        {
+          "region": "Global diaspora",
+          "notes": "Temple halls; moonrise lookups by city; photo thalis."
+        }
+      ],
+      "relatedDevotion": [
+        "karva-chauth-vrat-katha",
+        "shiva-aarti",
+        "devi-aarti"
+      ],
+      "relatedTemples": [
+        "vaishno-devi",
+        "mansa-devi-panchkula",
+        "kashi-vishwanath",
+        "mahakaleshwar-ujjain"
+      ]
+    },
+    {
+      "slug": "chhath-puja",
+      "name": "Chhath Puja",
+      "nameHi": "छठ पूजा",
+      "importance": "high",
+      "dateNames": [
+        "Chhath Puja"
+      ],
+      "summary": "Four days of rigorous sun worship — clean rivers, standing arghya, and gratitude to Surya and Chhathi Maiya.",
+      "summaryHi": "चार दिन का कठोर सूर्य आराधना व्रत — स्वच्छ जल, खड़े अर्घ्य, सूर्य और छठी मैया का आभार।",
+      "meaningEn": "Chhath is one of India’s highest-intent search festivals after the Diwali cluster, especially in Bihar, Jharkhand, eastern Uttar Pradesh, and among migrant communities worldwide. Devotees thank Surya and Chhathi Maiya for life, children, and healed hardship through a multi-day discipline of purity, fasting, and riverbank arghya at sunset and sunrise.",
+      "meaningHi": "छठ दीपावली के बाद सर्वाधिक खोजी जाने वाली परंपराओं में है — बिहार, झारखंड, पूर्वी उत्तर प्रदेश और प्रवासी बस्तियों में। सूर्य और छठी मैया के प्रति आभार का बहु–दिवसीय व्रत।",
+      "storyEn": "Tradition remembers Chhathi Maiya (often linked with Shashthi / forms of Prakriti) as guardian of children and childbirth, and Surya as the visible giver of prana. Epic memory also recalls Draupadi and the Pandavas turning to the Sun for relief in exile, and Rama’s line honouring Surya. The standing offering in water — body aligned to the setting and rising sun — is the festival’s unmistakable mythic posture: the devotee becomes a living axis between earth and light.",
+      "storyHi": "परंपरा में छठी मैया बच्चों की रक्षिका और सूर्य प्राणदाता हैं। महाभारत स्मृति में द्रौपदी–पांडव सूर्य की शरण लेते हैं; राम वंश भी सूर्य का सम्मान करता है। जल में खड़े अर्घ्य — भक्त धरती और ज्योति के बीच अक्ष बनता है।",
+      "mythologyEn": "Unlike many home pujas, Chhath’s mythology insists on ecological purity: the river or pond must be clean enough to stand in. Thekua and other naivedya are prepared without onion–garlic, and the vow’s severity (including periods without water) is framed as thanksgiving, not bargaining. Abroad, devotees recreate ghats at lakes and designated water bodies with municipal permission.",
+      "mythologyHi": "छठ की कथा स्वच्छ जल पर टिकी है। ठेकुआ आदि नैवेद्य सात्त्विक; व्रत कठोर आभार है, सौदेबाजी नहीं। विदेश में झील–सरोवर पर अनुमति संग ‘घाट’ बनते हैं।",
+      "deityStories": [
+        {
+          "deity": "Surya",
+          "deityHi": "सूर्य देव",
+          "en": "Sandhya and Usha arghya — sunset and sunrise offerings — place Surya at the centre of household gratitude.",
+          "hi": "संध्या और उषा अर्घ्य — सूर्य परिवार के आभार के केंद्र।"
+        },
+        {
+          "deity": "Chhathi Maiya",
+          "deityHi": "छठी मैया",
+          "en": "Invoked for children’s protection and the mother’s strength; her presence makes Chhath a family vow, not a solitary spectacle.",
+          "hi": "संतान रक्षा और माँ की शक्ति के लिए — छठ परिवार का व्रत है।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Follow the four-day arc: Nahay Khay, Kharna, Sandhya arghya, Usha arghya",
+        "Keep the ghat and kitchen pure; prepare thekua and seasonal fruits as naivedya",
+        "Stand in clean water for sunset and sunrise offerings; sing Chhath geet",
+        "Read Chhath vrat katha; end with prasad shared in humility"
+      ],
+      "howCelebratedHi": [
+        "चार दिन: नहाय खाय, खरना, संध्या अर्घ्य, उषा अर्घ्य",
+        "घाट–रसोई शुद्ध; ठेकुआ और फल नैवेद्य",
+        "स्वच्छ जल में सूर्यास्त–सूर्योदय अर्घ्य; छठ गीत",
+        "छठ व्रत कथा; प्रसाद विनम्रता से बाँटें"
+      ],
+      "diasporaEn": "From New Jersey and Toronto lakesides to Dubai and Melbourne community parks, diaspora Chhath committees organise safety marshals, women’s changing tents, and eco-cleanup after arghya — a modern expression of the same purity myth.",
+      "diasporaHi": "न्यू जर्सी–टोरंटो झीलों से दुबई–मेलबर्न तक प्रवासी छठ समितियाँ सुरक्षा और सफाई संग अर्घ्य कराती हैं — वही शुद्धता का आधुनिक रूप।",
+      "regions": [
+        {
+          "region": "Bihar, Jharkhand, Purvanchal",
+          "notes": "Heartland of Chhath; river and pond ghats."
+        },
+        {
+          "region": "Delhi NCR & Mumbai migrant belts",
+          "notes": "Large public ghats; heavy search traffic for timings."
+        },
+        {
+          "region": "Global diaspora",
+          "notes": "Lake/park permissions; community thekua kitchens."
+        }
+      ],
+      "relatedDevotion": [
+        "chhath-vrat-katha",
+        "ganga-aarti"
+      ],
+      "relatedTemples": [
+        "gangotri",
+        "jagannath-puri",
+        "ayodhya-ram-mandir",
+        "mahavir-mandir-patna"
+      ]
+    },
+    {
+      "slug": "ram-navami",
+      "name": "Ram Navami",
+      "nameHi": "राम नवमी",
+      "importance": "high",
+      "dateNames": [
+        "Ram Navami"
+      ],
+      "summary": "The birth festival of Rama — Maryada Purushottama — with katha, fasting, and temple jhankis.",
+      "summaryHi": "मर्यादा पुरुषोत्तम राम जी का जन्म उत्सव — कथा, व्रत और मंदिर झाँकियाँ।",
+      "meaningEn": "Ram Navami celebrates the birth of Rama Ji on Chaitra Shukla Navami. It is a peak search festival in India and a major diaspora temple day, linking home devotion to the Ramayana’s moral cosmos: truth, restraint, and compassionate kingship.",
+      "meaningHi": "राम नवमी चैत्र शुक्ल नवमी को राम जी के जन्म का पर्व है — भारत और प्रवासी मंदिरों में उच्च खोज वाला दिन।",
+      "storyEn": "King Dasharatha of Ayodhya longed for heirs. Through the putrakameshti sacrifice, divine payasam was shared among Kausalya, Kaikeyi, and Sumitra. On Navami, Kausalya gave birth to Rama — Vishnu’s incarnation as the ideal human. The festival is less about royal pageantry than about remembering a life that chose dharma even when the forest was easier to refuse.",
+      "storyHi": "अयोध्या नरेश दशरथ पुत्रकाम थे। पुत्रकामेष्टि से दिव्य पायस मिला। नवमी को कौसल्या के राम जी जन्मे — विष्णु जी का नर लीला रूप। पर्व राजसी ठाठ नहीं, उस जीवन का स्मरण है जिसने वन में भी धर्म नहीं छोड़ा।",
+      "mythologyEn": "Vaishnava theology reads Rama as Maryada Purushottama — the Lord who accepts human limits to teach them. Temples recite Ramcharitmanas or Valmiki’s verses; many households keep a half-day or full-day fast and place a cradle for the infant Rama. The mythic map runs from Ayodhya’s joy to the later exile — Navami holds the beginning so devotees can walk the whole path with clearer eyes.",
+      "mythologyHi": "वैष्णव दृष्टि में राम जी मर्यादा पुरुषोत्तम हैं। मंदिरों में रामचरितमानस/वाल्मीकि पाठ; घरों में व्रत और बाल राम का पालना। नवमी आरंभ की ज्योति है ताकि पूरी कथा समझ से चली जाए।",
+      "deityStories": [
+        {
+          "deity": "Rama",
+          "deityHi": "राम जी",
+          "en": "Born at noon in many calendars’ telling — the hour of clarity — Rama embodies disciplined love for Sita Ji, Lakshmana Ji, and the people of Ayodhya.",
+          "hi": "बहुत परंपराओं में मध्याह्न जन्म — स्पष्टता का क्षण। राम जी सीता जी, लक्ष्मण जी और प्रजा के प्रति अनुशासित प्रेम हैं।"
+        },
+        {
+          "deity": "Sita & the Ayodhya household",
+          "deityHi": "सीता जी और अयोध्या",
+          "en": "Navami anticipates the household of dharma — not only a warrior’s birth, but a family’s vow to truth.",
+          "hi": "नवमी केवल योद्धा जन्म नहीं — धर्म–परिवार की प्रतिज्ञा का आरंभ।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Morning or noon abhishek / aarti for Rama; decorate a cradle",
+        "Read Ram Navami vrat katha; chant Rama naam or aarti",
+        "Keep a sattvic fast as health allows; share prasad",
+        "Visit a Rama temple or join a community sundara kanda / bhajan"
+      ],
+      "howCelebratedHi": [
+        "प्रातः/मध्याह्न अभिषेक–आरती; पालना सजाएँ",
+        "राम नवमी व्रत कथा; राम नाम/आरती",
+        "यथाशक्ति व्रत; प्रसाद बाँटें",
+        "राम मंदिर या सामुदायिक भजन"
+      ],
+      "diasporaEn": "Ayodhya’s broadcast aarti and diaspora Rama temples (from the UK and US to the Caribbean and Fiji) make Navami a global Zoom-and-mandir day. Children enact birth scenes; elders emphasise maryada over loud argument.",
+      "diasporaHi": "अयोध्या आरती और प्रवासी राम मंदिर नवमी को वैश्विक बनाते हैं। बच्चे जन्म झाँकी करते हैं; बड़े मर्यादा सिखाते हैं।",
+      "regions": [
+        {
+          "region": "Ayodhya & North India",
+          "notes": "Temple throngs; Ramayana path."
+        },
+        {
+          "region": "Diaspora (UK, US, Caribbean, Fiji)",
+          "notes": "Strong Rama temple culture; weekend cultural programmes."
+        }
+      ],
+      "relatedDevotion": [
+        "ram-navami-vrat-katha",
+        "rama-aarti",
+        "rama-chalisa"
+      ],
+      "relatedTemples": [
+        "ayodhya-ram-mandir",
+        "bhadrachalam",
+        "rameswaram",
+        "chitrakoot-ramghat"
+      ]
+    },
+    {
+      "slug": "hanuman-jayanti",
+      "name": "Hanuman Jayanti",
+      "nameHi": "हनुमान जयंती",
+      "importance": "high",
+      "dateNames": [
+        "Hanuman Jayanti"
+      ],
+      "summary": "The appearance day of Hanuman — strength as seva, courage as prayer.",
+      "summaryHi": "हनुमान जी का प्राकट्य दिवस — बल सेवा में, साहस प्रार्थना में।",
+      "meaningEn": "Hanuman Jayanti honours the birth or appearance of Hanuman Ji, the ideal devotee of Rama. Search interest spikes for Chalisa, Tuesday vows, and temple timings — in India and across overseas Hanuman mandirs.",
+      "meaningHi": "हनुमान जयंती पर हनुमान जी का स्मरण — चालीसा, मंगलवार व्रत और मंदिर समय की खोज भारत व विदेश दोनों में बढ़ती है।",
+      "storyEn": "Anjana and Kesari received a boon; Vayu’s grace entered the child who would leap oceans for Rama’s work. Jayanti celebrates not brute force but buddhi and bhakti braided together — the servant who lifts mountains yet bows at Rama’s feet.",
+      "storyHi": "अंजना–केसरी को वर मिला; पवन कृपा से बालक जन्मे जो राम कार्य हेतु सागर लाँघेंगे। जयंती बल की नहीं — बुद्धि और भक्ति की गाथा है।",
+      "mythologyEn": "Regional calendars differ (Chaitra Purnima in much of North India; other tithis in some Deccan and Tamil traditions). Mythically Hanuman is Shiva’s amsha and Rama’s messenger — a bridge deity for households that keep both Shaiva and Vaishnava warmth.",
+      "mythologyHi": "क्षेत्रीय तिथियाँ भिन्न हो सकती हैं। हनुमान जी शिव अंश और राम दूत — शैव–वैष्णव स्नेह के सेतु।",
+      "deityStories": [
+        {
+          "deity": "Hanuman",
+          "deityHi": "हनुमान जी",
+          "en": "Sankat Mochan — remover of crisis — remembered through Chalisa, sindoor, and quiet courage.",
+          "hi": "संकट मोचन — चालीसा, सिंदूर और शांत साहस से स्मरण।"
+        },
+        {
+          "deity": "Rama",
+          "deityHi": "राम जी",
+          "en": "Hanuman’s strength always points back to Rama’s mission — devotion that refuses personal credit.",
+          "hi": "हनुमान बल सदैव राम कार्य की ओर — कीर्ति नहीं, सेवा।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Temple darshan; apply sindoor as custom allows",
+        "Recite Hanuman Chalisa and aarti; read Hanuman Jayanti vrat katha",
+        "Offer boondi, bananas, or panjiri; keep a Tuesday-style vow if desired",
+        "Serve quietly — charity or help without announcement"
+      ],
+      "howCelebratedHi": [
+        "मंदिर दर्शन; रीति अनुसार सिंदूर",
+        "हनुमान चालीसा–आरती; जयंती व्रत कथा",
+        "बूंदी/केला/पंजीरी; इच्छानुसार मंगलवार–सा व्रत",
+        " चुपचाप सेवा–दान"
+      ],
+      "diasporaEn": "Overseas Hanuman temples run all-day Chalisa relays and children’s ‘bajrang’ plays. Many professionals keep a digital Chalisa streak that begins or renews on Jayanti.",
+      "diasporaHi": "विदेशी हनुमान मंदिर चालीसा रिले और बाल नाटक रखते हैं। कई पेशेवर जयंती से डिजिटल चालीसा क्रम जोड़ते हैं।",
+      "regions": [
+        {
+          "region": "North & West India",
+          "notes": "Major Jayanti crowds at Sankat Mochan–style temples."
+        },
+        {
+          "region": "Global diaspora",
+          "notes": "Weekend Chalisa; open-ground hanuman jayanti melas."
+        }
+      ],
+      "relatedDevotion": [
+        "hanuman-jayanti-vrat-katha",
+        "hanuman-aarti",
+        "hanuman-chalisa"
+      ],
+      "relatedTemples": [
+        "salasar-balaji",
+        "sankat-mochan-varanasi",
+        "jakhoo-hanuman-shimla",
+        "mahavir-mandir-patna"
+      ]
+    },
+    {
+      "slug": "vasant-panchami",
+      "name": "Vasant Panchami",
+      "nameHi": "वसंत पंचमी",
+      "importance": "high",
+      "dateNames": [
+        "Vasant Panchami"
+      ],
+      "summary": "Spring’s yellow morning — Saraswati, learning, and the first hint of Holi’s season.",
+      "summaryHi": "पीला वसंत प्रभात — सरस्वती जी, विद्या, और होली–ऋतु का संकेत।",
+      "meaningEn": "Vasant Panchami (Sri Panchami) welcomes spring and worships Saraswati Ji, goddess of speech, music, and learning. It is heavily searched by students and parents for puja vidhi, and abroad for children’s ‘first pen’ ceremonies.",
+      "meaningHi": "वसंत पंचमी पर सरस्वती जी की पूजा — छात्र–अभिभावक पूजा विधि खोजते हैं; प्रवास में अक्षरारंभ समारोह लोकप्रिय हैं।",
+      "storyEn": "On this tithi, many tellings say Saraswati’s grace makes the world eloquent — rivers of knowledge unfrozen after winter. Basant’s mustard fields colour the North yellow; devotees wear that hue as living metaphor for ripening insight. In some regions the day also marks early preparations toward Holi’s playful devotion to Krishna.",
+      "storyHi": "इस तिथि सरस्वती कृपा से वाणी खिलती है। सरसों के पीले खेत उत्तरी भारत में ज्ञान के पकने का रूपक बनते हैं। कुछ क्षेत्रों में यह होली–कृष्ण लीला की तैयारी भी है।",
+      "mythologyEn": "Saraswati is vac (speech) and vidya (disciplined knowing). Mythologically she is the river of clarity that keeps mantra and music from becoming noise. Books, instruments, and tools of study are placed near her image — a household pantheon of curiosity.",
+      "mythologyHi": "सरस्वती वाक् और विद्या हैं — मंत्र व संगीत को शोर होने से बचाती स्पष्टता की नदी। पुस्तकें–वाद्य उसके पास रखकर घर जिज्ञासा का मंदिर बनाते हैं।",
+      "deityStories": [
+        {
+          "deity": "Saraswati",
+          "deityHi": "सरस्वती जी",
+          "en": "Veena, white lotus, and swan — symbols of harmony, purity, and viveka (discernment).",
+          "hi": "वीणा, श्वेत कमल, हंस — सामंजस्य, शुद्धता और विवेक।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Wear yellow/cream if custom allows; offer yellow flowers and sweets",
+        "Place books and instruments for Saraswati puja; do aksharabhyas for children",
+        "Sing Saraswati aarti or vandana; begin a gentle study vow",
+        "Avoid disrespect to books for the day — a simple household maryada"
+      ],
+      "howCelebratedHi": [
+        "रीति से पीला/क्रीम वस्त्र; पीले फूल–मिठाई",
+        "पुस्तक–वाद्य संग सरस्वती पूजा; बच्चों का अक्षरारंभ",
+        "सरस्वती आरती/वंदना; हल्का विद्या व्रत",
+        "दिन भर ग्रंथों का सम्मान"
+      ],
+      "diasporaEn": "Universities and Indian associations abroad host Basant cultural hours — kite crafts, yellow scarves, and student blessings before exam season.",
+      "diasporaHi": "विदेशी विश्वविद्यालय और भारतीय संघ बसंत सांस्कृतिक कार्यक्रम रखते हैं — परीक्षा से पूर्व आशीष।",
+      "regions": [
+        {
+          "region": "North & East India",
+          "notes": "Strong Saraswati puja; yellow aesthetics."
+        },
+        {
+          "region": "Diaspora campuses",
+          "notes": "Student-led pujas and classical music evenings."
+        }
+      ],
+      "relatedDevotion": [
+        "saraswati-aarti",
+        "devi-aarti"
+      ],
+      "relatedTemples": [
+        "kamakhya",
+        "meenakshi-madurai",
+        "belur-math",
+        "sharada-maihar"
+      ]
+    },
+    {
+      "slug": "akshaya-tritiya",
+      "name": "Akshaya Tritiya",
+      "nameHi": "अक्षय तृतीया",
+      "importance": "high",
+      "dateNames": [
+        "Akshaya Tritiya"
+      ],
+      "summary": "The ‘never-diminishing’ tithi — beginnings, dana, and legends of inexhaustible grace.",
+      "summaryHi": "अक्षय तिथि — शुभ आरंभ, दान, और अक्षय कृपा की कथाएँ।",
+      "meaningEn": "Akshaya Tritiya (Akti) is treated as a day when punya does not decay. It draws huge search volume for gold buying and wedding muhurats, but its older heart is dana, new ventures, and remembering myths of abundance that refuse greed.",
+      "meaningHi": "अक्षय तृतीया पर पुण्य अक्षय माना जाता है। सोना–विवाह खोज बढ़ती है, पर मूल भाव दान, शुभ आरंभ और लोभ–रहित समृद्धि की कथा है।",
+      "storyEn": "Tellings link the day to the first manifestation of Ganga’s grace in some calendars, to Krishna and Sudama’s friendship of inexhaustible love, and to the Pandavas receiving the akshaya patra — a vessel that fed the righteous without end. ‘Akshaya’ means that which does not lessen: the myth warns that only what is shared stays.",
+      "storyHi": "कथाएँ गंगा कृपा, कृष्ण–सुदामा की अक्षय प्रीति, और पांडवों के अक्षय पात्र से जुड़ती हैं — जो पात्र धर्मियों को अन्न देता रहा। अक्षय वही है जो बाँटने से घटता नहीं।",
+      "mythologyEn": "Vedic–Puranic custom treats the tithi as favourable for sankalpa: starting study, business ledgers, temple donations, or water–food charity. Modern commerce amplified jewellery ads; dharmic teachers answer by recentring annadana and truthful beginnings.",
+      "mythologyHi": "संकल्प का दिन — विद्या, व्यवसाय, मंदिर दान, अन्न–जल दान। आधुनिक विज्ञापन ने आभूषण बढ़ाया; धर्म शिक्षण अन्नदान और सत्य आरंभ पर लौटाता है।",
+      "deityStories": [
+        {
+          "deity": "Krishna & Sudama",
+          "deityHi": "कृष्ण जी और सुदामा",
+          "en": "A fist of rice offered in love returns as lifelong grace — abundance measured by friendship, not price.",
+          "hi": "मुट्ठी चावल का प्रेम अक्षय कृपा बना — मोल नहीं, मित्रता।"
+        },
+        {
+          "deity": "Annapurna / Akshaya Patra",
+          "deityHi": "अन्नपूर्णा / अक्षय पात्र",
+          "en": "The inexhaustible vessel feeds dharma first — a myth against hoarding.",
+          "hi": "अक्षय पात्र पहले धर्म को खिलाता है — संचय के अहंकार के विरुद्ध।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Begin a worthy project or study vow; keep accounts clean",
+        "Prefer dana (food, water, knowledge) alongside any purchases",
+        "Vishnu / Krishna / Lakshmi puja as family custom",
+        "Read Sudama–Krishna or akshaya patra stories with children"
+      ],
+      "howCelebratedHi": [
+        "शुभ कार्य या विद्या संकल्प; हिसाब शुद्ध रखें",
+        "खरीद के संग दान (अन्न–जल–ज्ञान) को प्राथमिकता",
+        "विष्णु/कृष्ण/लक्ष्मी पूजा रीति से",
+        "बच्चों को सुदामा–अक्षय पात्र कथा सुनाएँ"
+      ],
+      "diasporaEn": "Diaspora families often pair Akti with temple donations and scholarship funds rather than only jewellery — a search-friendly, values-forward framing for overseas guides.",
+      "diasporaHi": "प्रवासी परिवार आभूषण से अधिक मंदिर दान और छात्रवृत्ति जोड़ते हैं — विदेश गाइडों के लिए मूल्य–केंद्रित रूप।",
+      "regions": [
+        {
+          "region": "Pan-India",
+          "notes": "Muhurat shopping + traditional dana."
+        },
+        {
+          "region": "Diaspora",
+          "notes": "Temple funds, gold ETFs vs. quiet charity — choices vary."
+        }
+      ],
+      "relatedDevotion": [
+        "vishnu-aarti",
+        "krishna-aarti",
+        "lakshmi-aarti",
+        "satyanarayan-vrat-katha"
+      ],
+      "relatedTemples": [
+        "tirumala-venkateswara",
+        "dwarka",
+        "jagannath-puri",
+        "mahalaxmi-kolhapur"
+      ]
+    },
+    {
+      "slug": "guru-purnima",
+      "name": "Guru Purnima",
+      "nameHi": "गुरु पूर्णिमा",
+      "importance": "high",
+      "dateNames": [
+        "Guru Purnima"
+      ],
+      "summary": "Full moon of the teacher — Vyasa, living gurus, and gratitude for the lineage of knowledge.",
+      "summaryHi": "गुरु की पूर्णिमा — व्यास जी, सद्गुरु, और ज्ञान परंपरा का आभार।",
+      "meaningEn": "Guru Purnima (Vyasa Purnima) honours the teacher principle. It is widely searched by yoga students, classical artists, and temple communities in India and abroad who want a simple gratitude rite.",
+      "meaningHi": "गुरु पूर्णिमा शिक्षक–तत्त्व का पर्व — योग साधक, कलाकार और मंदिर समुदाय आभार विधि खोजते हैं।",
+      "storyEn": "Sage Vyasa — arranger of the Vedas and narrator of the Mahabharata — is remembered on this full moon. The mythic claim is bold: knowledge that is ordered can be transmitted; chaos of memory becomes a river others can drink. Disciples offer paduka puja, fruit, or silent pranam to parents, teachers, and guides.",
+      "storyHi": "वेद व्यवस्थापक और महाभारत कथाकार व्यास जी का स्मरण। ज्ञान व्यवस्थित हो तो परंपरा बनती है। शिष्य पदुका पूजा, फल या मौन प्रणाम से आभार करते हैं।",
+      "mythologyEn": "In yogic lore the day also marks Shiva as Adi Guru teaching the saptarishis. Whether Shaiva or Vaishnava tinted, the mythology converges: without lineage, ego invents; with lineage, practice deepens.",
+      "mythologyHi": "योग कथा में शिव आदिगुरु भी स्मृत। शैव हो या वैष्णव रंग — बिना परंपरा अहंकार गढ़ता है; परंपरा से साधना गहरी होती है।",
+      "deityStories": [
+        {
+          "deity": "Vyasa",
+          "deityHi": "व्यास जी",
+          "en": "Compiler and storyteller — the archetype of the teacher who organises revelation for householders and renunciates alike.",
+          "hi": "संकलक और कथाकार — गृहस्थ व संन्यासी दोनों हेतु ज्ञान व्यवस्थित करने वाले गुरु।"
+        },
+        {
+          "deity": "Shiva as Adi Guru",
+          "deityHi": "आदिगुरु शिव जी",
+          "en": "In hatha and yoga traditions, the still teacher under the banyan who turns discipline into liberation.",
+          "hi": "हठ–योग परंपरा में वटवृक्ष तले स्थिर गुरु — अनुशासन से मुक्ति।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Offer gratitude to parents, teachers, and mentors (even with a message)",
+        "Read a chapter of a sacred text or listen to a guru’s teaching",
+        "Temple or home puja with simple flowers and silence",
+        "Donate books or sponsor a student’s fees if you can"
+      ],
+      "howCelebratedHi": [
+        "माता–पिता–गुरु का आभार",
+        "ग्रंथ अध्याय या सत्संग श्रवण",
+        "सरल पूजा और मौन",
+        "पुस्तक दान या छात्र सहायता"
+      ],
+      "diasporaEn": "Yoga studios from New York to Singapore schedule Guru Purnima circles; Hindu student associations hold teacher-appreciation evenings with bhajans.",
+      "diasporaHi": "न्यूयॉर्क से सिंगापुर तक योग स्टूडियो गुरु पूर्णिमा सत्संग रखते हैं; छात्र संघ आभार संध्याएँ करते हैं।",
+      "regions": [
+        {
+          "region": "India ashrams & temples",
+          "notes": "Paduka puja; Vyasa worship."
+        },
+        {
+          "region": "Global yoga & Hindu students",
+          "notes": "Gratitude circles; online guru darshan."
+        }
+      ],
+      "relatedDevotion": [
+        "vishnu-aarti",
+        "shiva-aarti"
+      ],
+      "relatedTemples": [
+        "badrinath",
+        "kashi-vishwanath",
+        "tirumala-venkateswara",
+        "belur-math"
+      ]
+    },
+    {
+      "slug": "govardhan-puja",
+      "name": "Govardhan Puja",
+      "nameHi": "गोवर्धन पूजा",
+      "importance": "high",
+      "dateNames": [
+        "Govardhan Puja"
+      ],
+      "summary": "The day after Diwali — annakut mountains of food, and Krishna lifting the hill of care.",
+      "summaryHi": "दीपावली के अगले दिन — अन्नकूट का पर्वत और गोवर्धन उठाने वाली कृष्ण कथा।",
+      "meaningEn": "Govardhan Puja (Annakut) follows Diwali in many North Indian and Pushtimarg calendars. Devotees prepare vast vegetarian offerings shaped like a mountain and remember Krishna protecting Braj from Indra’s storm.",
+      "meaningHi": "गोवर्धन पूजा/अन्नकूट दीपावली के बाद — अन्न का पर्वत और इंद्र के गर्जन से ब्रज की रक्षा की कृष्ण कथा।",
+      "storyEn": "When Braj worshipped Indra for rain, young Krishna asked why they ignored Govardhan — the hill that fed their cows. They offered to the hill instead. Indra’s pride sent floods; Krishna lifted Govardhan on a finger for seven days as umbrella. The myth turns theology toward ecological devotion: protect the land that protects you.",
+      "storyHi": "ब्रज जब इंद्र यज्ञ करता, बाल कृष्ण ने पूछा — गोवर्धन क्यों न पूजें जो गौओं को पालता है? इंद्र का अहंकार वर्षा बना; कृष्ण ने सात दिन गोवर्धन उठाया। कथा भूमि–प्रेम की ओर मोड़ती है।",
+      "mythologyEn": "Vaishnava homes build annakut — trays of grains, sweets, and vegetables. The ‘mountain’ is circumambulated; leftovers become community prasad. Abroad, temples recreate miniature Govardhan with fruit and rice.",
+      "mythologyHi": "वैष्णव घर अन्नकूट सजाते हैं — परिक्रमा और सामुदायिक प्रसाद। विदेश में फल–चावल का छोटा गोवर्धन बनता है।",
+      "deityStories": [
+        {
+          "deity": "Krishna–Govardhan",
+          "deityHi": "कृष्ण जी–गोवर्धन",
+          "en": "The lifted hill is both miracle and metaphor: divine care that shelters the humble.",
+          "hi": "उठाया पर्वत चमत्कार और रूपक दोनों — विनम्र की छत्रछाया।"
+        },
+        {
+          "deity": "Indra humbled",
+          "deityHi": "इंद्र का अहंकार",
+          "en": "Rain without gratitude becomes violence; the myth corrects transactional religion.",
+          "hi": "बिना आभार वर्षा हिंसा बनती है — कथा लेन–देन धर्म को सुधारती है।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Prepare annakut / chappan bhog as means allow",
+        "Read the Govardhan story; offer to Krishna and share prasad",
+        "Circumambulate the food-hill or a symbolic mound",
+        "Thank farmers, cattle, and the ‘hills’ that feed your city"
+      ],
+      "howCelebratedHi": [
+        "यथाशक्ति अन्नकूट/छप्पन भोग",
+        "गोवर्धन कथा; कृष्ण अर्पण व प्रसाद",
+        "अन्न–पर्वत की परिक्रमा",
+        "किसान–गौ–भूमि का स्मरण"
+      ],
+      "diasporaEn": "Haveli and ISKCON temples abroad stage dramatic annakut displays the day after Diwali — a major Instagram and search moment for ‘Annakut 2026’ style queries.",
+      "diasporaHi": "विदेशी हवेली और इस्कॉन मंदिर दीपावली के अगले दिन भव्य अन्नकूट लगाते हैं — खोज और सोशल दोनों में लोकप्रिय।",
+      "regions": [
+        {
+          "region": "Braj, Gujarat, Rajasthan, North India",
+          "notes": "Classic annakut culture."
+        },
+        {
+          "region": "Diaspora Vaishnava temples",
+          "notes": "Food-art Govardhan; volunteer kitchens."
+        }
+      ],
+      "relatedDevotion": [
+        "krishna-aarti",
+        "krishna-chalisa",
+        "janmashtami-vrat-katha"
+      ],
+      "relatedTemples": [
+        "banke-bihari-vrindavan",
+        "nathdwara-shrinathji",
+        "dwarka",
+        "iskcon-vrindavan"
+      ]
+    },
+    {
+      "slug": "rath-yatra",
+      "name": "Jagannath Rath Yatra",
+      "nameHi": "जगन्नाथ रथ यात्रा",
+      "importance": "high",
+      "dateNames": [
+        "Jagannath Rath Yatra"
+      ],
+      "summary": "When the Lord of the Universe rides a chariot — and the world pulls the rope together.",
+      "summaryHi": "जब जगन्नाथ रथ पर विराजते हैं — और संसार मिलकर रस्सी खींचता है।",
+      "meaningEn": "The Puri Rath Yatra is among Hinduism’s most visible public festivals and a growing diaspora search topic (from ISKCON raths to city parade permits). Jagannath, Balabhadra, and Subhadra leave the temple for the Gundicha yatra — god among the people.",
+      "meaningHi": "पुरी रथ यात्रा हिंदू जगत के सबसे दृश्य उत्सवों में है। जगन्नाथ, बलभद्र और सुभद्रा गुंडिचा यात्रा पर निकलते हैं — प्रभु जनों के बीच।",
+      "storyEn": "Legends speak of Krishna–Jagannath’s form, of Subhadra and Balabhadra as companions, and of a deity who accepts incomplete, wooden, compassionate shapes so all castes may serve. Pulling the chariot is itself a mythic act: the devotee’s body becomes the vehicle of the divine progress.",
+      "storyHi": "कथाएँ कृष्ण–जगन्नाथ रूप, सुभद्रा–बलभद्र संग, और उस विग्रह की हैं जो काष्ठ के करुण रूप में सबको सेवा का अधिकार देते हैं। रस्सी खींचना स्वयं कथा है — भक्त की देह दिव्य यात्रा का वाहन।",
+      "mythologyEn": "Puranic and Odia traditions layer stories of Indradyumna, the unfinished murti, and the Lord’s yearly longing to visit the garden temple. The mythology democratises darshan: the street becomes the sanctum.",
+      "mythologyHi": "इंद्रद्युम्न और अपूर्ण विग्रह की कथाएँ रथ को जन–दर्शन बनाती हैं — गली ही गर्भगृह।",
+      "deityStories": [
+        {
+          "deity": "Jagannath",
+          "deityHi": "जगन्नाथ जी",
+          "en": "Lord of the Universe in a form that invites intimate, almost childlike love — and massive public seva.",
+          "hi": "जगत के नाथ — आत्मीय प्रेम और विशाल जन सेवा दोनों आमंत्रित।"
+        },
+        {
+          "deity": "Balabhadra & Subhadra",
+          "deityHi": "बलभद्र और सुभद्रा",
+          "en": "Sibling deities on companion chariots — the yatra as a family of the divine moving through the city.",
+          "hi": "सह रथों पर सहोदर देव — नगर में चलता दिव्य परिवार।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Follow Puri or local temple schedules; respect crowd and safety rules",
+        "If abroad, join ISKCON / Odia association rath; volunteer for rope or prasad",
+        "Sing Jagannath bhajans; read a short yatra katha at home",
+        "Offer anna dana — the Lord’s festival is incomplete without feeding others"
+      ],
+      "howCelebratedHi": [
+        "पुरी/स्थानीय समय देखें; सुरक्षा रखें",
+        "विदेश में इस्कॉन/ओड़िया रथ में रस्सी या प्रसाद सेवा",
+        "जगन्नाथ भजन; घर पर संक्षिप्त कथा",
+        "अन्नदान — बिना भोजन यात्रा अधूनरी"
+      ],
+      "diasporaEn": "From New York Avenue raths to London and Melbourne parades, diaspora Rath Yatra is a top ‘Hindu festival abroad’ search companion to Diwali and Holi.",
+      "diasporaHi": "न्यूयॉर्क से लंदन–मेलबर्न तक प्रवासी रथ यात्रा दीपावली–होली के संग विदेश खोजों में ऊँची है।",
+      "regions": [
+        {
+          "region": "Puri, Odisha",
+          "notes": "The archetypal yatra; global broadcast."
+        },
+        {
+          "region": "ISKCON worldwide",
+          "notes": "City chariot festivals; heavy volunteer culture."
+        }
+      ],
+      "relatedDevotion": [
+        "vishnu-aarti",
+        "krishna-aarti",
+        "satyanarayan-vrat-katha"
+      ],
+      "relatedTemples": [
+        "jagannath-puri",
+        "iskcon-mayapur",
+        "iskcon-delhi",
+        "iskcon-bengaluru"
+      ]
+    },
+    {
+      "slug": "onam",
+      "name": "Onam",
+      "nameHi": "ओणम",
+      "importance": "high",
+      "dateNames": [
+        "Onam"
+      ],
+      "summary": "Kerala’s harvest homecoming — King Mahabali’s visit, pookalam flowers, and the Onam sadya.",
+      "summaryHi": "केरल का फसल–स्वागत — राजा महाबली की वापसी, फूलों की पൂकलम, और ओणम सद्या।",
+      "meaningEn": "Onam is Kerala’s flagship festival and a major diaspora search term wherever Malayali communities gather. It commemorates the annual return of the just asura king Mahabali (Maveli) and the land’s abundance under his remembered reign.",
+      "meaningHi": "ओणम केरल का प्रमुख पर्व और मलयाली प्रवास की बड़ी खोज है — न्यायप्रिय राजा महाबली (मावेली) की वार्षिक वापसी और समृद्धि का स्मरण।",
+      "storyEn": "Vamana, the dwarf Brahmin form of Vishnu, asked three steps of land from Mahabali. When the king offered his head for the third step, he was granted the boon to visit his people once a year. Onam is that visit: victory without humiliation — the Lord honours a devotee–king’s truthfulness.",
+      "storyHi": "वामन रूपी विष्णु ने महाबली से तीन पग भूमि माँगी। तीसरे पग हेतु जब राजा ने मस्तक झुकाया, उन्हें वर्ष में एक बार प्रजा मिलने का वर मिला। ओणम वही भेंट है — सत्य के राजा का सम्मान।",
+      "mythologyEn": "Flower carpets (pookalam), the vegetarian sadya on banana leaf, boat races, and pulikali dance dramatise a mythic golden age. The festival’s theology softens binary ‘asura = evil’: Mahabali is beloved precisely for dharma.",
+      "mythologyHi": "पूकलम, केले के पत्ते पर सद्या, वल्लमकली — पौराणिक सुवर्ण युग का नाट्य। यहाँ असुर मात्र दुष्ट नहीं — महाबली धर्म हेतु प्रिय हैं।",
+      "deityStories": [
+        {
+          "deity": "Vamana / Vishnu",
+          "deityHi": "वामन / विष्णु जी",
+          "en": "The small form that measures worlds — yet bows to the integrity of a generous king.",
+          "hi": "छोटे रूप में लोक नापते हैं — फिर भी दानी राजा की सत्यता का सम्मान करते हैं।"
+        },
+        {
+          "deity": "Mahabali",
+          "deityHi": "महाबली",
+          "en": "Not a villain in Kerala’s heart — a ruler whose yearly homecoming defines Onam joy.",
+          "hi": "केरल के हृदय में खलनायक नहीं — जिसकी वार्षिक वापसी ओणम की खुशी है।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Lay a pookalam; wear kasavu or festive Kerala attire",
+        "Cook or share an Onam sadya; invite neighbours",
+        "Tell children the Vamana–Mahabali story",
+        "Join association Onam games, music, and charity drives"
+      ],
+      "howCelebratedHi": [
+        "पूकलम; कासावु/उत्सव वस्त्र",
+        "ओणम सद्या बनाएँ या साझा करें",
+        "बच्चों को वामन–महाबली कथा सुनाएँ",
+        "संघ खेल–संगीत–दान में जुड़ें"
+      ],
+      "diasporaEn": "Malayali associations from the Gulf to the US and UK host the year’s largest sadya halls — Onam often outranks other regional festivals in local ‘Indian event’ searches.",
+      "diasporaHi": "खाड़ी से अमेरिका–ब्रिटेन तक मलयाली संघ विशाल सद्या हॉल भरते हैं — स्थानीय खोजों में ओणम अक्सर शीर्ष पर।",
+      "regions": [
+        {
+          "region": "Kerala",
+          "notes": "Ten-day Onam season; Thiruvonam climax."
+        },
+        {
+          "region": "Gulf, US, UK, Singapore",
+          "notes": "Huge association Onams; temple plus cultural centre."
+        }
+      ],
+      "relatedDevotion": [
+        "vishnu-aarti",
+        "ayyappa-aarti"
+      ],
+      "relatedTemples": [
+        "padmanabhaswamy-thiruvananthapuram",
+        "guruvayur",
+        "sabarimala",
+        "mookambika-kollur"
+      ]
+    },
+    {
+      "slug": "ugadi",
+      "name": "Ugadi",
+      "nameHi": "युगादि",
+      "importance": "high",
+      "dateNames": [
+        "Ugadi"
+      ],
+      "summary": "Telugu–Kannada New Year — bitter–sweet bevu–bella, and the reading of the year’s scroll.",
+      "summaryHi": "तेलुगु–कन्नड़ नववर्ष — बेवु–बेल्ला का कड़वा–मीठा और पंचांग श्रवण।",
+      "meaningEn": "Ugadi (Yugadi) marks the New Year for many Telugu and Kannada households, often falling with Gudi Padwa. Diaspora searches spike for ‘Ugadi pachadi recipe’ and temple special puja.",
+      "meaningHi": "युगादि तेलुगु–कन्नड़ नववर्ष — अक्सर गुड़ी पड़वा संग। प्रवास में पच्चड़ी रेसिपी और विशेष पूजा खोज बढ़ती है।",
+      "storyEn": "The day is tied to Brahma’s creation rhythms and to the turning of the lunisolar year in Chaitra. Families taste Ugadi pachadi — neem and jaggery — so the tongue learns that a year holds bitter and sweet, and courage must meet both.",
+      "storyHi": "दिन सृष्टि लय और चैत्र वर्षारंभ से जुड़ा। बेवु–बेल्ला चखकर जीभ सीखती है — वर्ष में तिक्त और मधुर दोनों आएँगे।",
+      "mythologyEn": "Panchanga sravanam (hearing the year’s forecast) continues the mythic role of time-priests: not fatalism, but readiness. Vishnu and household deities receive special abhyanga and decoration.",
+      "mythologyHi": "पंचांग श्रवण काल–पुरोहित की कथा जारी रखता है — भाग्यवाद नहीं, तैयारी। विष्णु व गृह देवता विशेष पूजा पाते हैं।",
+      "deityStories": [
+        {
+          "deity": "Brahma & Kaala",
+          "deityHi": "ब्रह्मा जी और काल",
+          "en": "New Year as conscious entry into time — creation renewed in the household calendar.",
+          "hi": "नववर्ष काल में सचेत प्रवेश — गृह कैलेंडर में सृष्टि का पुनःआरंभ।"
+        },
+        {
+          "deity": "Vishnu",
+          "deityHi": "विष्णु जी",
+          "en": "Preserver of order through the year’s changes; many temples hold special Ugadi alankaram.",
+          "hi": "वर्ष के परिवर्तन में व्यवस्था के पालक; मंदिरों में विशेष अलंकारम।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Oil bath and fresh clothes; decorate the entrance",
+        "Prepare Ugadi pachadi; share with neighbours",
+        "Listen to panchanga sravanam at temple or online",
+        "Set one ethical intention for the year"
+      ],
+      "howCelebratedHi": [
+        "अभ्यंग स्नान–नये वस्त्र; तोरण",
+        "युगादि पच्चड़ी; पड़ोस संग बाँटें",
+        "पंचांग श्रवण",
+        "वर्ष हेतु एक नैतिक संकल्प"
+      ],
+      "diasporaEn": "Telugu and Kannada sanghams abroad run Ugadi sabhas with classical music — a cornerstone ‘South Indian New Year’ search cluster alongside Puthandu and Vishu.",
+      "diasporaHi": "तेलुगु–कन्नड़ संघ युगादि सभाएँ रखते हैं — पुत्तंडु–विषु के संग दक्षिण नववर्ष खोज का स्तंभ।",
+      "regions": [
+        {
+          "region": "Andhra, Telangana, Karnataka",
+          "notes": "Core Ugadi culture."
+        },
+        {
+          "region": "US & Gulf Telugu belts",
+          "notes": "Large sabhas; pachadi contests."
+        }
+      ],
+      "relatedDevotion": [
+        "vishnu-aarti",
+        "satyanarayan-vrat-katha"
+      ],
+      "relatedTemples": [
+        "tirumala-venkateswara",
+        "kanaka-durga-vijayawada",
+        "yadagirigutta",
+        "udupi-krishna"
+      ]
+    },
+    {
+      "slug": "vaisakhi",
+      "name": "Vaisakhi / Vishu / Puthandu",
+      "nameHi": "वैसाखी · विषु · पुत्तंडु",
+      "importance": "high",
+      "dateNames": [
+        "Vaisakhi / Vishu / Puthandu"
+      ],
+      "summary": "April harvest new years — Baisakhi joy, Vishu kani, and Tamil Puthandu beginnings.",
+      "summaryHi": "अप्रैल फसल नववर्ष — बैसाखी आनंद, विषु कणि, और तमिल पुत्तंडु।",
+      "meaningEn": "Mid-April brings interleaved New Year / harvest festivals across North and South — heavily searched by diaspora families coordinating school leave and temple visits.",
+      "meaningHi": "अप्रैल मध्य उत्तरी–दक्षिणी नववर्ष/फसल पर्व — प्रवासी परिवार छुट्टी और मंदिर समय जोड़ते हुए खोजते हैं।",
+      "storyEn": "Solar transition into Mesha (Aries) underpins many of these observances. Folklore and regional epics bless the first sight of auspicious objects (Vishu kani), the opening of new account books, and thanksgiving for wheat and rice harvests. Sikh history also marks Vaisakhi as a day of communal courage — neighbouring Hindu households often share the season’s melas in friendship.",
+      "storyHi": "मेष संक्रांति कई रीतियों का आधार। विषु कणि की शुभ दृष्टि, नये खाते, फसल आभार। सिख इतिहास में वैसाखी साहस का दिन भी — पड़ोसी हिंदू परिवार मेले की मैत्री बाँटते हैं।",
+      "mythologyEn": "The mythology is solar and agrarian: Surya’s clarity, Annapurna’s grain, and the ethical reset of a fiscal–ritual year. Diversity is the point — one sky, many kitchens.",
+      "mythologyHi": "सौर–कृषि कथा — सूर्य स्पष्टता, अन्नपूर्णा का धान्य, नैतिक वर्षारंभ। एक आकाश, अनेक रसोई।",
+      "deityStories": [
+        {
+          "deity": "Surya & Annapurna",
+          "deityHi": "सूर्य और अन्नपूर्णा",
+          "en": "Harvest thanks to light and food — the oldest festival grammar.",
+          "hi": "प्रकाश और अन्न का आभार — सबसे पुरानी उत्सव भाषा।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Temple visit; wear new clothes; share regional sweets",
+        "Vishu: arrange kani (mirror, rice, fruit, gold, scripture) for first sight",
+        "Puthandu / Baisakhi: family feast and community fair if available",
+        "Donate grain or cook for someone who needs a meal"
+      ],
+      "howCelebratedHi": [
+        "मंदिर; नये वस्त्र; क्षेत्रीय मिठाई",
+        "विषु कणि सजावट",
+        "पुत्तंडु/बैसाखी परिवार भोज–मेला",
+        "अन्न दान या किसी को भोजन"
+      ],
+      "diasporaEn": "Gurdwara and Hindu temple complexes abroad often sit within the same April weekend calendar — practical guides should list both respectfully.",
+      "diasporaHi": "विदेश में गुरुद्वारा और हिंदू मंदिर एक ही सप्ताहांत कैलेंडर में आते हैं — दोनों का सम्मान जरूरी।",
+      "regions": [
+        {
+          "region": "Punjab & North",
+          "notes": "Baisakhi harvest melas."
+        },
+        {
+          "region": "Kerala & Tamil Nadu",
+          "notes": "Vishu and Puthandu home rites."
+        },
+        {
+          "region": "Diaspora",
+          "notes": "Combined cultural association events."
+        }
+      ],
+      "relatedDevotion": [
+        "ganga-aarti",
+        "vishnu-aarti"
+      ],
+      "relatedTemples": [
+        "guruvayur",
+        "meenakshi-madurai",
+        "tirumala-venkateswara",
+        "gangotri"
+      ]
+    },
+    {
+      "slug": "dhanteras",
+      "name": "Dhanteras",
+      "nameHi": "धनतेरस",
+      "importance": "high",
+      "dateNames": [
+        "Dhanteras"
+      ],
+      "summary": "Diwali week begins — Dhanvantari’s pot of health, Lakshmi’s welcome, and mindful prosperity.",
+      "summaryHi": "दीपावली सप्ताहारंभ — धन्वंतरि का आरोग्य कलश, लक्ष्मी स्वागत, और सचेत समृद्धि।",
+      "meaningEn": "Dhanteras (Dhantrayodashi) opens the Diwali cluster and dominates pre-Diwali search charts for muhurat and shopping. Older dharma remembers Dhanvantari rising from the ocean with amrita and the physician’s art.",
+      "meaningHi": "धनतेरस दीपावली श्रृंखला खोलता है — मुहूर्त/खरीद खोजों में शीर्ष। प्राचीन स्मृति में समुद्र से धन्वंतरि अमृत–कलश संग emerg हुए।",
+      "storyEn": "During the Samudra Manthan, Lord Dhanvantari appeared bearing the nectar pot — mythic source of Ayurveda. Homes light lamps for Yama in some customs (to push back untimely death) and buy metal utensils or coins as symbols of household stability. The story’s edge: wealth that ignores health is incomplete; the physician–god arrives before the night of lamps.",
+      "storyHi": "समुद्र मंथन में धन्वंतरि अमृत कलश लेकर प्रकट हुए — आयुर्वेद की पौराणिक जड़। कुछ घर यम दीप जलाते हैं; धातु बर्तन/सिक्के स्थिरता के चिह्न। कथा कहती है — बिना आरोग्य धन अधूरा।",
+      "mythologyEn": "Lakshmi–Kubera worship on this evening ties prosperity to orderly accounts. Ethical guides stress: do not let market frenzy erase dana and debt repayment.",
+      "mythologyHi": "लक्ष्मी–कुबेर पूजा समृद्धि को व्यवस्थित हिसाब से जोड़ती है। बाजार हड़बड़ी दान और ऋण शुद्धि न मिटाए।",
+      "deityStories": [
+        {
+          "deity": "Dhanvantari",
+          "deityHi": "धन्वंतरि जी",
+          "en": "Divine physician — pray for healers, medicines, and the body’s longevity before festive excess.",
+          "hi": "दिव्य वैद्य — उत्सव से पहले आरोग्य और चिकित्सकों हेतु प्रार्थना।"
+        },
+        {
+          "deity": "Lakshmi",
+          "deityHi": "लक्ष्मी जी",
+          "en": "Invited with clean thresholds and honest ledgers — prosperity as responsibility.",
+          "hi": "स्वच्छ द्वार और सत्य खातों संग आमंत्रित — समृद्धि जिम्मेदारी है।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Clean and light the entrance; optional Yama deepak as family custom",
+        "Dhanvantari / Lakshmi puja; buy something useful for the home if you wish",
+        "Prefer quality and need over panic shopping",
+        "Set aside charity before festive spending"
+      ],
+      "howCelebratedHi": [
+        "द्वार स्वच्छ–दीप; रीति से यम दीपक",
+        "धन्वंतरि/लक्ष्मी पूजा; उपयोगी गृह वस्तु",
+        "हड़बड़ी खरीद से बचें",
+        "खर्च से पूर्व दान अंश"
+      ],
+      "diasporaEn": "Overseas Indians search ‘Dhanteras outside India’ for temple Lakshmi hours and bullion shop timings — pair with a short Dhanvantari prayer in community newsletters.",
+      "diasporaHi": "प्रवासी ‘Dhanteras’ मंदिर समय और धातु खरीद खोजते हैं — न्यूज़लेटर में धन्वंतरि प्रार्थना जोड़ें।",
+      "regions": [
+        {
+          "region": "Pan-India",
+          "notes": "Market rush + home puja."
+        },
+        {
+          "region": "Diaspora",
+          "notes": "Temple evening aarti; symbolic coin puja."
+        }
+      ],
+      "relatedDevotion": [
+        "lakshmi-aarti",
+        "satyanarayan-vrat-katha",
+        "ganesha-aarti"
+      ],
+      "relatedTemples": [
+        "mahalaxmi-kolhapur",
+        "tirumala-venkateswara",
+        "padmanabhaswamy-thiruvananthapuram",
+        "kashi-vishwanath"
+      ]
+    },
+    {
+      "slug": "kartik-purnima",
+      "name": "Kartik Purnima",
+      "nameHi": "कार्तिक पूर्णिमा",
+      "importance": "high",
+      "dateNames": [
+        "Kartik Purnima"
+      ],
+      "summary": "The full moon of lamps — Tripura’s fall, Dev Deepavali on the ghats, and Kartik’s closing glory.",
+      "summaryHi": "दीपों की पूर्णिमा — त्रिपुरासुर वध, घाटों पर देव दीपावली, कार्तिक की शोभा।",
+      "meaningEn": "Kartik Purnima (Tripuri Purnima) is a top late-autumn pilgrimage and lamp-festival search, especially for Varanasi’s Dev Deepavali and sacred baths.",
+      "meaningHi": "कार्तिक पूर्णिमा देर पतझड़ की बड़ी खोज — काशी देव दीपावली और पुण्य स्नान।",
+      "storyEn": "One central telling: Shiva destroyed the three flying cities of the Tripurasuras with a single arrow when they aligned — a myth of timing, focus, and the end of arrogance. Rivers and tanks glow with lamps as if the gods themselves were celebrating Diwali (Dev Deepavali).",
+      "storyHi": "कथा: शिव जी ने त्रिपुरासुर के तीन उड़ते पुरों को एक बाण से तब भेदा जब वे एक रेखा में आए — समय, एकाग्रता, अहंकार का अंत। घाट दीपों से जगमगाते हैं मानो देव स्वयं दीपावली मना रहे हों।",
+      "mythologyEn": "Kartik’s month already braids Vishnu’s awakening, Tulsi rites, and Surya vows; the Purnima gathers them into a luminous finale. Sikh tradition also marks Guru Nanak Jayanti on or near this full moon in many years — share public space with courtesy.",
+      "mythologyHi": "कार्तिक में विष्णु जागरण, तुलसी और सूर्य व्रत पहले से हैं; पूर्णिमा उन्हें ज्योतिर्मय समापन देती है। कई वर्षों गुरु नानक जयंती निकट — सार्वजनिक शिष्टाचार रखें।",
+      "deityStories": [
+        {
+          "deity": "Shiva–Tripurantaka",
+          "deityHi": "त्रिपुरारी शिव जी",
+          "en": "The archer of perfect moment — evil cities fall when ego’s orbits coincide.",
+          "hi": "पूर्ण क्षण के धनुर्धर — अहंकार की कक्षाएँ मिलें तब ही गिरें।"
+        },
+        {
+          "deity": "Ganga & the ghats",
+          "deityHi": "गंगा जी और घाट",
+          "en": "Dev Deepavali turns the river into a mirror of heaven’s lamps.",
+          "hi": "देव दीपावली नदी को स्वर्गीय दीपों का दर्पण बनाती है।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Light rows of diyas at home or on safe public ghats",
+        "Take a holy bath if custom and health allow; recite Shiva or Vishnu names",
+        "Offer deep dana; avoid littering water bodies",
+        "Read a short Tripura story; keep Kartik vows gently closed"
+      ],
+      "howCelebratedHi": [
+        "घर/सुरक्षित घाट पर दीप पंक्ति",
+        "रीति–स्वास्थ्य अनुसार स्नान; शिव/विष्णु नाम",
+        "दीप दान; जल प्रदूषण न करें",
+        "त्रिपुर कथा; कार्तिक व्रत शांति से पूर्ण करें"
+      ],
+      "diasporaEn": "Travel searches for ‘Varanasi Dev Deepavali’ dominate abroad; temples overseas host lamp gardens as local echoes.",
+      "diasporaHi": "‘वाराणसी देव दीपावली’ यात्रा खोज विदेश में ऊँची; प्रवासी मंदिर दीप उद्यान सजाते हैं।",
+      "regions": [
+        {
+          "region": "Varanasi & river towns",
+          "notes": "Dev Deepavali spectacle."
+        },
+        {
+          "region": "Pan-India Kartik closings",
+          "notes": "Temple lamp festivals."
+        },
+        {
+          "region": "Diaspora",
+          "notes": "Lamp gardens; cultural Kartik evenings."
+        }
+      ],
+      "relatedDevotion": [
+        "shiva-aarti",
+        "ganga-aarti",
+        "vishnu-aarti"
+      ],
+      "relatedTemples": [
+        "kashi-vishwanath",
+        "gangotri",
+        "rameswaram",
+        "trimbakeshwar"
+      ]
+    },
+    {
+      "slug": "hartalika-teej",
+      "name": "Hartalika Teej",
+      "nameHi": "हरतालिका तीज",
+      "importance": "high",
+      "dateNames": [
+        "Hartalika Teej"
+      ],
+      "summary": "Parvati’s monsoon vow — green bangles, night jagran, and a fast for Shiva’s grace.",
+      "summaryHi": "पार्वती जी का वर्षा व्रत — हरी चूड़ियाँ, रात्रि जागरण, शिव कृपा हेतु उपवास।",
+      "meaningEn": "Hartalika Teej is a major women’s festival search in North and West India (and among diaspora from those regions), centred on Parvati Ji’s austerity to obtain Shiva Ji as husband.",
+      "meaningHi": "हरतालिका तीज उत्तर–पश्चिम भारत की बड़ी स्त्री पर्व खोज — पार्वती जी की तपस्या से शिव जी वर रूप में।",
+      "storyEn": "The name remembers ‘harit’ (abduction/withdrawal) and ‘aalika’ (friend): Parvati slipped away with a companion to forest tapasya when her penance was obstructed. Shiva tested and accepted her. Teej’s swings, green dress, and night stories reenact longing that matures into household shakti.",
+      "storyHi": "‘हरत’ और सखी संग वन तप की कथा — बाधा आने पर पार्वती जी तप हेतु निकलीं; शिव ने परीक्षा कर स्वीकारा। झूला, हरा वस्त्र, रात्रि कथा — लौ लगन जो गृह शक्ति बने।",
+      "mythologyEn": "Sister Teej festivals (Hariyali Teej, Kajari Teej) share monsoon mythology: earth greening as Parvati’s joy. Hartalika emphasises nirjala or fruit fasts and listening to the Teej katha with friends.",
+      "mythologyHi": "हरियाली/कजरी तीज बहनें — वर्षा में धरती हरियाली पार्वती आनंद। हरतालिका में व्रत और सखियों संग कथा।",
+      "deityStories": [
+        {
+          "deity": "Parvati",
+          "deityHi": "पार्वती जी",
+          "en": "The yogini who chooses Shiva — autonomy inside devotion.",
+          "hi": "शिव चुनती योगिनी — भक्ति के भीतर स्वायत्तता।"
+        },
+        {
+          "deity": "Shiva",
+          "deityHi": "शिव जी",
+          "en": "The ascetic husband won not by force but by Parvati’s unbroken tapas.",
+          "hi": "तप से वर — बल से नहीं, अखंड साधना से।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Dress in green/bridal colours as custom; gather with friends",
+        "Keep the Teej fast wisely; night jagran with songs and katha",
+        "Shiva–Parvati puja; offer seasonal fruits and mehndi",
+        "Read Hartalika Teej vrat katha before breaking the fast"
+      ],
+      "howCelebratedHi": [
+        "रीति से हरा/सुहाग रंग; सखी संग",
+        "यथाशक्ति व्रत; रात्रि जागरण–गीत",
+        "शिव–पार्वती पूजा; मेहँदी–फल",
+        "पारण से पूर्व हरतालिका व्रत कथा"
+      ],
+      "diasporaEn": "Community centres in the US/UK host Teej mehndi nights — often the largest women-led Hindu cultural search around monsoon’s end.",
+      "diasporaHi": "अमेरिका/ब्रिटेन में तीज मेहँदी रातें — वर्षा अंत की बड़ी महिला–नेतृत्व सांस्कृतिक खोज।",
+      "regions": [
+        {
+          "region": "Rajasthan, UP, Bihar, MP, Maharashtra",
+          "notes": "Strong Teej customs (forms vary)."
+        },
+        {
+          "region": "Diaspora",
+          "notes": "Mehndi + katha evenings in associations."
+        }
+      ],
+      "relatedDevotion": [
+        "teej-vrat-katha",
+        "shiva-aarti",
+        "devi-aarti"
+      ],
+      "relatedTemples": [
+        "vaishno-devi",
+        "ambaji",
+        "mahakaleshwar-ujjain",
+        "kashi-vishwanath"
+      ]
+    },
+    {
+      "slug": "vat-savitri",
+      "name": "Vat Savitri",
+      "nameHi": "वट सावित्री",
+      "importance": "high",
+      "dateNames": [
+        "Vat Savitri",
+        "Vat Purnima"
+      ],
+      "summary": "Savitri’s victory over death — banyan threads, and a vow for a beloved’s life.",
+      "summaryHi": "सावित्री की मृत्यु पर विजय — वट सूत्र, और प्रिय के जीवन का व्रत।",
+      "meaningEn": "Vat Savitri / Vat Purnima is a classic women’s vrat with enduring search demand, retelling how Savitri followed Yama and won Satyavan back through wisdom and steadfast love.",
+      "meaningHi": "वट सावित्री/वट पूर्णिमा क्लासिक स्त्री व्रत — सावित्री यम के पीछे चलीं और विवेक से सत्यवान को वापस लाईं।",
+      "storyEn": "Savitri chose Satyavan knowing his short life. On the fated day she walked with him to the forest; when Yama drew his soul, she followed with reasoned speech and unbroken loyalty until boons restored her husband’s life and lineage. Women tie threads around a banyan (vat) — the tree of shelter and long memory.",
+      "storyHi": "सावित्री ने अल्पायु जानकर भी सत्यवान चुना। निर्धारित दिन वन में यम प्राण ले गए; वे तर्क और भक्ति से पीछे रहीं याब तक वर मिले। महिलाएँ वट पर धागे बाँधती हैं — आश्रय और दीर्घ स्मृति का वृक्ष।",
+      "mythologyEn": "The mythology elevates buddhi-bhakti: love that can debate death without hatred. Regional tithi differs (Amavasya in parts of the North; Purnima in the West) — always confirm locally.",
+      "mythologyHi": "कथा बुद्धि–भक्ति उठाती है — मृत्यु से द्वेष रहित संवाद। तिथि क्षेत्रानुसार भिन्न — स्थानीय पुष्टि करें।",
+      "deityStories": [
+        {
+          "deity": "Savitri & Satyavan",
+          "deityHi": "सावित्री और सत्यवान",
+          "en": "Human heroes of the Mahabharata/Puranic stream — courage in marriage as spiritual practice.",
+          "hi": "मानवीय नायक — विवाह में साहस ही साधना।"
+        },
+        {
+          "deity": "Yama",
+          "deityHi": "यम जी",
+          "en": "Lord of order who yields not to force but to dharma spoken truly.",
+          "hi": "व्यवस्था के देव — बल नहीं, सत्य धर्म से मानते हैं।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Fast as health allows; worship the banyan or a symbolic tree/plant",
+        "Tie sacred thread; listen to Vat Savitri vrat katha",
+        "Offer fruits and water; pray for family longevity and integrity",
+        "Share the story with younger women and men alike — wisdom is not gated"
+      ],
+      "howCelebratedHi": [
+        "यथाशक्ति व्रत; वट या प्रतीक वृक्ष पूजा",
+        "धागा बाँधें; वट सावित्री कथा सुनें",
+        "फल–जल अर्पण; दीर्घायु–सत्यता की प्रार्थना",
+        "कथा युवा पीढ़ी संग बाँटें"
+      ],
+      "diasporaEn": "Park banyans are rare abroad — devotees use potted trees, courtyard figs, or temple vat installations for the thread rite.",
+      "diasporaHi": "विदेश में वट दुर्लभ — गमलों/मंदिर वट प्रतिस्थापन पर धागा रीति।",
+      "regions": [
+        {
+          "region": "North India",
+          "notes": "Often Vat Savitri on Jyeshtha Amavasya."
+        },
+        {
+          "region": "Maharashtra & West",
+          "notes": "Vat Purnima emphasis."
+        },
+        {
+          "region": "Diaspora",
+          "notes": "Symbolic tree + katha circles."
+        }
+      ],
+      "relatedDevotion": [
+        "vat-savitri-vrat-katha",
+        "devi-aarti"
+      ],
+      "relatedTemples": [
+        "mahalaxmi-kolhapur",
+        "tuljapur-bhavani",
+        "vaishno-devi",
+        "ambaji"
+      ]
     }
   ]
 }

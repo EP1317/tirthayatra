@@ -12,6 +12,14 @@ This project follows [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PA
 
 The current version is in [`VERSION`](./VERSION). Released versions should also be git tags (`v0.3.0`, etc.) so any earlier build can be checked out or promoted on Vercel.
 
+## [0.4.0] - 2026-08-09
+
+### Added
+- **16 high-search festival guides** (India + diaspora): Karva Chauth, Chhath, Ram Navami, Hanuman Jayanti, Vasant Panchami, Akshaya Tritiya, Guru Purnima, Govardhan Puja, Jagannath Rath Yatra, Onam, Ugadi, Vaisakhi/Vishu/Puthandu, Dhanteras, Kartik Purnima, Hartalika Teej, Vat Savitri
+- **7 new vrat kathas** as original TirthaYatra retellings (AdSense/copyright-safe): Karva Chauth, Chhath, Satyanarayan, Teej, Vat Savitri, Maha Shivaratri, Ahoi Ashtami
+- Calendar dates for Onam, Ugadi, Teej, Vat Savitri/Purnima, Dhanteras, Ahoi Ashtami, Kartik Purnima; Chhath date corrected off Kartik Purnima day
+- Festival/devotion disclaimers clarified for original retellings vs classical hymns
+
 ## [0.3.1] - 2026-08-07
 
 ### Added
