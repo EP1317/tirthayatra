@@ -2,3 +2,14 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.tirthayatraonline.in/sitemap.xml
+Sitemap: https://www.tirthayatraonline.in/sitemap-all.xml
+Sitemap: https://www.tirthayatraonline.in/sitemaps/sitemap-core.xml
+Sitemap: https://www.tirthayatraonline.in/sitemaps/sitemap-temples.xml
+Sitemap: https://www.tirthayatraonline.in/sitemaps/sitemap-devotion.xml
+Sitemap: https://www.tirthayatraonline.in/sitemaps/sitemap-festivals.xml
+Sitemap: https://www.tirthayatraonline.in/sitemaps/sitemap-stories.xml
+Sitemap: https://www.tirthayatraonline.in/sitemaps/sitemap-states.xml
+Sitemap: https://www.tirthayatraonline.in/sitemaps/sitemap-circuits.xml
+Sitemap: https://www.tirthayatraonline.in/sitemaps/sitemap-deities.xml
+Sitemap: https://www.tirthayatraonline.in/sitemaps/sitemap-pages.xml
+Sitemap: https://www.tirthayatraonline.in/sitemaps/sitemap-images.xml

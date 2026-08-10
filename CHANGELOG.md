@@ -12,6 +12,14 @@ This project follows [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PA
 
 The current version is in [`VERSION`](./VERSION). Released versions should also be git tags (`v0.3.0`, etc.) so any earlier build can be checked out or promoted on Vercel.
 
+## [0.5.2] - 2026-08-10
+
+### Added
+- **Split sitemaps for every public page** — `sitemap.xml` is now a sitemap index pointing to section files under `/sitemaps/`:
+  - temples (283), devotion (49), festivals (29), stories (36), states (29), circuits (11), deities (9), core hubs, legal pages
+  - **image sitemap** for 231 temples with Wikimedia photos
+- Combined flat fallback at `/sitemap-all.xml`; `robots.txt` lists the index and all child sitemaps
+
 ## [0.5.1] - 2026-08-09
 
 ### Added

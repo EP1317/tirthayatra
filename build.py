@@ -1831,6 +1831,50 @@ def sitemap_loc(path: str) -> str:
     return f"{SITE_URL}/{path}"
 
 
+def _sitemap_url_entry(
+    path: str,
+    *,
+    lastmod: str,
+    changefreq: str = "weekly",
+    priority: str = "0.5",
+    images: list[dict] | None = None,
+) -> str:
+    parts = [
+        "  <url>",
+        f"    <loc>{e(sitemap_loc(path))}</loc>",
+        f"    <lastmod>{lastmod}</lastmod>",
+        f"    <changefreq>{changefreq}</changefreq>",
+        f"    <priority>{priority}</priority>",
+    ]
+    for img in images or []:
+        loc = img.get("loc") or ""
+        if not loc:
+            continue
+        parts.append("    <image:image>")
+        parts.append(f"      <image:loc>{e(loc)}</image:loc>")
+        if img.get("title"):
+            parts.append(f"      <image:title>{e(img['title'])}</image:title>")
+        if img.get("caption"):
+            parts.append(f"      <image:caption>{e(img['caption'])}</image:caption>")
+        parts.append("    </image:image>")
+    parts.append("  </url>")
+    return "\n".join(parts)
+
+
+def _write_urlset(path: Path, entries: list[str], *, with_images: bool = False) -> None:
+    ns = 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"'
+    if with_images:
+        ns += '\n        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"'
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        f"<urlset {ns}>\n"
+        + "\n".join(entries)
+        + "\n</urlset>\n"
+    )
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(xml, encoding="utf-8")
+
+
 def write_sitemap(
     temples: list,
     circuits: list,
@@ -1838,87 +1882,253 @@ def write_sitemap(
     *,
     lastmod: str | None = None,
 ) -> int:
-    """Write sitemap.xml covering public HTML pages. Returns URL count."""
+    """Write sitemap index + per-section sitemaps for every public HTML page.
+
+    Returns total URL count across child sitemaps (home counted once).
+    """
     from datetime import date
 
     lastmod = lastmod or date.today().isoformat()
-    urls: list[tuple[str, str, str]] = []  # loc path, changefreq, priority
+    out_dir = ROOT / "sitemaps"
 
-    def add(path: str, changefreq: str = "weekly", priority: str = "0.5") -> None:
-        urls.append((path, changefreq, priority))
+    # Clear previous child sitemaps so renamed files do not linger.
+    if out_dir.exists():
+        for old in out_dir.glob("sitemap-*.xml"):
+            old.unlink()
 
-    add("index.html", "daily", "1.0")
-    add("temples/index.html", "weekly", "0.8")
-    add("circuits/index.html", "weekly", "0.8")
-    add("deities/index.html", "weekly", "0.8")
-    add("states/index.html", "weekly", "0.7")
-    add("devotion/index.html", "weekly", "0.8")
-    add("devotion/aarti.html", "weekly", "0.8")
-    add("devotion/chalisa.html", "weekly", "0.8")
-    add("devotion/vrat-katha.html", "weekly", "0.8")
-    add("festivals/index.html", "weekly", "0.8")
-    add("festivals/calendar.html", "daily", "0.85")
-    add("stories/index.html", "weekly", "0.8")
-    add("devotion/daily.html", "daily", "0.85")
-    add("my-board.html", "monthly", "0.5")
+    groups: dict[str, list[tuple]] = {
+        "core": [],
+        "temples": [],
+        "devotion": [],
+        "festivals": [],
+        "stories": [],
+        "states": [],
+        "circuits": [],
+        "deities": [],
+        "pages": [],
+        "images": [],
+    }
+    # entry shape: (path, changefreq, priority, lastmod_override|None, images|None)
 
-    for fest in FESTIVAL_GUIDE.get("festivals", []):
-        add(f"festivals/{fest['slug']}.html", "monthly", "0.75")
-    for story in STORIES.get("stories", []):
-        add(f"stories/{story['slug']}.html", "monthly", "0.7")
+    def add(
+        group: str,
+        path: str,
+        changefreq: str = "weekly",
+        priority: str = "0.5",
+        *,
+        item_lastmod: str | None = None,
+        images: list[dict] | None = None,
+    ) -> None:
+        groups[group].append((path, changefreq, priority, item_lastmod, images))
 
-    for c in circuits:
-        add(f"circuits/{c['slug']}.html", "monthly", "0.7")
+    # —— Core hubs ——
+    add("core", "index.html", "daily", "1.0")
+    add("core", "temples/index.html", "weekly", "0.9")
+    add("core", "circuits/index.html", "weekly", "0.8")
+    add("core", "deities/index.html", "weekly", "0.8")
+    add("core", "states/index.html", "weekly", "0.7")
+    add("core", "devotion/index.html", "weekly", "0.8")
+    add("core", "devotion/aarti.html", "weekly", "0.8")
+    add("core", "devotion/chalisa.html", "weekly", "0.8")
+    add("core", "devotion/vrat-katha.html", "weekly", "0.8")
+    add("core", "devotion/daily.html", "daily", "0.85")
+    add("core", "festivals/index.html", "weekly", "0.8")
+    add("core", "festivals/calendar.html", "daily", "0.85")
+    add("core", "stories/index.html", "weekly", "0.8")
+    add("core", "my-board.html", "monthly", "0.5")
+
+    # —— Individual temples (+ image sitemap entries where licensed photos exist) ——
+    for t in temples:
+        slug = t["slug"]
+        path = f"temples/{slug}.html"
+        t_last = t.get("lastUpdated") or lastmod
+        add("temples", path, "monthly", "0.7", item_lastmod=t_last)
+        media = MEDIA.get(slug) or {}
+        local = media.get("local")
+        if local and (ROOT / local).exists():
+            title = t.get("name") or slug
+            caption = t.get("famousFor") or t.get("summary") or title
+            add(
+                "images",
+                path,
+                "monthly",
+                "0.6",
+                item_lastmod=t_last,
+                images=[
+                    {
+                        "loc": sitemap_loc(local),
+                        "title": title,
+                        "caption": caption[:200],
+                    }
+                ],
+            )
+
+    # —— Devotion items (aarti / chalisa / vrat katha) ——
+    for item in devotion_items():
+        add("devotion", f"devotion/{item['slug']}.html", "monthly", "0.65")
 
     for fam in DEITIES:
-        if any(fam in (t.get("deityFamilies") or []) for t in temples):
-            add(f"deities/{fam}.html", "monthly", "0.7")
-        if any(i.get("deity") == fam for i in devotion_items()):
-            add(f"devotion/deity-{fam}.html", "monthly", "0.6")
+        if (OUT_DEVOTION / f"deity-{fam}.html").exists() or any(
+            i.get("deity") == fam for i in devotion_items()
+        ):
+            add("devotion", f"devotion/deity-{fam}.html", "monthly", "0.6")
 
+    # —— Festivals ——
+    for fest in FESTIVAL_GUIDE.get("festivals", []):
+        add("festivals", f"festivals/{fest['slug']}.html", "monthly", "0.75")
+
+    # —— Stories ——
+    for story in STORIES.get("stories", []):
+        add("stories", f"stories/{story['slug']}.html", "monthly", "0.7")
+
+    # —— States ——
     for state in states:
-        add(f"states/{state_slug(state)}.html", "monthly", "0.6")
+        add("states", f"states/{state_slug(state)}.html", "monthly", "0.6")
 
-    for t in temples:
-        add(f"temples/{t['slug']}.html", "monthly", "0.7")
+    # —— Circuits ——
+    for c in circuits:
+        add("circuits", f"circuits/{c['slug']}.html", "monthly", "0.7")
 
-    for item in devotion_items():
-        add(f"devotion/{item['slug']}.html", "monthly", "0.6")
+    # —— Deity hubs (every deity page that exists / is defined) ——
+    for fam in DEITIES:
+        add("deities", f"deities/{fam}.html", "monthly", "0.7")
 
+    # —— Legal / about ——
     for slug in ("about", "contact", "feedback", "privacy", "disclaimer", "terms"):
-        add(f"pages/{slug}.html", "yearly", "0.3")
+        add("pages", f"pages/{slug}.html", "yearly", "0.3")
 
-    # Deduplicate while preserving order
-    seen: set[str] = set()
-    entries = []
-    for path, changefreq, priority in urls:
-        if path in seen:
-            continue
-        seen.add(path)
-        entries.append(
-            "  <url>\n"
-            f"    <loc>{e(sitemap_loc(path))}</loc>\n"
-            f"    <lastmod>{lastmod}</lastmod>\n"
-            f"    <changefreq>{changefreq}</changefreq>\n"
-            f"    <priority>{priority}</priority>\n"
-            "  </url>"
-        )
-
-    xml = (
-        '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        + "\n".join(entries)
-        + "\n</urlset>\n"
+    # Safety net: any public HTML on disk not already listed
+    known: set[str] = set()
+    for g_entries in groups.values():
+        for path, *_rest in g_entries:
+            known.add(path)
+    public_dirs = (
+        OUT_TEMPLES,
+        OUT_CIRCUITS,
+        OUT_DEITIES,
+        OUT_STATES,
+        OUT_DEVOTION,
+        OUT_FESTIVALS,
+        OUT_STORIES,
+        OUT_PAGES,
     )
-    (ROOT / "sitemap.xml").write_text(xml, encoding="utf-8")
-    (ROOT / "robots.txt").write_text(
-        "User-agent: *\n"
-        "Allow: /\n"
-        "\n"
-        f"Sitemap: {SITE_URL}/sitemap.xml\n",
+    orphan_group = {
+        "temples": "temples",
+        "circuits": "circuits",
+        "deities": "deities",
+        "states": "states",
+        "devotion": "devotion",
+        "festivals": "festivals",
+        "stories": "stories",
+        "pages": "pages",
+    }
+    for folder in public_dirs:
+        if not folder.exists():
+            continue
+        for html_path in sorted(folder.glob("*.html")):
+            rel = f"{folder.name}/{html_path.name}"
+            if rel in known or html_path.name == "index.html":
+                continue
+            # Skip known duplicates / redirects not in index
+            if folder.name == "temples" and not (DATA / "temples" / f"{html_path.stem}.json").exists():
+                continue
+            g = orphan_group.get(folder.name, "pages")
+            add(g, rel, "monthly", "0.5")
+            known.add(rel)
+
+    # Write child sitemaps
+    child_files: list[tuple[str, int]] = []
+    total_urls = 0
+    for name, entries_raw in groups.items():
+        if not entries_raw:
+            continue
+        seen: set[str] = set()
+        entries: list[str] = []
+        with_images = name == "images"
+        for path, changefreq, priority, item_lastmod, images in entries_raw:
+            # Images sitemap may repeat temple paths; allow one entry per path there
+            key = path if not with_images else f"img:{path}"
+            if key in seen:
+                continue
+            seen.add(key)
+            entries.append(
+                _sitemap_url_entry(
+                    path,
+                    lastmod=item_lastmod or lastmod,
+                    changefreq=changefreq,
+                    priority=priority,
+                    images=images,
+                )
+            )
+        if not entries:
+            continue
+        fname = f"sitemap-{name}.xml"
+        _write_urlset(out_dir / fname, entries, with_images=with_images)
+        child_files.append((fname, len(entries)))
+        total_urls += len(entries)
+
+    # sitemap.xml = index
+    index_body = "\n".join(
+        "  <sitemap>\n"
+        f"    <loc>{e(sitemap_loc(f'sitemaps/{fname}'))}</loc>\n"
+        f"    <lastmod>{lastmod}</lastmod>\n"
+        "  </sitemap>"
+        for fname, _n in child_files
+    )
+    (ROOT / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f"{index_body}\n"
+        "</sitemapindex>\n",
         encoding="utf-8",
     )
-    return len(entries)
+
+    # Also keep a flat combined urlset for tools that expect a single urlset at /sitemap-all.xml
+    combined: list[str] = []
+    seen_all: set[str] = set()
+    for name in (
+        "core",
+        "temples",
+        "devotion",
+        "festivals",
+        "stories",
+        "states",
+        "circuits",
+        "deities",
+        "pages",
+    ):
+        for path, changefreq, priority, item_lastmod, _images in groups[name]:
+            if path in seen_all:
+                continue
+            seen_all.add(path)
+            combined.append(
+                _sitemap_url_entry(
+                    path,
+                    lastmod=item_lastmod or lastmod,
+                    changefreq=changefreq,
+                    priority=priority,
+                )
+            )
+    _write_urlset(ROOT / "sitemap-all.xml", combined, with_images=False)
+
+    robots_lines = [
+        "User-agent: *",
+        "Allow: /",
+        "",
+        f"Sitemap: {SITE_URL}/sitemap.xml",
+        f"Sitemap: {SITE_URL}/sitemap-all.xml",
+    ]
+    for fname, _n in child_files:
+        robots_lines.append(f"Sitemap: {SITE_URL}/sitemaps/{fname}")
+    robots_lines.append("")
+    (ROOT / "robots.txt").write_text("\n".join(robots_lines), encoding="utf-8")
+
+    print(
+        "Sitemaps: "
+        + ", ".join(f"{fname} ({n})" for fname, n in child_files)
+        + f"; combined {len(combined)}"
+    )
+    return len(combined)
 
 
 def build_legal(slug: str, title: str, blocks: list) -> str:
