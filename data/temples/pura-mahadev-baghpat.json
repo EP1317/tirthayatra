@@ -1,0 +1,90 @@
+{
+  "slug": "pura-mahadev-baghpat",
+  "name": "Pura Mahadev Temple, Baghpat",
+  "deity": "Lord Shiva (Pura Mahadev)",
+  "location": "Pura Mahadev, Baghpat, Uttar Pradesh",
+  "state": "Uttar Pradesh",
+  "country": "India",
+  "glyph": "पु",
+  "tags": [],
+  "tagLabels": [],
+  "summary": "Historic Shiva temple on the west UP Kanwar belt near Baghpat — a major Sawan jal-abhishek stop.",
+  "famousFor": "West UP Kanwar route Shiva seat · huge Sawan search",
+  "mythology": "Pura Mahadev is counted among the important Shiva tirthas of the upper Doab. Sawan Kawariyas from Delhi–NCR and west UP corridors offer Ganga jal here; local lore ties the linga to ancient Mahadev worship on the Hindon–Yamuna plain.",
+  "scriptureLinks": [
+    "Puranic / sthala tradition",
+    "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
+  ],
+  "festivals": [
+    "Sawan Kanwar season",
+    "Maha Shivaratri",
+    "Pradosh"
+  ],
+  "bestTime": "October–March; Sawan is the pilgrimage peak — expect heavy security routes.",
+  "whatToCarry": "Sun cap and light cotton for hot plains. Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Gangetic plains — hot summers, cool winters, monsoon mid-year.",
+  "nearestRail": "Baghpat Road / Meerut",
+  "nearestAirport": "Delhi (NCR)",
+  "accommodation": "Dharamshalas, temple-trust guest houses, and private hotels near Pura Mahadev Temple, Baghpat. Book early for festival weeks; prefer official trust counters when available.",
+  "localFood": "North Indian vegetarian thalis, kachori-sabzi styles, and temple prasadam.",
+  "otherFood": "Wider vegetarian and city cuisine usually in the nearest town; keep non-veg and alcohol away from temple precincts as posted.",
+  "localLanguage": "Hindi; English in cities and major tirthas.",
+  "dressCode": "Modest attire — shoulders and knees covered preferred. Follow temple boards for traditional dress, footwear, and phone rules.",
+  "darshanTimings": "Typically early morning to evening with aarti and ritual breaks. Confirm same-day timings on the temple trust / endowment board notices.",
+  "specialEntry": "Special entry, if any, only via official temple counters.",
+  "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
+  "lockers": "Cloakrooms where available near the entrance.",
+  "officialWebsite": "https://uptourism.gov.in/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Pura+Mahadev+Temple,+Baghpat+temple",
+  "videoNote": "Orientation videos only — verify timings on official sources.",
+  "lat": 28.944,
+  "lng": 77.219,
+  "mapQuery": "Pura Mahadev Temple Baghpat",
+  "nearby": [
+    {
+      "name": "Nand Baba Temple, Nandgaon",
+      "slug": "nandgaon-nandbaba",
+      "note": "About 139 km away"
+    },
+    {
+      "name": "Radha Rani Temple, Barsana",
+      "slug": "barsana-radha-rani",
+      "note": "About 144 km away"
+    },
+    {
+      "name": "Radha Raman Temple, Vrindavan",
+      "slug": "radha-raman-vrindavan",
+      "note": "About 158 km away"
+    }
+  ],
+  "packages": [
+    "Pura Mahadev Temple, Baghpat — day darshan",
+    "Pura Mahadev Temple, Baghpat + Nand Baba Temple, Nandgaon — 2-day circuit",
+    "Regional Uttar Pradesh multi-temple circuit"
+  ],
+  "sources": [
+    "Shri Kashi Vishwanath Temple: https://www.shrikashivishwanath.org/",
+    "Temple trust / local administration notices",
+    "State tourism materials",
+    "Puranic / pilgrimage tradition (lists can vary by scripture)"
+  ],
+  "lastUpdated": "2026-08-09",
+  "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
+  "deityFamilies": [
+    "shiva"
+  ],
+  "tier": "famous",
+  "mythologySignificance": "Pura Mahadev is counted among the important Shiva tirthas of the upper Doab. Sawan Kawariyas from Delhi–NCR and west UP corridors offer Ganga jal here; local lore ties the linga to ancient Mahadev worship on the Hindon–Yamuna plain.\n\nClassical pilgrimage teaching places Pura Mahadev Temple, Baghpat within India’s tirtha network: a location where devotion to Lord Shiva (Pura Mahadev) is believed to ripen vows more readily than in ordinary space. Epic, Puranic, and regional mahatmya literature — not a single uniform text — sustain this sense of sacred geography.",
+  "localBeliefs": "In popular pilgrimage memory, Pura Mahadev Temple, Baghpat is especially associated with West UP Kanwar route Shiva seat · huge Sawan search. Guides and elders retell this identity to first-time visitors as the living ‘reason’ the tirtha draws crowds.\n\nLocal sthala-purana and priestly teaching at Pura Mahadev Temple, Baghpat elaborate how Lord Shiva (Pura Mahadev) blesses devotees who arrive with vows, gratitude, or grief. Festival days intensify these beliefs through processions, special alankara, and community feeding where practised.\n\nPilgrims commonly link practical customs — dress, queue, prasadam, and parikrama — with spiritual fruit. Such customs are living belief: they vary by region and should be followed as posted by the temple trust or endowment board.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts.",
+  "statePortal": {
+    "name": "Shri Kashi Vishwanath Temple",
+    "url": "https://www.shrikashivishwanath.org/",
+    "slug": "uttar-pradesh"
+  },
+  "sacredPhrase": {
+    "text": "ॐ नमः शिवाय",
+    "meaning": "I bow to Shiva — the auspicious one",
+    "source": "Universal Shaiva mantra of this shrine’s living devotion"
+  }
+}

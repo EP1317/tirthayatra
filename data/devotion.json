@@ -13,7 +13,7 @@
       "name": "Aarti",
       "nameHi": "आरती संग्रह",
       "blurb": "Lamp hymns sung at dawn and dusk darshan.",
-      "lede": "Popular aarti sangrah — Hanuman, Ram, Kali, Ganesh, Ambe, Lakshmi, Saraswati, Krishna, Jagdish, Sai, Ganga, and more. Tap a name to open the full text and listen."
+      "lede": "Popular aarti sangrah — Hanuman, Ram, Kali, Ganesh, Ambe, Lakshmi, Saraswati, Krishna, Jagdish, Sai, Ganga, and more. Tap a name to open the full text and listen, and Lingashtakam for Shiva abhishek."
     },
     "chalisa": {
       "slug": "chalisa",
@@ -27,7 +27,7 @@
       "name": "Vrat Katha",
       "nameHi": "व्रत कथा संग्रह",
       "blurb": "Vow-day stories retold for fasting days and home puja — AdSense-safe original summaries of traditional themes.",
-      "lede": "Vow-stories for home puja — Karva Chauth, Chhath, Satyanarayan, Teej, Vat Savitri, Shivaratri, Ekadashi, Pradosh, Navaratri, Janmashtami, Ganesh Chaturthi, Ram Navami, Hanuman Jayanti, Ayyappa Mandala, and more. TirthaYatra pages use original retellings of traditional themes for learning; regional wording differs. Not a substitute for your family priest. Optional YouTube listens belong to their uploaders."
+      "lede": "Vow-stories for home puja — Karva Chauth, Chhath, Satyanarayan, Teej, Vat Savitri, Shivaratri, Ekadashi, Pradosh, Navaratri, Janmashtami, Ganesh Chaturthi, Ram Navami, Hanuman Jayanti, Ayyappa Mandala, and more. TirthaYatra pages use original retellings of traditional themes for learning; regional wording differs. Not a substitute for your family priest. Optional YouTube listens belong to their uploaders, Sawan Somwar, Mangala Gauri, and Nag Panchami."
     }
   },
   "items": [
@@ -827,10 +827,10 @@
         "trimbakeshwar"
       ],
       "completeText": true,
-      "audioUrl": "https://www.youtube.com/results?search_query=%E0%A4%B6%E0%A4%BF%E0%A4%B5%20%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A5%80%E0%A4%B8%E0%A4%BE%20Shiva%20Chalisa%20full",
+      "audioUrl": "",
       "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%B6%E0%A4%BF%E0%A4%B5%20%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A5%80%E0%A4%B8%E0%A4%BE%20Shiva%20Chalisa%20full",
-      "audioLabel": "Listen on YouTube · Shiv Chalisa full",
-      "audioNote": "Opens YouTube search for popular recordings of this hymn. Choose any version you prefer.",
+      "audioLabel": "Shiv Chalisa full",
+      "audioNote": "Popular YouTube recording to listen while reading. Open on YouTube if the player does not load.",
       "sangrahLabel": "शिव जी"
     },
     {
@@ -929,10 +929,10 @@
         "udupi-krishna"
       ],
       "completeText": true,
-      "audioUrl": "https://www.youtube.com/results?search_query=%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A3%20%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A5%80%E0%A4%B8%E0%A4%BE%20Krishna%20Chalisa%20full",
+      "audioUrl": "",
       "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A3%20%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A5%80%E0%A4%B8%E0%A4%BE%20Krishna%20Chalisa%20full",
-      "audioLabel": "Listen on YouTube · Krishna Chalisa full",
-      "audioNote": "Opens YouTube search for popular recordings of this hymn. Choose any version you prefer.",
+      "audioLabel": "Krishna Chalisa full",
+      "audioNote": "Popular YouTube recording to listen while reading. Open on YouTube if the player does not load.",
       "sangrahLabel": "कृष्ण जी"
     },
     {
@@ -972,10 +972,10 @@
         "sabarimala"
       ],
       "completeText": true,
-      "audioUrl": "https://www.youtube.com/results?search_query=%E0%A4%85%E0%A4%AF%E0%A5%8D%E0%A4%AF%E0%A4%AA%E0%A5%8D%E0%A4%AA%E0%A4%BE%20%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A5%80%E0%A4%B8%E0%A4%BE%20Ayyappa%20Chalisa%20full",
+      "audioUrl": "",
       "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%85%E0%A4%AF%E0%A5%8D%E0%A4%AF%E0%A4%AA%E0%A5%8D%E0%A4%AA%E0%A4%BE%20%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A5%80%E0%A4%B8%E0%A4%BE%20Ayyappa%20Chalisa%20full",
-      "audioLabel": "Listen on YouTube · Ayyappa Chalisa full",
-      "audioNote": "Opens YouTube search for popular recordings of this hymn. Choose any version you prefer.",
+      "audioLabel": "Ayyappa Chalisa full",
+      "audioNote": "Popular YouTube recording to listen while reading. Open on YouTube if the player does not load.",
       "sangrahLabel": "अय्यप्पा स्वामी"
     },
     {
@@ -1283,7 +1283,7 @@
       ],
       "completeText": true,
       "sangrahLabel": "करवा चौथ",
-      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load. TirthaYatra does not host the media file.",
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load.",
       "audioUrl": "https://www.youtube.com/embed/1qUTRIJsBkI",
       "audioWatchUrl": "https://www.youtube.com/watch?v=1qUTRIJsBkI",
       "audioLabel": "Karva Chauth Vrat Katha · Hindi"
@@ -1317,7 +1317,7 @@
       ],
       "completeText": true,
       "sangrahLabel": "छठ",
-      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load. TirthaYatra does not host the media file.",
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load.",
       "audioUrl": "https://www.youtube.com/embed/sczjEISoNN4",
       "audioWatchUrl": "https://www.youtube.com/watch?v=sczjEISoNN4",
       "audioLabel": "Chhath Puja Katha · Hindi"
@@ -1351,7 +1351,7 @@
       ],
       "completeText": true,
       "sangrahLabel": "सत्यनारायण",
-      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load. TirthaYatra does not host the media file.",
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load.",
       "audioUrl": "https://www.youtube.com/embed/Y6zWVa43B4Q",
       "audioWatchUrl": "https://www.youtube.com/watch?v=Y6zWVa43B4Q",
       "audioLabel": "Satyanarayan Vrat Katha · Hindi with aarti"
@@ -1383,7 +1383,7 @@
       ],
       "completeText": true,
       "sangrahLabel": "हरतालिका तीज",
-      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load. TirthaYatra does not host the media file.",
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load.",
       "audioUrl": "https://www.youtube.com/embed/uxLVsxX-9Lc",
       "audioWatchUrl": "https://www.youtube.com/watch?v=uxLVsxX-9Lc",
       "audioLabel": "Hartalika Teej Vrat Katha · Hindi"
@@ -1415,7 +1415,7 @@
       ],
       "completeText": true,
       "sangrahLabel": "वट सावित्री",
-      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load. TirthaYatra does not host the media file.",
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load.",
       "audioUrl": "https://www.youtube.com/embed/r9yvst7QwMg",
       "audioWatchUrl": "https://www.youtube.com/watch?v=r9yvst7QwMg",
       "audioLabel": "Vat Savitri Vrat Katha · Hindi"
@@ -1448,7 +1448,7 @@
       ],
       "completeText": true,
       "sangrahLabel": "महाशिवरात्रि",
-      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load. TirthaYatra does not host the media file.",
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load.",
       "audioUrl": "https://www.youtube.com/embed/pnr_UFx8D1Y",
       "audioWatchUrl": "https://www.youtube.com/watch?v=pnr_UFx8D1Y",
       "audioLabel": "Maha Shivaratri Vrat Katha · Hindi"
@@ -1479,10 +1479,150 @@
       ],
       "completeText": true,
       "sangrahLabel": "अहोई अष्टमी",
-      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load. TirthaYatra does not host the media file.",
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load.",
       "audioUrl": "https://www.youtube.com/embed/8mGesAxcr_A",
       "audioWatchUrl": "https://www.youtube.com/watch?v=8mGesAxcr_A",
       "audioLabel": "Ahoi Ashtami Vrat Katha · Hindi"
+    },
+    {
+      "slug": "lingashtakam",
+      "type": "aarti",
+      "deity": "shiva",
+      "sangrahLabel": "लिंगाष्टकम्",
+      "title": "Lingashtakam",
+      "titleHi": "ब्रह्ममुरारि सुरार्चित लिङ्गम्",
+      "author": "Traditional Sanskrit stotra",
+      "when": "Sawan Mondays, Shiva abhishek, Pradosh, Maha Shivaratri",
+      "summary": "Complete traditional eight-verse praise of the Shiva Linga — the most recited Sawan abhishek hymn after the aarti.",
+      "meaning": "Lingashtakam glorifies the linga worshipped by Brahma and Vishnu, destroyer of suffering, adorned with bilva, and giver of devotion’s fruit. Ideal after jal-abhishek in Sawan.",
+      "relatedTemples": [
+        "kashi-vishwanath",
+        "mahakaleshwar-ujjain",
+        "somnath",
+        "vaidyanath-deoghar",
+        "neelkanth-mahadev-rishikesh"
+      ],
+      "completeText": true,
+      "verses": [
+        "ब्रह्ममुरारि सुरार्चित लिङ्गं निरमलभासित शोभित लिङ्गम्।\nजन्मज दुःख विनाशक लिङ्गं तत् प्रणमामि सदाशिव लिङ्गम्॥",
+        "देवमुनि प्रवरार्चित लिङ्गं कामदहं करुणाकर लिङ्गम्।\nरावण दर्प विनाशन लिङ्गं तत् प्रणमामि सदाशिव लिङ्गम्॥",
+        "सर्व सुगन्ध सुलेपित लिङ्गं बुद्धि विवर्धन कारण लिङ्गम्।\nसिद्ध सुरासुर वन्दित लिङ्गं तत् प्रणमामि सदाशिव लिङ्गम्॥",
+        "कनक महामणि भूषित लिङ्गं फनिपति वेष्टित शोभित लिङ्गम्।\nदक्ष सुयज्ञ विनाशन लिङ्गं तत् प्रणमामि सदाशिव लिङ्गम्॥",
+        "कुङ्कुम चन्दन लेपित लिङ्गं पङ्कज हार सुशोभित लिङ्गम्।\nसञ्चित पाप विनाशन लिङ्गं तत् प्रणमामि सदाशिव लिङ्गम्॥",
+        "देवगणार्चित सेवित लिङ्गं भावैर भक्ति भिरेव च लिङ्गम्।\nदिनकर कोटि प्रभाकर लिङ्गं तत् प्रणमामि सदाशिव लिङ्गम्॥",
+        "अष्टदलोपरि वेष्टित लिङ्गं सर्व समुद्भव कारण लिङ्गम्।\nअष्ट दरिद्र विनाशन लिङ्गं तत् प्रणमामि सदाशिव लिङ्गम्॥",
+        "सुरगुरु सुरवर पूजित लिङ्गं सुरवन पुष्प सदार्चित लिङ्गम्।\nपरात्परं परमात्मक लिङ्गं तत् प्रणमामि सदाशिव लिङ्गम्॥",
+        "लिङ्गाष्टकमिदं पुण्यं यः पठेत् शिव सन्निधौ।\nशिवलोकमवाप्नोति शिवेन सह मोदते॥"
+      ],
+      "audioUrl": "",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%B9%E0%A5%8D%E0%A4%AE%E0%A4%AE%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%B0%E0%A4%BF%20%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%9A%E0%A4%BF%E0%A4%A4%20%E0%A4%B2%E0%A4%BF%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A4%AE%E0%A5%8D%20Lingashtakam%20full",
+      "audioLabel": "Lingashtakam full with lyrics",
+      "audioNote": "Popular YouTube recording to listen while reading. Open on YouTube if the player does not load."
+    },
+    {
+      "slug": "sawan-somwar-vrat-katha",
+      "type": "vrat-katha",
+      "deity": "shiva",
+      "sangrahLabel": "सावन सोमवार व्रत",
+      "title": "Sawan Somwar Vrat Katha",
+      "titleHi": "सावन सोमवार व्रत कथा",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "when": "Mondays of Sawan / Shravan month (confirm local panchang)",
+      "summary": "Original TirthaYatra retelling of the Monday Shiva vow of Sawan — Parvati’s tapasya, jal-abhishek, and the fruits of steady faith.",
+      "meaning": "Sawan Somwar is the Monday fast and Shiva worship of the monsoon month. This page retells traditional themes for home learning — not a commercial katha book copy. Health first; partial fasts count when done with sincerity.",
+      "relatedTemples": [
+        "kashi-vishwanath",
+        "mahakaleshwar-ujjain",
+        "vaidyanath-deoghar",
+        "neelkanth-mahadev-rishikesh",
+        "baba-garibnath-muzaffarpur",
+        "somnath"
+      ],
+      "completeText": true,
+      "verses": [
+        "॥ श्री गणेशाय नमः ॥\n॥ ॐ नमः शिवाय ॥\nसावन सोमवार व्रत कथा — श्रद्धा से पढ़ें। यह TirthaYatra का पारंपरिक भावों पर आधारित मौलिक पुनर्कथन है।",
+        "श्रावण मास को सावन भी कहते हैं। इस मास के सोमवार शिव जी को विशेष प्रिय माने जाते हैं। भक्त जल, दूध, बिल्वपत्र और मंत्र जाप से शिवलिंग का अभिषेक करते हैं।",
+        "लोक-परंपरा में कहा जाता है कि पार्वती जी ने शिव जी को पति रूप में पाने हेतु कठिन तप किया। वर्षा हो या धूप, उनका संकल्प नहीं टूटा। सावन के सोमवार उसी अडिग भक्ति की याद हैं।",
+        "एक प्रचलित कथा-धारा में एक सुहागिनी / साधिका सोमवार व्रत से घर का संकट टालती है — जब तक वह अधीर होकर व्रत नहीं तोड़ती। अधूरे व्रत से विघ्न, पूर्ण श्रद्धा से शिव-कृपा — यही लोकशिक्षा है।",
+        "दूसरी धारा नीलकंठ कथा से जुड़ती है। समुद्र मंथन का हलाहल विष शिव जी ने कण्ठ में धारण किया। सावन का शीतल जल उसी उग्रता को शांत अर्पण लगता है — भक्त अपने क्रोध-अहंकार का भी ‘विष’ उतारने की कामना करते हैं।",
+        "व्रत विधि (परिवार रीति अनुसार): प्रातः स्नान-संकल्प। दिन भर सात्त्विक रहें — क्रोध, असत्य से दूर। सामर्थ्य हो तो उपवास या फलहार; स्वास्थ्य कमजोर हो तो दूध-फल संग नाम जप पर्याप्त।",
+        "संध्या या प्रातः शिवलिंग / शिव-पार्वती चित्र पर जल चढ़ाएँ। बिल्वपत्र, धूप, दीप, सरल नैवेद्य। ‘ॐ नमः शिवाय’ या शिव चालीसा / ॐ जय शिव ओंकारा आरती करें।",
+        "कांवड़ यात्रा वाले इसी मास गंगाजल ले शिव तक पैदल जाते हैं। घर बैठे भक्त भी एक लोटा जल श्रद्धा से चढ़ा सकते हैं — भाव यात्रा का सार है, दिखावा नहीं।",
+        "व्रत पारण परिवार रीति से सायंकाल या अगली प्रातः करें। प्रसाद बाँटें। जो चारों सोमवार रखें, वे पूर्ण सावन सोमवार व्रत मानते हैं; एक सोमवार भी शुभारंभ है।",
+        "फलश्रुति (श्रद्धा की भाषा में): मन की अशांति कम हो, घर में मधुरता आए, और शिव-पार्वती का आशीष संकल्प में बल दे — ऐसी कामना की जाती है।\n॥ हर हर महादेव · बोल बम ॥"
+      ],
+      "audioUrl": "",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%B8%E0%A4%BE%E0%A4%B5%E0%A4%A8%20%E0%A4%B8%E0%A5%8B%E0%A4%AE%E0%A4%B5%E0%A4%BE%E0%A4%B0%20%E0%A4%B5%E0%A5%8D%E0%A4%B0%E0%A4%A4%20%E0%A4%95%E0%A4%A5%E0%A4%BE%20Sawan%20Somwar%20Vrat%20Katha%20full",
+      "audioLabel": "Sawan Somwar Vrat Katha Hindi",
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load."
+    },
+    {
+      "slug": "mangala-gauri-vrat-katha",
+      "type": "vrat-katha",
+      "deity": "devi",
+      "sangrahLabel": "मंगला गौरी व्रत",
+      "title": "Mangala Gauri Vrat Katha",
+      "titleHi": "मंगला गौरी व्रत कथा",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "when": "Tuesdays of Sawan / Shravan (Mangala Gauri) — especially for married women; confirm local custom",
+      "summary": "Original TirthaYatra retelling of the Sawan Tuesday Gauri vow — steadfast love, household grace, and Parvati’s blessing.",
+      "meaning": "Mangala Gauri Vrat is observed on Tuesdays in Sawan in many regions, honouring Gauri–Parvati for marital harmony and courage. Original retelling for home puja learning.",
+      "relatedTemples": [
+        "ambaji",
+        "mansa-devi-panchkula",
+        "tuljapur-bhavani",
+        "mahalaxmi-kolhapur",
+        "kashi-vishwanath"
+      ],
+      "completeText": true,
+      "verses": [
+        "॥ श्री गणेशाय नमः ॥\n॥ जय गौरी माता ॥\nमंगला गौरी व्रत कथा — TirthaYatra मौलिक पुनर्कथन।",
+        "सावन के मंगलवार अनेक घरों में मंगला गौरी पूजा होती है। गौरी पार्वती जी का सौम्य रूप हैं — मंगल, सौभाग्य और अडिग प्रेम की देवी।",
+        "कथा का हृदय पार्वती जी की तपस्या है। उन्होंने शिव जी को पाने के लिए आभूषण नहीं, तप चुना। मंगला गौरी व्रत उसी धैर्य की याद दिलाता है — जल्दबाजी नहीं, स्थिर श्रद्धा।",
+        "लोककथाओं में एक स्त्री के संकट और गौरी कृपा से रक्षा का वर्णन आता है। विवरण क्षेत्र अनुसार बदलते हैं; शिक्षा एक है — सत्य, संयम और पति-परिवार के प्रति करुणा रखना।",
+        "व्रत विधि: मंगलवार प्रातः स्नान। लाल/पीले वस्त्र रीति अनुसार। गौरी-गणेश या गौरी-शिव की स्थापना। हलदी, कुमकुम, फूल, मीठा नैवेद्य।",
+        "दिन भर सात्त्विक व्रत — निर्जला तभी जब स्वास्थ्य अनुमति दे। सायंकाल आरती, कथा श्रवण, और सुहाग चिह्न रीति अनुसार अर्पण।",
+        "अविवाहित भी भक्ति भाव से गौरी का स्मरण कर सकती हैं — व्रत का द्वार केवल एक अवस्था तक सीमित नहीं, भाव प्रधान है।",
+        "सावन समाप्त होने पर कुछ परिवार उद्यापन / कथा-समाप्ति रीति रखते हैं। स्थानीय पुरोहित या बुजुर्ग रीति पूछें।",
+        "फलश्रुति: घर में मंगलता, मन में धैर्य, और गौरी-शिव का आशीष — ऐसी प्रार्थना की जाती है।\n॥ जय मंगला गौरी माता ॥"
+      ],
+      "audioUrl": "",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%AE%E0%A4%82%E0%A4%97%E0%A4%B2%E0%A4%BE%20%E0%A4%97%E0%A5%8C%E0%A4%B0%E0%A5%80%20%E0%A4%B5%E0%A5%8D%E0%A4%B0%E0%A4%A4%20%E0%A4%95%E0%A4%A5%E0%A4%BE%20Mangala%20Gauri%20Vrat%20Katha%20full",
+      "audioLabel": "Mangala Gauri Vrat Katha Hindi",
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load."
+    },
+    {
+      "slug": "nag-panchami-vrat-katha",
+      "type": "vrat-katha",
+      "deity": "shiva",
+      "sangrahLabel": "नाग पंचमी व्रत",
+      "title": "Nag Panchami Vrat Katha",
+      "titleHi": "नाग पंचमी व्रत कथा",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "when": "Shravan Shukla Panchami (Nag Panchami) — confirm city panchang",
+      "summary": "Original TirthaYatra retelling of Nag Panchami — honouring Nagas, Shiva as Nagabhushana, and the vow of non-harm.",
+      "meaning": "Nag Panchami katha themes: respect for serpent deities, milk offering, and coexistence. Original home retelling; regional stories differ.",
+      "relatedTemples": [
+        "neelkanth-mahadev-rishikesh",
+        "kukke-subramanya",
+        "somnath",
+        "kashi-vishwanath"
+      ],
+      "completeText": true,
+      "verses": [
+        "॥ श्री गणेशाय नमः ॥\n॥ नाग देवाय नमः ॥\nनाग पंचमी कथा — TirthaYatra मौलिक पुनर्कथन।",
+        "श्रावण शुक्ल पंचमी को अनेक प्रदेश नाग पंचमी मानते हैं। नाग देवताओं को दूध, पुष्प और चित्र द्वारा सम्मान दिया जाता है।",
+        "शिव जी नागभूषण हैं — कण्ठ पर नाग उनकी उग्रता पर विजय और भय के साक्षी हैं। इस दिन शैव भक्त शिव अभिषेक भी करते हैं, विशेष जब तिथि सावन सोमवार से मिले।",
+        "लोककथाएँ बताती हैं कि जब मनुष्य अहंकार से पृथ्वी के रक्षकों को भूलता है, संकट आता है; जब श्रद्धा और अहिंसा लौटती है, कल्याण होता है। सर्प को क्रूरता से मारना इस दिन वर्जित माना जाता है।",
+        "कुछ घर आटे या हल्दी से नाग चित्र बना पूजते हैं; कुछ वट/रमे पर दूध चढ़ाते हैं। रीति गाँव-गाँव भिन्न — बुजुर्गों की बात मानें।",
+        "व्रत/पूजा: प्रातः स्नान। नाग चित्र या मंदिर दर्शन। दूध-पुष्प अर्पण। भूमि खुदाई और हल चलाना कई परंपराओं में आज नहीं करते।",
+        "कथा सुनकर प्रसाद बाँटें। बच्चों को डराएँ नहीं — सिखाएँ कि जंगल के प्राणी भी सृष्टि के अंग हैं।",
+        "फलश्रुति: भय शांत हो, घर सुरक्षित रहे, और नाग-शिव अनुग्रह से वर्षा ऋतु मंगलमय बीते — ऐसी कामना।\n॥ ॐ नमः शिवाय ॥"
+      ],
+      "audioUrl": "",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%A8%E0%A4%BE%E0%A4%97%20%E0%A4%AA%E0%A4%82%E0%A4%9A%E0%A4%AE%E0%A5%80%20%E0%A4%B5%E0%A5%8D%E0%A4%B0%E0%A4%A4%20%E0%A4%95%E0%A4%A5%E0%A4%BE%20Nag%20Panchami%20Vrat%20Katha%20full",
+      "audioLabel": "Nag Panchami Vrat Katha Hindi",
+      "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load."
     }
   ]
 }

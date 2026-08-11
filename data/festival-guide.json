@@ -2,7 +2,7 @@
   "section": {
     "name": "Festivals",
     "nameHi": "त्योहार कैलेंडर",
-    "lede": "Stories, mythology, dates, and how India and the diaspora celebrate — with related aarti, vrat katha, and temples. High-search festivals included: Karva Chauth, Chhath, Ram Navami, Hanuman Jayanti, Onam, Ugadi, Rath Yatra, Dhanteras, Kartik Purnima, Teej, Vat Savitri, and more.",
+    "lede": "Stories, mythology, dates, and how India and the diaspora celebrate — with related aarti, vrat katha, and temples. High-search festivals included: Karva Chauth, Chhath, Ram Navami, Hanuman Jayanti, Onam, Ugadi, Rath Yatra, Dhanteras, Kartik Purnima, Teej, Vat Savitri, and more, plus Sawan/Shravan, Kanwar Yatra (Bol Bam), and Nag Panchami.",
     "disclaimer": "Exact tithi dates can shift by region and almanac. Confirm with your local temple or panchang before planning. Festival stories are TirthaYatra retellings of traditional Puranic and folk themes for learning and home devotion — not verbatim scripture, not affiliated with any temple trust, and not a substitute for a family priest. Do not republish as official religious edicts."
   },
   "festivals": [
@@ -2029,6 +2029,248 @@
         "tuljapur-bhavani",
         "vaishno-devi",
         "ambaji"
+      ]
+    },
+    {
+      "slug": "shravan-sawan",
+      "name": "Sawan / Shravan Month",
+      "nameHi": "सावन / श्रावण मास",
+      "importance": "high",
+      "dateNames": [
+        "Sawan",
+        "Shravan",
+        "Sawan Somwar",
+        "Kanwar Yatra"
+      ],
+      "summary": "The monsoon month of Shiva — Mondays, bel leaves, Ganga jal, and the living Bol Bam roads.",
+      "summaryHi": "शिव का वर्षा मास — सोमवार व्रत, बेलपत्र, गंगाजल, और बोल बम की जीवंत राहें।",
+      "meaningEn": "Sawan (Shravan) is among India’s most searched sacred months. In the rains, devotees turn to Shiva with water, milk, bilva leaves, and Monday fasts (Sawan Somwar). North India’s Kawariya / Bol Bam tradition — carrying Ganga water barefoot to Baidyanath, Basukinath, and countless village lingas — makes the month a moving pilgrimage. Regional calendars differ (Purnimanta vs Amanta), so always confirm local start and end dates.",
+      "meaningHi": "सावन (श्रावण) भारत के सर्वाधिक खोजे जाने वाले पवित्र मासों में है। वर्षा में भक्त शिव जी को जल, दूध, बिल्वपत्र और सोमवार व्रत से पूजते हैं। उत्तर भारत की कांवड़ / बोल बम परंपरा — गंगाजल पैदल बैद्यनाथ, बासुकीनाथ और गाँव-गाँव शिवलिंग तक — मास को चलती तीर्थयात्रा बनाती है। क्षेत्रीय पंचांग भिन्न हैं; स्थानीय आरंभ–समाप्ति अवश्य देखें।",
+      "storyEn": "Popular memory links Sawan to Shiva as Neelkanth — the Lord who held the halahal poison so the worlds could live — and to Parvati Ji’s long tapasya for Mahadev. Monsoon water becomes abhishek; the bilva leaf becomes a whispered Om Namah Shivaya. Kawariyas say each step with the kanwar is itself a mantra. The month closes in many north Indian homes with Shravan Purnima — Raksha Bandhan — folding sibling protection into Shiva’s season of cooling grace.",
+      "storyHi": "लोकस्मृति सावन को नीलकंठ शिव से जोड़ती है — जिन्होंने हलाहल धारण कर लोक बचाए — और पार्वती जी की महादेव हेतु तपस्या से। वर्षा जल अभिषेक बनता है; बिल्वपत्र मंत्र। कांवड़िए कहते हैं — कांवड़ संग हर कदम ही जप है। अनेक उत्तर भारतीय घरों में मास श्रावण पूर्णिमा / रक्षाबंधन पर समेटता है — भाई–बहन रक्षा शिव की शीतल कृपा संग।",
+      "mythologyEn": "Scriptural and folk strands meet: Samudra Manthan’s poison, Ganga resting in Shiva’s jata, and the belief that monsoon offerings cool the fierce heat of penance and ego. Pradosh evenings, Sawan Shivaratri, Nag Panchami, and Mangala Gauri Tuesdays punctuate the month. TirthaYatra pages retell these themes for home learning — not as temple edicts.",
+      "mythologyHi": "शास्त्र और लोक मिलते हैं: समुद्र मंथन का विष, जटा में गंगा, और विश्वास कि वर्षा अर्पण तप–अहंकार की उष्णता शीतल करता है। प्रदोष, सावन शिवरात्रि, नाग पंचमी, मंगला गौरी मंगलवार मास को बाँटते हैं। TirthaYatra घर की शिक्षा हेतु सार है — मंदिर आदेश नहीं।",
+      "deityStories": [
+        {
+          "deity": "Shiva",
+          "deityHi": "शिव जी",
+          "en": "Abhishek, bilva, Somwar vrat, and Bol Bam define living Shaiva Sawan.",
+          "hi": "अभिषेक, बिल्व, सोमवार व्रत और बोल बम — जीवंत शैव सावन।"
+        },
+        {
+          "deity": "Parvati / Gauri",
+          "deityHi": "पार्वती / गौरी जी",
+          "en": "Mangala Gauri and Hartalika Teej remember the Goddess’s steadfast vow for Shiva.",
+          "hi": "मंगला गौरी और हरतालिका तीज — शिव हेतु देवी की अडिग प्रतिज्ञा।"
+        },
+        {
+          "deity": "Ganga",
+          "deityHi": "गंगा माता",
+          "en": "Kawariyas lift Ganga jal as living prasadam for distant lingas.",
+          "hi": "कांवड़िए गंगाजल को दूर शिवलिंगों का जीवंत प्रसाद मानकर उठाते हैं।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Keep Sawan Somwar (Monday) fast as health allows; offer water and bilva to Shiva",
+        "Visit a Shiva temple or home linga; recite Om Jai Shiv Omkara / Shiva Chalisa",
+        "If joining Kanwar Yatra: follow police routes, hydration, and temple queue rules",
+        "Observe Nag Panchami, Pradosh, and Shravan Purnima / Rakhi per local panchang"
+      ],
+      "howCelebratedHi": [
+        "स्वास्थ्य अनुसार सावन सोमवार व्रत; शिव को जल–बिल्व अर्पण",
+        "शिव मंदिर या घर शिवलिंग; ॐ जय शिव ओंकारा / शिव चालीसा",
+        "कांवड़ यात्रा में पुलिस मार्ग, जलपान और कतार नियम मानें",
+        "नाग पंचमी, प्रदोष, श्रावण पूर्णिमा / राखी — स्थानीय पंचांग से"
+      ],
+      "diasporaEn": "Abroad, temples run special Monday Rudrabhishek and livestream Sawan aartis. Homes keep a small copper kalash for abhishek and share bilva if available — or tulsi/water with the same intent when bilva is scarce.",
+      "diasporaHi": "विदेश में मंदिर विशेष सोमवार रुद्राभिषेक और सावन आरती लाइव रखते हैं। घर पर छोटे कलश से अभिषेक; बिल्व दुर्लभ हो तो तुलसी/जल उसी भाव से।",
+      "regions": [
+        {
+          "region": "North & East India",
+          "notes": "Kanwar Yatra corridors — Sultanganj–Deoghar, Haridwar routes, UP–Bihar–Jharkhand."
+        },
+        {
+          "region": "West & South India",
+          "notes": "Amanta Shravan may fall later; temple abhishek and Somwar still central."
+        },
+        {
+          "region": "Nepal",
+          "notes": "Saun month draws huge crowds to Pashupatinath for special worship."
+        },
+        {
+          "region": "Diaspora",
+          "notes": "Monday temple programmes; home linga abhishek kits."
+        }
+      ],
+      "relatedDevotion": [
+        "shiva-aarti",
+        "shiva-chalisa",
+        "lingashtakam",
+        "sawan-somwar-vrat-katha",
+        "mangala-gauri-vrat-katha",
+        "ganga-aarti",
+        "pradosh-vrat-katha"
+      ],
+      "relatedTemples": [
+        "vaidyanath-deoghar",
+        "basukinath-temple",
+        "ajgaibinath-sultanganj",
+        "neelkanth-mahadev-rishikesh",
+        "baba-garibnath-muzaffarpur",
+        "pura-mahadev-baghpat",
+        "kashi-vishwanath",
+        "mahakaleshwar-ujjain",
+        "kedarnath",
+        "pashupatinath"
+      ]
+    },
+    {
+      "slug": "nag-panchami",
+      "name": "Nag Panchami",
+      "nameHi": "नाग पंचमी",
+      "importance": "high",
+      "dateNames": [
+        "Nag Panchami",
+        "Naga Panchami"
+      ],
+      "summary": "Shravan’s serpent day — milk, drawings, and honour for the Nagas bound to Shiva’s grace.",
+      "summaryHi": "श्रावण की नाग तिथि — दूध, चित्रांकन, और शिव-नाग अनुग्रह का सम्मान।",
+      "meaningEn": "Nag Panchami falls on Shravan Shukla Panchami in many regions. Families honour Naga deities with milk, flowers, and drawn serpent forms — seeking protection from fear and imbalance. Because Shiva is Nagabhushana (adorned with serpents), the day sits naturally inside Sawan’s Shaiva season.",
+      "meaningHi": "अनेक क्षेत्रों में नाग पंचमी श्रावण शुक्ल पंचमी को होती है। परिवार दूध–पुष्प और नाग चित्र से नाग देवताओं का सम्मान करते हैं। शिव नागभूषण हैं — अतः दिन सावन की शैव ऋतु में सहज बैठता है।",
+      "storyEn": "Folk and Puranic tellings remember the Nagas as guardians of earth’s waters and treasures, and as beings wronged when humans forget kinship with wild life. One beloved strand recalls how devotion and restraint heal the wound between people and serpents. On this day many avoid digging earth or harming snakes, offering instead a quiet bowl of milk and a prayer for coexistence.",
+      "storyHi": "लोक–पुराण कथाएँ नागों को जल–निधि के रक्षक और उस संबंध की याद बताती हैं जो मनुष्य वन्य जीवन से भूल जाता है। प्रिय धारा कहती है — भक्ति और संयम घाव भरते हैं। इस दिन अनेक भूमि नहीं खोदते, सर्प नहीं सताते — दूध का कटोरा और सह-अस्तित्व की प्रार्थना।",
+      "mythologyEn": "Vasuki of the ocean-churning, the serpents around Shiva’s neck, and regional Naga shrines feed the day’s imagery. TirthaYatra’s katha page is an original home retelling of these themes — confirm local custom with elders.",
+      "mythologyHi": "समुद्र मंथन के वासुकि, शिव की नाग-माला, और क्षेत्रीय नाग मंदिर दिन की छवि गढ़ते हैं। TirthaYatra कथा मूल घर-पुनर्कथन है — रीति बड़ों से पूछें।",
+      "deityStories": [
+        {
+          "deity": "Naga Devatas",
+          "deityHi": "नाग देवता",
+          "en": "Milk, flowers, and drawn naga forms are offered for protection and balance.",
+          "hi": "रक्षा और संतुलन हेतु दूध, पुष्प, नाग चित्र अर्पण।"
+        },
+        {
+          "deity": "Shiva",
+          "deityHi": "शिव जी",
+          "en": "As Nagabhushana, Shiva frames the day’s reverence inside Sawan worship.",
+          "hi": "नागभूषण रूप में शिव इस दिन की श्रद्धा को सावन पूजा से जोड़ते हैं।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Morning puja of Naga image / anthill shrine as family custom allows",
+        "Offer milk, flowers; avoid harming snakes; many skip ploughing/digging",
+        "If it falls on Sawan Somwar (as in some years), combine with Shiva abhishek",
+        "Read or hear the Nag Panchami katha at home"
+      ],
+      "howCelebratedHi": [
+        "परिवार रीति अनुसार नाग चित्र / रमे की पूजा",
+        "दूध–पुष्प; सर्प न सताएँ; कई हल–खुदाई नहीं करते",
+        "यदि सावन सोमवार पड़े तो शिव अभिषेक संग",
+        "घर पर नाग पंचमी कथा सुनें/पढ़ें"
+      ],
+      "diasporaEn": "Temple halls draw naga motifs; apartments offer milk at a small picture altar and keep the day’s ahimsa intent.",
+      "diasporaHi": "मंदिरों में नाग चित्र; फ्लैट में छोटे चित्र पर दूध और अहिंसा का भाव।",
+      "regions": [
+        {
+          "region": "North & West India",
+          "notes": "Strong household observance in monsoon Shravan."
+        },
+        {
+          "region": "South India",
+          "notes": "Naga shrines and anthill worship have deep local forms."
+        },
+        {
+          "region": "Diaspora",
+          "notes": "Picture-altar puja; teach children coexistence, not fear."
+        }
+      ],
+      "relatedDevotion": [
+        "nag-panchami-vrat-katha",
+        "shiva-aarti",
+        "sawan-somwar-vrat-katha"
+      ],
+      "relatedTemples": [
+        "neelkanth-mahadev-rishikesh",
+        "kukke-subramanya",
+        "somnath",
+        "kashi-vishwanath"
+      ]
+    },
+    {
+      "slug": "kanwar-yatra",
+      "name": "Kanwar Yatra (Bol Bam)",
+      "nameHi": "कांवड़ यात्रा (बोल बम)",
+      "importance": "high",
+      "dateNames": [
+        "Kanwar Yatra",
+        "Bol Bam",
+        "Kawad Yatra",
+        "Kawariya"
+      ],
+      "summary": "Barefoot rivers of devotion — Ganga jal carried to Shiva in the rains of Sawan.",
+      "summaryHi": "वर्षा में पैदल भक्ति की नदियाँ — सावन में शिव तक गंगाजल।",
+      "meaningEn": "The Kanwar (Kawad) Yatra is the living heart of Sawan for millions. Devotees fetch Ganga water — famously from Sultanganj, Haridwar, Gaumukh routes, and other ghats — and carry it in decorated slings to offer at Baidyanath Deoghar, Basukinath, Kashi, and home-district Shiva temples. Chants of ‘Bol Bam’ pace the walk.",
+      "meaningHi": "कांवड़ यात्रा करोड़ों के लिए सावन का जीवंत हृदय है। भक्त गंगाजल — सुल्तानगंज, हरिद्वार आदि से — सजा कांवड़ में बैद्यनाथ देवघर, बासुकीनाथ, काशी और जिले के शिव मंदिरों तक ले जाते हैं। ‘बोल बम’ चलने की लय है।",
+      "storyEn": "Tradition says the offering of unbroken Ganga jal to Shiva completes a vow of gratitude, healing, or penance. The kanwar must not touch the ground carelessly; fellow yatris help each other rest it on stands. The road becomes a temporary sangha — tea stalls, police corridors, first-aid tents, and midnight aarti. It is less a tourist trek than a moving vrata.",
+      "storyHi": "परंपरा कहती है — अविच्छिन्न गंगाजल शिव को चढ़ाना कृतज्ञता, आरोग्य या तप का व्रत पूरा करता है। कांवड़ लापरवाही से भूमि न छुए; साथी स्टैंड पर टिकाते हैं। सड़क अस्थायी संघ बनती है — चाय, पुलिस गलियारा, प्राथमिक चिकित्सा, मध्यरात्रि आरती। यह पर्यटन नहीं — चलता व्रत है।",
+      "mythologyEn": "Mythic memory links the jal to Ganga’s descent through Shiva’s jata and to Neelkanth’s cooling grace. Historical scale of today’s yatra is modern and massive — plan with official advisories, not romance alone.",
+      "mythologyHi": "पौराणिक स्मृति जल को शिव जटा में गंगा अवतरण और नीलकंठ कृपा से जोड़ती है। आज की यात्रा का पैमाना आधुनिक और विशाल है — सरकारी सलाह से योजना करें।",
+      "deityStories": [
+        {
+          "deity": "Shiva (Baidyanath / local linga)",
+          "deityHi": "शिव जी (बैद्यनाथ / स्थानीय लिंग)",
+          "en": "The jal-abhishek at the destination is the vow’s seal.",
+          "hi": "गंतव्य पर जलाभिषेक ही व्रत की मुहर है।"
+        },
+        {
+          "deity": "Ganga",
+          "deityHi": "गंगा माता",
+          "en": "Source ghats are treated as the mother who travels with the kanwar.",
+          "hi": "स्रोत घाट वह माता हैं जो कांवड़ संग चलती हैं।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Register / follow district police Kanwar routes where required",
+        "Carry ORS, shoes that fit, reflective gear; rest the kanwar on proper stands",
+        "Offer jal only at the vowed temple; accept prasadam without littering routes",
+        "Read Sawan Somwar katha and Shiva aarti before or after the walk"
+      ],
+      "howCelebratedHi": [
+        "जहाँ जरूरी हो पुलिस कांवड़ मार्ग / पंजीकरण मानें",
+        "ORS, ठीक जूते, रिफ्लेक्टिव; कांवड़ उचित स्टैंड पर",
+        "जल केवल संकल्पित मंदिर पर; मार्ग स्वच्छ रखें",
+        "यात्रा से पहले/बाद सावन सोमवार कथा और शिव आरती"
+      ],
+      "diasporaEn": "Diaspora devotees often sponsor jal-abhishek remotely at Deoghar or local Shiva temples, or walk a symbolic short kanwar to the nearest Ganga/temple tank.",
+      "diasporaHi": "प्रवासी अक्सर देवघर/स्थानीय शिव मंदिर में जलाभिषेक करवाते हैं या निकट घाट तक प्रतीकात्मक कांवड़ ले जाते हैं।",
+      "regions": [
+        {
+          "region": "Bihar–Jharkhand",
+          "notes": "Sultanganj → Deoghar / Basukinath classic corridor."
+        },
+        {
+          "region": "Uttarakhand–UP–Delhi NCR",
+          "notes": "Haridwar and other Ganga points; heavy monsoon traffic."
+        },
+        {
+          "region": "All India",
+          "notes": "Local district Shiva temples receive returning kanwars."
+        }
+      ],
+      "relatedDevotion": [
+        "sawan-somwar-vrat-katha",
+        "shiva-aarti",
+        "ganga-aarti",
+        "lingashtakam",
+        "shiva-chalisa"
+      ],
+      "relatedTemples": [
+        "ajgaibinath-sultanganj",
+        "vaidyanath-deoghar",
+        "basukinath-temple",
+        "baba-garibnath-muzaffarpur",
+        "pura-mahadev-baghpat",
+        "neelkanth-mahadev-rishikesh",
+        "kashi-vishwanath"
       ]
     }
   ]

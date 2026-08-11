@@ -2077,5 +2077,32 @@
     "credit": "Nvvchar",
     "license": "CC BY-SA 3.0",
     "local": "assets/temples/yogmaya-mehrauli.jpg"
+  },
+  "neelkanth-mahadev-rishikesh": {
+    "filename": "Neelkanth mahadev mandir.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Neelkanth_mahadev_mandir.jpg/1280px-Neelkanth_mahadev_mandir.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Neelkanth_mahadev_mandir.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Neelkanth_mahadev_mandir.jpg",
+    "credit": "Anurodhraghuwanshi",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/neelkanth-mahadev-rishikesh.jpg"
+  },
+  "baba-garibnath-muzaffarpur": {
+    "filename": "Shikhar of Garib Nath Mandir Muzaffarpur.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Shikhar_of_Garib_Nath_Mandir_Muzaffarpur.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Shikhar_of_Garib_Nath_Mandir_Muzaffarpur.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Shikhar_of_Garib_Nath_Mandir_Muzaffarpur.png",
+    "credit": "Muzaffarpur1947",
+    "license": "CC0",
+    "local": "assets/temples/baba-garibnath-muzaffarpur.png"
+  },
+  "pura-mahadev-baghpat": {
+    "filename": "Pura Mahadev.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Pura_Mahadev.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Pura_Mahadev.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Pura_Mahadev.jpg",
+    "credit": "Udham Solanki",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/pura-mahadev-baghpat.jpg"
   }
 }

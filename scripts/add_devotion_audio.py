@@ -55,6 +55,11 @@ AUDIO: dict[str, tuple[str | None, str]] = {
     "vat-savitri-vrat-katha": ("r9yvst7QwMg", "Vat Savitri Vrat Katha · Hindi"),
     "maha-shivaratri-vrat-katha": ("pnr_UFx8D1Y", "Maha Shivaratri Vrat Katha · Hindi"),
     "ahoi-ashtami-vrat-katha": ("8mGesAxcr_A", "Ahoi Ashtami Vrat Katha · Hindi"),
+    # Sawan / Shravan pack
+    "lingashtakam": (None, "Lingashtakam full with lyrics"),
+    "sawan-somwar-vrat-katha": (None, "Sawan Somwar Vrat Katha Hindi"),
+    "mangala-gauri-vrat-katha": (None, "Mangala Gauri Vrat Katha Hindi"),
+    "nag-panchami-vrat-katha": (None, "Nag Panchami Vrat Katha Hindi"),
 }
 
 

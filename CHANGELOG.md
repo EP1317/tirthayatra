@@ -12,6 +12,17 @@ This project follows [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PA
 
 The current version is in [`VERSION`](./VERSION). Released versions should also be git tags (`v0.3.0`, etc.) so any earlier build can be checked out or promoted on Vercel.
 
+## [0.5.3] - 2026-08-11
+
+### Added
+- **Sawan / Shravan month pack** for monsoon Shiva devotion:
+  - Festival guides: Sawan/Shravan, Kanwar Yatra (Bol Bam), Nag Panchami
+  - Stories: bilva leaf, kanwar–Ganga, Parvati’s tapasya, Naga ornament, rudraksha tears
+  - Vrat kathas: Sawan Somwar, Mangala Gauri, Nag Panchami (original TirthaYatra retellings)
+  - Aarti/stotra: Lingashtakam; engagement checklist + 4-Monday challenge
+  - Temples: Neelkanth Mahadev (Rishikesh), Baba Garibnath (Muzaffarpur), Pura Mahadev (Baghpat) — with Commons photos
+  - 2026 calendar markers for Sawan start/Somwars/Shivaratri/Nag Panchami (North India reference; confirm local panchang)
+
 ## [0.5.2] - 2026-08-10
 
 ### Added

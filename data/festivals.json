@@ -6,6 +6,42 @@
   },
   "fixed": [
     {
+      "date": "2025-08-16",
+      "name": "Janmashtami",
+      "nameHi": "जन्माष्टमी",
+      "importance": "high"
+    },
+    {
+      "date": "2025-08-27",
+      "name": "Ganesh Chaturthi",
+      "nameHi": "गणेश चतुर्थी",
+      "importance": "high"
+    },
+    {
+      "date": "2025-09-22",
+      "name": "Sharad Navaratri begins",
+      "nameHi": "शरद नवरात्रि आरंभ",
+      "importance": "high"
+    },
+    {
+      "date": "2025-10-02",
+      "name": "Dussehra / Vijayadashami",
+      "nameHi": "दशहरा · विजयदशमी",
+      "importance": "high"
+    },
+    {
+      "date": "2025-10-20",
+      "name": "Diwali / Deepavali",
+      "nameHi": "दीपावली",
+      "importance": "high"
+    },
+    {
+      "date": "2025-11-05",
+      "name": "Chhath Puja",
+      "nameHi": "छठ पूजा",
+      "importance": "high"
+    },
+    {
       "date": "2026-01-13",
       "name": "Lohri",
       "nameHi": "लोहड़ी",
@@ -60,6 +96,12 @@
       "importance": "high"
     },
     {
+      "date": "2026-03-19",
+      "name": "Ugadi",
+      "nameHi": "युगादि",
+      "importance": "high"
+    },
+    {
       "date": "2026-03-26",
       "name": "Ram Navami",
       "nameHi": "राम नवमी",
@@ -84,15 +126,51 @@
       "importance": "high"
     },
     {
+      "date": "2026-05-16",
+      "name": "Vat Savitri",
+      "nameHi": "वट सावित्री",
+      "importance": "high"
+    },
+    {
       "date": "2026-06-26",
       "name": "Jagannath Rath Yatra",
       "nameHi": "जगन्नाथ रथ यात्रा",
       "importance": "high"
     },
     {
+      "date": "2026-06-29",
+      "name": "Vat Purnima",
+      "nameHi": "वट पूर्णिमा",
+      "importance": "medium"
+    },
+    {
       "date": "2026-07-29",
       "name": "Guru Purnima",
       "nameHi": "गुरु पूर्णिमा",
+      "importance": "high"
+    },
+    {
+      "date": "2026-07-30",
+      "name": "Sawan Begins (North India)",
+      "nameHi": "सावन आरंभ (उत्तर भारत)",
+      "importance": "high"
+    },
+    {
+      "date": "2026-08-03",
+      "name": "Sawan Somwar",
+      "nameHi": "सावन सोमवार",
+      "importance": "high"
+    },
+    {
+      "date": "2026-08-10",
+      "name": "Sawan Somwar",
+      "nameHi": "सावन सोमवार",
+      "importance": "high"
+    },
+    {
+      "date": "2026-08-11",
+      "name": "Sawan Shivaratri",
+      "nameHi": "सावन शिवरात्रि",
       "importance": "high"
     },
     {
@@ -102,6 +180,18 @@
       "importance": "medium"
     },
     {
+      "date": "2026-08-17",
+      "name": "Nag Panchami / Sawan Somwar",
+      "nameHi": "नाग पंचमी / सावन सोमवार",
+      "importance": "high"
+    },
+    {
+      "date": "2026-08-24",
+      "name": "Sawan Somwar",
+      "nameHi": "सावन सोमवार",
+      "importance": "high"
+    },
+    {
       "date": "2026-08-26",
       "name": "Janmashtami",
       "nameHi": "जन्माष्टमी",
@@ -109,8 +199,20 @@
     },
     {
       "date": "2026-08-28",
-      "name": "Raksha Bandhan",
-      "nameHi": "रक्षाबंधन",
+      "name": "Raksha Bandhan · Sawan Purnima Ends",
+      "nameHi": "रक्षाबंधन · सावन पूर्णिमा समाप्ति",
+      "importance": "high"
+    },
+    {
+      "date": "2026-08-31",
+      "name": "Onam",
+      "nameHi": "ओणम",
+      "importance": "high"
+    },
+    {
+      "date": "2026-09-13",
+      "name": "Hartalika Teej",
+      "nameHi": "हरतालिका तीज",
       "importance": "high"
     },
     {
@@ -138,6 +240,18 @@
       "importance": "high"
     },
     {
+      "date": "2026-11-01",
+      "name": "Ahoi Ashtami",
+      "nameHi": "अहोई अष्टमी",
+      "importance": "medium"
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Dhanteras",
+      "nameHi": "धनतेरस",
+      "importance": "high"
+    },
+    {
       "date": "2026-11-08",
       "name": "Diwali / Deepavali",
       "nameHi": "दीपावली",
@@ -162,94 +276,16 @@
       "importance": "high"
     },
     {
-      "date": "2026-12-25",
-      "name": "Christmas",
-      "nameHi": "क्रिसमस",
-      "importance": "medium"
-    },
-    {
-      "date": "2025-08-16",
-      "name": "Janmashtami",
-      "nameHi": "जन्माष्टमी",
-      "importance": "high"
-    },
-    {
-      "date": "2025-08-27",
-      "name": "Ganesh Chaturthi",
-      "nameHi": "गणेश चतुर्थी",
-      "importance": "high"
-    },
-    {
-      "date": "2025-09-22",
-      "name": "Sharad Navaratri begins",
-      "nameHi": "शरद नवरात्रि आरंभ",
-      "importance": "high"
-    },
-    {
-      "date": "2025-10-02",
-      "name": "Dussehra / Vijayadashami",
-      "nameHi": "दशहरा · विजयदशमी",
-      "importance": "high"
-    },
-    {
-      "date": "2025-10-20",
-      "name": "Diwali / Deepavali",
-      "nameHi": "दीपावली",
-      "importance": "high"
-    },
-    {
-      "date": "2025-11-05",
-      "name": "Chhath Puja",
-      "nameHi": "छठ पूजा",
-      "importance": "high"
-    },
-    {
-      "date": "2026-03-19",
-      "name": "Ugadi",
-      "nameHi": "युगादि",
-      "importance": "high"
-    },
-    {
-      "date": "2026-05-16",
-      "name": "Vat Savitri",
-      "nameHi": "वट सावित्री",
-      "importance": "high"
-    },
-    {
-      "date": "2026-06-29",
-      "name": "Vat Purnima",
-      "nameHi": "वट पूर्णिमा",
-      "importance": "medium"
-    },
-    {
-      "date": "2026-08-31",
-      "name": "Onam",
-      "nameHi": "ओणम",
-      "importance": "high"
-    },
-    {
-      "date": "2026-09-13",
-      "name": "Hartalika Teej",
-      "nameHi": "हरतालिका तीज",
-      "importance": "high"
-    },
-    {
-      "date": "2026-11-01",
-      "name": "Ahoi Ashtami",
-      "nameHi": "अहोई अष्टमी",
-      "importance": "medium"
-    },
-    {
-      "date": "2026-11-06",
-      "name": "Dhanteras",
-      "nameHi": "धनतेरस",
-      "importance": "high"
-    },
-    {
       "date": "2026-11-24",
       "name": "Kartik Purnima",
       "nameHi": "कार्तिक पूर्णिमा",
       "importance": "high"
+    },
+    {
+      "date": "2026-12-25",
+      "name": "Christmas",
+      "nameHi": "क्रिसमस",
+      "importance": "medium"
     }
   ],
   "tithiRules": [

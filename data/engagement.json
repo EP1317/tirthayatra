@@ -3,6 +3,12 @@
     "note": "Editorial curation for first-time and family readers — not paid placement, not fabricated traffic claims.",
     "mostLoved": [
       {
+        "type": "festival",
+        "slug": "shravan-sawan",
+        "label": "Sawan favourite",
+        "blurb": "Mondays, bilva, and Bol Bam — Shiva’s monsoon month."
+      },
+      {
         "type": "devotion",
         "slug": "hanuman-chalisa",
         "label": "Most loved at home",
@@ -112,6 +118,15 @@
   },
   "challenges": [
     {
+      "id": "sawan-somwar-4",
+      "title": "Sawan Somwar · four Mondays",
+      "titleHi": "सावन सोमवार · चार सोमवार",
+      "blurb": "Each Sawan Monday: jal + bilva (or water) for Shiva, aarti once, katha once. Health first.",
+      "days": 4,
+      "devotionSlug": "sawan-somwar-vrat-katha",
+      "storySlug": "bilva-leaf-shiva"
+    },
+    {
       "id": "hanuman-chalisa-7",
       "title": "Hanuman Chalisa · 7 mornings",
       "titleHi": "हनुमान चालीसा · सात प्रातः",
@@ -141,9 +156,11 @@
   ],
   "dailyRotation": {
     "aarti": [
+      "lingashtakam",
+      "shiva-aarti",
+      "ganga-aarti",
       "hanuman-aarti",
       "ganesha-aarti",
-      "shiva-aarti",
       "lakshmi-aarti",
       "krishna-aarti",
       "devi-aarti",
@@ -151,8 +168,12 @@
       "vishnu-aarti"
     ],
     "katha": [
-      "ekadashi-vrat-katha",
+      "sawan-somwar-vrat-katha",
+      "mangala-gauri-vrat-katha",
+      "nag-panchami-vrat-katha",
       "pradosh-vrat-katha",
+      "maha-shivaratri-vrat-katha",
+      "ekadashi-vrat-katha",
       "navaratri-vrat-katha",
       "janmashtami-vrat-katha",
       "ganesh-chaturthi-vrat-katha",
@@ -160,13 +181,18 @@
       "satyanarayan-vrat-katha",
       "karva-chauth-vrat-katha",
       "chhath-vrat-katha",
-      "maha-shivaratri-vrat-katha",
       "teej-vrat-katha",
       "vat-savitri-vrat-katha",
       "hanuman-jayanti-vrat-katha"
     ],
     "story": [
+      "bilva-leaf-shiva",
+      "kanwar-ganga-shiva",
+      "parvati-sawan-tapasya",
+      "naga-shiva-ornament",
+      "rudraksha-tears-shiva",
       "neelkanth-poison",
+      "ganga-avatarana",
       "prahlad-holika",
       "krishna-birth-night",
       "durga-mahishasura",
@@ -178,7 +204,6 @@
       "krishna-govardhan",
       "krishna-kaliya",
       "bhagavad-gita-kurukshetra",
-      "ganga-avatarana",
       "vamana-bali",
       "sudama-krishna",
       "savitri-satyavan",
@@ -243,6 +268,18 @@
         "Keep ghat/kitchen pure",
         "Sandhya arghya",
         "Usha arghya + share prasad"
+      ]
+    },
+    "sawan": {
+      "title": "My Sawan home checklist",
+      "items": [
+        "Note local Sawan start/end on a panchang",
+        "Keep a copper/steel lota for Shiva abhishek",
+        "Sawan Somwar: read katha + Om Jai Shiv Omkara",
+        "Offer bilva or a sincere Namah Shivaya",
+        "Optional: Ganga aarti listen / short kanwar seva",
+        "Nag Panchami: milk offering + teach kindness about snakes",
+        "Raksha Bandhan / Shravan Purnima closing thanks"
       ]
     }
   }

@@ -1933,6 +1933,23 @@
     "famousFor": "Attukal Pongala — among the world’s largest women’s gatherings"
   },
   {
+    "slug": "baba-garibnath-muzaffarpur",
+    "name": "Baba Garibnath Temple, Muzaffarpur",
+    "deity": "Lord Shiva (Garibnath)",
+    "location": "Muzaffarpur, Bihar",
+    "state": "Bihar",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ग",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Muzaffarpur’s beloved Garibnath Shiva temple — a major Sawan Kanwar destination in north Bihar.",
+    "famousFor": "Bihar’s Sawan Bol Bam magnet · massive Kawariya footfall"
+  },
+  {
     "slug": "bahucharaji-temple",
     "name": "Bahucharaji Temple",
     "deity": "Goddess Bahuchara Mata",
@@ -2134,9 +2151,7 @@
     "glyph": "वा",
     "tags": [],
     "tagLabels": [],
-    "deityFamilies": [
-      "rama"
-    ],
+    "deityFamilies": [],
     "summary": "Valmiki Tirath — developed pilgrimage site linked to Valmiki tradition near Amritsar.",
     "famousFor": "Valmiki heritage tirtha · Amritsar search"
   },
@@ -2224,9 +2239,7 @@
     "glyph": "ब्र",
     "tags": [],
     "tagLabels": [],
-    "deityFamilies": [
-      "vishnu"
-    ],
+    "deityFamilies": [],
     "summary": "Jagatpita Brahma Mandir — among the world’s few major Brahma temples.",
     "famousFor": "Rare Brahma shrine · Pushkar fair global search"
   },
@@ -3444,9 +3457,7 @@
     "glyph": "को",
     "tags": [],
     "tagLabels": [],
-    "deityFamilies": [
-      "vishnu"
-    ],
+    "deityFamilies": [],
     "summary": "Konark — 13th-century Sun Temple, Odisha’s world-famous architectural tirtha.",
     "famousFor": "UNESCO chariot temple · global search; living Magha Saptami rites nearby"
   },
@@ -4092,11 +4103,26 @@
     "glyph": "न",
     "tags": [],
     "tagLabels": [],
-    "deityFamilies": [
-      "vishnu"
-    ],
+    "deityFamilies": [],
     "summary": "Navagraha hill temple overlooking Guwahati — popular for graha shanti vows.",
     "famousFor": "Assam’s planetary shrine · high astrology-pilgrim search"
+  },
+  {
+    "slug": "neelkanth-mahadev-rishikesh",
+    "name": "Neelkanth Mahadev Temple, Rishikesh",
+    "deity": "Lord Shiva (Neelkanth)",
+    "location": "Neelkanth, near Rishikesh, Uttarakhand",
+    "state": "Uttarakhand",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "नी",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Hill shrine of Neelkanth Mahadev above Rishikesh — among Uttarakhand’s most searched Sawan Shiva temples.",
+    "famousFor": "Sawan Neelkanth yatra · poison-myth shrine above Rishikesh"
   },
   {
     "slug": "padmanabhaswamy-thiruvananthapuram",
@@ -4160,9 +4186,7 @@
     "glyph": "प",
     "tags": [],
     "tagLabels": [],
-    "deityFamilies": [
-      "vishnu"
-    ],
+    "deityFamilies": [],
     "summary": "Parshuram Kund — sacred pool where tradition places Parshuram’s axe-washing lore.",
     "famousFor": "Makar Sankranti fair · Northeast Hindu pilgrimage search"
   },
@@ -4241,6 +4265,23 @@
     ],
     "summary": "Prem Mandir — a contemporary Vrindavan landmark known for carved leela panels and evening lights.",
     "famousFor": "Illuminated modern marble temple of Braj"
+  },
+  {
+    "slug": "pura-mahadev-baghpat",
+    "name": "Pura Mahadev Temple, Baghpat",
+    "deity": "Lord Shiva (Pura Mahadev)",
+    "location": "Pura Mahadev, Baghpat, Uttar Pradesh",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "पु",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Historic Shiva temple on the west UP Kanwar belt near Baghpat — a major Sawan jal-abhishek stop.",
+    "famousFor": "West UP Kanwar route Shiva seat · huge Sawan search"
   },
   {
     "slug": "purmandal-temples",
@@ -5064,9 +5105,7 @@
     "glyph": "सू",
     "tags": [],
     "tagLabels": [],
-    "deityFamilies": [
-      "vishnu"
-    ],
+    "deityFamilies": [],
     "summary": "Deo Sun Temple — rare standing Surya shrine of Magadh, active especially around Chhath.",
     "famousFor": "Chhath / Surya heritage · Bihar sun-temple search"
   },
