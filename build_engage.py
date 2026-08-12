@@ -57,6 +57,55 @@ def save_btn(type_: str, slug: str, title: str, href: str, label: str = "Save to
     )
 
 
+def lang_toggle() -> str:
+    return (
+        '<div class="lang-toggle" role="group" aria-label="Language">'
+        '<button type="button" class="lang-toggle-btn" data-lang-toggle="hi">हिंदी</button>'
+        '<button type="button" class="lang-toggle-btn" data-lang-toggle="en">EN</button>'
+        "</div>"
+    )
+
+
+def share_bar(
+    *,
+    title: str,
+    text: str,
+    url: str,
+    kind: str = "page",
+) -> str:
+    """WhatsApp-friendly share / copy strip for devotion, stories, festivals."""
+    kind_hi = {
+        "aarti": "आरती",
+        "chalisa": "चालीसा",
+        "vrat-katha": "व्रत कथा",
+        "story": "कथा",
+        "festival": "त्योहार",
+        "page": "पेज",
+    }.get(kind, "पेज")
+    return f"""
+<div class="share-bar" data-share data-share-title="{e(title)}" data-share-text="{e(text)}" data-share-url="{e(url)}">
+  <p class="share-bar-label">Share this {e(kind_hi)} · परिवार संग बाँटें</p>
+  <div class="share-bar-actions">
+    <button type="button" class="btn btn-primary" data-share-action="whatsapp">WhatsApp</button>
+    <button type="button" class="btn btn-ghost" data-share-action="copy">Copy link</button>
+    <button type="button" class="btn btn-ghost" data-share-action="native">Share…</button>
+  </div>
+  <p class="share-bar-note engage-note" data-share-note hidden></p>
+</div>
+"""
+
+
+def lang_p(en: str, hi: str, *, cls: str = "") -> str:
+    """Paired EN/HI paragraphs for language preference."""
+    extra = f" {cls}" if cls else ""
+    parts = []
+    if hi:
+        parts.append(f'<p class="lang-hi{extra}">{e(hi)}</p>')
+    if en:
+        parts.append(f'<p class="lang-en{extra}">{e(en)}</p>')
+    return "\n".join(parts)
+
+
 def engagement_href(prefix: str, type_: str, slug: str) -> str:
     if type_ == "festival":
         return f"{prefix}festivals/{slug}.html"
@@ -205,6 +254,19 @@ def build_stories_index(stories_data: dict, asset_ver: str, nav: Callable, foote
     ) + body
 
 
+HINDI_PRIMARY_STORY_TAGS = {"sawan"}
+HINDI_PRIMARY_STORY_SLUGS = {
+    "bilva-leaf-shiva",
+    "kanwar-ganga-shiva",
+    "parvati-sawan-tapasya",
+    "naga-shiva-ornament",
+    "rudraksha-tears-shiva",
+    "neelkanth-poison",
+    "ganga-avatarana",
+    "markandeya-shiva",
+}
+
+
 def build_story_detail(
     story: dict,
     stories_data: dict,
@@ -228,23 +290,39 @@ def build_story_detail(
         for s in story.get("relatedTemples") or []
     )
     href = f"{prefix}stories/{story['slug']}.html"
+    abs_path = f"stories/{story['slug']}.html"
+    hindi_first = story["slug"] in HINDI_PRIMARY_STORY_SLUGS or bool(
+        set(story.get("tags") or []) & HINDI_PRIMARY_STORY_TAGS
+    )
+    default_lang = "hi" if hindi_first else "en"
+    title_hi = story.get("titleHi") or story["title"]
+    share_text = (
+        f"{title_hi} — TirthaYatra short story for home puja"
+        if hindi_first
+        else f"{story['title']} — short story for home puja · TirthaYatra"
+    )
+    page_title = (
+        f"{title_hi} | {story['title']} — TirthaYatra"
+        if story.get("titleHi")
+        else f"{story['title']} — TirthaYatra"
+    )
+    desc = story.get("hookHi") or story.get("hook") or story["title"]
     body = f"""
 {nav('stories', prefix)}
 <article class="section story-article" data-board-open="story" data-slug="{e(story['slug'])}">
-  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}stories/index.html">Stories</a> · {e(story['title'])}</p>
+  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}stories/index.html">Stories</a> · {e(title_hi)}</p>
+  <div class="page-tools">{lang_toggle()}</div>
   <p class="section-kicker">~{e(str(story.get('readSeconds', 70)))} second read · home puja</p>
-  <h1>{e(story.get('titleHi', ''))} · {e(story['title'])}</h1>
-  <p class="lede">{e(story.get('hook', ''))}</p>
-  <p class="lede trail-lede-hi">{e(story.get('hookHi', ''))}</p>
+  <h1><span class="lang-hi">{e(title_hi)}</span><span class="lang-en title-en-sep"> · {e(story['title'])}</span></h1>
+  {lang_p(story.get('hook', ''), story.get('hookHi', ''), cls='lede')}
   <p>{save_btn('story', story['slug'], story['title'], href)}</p>
-  <h2 class="section-title">The story · कथा</h2>
-  <p>{e(story.get('storyEn', ''))}</p>
-  <p class="trail-story-hi">{e(story.get('storyHi', ''))}</p>
-  <h2 class="section-title">Why this ritual · क्यों</h2>
-  <p>{e(story.get('whyRitual', ''))}</p>
-  <p class="trail-story-hi">{e(story.get('whyRitualHi', ''))}</p>
+  {share_bar(title=page_title, text=share_text, url=abs_path, kind='story')}
+  <h2 class="section-title">कथा · The story</h2>
+  {lang_p(story.get('storyEn', ''), story.get('storyHi', ''))}
+  <h2 class="section-title">क्यों · Why this ritual</h2>
+  {lang_p(story.get('whyRitual', ''), story.get('whyRitualHi', ''))}
   <h2 class="section-title">Takeaway for home</h2>
-  <p>{e(story.get('takeaway', ''))}</p>
+  <p class="lang-en">{e(story.get('takeaway', ''))}</p>
   <h2 class="section-title">Continue</h2>
   <p class="devotion-related">{rel_dev}{rel_fest}{rel_tmp}</p>
   <aside class="belief-disclaimer" style="margin-top:2rem">
@@ -256,7 +334,14 @@ def build_story_detail(
 </body>
 </html>
 """
-    return head(f"{story['title']} — TirthaYatra", story.get("hook", story["title"]), prefix) + body
+    return head(
+        page_title,
+        desc,
+        prefix,
+        lang=default_lang,
+        canonical_path=abs_path,
+        default_lang=default_lang,
+    ) + body
 
 
 def build_daily_practice(

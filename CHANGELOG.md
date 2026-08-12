@@ -12,6 +12,15 @@ This project follows [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PA
 
 The current version is in [`VERSION`](./VERSION). Released versions should also be git tags (`v0.3.0`, etc.) so any earlier build can be checked out or promoted on Vercel.
 
+## [0.5.4] - 2026-08-12
+
+### Added
+- **Sticky Today bar** on every page — IST aarti / katha / story links + हिंदी|EN toggle
+- **WhatsApp / Copy link / Share** buttons on devotion, stories, and festival guides
+- **Hindi-first defaults** for Sawan, Kanwar, Chalisa, Shiva devotion, and key festival pages
+- **Open Graph + canonical** meta on shareable pages
+- **Creator kit** (`pages/creator-kit.html`) — Reel scripts with deep links + Search Console checklist
+
 ## [0.5.3] - 2026-08-11
 
 ### Added

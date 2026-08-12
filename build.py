@@ -351,8 +351,30 @@ def nav(active: str = "", prefix: str = "", *, show_panchang: bool = False) -> s
 """
 
 
+def today_bar_html(prefix: str = "") -> str:
+    return f"""
+<aside class="today-bar" data-today-bar data-prefix="{e(prefix)}" hidden>
+  <div class="today-bar-inner">
+    <div class="today-bar-lead">
+      <a class="today-bar-home" href="{prefix}devotion/daily.html">आज · Today</a>
+      <span class="today-bar-date" data-today-date></span>
+    </div>
+    <div class="today-bar-links" data-today-links></div>
+    <div class="today-bar-tools">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" class="lang-toggle-btn" data-lang-toggle="hi">हिंदी</button>
+        <button type="button" class="lang-toggle-btn" data-lang-toggle="en">EN</button>
+      </div>
+      <button type="button" class="today-bar-dismiss" data-today-dismiss aria-label="Hide today bar">×</button>
+    </div>
+  </div>
+</aside>
+"""
+
+
 def footer(prefix: str = "") -> str:
     return f"""
+{today_bar_html(prefix)}
 <footer class="site-footer">
   <div class="footer-inner">
     <div>
@@ -376,6 +398,7 @@ def footer(prefix: str = "") -> str:
         <a href="{prefix}devotion/index.html">Aarti · Chalisa · Vrat</a>
         <a href="{prefix}states/index.html">By State</a>
         <a href="{prefix}temples/index.html">All Temples</a>
+        <a href="{prefix}pages/creator-kit.html">Share kit · Reels</a>
       </div>
     </div>
     <div class="footer-col">
@@ -396,26 +419,55 @@ def footer(prefix: str = "") -> str:
 <script src="{prefix}js/search.js?v={ASSET_VER}"></script>
 <script src="{prefix}js/board.js?v={ASSET_VER}"></script>
 <script src="{prefix}js/feedback.js?v={ASSET_VER}"></script>
+<script src="{prefix}js/share.js?v={ASSET_VER}"></script>
+<script src="{prefix}js/lang-pref.js?v={ASSET_VER}"></script>
+<script src="{prefix}js/today-bar.js?v={ASSET_VER}"></script>
 <script src="{prefix}js/vercel-analytics.js?v={ASSET_VER}"></script>
 <script defer src="/_vercel/insights/script.js"></script>
 """
 
 
-def head(title: str, description: str, prefix: str = "", extra: str = "") -> str:
+def head(
+    title: str,
+    description: str,
+    prefix: str = "",
+    extra: str = "",
+    *,
+    lang: str = "en",
+    canonical_path: str | None = None,
+    default_lang: str | None = None,
+    og_type: str = "website",
+) -> str:
+    """Page head with description, Open Graph, and optional Hindi-first default."""
+    canon = ""
+    if canonical_path:
+        loc = sitemap_loc(canonical_path)
+        canon = f'<link rel="canonical" href="{e(loc)}" />\n  <meta property="og:url" content="{e(loc)}" />'
+    else:
+        loc = SITE_URL
+    html_lang = "hi" if (default_lang or lang) == "hi" else "en"
+    body_default = default_lang or lang or "en"
     return f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="{e(html_lang)}">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{e(title)}</title>
   <meta name="description" content="{e(description)}" />
   <meta name="theme-color" content="#2a160e" />
+  <meta property="og:site_name" content="TirthaYatra" />
+  <meta property="og:type" content="{e(og_type)}" />
+  <meta property="og:title" content="{e(title)}" />
+  <meta property="og:description" content="{e(description)}" />
+  <meta property="og:locale" content="{"hi_IN" if html_lang == "hi" else "en_IN"}" />
+  <meta name="twitter:card" content="summary" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
+  {canon}
   <link rel="stylesheet" href="{prefix}css/main.css?v={ASSET_VER}" />
   {extra}
 </head>
-<body>
+<body data-default-lang="{e(body_default)}">
 """
 
 
@@ -1357,6 +1409,28 @@ def devotion_audio_block(item: dict) -> str:
     """
 
 
+HINDI_PRIMARY_DEVOTION = {
+    "shiva-aarti",
+    "shiva-chalisa",
+    "lingashtakam",
+    "ganga-aarti",
+    "sawan-somwar-vrat-katha",
+    "mangala-gauri-vrat-katha",
+    "nag-panchami-vrat-katha",
+    "pradosh-vrat-katha",
+    "maha-shivaratri-vrat-katha",
+    "hanuman-chalisa",
+    "durga-chalisa",
+    "ganesha-chalisa",
+    "rama-chalisa",
+    "krishna-chalisa",
+    "vishnu-chalisa",
+    "ayyappa-chalisa",
+    "devi-aarti",
+    "hanuman-aarti",
+}
+
+
 def build_devotion_item(item: dict) -> str:
     prefix = "../"
     dtype = DEVOTION.get("types", {}).get(item["type"], {})
@@ -1382,11 +1456,32 @@ def build_devotion_item(item: dict) -> str:
     nav_active = item.get("type") if item.get("type") in ("aarti", "chalisa", "vrat-katha") else "aarti"
     import build_engage
 
+    abs_path = f"devotion/{item['slug']}.html"
+    hindi_first = (
+        item["slug"] in HINDI_PRIMARY_DEVOTION
+        or item.get("type") == "chalisa"
+        or item.get("deity") == "shiva"
+    )
+    title_hi = item.get("titleHi") or item.get("title") or item["slug"]
+    title_en = item.get("title") or title_hi
+    page_title = f"{title_hi} | {title_en} — TirthaYatra" if title_hi != title_en else f"{title_en} — TirthaYatra"
+    share_text = f"{title_hi} — TirthaYatra · घर की पूजा के लिए"
+    desc = item.get("summary") or title_en
+    # Prefer Hindi-leaning description for primary pages
+    if hindi_first and item.get("when"):
+        desc = f"{title_hi}. {item.get('when')}. {desc}"[:300]
+
     dev_save = build_engage.save_btn(
         "devotion",
         item["slug"],
         item.get("title") or item["slug"],
         f"{prefix}devotion/{item['slug']}.html",
+    )
+    share = build_engage.share_bar(
+        title=page_title,
+        text=share_text,
+        url=abs_path,
+        kind=item.get("type") or "page",
     )
     dev_feedback = build_engage.feedback_section_html("devotion")
     body = f"""
@@ -1396,11 +1491,13 @@ def build_devotion_item(item: dict) -> str:
     <a href="{prefix}index.html">Home</a> ·
     <a href="{prefix}devotion/{e(item['type'])}.html">{e(dtype.get('name', item['type']))}</a>
   </p>
+  <div class="page-tools">{build_engage.lang_toggle()}</div>
   <p class="section-kicker" style="margin-bottom:0.5rem">{e(dtype.get('nameHi', ''))} · {e(deity.get('nameHi', ''))}</p>
-  <h1>{e(item['titleHi'])}</h1>
-  <p class="lede">{e(item['title'])}</p>
+  <h1>{e(title_hi)}</h1>
+  <p class="lede lang-en">{e(title_en)}</p>
   <p>{dev_save} <a class="btn btn-ghost" href="{prefix}devotion/daily.html">Today’s practice</a>
   <button type="button" class="btn btn-ghost" data-feedback-open data-type="correction">Suggest correction</button></p>
+  {share}
 </section>
 <section class="section devotion-section" data-board-open="devotion" data-slug="{e(item['slug'])}">
   <article class="devotion-article">
@@ -1415,7 +1512,7 @@ def build_devotion_item(item: dict) -> str:
     <aside class="belief-disclaimer"><strong>Text note:</strong> Traditional hymn / katha presented for personal learning and home puja. Authors and lineages remain with their traditions; TirthaYatra does not claim copyright over classical verses. Optional YouTube listens belong to their uploaders.</aside>
     <h2>पाठ · Text</h2>
     <div class="devotion-verses">{verses}</div>
-    <h2>Meaning</h2>
+    <h2>Meaning · अर्थ</h2>
     <p class="devotion-meaning">{e(item.get('meaning', ''))}</p>
     {temple_block}
     <aside class="belief-disclaimer">
@@ -1434,9 +1531,13 @@ def build_devotion_item(item: dict) -> str:
 </html>
 """
     return head(
-        f"{item['title']} — TirthaYatra",
-        item.get("summary", item["title"]),
+        page_title,
+        desc,
         prefix,
+        lang="hi" if hindi_first else "en",
+        canonical_path=abs_path,
+        default_lang="hi" if hindi_first else "en",
+        og_type="article",
     ) + body
 
 
@@ -1733,20 +1834,6 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
         if deity_cards
         else ""
     )
-    story_block = ""
-    if fest.get("storyEn") or fest.get("storyHi"):
-        story_block = f"""
-  <h2 class="section-title">The story · कथा</h2>
-  <p>{e(fest.get('storyEn', ''))}</p>
-  <p class="trail-story-hi">{e(fest.get('storyHi', ''))}</p>
-"""
-    myth_block = ""
-    if fest.get("mythologyEn") or fest.get("mythologyHi"):
-        myth_block = f"""
-  <h2 class="section-title">Mythological significance · पौराणिक महत्व</h2>
-  <p>{e(fest.get('mythologyEn', ''))}</p>
-  <p class="trail-story-hi">{e(fest.get('mythologyHi', ''))}</p>
-"""
     devotion_links = []
     for slug in fest.get("relatedDevotion") or []:
         item = next((i for i in devotion_items() if i.get("slug") == slug), None)
@@ -1774,33 +1861,71 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
         if temple_links
         else ""
     )
+    hindi_first = fest["slug"] in {
+        "shravan-sawan",
+        "kanwar-yatra",
+        "nag-panchami",
+        "maha-shivaratri",
+        "raksha-bandhan",
+        "hartalika-teej",
+        "karva-chauth",
+        "chhath",
+        "navaratri",
+        "diwali",
+        "janmashtami",
+    }
+    abs_path = f"festivals/{fest['slug']}.html"
+    name_hi = fest.get("nameHi") or fest["name"]
+    page_title = (
+        f"{name_hi} | {fest['name']} — TirthaYatra"
+        if name_hi != fest["name"]
+        else f"{fest['name']} — TirthaYatra"
+    )
+    share = build_engage.share_bar(
+        title=page_title,
+        text=f"{name_hi} — TirthaYatra festival guide",
+        url=abs_path,
+        kind="festival",
+    )
+    # Hindi-first paired blocks
+    story_block = ""
+    if fest.get("storyEn") or fest.get("storyHi"):
+        story_block = f"""
+  <h2 class="section-title">कथा · The story</h2>
+  {build_engage.lang_p(fest.get('storyEn', ''), fest.get('storyHi', ''))}
+"""
+    myth_block = ""
+    if fest.get("mythologyEn") or fest.get("mythologyHi"):
+        myth_block = f"""
+  <h2 class="section-title">पौराणिक महत्व · Mythological significance</h2>
+  {build_engage.lang_p(fest.get('mythologyEn', ''), fest.get('mythologyHi', ''))}
+"""
     body = f"""
 {nav('festivals', prefix)}
 <section class="page-head">
-  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}festivals/index.html">Festivals</a> · {e(fest['name'])}</p>
-  <h1>{e(fest.get('nameHi', ''))} · {e(fest['name'])}</h1>
-  <p class="lede">{e(fest.get('summary', ''))}</p>
-  <p class="lede trail-lede-hi">{e(fest.get('summaryHi', ''))}</p>
+  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}festivals/index.html">Festivals</a> · {e(name_hi)}</p>
+  <div class="page-tools">{build_engage.lang_toggle()}</div>
+  <h1><span class="lang-hi">{e(name_hi)}</span><span class="lang-en title-en-sep"> · {e(fest['name'])}</span></h1>
+  {build_engage.lang_p(fest.get('summary', ''), fest.get('summaryHi', ''), cls='lede')}
   <p>{fest_save}</p>
+  {share}
   <p><a class="btn btn-ghost" href="{prefix}festivals/calendar.html">Open festival calendar</a></p>
 </section>
 <section class="section festival-section" data-board-open="festival" data-slug="{e(fest['slug'])}">
   <h2 class="section-title">Listed dates</h2>
   <ul class="festival-date-list">{date_rows or '<li>See panchang / local temple calendar</li>'}</ul>
-  <h2 class="section-title">Meaning · अर्थ</h2>
-  <p>{e(fest.get('meaningEn', ''))}</p>
-  <p class="trail-story-hi">{e(fest.get('meaningHi', ''))}</p>
+  <h2 class="section-title">अर्थ · Meaning</h2>
+  {build_engage.lang_p(fest.get('meaningEn', ''), fest.get('meaningHi', ''))}
   {story_block}
   {myth_block}
   {deity_block}
-  <h2 class="section-title">How it is celebrated · कैसे मनाएँ</h2>
+  <h2 class="section-title">कैसे मनाएँ · How it is celebrated</h2>
   <div class="festival-cols">
-    <ul>{how_en}</ul>
-    <ul class="trail-story-hi">{how_hi}</ul>
+    <ul class="lang-en">{how_en}</ul>
+    <ul class="lang-hi">{how_hi}</ul>
   </div>
-  <h2 class="section-title">For the diaspora · प्रवासी समुदाय</h2>
-  <p>{e(fest.get('diasporaEn', ''))}</p>
-  <p class="trail-story-hi">{e(fest.get('diasporaHi', ''))}</p>
+  <h2 class="section-title">प्रवासी समुदाय · For the diaspora</h2>
+  {build_engage.lang_p(fest.get('diasporaEn', ''), fest.get('diasporaHi', ''))}
   <ul class="festival-regions">{regions}</ul>
   {devotion_block}
   {temple_block}
@@ -1816,10 +1941,16 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
 </body>
 </html>
 """
+    desc = fest.get("summaryHi") if hindi_first else fest.get("summary")
+    desc = desc or fest.get("summary") or fest["name"]
     return head(
-        f"{fest['name']} — TirthaYatra",
-        fest.get("summary", fest["name"]),
+        page_title,
+        desc,
         prefix,
+        lang="hi" if hindi_first else "en",
+        canonical_path=abs_path,
+        default_lang="hi" if hindi_first else "en",
+        og_type="article",
     ) + body
 
 
@@ -1829,6 +1960,21 @@ def sitemap_loc(path: str) -> str:
     if not path or path == "index.html":
         return f"{SITE_URL}/"
     return f"{SITE_URL}/{path}"
+
+
+def write_today_bar_data() -> None:
+    """JSON consumed by js/today-bar.js (survives Vercel data/ prune)."""
+    labels: dict[str, str] = {}
+    for item in devotion_items():
+        labels[item["slug"]] = item.get("titleHi") or item.get("title") or item["slug"]
+    for story in STORIES.get("stories") or []:
+        labels[story["slug"]] = story.get("titleHi") or story.get("title") or story["slug"]
+    payload = {
+        "rotation": ENGAGEMENT.get("dailyRotation") or {},
+        "labels": labels,
+    }
+    out = ROOT / "js" / "today-bar-data.json"
+    out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def _sitemap_url_entry(
@@ -2495,11 +2641,58 @@ def main() -> None:
         ),
     }
 
+    # Creator / share kit — Reels scripts + Search Console checklist (manual steps)
+    pages["creator-kit"] = (
+        "Share kit · Reels & Search Console",
+        [
+            (
+                "Why this page",
+                [
+                    "Short links spread TirthaYatra in family WhatsApp groups and Reels bios. Use the exact page URL (not the homepage) so visitors land on the aarti, katha, or story you showed.",
+                ],
+            ),
+            (
+                "30–45 second Reel scripts (link in bio)",
+                [
+                    f"<strong>Bilva leaf:</strong> “तीन दल — एक ॐ। सावन में शिव को बिल्व क्यों?” → end card → {SITE_URL}/stories/bilva-leaf-shiva.html",
+                    f"<strong>Neelkanth:</strong> “हलाहल कण्ठ में — नीलकंठ कैसे बने?” → {SITE_URL}/stories/neelkanth-poison.html · temple: {SITE_URL}/temples/neelkanth-mahadev-rishikesh.html",
+                    f"<strong>Lingashtakam verse 1:</strong> show text on screen, soft jal sound → {SITE_URL}/devotion/lingashtakam.html",
+                    f"<strong>Sawan Somwar:</strong> “सोमवार व्रत कथा — 60 सेकंड सार” → {SITE_URL}/devotion/sawan-somwar-vrat-katha.html",
+                    f"<strong>Kanwar / Bol Bam:</strong> “कांवड़ क्यों उठाते हैं?” → {SITE_URL}/festivals/kanwar-yatra.html",
+                    f"<strong>Hanuman Chalisa opening:</strong> one doha on screen → {SITE_URL}/devotion/hanuman-chalisa.html",
+                ],
+            ),
+            (
+                "WhatsApp share (built into pages)",
+                [
+                    "On every aarti, chalisa, vrat katha, story, and festival guide, use <strong>WhatsApp</strong> / <strong>Copy link</strong> under the title. Prefers Hindi titles for Sawan and Chalisa pages so family chats feel native.",
+                ],
+            ),
+            (
+                "Google Search Console (do this once per property)",
+                [
+                    "Add property for https://www.tirthayatraonline.in (Domain or URL-prefix).",
+                    "Sitemaps → submit <code>https://www.tirthayatraonline.in/sitemap.xml</code> (index of temples, devotion, festivals, stories, images).",
+                    "Optional: also submit <code>/sitemap-all.xml</code> if the index is slow to expand.",
+                    "Coverage → fix 404s / redirected URLs; watch queries like <em>सावन सोमवार व्रत कथा</em>, <em>कांवड़ यात्रा</em>, <em>लिंगाष्टकम्</em>, <em>[temple] aarti</em>.",
+                    "After big content releases (Sawan pack), request indexing on 5–10 hero URLs from the URL Inspection tool.",
+                ],
+            ),
+            (
+                "Language tip",
+                [
+                    "Use the <strong>हिंदी | EN</strong> toggle on guides and stories. Sawan, Kanwar, Chalisa, and Shiva pages default Hindi-first for first-time visitors from Hindi search.",
+                ],
+            ),
+        ],
+    )
+
     for slug, (title, blocks) in pages.items():
         (OUT_PAGES / f"{slug}.html").write_text(
             build_legal(slug, title, blocks), encoding="utf-8"
         )
 
+    write_today_bar_data()
     n_urls = write_sitemap(index, circuits, india_states)
     print(
         f"Built {len(detailed)} temples, {len(circuits)} circuits, "
