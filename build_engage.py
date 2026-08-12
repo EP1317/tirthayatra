@@ -338,10 +338,10 @@ def build_story_detail(
   <p class="lang-en">{e(story.get('takeaway', ''))}</p>
   <h2 class="section-title">Continue</h2>
   <p class="devotion-related">{rel_dev}{rel_fest}{rel_tmp}</p>
-  {share_bar(title=page_title, text=share_text, url=abs_path, kind='story')}
   <aside class="belief-disclaimer" style="margin-top:2rem">
     <strong>Note:</strong> {e(sec.get('disclaimer', ''))}
   </aside>
+  {share_bar(title=page_title, text=share_text, url=abs_path, kind='story')}
   {feedback_section_html('story')}
 </article>
 {footer(prefix)}
@@ -416,7 +416,7 @@ def build_daily_practice(
   <p class="section-desc">No points, no public leaderboard — just gentle continuity on this browser.</p>
   {''.join(ch_html)}
   <aside class="belief-disclaimer" style="margin-top:2rem">
-    <strong>Privacy:</strong> Marks are stored in your browser only (localStorage). We do not upload devotion streaks. Email / WhatsApp digests are not enabled in this demo.
+    <strong>Privacy:</strong> Marks are stored in your browser only (localStorage). We do not upload devotion streaks. Email / WhatsApp digests are not enabled.
   </aside>
 </section>
 {footer(prefix)}
@@ -483,7 +483,7 @@ def build_my_board(
 <section class="page-head">
   <p class="breadcrumb"><a href="index.html">Home</a> · My Board</p>
   <h1>मेरा पट्टा · My Board</h1>
-  <p class="lede">Saved temples, festivals, aartis, and stories on this device. Diwali / Navaratri home checklists included. Nothing is synced to a server in this demo.</p>
+  <p class="lede">Saved temples, festivals, aartis, and stories on this device. Diwali / Navaratri home checklists included. Nothing is synced to our servers.</p>
 </section>
 <section class="section" data-my-board-page data-prefix="{e(prefix)}" data-catalog="{e(json.dumps(catalog, ensure_ascii=False))}">
   <h2 class="section-title">Saved festivals</h2>
@@ -500,7 +500,7 @@ def build_my_board(
   <p class="engage-note">Honest local count only — not a public “most read” claim for advertising.</p>
   <ul data-board-local-popular></ul>
   <aside class="belief-disclaimer" style="margin-top:2rem">
-    <strong>AdSense / privacy:</strong> My Board uses localStorage only. Clear site data to erase saves. If ads are enabled later, we will not use religious belief profiling; see Privacy Policy.
+    <strong>AdSense / privacy:</strong> My Board uses localStorage only. Clear site data to erase saves. We do not use board data for religious belief profiling; see Privacy Policy.
   </aside>
 </section>
 {footer(prefix)}

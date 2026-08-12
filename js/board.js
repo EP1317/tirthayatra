@@ -1,6 +1,6 @@
 /**
  * TirthaYatra My Board — local-first saves, checklists, light streaks, open counts.
- * Nothing is sent to a server (AdSense / privacy friendly for demo).
+ * Nothing is sent to a server (AdSense / privacy friendly — localStorage only).
  */
 (function () {
   var KEY = "tirthayatra-board-v1";

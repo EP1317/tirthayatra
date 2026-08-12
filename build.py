@@ -328,6 +328,7 @@ def nav(active: str = "", prefix: str = "", *, show_panchang: bool = False) -> s
         ("my-board.html", "My Board", "board"),
         ("states/index.html", "States", "states"),
         ("pages/about.html", "About", "about"),
+        ("pages/contact.html", "Contact", "contact"),
     ]
     items = []
     for href, label, key in links:
@@ -404,7 +405,6 @@ def footer(prefix: str = "") -> str:
         <a href="{prefix}devotion/index.html">Aarti · Chalisa · Vrat</a>
         <a href="{prefix}states/index.html">By State</a>
         <a href="{prefix}temples/index.html">All Temples</a>
-        <a href="{prefix}pages/creator-kit.html">Share kit · Reels</a>
       </div>
     </div>
     <div class="footer-col">
@@ -444,14 +444,21 @@ def head(
     canonical_path: str | None = None,
     default_lang: str | None = None,
     og_type: str = "website",
+    og_image: str | None = None,
+    noindex: bool = False,
+    json_ld: dict | list | None = None,
 ) -> str:
     """Page head with description, Open Graph, and optional Hindi-first default."""
     canon = ""
-    if canonical_path:
+    if canonical_path is not None:
         loc = sitemap_loc(canonical_path)
         canon = f'<link rel="canonical" href="{e(loc)}" />\n  <meta property="og:url" content="{e(loc)}" />'
-    else:
-        loc = SITE_URL
+    img = og_image or f"{SITE_URL}/assets/hero-landing.jpg"
+    robots = '<meta name="robots" content="noindex,nofollow" />\n  ' if noindex else ""
+    ld_block = ""
+    if json_ld is not None:
+        ld_json = json.dumps(json_ld, ensure_ascii=False, separators=(",", ":"))
+        ld_block = f'<script type="application/ld+json">{ld_json}</script>\n  '
     html_lang = "hi" if (default_lang or lang) == "hi" else "en"
     body_default = default_lang or lang or "en"
     return f"""<!DOCTYPE html>
@@ -461,20 +468,23 @@ def head(
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{e(title)}</title>
   <meta name="description" content="{e(description)}" />
-  <meta name="theme-color" content="#2a160e" />
+  {robots}<meta name="theme-color" content="#2a160e" />
   <meta property="og:site_name" content="TirthaYatra" />
   <meta property="og:type" content="{e(og_type)}" />
   <meta property="og:title" content="{e(title)}" />
   <meta property="og:description" content="{e(description)}" />
+  <meta property="og:image" content="{e(img)}" />
   <meta property="og:locale" content="{"hi_IN" if html_lang == "hi" else "en_IN"}" />
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="{e(img)}" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   {canon}
+  <link rel="icon" href="{prefix}assets/icons/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="{prefix}css/main.css?v={ASSET_VER}" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6215389980830107"
      crossorigin="anonymous"></script>
-  {extra}
+  {ld_block}{extra}
 </head>
 <body data-default-lang="{e(body_default)}">
 """
@@ -743,7 +753,13 @@ def build_temple(t: dict, all_temples: list, circuits_by_slug: dict) -> str:
 </body>
 </html>
 """
-    return head(f"{t['name']} — TirthaYatra", t["summary"], prefix) + body
+    return head(
+        f"{t['name']} — TirthaYatra",
+        t["summary"],
+        prefix,
+        canonical_path=f"temples/{t['slug']}.html",
+        og_type="article",
+    ) + body
 
 
 def build_circuit(c: dict, temples: list) -> str:
@@ -798,7 +814,12 @@ def build_circuit(c: dict, temples: list) -> str:
 </body>
 </html>
 """
-    return head(f"{c['name']} — TirthaYatra", c["lede"], prefix) + body
+    return head(
+        f"{c['name']} — TirthaYatra",
+        c["lede"],
+        prefix,
+        canonical_path=f"circuits/{c['slug']}.html",
+    ) + body
 
 
 def build_home(circuits: list, temples: list) -> str:
@@ -1020,10 +1041,34 @@ def build_home(circuits: list, temples: list) -> str:
 
     # Panchang script is loaded site-wide via footer (Today bar + optional home chip).
 
+    home_ld = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": f"{SITE_URL}/#organization",
+                "name": "TirthaYatra",
+                "url": f"{SITE_URL}/",
+                "email": "TirthaYatraOnline@gmail.com",
+                "description": "Independent informational site for home devotion and temple learning across India and related sacred geographies.",
+                "logo": f"{SITE_URL}/assets/icons/favicon.svg",
+            },
+            {
+                "@type": "WebSite",
+                "@id": f"{SITE_URL}/#website",
+                "url": f"{SITE_URL}/",
+                "name": "TirthaYatra",
+                "publisher": {"@id": f"{SITE_URL}/#organization"},
+                "inLanguage": ["en", "hi"],
+            },
+        ],
+    }
     return head(
         "TirthaYatra — Temple & Pilgrimage Guides",
         "Mythology, photos, maps, and practical darshan guides for temples in India, Nepal, Sri Lanka, and Kailash.",
         prefix,
+        canonical_path="index.html",
+        json_ld=home_ld,
     ) + body
 
 
@@ -1047,7 +1092,12 @@ def build_temple_index(temples: list) -> str:
 </body>
 </html>
 """
-    return head("All Temples — TirthaYatra", "Browse all temple pilgrimage guides on TirthaYatra.", prefix) + body
+    return head(
+        "All Temples — TirthaYatra",
+        "Browse all temple pilgrimage guides on TirthaYatra.",
+        prefix,
+        canonical_path="temples/index.html",
+    ) + body
 
 
 def build_circuit_index(circuits: list, temples: list) -> str:
@@ -1510,7 +1560,6 @@ def build_devotion_item(item: dict) -> str:
   <h1 class="lang-en">{e(title_en)}</h1>
   <p>{dev_save} <a class="btn btn-ghost" href="{prefix}devotion/daily.html">Today’s practice</a>
   <button type="button" class="btn btn-ghost" data-feedback-open data-type="correction">Suggest correction</button></p>
-  {share}
 </section>
 <section class="section devotion-section" data-board-open="devotion" data-slug="{e(item['slug'])}">
   <article class="devotion-article">
@@ -1536,6 +1585,7 @@ def build_devotion_item(item: dict) -> str:
       <a class="btn btn-ghost" href="{prefix}devotion/{e(item['type'])}.html">More {e(dtype.get('name', 'texts'))}</a>
       <a class="btn btn-ghost" href="{prefix}deities/{e(item['deity'])}.html">{e(deity.get('name', 'Deity'))} temples</a>
     </p>
+    {share}
     {dev_feedback}
   </article>
 </section>
@@ -1969,7 +2019,6 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
   <h1 class="lang-en">{e(fest['name'])}</h1>
   {build_engage.lang_p(fest.get('summary', ''), fest.get('summaryHi', ''), cls='lede')}
   <p>{fest_save}</p>
-  {share}
   <p><a class="btn btn-ghost" href="{prefix}festivals/calendar.html">Open festival calendar</a></p>
 </section>
 <section class="section festival-section" data-board-open="festival" data-slug="{e(fest['slug'])}">
@@ -1993,6 +2042,7 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
   <aside class="belief-disclaimer" style="margin-top:2rem">
     <strong>Note:</strong> {e(FESTIVAL_GUIDE.get('section', {}).get('disclaimer', ''))}
   </aside>
+  {share}
   {fest_feedback}
   <p style="margin-top:1.5rem">
     <a class="btn btn-ghost" href="{prefix}festivals/index.html">All festivals</a>
@@ -2236,6 +2286,9 @@ def write_sitemap(
             rel = f"{folder.name}/{html_path.name}"
             if rel in known or html_path.name == "index.html":
                 continue
+            # Operator-only page — keep on disk but out of public sitemaps
+            if rel == "pages/creator-kit.html":
+                continue
             # Skip known duplicates / redirects not in index
             if folder.name == "temples" and not (DATA / "temples" / f"{html_path.stem}.json").exists():
                 continue
@@ -2338,15 +2391,27 @@ def write_sitemap(
     return len(combined)
 
 
-def build_legal(slug: str, title: str, blocks: list) -> str:
+LEGAL_DESCRIPTIONS = {
+    "about": "Who runs TirthaYatra, our editorial purpose, image sources, and standards for home-devotion and temple guides.",
+    "contact": "Email TirthaYatra for corrections, image credits, temple suggestions, and editorial questions.",
+    "feedback": "Suggest corrections and content tips for TirthaYatra temple guides, aarti, chalisa, and festival pages.",
+    "privacy": "How TirthaYatra handles localStorage, analytics, embeds, and Google AdSense advertising cookies.",
+    "disclaimer": "TirthaYatra is informational only — verify temple timings, permits, and travel details on official channels.",
+    "terms": "Terms of use for TirthaYatra content, traditional hymns, Wikimedia images, and on-device My Board data.",
+    "creator-kit": "Internal share and Search Console checklist for TirthaYatra operators.",
+}
+
+
+def build_legal(slug: str, title: str, blocks: list, *, noindex: bool = False) -> str:
     prefix = "../"
     parts = [f"<h1>{e(title)}</h1>"]
     for h, paras in blocks:
         parts.append(f"<h2>{e(h)}</h2>")
         for p in paras:
             parts.append(f"<p>{p}</p>")
+    nav_active = "about" if slug == "about" else ("contact" if slug == "contact" else "")
     body = f"""
-{nav('about' if slug == 'about' else '', prefix)}
+{nav(nav_active, prefix)}
 <main class="prose">
 {''.join(parts)}
 </main>
@@ -2354,7 +2419,14 @@ def build_legal(slug: str, title: str, blocks: list) -> str:
 </body>
 </html>
 """
-    return head(f"{title} — TirthaYatra", title, prefix) + body
+    desc = LEGAL_DESCRIPTIONS.get(slug) or title
+    return head(
+        f"{title} — TirthaYatra",
+        desc,
+        prefix,
+        canonical_path=None if noindex else f"pages/{slug}.html",
+        noindex=noindex,
+    ) + body
 
 
 def main() -> None:
@@ -2557,10 +2629,17 @@ def main() -> None:
             "About TirthaYatra",
             [
                 (
+                    "Who we are",
+                    [
+                        "TirthaYatra is an independent editorial project based in India. We publish original guides for home devotion (aarti, chalisa, vrat katha, festival stories) and practical temple learning across India and related sacred sites in Nepal, Sri Lanka, and the Kailash region.",
+                        "The site is operated by a small editorial team writing under the TirthaYatra name. We are not a temple trust, travel agency, booking engine, or government portal.",
+                    ],
+                ),
+                (
                     "Our purpose",
                     [
-                        "TirthaYatra is an independent informational site for home devotion (aarti, chalisa, vrat katha, festival stories) and temple learning across India and related sacred sites in Nepal, Sri Lanka, and the Kailash region.",
-                        "We are not a booking engine or guaranteed itinerary planner. Practical temple details can change — verify on official trust or tourism channels before travel.",
+                        "Readers come for short bilingual stories, festival meaning, and temple context they can use at home or before darshan. Practical temple details can change — always verify on official trust or tourism channels before travel.",
+                        "We update pages regularly: new stories and vrat kathas for seasonal festivals, temple guide corrections from reader feedback, and calendar / panchang-linked “Today” practice links.",
                     ],
                 ),
                 (
@@ -2578,7 +2657,8 @@ def main() -> None:
                 (
                     "Editorial standards",
                     [
-                        "We aim for respectful, non-sectarian language. Practical details can change — always reconfirm on official websites before travel. TirthaYatra is not affiliated with any temple trust.",
+                        "We aim for respectful, non-sectarian language. Short stories are original retellings of traditional themes for learning — not verbatim scripture reprints. Hymns and classical verses remain with their lineages.",
+                        "Advertising on TirthaYatra (when shown) never implies endorsement of a ritual, deity, or temple trust. See our <a href=\"../pages/privacy.html\">Privacy Policy</a> and <a href=\"../pages/disclaimer.html\">Disclaimer</a>.",
                     ],
                 ),
             ],
@@ -2589,14 +2669,22 @@ def main() -> None:
                 (
                     "Reach us",
                     [
-                        'For corrections, image credit updates, or to suggest a temple: <a href="mailto:TirthaYatraOnline@gmail.com">TirthaYatraOnline@gmail.com</a>.',
-                        'Prefer a guided form? Use <a href="../pages/feedback.html">Feedback</a> or the Feedback button on any page.',
+                        'Editorial email: <a href="mailto:TirthaYatraOnline@gmail.com">TirthaYatraOnline@gmail.com</a>',
+                        "Use this address for temple corrections, image credit updates, suggestions for new guides, partnership questions, or privacy requests. We aim to reply within 2–5 business days.",
+                        'Prefer a guided form? Use <a href="../pages/feedback.html">Feedback</a> or the Feedback button on any page — then choose <strong>Email to TirthaYatra</strong> so your note reaches us.',
+                    ],
+                ),
+                (
+                    "Publisher",
+                    [
+                        "TirthaYatra is an independent informational publisher based in India. We are not affiliated with any temple trust, Devasthan board, or travel operator.",
+                        'Learn more on <a href="../pages/about.html">About TirthaYatra</a>.',
                     ],
                 ),
             ],
         ),
         "feedback": (
-            "Feedback &amp; content tips",
+            "Feedback and content tips",
             [
                 (
                     "Help improve TirthaYatra",
@@ -2626,6 +2714,12 @@ def main() -> None:
             "Privacy Policy",
             [
                 (
+                    "Last updated",
+                    [
+                        "12 August 2026.",
+                    ],
+                ),
+                (
                     "Information we collect",
                     [
                         "TirthaYatra is primarily a static informational website for home devotion and temple learning.",
@@ -2636,14 +2730,16 @@ def main() -> None:
                     ],
                 ),
                 (
-                    "Advertising",
+                    "Advertising (Google AdSense)",
                     [
-                        "We do not currently show third-party ads. Before enabling Google AdSense we will update this policy, place ads according to Google’s publisher policies, and avoid ad placement that implies endorsement of rituals or temple trusts.",
-                        "Visitor feedback is moderated before any public display. We do not use feedback content to build advertising profiles of religious beliefs. My Board / practice data stays on-device unless a future sync feature is clearly disclosed.",
+                        "TirthaYatra uses <strong>Google AdSense</strong> to display third-party advertisements. Google and its partners may use cookies, device identifiers, or similar technologies to serve and measure ads, including personalized ads where allowed by your settings and applicable law.",
+                        'You can manage ad personalization at <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">Google Ad Settings</a> and learn more in <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google’s advertising technologies policy</a>.',
+                        "We place ads according to Google’s publisher policies. Ads do not imply endorsement of rituals, deities, or temple trusts. We do not use My Board saves, practice streaks, or feedback notes to build advertising profiles of religious beliefs.",
+                        "Visitor feedback is moderated before any public display. My Board / practice data stays on-device unless a future sync feature is clearly disclosed.",
                     ],
                 ),
                 (
-                    "Copyright &amp; content",
+                    "Copyright and content",
                     [
                         "Short stories on TirthaYatra are original editorial retellings of traditional themes for learning — not verbatim scripture reprints.",
                         "Aarti, Chalisa, and vrat katha texts are traditional materials presented for personal study and home puja; classical authorship remains with their traditions. Wikimedia photos keep their stated licenses. Temple names and logos belong to their trusts.",
@@ -2666,12 +2762,19 @@ def main() -> None:
                     [
                         "Temple timings, dress codes, permits (especially Kailash / Mustang), and road status change frequently. Content is general information only.",
                         "Always verify on official trust, tourism, or authorised operator channels before travel.",
+                        "TirthaYatra does not provide religious rulings, medical advice, or booking / visa services.",
                     ],
                 ),
                 (
-                    "Maps &amp; photos",
+                    "Maps and photos",
                     [
                         "Map pins are approximate. Photos are illustrative and credited to Wikimedia Commons contributors.",
+                    ],
+                ),
+                (
+                    "Advertising",
+                    [
+                        "Third-party ads (including Google AdSense) may appear on pages. Advertisers are responsible for their own claims; TirthaYatra does not endorse advertised products or services as part of temple worship.",
                     ],
                 ),
             ],
@@ -2682,11 +2785,11 @@ def main() -> None:
                 (
                     "Acceptance",
                     [
-                        "By using TirthaYatra you agree to use the content for lawful, respectful purposes.",
+                        "By using TirthaYatra you agree to use the content for lawful, respectful purposes. These terms are governed by the laws of India.",
                     ],
                 ),
                 (
-                    "Content &amp; images",
+                    "Content and images",
                     [
                         "Text is for personal learning and home puja unless noted. Short stories are original retellings; traditional hymns remain with their lineages. Wikimedia images keep their licenses; temple names and logos belong to their trusts.",
                         "You may not republish TirthaYatra pages as scripture editions, scrape content for competing commercial apps without permission, or use our marks to imply temple-trust affiliation.",
@@ -2695,7 +2798,13 @@ def main() -> None:
                 (
                     "User-stored notes",
                     [
-                        "Optional on-device notes and My Board items are your responsibility. Do not store unlawful, hateful, or infringing material. We may remove server-side features in future versions if moderation is required for ads compliance.",
+                        "Optional on-device notes and My Board items are your responsibility. Do not store unlawful, hateful, or infringing material.",
+                    ],
+                ),
+                (
+                    "Liability",
+                    [
+                        "Content is provided “as is” for informational purposes. We are not liable for decisions made solely on the basis of this site — including travel, ritual timing, or purchases prompted by third-party ads.",
                     ],
                 ),
             ],
@@ -2750,7 +2859,8 @@ def main() -> None:
 
     for slug, (title, blocks) in pages.items():
         (OUT_PAGES / f"{slug}.html").write_text(
-            build_legal(slug, title, blocks), encoding="utf-8"
+            build_legal(slug, title, blocks, noindex=(slug == "creator-kit")),
+            encoding="utf-8",
         )
 
     write_today_bar_data()

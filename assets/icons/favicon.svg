@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="TirthaYatra">
+  <rect width="64" height="64" rx="12" fill="#2a160e"/>
+  <path d="M32 10 L38 26 H54 L41 36 L46 52 L32 42 L18 52 L23 36 L10 26 H26 Z" fill="#e2c36a"/>
+  <circle cx="32" cy="30" r="6" fill="#fff8f0"/>
+</svg>
