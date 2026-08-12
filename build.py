@@ -353,10 +353,17 @@ def nav(active: str = "", prefix: str = "", *, show_panchang: bool = False) -> s
 
 def today_bar_html(prefix: str = "") -> str:
     return f"""
-<aside class="today-bar" data-today-bar data-prefix="{e(prefix)}" hidden>
+<aside class="today-bar" data-today-bar data-prefix="{e(prefix)}">
   <div class="today-bar-inner">
     <div class="today-bar-lead">
       <a class="today-bar-home" href="{prefix}devotion/daily.html">आज · Today</a>
+      <div class="today-bar-panchang-wrap">
+        <button type="button" class="today-bar-panchang" data-today-panchang-toggle aria-expanded="false" aria-controls="today-panchang-panel" title="आज का पंचांग">
+          <span class="today-bar-panchang-kicker">पंचांग</span>
+          <span class="today-bar-panchang-line" data-today-panchang-line>…</span>
+        </button>
+        <div id="today-panchang-panel" class="today-bar-panchang-panel" data-today-panchang-panel hidden></div>
+      </div>
       <span class="today-bar-date" data-today-date></span>
     </div>
     <div class="today-bar-links" data-today-links></div>
@@ -365,7 +372,6 @@ def today_bar_html(prefix: str = "") -> str:
         <button type="button" class="lang-toggle-btn" data-lang-toggle="hi">हिंदी</button>
         <button type="button" class="lang-toggle-btn" data-lang-toggle="en">EN</button>
       </div>
-      <button type="button" class="today-bar-dismiss" data-today-dismiss aria-label="Hide today bar">×</button>
     </div>
   </div>
 </aside>
@@ -421,6 +427,7 @@ def footer(prefix: str = "") -> str:
 <script src="{prefix}js/feedback.js?v={ASSET_VER}"></script>
 <script src="{prefix}js/share.js?v={ASSET_VER}"></script>
 <script src="{prefix}js/lang-pref.js?v={ASSET_VER}"></script>
+<script src="{prefix}js/panchang.js?v={ASSET_VER}"></script>
 <script src="{prefix}js/today-bar.js?v={ASSET_VER}"></script>
 <script src="{prefix}js/vercel-analytics.js?v={ASSET_VER}"></script>
 <script defer src="/_vercel/insights/script.js"></script>
@@ -465,6 +472,8 @@ def head(
   <meta http-equiv="Pragma" content="no-cache" />
   {canon}
   <link rel="stylesheet" href="{prefix}css/main.css?v={ASSET_VER}" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6215389980830107"
+     crossorigin="anonymous"></script>
   {extra}
 </head>
 <body data-default-lang="{e(body_default)}">
@@ -1009,12 +1018,7 @@ def build_home(circuits: list, temples: list) -> str:
             f'<div class="hero-photo-layer" aria-hidden="true" style="background-image:url(\'{e(hero_img)}\')"></div>',
         )
 
-    # Panchang script only on homepage (widget is home-only).
-    body = body.replace(
-        "</body>",
-        f'<script src="js/panchang.js?v={ASSET_VER}"></script>\n</body>',
-        1,
-    )
+    # Panchang script is loaded site-wide via footer (Today bar + optional home chip).
 
     return head(
         "TirthaYatra — Temple & Pilgrimage Guides",
@@ -1426,6 +1430,17 @@ HINDI_PRIMARY_DEVOTION = {
     "krishna-chalisa",
     "vishnu-chalisa",
     "ayyappa-chalisa",
+    "lakshmi-chalisa",
+    "saraswati-chalisa",
+    "santoshi-chalisa",
+    "gayatri-chalisa",
+    "kali-chalisa",
+    "shani-chalisa",
+    "bhairav-chalisa",
+    "surya-chalisa",
+    "ganga-chalisa",
+    "vaishno-chalisa",
+    "sai-chalisa",
     "devi-aarti",
     "hanuman-aarti",
 }
@@ -1493,8 +1508,8 @@ def build_devotion_item(item: dict) -> str:
   </p>
   <div class="page-tools">{build_engage.lang_toggle()}</div>
   <p class="section-kicker" style="margin-bottom:0.5rem">{e(dtype.get('nameHi', ''))} · {e(deity.get('nameHi', ''))}</p>
-  <h1>{e(title_hi)}</h1>
-  <p class="lede lang-en">{e(title_en)}</p>
+  <h1 class="lang-hi">{e(title_hi)}</h1>
+  <h1 class="lang-en">{e(title_en)}</h1>
   <p>{dev_save} <a class="btn btn-ghost" href="{prefix}devotion/daily.html">Today’s practice</a>
   <button type="button" class="btn btn-ghost" data-feedback-open data-type="correction">Suggest correction</button></p>
   {share}
@@ -1905,7 +1920,8 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
 <section class="page-head">
   <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}festivals/index.html">Festivals</a> · {e(name_hi)}</p>
   <div class="page-tools">{build_engage.lang_toggle()}</div>
-  <h1><span class="lang-hi">{e(name_hi)}</span><span class="lang-en title-en-sep"> · {e(fest['name'])}</span></h1>
+  <h1 class="lang-hi">{e(name_hi)}</h1>
+  <h1 class="lang-en">{e(fest['name'])}</h1>
   {build_engage.lang_p(fest.get('summary', ''), fest.get('summaryHi', ''), cls='lede')}
   <p>{fest_save}</p>
   {share}

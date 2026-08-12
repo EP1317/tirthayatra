@@ -313,7 +313,8 @@ def build_story_detail(
   <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}stories/index.html">Stories</a> · {e(title_hi)}</p>
   <div class="page-tools">{lang_toggle()}</div>
   <p class="section-kicker">~{e(str(story.get('readSeconds', 70)))} second read · home puja</p>
-  <h1><span class="lang-hi">{e(title_hi)}</span><span class="lang-en title-en-sep"> · {e(story['title'])}</span></h1>
+  <h1 class="lang-hi">{e(title_hi)}</h1>
+  <h1 class="lang-en">{e(story['title'])}</h1>
   {lang_p(story.get('hook', ''), story.get('hookHi', ''), cls='lede')}
   <p>{save_btn('story', story['slug'], story['title'], href)}</p>
   {share_bar(title=page_title, text=share_text, url=abs_path, kind='story')}

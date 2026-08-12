@@ -2009,7 +2009,8 @@ a:hover { color: var(--vermillion); }
 }
 
 /* —— Today bar + share + language —— */
-html.has-today-bar { padding-bottom: 4.25rem; }
+html.has-today-bar,
+body:has([data-today-bar]) { padding-bottom: 4.25rem; }
 .today-bar {
   position: fixed;
   left: 0;
@@ -2021,7 +2022,6 @@ html.has-today-bar { padding-bottom: 4.25rem; }
   border-top: 1px solid rgba(226, 195, 106, 0.35);
   box-shadow: 0 -8px 28px rgba(28, 18, 12, 0.28);
 }
-.today-bar[hidden] { display: none !important; }
 .today-bar-inner {
   max-width: var(--max);
   margin: 0 auto;
@@ -2033,9 +2033,11 @@ html.has-today-bar { padding-bottom: 4.25rem; }
 }
 .today-bar-lead {
   display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
+  align-items: center;
+  gap: 0.55rem;
   flex-shrink: 0;
+  flex-wrap: wrap;
+  position: relative;
 }
 .today-bar-home {
   font-family: var(--font-brand);
@@ -2044,7 +2046,95 @@ html.has-today-bar { padding-bottom: 4.25rem; }
   font-size: 1.05rem;
 }
 .today-bar-home:hover { color: #fff3d0; }
-.today-bar-date { font-size: 0.75rem; opacity: 0.75; }
+.today-bar-date { font-size: 0.72rem; opacity: 0.65; }
+.today-bar-panchang-wrap { position: relative; }
+.today-bar-panchang {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  max-width: min(22rem, 55vw);
+  border: 1px solid rgba(226, 195, 106, 0.35);
+  background: rgba(247, 239, 227, 0.08);
+  color: #f7efe3;
+  border-radius: 999px;
+  padding: 0.28rem 0.7rem;
+  font: inherit;
+  font-size: 0.82rem;
+  cursor: pointer;
+  text-align: left;
+}
+.today-bar-panchang:hover,
+.today-bar-panchang[aria-expanded="true"] {
+  background: rgba(226, 195, 106, 0.22);
+  border-color: var(--brass-bright);
+}
+.today-bar-panchang-kicker {
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  flex-shrink: 0;
+  color: var(--brass-bright);
+}
+.today-bar-panchang-line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.today-bar-panchang-panel {
+  position: absolute;
+  left: 0;
+  bottom: calc(100% + 0.45rem);
+  z-index: 70;
+  width: min(20rem, calc(100vw - 1.5rem));
+  padding: 0.85rem 1rem;
+  background: #fff8f0;
+  color: var(--ink);
+  border: 1px solid rgba(92, 61, 46, 0.18);
+  border-radius: 0.85rem;
+  box-shadow: 0 12px 32px rgba(28, 18, 12, 0.35);
+}
+.today-bar-panchang-panel[hidden] { display: none !important; }
+.today-bar-panchang-title {
+  margin: 0 0 0.55rem;
+  font-family: var(--font-brand);
+  font-size: 1.05rem;
+  color: var(--stone-deep);
+}
+.today-bar-panchang-facts {
+  margin: 0;
+  display: grid;
+  gap: 0.35rem;
+}
+.today-bar-panchang-facts div {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr;
+  gap: 0.35rem;
+  font-size: 0.88rem;
+}
+.today-bar-panchang-facts dt {
+  margin: 0;
+  color: var(--stone);
+  font-weight: 600;
+}
+.today-bar-panchang-facts dd { margin: 0; }
+.today-bar-panchang-fest {
+  margin-top: 0.65rem;
+  font-size: 0.88rem;
+}
+.today-bar-panchang-fest ul {
+  margin: 0.25rem 0 0;
+  padding-left: 1.1rem;
+}
+.today-bar-panchang-note {
+  margin: 0.65rem 0 0.35rem;
+  font-size: 0.78rem;
+  color: var(--stone);
+}
+.today-bar-cal-link {
+  font-size: 0.88rem;
+  font-weight: 600;
+}
 .today-bar-links {
   display: flex;
   flex-wrap: wrap;
@@ -2078,17 +2168,6 @@ html.has-today-bar { padding-bottom: 4.25rem; }
   gap: 0.45rem;
   margin-left: auto;
 }
-.today-bar-dismiss {
-  border: none;
-  background: transparent;
-  color: #f7efe3;
-  font-size: 1.35rem;
-  line-height: 1;
-  cursor: pointer;
-  opacity: 0.7;
-  padding: 0.15rem 0.35rem;
-}
-.today-bar-dismiss:hover { opacity: 1; }
 .today-bar .lang-toggle-btn {
   color: #f7efe3;
   border-color: rgba(247, 239, 227, 0.28);
@@ -2125,10 +2204,20 @@ html.has-today-bar { padding-bottom: 4.25rem; }
   font-weight: 600;
 }
 
-/* Hindi-first preference: show HI blocks first; soften EN as secondary */
-html.pref-hi .lang-en.title-en-sep { display: none; }
-html.pref-hi .festival-cols .lang-en { opacity: 0.85; }
-html.pref-en .lang-hi.lede { opacity: 0.92; }
+/* Language preference — hard swap so the Today-bar toggle is obvious */
+html.pref-hi .lang-en { display: none !important; }
+html.pref-en .lang-hi { display: none !important; }
+/* Legacy Hindi blocks (older festival/story markup) */
+html.pref-en .trail-story-hi,
+html.pref-en .trail-lede-hi { display: none !important; }
+/* Verse text stays visible in both modes (hymns are Devanagari) */
+html.pref-hi .devotion-verses,
+html.pref-en .devotion-verses,
+html.pref-hi .devotion-verses .lang-en,
+html.pref-en .devotion-verses .lang-hi { display: block !important; }
+/* Dual titles stacked cleanly */
+h1.lang-hi, h1.lang-en { margin: 0 0 0.35rem; }
+.lede.lang-hi, .lede.lang-en { margin-top: 0.25rem; }
 
 .share-bar {
   margin: 0.85rem 0 1.1rem;
@@ -2153,10 +2242,12 @@ html.pref-en .lang-hi.lede { opacity: 0.92; }
 @media (max-width: 720px) {
   .today-bar-inner { padding: 0.5rem 0.65rem 0.65rem; }
   .today-bar-links { font-size: 0.8rem; }
-  html.has-today-bar { padding-bottom: 5.5rem; }
+  .today-bar-panchang { max-width: min(18rem, 70vw); font-size: 0.75rem; }
+  html.has-today-bar,
+  body:has([data-today-bar]) { padding-bottom: 5.75rem; }
   /* Keep feedback FAB above today bar */
-  .feedback-fab { bottom: 4.75rem; }
-  .feedback-panel { bottom: 8.25rem; }
+  .feedback-fab { bottom: 5.25rem; }
+  .feedback-panel { bottom: 8.75rem; }
 }
 
 /* —— Feedback loop —— */

@@ -3,16 +3,16 @@
  * Computed from astronomical approximations — not a reprint of any proprietary almanac.
  */
 (function () {
+  if (window.__tirthaPanchangBooted) return;
+  window.__tirthaPanchangBooted = true;
   var root = document.querySelector("[data-panchang]");
-  if (!root) return;
-
-  var prefix = root.getAttribute("data-prefix") || "";
-  var toggle = root.querySelector("[data-panchang-toggle]");
-  var panel = root.querySelector("[data-panchang-panel]");
-  var chipDate = root.querySelector("[data-panchang-date]");
-  var chipTithi = root.querySelector("[data-panchang-tithi]");
-  var chipFest = root.querySelector("[data-panchang-fest]");
-  var panelBody = root.querySelector("[data-panchang-body]");
+  var prefix = (root && root.getAttribute("data-prefix")) || "";
+  var toggle = root && root.querySelector("[data-panchang-toggle]");
+  var panel = root && root.querySelector("[data-panchang-panel]");
+  var chipDate = root && root.querySelector("[data-panchang-date]");
+  var chipTithi = root && root.querySelector("[data-panchang-tithi]");
+  var chipFest = root && root.querySelector("[data-panchang-fest]");
+  var panelBody = root && root.querySelector("[data-panchang-body]");
 
   var TITHI_NAMES = [
     "प्रतिपदा", "द्वितीया", "तृतीया", "चतुर्थी", "पंचमी", "षष्ठी", "सप्तमी",
@@ -352,8 +352,17 @@
     });
   }
 
-  var pan = computePanchang(new Date());
-  loadFestivals().then(function (fest) {
-    render(pan, fest);
-  });
+  window.TirthaPanchang = {
+    compute: computePanchang,
+    matchHighlights: matchHighlights,
+    loadFestivals: loadFestivals,
+    escapeHtml: escapeHtml,
+  };
+
+  if (root) {
+    var pan = computePanchang(new Date());
+    loadFestivals().then(function (fest) {
+      render(pan, fest);
+    });
+  }
 })();
