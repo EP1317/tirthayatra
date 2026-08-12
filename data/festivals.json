@@ -85,14 +85,14 @@
     },
     {
       "date": "2026-03-19",
-      "name": "Gudi Padwa",
-      "nameHi": "गुड़ी पड़वा",
+      "name": "Chaitra Navaratri begins",
+      "nameHi": "चैत्र नवरात्रि आरंभ",
       "importance": "high"
     },
     {
       "date": "2026-03-19",
-      "name": "Chaitra Navaratri begins",
-      "nameHi": "चैत्र नवरात्रि आरंभ",
+      "name": "Gudi Padwa",
+      "nameHi": "गुड़ी पड़वा",
       "importance": "high"
     },
     {
@@ -283,6 +283,198 @@
     },
     {
       "date": "2026-12-25",
+      "name": "Christmas",
+      "nameHi": "क्रिसमस",
+      "importance": "medium"
+    },
+    {
+      "date": "2027-01-14",
+      "name": "Lohri",
+      "nameHi": "लोहड़ी",
+      "importance": "high"
+    },
+    {
+      "date": "2027-01-15",
+      "name": "Makar Sankranti",
+      "nameHi": "मकर संक्रांति",
+      "importance": "high"
+    },
+    {
+      "date": "2027-01-15",
+      "name": "Thai Pongal",
+      "nameHi": "थाई पोंगल",
+      "importance": "high"
+    },
+    {
+      "date": "2027-02-11",
+      "name": "Vasant Panchami",
+      "nameHi": "वसंत पंचमी",
+      "importance": "high"
+    },
+    {
+      "date": "2027-03-06",
+      "name": "Maha Shivaratri",
+      "nameHi": "महाशिवरात्रि",
+      "importance": "high"
+    },
+    {
+      "date": "2027-03-21",
+      "name": "Holika Dahan",
+      "nameHi": "होलिका दहन",
+      "importance": "high"
+    },
+    {
+      "date": "2027-03-22",
+      "name": "Holi",
+      "nameHi": "होली",
+      "importance": "high"
+    },
+    {
+      "date": "2027-04-07",
+      "name": "Chaitra Navaratri begins",
+      "nameHi": "चैत्र नवरात्रि आरंभ",
+      "importance": "high"
+    },
+    {
+      "date": "2027-04-07",
+      "name": "Gudi Padwa",
+      "nameHi": "गुड़ी पड़वा",
+      "importance": "high"
+    },
+    {
+      "date": "2027-04-07",
+      "name": "Ugadi",
+      "nameHi": "युगादि",
+      "importance": "high"
+    },
+    {
+      "date": "2027-04-14",
+      "name": "Vaisakhi / Vishu / Puthandu",
+      "nameHi": "वैशाखी · विषु · पुत्तुण्डु",
+      "importance": "high"
+    },
+    {
+      "date": "2027-04-15",
+      "name": "Ram Navami",
+      "nameHi": "राम नवमी",
+      "importance": "high"
+    },
+    {
+      "date": "2027-04-20",
+      "name": "Hanuman Jayanti",
+      "nameHi": "हनुमान जयंती",
+      "importance": "high"
+    },
+    {
+      "date": "2027-05-09",
+      "name": "Akshaya Tritiya",
+      "nameHi": "अक्षय तृतीया",
+      "importance": "high"
+    },
+    {
+      "date": "2027-06-04",
+      "name": "Vat Savitri",
+      "nameHi": "वट सावित्री",
+      "importance": "high"
+    },
+    {
+      "date": "2027-07-05",
+      "name": "Jagannath Rath Yatra",
+      "nameHi": "जगन्नाथ रथ यात्रा",
+      "importance": "high"
+    },
+    {
+      "date": "2027-07-18",
+      "name": "Guru Purnima",
+      "nameHi": "गुरु पूर्णिमा",
+      "importance": "high"
+    },
+    {
+      "date": "2027-07-19",
+      "name": "Sawan Begins (North India)",
+      "nameHi": "सावन आरंभ (उत्तर भारत)",
+      "importance": "high"
+    },
+    {
+      "date": "2027-08-17",
+      "name": "Raksha Bandhan · Sawan Purnima Ends",
+      "nameHi": "रक्षाबंधन · सावन पूर्णिमा समाप्ति",
+      "importance": "high"
+    },
+    {
+      "date": "2027-08-25",
+      "name": "Janmashtami",
+      "nameHi": "जन्माष्टमी",
+      "importance": "high"
+    },
+    {
+      "date": "2027-09-04",
+      "name": "Ganesh Chaturthi",
+      "nameHi": "गणेश चतुर्थी",
+      "importance": "high"
+    },
+    {
+      "date": "2027-09-12",
+      "name": "Onam",
+      "nameHi": "ओणम",
+      "importance": "high"
+    },
+    {
+      "date": "2027-10-01",
+      "name": "Sharad Navaratri begins",
+      "nameHi": "शरद नवरात्रि आरंभ",
+      "importance": "high"
+    },
+    {
+      "date": "2027-10-09",
+      "name": "Dussehra / Vijayadashami",
+      "nameHi": "दशहरा · विजयदशमी",
+      "importance": "high"
+    },
+    {
+      "date": "2027-10-18",
+      "name": "Karva Chauth",
+      "nameHi": "करवा चौथ",
+      "importance": "high"
+    },
+    {
+      "date": "2027-10-27",
+      "name": "Dhanteras",
+      "nameHi": "धनतेरस",
+      "importance": "high"
+    },
+    {
+      "date": "2027-10-29",
+      "name": "Diwali / Deepavali",
+      "nameHi": "दीपावली",
+      "importance": "high"
+    },
+    {
+      "date": "2027-10-30",
+      "name": "Govardhan Puja",
+      "nameHi": "गोवर्धन पूजा",
+      "importance": "medium"
+    },
+    {
+      "date": "2027-10-31",
+      "name": "Bhai Dooj",
+      "nameHi": "भाई दूज",
+      "importance": "medium"
+    },
+    {
+      "date": "2027-11-04",
+      "name": "Chhath Puja",
+      "nameHi": "छठ पूजा",
+      "importance": "high"
+    },
+    {
+      "date": "2027-11-14",
+      "name": "Kartik Purnima",
+      "nameHi": "कार्तिक पूर्णिमा",
+      "importance": "high"
+    },
+    {
+      "date": "2027-12-25",
       "name": "Christmas",
       "nameHi": "क्रिसमस",
       "importance": "medium"

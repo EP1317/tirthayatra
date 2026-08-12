@@ -21,12 +21,48 @@ def load_json(path: Path):
         return json.load(f)
 
 
-def guide_name_map(festival_guide: dict) -> dict[str, str]:
-    """Map festivals.json fixed[].name -> festival-guide slug."""
+def guide_slug_for_date_name(row_name: str, festival_guide: dict) -> str | None:
+    """Resolve a festivals.json name to a guide slug (exact then partial)."""
+    if not row_name:
+        return None
+    exact: dict[str, str] = {}
+    for fest in festival_guide.get("festivals") or []:
+        for name in fest.get("dateNames") or []:
+            exact[name] = fest["slug"]
+    if row_name in exact:
+        return exact[row_name]
+    rn = row_name.lower()
+    for fest in festival_guide.get("festivals") or []:
+        for name in fest.get("dateNames") or []:
+            if not name:
+                continue
+            nl = name.lower()
+            if nl in rn or rn in nl:
+                return fest["slug"]
+            row_core = rn.split("·")[0].split("/")[0].strip()
+            name_core = nl.split("·")[0].split("/")[0].strip()
+            if row_core and name_core and (row_core in name_core or name_core in row_core):
+                return fest["slug"]
+    return None
+
+
+def guide_name_map(festival_guide: dict, festivals_data: dict | None = None) -> dict[str, str]:
+    """Map festivals.json fixed[].name (+ dateNames) -> festival-guide slug."""
     out: dict[str, str] = {}
     for fest in festival_guide.get("festivals") or []:
         for name in fest.get("dateNames") or []:
             out[name] = fest["slug"]
+    data = festivals_data
+    if data is None:
+        fest_path = DATA / "festivals.json"
+        if fest_path.exists():
+            data = load_json(fest_path)
+    if data:
+        for row in data.get("fixed") or []:
+            name = row.get("name") or ""
+            slug = guide_slug_for_date_name(name, festival_guide)
+            if name and slug:
+                out[name] = slug
     return out
 
 
@@ -54,15 +90,6 @@ def save_btn(type_: str, slug: str, title: str, href: str, label: str = "Save to
         f'<button type="button" class="btn btn-ghost save-btn" data-save="{e(type_)}" '
         f'data-slug="{e(slug)}" data-title="{e(title)}" data-href="{e(href)}" '
         f'data-label="{e(label)}">{e(label)}</button>'
-    )
-
-
-def lang_toggle() -> str:
-    return (
-        '<div class="lang-toggle" role="group" aria-label="Language">'
-        '<button type="button" class="lang-toggle-btn" data-lang-toggle="hi">हिंदी</button>'
-        '<button type="button" class="lang-toggle-btn" data-lang-toggle="en">EN</button>'
-        "</div>"
     )
 
 
@@ -238,7 +265,7 @@ def build_stories_index(stories_data: dict, asset_ver: str, nav: Callable, foote
   <p class="lede">{e(sec.get('lede', ''))}</p>
 </section>
 <section class="section">
-  <div class="circuit-grid">{''.join(tiles)}</div>
+  <div class="circuit-grid" data-shuffle-children>{''.join(tiles)}</div>
   <aside class="belief-disclaimer" style="margin-top:2rem">
     <strong>Copyright &amp; learning use:</strong> {e(sec.get('disclaimer', ''))}
   </aside>
@@ -252,19 +279,6 @@ def build_stories_index(stories_data: dict, asset_ver: str, nav: Callable, foote
         sec.get("lede", "Short myth explainers for home devotion"),
         prefix,
     ) + body
-
-
-HINDI_PRIMARY_STORY_TAGS = {"sawan"}
-HINDI_PRIMARY_STORY_SLUGS = {
-    "bilva-leaf-shiva",
-    "kanwar-ganga-shiva",
-    "parvati-sawan-tapasya",
-    "naga-shiva-ornament",
-    "rudraksha-tears-shiva",
-    "neelkanth-poison",
-    "ganga-avatarana",
-    "markandeya-shiva",
-}
 
 
 def build_story_detail(
@@ -291,10 +305,10 @@ def build_story_detail(
     )
     href = f"{prefix}stories/{story['slug']}.html"
     abs_path = f"stories/{story['slug']}.html"
-    hindi_first = story["slug"] in HINDI_PRIMARY_STORY_SLUGS or bool(
-        set(story.get("tags") or []) & HINDI_PRIMARY_STORY_TAGS
-    )
-    default_lang = "hi" if hindi_first else "en"
+    # All stories ship with Hindi + English; default Hindi so EN preference is an explicit choice.
+    # (Page-level hard swap in CSS hides the other language — it is not missing from the HTML.)
+    hindi_first = True
+    default_lang = "hi"
     title_hi = story.get("titleHi") or story["title"]
     share_text = (
         f"{title_hi} — TirthaYatra short story for home puja"
@@ -311,13 +325,11 @@ def build_story_detail(
 {nav('stories', prefix)}
 <article class="section story-article" data-board-open="story" data-slug="{e(story['slug'])}">
   <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}stories/index.html">Stories</a> · {e(title_hi)}</p>
-  <div class="page-tools">{lang_toggle()}</div>
   <p class="section-kicker">~{e(str(story.get('readSeconds', 70)))} second read · home puja</p>
   <h1 class="lang-hi">{e(title_hi)}</h1>
   <h1 class="lang-en">{e(story['title'])}</h1>
   {lang_p(story.get('hook', ''), story.get('hookHi', ''), cls='lede')}
   <p>{save_btn('story', story['slug'], story['title'], href)}</p>
-  {share_bar(title=page_title, text=share_text, url=abs_path, kind='story')}
   <h2 class="section-title">कथा · The story</h2>
   {lang_p(story.get('storyEn', ''), story.get('storyHi', ''))}
   <h2 class="section-title">क्यों · Why this ritual</h2>
@@ -326,6 +338,7 @@ def build_story_detail(
   <p class="lang-en">{e(story.get('takeaway', ''))}</p>
   <h2 class="section-title">Continue</h2>
   <p class="devotion-related">{rel_dev}{rel_fest}{rel_tmp}</p>
+  {share_bar(title=page_title, text=share_text, url=abs_path, kind='story')}
   <aside class="belief-disclaimer" style="margin-top:2rem">
     <strong>Note:</strong> {e(sec.get('disclaimer', ''))}
   </aside>

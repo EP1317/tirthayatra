@@ -1321,7 +1321,6 @@ def build_devotion_type_page(type_key: str) -> str:
 <section class="page-head">
   <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · {e(meta['name'])}</p>
   <h1>{e(meta['nameHi'])} · {e(meta['name'])} — {len(items)}</h1>
-  <p class="lede">{e(meta.get('lede', ''))}</p>
 </section>
 {sangrah}
 {list_block}
@@ -1506,7 +1505,6 @@ def build_devotion_item(item: dict) -> str:
     <a href="{prefix}index.html">Home</a> ·
     <a href="{prefix}devotion/{e(item['type'])}.html">{e(dtype.get('name', item['type']))}</a>
   </p>
-  <div class="page-tools">{build_engage.lang_toggle()}</div>
   <p class="section-kicker" style="margin-bottom:0.5rem">{e(dtype.get('nameHi', ''))} · {e(deity.get('nameHi', ''))}</p>
   <h1 class="lang-hi">{e(title_hi)}</h1>
   <h1 class="lang-en">{e(title_en)}</h1>
@@ -1758,23 +1756,65 @@ def _temple_by_slug(temples: list, slug: str) -> dict | None:
     return None
 
 
+def _festival_name_matches(row_name: str, names: set[str]) -> bool:
+    """Match festival-guide dateNames to festivals.json rows (allows partial titles)."""
+    if not row_name or not names:
+        return False
+    if row_name in names:
+        return True
+    rn = row_name.lower()
+    for n in names:
+        if not n:
+            continue
+        nl = n.lower()
+        if nl in rn or rn in nl:
+            return True
+        row_core = rn.split("·")[0].split("/")[0].strip()
+        name_core = nl.split("·")[0].split("/")[0].strip()
+        if row_core and name_core and (row_core in name_core or name_core in row_core):
+            return True
+    return False
+
+
 def _festival_dates(fest: dict, festivals_data: dict) -> list[dict]:
+    """All listed dates for a festival guide, soonest first."""
     names = set(fest.get("dateNames") or [])
     out = []
     for row in festivals_data.get("fixed") or []:
-        if row.get("name") in names:
+        if _festival_name_matches(row.get("name") or "", names):
             out.append(row)
-    out.sort(key=lambda r: r.get("date", ""), reverse=True)
+    out.sort(key=lambda r: r.get("date", ""))
     return out
 
 
+def _next_festival_date(dates: list[dict], *, today: str | None = None) -> str | None:
+    """Earliest listed date on/after today (IST calendar day via local date at build)."""
+    from datetime import date as _date
+
+    day = today or _date.today().isoformat()
+    for row in dates:
+        d = row.get("date") or ""
+        if d >= day:
+            return d
+    return None
+
+
 def build_festivals_index(festivals_data: dict) -> str:
+    from datetime import date as _date
+
     prefix = "../"
     sec = FESTIVAL_GUIDE.get("section", {})
-    cards = []
+    today = _date.today().isoformat()
+    ranked: list[tuple[str, dict, str]] = []
     for fest in FESTIVAL_GUIDE.get("festivals", []):
         dates = _festival_dates(fest, festivals_data)
-        next_date = dates[0]["date"] if dates else "—"
+        next_date = _next_festival_date(dates, today=today) or "—"
+        # Sort key: upcoming first by date; undated last
+        sort_key = next_date if next_date != "—" else "9999-99-99"
+        ranked.append((sort_key, fest, next_date))
+    ranked.sort(key=lambda x: (x[0], x[1].get("name", "")))
+    cards = []
+    for _key, fest, next_date in ranked:
         cards.append(
             f"""
             <a class="circuit-tile reveal" href="{prefix}festivals/{e(fest['slug'])}.html">
@@ -1790,7 +1830,6 @@ def build_festivals_index(festivals_data: dict) -> str:
 <section class="page-head">
   <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · Festivals</p>
   <h1>{e(sec.get('nameHi', 'त्योहार'))} · {e(sec.get('name', 'Festivals'))}</h1>
-  <p class="lede">{e(sec.get('lede', ''))}</p>
   <p><a class="btn btn-primary" href="{prefix}festivals/calendar.html">Month calendar · next 30 days</a></p>
 </section>
 <section class="section">
@@ -1821,10 +1860,17 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
         f"{prefix}festivals/{fest['slug']}.html",
     )
     fest_feedback = build_engage.feedback_section_html("festival")
+    from datetime import date as _date
+
     dates = _festival_dates(fest, festivals_data)
+    today = _date.today().isoformat()
+    upcoming = [r for r in dates if (r.get("date") or "") >= today]
+    past = [r for r in dates if (r.get("date") or "") < today]
+    # Prefer next occurrences; fill with recent past if needed
+    show = (upcoming + list(reversed(past)))[:6]
     date_rows = "".join(
         f"<li><strong>{e(r['date'])}</strong> — {e(r.get('nameHi') or r['name'])}</li>"
-        for r in dates[:6]
+        for r in show
     )
     how_en = "".join(f"<li>{e(x)}</li>" for x in fest.get("howCelebratedEn") or [])
     how_hi = "".join(f"<li>{e(x)}</li>" for x in fest.get("howCelebratedHi") or [])
@@ -1919,7 +1965,6 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
 {nav('festivals', prefix)}
 <section class="page-head">
   <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}festivals/index.html">Festivals</a> · {e(name_hi)}</p>
-  <div class="page-tools">{build_engage.lang_toggle()}</div>
   <h1 class="lang-hi">{e(name_hi)}</h1>
   <h1 class="lang-en">{e(fest['name'])}</h1>
   {build_engage.lang_p(fest.get('summary', ''), fest.get('summaryHi', ''), cls='lede')}

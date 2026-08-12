@@ -1,6 +1,6 @@
 /**
- * Hindi / English reading preference (localStorage).
- * Pages with data-default-lang="hi" start Hindi-first until the user toggles.
+ * Hindi / English preference for the Today bar only (localStorage).
+ * Page body content always shows both languages — this does not hide .lang-hi / .lang-en.
  * Dispatches `tirthayatra:lang` so the Today bar can refresh labels.
  */
 (function () {
@@ -9,7 +9,7 @@
 
   function pageDefault() {
     var body = document.body;
-    return (body && body.getAttribute("data-default-lang")) || "en";
+    return (body && body.getAttribute("data-default-lang")) || "hi";
   }
 
   function current() {
@@ -21,11 +21,11 @@
   }
 
   function apply(lang) {
-    if (lang !== "hi" && lang !== "en") lang = "en";
+    if (lang !== "hi" && lang !== "en") lang = "hi";
     root.setAttribute("data-lang", lang);
     root.classList.toggle("pref-hi", lang === "hi");
     root.classList.toggle("pref-en", lang === "en");
-    document.querySelectorAll("[data-lang-toggle]").forEach(function (btn) {
+    document.querySelectorAll(".today-bar [data-lang-toggle]").forEach(function (btn) {
       var on = btn.getAttribute("data-lang-toggle") === lang;
       btn.classList.toggle("is-active", on);
       btn.setAttribute("aria-pressed", on ? "true" : "false");
@@ -51,7 +51,7 @@
   apply(current());
 
   document.addEventListener("click", function (ev) {
-    var btn = ev.target.closest("[data-lang-toggle]");
+    var btn = ev.target.closest(".today-bar [data-lang-toggle]");
     if (!btn) return;
     ev.preventDefault();
     ev.stopPropagation();

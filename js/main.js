@@ -1,13 +1,28 @@
 (function () {
-  const toggle = document.querySelector("[data-nav-toggle]");
-  const links = document.querySelector("[data-nav-links]");
+  // Shuffle story (and any) grids marked for per-visit variety
+  document.querySelectorAll("[data-shuffle-children]").forEach(function (grid) {
+    var nodes = Array.prototype.slice.call(grid.children);
+    if (nodes.length < 2) return;
+    for (var i = nodes.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = nodes[i];
+      nodes[i] = nodes[j];
+      nodes[j] = tmp;
+    }
+    nodes.forEach(function (el) {
+      grid.appendChild(el);
+    });
+  });
+
+  var toggle = document.querySelector("[data-nav-toggle]");
+  var links = document.querySelector("[data-nav-links]");
   if (toggle && links) {
     toggle.addEventListener("click", function () {
       links.classList.toggle("open");
     });
   }
 
-  const reveals = document.querySelectorAll(".reveal");
+  var reveals = document.querySelectorAll(".reveal");
   if (!reveals.length || !("IntersectionObserver" in window)) {
     reveals.forEach(function (el) {
       el.classList.add("visible");
@@ -15,7 +30,7 @@
     return;
   }
 
-  const io = new IntersectionObserver(
+  var io = new IntersectionObserver(
     function (entries) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {

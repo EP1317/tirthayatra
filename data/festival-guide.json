@@ -441,7 +441,8 @@
       "nameHi": "रक्षाबंधन",
       "importance": "high",
       "dateNames": [
-        "Raksha Bandhan"
+        "Raksha Bandhan",
+        "Raksha Bandhan · Sawan Purnima Ends"
       ],
       "summary": "The sacred thread of protection — sisters, brothers, and vows of care.",
       "summaryHi": "रक्षा का पवित्र धागा — बहन–भाई और संरक्षण का वचन।",
@@ -2037,10 +2038,13 @@
       "nameHi": "सावन / श्रावण मास",
       "importance": "high",
       "dateNames": [
-        "Sawan",
-        "Shravan",
+        "Sawan Begins (North India)",
         "Sawan Somwar",
-        "Kanwar Yatra"
+        "Sawan Shivaratri",
+        "Nag Panchami / Sawan Somwar",
+        "Raksha Bandhan · Sawan Purnima Ends",
+        "Sawan",
+        "Shravan"
       ],
       "summary": "The monsoon month of Shiva — Mondays, bel leaves, Ganga jal, and the living Bol Bam roads.",
       "summaryHi": "शिव का वर्षा मास — सोमवार व्रत, बेलपत्र, गंगाजल, और बोल बम की जीवंत राहें।",
@@ -2131,7 +2135,8 @@
       "importance": "high",
       "dateNames": [
         "Nag Panchami",
-        "Naga Panchami"
+        "Naga Panchami",
+        "Nag Panchami / Sawan Somwar"
       ],
       "summary": "Shravan’s serpent day — milk, drawings, and honour for the Nagas bound to Shiva’s grace.",
       "summaryHi": "श्रावण की नाग तिथि — दूध, चित्रांकन, और शिव-नाग अनुग्रह का सम्मान।",
@@ -2201,10 +2206,10 @@
       "nameHi": "कांवड़ यात्रा (बोल बम)",
       "importance": "high",
       "dateNames": [
+        "Sawan Begins (North India)",
+        "Sawan Somwar",
         "Kanwar Yatra",
-        "Bol Bam",
-        "Kawad Yatra",
-        "Kawariya"
+        "Bol Bam"
       ],
       "summary": "Barefoot rivers of devotion — Ganga jal carried to Shiva in the rains of Sawan.",
       "summaryHi": "वर्षा में पैदल भक्ति की नदियाँ — सावन में शिव तक गंगाजल।",

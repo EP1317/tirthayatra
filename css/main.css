@@ -2179,7 +2179,7 @@ body:has([data-today-bar]) { padding-bottom: 4.25rem; }
   color: #fff8e8;
 }
 
-.page-tools { margin: 0.35rem 0 0.75rem; }
+/* Today-bar language toggle only — page body always shows Hindi + English together */
 .lang-toggle {
   display: inline-flex;
   gap: 0.25rem;
@@ -2204,20 +2204,10 @@ body:has([data-today-bar]) { padding-bottom: 4.25rem; }
   font-weight: 600;
 }
 
-/* Language preference — hard swap so the Today-bar toggle is obvious */
-html.pref-hi .lang-en { display: none !important; }
-html.pref-en .lang-hi { display: none !important; }
-/* Legacy Hindi blocks (older festival/story markup) */
-html.pref-en .trail-story-hi,
-html.pref-en .trail-lede-hi { display: none !important; }
-/* Verse text stays visible in both modes (hymns are Devanagari) */
-html.pref-hi .devotion-verses,
-html.pref-en .devotion-verses,
-html.pref-hi .devotion-verses .lang-en,
-html.pref-en .devotion-verses .lang-hi { display: block !important; }
-/* Dual titles stacked cleanly */
+/* Dual titles / paragraphs stacked cleanly (both languages visible) */
 h1.lang-hi, h1.lang-en { margin: 0 0 0.35rem; }
 .lede.lang-hi, .lede.lang-en { margin-top: 0.25rem; }
+p.lang-hi + p.lang-en { margin-top: 0.35rem; }
 
 .share-bar {
   margin: 0.85rem 0 1.1rem;
