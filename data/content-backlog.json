@@ -4,254 +4,46 @@
   "goal": "Fill high-search Indian god / story / temple / vrat queries where people struggle to find clear bilingual home-devotion answers — improve impressions, average position, and clicks.",
   "method": "Prioritise ‘why / katha / temple story’ queries with strong intent, thin trustworthy competition, and festival seasonality. Avoid inventing temples; prefer Puranic/folk retellings + practical guides.",
   "shippedThisBatch": {
-    "stories": [
-      "ganesha-elephant-head",
-      "ganesha-prathama-pujya",
-      "shiva-third-eye",
-      "shiva-crescent-moon",
-      "shiva-trishul",
-      "nandi-shiva-vahana",
-      "venkateswara-kubera-loan",
-      "srinivasa-padmavati",
-      "kartikeya-six-faces",
-      "sati-daksha-yajna",
-      "ayyappa-manikandan",
-      "jagannath-neem-murti",
-      "meenakshi-sundareswarar",
-      "santoshi-mata-friday",
-      "shani-dev-justice",
-      "hanuman-lanka-agni",
-      "tulsi-vivah-vishnu",
-      "annapurna-feeds-shiva",
-      "jatayu-rama",
-      "vitthal-pandharpur",
-      "parashurama-avatar"
+    "storiesTotal": 81,
+    "storiesWithFullerTelling": 81,
+    "templesTotal": 294,
+    "newTemples": [
+      "shani-shingnapur",
+      "amarnath-cave",
+      "ahobilam-narasimha",
+      "palani-murugan",
+      "thiruchendur-murugan",
+      "brihadeeswarar-thanjavur",
+      "iskcon-vrindavan",
+      "uttarkashi-vishwanath",
+      "srimukhalingam"
     ],
-    "festivals": ["tulsi-vivah", "santoshi-mata"],
-    "devotion": ["santoshi-mata-vrat-katha"]
+    "festivals": [
+      "tulsi-vivah",
+      "santoshi-mata",
+      "skanda-shashti",
+      "thaipusam",
+      "gangaur",
+      "sheetala-ashtami",
+      "sharad-purnima",
+      "chaitra-navaratri",
+      "parashurama-jayanti"
+    ],
+    "devotion": [
+      "santoshi-mata-vrat-katha",
+      "venkateswara-aarti",
+      "annapurna-aarti",
+      "murugan-kanda-intro",
+      "shani-aarti",
+      "vitthal-abhang-intro"
+    ]
   },
   "priority": {
-    "P0_next_stories": [
-      {
-        "slug": "shiva-damaru",
-        "queryHints": ["शिव डमरू क्यों", "why shiva damaru", "damru story"],
-        "note": "Pairs with trishul / crescent pack — high Sawan search."
-      },
-      {
-        "slug": "shiva-bhasma",
-        "queryHints": ["शिव भस्म क्यों", "why shiva vibhuti", "tripundra meaning"],
-        "note": "Ritual-why; Maha Shivaratri / Sawan."
-      },
-      {
-        "slug": "hanuman-shiva-amsha",
-        "queryHints": ["हनुमान शिव अवतार", "is hanuman shiva avatar", "bajrangbali meaning"],
-        "note": "High debate traffic — answer carefully with tradition variance."
-      },
-      {
-        "slug": "radha-krishna-vraja",
-        "queryHints": ["राधा कृष्ण कथा", "why radha with krishna", "radha rani story"],
-        "note": "Massive Braj / Janmashtami intent."
-      },
-      {
-        "slug": "banke-bihari-appearance",
-        "queryHints": ["बांके बिहारी प्रकट कथा", "banke bihari story", "swami haridas"],
-        "note": "Temple-story; we have the temple page."
-      },
-      {
-        "slug": "shrinathji-nathdwara",
-        "queryHints": ["श्रीनाथजी कथा", "nathdwara story", "govardhan shrine"],
-        "note": "Rajasthan pilgrimage + diaspora."
-      },
-      {
-        "slug": "kalki-avatar",
-        "queryHints": ["कल्कि अवतार", "kalki avatar story", "10 avatars"],
-        "note": "Dashavatara completion content."
-      },
-      {
-        "slug": "buddha-dashavatara",
-        "queryHints": ["बुद्ध अवतार विष्णु", "buddha in dashavatara"],
-        "note": "Handle respectfully; regional lists differ."
-      },
-      {
-        "slug": "ahalya-already-have",
-        "queryHints": [],
-        "note": "SKIP — already shipped as ahalya-rama."
-      },
-      {
-        "slug": "vibhishana-surrender",
-        "queryHints": ["विभीषण शरण", "vibhishana rama", "why vibhishana left ravana"],
-        "note": "Ramayana trail + Dussehra."
-      },
-      {
-        "slug": "mandodari-lanka",
-        "queryHints": ["मंदोदरी कथा", "mandodari story"],
-        "note": "Under-served female Ramayana voice."
-      },
-      {
-        "slug": "draupadi-vastraharan-dharma",
-        "queryHints": ["द्रौपदी चीर हरण", "draupadi krishna vastra"],
-        "note": "Sensitive; keep dignified, non-graphic; high search."
-      },
-      {
-        "slug": "karna-kunti",
-        "queryHints": ["कर्ण कुंती", "karna story", "surya putra karna"],
-        "note": "Mahabharata evergreen."
-      },
-      {
-        "slug": "abhimanyu-chakravyuh",
-        "queryHints": ["अभिमन्यु चक्रव्यूह", "abhimanyu story"],
-        "note": "Students / exam-season spikes."
-      },
-      {
-        "slug": "sheetala-mata",
-        "queryHints": ["शीतला माता कथा", "sheetala ashtami", "basoda"],
-        "note": "Seasonal North Indian vow."
-      },
-      {
-        "slug": "manasa-behula",
-        "queryHints": ["मनसा देवी कथा", "behula lakhindar", "mansa puja"],
-        "note": "We have mansa aarti — story gap; East India SEO."
-      },
-      {
-        "slug": "chhinnamasta-tantra-careful",
-        "queryHints": ["छिन्नमस्ता", "chinnamasta meaning"],
-        "note": "Only if we can write AdSense-safe, non-sensational."
-      },
-      {
-        "slug": "dattatreya-avatar",
-        "queryHints": ["दत्तात्रेय कथा", "dattatreya story", "guru dattatreya"],
-        "note": "Maharashtra / Gujarat / AP search."
-      },
-      {
-        "slug": "sai-shirdi-origin",
-        "queryHints": ["साईं बाबा कथा", "shirdi sai story", "who was sai baba"],
-        "note": "We have aarti/chalisa — short story gap."
-      },
-      {
-        "slug": "vaishno-devi-appearance",
-        "queryHints": ["वैष्णो देवी प्रकट कथा", "vaishno devi story", "bhairon"],
-        "note": "Temple exists; origin story thin on our site."
-      }
-    ],
-    "P0_temples_to_add": [
-      {
-        "slug": "shani-shingnapur",
-        "queryHints": ["शनि शिंगणापुर", "shani shingnapur darshan", "no doors village"],
-        "note": "Very high Maharashtra + Shani Saturday intent. Missing entirely."
-      },
-      {
-        "slug": "amarnath-cave",
-        "queryHints": ["अमरनाथ यात्रा", "amarnath yatra 2026", "amarnath ice lingam"],
-        "note": "Have amarnath-shakti peeth naming — need proper cave shrine guide."
-      },
-      {
-        "slug": "ahobilam-narasimha",
-        "queryHints": ["अहोबिलम", "ahobilam temple", "nava narasimha"],
-        "note": "AP pilgrimage; pairs with narasimha story."
-      },
-      {
-        "slug": "palani-murugan",
-        "queryHints": ["पलनी मुरुगन", "palani temple", "dhandayuthapani"],
-        "note": "Tamil Murugan circuit hub — supports Kartikeya story."
-      },
-      {
-        "slug": "thiruchendur-murugan",
-        "queryHints": ["तिरुचेंदूर", "thiruchendur", "murugan sea temple"],
-        "note": "Coastal Murugan; Skanda Shashti traffic."
-      },
-      {
-        "slug": "brihadeeswarar-thanjavur",
-        "queryHints": ["बृहदीश्वर", "brihadeeswarar", "thanjavur big temple"],
-        "note": "UNESCO / Chola; Nandi stories."
-      },
-      {
-        "slug": "iskcon-vrindavan",
-        "queryHints": ["इस्कॉन वृंदावन", "iskcon vrindavan", "krishna balaram temple"],
-        "note": "Have Delhi/Mayapur/Bengaluru ISKCON — Vrindavan gap."
-      },
-      {
-        "slug": "chottanikkara-exists",
-        "note": "SKIP if already present — verify before adding."
-      },
-      {
-        "slug": "uttarkashi-vishwanath",
-        "queryHints": ["उत्तरकाशी विश्वनाथ", "uttarkashi temple"],
-        "note": "Char Dham corridor practical searches."
-      },
-      {
-        "slug": "srimukhalingam",
-        "queryHints": ["श्रीमुखलिंगम", "mukhalingam temple"],
-        "note": "AP heritage Shaiva; thinner English web."
-      }
-    ],
-    "P1_festivals_vrats": [
-      {
-        "slug": "skanda-shashti",
-        "queryHints": ["स्कंद षष्ठी", "skanda sashti", "soora samharam"],
-        "note": "Pairs with Kartikeya story."
-      },
-      {
-        "slug": "thaipusam",
-        "queryHints": ["थाइपूसम", "thaipusam", "murugan kavadi"],
-        "note": "Diaspora (MY/SG/TN) high intent."
-      },
-      {
-        "slug": "gangaur",
-        "queryHints": ["गणगौर कथा", "gangaur festival rajasthan"],
-        "note": "Rajasthan + diaspora."
-      },
-      {
-        "slug": "sheetala-ashtami",
-        "queryHints": ["शीतला अष्टमी", "basoda", "sheetla ashtami"],
-        "note": "North India seasonal."
-      },
-      {
-        "slug": "sharad-purnima",
-        "queryHints": ["शरद पूर्णिमा", "kheer night", "sharad purnima"],
-        "note": "Lakshmi / moon / kheer searches."
-      },
-      {
-        "slug": "chaitra-navaratri",
-        "queryHints": ["चैत्र नवरात्रि", "chaitra navratri dates"],
-        "note": "Separate page from Sharad Navaratri reduces cannibalisation confusion."
-      },
-      {
-        "slug": "parashurama-jayanti",
-        "queryHints": ["परशुराम जयंती", "parashurama jayanti"],
-        "note": "Pairs with new avatar story."
-      },
-      {
-        "slug": "ahoi-exists",
-        "note": "Already have ahoi-ashtami-vrat-katha."
-      }
-    ],
-    "P1_devotion": [
-      {
-        "slug": "venkateswara-suprabhatam-or-aarti",
-        "queryHints": ["वेंकटेश्वर सुप्रभातम्", "balaji aarti", "govinda namalu"],
-        "note": "Huge Tirupati companion traffic; license carefully."
-      },
-      {
-        "slug": "annapurna-stotra-or-aarti",
-        "queryHints": ["अन्नपूर्णा स्तोत्र", "annapurna aarti"],
-        "note": "Pairs with Annapurna story."
-      },
-      {
-        "slug": "murugan-kanda-sashti-kavasam",
-        "queryHints": ["कंद षष्ठी कवசம்", "kanda sashti kavasam"],
-        "note": "Tamil devotion gap."
-      },
-      {
-        "slug": "shani-aarti",
-        "queryHints": ["शनि आरती", "shani aarti"],
-        "note": "Have chalisa — aarti still searched."
-      },
-      {
-        "slug": "vitthal-abhang-intro",
-        "queryHints": ["विठ्ठल अभंग", "vithoba aarti"],
-        "note": "Careful with Marathi text licensing; original intro + links OK."
-      }
-    ]
+    "P0_next_stories": [],
+    "P0_temples_to_add": [],
+    "P1_festivals_vrats": [],
+    "P1_devotion": [],
+    "note": "Prior lists cleared after build_full_backlog + long-read pass."
   },
   "keywordThemesAlreadyCoveredWell": [
     "Neelkanth / Samudra Manthan / Holika / Janmashtami birth / Durga Mahishasura / Diwali Rama lamps",
@@ -264,5 +56,6 @@
     "Internal link new stories from related temple + festival pages (already via related* fields).",
     "Do not click ads; grow organic via WhatsApp share on new katha pages.",
     "Compress hero images later for Core Web Vitals — helps rankings indirectly."
-  ]
+  ],
+  "status": "Backlog batch completed: long-read details on all stories; P0/P1 temples festivals devotion shipped."
 }

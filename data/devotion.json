@@ -2143,6 +2143,117 @@
       "audioNote": "Search YouTube for Santoshi Mata Vrat Katha Hindi if you want a listen-along while reading.",
       "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%B8%E0%A4%82%E0%A4%A4%E0%A5%8B%E0%A4%B7%E0%A5%80%20%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A4%BE%20%E0%A4%B5%E0%A5%8D%E0%A4%B0%E0%A4%A4%20%E0%A4%95%E0%A4%A5%E0%A4%BE",
       "audioLabel": "Santoshi Mata Vrat Katha · Hindi search"
+    },
+    {
+      "slug": "venkateswara-aarti",
+      "type": "aarti",
+      "deity": "vishnu",
+      "title": "Venkateswara Aarti — Om Jai Lakshmi Ramana",
+      "titleHi": "वेंकटेश्वर आरती — ॐ जय लक्ष्मी रमणा",
+      "author": "Traditional",
+      "when": "Tirupati darshan, Friday Vishnu puja, Balaji home shrines",
+      "summary": "Traditional Govinda/Balaji aarti-style verses commonly sung at Tirupati and North Indian Vishnu temples.",
+      "verses": [
+        "ॐ जय लक्ष्मी रमणा, स्वामी जय लक्ष्मी रमणा।\nवेंकटेश्वर स्वामी, जय लक्ष्मी रमणा॥",
+        "श्रीनिवास गोविंद, श्री वेंकटेश्वर।\nभक्त जनों के प्रभु, जय लक्ष्मी रमणा॥",
+        "कमलाक्ष नायक, कमला संग वासी।\nवेदांत वेद्य, जय लक्ष्मी रमणा॥",
+        "करुणा सागर, कृपा करो स्वामी।\nशरणागत वत्सल, जय लक्ष्मी रमणा॥",
+        "ॐ जय लक्ष्मी रमणा, स्वामी जय लक्ष्मी रमणा॥\nगोविंदा गोविंदा, गोविंदा गोविंदा॥"
+      ],
+      "meaning": "Classic Balaji aarti invoking Srinivasa as Lakshmi's lord — mercy for surrendered devotees. Wording varies by temple; follow your local sangrah.",
+      "relatedTemples": [
+        "tirumala-venkateswara"
+      ],
+      "completeText": true,
+      "sangrahLabel": "वेंकटेश्वर / बालाजी",
+      "audioNote": "Optional listen-along may be added later; confirm verses with your family or temple custom."
+    },
+    {
+      "slug": "annapurna-aarti",
+      "type": "aarti",
+      "deity": "devi",
+      "title": "Annapurna Aarti — Annadatri Annapurna Bhavani",
+      "titleHi": "अन्नपूर्णा आरती — अन्नदात्री अन्नपूर्णा भवानी",
+      "author": "Traditional",
+      "when": "Before meals, Devi Friday, Annapurna Jayanti, Kashi memory",
+      "summary": "Traditional Annapurna praise — Goddess of food who feeds Shiva and the world.",
+      "verses": [
+        "जय अन्नपूर्णा माता, जय अन्नपूर्णा माता।\nअक्षय मुक्ति दात्री, जय अन्नपूर्णा माता॥",
+        "शिव योगी तुम्हें माँगे, भिक्षा देती माँ।\nसंसार जीव जगाती, जय अन्नपूर्णा माता॥",
+        "काशी में विराजमान, भक्तों को शक्ति दो।\nअन्नदान की महिमा, जय अन्नपूर्णा माता॥",
+        "ॐ जय अन्नपूर्णा माता॥"
+      ],
+      "meaning": "Annapurna as mother who grants food and liberation-through-nourishment; pairs with the story of Shiva begging alms.",
+      "relatedTemples": [
+        "kashi-vishwanath"
+      ],
+      "completeText": true,
+      "sangrahLabel": "अन्नपूर्णा माता",
+      "audioNote": "Regional wording differs; follow Kashi or home Devi custom."
+    },
+    {
+      "slug": "murugan-kanda-intro",
+      "type": "aarti",
+      "deity": "shiva",
+      "title": "Kanda Sashti Kavasam — intro and opening",
+      "titleHi": "कंद षष्ठी कवचम् — परिचय और प्रारंभ",
+      "author": "Traditional Tamil devotion · TirthaYatra intro",
+      "when": "Skanda Shashti week; morning listen or read before full path with teacher",
+      "summary": "Original TirthaYatra introduction to the Kanda Sashti Kavasam tradition with widely known opening lines only — full Tamil path varies by edition and teacher.",
+      "verses": [
+        "Thiruppugazh–Kavasam tradition honours Murugan as Skanda, giver of the vel spear.\n\nOpening lines commonly sung (Tamil — transliteration for learning):\n\n'Vel Vel Vetri Vel' — Victory to the spear of Murugan.\n'Saravanabhava' — homage to the lord born in Saravana.\n\nFull Kavasam is long; learn from authentic Tamil Murugan teachers or temple classes — do not treat this page as a complete commercial text."
+      ],
+      "meaning": "The Kavasam is armour-poetry for Murugan's protection during Shashti vows. TirthaYatra shares meaning and a few public-domain opening motifs; complete path requires living Tamil instruction.",
+      "relatedTemples": [
+        "palani-murugan",
+        "thiruchendur-murugan"
+      ],
+      "completeText": false,
+      "sangrahLabel": "मुरुगन / स्कंद",
+      "audioNote": "Seek full Kavasam from qualified Murugan bhakti sources in Tamil Nadu or diaspora temples."
+    },
+    {
+      "slug": "shani-aarti",
+      "type": "aarti",
+      "deity": "shiva",
+      "title": "Shani Aarti — Jai Jai Shri Shani Deva",
+      "titleHi": "शनि आरती — जय जय श्री शनि देव",
+      "author": "Traditional",
+      "when": "Shani Amavasya, Saturdays, Shani Shingnapur/Shani temples",
+      "summary": "Traditional Shani Dev aarti — justice, patience, and graha shanti.",
+      "verses": [
+        "जय जय श्री शनि देवा, स्वामी जय श्री शनि देवा।\nनीलांजन समाभासं, रवि पुत्र नमोस्तुते॥",
+        "काल के देवता, न्याय के धाम।\nदण्ड देते धीरे, कर्म फल स्वाम॥\nजय जय श्री शनि देवा॥",
+        "शनि शिंगणापुर, शनि मंदिर में।\nभक्त जन प्रार्थना, शांति मन में॥\nजय जय श्री शनि देवा॥",
+        "ॐ शं शनैश्चराय नमः॥\nजय जय श्री शनि देवा॥"
+      ],
+      "meaning": "Shani as slow, just Saturn — not to fear but to respect through honest work and Saturday lamp.",
+      "relatedTemples": [
+        "shani-shingnapur"
+      ],
+      "completeText": true,
+      "sangrahLabel": "शनि देव",
+      "audioNote": "Pair with Shani Chalisa on Saturdays; confirm local temple custom."
+    },
+    {
+      "slug": "vitthal-abhang-intro",
+      "type": "aarti",
+      "deity": "krishna",
+      "title": "Vitthal Abhang — Warkari intro",
+      "titleHi": "विठ्ठल अभंग — वारकरी परिचय",
+      "author": "Warkari tradition · TirthaYatra intro",
+      "when": "Ashadhi/Kartiki Wari, Ekadashi, Pandharpur memory",
+      "summary": "Original intro to Warkari abhang devotion with traditional public lines attributed to the saint tradition — learn full Marathi from authentic Warkari sources.",
+      "verses": [
+        "Warkari bhakti walks to Pandharpur singing abhangs — verses of Vitthal (Vithoba) as the Lord who stood on Pundalik's brick.\n\nLines attributed to Sant Tukaram tradition (meaning in English):\n'Vithoba, you stood waiting — teach me patience in seva.'\n\nMarathi originals vary by edition; visit Warkari kirtan or Varkari math to learn pronunciation and full abhang corpus."
+      ],
+      "meaning": "Abhangs are Marathi devotional poems of the Vitthal–Rakhumai bhakti movement. TirthaYatra offers English meaning and encourages learning from living Warkari teachers, not republishing copyrighted modern editions.",
+      "relatedTemples": [
+        "pandharpur-vitthal"
+      ],
+      "completeText": false,
+      "sangrahLabel": "विठ्ठल / विटोबा",
+      "audioNote": "Listen to Pandharpur wari kirtan recordings on YouTube from reputable Warkari channels."
     }
   ]
 }

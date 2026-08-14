@@ -2405,6 +2405,425 @@
         "mansa-devi-panchkula",
         "vaishno-devi"
       ]
+    },
+    {
+      "slug": "skanda-shashti",
+      "name": "Skanda Shashti",
+      "nameHi": "स्कंद षष्ठी",
+      "importance": "high",
+      "dateNames": [
+        "Skanda Shashti",
+        "Kanda Shashti",
+        "Soora Samharam"
+      ],
+      "summary": "Sixth day of Kartik bright fortnight — Murugan's victory over Surapadma and courage for devotees.",
+      "summaryHi": "कार्तिक शुक्ल षष्ठी — मुरुगन की विजय और भक्तों के लिए साहस।",
+      "meaningEn": "Skanda Shashti honours Lord Murugan (Kartikeya) defeating the asura Surapadma. Tamil Nadu coastal temples like Thiruchendur stage Soora Samharam; six-day fasts and Kanda Sashti Kavasam recitation mark the week.",
+      "meaningHi": "स्कंद षष्ठी भगवान मुरुगन (कार्तिकेय) की सुरपद्म पर विजय। तिरुचेंदूर में सूर समहारम; छः दिन व्रत, कंद षष्ठी कवच पाठ।",
+      "storyEn": "Puranic battle strands describe Murugan receiving vel spear from Parvati, splitting Surapadma, and restoring devas. Folk tellings add six-day vigil and fasting broken on Shashti night with temple darshan.",
+      "storyHi": "पुराण युद्ध में मुरुगन को पार्वती से वेल; सुरपद्म वध; देवता रक्षा। लोक में छः दिन जागरण–व्रत; षष्ठी रात दर्शन।",
+      "mythologyEn": "The festival braids Shaiva–Shakta family lore (Shiva's son) with Tamil bhakti poetry and diaspora kavadi vows.",
+      "mythologyHi": "उत्सव शिव–पुत्र और तमिल भक्ति काव्य, प्रवासी कावड़ी व्रत से जुड़ा।",
+      "deityStories": [
+        {
+          "deity": "Murugan / Kartikeya",
+          "deityHi": "मुरुगन / कार्तिकेय",
+          "en": "Six-faced commander whose vel ends injustice.",
+          "hi": "षण्मुख सेनापति — वेल अन्याय का अंत।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Six-day fast or partial fast with one meal (follow health)",
+        "Read Kartikeya story; optional Kavasam intro verses",
+        "Visit Murugan temple on Shashti if possible",
+        "Break fast after evening darshan / arati"
+      ],
+      "howCelebratedHi": [
+        "छः दिन व्रत या एक ताल (स्वास्थ्य पहले)",
+        "कार्तिकेय कथा; कवच प्रारंभ पंक्तियाँ",
+        "षष्ठी को मुरुगन दर्शन",
+        "संध्या आरती के बाद पारण"
+      ],
+      "diasporaEn": "Singapore and Malaysia Thaipusam/Shashti crowds carry kavadi; apartment shrines use livestream from Palani or Thiruchendur.",
+      "diasporaHi": "सिंगापुर–मलेशिया कावड़ी; फ्लैट में पलनी–तिरुचेंदूर लाइव।",
+      "regions": [
+        {
+          "region": "Tamil Nadu",
+          "notes": "Thiruchendur Soora Samharam peak."
+        },
+        {
+          "region": "Diaspora",
+          "notes": "Murugan temples worldwide."
+        }
+      ],
+      "relatedDevotion": [
+        "murugan-kanda-intro",
+        "devi-aarti"
+      ],
+      "relatedTemples": [
+        "thiruchendur-murugan",
+        "palani-murugan",
+        "meenakshi-madurai"
+      ]
+    },
+    {
+      "slug": "thaipusam",
+      "name": "Thaipusam",
+      "nameHi": "थाइपूसम",
+      "importance": "high",
+      "dateNames": [
+        "Thaipusam",
+        "Thai Poosam"
+      ],
+      "summary": "Tamil Thai month Purnima — Murugan devotion with kavadi, milk offerings, and vow fulfilment.",
+      "summaryHi": "तमिल मास Thai की पूर्णिमा — कावड़ी, दूध अर्पण, व्रत पूर्ति।",
+      "meaningEn": "Thaipusam marks the day Murugan received the vel from Parvati (in popular telling) or his victory day — observed with kavadi bearers, milk pots, and head-shaving vows.",
+      "meaningHi": "थाइपूसम — मुरुगन को वेल प्राप्ति / विजय दिवस; कावड़ी, पाल कुड़म, मुंडन।",
+      "storyEn": "Devotees carry physical burdens as symbolic sharing of Murugan's battle; Palani and Batu Caves (Malaysia) become global images of faith.",
+      "storyHi": "भक्त शारीरिक बोझ मुरुगन युद्ध का प्रतीक मानते; पलनी, बatu गुफाएँ विश्व चित्र।",
+      "mythologyEn": "Links to Skanda Purana battle motifs and Tamil saint poetry; not a North Indian calendar duplicate of Shashti though themes overlap.",
+      "mythologyHi": "स्कंद पुराण और तमिल संत काव्य; उत्तर भारत की षष्ठी से अलग तिथि, विषय मिलते।",
+      "deityStories": [
+        {
+          "deity": "Murugan",
+          "deityHi": "मुरुगन",
+          "en": "Vel-bearing lord of disciplined courage.",
+          "hi": "वेलधारी अनुशासित साहस के देव।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Prepare kavadi/milk offering with temple guidance",
+        "Fast or sattvic diet before procession",
+        "Chant Murugan names during walk",
+        "Offer at hill Murugan shrine when safe"
+      ],
+      "howCelebratedHi": [
+        "मंदिर मार्गदर्शन से कावड़ी/पाल कुड़म",
+        "यात्रा से पहले सात्विक आहार",
+        "नाम जप",
+        "पहाड़ी मुरुगन मंदिर अर्पण"
+      ],
+      "diasporaEn": "Batu Caves Malaysia, Singapore Tank Road, and Sydney Murugan temples anchor diaspora Thaipusam.",
+      "diasporaHi": "बatu गुफा, सिंगापुर, सिडनी — प्रवासी थाइपूसम।",
+      "regions": [
+        {
+          "region": "Tamil Nadu & Kerala",
+          "notes": "Palani climb peaks."
+        },
+        {
+          "region": "Southeast Asia diaspora",
+          "notes": "Major public processions."
+        }
+      ],
+      "relatedDevotion": [
+        "murugan-kanda-intro"
+      ],
+      "relatedTemples": [
+        "palani-murugan",
+        "thiruchendur-murugan"
+      ]
+    },
+    {
+      "slug": "gangaur",
+      "name": "Gangaur",
+      "nameHi": "गणगौर",
+      "importance": "high",
+      "dateNames": [
+        "Gangaur",
+        "Gauri Tritiya"
+      ],
+      "summary": "Rajasthan spring festival of Gauri–Shiva — clay idols, women’s songs, and marital bliss vows.",
+      "summaryHi": "राजस्थान वसंत गauri–शिव उत्सव — मिट्टी प्रतिमा, महिला गीत, सौभाग्य।",
+      "meaningEn": "Gangaur begins after Holi: women worship Gauri (Parvati) and Isar (Shiva) for happy marriage and harvest. Idols are crafted, carried in procession, then immersed.",
+      "meaningHi": "होली के बाद गणगौर: गौरी–ईशर पूजा, सुखी वैवाहिक जीवन, फसल। प्रतिमा विसर्जन।",
+      "storyEn": "Folk memory links Gauri’s visit to her parents’ home and Shiva following as guest — songs tease and bless couples.",
+      "storyHi": "लोक में गौरी मायके, शिव अतिथि — गीतों में दंपति आशीर्वाद।",
+      "mythologyEn": "Bridges Devi tapasya themes with desert water scarcity prayers.",
+      "mythologyHi": "देवी तप और मरुस्थल जल प्रार्थना जोड़ता।",
+      "deityStories": [
+        {
+          "deity": "Gauri / Parvati",
+          "deityHi": "गौरी / पार्वती",
+          "en": "Mother of marital grace.",
+          "hi": "वैवाहिक कृपा की माँ।"
+        },
+        {
+          "deity": "Isar / Shiva",
+          "deityHi": "ईशर / शिव",
+          "en": "Ascetic husband who joins the folk procession.",
+          "hi": "संयासी पति जो जुलूस में आते।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Make or buy clay Gauri–Isar",
+        "Daily evening songs until immersion",
+        "Apply mehndi; share sweets",
+        "Immerse on final day at water body"
+      ],
+      "howCelebratedHi": [
+        "मिट्टी गauri–ईशर",
+        "विसर्जन तक संध्या गीत",
+        "मेहँदी, मिष्ठान",
+        "अंतिम दिन जल विसर्जन"
+      ],
+      "diasporaEn": "Rajasthani diaspora in Gulf and US hosts community Gangaur with photo idols when clay is impractical.",
+      "diasporaHi": "खाड़ी–अमेरिका में राजस्थानी समुदाय फोटो प्रतिमा से गणगौर।",
+      "regions": [
+        {
+          "region": "Rajasthan",
+          "notes": "Jaipur royal procession famous."
+        },
+        {
+          "region": "Gujarat border",
+          "notes": "Shared spring rites."
+        }
+      ],
+      "relatedDevotion": [
+        "devi-aarti",
+        "shiva-aarti"
+      ],
+      "relatedTemples": [
+        "pavagadh-kalika",
+        "somnath"
+      ]
+    },
+    {
+      "slug": "sheetala-ashtami",
+      "name": "Sheetala Ashtami (Basoda)",
+      "nameHi": "शीतला अष्टमी (बसोड़ा)",
+      "importance": "high",
+      "dateNames": [
+        "Sheetala Ashtami",
+        "Basoda",
+        "Sheetla Ashtami"
+      ],
+      "summary": "Spring Ashtami to Sheetala Mata — cold stale food offered, pox and heat ailments remembered.",
+      "summaryHi": "वसंत अष्टमी शीतला माता — ठंडा भोजन, चेचक–गर्मी स्मृति।",
+      "meaningEn": "Sheetala Ashtami follows Holi in many North Indian calendars. Fire is not lit; yesterday's food (basoda) is offered to the goddess who cools fevers.",
+      "meaningHi": "होली के बाद अनेक उत्तर भारतीय पंचांग में शीतला अष्टमी। अग्नि नहीं; कल का भोजन (बसोड़ा) शीतला को।",
+      "storyEn": "Linked to Sheetala Mata story — see TirthaYatra katha page. Villages once prayed when smallpox spread; today hygiene and Devi gratitude merge.",
+      "storyHi": "शीतला माता कथा से जुड़ा — TirthaYatra पृष्ठ। गाँव में चेचक काल प्रार्थना; आज स्वच्छता और देवी कृतज्ञता।",
+      "mythologyEn": "Cooling goddess on donkey with broom — sweeps disease, teaches rest and simple diet one day.",
+      "mythologyHi": "गधे पर शीतला, झाड़ू — रोग झाड़, विश्राम और सरल आहार।",
+      "deityStories": [
+        {
+          "deity": "Sheetala Mata",
+          "deityHi": "शीतला माता",
+          "en": "Goddess of coolness and recovery.",
+          "hi": "शीतलता और स्वस्थ recovery की देवी।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Cook day before; eat cold food on Ashtami",
+        "Sheetala Mata puja and katha",
+        "Avoid fresh cooking as custom allows",
+        "Share food with neighbours"
+      ],
+      "howCelebratedHi": [
+        "पहले दिन पकाएँ; अष्टमी ठंडा भोजन",
+        "शीतला पूजा–कथा",
+        "रीति अनुसार अग्नि नहीं",
+        "पड़ोस बाँटें"
+      ],
+      "diasporaEn": "NCR and UK Punjabi/Haryanvi communities observe Basoda in apartments with fridge prasad.",
+      "diasporaHi": "NCR, UK में बसोड़ा फ्रिज प्रसाद से।",
+      "regions": [
+        {
+          "region": "North & West India",
+          "notes": "Strong in Haryana, UP, Rajasthan."
+        }
+      ],
+      "relatedDevotion": [
+        "devi-aarti"
+      ],
+      "relatedTemples": [
+        "sheetla-mata-gurgaon",
+        "sheetla-mata-ludhiana"
+      ]
+    },
+    {
+      "slug": "sharad-purnima",
+      "name": "Sharad Purnima (Kojagiri Purnima)",
+      "nameHi": "शरद पूर्णिमा (कोजागिरी)",
+      "importance": "high",
+      "dateNames": [
+        "Sharad Purnima",
+        "Kojagiri Purnima",
+        "Kheer Purnima"
+      ],
+      "summary": "Autumn full moon — kheer under moonlight, Lakshmi vigil, and health-giving rays lore.",
+      "summaryHi": "शरद पूर्णिमा — चंद्र प्रकाश में खीर, लक्ष्मी जागरण।",
+      "meaningEn": "Ashwin Shukla Purnima: devotees keep kheer in moonlight, stay awake (kojagiri = who is awake), and honour Lakshmi–Radha–Krishna ras.",
+      "meaningHi": "आश्विन शुक्ल पूर्णिमा: चंद्र में खीर, जागरण, लक्ष्मी–राधा–कृष्ण रास।",
+      "storyEn": "Folk belief holds moon's nectar touches earth this night; Braj remembers Raas; Bengal links Lakshmi puja.",
+      "storyHi": "लोक मानता चंद्र अमृत धरती छूता; ब्रज रास; बंगाल लक्ष्मी।",
+      "mythologyEn": "Bridges harvest gratitude with Vaishnava moon love — not a substitute for Diwali but its poetic prelude in some regions.",
+      "mythologyHi": "फसल कृतज्ञता और वैष्णव चंद्र प्रेम; दीपावली पूर्व संगीत क्षेत्रों में।",
+      "deityStories": [
+        {
+          "deity": "Lakshmi",
+          "deityHi": "लक्ष्मी",
+          "en": "Walks earth asking 'who is awake?'",
+          "hi": "पृथ्वी पर 'कौन जाग रहा' पूछती।"
+        },
+        {
+          "deity": "Krishna",
+          "deityHi": "कृष्ण",
+          "en": "Raas on Sharad Purnima in Braj memory.",
+          "hi": "ब्रज में शरद रास स्मृति।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Prepare kheer; place in moonlight",
+        "Light lamps; Lakshmi aarti",
+        "Stay up modestly with family kirtan",
+        "Share sweet with neighbours"
+      ],
+      "howCelebratedHi": [
+        "खीर बनाएँ; चंद्र में रखें",
+        "दीप, लक्ष्मी आरती",
+        "परिवार कीर्तन से जागरण",
+        "मिष्ठान बाँटें"
+      ],
+      "diasporaEn": "Balcony moon sighting and LED 'moon' for high-rise diaspora when clouds block sky.",
+      "diasporaHi": "बालकनी चंद्र; बादल में LED चंद्र प्रवासी।",
+      "regions": [
+        {
+          "region": "North & West",
+          "notes": "Kojagiri parties."
+        },
+        {
+          "region": "Braj",
+          "notes": "Raas lore."
+        }
+      ],
+      "relatedDevotion": [
+        "lakshmi-aarti",
+        "krishna-aarti"
+      ],
+      "relatedTemples": [
+        "banke-bihari-vrindavan",
+        "tirumala-venkateswara"
+      ]
+    },
+    {
+      "slug": "chaitra-navaratri",
+      "name": "Chaitra Navaratri",
+      "nameHi": "चैत्र नवरात्रि",
+      "importance": "high",
+      "dateNames": [
+        "Chaitra Navaratri",
+        "Vasant Navaratri",
+        "Ram Navami season Navaratri"
+      ],
+      "summary": "Spring nine nights of Devi — distinct calendar from Sharad Navaratri; ends toward Ram Navami.",
+      "summaryHi": "वसंत की नौ रातें देवी — शरद से अलग; राम नवमी की ओर।",
+      "meaningEn": "Chaitra Shukla Pratipada starts this Navaratri. Many fast nine days, worship Durga forms daily, and celebrate Ram Navami on Chaitra Navami within the same lunar month.",
+      "meaningHi": "चैत्र शुक्ल प्रतिपदा से आरंभ। नौ दिन व्रत, प्रतिदिन दुर्गा स्वरूप; चैत्र नवमी राम नवमी।",
+      "storyEn": "Same Mahishasura victory arc as autumn Navaratri but timed to spring renewal and Rama's birth season — reduces confusion when searching dates.",
+      "storyHi": "शरद जैसी विजय कथा पर वसंत नवीनता और राम जन्म ऋतु — तिथि खोज में स्पष्टता।",
+      "mythologyEn": "Nine forms (Navadurga) vary by region; follow local temple list.",
+      "mythologyHi": "नवदुर्गा सूची क्षेत्र अनुसार; स्थानीय मंदिर देखें।",
+      "deityStories": [
+        {
+          "deity": "Durga / Navadurga",
+          "deityHi": "दुर्गा / नवदुर्गा",
+          "en": "Spring nine-night mother.",
+          "hi": "वसंत नौ रात की माँ।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Ghatasthapana on day 1",
+        "Daily Devi aarti and colour tradition if your family uses it",
+        "Read Chaitra katha; plan Ram Navami",
+        "Break fast on Navami with prasad"
+      ],
+      "howCelebratedHi": [
+        "प्रतिपदा घट स्थापना",
+        "दैनिक देवी आरती",
+        "चैत्र कथा; राम नवमी योजना",
+        "नवमी पारण"
+      ],
+      "diasporaEn": "Temples label 'Spring Navaratri' explicitly for diaspora calendars confused with October.",
+      "diasporaHi": "प्रवासी मंदिर 'वसंत नवरात्रि' स्पष्ट लिखते।",
+      "regions": [
+        {
+          "region": "North India",
+          "notes": "Ram Navami overlap."
+        },
+        {
+          "region": "Maharashtra",
+          "notes": "Gudi Padwa same month start."
+        }
+      ],
+      "relatedDevotion": [
+        "navaratri-vrat-katha",
+        "devi-aarti",
+        "rama-aarti"
+      ],
+      "relatedTemples": [
+        "vaishno-devi",
+        "kamakhya",
+        "chintpurni-temple"
+      ]
+    },
+    {
+      "slug": "parashurama-jayanti",
+      "name": "Parashurama Jayanti",
+      "nameHi": "परशुराम जयंती",
+      "importance": "medium",
+      "dateNames": [
+        "Parashurama Jayanti",
+        "Parashuram Jayanti"
+      ],
+      "summary": "Chaitra Shukla Tritiya birth of Vishnu's sixth avatar — axe, dharma, and Konkan–Kerala lore.",
+      "summaryHi": "चैत्र शुक्ल तृतीया — विष्णु छठे अवतार का जन्म; परशु, धर्म, कोंकण–केरल।",
+      "meaningEn": "Parashurama Jayanti remembers the brahmin warrior who corrected kshatriya tyranny. Akshaya Tritiya sometimes overlaps in popular calendars — confirm with your panchang.",
+      "meaningHi": "परशुराम जयंती — ब्राह्मण योद्धा जिसने क्षत्रिय अत्याचार सुधारा। अक्षय तृतीया कभी मेल — पंचांग देखें।",
+      "storyEn": "See TirthaYatra parashurama-avatar story for fuller telling. Homes avoid glorifying violence; they ask where skill must serve justice today.",
+      "storyHi": "TirthaYatra parashurama-avatar कथा विस्तार। घर हिंसा महिमा नहीं — कौशल आज न्याय हेतु।",
+      "mythologyEn": "Coastal India remembers Parashurama reclaiming land and training martial arts — regional lists vary.",
+      "mythologyHi": "तट भारत भूमि और शस्त्र शिक्षा स्मृति — क्षेत्र अनुसार भिन्न।",
+      "deityStories": [
+        {
+          "deity": "Parashurama",
+          "deityHi": "परशुराम",
+          "en": "Vishnu avatar with axe of correction.",
+          "hi": "परशु वाले सुधारक अवतार।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Read avatar story",
+        "Vishnu aarti",
+        "Donate to learning or teacher",
+        "Visit trimbakeshwar region if on yatra"
+      ],
+      "howCelebratedHi": [
+        "अवतार कथा",
+        "विष्णु आरती",
+        "शिक्षा/गुरु दान",
+        "त्र्यंबक यात्रा हो तो दर्शन"
+      ],
+      "diasporaEn": "Vishnu mandirs mark Jayanti with short katha; families tie to spring cleaning of tools and kitchen.",
+      "diasporaHi": "विष्णु मंदिर लघु कथा; वसंत में रसोई–औजार सफाई।",
+      "regions": [
+        {
+          "region": "Konkan & Kerala",
+          "notes": "Strong local lore."
+        },
+        {
+          "region": "North India",
+          "notes": "Jayanti puja at home."
+        }
+      ],
+      "relatedDevotion": [
+        "vishnu-aarti",
+        "vishnu-chalisa"
+      ],
+      "relatedTemples": [
+        "trimbakeshwar",
+        "rameswaram"
+      ]
     }
   ]
 }

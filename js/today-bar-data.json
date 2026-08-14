@@ -10,7 +10,12 @@
       "krishna-aarti",
       "devi-aarti",
       "rama-aarti",
-      "vishnu-aarti"
+      "vishnu-aarti",
+      "venkateswara-aarti",
+      "annapurna-aarti",
+      "murugan-kanda-intro",
+      "shani-aarti",
+      "vitthal-abhang-intro"
     ],
     "katha": [
       "sawan-somwar-vrat-katha",
@@ -29,7 +34,8 @@
       "teej-vrat-katha",
       "vat-savitri-vrat-katha",
       "hanuman-jayanti-vrat-katha",
-      "santoshi-mata-vrat-katha"
+      "santoshi-mata-vrat-katha",
+      "murugan-kanda-intro"
     ],
     "story": [
       "bilva-leaf-shiva",
@@ -93,7 +99,26 @@
       "annapurna-feeds-shiva",
       "jatayu-rama",
       "vitthal-pandharpur",
-      "parashurama-avatar"
+      "parashurama-avatar",
+      "shiva-damaru",
+      "shiva-bhasma",
+      "hanuman-shiva-amsha",
+      "radha-krishna-vraja",
+      "banke-bihari-appearance",
+      "shrinathji-nathdwara",
+      "kalki-avatar",
+      "buddha-dashavatara",
+      "vibhishana-surrender",
+      "mandodari-lanka",
+      "draupadi-vastraharan-dharma",
+      "karna-kunti",
+      "abhimanyu-chakravyuh",
+      "sheetala-mata",
+      "manasa-behula",
+      "chhinnamasta-meaning",
+      "dattatreya-avatar",
+      "sai-shirdi-origin",
+      "vaishno-devi-appearance"
     ]
   },
   "labels": {
@@ -153,6 +178,11 @@
     "mangala-gauri-vrat-katha": "मंगला गौरी व्रत कथा",
     "nag-panchami-vrat-katha": "नाग पंचमी व्रत कथा",
     "santoshi-mata-vrat-katha": "संतोषी माता व्रत कथा",
+    "venkateswara-aarti": "वेंकटेश्वर आरती — ॐ जय लक्ष्मी रमणा",
+    "annapurna-aarti": "अन्नपूर्णा आरती — अन्नदात्री अन्नपूर्णा भवानी",
+    "murugan-kanda-intro": "कंद षष्ठी कवचम् — परिचय और प्रारंभ",
+    "shani-aarti": "शनि आरती — जय जय श्री शनि देव",
+    "vitthal-abhang-intro": "विठ्ठल अभंग — वारकरी परिचय",
     "neelkanth-poison": "शिव जी को नीलकंठ जी क्यों कहते हैं",
     "prahlad-holika": "प्रह्लाद, होलिका और भक्ति की अग्नि",
     "krishna-birth-night": "कृष्ण जी के जन्म की रात",
@@ -214,6 +244,25 @@
     "annapurna-feeds-shiva": "अन्नपूर्णा — जब शिव ने अन्न माँगा",
     "jatayu-rama": "जटायु — सीता हेतु लड़ने वाला पक्षी",
     "vitthal-pandharpur": "पंढरपुर के विठ्ठल — ईंट पर खड़े प्रभु",
-    "parashurama-avatar": "परशुराम — धर्म रक्षक परशु"
+    "parashurama-avatar": "परशुराम — धर्म रक्षक परशु",
+    "shiva-damaru": "शिव जी डमरू क्यों बजाते हैं",
+    "shiva-bhasma": "शिव जी भस्म और त्रिपुंड क्यों धारण करते हैं",
+    "hanuman-shiva-amsha": "क्या हनुमान शिव के अंश हैं?",
+    "radha-krishna-vraja": "राधा–कृष्ण — व्रज की प्रेम कथा",
+    "banke-bihari-appearance": "बांके बिहारी — स्वामी हरिदास को प्रकट कथा",
+    "shrinathji-nathdwara": "श्रीनाथजी — गोवर्धन से नाथद्वारा तक",
+    "kalki-avatar": "कल्कि — अंतिम अवतार की प्रतीक्षा",
+    "buddha-dashavatara": "दशावतार में बुद्ध — सम्मानपूर्ण स्मरण",
+    "vibhishana-surrender": "विभीषण — रक्त से ऊपर राम का चुनाव",
+    "mandodari-lanka": "मंदोदरी — लंका में संयम की आवाज",
+    "draupadi-vastraharan-dharma": "द्रौपदी का आह्वान — धर्म और दिव्य रक्षा",
+    "karna-kunti": "कर्ण और कुंती — सूर्य-पुत्र, विलंबित सत्य",
+    "abhimanyu-chakravyuh": "अभिमन्यु और चक्रव्यूह",
+    "sheetala-mata": "शीतला माता — बुखार से शीतलता",
+    "manasa-behula": "मनसा और बेहुला — सर्प परीक्षा पर विश्वास",
+    "chhinnamasta-meaning": "छिन्नमस्ता — आत्म-त्याग का आध्यात्मिक प्रतीक",
+    "dattatreya-avatar": "दत्तात्रेय — त्रिमुख गुरु अवतार",
+    "sai-shirdi-origin": "शirdi के साईं बाबा — वह फकीर-संत कौन थे?",
+    "vaishno-devi-appearance": "वैष्णो देवी — त्रिकुटा में देवी प्रकट कथा"
   }
 }

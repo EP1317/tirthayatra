@@ -1811,6 +1811,24 @@
     "famousFor": "Agrawal community mega-temple · national diaspora search"
   },
   {
+    "slug": "ahobilam-narasimha",
+    "name": "Ahobilam Lakshmi Narasimha Temples",
+    "deity": "Lord Narasimha (nine forms)",
+    "location": "Ahobilam, Kurnool, Andhra Pradesh",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "अह",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "vishnu",
+      "devi"
+    ],
+    "summary": "Ahobilam — cluster of Narasimha shrines in the Nallamala hills linked to Prahlada lore.",
+    "famousFor": "Nava Narasimha forest temples · high AP Narasimha search"
+  },
+  {
     "slug": "ajgaibinath-sultanganj",
     "name": "Ajgaibinath Temple, Sultanganj",
     "deity": "Lord Shiva (Ajgaibinath)",
@@ -1827,6 +1845,23 @@
     ],
     "summary": "Ajgaibinath — island-adjacent Shiva temple where Kawad pilgrims collect Ganga water for Deoghar.",
     "famousFor": "Kawariya Ganga jal origin · crores seasonal search (Sawan)"
+  },
+  {
+    "slug": "amarnath-cave",
+    "name": "Amarnath Cave Temple (Ice Lingam Yatra)",
+    "deity": "Lord Shiva (Amarnath Ice Lingam)",
+    "location": "Amarnath Cave, Pahalgam–Baltal route, Jammu and Kashmir",
+    "state": "Jammu and Kashmir",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "अ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Amarnath Cave — seasonal Shiva yatra to the self-forming ice lingam; distinct from the Amarnath Shakti Peeth naming elsewhere on Shakti lists.",
+    "famousFor": "Seasonal ice lingam yatra · among India's highest-search Himalayan pilgrimages"
   },
   {
     "slug": "ambaji",
@@ -1896,6 +1931,38 @@
     ],
     "summary": "Horanadu Annapoorneshwari — Goddess of food in the Western Ghats.",
     "famousFor": "Malnad Devi · high Karnataka tourism+temple search"
+  },
+  {
+    "slug": "palani-murugan",
+    "name": "Arulmigu Dhandayuthapani Temple, Palani",
+    "deity": "Lord Murugan (Dhandayuthapani / Kartikeya)",
+    "location": "Palani, Dindigul, Tamil Nadu",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "प",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [],
+    "summary": "Palani Murugan — hill temple of Dhandayuthapani, anchor of the Tamil Murugan circuit with Thaipusam and Skanda Shashti peaks.",
+    "famousFor": "Hill Murugan · Panchamritam · among TN's highest Murugan footfall"
+  },
+  {
+    "slug": "thiruchendur-murugan",
+    "name": "Arulmigu Subramaniaswamy Temple, Thiruchendur",
+    "deity": "Lord Murugan (Subramanya)",
+    "location": "Thiruchendur, Thoothukudi, Tamil Nadu",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "त",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "rama"
+    ],
+    "summary": "Thiruchendur — rare coastal Murugan temple where the Lord faces the sea after defeating Surapadma in lore.",
+    "famousFor": "Seashore Murugan · Soora Samharam · Skanda Shashti crowds"
   },
   {
     "slug": "ashwaklanta-guwahati",
@@ -2242,6 +2309,23 @@
     "deityFamilies": [],
     "summary": "Jagatpita Brahma Mandir — among the world’s few major Brahma temples.",
     "famousFor": "Rare Brahma shrine · Pushkar fair global search"
+  },
+  {
+    "slug": "brihadeeswarar-thanjavur",
+    "name": "Brihadeeswarar Temple, Thanjavur",
+    "deity": "Lord Shiva (Brihadeeswarar / Peruvudaiyar)",
+    "location": "Thanjavur, Tamil Nadu",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "बृ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Brihadeeswarar — Rajaraja Chola's granite masterpiece and living Shiva seat with one of India's largest Nandi icons.",
+    "famousFor": "UNESCO Chola temple · Big Temple · Nandi scale"
   },
   {
     "slug": "chamunda-devi-kangra",
@@ -3314,6 +3398,23 @@
     ],
     "summary": "Kasba Kali — popular urban Kali temple of Agartala.",
     "famousFor": "Agartala Kali · capital Devi search"
+  },
+  {
+    "slug": "uttarkashi-vishwanath",
+    "name": "Kashi Vishwanath Temple, Uttarkashi",
+    "deity": "Lord Shiva (Vishwanath)",
+    "location": "Uttarkashi, Uttarakhand",
+    "state": "Uttarakhand",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "उ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Uttarkashi Vishwanath — ancient Shiva temple on the Bhagirathi called the Kashi of the Himalayas.",
+    "famousFor": "'Chhota Kashi' of Garhwal · Char Dham corridor Shiva search"
   },
   {
     "slug": "kataragama",
@@ -4691,6 +4792,21 @@
     "famousFor": "Tribal–Vaishnava fair · North Gujarat pilgrimage search"
   },
   {
+    "slug": "shani-shingnapur",
+    "name": "Shani Shingnapur Temple",
+    "deity": "Lord Shani (Saturn)",
+    "location": "Shingnapur, Ahmednagar, Maharashtra",
+    "state": "Maharashtra",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "श",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [],
+    "summary": "Shani Shingnapur — Maharashtra's famous open-platform Shani temple where Saturn is worshipped without a conventional roofed sanctum.",
+    "famousFor": "Open-air Shani shrine · no doors village legend · massive Saturday search"
+  },
+  {
     "slug": "shankaracharya-temple",
     "name": "Shankaracharya Temple, Srinagar",
     "deity": "Lord Shiva",
@@ -5025,6 +5141,24 @@
     ],
     "summary": "Udupi Sri Krishna Matha — coastal Karnataka’s great Vaishnava seat of Madhvacharya tradition.",
     "famousFor": "Kanakana kindi window darshan & Madhva tradition"
+  },
+  {
+    "slug": "srimukhalingam",
+    "name": "Sri Mukhalingam Temple",
+    "deity": "Lord Shiva (Mukhalingam)",
+    "location": "Sri Mukhalingam, Srikakulam, Andhra Pradesh",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "मु",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva",
+      "devi"
+    ],
+    "summary": "Srimukhalingam — historic Kalinga-style Shiva temple complex on the Vamsadhara, thinner English web but steady regional tirtha.",
+    "famousFor": "9th-century Kalinga Shiva · Vamsadhara river heritage search"
   },
   {
     "slug": "vemulawada",

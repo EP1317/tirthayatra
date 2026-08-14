@@ -6,6 +6,36 @@
   },
   "fixed": [
     {
+      "date": "2025-01-12",
+      "name": "Thaipusam",
+      "nameHi": "थाइपूसम",
+      "importance": "high"
+    },
+    {
+      "date": "2025-03-22",
+      "name": "Sheetala Ashtami",
+      "nameHi": "शीतला अष्टमी",
+      "importance": "high"
+    },
+    {
+      "date": "2025-03-30",
+      "name": "Chaitra Navaratri begins",
+      "nameHi": "चैत्र नवरात्रि आरंभ",
+      "importance": "high"
+    },
+    {
+      "date": "2025-04-01",
+      "name": "Parashurama Jayanti",
+      "nameHi": "परशुराम जयंती",
+      "importance": "medium"
+    },
+    {
+      "date": "2025-04-02",
+      "name": "Gangaur (approx peak)",
+      "nameHi": "गणगौर",
+      "importance": "high"
+    },
+    {
       "date": "2025-08-16",
       "name": "Janmashtami",
       "nameHi": "जन्माष्टमी",
@@ -30,9 +60,21 @@
       "importance": "high"
     },
     {
+      "date": "2025-10-07",
+      "name": "Sharad Purnima",
+      "nameHi": "शरद पूर्णिमा",
+      "importance": "high"
+    },
+    {
       "date": "2025-10-20",
       "name": "Diwali / Deepavali",
       "nameHi": "दीपावली",
+      "importance": "high"
+    },
+    {
+      "date": "2025-10-28",
+      "name": "Skanda Shashti",
+      "nameHi": "स्कंद षष्ठी",
       "importance": "high"
     },
     {
@@ -72,6 +114,12 @@
       "importance": "high"
     },
     {
+      "date": "2026-01-31",
+      "name": "Thaipusam",
+      "nameHi": "थाइपूसम",
+      "importance": "high"
+    },
+    {
       "date": "2026-02-15",
       "name": "Maha Shivaratri",
       "nameHi": "महाशिवरात्रि",
@@ -90,6 +138,12 @@
       "importance": "high"
     },
     {
+      "date": "2026-03-11",
+      "name": "Sheetala Ashtami",
+      "nameHi": "शीतला अष्टमी",
+      "importance": "high"
+    },
+    {
       "date": "2026-03-19",
       "name": "Chaitra Navaratri begins",
       "nameHi": "चैत्र नवरात्रि आरंभ",
@@ -105,6 +159,18 @@
       "date": "2026-03-19",
       "name": "Ugadi",
       "nameHi": "युगादि",
+      "importance": "high"
+    },
+    {
+      "date": "2026-03-21",
+      "name": "Parashurama Jayanti",
+      "nameHi": "परशुराम जयंती",
+      "importance": "medium"
+    },
+    {
+      "date": "2026-03-22",
+      "name": "Gangaur (approx peak)",
+      "nameHi": "गणगौर",
       "importance": "high"
     },
     {
@@ -228,9 +294,21 @@
       "importance": "high"
     },
     {
+      "date": "2026-09-26",
+      "name": "Sharad Purnima",
+      "nameHi": "शरद पूर्णिमा",
+      "importance": "high"
+    },
+    {
       "date": "2026-10-11",
       "name": "Sharad Navaratri begins",
       "nameHi": "शरद नवरात्रि आरंभ",
+      "importance": "high"
+    },
+    {
+      "date": "2026-10-17",
+      "name": "Skanda Shashti",
+      "nameHi": "स्कंद षष्ठी",
       "importance": "high"
     },
     {
@@ -318,15 +396,45 @@
       "importance": "high"
     },
     {
+      "date": "2027-01-20",
+      "name": "Thaipusam",
+      "nameHi": "थाइपूसम",
+      "importance": "high"
+    },
+    {
       "date": "2027-02-11",
       "name": "Vasant Panchami",
       "nameHi": "वसंत पंचमी",
       "importance": "high"
     },
     {
+      "date": "2027-03-01",
+      "name": "Sheetala Ashtami",
+      "nameHi": "शीतला अष्टमी",
+      "importance": "high"
+    },
+    {
       "date": "2027-03-06",
       "name": "Maha Shivaratri",
       "nameHi": "महाशिवरात्रि",
+      "importance": "high"
+    },
+    {
+      "date": "2027-03-09",
+      "name": "Chaitra Navaratri begins",
+      "nameHi": "चैत्र नवरात्रि आरंभ",
+      "importance": "high"
+    },
+    {
+      "date": "2027-03-11",
+      "name": "Parashurama Jayanti",
+      "nameHi": "परशुराम जयंती",
+      "importance": "medium"
+    },
+    {
+      "date": "2027-03-12",
+      "name": "Gangaur (approx peak)",
+      "nameHi": "गणगौर",
       "importance": "high"
     },
     {
@@ -438,9 +546,21 @@
       "importance": "high"
     },
     {
+      "date": "2027-10-06",
+      "name": "Skanda Shashti",
+      "nameHi": "स्कंद षष्ठी",
+      "importance": "high"
+    },
+    {
       "date": "2027-10-09",
       "name": "Dussehra / Vijayadashami",
       "nameHi": "दशहरा · विजयदशमी",
+      "importance": "high"
+    },
+    {
+      "date": "2027-10-15",
+      "name": "Sharad Purnima",
+      "nameHi": "शरद पूर्णिमा",
       "importance": "high"
     },
     {

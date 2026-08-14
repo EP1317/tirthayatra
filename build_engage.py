@@ -241,6 +241,20 @@ def build_festivals_calendar(festival_guide: dict, asset_ver: str, nav: Callable
     ) + body
 
 
+def read_time_label(story: dict) -> str:
+    """Prefer minute labels when a fuller telling exists or word count is long."""
+    detail = (story.get("storyDetailEn") or "") + " " + (story.get("storyEn") or "")
+    words = len(detail.split())
+    if story.get("storyDetailEn") or words >= 280:
+        mins = max(3, min(20, round(words / 180) or 3))
+        return f"~{mins} minute read"
+    secs = int(story.get("readSeconds") or 70)
+    if secs >= 120:
+        mins = max(2, round(secs / 60))
+        return f"~{mins} minute read"
+    return f"~{secs} second read"
+
+
 def build_stories_index(stories_data: dict, asset_ver: str, nav: Callable, footer: Callable, head: Callable) -> str:
     prefix = "../"
     sec = stories_data.get("section") or {}
@@ -250,7 +264,7 @@ def build_stories_index(stories_data: dict, asset_ver: str, nav: Callable, foote
         tiles.append(
             f"""
             <a class="circuit-tile reveal" href="{prefix}stories/{e(s['slug'])}.html">
-              <p class="circuit-count">~{e(str(s.get('readSeconds', 70)))} sec · {e(tags)}</p>
+              <p class="circuit-count">{e(read_time_label(s))} · {e(tags)}</p>
               <h3 class="circuit-name">{e(s.get('titleHi', ''))}</h3>
               <p class="circuit-blurb"><strong>{e(s['title'])}</strong> — {e(s.get('hook', ''))}</p>
               <span class="circuit-arrow">Read story →</span>
@@ -325,13 +339,16 @@ def build_story_detail(
 {nav('stories', prefix)}
 <article class="section story-article" data-board-open="story" data-slug="{e(story['slug'])}">
   <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}stories/index.html">Stories</a> · {e(title_hi)}</p>
-  <p class="section-kicker">~{e(str(story.get('readSeconds', 70)))} second read · home puja</p>
+  <p class="section-kicker">{e(read_time_label(story))} · home puja</p>
   <h1 class="lang-hi">{e(title_hi)}</h1>
   <h1 class="lang-en">{e(story['title'])}</h1>
   {lang_p(story.get('hook', ''), story.get('hookHi', ''), cls='lede')}
   <p>{save_btn('story', story['slug'], story['title'], href)}</p>
   <h2 class="section-title">कथा · The story</h2>
   {lang_p(story.get('storyEn', ''), story.get('storyHi', ''))}
+  {f'''<h2 class="section-title">विस्तृत कथा · Fuller telling</h2>
+  <p class="section-desc">A longer retelling for readers who want more detail — optional; the short story above is enough for a quick home reading.</p>
+  {lang_p(story.get('storyDetailEn', ''), story.get('storyDetailHi', ''))}''' if (story.get('storyDetailEn') or story.get('storyDetailHi')) else ''}
   <h2 class="section-title">क्यों · Why this ritual</h2>
   {lang_p(story.get('whyRitual', ''), story.get('whyRitualHi', ''))}
   <h2 class="section-title">Takeaway for home</h2>
