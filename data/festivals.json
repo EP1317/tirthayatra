@@ -36,6 +36,12 @@
       "importance": "high"
     },
     {
+      "date": "2025-11-02",
+      "name": "Tulsi Vivah",
+      "nameHi": "तुलसी विवाह",
+      "importance": "high"
+    },
+    {
       "date": "2025-11-05",
       "name": "Chhath Puja",
       "nameHi": "छठ पूजा",
@@ -276,6 +282,12 @@
       "importance": "high"
     },
     {
+      "date": "2026-11-20",
+      "name": "Tulsi Vivah",
+      "nameHi": "तुलसी विवाह",
+      "importance": "high"
+    },
+    {
       "date": "2026-11-24",
       "name": "Kartik Purnima",
       "nameHi": "कार्तिक पूर्णिमा",
@@ -465,6 +477,12 @@
       "date": "2027-11-04",
       "name": "Chhath Puja",
       "nameHi": "छठ पूजा",
+      "importance": "high"
+    },
+    {
+      "date": "2027-11-10",
+      "name": "Tulsi Vivah",
+      "nameHi": "तुलसी विवाह",
       "importance": "high"
     },
     {

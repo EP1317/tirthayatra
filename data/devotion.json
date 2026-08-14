@@ -27,7 +27,7 @@
       "name": "Vrat Katha",
       "nameHi": "व्रत कथा संग्रह",
       "blurb": "Vow-day stories retold for fasting days and home puja — AdSense-safe original summaries of traditional themes.",
-      "lede": "Vow-stories for home puja — Karva Chauth, Chhath, Satyanarayan, Teej, Vat Savitri, Shivaratri, Ekadashi, Pradosh, Navaratri, Janmashtami, Ganesh Chaturthi, Ram Navami, Hanuman Jayanti, Ayyappa Mandala, and more. TirthaYatra pages use original retellings of traditional themes for learning; regional wording differs. Not a substitute for your family priest. Optional YouTube listens belong to their uploaders, Sawan Somwar, Mangala Gauri, and Nag Panchami."
+      "lede": "Vow-stories for home puja — Karva Chauth, Chhath, Satyanarayan, Teej, Vat Savitri, Shivaratri, Ekadashi, Pradosh, Navaratri, Janmashtami, Ganesh Chaturthi, Ram Navami, Hanuman Jayanti, Ayyappa Mandala, and more. TirthaYatra pages use original retellings of traditional themes for learning; regional wording differs. Not a substitute for your family priest. Optional YouTube listens belong to their uploaders, Sawan Somwar, Mangala Gauri, and Nag Panchami, and Santoshi Mata Friday vrat."
     }
   },
   "items": [
@@ -2114,6 +2114,35 @@
       "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%A8%E0%A4%BE%E0%A4%97%20%E0%A4%AA%E0%A4%82%E0%A4%9A%E0%A4%AE%E0%A5%80%20%E0%A4%B5%E0%A5%8D%E0%A4%B0%E0%A4%A4%20%E0%A4%95%E0%A4%A5%E0%A4%BE%20Nag%20Panchami%20Vrat%20Katha%20full",
       "audioLabel": "Nag Panchami Vrat Katha Hindi",
       "audioNote": "Popular YouTube recording to watch or listen while reading. Open on YouTube if the player does not load."
+    },
+    {
+      "slug": "santoshi-mata-vrat-katha",
+      "type": "vrat-katha",
+      "deity": "devi",
+      "title": "Santoshi Mata Vrat Katha",
+      "titleHi": "संतोषी माता व्रत कथा",
+      "author": "Popular Friday vow tradition · TirthaYatra original retelling",
+      "when": "Fridays — often sixteen consecutive Fridays; udyapan as per family custom",
+      "summary": "Original TirthaYatra retelling of the Santoshi Mata Friday vow themes — contentment, gur–chana bhog, and avoiding sourness.",
+      "verses": [
+        "॥ श्री गणेशाय नमः ॥\nसंतोषी माता व्रत कथा — मौलिक पुनर्प्रस्तुति।",
+        "शुक्रवार को संतोषी माता का व्रत लोक में प्रिय है। सोलह शुक्रवार, गुड़–चना भोग, और खट्टे पदार्थ का त्याग — रीति क्षेत्रानुसार।",
+        "कथा-सार: एक विपत्तिग्रस्त बहू ने मंदिर/कुएँ पर व्रत विधि सुनी। धैर्य से व्रत रखा; भाग्य लौटा। ईर्ष्या ने उद्यापन में खट्टा मिलाया — संकट बढ़ा; शुद्ध उद्यापन से शांति लौटी।",
+        "शिक्षा: संतोष प्रदर्शन नहीं। खट्टा केवल भोजन नहीं — वाणी और मन का कटु भी त्याज्य।",
+        "विधि: यथाशक्ति उपवास/एक समय, कथा श्रवण, गुड़–चना अर्पण, शुक्रवार शांति। स्वास्थ्य साथ रखें।",
+        "॥ जय संतोषी माता ॥"
+      ],
+      "meaning": "Santoshi Mata’s Friday vow seeks household peace through contentment. Keep the spirit of kindness sharper than food rules alone.",
+      "relatedTemples": [
+        "siddhivinayak-mumbai",
+        "mansa-devi-panchkula",
+        "vaishno-devi"
+      ],
+      "completeText": true,
+      "sangrahLabel": "संतोषी माता",
+      "audioNote": "Search YouTube for Santoshi Mata Vrat Katha Hindi if you want a listen-along while reading.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%B8%E0%A4%82%E0%A4%A4%E0%A5%8B%E0%A4%B7%E0%A5%80%20%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A4%BE%20%E0%A4%B5%E0%A5%8D%E0%A4%B0%E0%A4%A4%20%E0%A4%95%E0%A4%A5%E0%A4%BE",
+      "audioLabel": "Santoshi Mata Vrat Katha · Hindi search"
     }
   ]
 }

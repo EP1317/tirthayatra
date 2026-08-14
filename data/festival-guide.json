@@ -2,7 +2,7 @@
   "section": {
     "name": "Festivals",
     "nameHi": "त्योहार कैलेंडर",
-    "lede": "Stories, mythology, dates, and how India and the diaspora celebrate — with related aarti, vrat katha, and temples. High-search festivals included: Karva Chauth, Chhath, Ram Navami, Hanuman Jayanti, Onam, Ugadi, Rath Yatra, Dhanteras, Kartik Purnima, Teej, Vat Savitri, and more, plus Sawan/Shravan, Kanwar Yatra (Bol Bam), and Nag Panchami.",
+    "lede": "Stories, mythology, dates, and how India and the diaspora celebrate — with related aarti, vrat katha, and temples. High-search festivals included: Karva Chauth, Chhath, Ram Navami, Hanuman Jayanti, Onam, Ugadi, Rath Yatra, Dhanteras, Kartik Purnima, Teej, Vat Savitri, and more, plus Sawan/Shravan, Kanwar Yatra (Bol Bam), and Nag Panchami, Tulsi Vivah, and Santoshi Mata Friday vrat.",
     "disclaimer": "Exact tithi dates can shift by region and almanac. Confirm with your local temple or panchang before planning. Festival stories are TirthaYatra retellings of traditional Puranic and folk themes for learning and home devotion — not verbatim scripture, not affiliated with any temple trust, and not a substitute for a family priest. Do not republish as official religious edicts."
   },
   "festivals": [
@@ -2276,6 +2276,134 @@
         "pura-mahadev-baghpat",
         "neelkanth-mahadev-rishikesh",
         "kashi-vishwanath"
+      ]
+    },
+    {
+      "slug": "tulsi-vivah",
+      "name": "Tulsi Vivah",
+      "nameHi": "तुलसी विवाह",
+      "importance": "high",
+      "dateNames": [
+        "Tulsi Vivah",
+        "Tulasi Vivaha",
+        "Tulsi Wedding"
+      ],
+      "summary": "Kartik wedding of Tulsi with Vishnu / Shaligram — courtyard devotion that opens the marriage season.",
+      "summaryHi": "कार्तिक में तुलसी–विष्णु/शालिग्राम विवाह — आंगन भक्ति जो विवाह काल खोलती।",
+      "meaningEn": "Tulsi Vivah marks the symbolic marriage of the sacred basil plant to Vishnu (often as Shaligram). It falls in Kartik after the monsoon austerity period and, in many communities, signals that wedding season may begin.",
+      "meaningHi": "तुलसी विवाह पवित्र तुलसी का विष्णु (अक्सर शालिग्राम) से प्रतीकात्मक ब्याह है। कार्तिक में वर्षा-तप के बाद; कई समाजों में विवाह काल का संकेत।",
+      "storyEn": "Folk and Puranic strands remember Tulsi as a devoted being whose earthly form is basil beloved of Vishnu. Households decorate the tulsi vrindavan, invite the Lord as bridegroom, and teach children that watering a plant can be worship.",
+      "storyHi": "लोक–पुराण में तुलसी भक्त सत्ता हैं जिनका रूप विष्णु-प्रिय तुलसी है। घर तुलसी वृंदावन सजाते, प्रभु को वर मान आमंत्रित करते, बच्चों को सिखाते — पौधे को जल देना भी पूजा।",
+      "mythologyEn": "The rite braids Vishnu bhakti, Kartik vows, and domestic sacred geography — the courtyard as a miniature Vaikuntha.",
+      "mythologyHi": "रीति विष्णु भक्ति, कार्तिक व्रत और गृह तीर्थ को जोड़ती — आंगन छोटा वैकुंठ।",
+      "deityStories": [
+        {
+          "deity": "Vishnu / Shaligram",
+          "deityHi": "विष्णु / शालिग्राम",
+          "en": "The bridegroom of Tulsi Vivah — presence invited into the home garden.",
+          "hi": "तुलसी विवाह के वर — आंगन में आमंत्रित उपस्थिति।"
+        },
+        {
+          "deity": "Tulsi",
+          "deityHi": "तुलसी",
+          "en": "The bride as living plant — daily care becomes devotion.",
+          "hi": "दुल्हन जीवित पौधा — रोज सेवा भक्ति।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Clean and decorate the tulsi planter (vrindavan)",
+        "Invite Vishnu / Shaligram as bridegroom with lamps and simple wedding songs",
+        "Offer tulsi leaves, sweets, and family prasad",
+        "Many homes treat the following weeks as auspicious for weddings"
+      ],
+      "howCelebratedHi": [
+        "तुलसी वृंदावन स्वच्छ–सजावट",
+        "दीप और सरल विवाह गीतों से विष्णु/शालिग्राम आमंत्रण",
+        "तुलसी पत्र, मिष्ठान्न, परिवार प्रसाद",
+        "आगे के सप्ताह कई घरों में विवाह हेतु शुभ"
+      ],
+      "diasporaEn": "Apartment tulsi pots still host a mini Vivah with printed Shaligram image and WhatsApp family aarti.",
+      "diasporaHi": "फ्लैट की तुलसी में भी लघु विवाह — मुद्रित शालिग्राम और परिवार आरती।",
+      "regions": [
+        {
+          "region": "North & West India",
+          "notes": "Strong household observance in Kartik."
+        },
+        {
+          "region": "Diaspora",
+          "notes": "Temple Kartik programmes often include Tulsi Vivah demos."
+        }
+      ],
+      "relatedDevotion": [
+        "vishnu-aarti",
+        "lakshmi-aarti"
+      ],
+      "relatedTemples": [
+        "tirumala-venkateswara",
+        "dwarka",
+        "srirangam-ranganathaswamy"
+      ]
+    },
+    {
+      "slug": "santoshi-mata",
+      "name": "Santoshi Mata Vrat (Friday)",
+      "nameHi": "संतोषी माता व्रत (शुक्रवार)",
+      "importance": "high",
+      "dateNames": [
+        "Santoshi Mata",
+        "Santoshi Maa",
+        "Friday Vrat",
+        "Shukravar Vrat"
+      ],
+      "summary": "Friday vow of contentment — gur, chana, and a katha against sourness of food and speech.",
+      "summaryHi": "शुक्रवार संतोष व्रत — गुड़, चना, और खट्टेपन के विरुद्ध कथा।",
+      "meaningEn": "Santoshi Mata, popularly remembered as the goddess of contentment and as daughter of Ganesha in folk lore, is honoured on Fridays. Devotees often keep sixteen Fridays with simple bhog and avoid sour foods.",
+      "meaningHi": "संतोषी माता — लोक में संतोष की देवी और गणेश पुत्री — शुक्रवार पूजित। अक्सर सोलह शुक्रवार, सरल भोग, खट्टे का त्याग।",
+      "storyEn": "The classic vow-story of a mistreated daughter-in-law whose fortune returns through patient Friday fasting teaches that jealousy can sour a completed vow. TirthaYatra’s linked story and vrat katha pages retell the theme for home learning.",
+      "storyHi": "बहू की क्लासिक व्रत-कथा — धैर्य से भाग्य लौटा, ईर्ष्या ने उद्यापन खट्टा किया — सिखाती है संतोष प्रदर्शन नहीं।",
+      "mythologyEn": "Modern popular devotion (20th century film and print amplified the vrat) sits beside older mother-goddess Friday worship. Treat regional customs as living guides.",
+      "mythologyHi": "आधुनिक लोकभक्ति (फिल्म–पुस्तक से फैली) पुरानी मातृ शुक्रवार पूजा के साथ। क्षेत्रीय रीति ही जीवंत मार्गदर्शक।",
+      "deityStories": [
+        {
+          "deity": "Santoshi Mata",
+          "deityHi": "संतोषी माता",
+          "en": "Mother of contentment — simple bhog, sincere speech.",
+          "hi": "संतोष की माँ — सरल भोग, सरल वाणी।"
+        }
+      ],
+      "howCelebratedEn": [
+        "Friday fasting as strength allows; one sattvic meal common",
+        "Offer gur and roasted chana; avoid sour items that day",
+        "Read or hear the vrat katha; recite Santoshi Chalisa",
+        "Complete udyapan as family custom after the vowed Fridays"
+      ],
+      "howCelebratedHi": [
+        "शुक्रवार यथाशक्ति व्रत",
+        "गुड़–चना; उस दिन खट्टा त्याग",
+        "व्रत कथा / संतोषी चालीसा",
+        "सोलह शुक्रवार बाद उद्यापन — परिवार रीति"
+      ],
+      "diasporaEn": "Friday temple circles abroad keep the vrat with store-bought chana and jaggery; focus on speech kindness when food rules are hard.",
+      "diasporaHi": "विदेश शुक्रवार मंडलियाँ गुड़–चना से व्रत रखतीं; भोजन कठिन हो तो वाणी की मिठास पर जोर।",
+      "regions": [
+        {
+          "region": "North India",
+          "notes": "Very common household Friday vow."
+        },
+        {
+          "region": "Diaspora",
+          "notes": "WhatsApp katha shares on Fridays."
+        }
+      ],
+      "relatedDevotion": [
+        "santoshi-chalisa",
+        "santoshi-mata-vrat-katha",
+        "devi-aarti"
+      ],
+      "relatedTemples": [
+        "siddhivinayak-mumbai",
+        "mansa-devi-panchkula",
+        "vaishno-devi"
       ]
     }
   ]

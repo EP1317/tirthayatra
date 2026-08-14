@@ -28,7 +28,8 @@
       "chhath-vrat-katha",
       "teej-vrat-katha",
       "vat-savitri-vrat-katha",
-      "hanuman-jayanti-vrat-katha"
+      "hanuman-jayanti-vrat-katha",
+      "santoshi-mata-vrat-katha"
     ],
     "story": [
       "bilva-leaf-shiva",
@@ -71,7 +72,28 @@
       "kali-raktabija",
       "putana-krishna",
       "narakasura-krishna",
-      "sita-swayamvara-bow"
+      "sita-swayamvara-bow",
+      "ganesha-elephant-head",
+      "ganesha-prathama-pujya",
+      "shiva-third-eye",
+      "shiva-crescent-moon",
+      "shiva-trishul",
+      "nandi-shiva-vahana",
+      "venkateswara-kubera-loan",
+      "srinivasa-padmavati",
+      "kartikeya-six-faces",
+      "sati-daksha-yajna",
+      "ayyappa-manikandan",
+      "jagannath-neem-murti",
+      "meenakshi-sundareswarar",
+      "santoshi-mata-friday",
+      "shani-dev-justice",
+      "hanuman-lanka-agni",
+      "tulsi-vivah-vishnu",
+      "annapurna-feeds-shiva",
+      "jatayu-rama",
+      "vitthal-pandharpur",
+      "parashurama-avatar"
     ]
   },
   "labels": {
@@ -130,6 +152,7 @@
     "sawan-somwar-vrat-katha": "सावन सोमवार व्रत कथा",
     "mangala-gauri-vrat-katha": "मंगला गौरी व्रत कथा",
     "nag-panchami-vrat-katha": "नाग पंचमी व्रत कथा",
+    "santoshi-mata-vrat-katha": "संतोषी माता व्रत कथा",
     "neelkanth-poison": "शिव जी को नीलकंठ जी क्यों कहते हैं",
     "prahlad-holika": "प्रह्लाद, होलिका और भक्ति की अग्नि",
     "krishna-birth-night": "कृष्ण जी के जन्म की रात",
@@ -170,6 +193,27 @@
     "kanwar-ganga-shiva": "कांवड़ — गंगाजल शिव तक क्यों पैदल जाता है",
     "parvati-sawan-tapasya": "पार्वती जी की तपस्या — वर्षा में शिव को पाने वाली देवी",
     "naga-shiva-ornament": "शिव जी नाग क्यों धारण करते हैं",
-    "rudraksha-tears-shiva": "रुद्राक्ष — शिव जी के अश्रु"
+    "rudraksha-tears-shiva": "रुद्राक्ष — शिव जी के अश्रु",
+    "ganesha-elephant-head": "गणेश जी का हाथी वाला मुख क्यों है",
+    "ganesha-prathama-pujya": "गणेश जी की पूजा सबसे पहले क्यों होती है",
+    "shiva-third-eye": "शिव जी का तीसरा नेत्र क्यों है",
+    "shiva-crescent-moon": "शिव जी शीश पर चंद्रमा क्यों धारण करते हैं",
+    "shiva-trishul": "शिव जी त्रिशूल क्यों धारण करते हैं",
+    "nandi-shiva-vahana": "नंदी शिव जी के आगे क्यों विराजते हैं",
+    "venkateswara-kubera-loan": "तिरुपति पर दान क्यों — कुबेर का ऋण",
+    "srinivasa-padmavati": "श्रीनिवास और पद्मावती — तिरुमल विवाह",
+    "kartikeya-six-faces": "कार्तिकेय — षण्मुख स्कंद",
+    "sati-daksha-yajna": "सती, दक्ष यज्ञ और शक्ति पीठों का उदय",
+    "ayyappa-manikandan": "अय्यप्पा — हरि–हर पुत्र मणिकंदन",
+    "jagannath-neem-murti": "जगन्नाथ जी की मूर्ति काठ की क्यों है",
+    "meenakshi-sundareswarar": "मीनाक्षी–सुंदरेश्वर — मदुरै दिव्य विवाह",
+    "santoshi-mata-friday": "संतोषी माता — संतोष की माँ",
+    "shani-dev-justice": "शनि देव — शनिवार न्याय क्यों माँगता है",
+    "hanuman-lanka-agni": "हनुमान जी की पूँछ ने लंका क्यों जलाई",
+    "tulsi-vivah-vishnu": "तुलसी विवाह — तुलसी विष्णु से क्यों ब्याही जाती हैं",
+    "annapurna-feeds-shiva": "अन्नपूर्णा — जब शिव ने अन्न माँगा",
+    "jatayu-rama": "जटायु — सीता हेतु लड़ने वाला पक्षी",
+    "vitthal-pandharpur": "पंढरपुर के विठ्ठल — ईंट पर खड़े प्रभु",
+    "parashurama-avatar": "परशुराम — धर्म रक्षक परशु"
   }
 }
