@@ -317,6 +317,7 @@ def panchang_widget(prefix: str = "") -> str:
 def nav(active: str = "", prefix: str = "", *, show_panchang: bool = False) -> str:
     links = [
         ("index.html", "Home", "home"),
+        ("temples/index.html", "Temples", "temples"),
         ("circuits/index.html", "Tirtha Chakra", "circuits"),
         ("deities/index.html", "Devi-Devata", "deities"),
         ("devotion/aarti.html", "Aarti", "aarti"),
