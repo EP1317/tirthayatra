@@ -6314,7 +6314,9 @@
     "tagLabels": [
       "Modern Temples"
     ],
-    "deityFamilies": [],
+    "deityFamilies": [
+      "sai"
+    ],
     "summary": "Shirdi Sai Baba samadhi mandir — a defining Maharashtra and pan-India faith destination.",
     "famousFor": "One of India’s largest modern pilgrimages"
   },
@@ -7144,5 +7146,92 @@
     ],
     "summary": "Yogmaya of Mehrauli — among Delhi’s oldest Devi temples, near Qutub complex.",
     "famousFor": "Phool Walon Ki Sair · historic Delhi Devi search"
+  },
+  {
+    "slug": "narsobawadi-datta",
+    "name": "Shri Datta Mandir, Narsobawadi",
+    "deity": "Lord Dattatreya",
+    "location": "Narsobawadi, near Sangli, Maharashtra",
+    "state": "Maharashtra",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "द",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "dattatreya"
+    ],
+    "summary": "Narsobawadi — major Datta peetha on the Maharashtra Datta yatra.",
+    "famousFor": "Datta peetha · Krishna riverside"
+  },
+  {
+    "slug": "maniknagar-datta",
+    "name": "Maniknagar Datta Mandir",
+    "deity": "Lord Dattatreya",
+    "location": "Maniknagar, near Humnabad, Karnataka",
+    "state": "Karnataka",
+    "country": "India",
+    "tier": "regional",
+    "glyph": "म",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "dattatreya"
+    ],
+    "summary": "Maniknagar — Datta seat of the Manik Prabhu tradition.",
+    "famousFor": "Manik Prabhu Datta peeth"
+  },
+  {
+    "slug": "audumbar-datta",
+    "name": "Audumbar Datta Mandir",
+    "deity": "Lord Dattatreya",
+    "location": "Audumbar, near Sangli, Maharashtra",
+    "state": "Maharashtra",
+    "country": "India",
+    "tier": "regional",
+    "glyph": "औ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "dattatreya"
+    ],
+    "summary": "Audumbar — riverside Datta shrine paired with Narsobawadi on Datta yatra.",
+    "famousFor": "Audumbar Datta · riverside peetha"
+  },
+  {
+    "slug": "santoshi-mata-jodhpur",
+    "name": "Santoshi Mata Temple, Jodhpur",
+    "deity": "Goddess Santoshi Mata",
+    "location": "Jodhpur, Rajasthan",
+    "state": "Rajasthan",
+    "country": "India",
+    "tier": "regional",
+    "glyph": "सं",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "santoshi",
+      "devi"
+    ],
+    "summary": "Popular Santoshi Mata shrine for Friday vrat devotees in Rajasthan.",
+    "famousFor": "Friday Santoshi vrat"
+  },
+  {
+    "slug": "santoshi-mata-delhi",
+    "name": "Santoshi Mata Mandir, Delhi",
+    "deity": "Goddess Santoshi Mata",
+    "location": "Delhi NCR",
+    "state": "Delhi",
+    "country": "India",
+    "tier": "regional",
+    "glyph": "सं",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "santoshi",
+      "devi"
+    ],
+    "summary": "Urban Santoshi Mata mandir serving Friday vrat communities in Delhi NCR.",
+    "famousFor": "Friday vrat · NCR Santoshi Mata"
   }
 ]

@@ -1134,10 +1134,49 @@ def build_circuit_index(circuits: list, temples: list) -> str:
     return head("Sacred Circuits — TirthaYatra", "Explore temple circuits and pilgrimage tags.", prefix) + body
 
 
+def deity_display_order() -> list[str]:
+    """Preferred hub order, then any remaining deities.json keys."""
+    preferred = [
+        "shiva",
+        "vishnu",
+        "krishna",
+        "devi",
+        "ganesha",
+        "rama",
+        "hanuman",
+        "ayyappa",
+        "sai",
+        "murugan",
+        "venkateswara",
+        "jagannath",
+        "narasimha",
+        "vitthal",
+        "surya",
+        "shani",
+        "dattatreya",
+        "bhairav",
+        "lakshmi",
+        "saraswati",
+        "kali",
+        "annapurna",
+        "santoshi",
+    ]
+    seen = set()
+    order: list[str] = []
+    for fam in preferred:
+        if fam in DEITIES and fam not in seen:
+            order.append(fam)
+            seen.add(fam)
+    for fam in DEITIES:
+        if fam not in seen:
+            order.append(fam)
+            seen.add(fam)
+    return order
+
+
 def deity_tiles_home(temples: list) -> list[str]:
-    order = ["shiva", "vishnu", "krishna", "devi", "ganesha", "rama", "hanuman", "ayyappa"]
     tiles = []
-    for fam in order:
+    for fam in deity_display_order():
         meta = DEITIES.get(fam)
         if not meta:
             continue
@@ -1159,9 +1198,8 @@ def deity_tiles_home(temples: list) -> list[str]:
 
 def build_deities_index(temples: list) -> str:
     prefix = "../"
-    order = ["shiva", "vishnu", "krishna", "devi", "ganesha", "rama", "hanuman", "ayyappa"]
     tiles = []
-    for fam in order:
+    for fam in deity_display_order():
         meta = DEITIES.get(fam)
         if not meta:
             continue
@@ -1183,7 +1221,7 @@ def build_deities_index(temples: list) -> str:
 <section class="page-head">
   <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · Deities</p>
   <h1>Temples by Deity</h1>
-  <p class="lede">Find Shiva, Vishnu, Krishna, Devi, Ganesha, Rama, Hanuman, and Ayyappa temples in one place. A shrine may appear under more than one path when the complex is shared.</p>
+  <p class="lede">Browse temples by Devi–Devata — Shiva, Vishnu, Krishna, Devi, Murugan, Kali, Venkateswara, and more. A shrine may appear under more than one path when the complex is shared.</p>
 </section>
 <section class="section">
   <div class="circuit-grid">{''.join(tiles)}</div>
@@ -1194,7 +1232,7 @@ def build_deities_index(temples: list) -> str:
 """
     return head(
         "Temples by Deity — TirthaYatra",
-        "Browse Indian and related temples grouped by deity — Shiva, Vishnu, Krishna, Devi, and more.",
+        "Browse Indian and related temples grouped by deity — Shiva, Vishnu, Krishna, Devi, Murugan, Kali, and more.",
         prefix,
     ) + body
 
