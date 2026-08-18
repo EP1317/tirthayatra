@@ -70,5 +70,117 @@
     "sanskrit": "ॐ साईं राम",
     "blurb": "Shirdi Sai Baba devotion — faith (shraddha) and patience (saburi).",
     "lede": "Temples and aarti dedicated to Sai Baba of Shirdi."
+  },
+  "murugan": {
+    "slug": "murugan",
+    "name": "Murugan / Kartikeya",
+    "nameHi": "मुरुगन / कार्तिकेय",
+    "sanskrit": "ॐ सरवण भव",
+    "blurb": "Palani, Thiruchendur, Swamimalai, Marudhamalai, and Tamil–Kannada hill Murugan kshetras.",
+    "lede": "Temples of Lord Murugan (Skanda, Subramanya, Kartikeya) — vel, peacock vahana, and six-faced wisdom."
+  },
+  "surya": {
+    "slug": "surya",
+    "name": "Surya",
+    "nameHi": "सूर्य देव",
+    "sanskrit": "ॐ घृणि: सूर्य आदित्य",
+    "blurb": "Konark, Deo, Modhera, and living solar shrines tied to Chhath and dawn arghya.",
+    "lede": "Sun temples and Surya-narayana seats where dawn worship marks time and health."
+  },
+  "shani": {
+    "slug": "shani",
+    "name": "Shani",
+    "nameHi": "शनि देव",
+    "sanskrit": "ॐ शं शनैश्चराय नमः",
+    "blurb": "Shani Shingnapur, Shani temples, and Saturday graha-shanti pilgrimage.",
+    "lede": "Shrines of Shani Dev — justice, patience, and Saturday oil-lamp devotion."
+  },
+  "dattatreya": {
+    "slug": "dattatreya",
+    "name": "Dattatreya",
+    "nameHi": "दत्तात्रेय",
+    "sanskrit": "ॐ दिगंबरा दिगंबरा",
+    "blurb": "Ganagapur, Narsobawadi, and avadhuta–guru seats of the trimurti ascetic.",
+    "lede": "Temples remembering Dattatreya as the wandering guru of Brahma, Vishnu, and Shiva."
+  },
+  "narasimha": {
+    "slug": "narasimha",
+    "name": "Narasimha",
+    "nameHi": "नरसिंह",
+    "sanskrit": "ॐ उग्रं वीरं महाविष्णुं",
+    "blurb": "Ahobilam, Simhachalam, Yadagirigutta, and man-lion avatara kshetras.",
+    "lede": "Narasimha temples where Vishnu appeared as the man-lion at twilight."
+  },
+  "vitthal": {
+    "slug": "vitthal",
+    "name": "Vitthal / Vithoba",
+    "nameHi": "विठ्ठल / विठोबा",
+    "sanskrit": "पांडुरंग पांडुरंग",
+    "blurb": "Pandharpur Wari, Dehu, and Maharashtra–Karnataka Varkari Vitthal seats.",
+    "lede": "Vitthal temples of the Varkari path — standing Krishna with hands on hips."
+  },
+  "bhairav": {
+    "slug": "bhairav",
+    "name": "Bhairav",
+    "nameHi": "भैरव",
+    "sanskrit": "ॐ भैरवाय नमः",
+    "blurb": "Kal Bhairav of Ujjain, Kashi, and fierce Shiva guardian shrines.",
+    "lede": "Bhairav temples — Shiva’s terrifying form guarding tirthas and cremation grounds."
+  },
+  "lakshmi": {
+    "slug": "lakshmi",
+    "name": "Lakshmi",
+    "nameHi": "लक्ष्मी जी",
+    "sanskrit": "ॐ श्रीं महालक्ष्म्यै नमः",
+    "blurb": "Kolhapur Mahalaxmi, Ashtalakshmi, and prosperity Goddess pilgrimage.",
+    "lede": "Temples where Lakshmi is the primary or co-primary deity of darshan."
+  },
+  "saraswati": {
+    "slug": "saraswati",
+    "name": "Saraswati",
+    "nameHi": "सरस्वती जी",
+    "sanskrit": "ॐ ऐं सरस्वत्यै नमः",
+    "blurb": "Basar, Pushkar Saraswati, and learning-Goddess aksharabhyasam seats.",
+    "lede": "Saraswati temples for education vows, Vasant Panchami, and first letters."
+  },
+  "kali": {
+    "slug": "kali",
+    "name": "Kali",
+    "nameHi": "काली माँ",
+    "sanskrit": "ॐ क्रीं कालिकायै नमः",
+    "blurb": "Kalighat, Dakshineswar, Kamakhya-adjacent Kali devotion, and Bengal Shakta seats.",
+    "lede": "Kali temples of the dark Goddess — tongue, sword, and fierce compassion."
+  },
+  "jagannath": {
+    "slug": "jagannath",
+    "name": "Jagannath",
+    "nameHi": "जगन्नाथ",
+    "sanskrit": "जय जगन्नाथ",
+    "blurb": "Puri Rath Yatra, Ranchi, Agartala, and Odia–Bengali Jagannath culture.",
+    "lede": "Jagannath temples with wooden deities, mahaprasad, and annual chariot festivals."
+  },
+  "venkateswara": {
+    "slug": "venkateswara",
+    "name": "Venkateswara / Balaji",
+    "nameHi": "वेंकटेश्वर / बालाजी",
+    "sanskrit": "ॐ वेंकटेशाय नमः",
+    "blurb": "Tirumala, Chilkur, and Balaji pilgrimage across South and diaspora search.",
+    "lede": "Venkateswara temples — hill darshan, hundi vows, and Balaji grace."
+  },
+  "annapurna": {
+    "slug": "annapurna",
+    "name": "Annapurna",
+    "nameHi": "अन्नपूर्णा",
+    "sanskrit": "ॐ अन्नपूर्णायै नमः",
+    "blurb": "Kashi Annapurna, Horanadu, Indore, and food-Goddess annadanam seats.",
+    "lede": "Annapurna temples where the Goddess feeds the world and devotees."
+  },
+  "santoshi": {
+    "slug": "santoshi",
+    "name": "Santoshi Mata",
+    "nameHi": "संतोषी माता",
+    "sanskrit": "जय संतोषी माता",
+    "blurb": "Friday vrata culture and modern Mother-Goddess temples across North India.",
+    "lede": "Santoshi Mata shrines — contentment, Friday fast, and household vows."
   }
 }

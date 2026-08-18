@@ -17,7 +17,7 @@
   ],
   "summary": "One of the twelve Jyotirlingas, set in the Garhwal Himalaya — among the most revered and demanding pilgrimages in North India.",
   "famousFor": "Himalayan Jyotirlinga & monsoon-season yatra",
-  "mythology": "Kedarnath is counted among the twelve Jyotirlingas — foremost seats where Shiva is worshipped as a pillar of light (jyoti). In the Mahabharata–linked Garhwal tradition, the Pandavas sought Shiva after the Kurukshetra war. Shiva, avoiding them in the form of a bull, submerged into the earth; the hump remaining at Kedarnath became the object of worship. The Skanda Purana and later Himalayan mahatmya literature celebrate this landscape as part of Shiva’s Himalayan presence.",
+  "mythology": "Kedarnath is counted among the twelve Jyotirlingas — foremost seats where Shiva is worshipped as a pillar of light (jyoti). In the Mahabharata–linked Garhwal tradition, the Pandavas sought Shiva after the Kurukshetra war. Shiva, avoiding them in the form of a bull, submerged into the earth; the hump remaining at Kedarnath became the object of worship. The Skanda Purana and later Himalayan mahatmya literature celebrate this landscape as part of Shiva’s Himalayan presence. Kedarnath is part of the Uttarakhand Chota Char Dham and Panch Kedar, and is a Jyotirlinga — it is not one of Adi Shankaracharya’s four Char Dham seats (those are Badrinath, Dwarka, Puri, Rameswaram).",
   "scriptureLinks": [
     "Mahabharata (Pandava–Shiva tradition)",
     "Shiva Purana / Jyotirlinga lists",
@@ -93,6 +93,7 @@
     "source": "Universal Shaiva mantra; often on the lips of Kedarnath yatris"
   },
   "deityFamilies": [
-    "shiva"
+    "shiva",
+    "murugan"
   ]
 }
