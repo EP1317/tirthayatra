@@ -132,7 +132,21 @@
       "chamunda-jodhpur",
       "padmavathi-tiruchanur",
       "thiruparankundram-murugan",
-      "jyotiba-kolhapur"
+      "jyotiba-kolhapur",
+      "alakhnath-bareilly",
+      "siddheshwar-solapur",
+      "jalakandeswarar-vellore",
+      "sripuram-golden-temple",
+      "hasanamba-hassan",
+      "chottanikkara-devi",
+      "samaleswari-sambalpur",
+      "narasimha-jharni-bidar",
+      "cuttack-chandi",
+      "takhteshwar-bhavnagar",
+      "rockfort-uchhi-pillayar",
+      "augharnath-meerut",
+      "bala-hanuman-jamnagar",
+      "vadakkumnathan-thrissur"
     ]
   },
   "labels": {
@@ -291,6 +305,20 @@
     "chamunda-jodhpur": "मेहरानगढ़ की चामुंडा",
     "padmavathi-tiruchanur": "पadmavathi — कमल-वधू",
     "thiruparankundram-murugan": "चट्टान पर्वत पर मुरुगन विवाह",
-    "jyotiba-kolhapur": "पurnima की जyotiba मशaal"
+    "jyotiba-kolhapur": "पurnima की जyotiba मशaal",
+    "alakhnath-bareilly": "अलकhnath और बरेली के नाथ योगी",
+    "siddheshwar-solapur": "सिद्धेश्वर और tank जो नगर धारण करता है",
+    "jalakandeswarar-vellore": "जalakandeswarar — pani-nayan wale qile mein",
+    "sripuram-golden-temple": "Lakshmi Narayani tak ka star path",
+    "hasanamba-hassan": "Hasanamba — woh Devi jo ek baar khulti hai",
+    "chottanikkara-devi": "Chottanikkara — Devi jo bhakton ke saath chalti hai",
+    "samaleswari-sambalpur": "Samaleswari aur Paschim Odisha ki bhukh",
+    "narasimha-jharni-bidar": "Narasimha — pani mein chal kar gufa tak",
+    "cuttack-chandi": "Mahanadi par Cuttack Chandi",
+    "takhteshwar-bhavnagar": "Khambhat ki khora par Takhteshwar",
+    "rockfort-uchhi-pillayar": "Trichy ke upar chattan par Ganesha",
+    "augharnath-meerut": "Augarnath aur cantonment ka Shiva",
+    "bala-hanuman-jamnagar": "Jamnagar ki akhand Ram dhun",
+    "vadakkumnathan-thrissur": "Vadakkumnathan aur Pooram ka aasman"
   }
 }

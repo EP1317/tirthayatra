@@ -1,0 +1,66 @@
+{
+  "slug": "devi-temple-panipat",
+  "name": "Devi Temple, Panipat",
+  "deity": "Goddess Devi",
+  "location": "Panipat, Haryana",
+  "state": "Haryana",
+  "country": "India",
+  "glyph": "द",
+  "tags": [],
+  "tagLabels": [],
+  "summary": "Devi Mandir — Shakta shrine complementing Panipat’s historic battlefield town.",
+  "famousFor": "Panipat Devi · Navaratri search",
+  "mythology": "Navaratri and Mundan vows for Haryana families.",
+  "scriptureLinks": [
+    "Puranic / sthala tradition"
+  ],
+  "festivals": [
+    "Major local festival days",
+    "Navaratri / Shiva-related observances as applicable"
+  ],
+  "bestTime": "October–March for most plains sites; confirm Himalayan seasonal windows separately.",
+  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Varies by region — check seasonal weather before travel.",
+  "nearestRail": "Panipat Junction",
+  "nearestAirport": "Delhi",
+  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
+  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
+  "otherFood": "Wider options usually in the nearest city.",
+  "localLanguage": "Regional language and Hindi; English varies.",
+  "dressCode": "Modest clothing; follow temple boards for traditional dress rules.",
+  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "specialEntry": "Special entry, if any, only via official temple counters.",
+  "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
+  "lockers": "Cloakrooms where available near the entrance.",
+  "officialWebsite": "https://haryanatourism.gov.in/",
+  "videoUrl": "https://www.youtube.com/results?search_query=Devi+Temple,+Panipat+temple",
+  "videoNote": "Orientation videos only — verify timings on official sources.",
+  "lat": 29.385,
+  "lng": 76.965,
+  "mapQuery": "Devi Temple Panipat",
+  "nearby": [],
+  "packages": [
+    "Devi Temple, Panipat day darshan",
+    "Regional multi-temple circuit"
+  ],
+  "sources": [
+    "Haryana Tourism: https://haryanatourism.gov.in/",
+    "Temple trust / local administration notices",
+    "State tourism materials",
+    "Puranic / pilgrimage tradition (lists can vary by scripture)"
+  ],
+  "lastUpdated": "2026-08-19",
+  "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
+  "tier": "regional",
+  "deityFamilies": [
+    "devi"
+  ],
+  "mythologySignificance": "Navaratri and Mundan vows for Haryana families.\n\nPilgrimage literature treats this shrine as a living tirtha — verify custom with temple priests.",
+  "localBeliefs": "Queue discipline, prasadam sharing, and festival vows shape belief as practice.",
+  "mythologyDisclaimer": "Mythological accounts are drawn from Puranic traditions and sthala-purana. Versions differ by region.",
+  "statePortal": {
+    "name": "Haryana Tourism",
+    "url": "https://haryanatourism.gov.in/",
+    "slug": "haryana"
+  }
+}
