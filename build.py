@@ -285,10 +285,10 @@ def search_widget(prefix: str = "") -> str:
         <circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/>
         <path d="M16.2 16.2L21 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
       </svg>
-      <span class="visually-hidden">Search temples</span>
+      <span class="visually-hidden">Search TirthaYatra</span>
     </label>
     <input id="temple-search-input" class="temple-search-input" type="search"
-      placeholder="Search temples, deities, states…" autocomplete="off" spellcheck="false"
+      placeholder="Search temples, stories, deities, festivals…" autocomplete="off" spellcheck="false"
       data-search-input aria-autocomplete="list" aria-controls="temple-search-results" />
   </div>
   <div id="temple-search-results" class="temple-search-results" data-search-results role="listbox" hidden></div>
@@ -2538,25 +2538,27 @@ def main() -> None:
         detail.setdefault("country", meta.get("country", "India"))
         detailed.append(detail)
 
-    # Lightweight search index for client-side temple + devotion search
-    search_index = [
-        {
-            "slug": t["slug"],
-            "name": t["name"],
-            "location": t.get("location", ""),
-            "state": t.get("state", ""),
-            "country": t.get("country", "India"),
-            "famousFor": t.get("famousFor", ""),
-            "tags": t.get("tagLabels", []),
-            "deities": [
-                DEITIES[f]["name"]
-                for f in t.get("deityFamilies", [])
-                if f in DEITIES
-            ],
-            "href": f"temples/{t['slug']}.html",
-        }
-        for t in index
-    ]
+    # Site-wide search index: temples, devotion, stories, festivals, deities, states, circuits
+    search_index: list[dict] = []
+    for t in index:
+        search_index.append(
+            {
+                "slug": t["slug"],
+                "name": t["name"],
+                "location": t.get("location", ""),
+                "state": t.get("state", ""),
+                "country": t.get("country", "India"),
+                "famousFor": t.get("famousFor", ""),
+                "tags": list(t.get("tagLabels") or []) + ["Temple"],
+                "deities": [
+                    DEITIES[f]["name"]
+                    for f in t.get("deityFamilies", [])
+                    if f in DEITIES
+                ],
+                "href": f"temples/{t['slug']}.html",
+                "kind": "temple",
+            }
+        )
     for item in devotion_items():
         deity = DEITIES.get(item.get("deity", {}), {})
         dtype = DEVOTION.get("types", {}).get(item.get("type", ""), {})
@@ -2568,9 +2570,95 @@ def main() -> None:
                 "state": "",
                 "country": "India",
                 "famousFor": item.get("summary", ""),
-                "tags": [dtype.get("name", ""), deity.get("name", "")],
+                "tags": [dtype.get("name", "") or "Devotion", deity.get("name", ""), "Devotion"],
                 "deities": [deity.get("name", "")] if deity else [],
                 "href": f"devotion/{item['slug']}.html",
+                "kind": "devotion",
+            }
+        )
+    for story in STORIES.get("stories") or []:
+        deity = DEITIES.get(story.get("deity", ""), {})
+        title = f"{story.get('title', '')} {story.get('titleHi', '')}".strip()
+        search_index.append(
+            {
+                "slug": story["slug"],
+                "name": title,
+                "location": "",
+                "state": "",
+                "country": "India",
+                "famousFor": story.get("hook") or story.get("hookHi") or "",
+                "tags": ["Story"] + list(story.get("tags") or [])[:3],
+                "deities": [deity.get("name", "")] if deity else [],
+                "href": f"stories/{story['slug']}.html",
+                "kind": "story",
+            }
+        )
+    for fest in FESTIVAL_GUIDE.get("festivals") or []:
+        deity = DEITIES.get(fest.get("deity", ""), {})
+        search_index.append(
+            {
+                "slug": fest["slug"],
+                "name": f"{fest.get('name', '')} {fest.get('nameHi', '')}".strip(),
+                "location": "",
+                "state": "",
+                "country": "India",
+                "famousFor": fest.get("summary") or fest.get("lede") or "",
+                "tags": ["Festival"],
+                "deities": [deity.get("name", "")] if deity else [],
+                "href": f"festivals/{fest['slug']}.html",
+                "kind": "festival",
+            }
+        )
+    for fam, meta in DEITIES.items():
+        search_index.append(
+            {
+                "slug": fam,
+                "name": f"{meta.get('nameHi', '')} {meta.get('name', '')}".strip(),
+                "location": "",
+                "state": "",
+                "country": "India",
+                "famousFor": meta.get("blurb") or meta.get("lede") or "",
+                "tags": ["Deity", "Devi-Devata"],
+                "deities": [meta.get("name", "")],
+                "href": f"deities/{fam}.html",
+                "kind": "deity",
+            }
+        )
+    india_states_for_search = sorted(
+        {
+            t["state"]
+            for t in index
+            if t.get("country", "India") == "India" and t.get("state")
+        }
+    )
+    for state in india_states_for_search:
+        search_index.append(
+            {
+                "slug": state_slug(state),
+                "name": state,
+                "location": state,
+                "state": state,
+                "country": "India",
+                "famousFor": f"Temples and tirthas in {state}",
+                "tags": ["State"],
+                "deities": [],
+                "href": f"states/{state_slug(state)}.html",
+                "kind": "state",
+            }
+        )
+    for c in circuits:
+        search_index.append(
+            {
+                "slug": c["slug"],
+                "name": c.get("name") or c["slug"],
+                "location": "",
+                "state": "",
+                "country": "India",
+                "famousFor": c.get("blurb") or c.get("summary") or "Sacred circuit",
+                "tags": ["Circuit", "Tirtha Chakra"],
+                "deities": [],
+                "href": f"circuits/{c['slug']}.html",
+                "kind": "circuit",
             }
         )
     (DATA / "search-index.json").write_text(

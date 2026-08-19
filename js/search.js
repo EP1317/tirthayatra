@@ -51,18 +51,22 @@
     var tags = normalize((item.tags || []).join(" "));
     var deities = normalize((item.deities || []).join(" "));
     var slug = normalize(item.slug);
+    var kind = normalize(item.kind);
+    var blob = [name, loc, state, famous, tags, deities, slug, kind].join(" ");
     if (name === q) return 100;
     if (name.indexOf(q) === 0) return 90;
-    if (name.indexOf(q) !== -1) return 80;
+    if (name.indexOf(q) !== -1) return 85;
+    if (famous.indexOf(q) !== -1) return 75;
     if (slug.indexOf(q) !== -1) return 70;
     if (state.indexOf(q) !== -1 || loc.indexOf(q) !== -1) return 60;
     if (deities.indexOf(q) !== -1) return 50;
-    if (famous.indexOf(q) !== -1 || tags.indexOf(q) !== -1 || country.indexOf(q) !== -1)
+    if (tags.indexOf(q) !== -1 || country.indexOf(q) !== -1 || kind.indexOf(q) !== -1)
       return 40;
-    var parts = q.split(/\s+/).filter(Boolean);
+    var parts = q.split(/\s+/).filter(function (p) { return p.length > 1; });
     if (parts.length > 1) {
-      var blob = [name, loc, state, famous, tags, deities, slug].join(" ");
-      if (parts.every(function (p) { return blob.indexOf(p) !== -1; })) return 55;
+      var hit = parts.filter(function (p) { return blob.indexOf(p) !== -1; }).length;
+      if (hit === parts.length) return 70;
+      if (hit >= Math.ceil(parts.length * 0.6)) return 45;
     }
     return 0;
   }
@@ -105,21 +109,32 @@
     if (!items.length) {
       box.hidden = false;
       box.innerHTML =
-        '<p class="temple-search-empty">No temples match “' +
+        '<p class="temple-search-empty">No matches for “' +
         escapeHtml(q) +
-        '”. Try a city, state, or deity name.</p>';
+        '”. Try a temple, story title, deity, festival, city, or state.</p>';
       return;
     }
     var prefix = prefixOf(widget);
+    var kindLabel = {
+      temple: "Temple",
+      story: "Story",
+      devotion: "Devotion",
+      festival: "Festival",
+      deity: "Deity",
+      state: "State",
+      circuit: "Circuit",
+    };
     box.hidden = false;
     box.innerHTML = items
       .map(function (item) {
         var href = safeRelativeHref(prefix, item.href);
         if (!href) return "";
-        var meta = [item.state || item.country, item.famousFor]
+        var kind = kindLabel[item.kind] || "";
+        var meta = [kind, item.state || item.country, item.famousFor]
           .filter(Boolean)
           .join(" · ");
         var tags = (item.tags || [])
+          .filter(Boolean)
           .slice(0, 2)
           .map(function (t) {
             return '<span class="tag">' + escapeHtml(t) + "</span>";
@@ -166,7 +181,7 @@
           .sort(function (a, b) {
             return b.score - a.score || a.item.name.localeCompare(b.item.name);
           })
-          .slice(0, 8)
+          .slice(0, 12)
           .map(function (x) {
             return x.item;
           });
