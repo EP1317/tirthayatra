@@ -1,5 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="TirthaYatra">
-  <rect width="64" height="64" rx="12" fill="#2a160e"/>
-  <path d="M32 10 L38 26 H54 L41 36 L46 52 L32 42 L18 52 L23 36 L10 26 H26 Z" fill="#e2c36a"/>
-  <circle cx="32" cy="30" r="6" fill="#fff8f0"/>
+  <defs>
+    <radialGradient id="g" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#3d2216"/>
+      <stop offset="100%" stop-color="#1a0e08"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0d78a"/>
+      <stop offset="55%" stop-color="#e2c36a"/>
+      <stop offset="100%" stop-color="#b8923a"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0.5" y1="1" x2="0.5" y2="0">
+      <stop offset="0%" stop-color="#c2341a"/>
+      <stop offset="55%" stop-color="#d4920a"/>
+      <stop offset="100%" stop-color="#fff1c2"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <!-- soft lotus ring -->
+  <circle cx="32" cy="34" r="22" fill="none" stroke="url(#gold)" stroke-width="1.4" opacity="0.55"/>
+  <path d="M32 14c3.2 4.2 4.8 7.4 4.8 10.2 0 2.8-2.1 5-4.8 5s-4.8-2.2-4.8-5c0-2.8 1.6-6 4.8-10.2z" fill="url(#gold)" opacity="0.35"/>
+  <path d="M18 28c5.2-1.2 8.8-0.2 11 2.2 2 2.2 2.2 5.2 0.6 7.2-1.8 2.2-5.2 2.6-8.8 0.6-3.2-1.8-5.4-5-2.8-10z" fill="url(#gold)" opacity="0.28"/>
+  <path d="M46 28c-5.2-1.2-8.8-0.2-11 2.2-2 2.2-2.2 5.2-0.6 7.2 1.8 2.2 5.2 2.6 8.8 0.6 3.2-1.8 5.4-5 2.8-10z" fill="url(#gold)" opacity="0.28"/>
+  <!-- Om -->
+  <text x="32" y="40" text-anchor="middle" font-size="28" font-family="Georgia, 'Noto Sans Devanagari', serif" fill="url(#gold)" font-weight="700">ॐ</text>
+  <!-- diya flame tip -->
+  <path d="M32 8c2.2 2.8 2.6 5.2 1.2 6.8-1.2 1.4-3.2 1.2-4 0-1-1.4-0.2-4 2.8-6.8z" fill="url(#flame)"/>
 </svg>

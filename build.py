@@ -339,7 +339,10 @@ def nav(active: str = "", prefix: str = "", *, show_panchang: bool = False) -> s
     return f"""
 <header class="site-nav">
   <div class="nav-left">
-    <a class="nav-brand" href="{prefix}index.html">TirthaYatra <span>तीर्थयात्रा</span></a>
+    <a class="nav-brand" href="{prefix}index.html">
+      <img class="nav-brand-mark" src="{prefix}assets/icons/logo.svg" width="36" height="36" alt="" />
+      <span class="nav-brand-text">TirthaYatra <span>तीर्थयात्रा</span></span>
+    </a>
     {search_widget(prefix)}
   </div>
   <div class="nav-right">
@@ -482,6 +485,9 @@ def head(
   <meta http-equiv="Pragma" content="no-cache" />
   {canon}
   <link rel="icon" href="{prefix}assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="{prefix}assets/icons/favicon-48.png" type="image/png" sizes="48x48" />
+  <link rel="icon" href="{prefix}assets/icons/favicon-192.png" type="image/png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="{prefix}assets/icons/apple-touch-icon.png" sizes="180x180" />
   <link rel="stylesheet" href="{prefix}css/main.css?v={ASSET_VER}" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6215389980830107"
      crossorigin="anonymous"></script>
@@ -1052,7 +1058,14 @@ def build_home(circuits: list, temples: list) -> str:
                 "url": f"{SITE_URL}/",
                 "email": "TirthaYatraOnline@gmail.com",
                 "description": "Independent informational site for home devotion and temple learning across India and related sacred geographies.",
-                "logo": f"{SITE_URL}/assets/icons/favicon.svg",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": f"{SITE_URL}/assets/icons/logo-512.png",
+                    "width": 512,
+                    "height": 512,
+                },
+                "image": f"{SITE_URL}/assets/icons/brand-og.png",
+                "sameAs": [],
             },
             {
                 "@type": "WebSite",
@@ -1069,6 +1082,7 @@ def build_home(circuits: list, temples: list) -> str:
         "Mythology, photos, maps, and practical darshan guides for temples in India, Nepal, Sri Lanka, and Kailash.",
         prefix,
         canonical_path="index.html",
+        og_image=f"{SITE_URL}/assets/icons/brand-og.png",
         json_ld=home_ld,
     ) + body
 

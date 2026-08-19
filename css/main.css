@@ -261,12 +261,27 @@ a:hover { color: var(--vermillion); }
   text-decoration: none;
   letter-spacing: 0.02em;
   display: flex;
-  align-items: baseline;
-  gap: 0.35rem;
+  align-items: center;
+  gap: 0.55rem;
   white-space: nowrap;
 }
 
-.nav-brand span {
+.nav-brand-mark {
+  width: 2.05rem;
+  height: 2.05rem;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(226, 195, 106, 0.35), 0 0 18px var(--glow-diya);
+  background: var(--dusk);
+}
+
+.nav-brand-text {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+}
+
+.nav-brand-text > span {
   font-family: var(--font-sanskrit);
   font-size: 0.85rem;
   color: var(--sand);
@@ -1788,7 +1803,8 @@ a:hover { color: var(--vermillion); }
   }
   .nav-left .temple-search { width: clamp(9.5rem, 20vw, 14rem); }
   .nav-brand { font-size: 1.2rem; }
-  .nav-brand span { font-size: 0.75rem; }
+  .nav-brand-text > span { font-size: 0.75rem; }
+  .nav-brand-mark { width: 1.85rem; height: 1.85rem; }
   .nav-links { gap: 0.5rem; }
   .nav-links a { font-size: 0.8rem; }
   .temple-search-input {
