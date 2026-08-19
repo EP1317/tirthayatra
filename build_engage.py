@@ -10,10 +10,22 @@ from typing import Callable
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
+SITE_URL = "https://www.tirthayatraonline.in"
 
 
 def e(text) -> str:
     return html.escape("" if text is None else str(text), quote=True)
+
+
+def absolute_share_url(url: str) -> str:
+    """WhatsApp/share must use an absolute URL (relative paths double-nest on nested pages)."""
+    raw = (url or "").strip()
+    if raw.startswith("http://") or raw.startswith("https://"):
+        return raw
+    path = raw.lstrip("/")
+    if not path or path == "index.html":
+        return f"{SITE_URL}/"
+    return f"{SITE_URL}/{path}"
 
 
 def load_json(path: Path):
@@ -109,8 +121,9 @@ def share_bar(
         "festival": "त्योहार",
         "page": "पेज",
     }.get(kind, "पेज")
+    abs_url = absolute_share_url(url)
     return f"""
-<div class="share-bar" data-share data-share-title="{e(title)}" data-share-text="{e(text)}" data-share-url="{e(url)}">
+<div class="share-bar" data-share data-share-title="{e(title)}" data-share-text="{e(text)}" data-share-url="{e(abs_url)}">
   <p class="share-bar-label">Share this {e(kind_hi)} · परिवार संग बाँटें</p>
   <div class="share-bar-actions">
     <button type="button" class="btn btn-primary" data-share-action="whatsapp">WhatsApp</button>

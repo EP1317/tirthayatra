@@ -9,11 +9,26 @@
   function payload(root) {
     var title = root.getAttribute("data-share-title") || document.title;
     var text = root.getAttribute("data-share-text") || "";
-    var url = root.getAttribute("data-share-url") || window.location.href;
-    try {
-      url = new URL(url, window.location.href).href;
-    } catch (e) {}
+    var url = resolveShareUrl(root.getAttribute("data-share-url"));
     return { title: title, text: text, url: url };
+  }
+
+  function resolveShareUrl(raw) {
+    var canon = document.querySelector('link[rel="canonical"]');
+    if (canon && canon.getAttribute("href")) {
+      try {
+        return new URL(canon.getAttribute("href"), window.location.origin).href;
+      } catch (e) {}
+    }
+    if (!raw) return window.location.href;
+    var s = String(raw).trim();
+    try {
+      if (/^https?:\/\//i.test(s)) return s;
+      // Resolve from site root so nested pages don't become /stories/stories/...
+      return new URL("/" + s.replace(/^\/+/, ""), window.location.origin).href;
+    } catch (e) {
+      return window.location.href;
+    }
   }
 
   function toast(root, msg) {
