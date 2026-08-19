@@ -484,10 +484,12 @@ def head(
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   {canon}
-  <link rel="icon" href="{prefix}assets/icons/favicon.svg" type="image/svg+xml" />
-  <link rel="icon" href="{prefix}assets/icons/favicon-48.png" type="image/png" sizes="48x48" />
-  <link rel="icon" href="{prefix}assets/icons/favicon-192.png" type="image/png" sizes="192x192" />
-  <link rel="apple-touch-icon" href="{prefix}assets/icons/apple-touch-icon.png" sizes="180x180" />
+  <link rel="icon" href="{SITE_URL}/favicon.ico" sizes="any" />
+  <link rel="icon" href="{SITE_URL}/favicon-48x48.png" type="image/png" sizes="48x48" />
+  <link rel="icon" href="{SITE_URL}/favicon.png" type="image/png" sizes="192x192" />
+  <link rel="icon" href="{SITE_URL}/assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="{SITE_URL}/assets/icons/apple-touch-icon.png" sizes="180x180" />
+  <link rel="shortcut icon" href="{SITE_URL}/favicon.ico" />
   <link rel="stylesheet" href="{prefix}css/main.css?v={ASSET_VER}" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6215389980830107"
      crossorigin="anonymous"></script>
@@ -2427,6 +2429,10 @@ def write_sitemap(
     robots_lines = [
         "User-agent: *",
         "Allow: /",
+        "Allow: /favicon.ico",
+        "Allow: /favicon.png",
+        "Allow: /favicon-48x48.png",
+        "Allow: /assets/icons/",
         "",
         f"Sitemap: {SITE_URL}/sitemap.xml",
         f"Sitemap: {SITE_URL}/sitemap-all.xml",

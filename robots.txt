@@ -1,5 +1,9 @@
 User-agent: *
 Allow: /
+Allow: /favicon.ico
+Allow: /favicon.png
+Allow: /favicon-48x48.png
+Allow: /assets/icons/
 
 Sitemap: https://www.tirthayatraonline.in/sitemap.xml
 Sitemap: https://www.tirthayatraonline.in/sitemap-all.xml
