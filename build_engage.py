@@ -315,9 +315,20 @@ def build_story_detail(
     nav: Callable,
     footer: Callable,
     head: Callable,
+    temples: list | None = None,
 ) -> str:
+    from schema_seo import (
+        article_ld,
+        clip_text,
+        faq_page_ld,
+        faq_section_html,
+        json_ld_graph,
+        sitemap_abs,
+    )
+
     prefix = "../"
     sec = stories_data.get("section") or {}
+    temple_by_slug = {t["slug"]: t for t in (temples or [])}
     rel_dev = "".join(
         f'<a class="tag" href="{prefix}devotion/{e(s)}.html">{e(s.replace("-", " "))}</a>'
         for s in story.get("relatedDevotion") or []
@@ -326,14 +337,33 @@ def build_story_detail(
         f'<a class="tag" href="{prefix}festivals/{e(s)}.html">{e(s.replace("-", " "))}</a>'
         for s in story.get("relatedFestivals") or []
     )
-    rel_tmp = "".join(
-        f'<a class="tag" href="{prefix}temples/{e(s)}.html">{e(s.replace("-", " "))}</a>'
-        for s in story.get("relatedTemples") or []
+    rel_tmp_parts = []
+    for s in story.get("relatedTemples") or []:
+        t = temple_by_slug.get(s)
+        if not t:
+            continue
+        label = t.get("name") or s.replace("-", " ")
+        rel_tmp_parts.append(
+            f'<a class="tag" href="{prefix}temples/{e(s)}.html">{e(label)}</a>'
+        )
+    rel_tmp = "".join(rel_tmp_parts)
+    deity_keys = set(load_json(DATA / "deities.json").keys()) if (DATA / "deities.json").exists() else set()
+    deity_key = story.get("deity") or ""
+    deity_link = ""
+    if deity_key in deity_keys:
+        deity_link = (
+            f'<a class="tag" href="{prefix}deities/{e(deity_key)}.html">'
+            f'{e(deity_key.replace("-", " ").title())} hub</a>'
+        )
+    continue_links = f"{rel_dev}{rel_fest}{rel_tmp}{deity_link}"
+    continue_block = (
+        f'<h2 class="section-title">Continue · आगे पढ़ें</h2>'
+        f'<p class="devotion-related">{continue_links}</p>'
+        if continue_links
+        else ""
     )
     href = f"{prefix}stories/{story['slug']}.html"
     abs_path = f"stories/{story['slug']}.html"
-    # All stories ship with Hindi + English; default Hindi so EN preference is an explicit choice.
-    # (Page-level hard swap in CSS hides the other language — it is not missing from the HTML.)
     hindi_first = True
     default_lang = "hi"
     title_hi = story.get("titleHi") or story["title"]
@@ -348,6 +378,30 @@ def build_story_detail(
         else f"{story['title']} — TirthaYatra"
     )
     desc = story.get("hookHi") or story.get("hook") or story["title"]
+    page_url = sitemap_abs(abs_path)
+    faqs = [
+        (story.get("titleHi") or story["title"], clip_text(story.get("storyHi") or story.get("storyEn") or "", 320)),
+        (story.get("title") or title_hi, clip_text(story.get("storyEn") or story.get("storyHi") or "", 320)),
+        (
+            "क्यों यह रीति / Why this ritual?",
+            clip_text(story.get("whyRitualHi") or story.get("whyRitual") or "", 320),
+        ),
+        (
+            "घर के लिए takeaway?",
+            clip_text(story.get("takeaway") or "", 280),
+        ),
+    ]
+    faq_html = faq_section_html(faqs)
+    ld = json_ld_graph(
+        article_ld(
+            headline=page_title,
+            description=desc,
+            url=page_url,
+            language="hi",
+            about=[{"@type": "Thing", "name": story.get("deity") or "Hindu mythology"}],
+        ),
+        faq_page_ld(faqs),
+    )
     body = f"""
 {nav('stories', prefix)}
 <article class="section story-article" data-board-open="story" data-slug="{e(story['slug'])}">
@@ -366,8 +420,8 @@ def build_story_detail(
   {lang_p(story.get('whyRitual', ''), story.get('whyRitualHi', ''))}
   <h2 class="section-title">Takeaway for home</h2>
   <p class="lang-en">{e(story.get('takeaway', ''))}</p>
-  <h2 class="section-title">Continue</h2>
-  <p class="devotion-related">{rel_dev}{rel_fest}{rel_tmp}</p>
+  {continue_block}
+  {faq_html}
   <aside class="belief-disclaimer" style="margin-top:2rem">
     <strong>Note:</strong> {e(sec.get('disclaimer', ''))}
   </aside>
@@ -385,6 +439,8 @@ def build_story_detail(
         lang=default_lang,
         canonical_path=abs_path,
         default_lang=default_lang,
+        og_type="article",
+        json_ld=ld,
     ) + body
 
 

@@ -45,6 +45,29 @@ def load_json(path: Path):
         return json.load(f)
 
 
+from schema_seo import (
+    article_ld,
+    clip_text,
+    faq_page_ld,
+    faq_section_html,
+    json_ld_graph,
+    related_stories_html as related_stories_block,
+    sitemap_abs as sitemap_loc_early,
+)
+
+
+def stories_for_temple(temple_slug: str) -> list[dict]:
+    out = []
+    for story in STORIES.get("stories") or []:
+        if temple_slug in (story.get("relatedTemples") or []):
+            out.append(story)
+    return out
+
+
+def related_stories_html(temple_slug: str, prefix: str) -> str:
+    return related_stories_block(stories_for_temple(temple_slug), prefix)
+
+
 # Circuits where traditional yatra sequence matters more than A–Z browsing.
 PILGRIMAGE_ORDER_CIRCUITS = {
     "12-jyotirlinga",
@@ -634,6 +657,29 @@ def build_temple(t: dict, all_temples: list, circuits_by_slug: dict) -> str:
         """
 
     country = t.get("country", "India")
+    page_url = sitemap_loc_early(f"temples/{t['slug']}.html")
+    myth = clip_text(
+        t.get("mythology") or t.get("mythologySignificance") or t.get("summary") or "",
+        320,
+    )
+    faqs = [
+        (f"What is {t['name']} known for?", t.get("famousFor") or t.get("summary") or ""),
+        (
+            f"Where is {t['name']} located?",
+            f"{t.get('location', '')}, {t.get('country', 'India')}".strip(", "),
+        ),
+        (f"Who is worshipped at {t['name']}?", t.get("deity") or ""),
+        (f"What is the mythological significance of {t['name']}?", myth),
+        (
+            f"What should visitors know for darshan at {t['name']}?",
+            clip_text(
+                f"{t.get('dressCode', '')} {t.get('darshanTimings', '')} {t.get('restrictions', '')}",
+                320,
+            ),
+        ),
+    ]
+    faq_html = faq_section_html(faqs)
+    stories_block = related_stories_html(t["slug"], prefix)
     body = f"""
 {nav('temples', prefix)}
 <section class="page-hero page-hero--photo">
@@ -711,6 +757,8 @@ def build_temple(t: dict, all_temples: list, circuits_by_slug: dict) -> str:
       {list_html(t.get('packages', []))}
     </section>
 
+    {stories_block}
+
     <section class="temple-section" id="practical">
       <h2>Practical Darshan Details</h2>
       <div class="fact-grid">
@@ -724,6 +772,8 @@ def build_temple(t: dict, all_temples: list, circuits_by_slug: dict) -> str:
       {official_html}
       {state_portal_html(t, prefix)}
     </section>
+
+    {faq_html}
 
     <section class="temple-section" id="sources">
       <h2>Sources &amp; Updates</h2>
@@ -748,7 +798,9 @@ def build_temple(t: dict, all_temples: list, circuits_by_slug: dict) -> str:
         <li><a href="#location">Map</a></li>
         <li><a href="#itinerary">Travel &amp; food</a></li>
         <li><a href="#nearby">Nearby &amp; packages</a></li>
+        <li><a href="#related-stories">Related stories</a></li>
         <li><a href="#practical">Dress code &amp; timings</a></li>
+        <li><a href="#faq">Common questions</a></li>
         <li><a href="#feedback">Feedback</a></li>
       </ol>
     </nav>
@@ -762,13 +814,45 @@ def build_temple(t: dict, all_temples: list, circuits_by_slug: dict) -> str:
 </body>
 </html>
 """
+    place = {
+        "@type": ["Place", "TouristAttraction", "PlaceOfWorship"],
+        "name": t["name"],
+        "description": clip_text(t.get("summary") or t.get("famousFor") or "", 300),
+        "url": page_url,
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": t.get("location") or "",
+            "addressRegion": t.get("state") or "",
+            "addressCountry": t.get("country") or "India",
+        },
+    }
+    if t.get("lat") is not None and t.get("lng") is not None:
+        place["geo"] = {
+            "@type": "GeoCoordinates",
+            "latitude": t["lat"],
+            "longitude": t["lng"],
+        }
+    ld = json_ld_graph(
+        article_ld(
+            headline=f"{t['name']} — TirthaYatra temple guide",
+            description=t.get("summary") or t.get("famousFor") or t["name"],
+            url=page_url,
+            language="en",
+            date_modified=t.get("lastUpdated"),
+            about=[{"@type": "Thing", "name": t.get("deity") or "Hindu deity"}],
+        ),
+        place,
+        faq_page_ld(faqs),
+    )
     return head(
         f"{t['name']} — TirthaYatra",
         t["summary"],
         prefix,
         canonical_path=f"temples/{t['slug']}.html",
         og_type="article",
+        json_ld=ld,
     ) + body
+
 
 
 def build_circuit(c: dict, temples: list) -> str:
@@ -791,6 +875,27 @@ def build_circuit(c: dict, temples: list) -> str:
     else:
         title_count = f"{len(members)} guides on this open trail"
 
+    abs_path = f"circuits/{c['slug']}.html"
+    page_url = sitemap_loc_early(abs_path)
+    page_title = f"{c['name']} — TirthaYatra"
+    faqs = [
+        (f"What is the {c['name']} pilgrimage circuit?", c.get("lede") or c.get("blurb") or c["name"]),
+        (f"How many temples are listed for {c['name']}?", title_count),
+        (
+            f"What is {c['name']} known for?",
+            clip_text(c.get("blurb") or c.get("lede") or "", 320),
+        ),
+    ]
+    faq_html = faq_section_html(faqs)
+    ld = json_ld_graph(
+        article_ld(
+            headline=page_title,
+            description=c.get("lede") or c.get("blurb") or c["name"],
+            url=page_url,
+            about=[{"@type": "Thing", "name": c["name"]}],
+        ),
+        faq_page_ld(faqs),
+    )
     body = f"""
 {nav('circuits', prefix)}
 <section class="page-hero">
@@ -819,15 +924,17 @@ def build_circuit(c: dict, temples: list) -> str:
     <a class="btn btn-ghost" href="{prefix}temples/index.html">Browse all temples</a>
   </p>
 </section>
+{faq_html}
 {footer(prefix)}
 </body>
 </html>
 """
     return head(
-        f"{c['name']} — TirthaYatra",
+        page_title,
         c["lede"],
         prefix,
-        canonical_path=f"circuits/{c['slug']}.html",
+        canonical_path=abs_path,
+        json_ld=ld,
     ) + body
 
 
@@ -1605,6 +1712,38 @@ def build_devotion_item(item: dict) -> str:
         kind=item.get("type") or "page",
     )
     dev_feedback = build_engage.feedback_section_html("devotion")
+    page_url = sitemap_loc_early(abs_path)
+    faqs = [
+        (f"What is {title_en}?", item.get("summary") or title_en),
+        (f"When is {title_en} recited?", item.get("when") or "As per family tradition and festival calendar."),
+        (f"Which deity is {title_en} for?", deity.get("name") or item.get("deity") or ""),
+        (f"What is the meaning of {title_en}?", clip_text(item.get("meaning") or item.get("summary") or "", 320)),
+    ]
+    faq_html = faq_section_html(faqs)
+    # Related stories for this devotion deity
+    story_links = []
+    for s in STORIES.get("stories") or []:
+        if s.get("deity") == item.get("deity"):
+            story_links.append(
+                f'<a class="tag" href="{prefix}stories/{e(s["slug"])}.html">{e(s.get("titleHi") or s.get("title") or s["slug"])}</a>'
+            )
+        if len(story_links) >= 6:
+            break
+    stories_block = (
+        f'<p class="devotion-related"><strong>Related stories:</strong> {"".join(story_links)}</p>'
+        if story_links
+        else ""
+    )
+    ld = json_ld_graph(
+        article_ld(
+            headline=page_title,
+            description=desc,
+            url=page_url,
+            language="hi" if hindi_first else "en",
+            about=[{"@type": "Thing", "name": deity.get("name") or item.get("deity") or "Devotion"}],
+        ),
+        faq_page_ld(faqs),
+    )
     body = f"""
 {nav(nav_active, prefix)}
 <section class="page-head">
@@ -1634,6 +1773,8 @@ def build_devotion_item(item: dict) -> str:
     <h2>Meaning · अर्थ</h2>
     <p class="devotion-meaning">{e(item.get('meaning', ''))}</p>
     {temple_block}
+    {stories_block}
+    {faq_html}
     <aside class="belief-disclaimer">
       <strong>Note:</strong>
       {e(DEVOTION.get('section', {}).get('disclaimer', ''))}
@@ -1658,6 +1799,7 @@ def build_devotion_item(item: dict) -> str:
         canonical_path=abs_path,
         default_lang="hi" if hindi_first else "en",
         og_type="article",
+        json_ld=ld,
     ) + body
 
 
@@ -1672,6 +1814,27 @@ def build_deity_page(fam: str, temples: list) -> str:
         temple_row(t, f"{prefix}temples/{t['slug']}.html", prefix, "Open guide →")
         for t in members
     ]
+    abs_path = f"deities/{fam}.html"
+    page_url = sitemap_loc_early(abs_path)
+    page_title = f"{meta['name']} Temples — TirthaYatra"
+    faqs = [
+        (f"Who is {meta['name']}?", meta.get("lede") or meta.get("blurb") or meta["name"]),
+        (
+            f"How many {meta['name']} temple guides are on TirthaYatra?",
+            f"{len(members)} temple guides linked to {meta.get('nameHi') or meta['name']}.",
+        ),
+        (
+            f"Where can I find {meta['name']} aarti or chalisa?",
+            f"Open the devotion hub for {meta['name']} on TirthaYatra for aarti, chalisa, and vrat katha.",
+        ),
+        (
+            f"{meta.get('nameHi') or meta['name']} से जुड़े मंदिर कहाँ देखें?",
+            f"इस पृष्ठ पर {len(members)} मंदिर मार्गदर्शिकाएँ और संबंधित कथा / भक्ति पाठ लिंक हैं।",
+        ),
+    ]
+    faq_html = faq_section_html(faqs)
+    story_hits = [s for s in (STORIES.get("stories") or []) if s.get("deity") == fam][:8]
+    stories_block = related_stories_block(story_hits, prefix)
     dev_items = [i for i in devotion_items() if i.get("deity") == fam]
     dev_block = ""
     if dev_items:
@@ -1689,6 +1852,16 @@ def build_deity_page(fam: str, temples: list) -> str:
           <div class="temple-tags" style="justify-content:flex-start;flex-wrap:wrap;gap:0.5rem">{links}</div>
         </section>
         """
+    ld = json_ld_graph(
+        article_ld(
+            headline=page_title,
+            description=meta.get("blurb") or meta.get("lede") or meta["name"],
+            url=page_url,
+            language="hi",
+            about=[{"@type": "Thing", "name": meta["name"]}],
+        ),
+        faq_page_ld(faqs),
+    )
     body = f"""
 {nav('deities', prefix)}
 <section class="page-head">
@@ -1698,17 +1871,21 @@ def build_deity_page(fam: str, temples: list) -> str:
   <p class="lede">{e(meta['lede'])}</p>
 </section>
 {dev_block}
+{stories_block}
 <section class="section">
   <div class="temple-list">{''.join(rows)}</div>
 </section>
+{faq_html}
 {footer(prefix)}
 </body>
 </html>
 """
     return head(
-        f"{meta['name']} Temples — TirthaYatra",
+        page_title,
         meta["blurb"],
         prefix,
+        canonical_path=abs_path,
+        json_ld=ld,
     ) + body
 
 
@@ -1837,6 +2014,35 @@ def build_state_page(state: str, temples: list) -> str:
         temple_row(t, f"{prefix}temples/{t['slug']}.html", prefix, "Open guide →")
         for t in members
     ]
+    abs_path = f"states/{state_slug(state)}.html"
+    page_url = sitemap_loc_early(abs_path)
+    page_title = f"{state} Temples — TirthaYatra"
+    faqs = [
+        (f"How many temple guides does TirthaYatra list for {state}?", f"{len(members)} temple guides in {state}."),
+        (
+            f"Where can I verify official darshan information for {state} temples?",
+            portal.get("note")
+            or (
+                f"Use the official {portal.get('portalName')} portal linked on this page."
+                if portal.get("portalName")
+                else f"Check official state or temple trust portals for {state} before travel."
+            ),
+        ),
+        (
+            f"{state} में प्रमुख मंदिर कहाँ देखें?",
+            f"इस पृष्ठ पर {state} के {len(members)} मंदिर गाइड सूचीबद्ध हैं।",
+        ),
+    ]
+    faq_html = faq_section_html(faqs)
+    ld = json_ld_graph(
+        article_ld(
+            headline=page_title,
+            description=f"Temple pilgrimage guides in {state}",
+            url=page_url,
+            about=[{"@type": "AdministrativeArea", "name": state}],
+        ),
+        faq_page_ld(faqs),
+    )
     body = f"""
 {nav('states', prefix)}
 <section class="page-head">
@@ -1849,11 +2055,18 @@ def build_state_page(state: str, temples: list) -> str:
 <section class="section section-band">
   {portal_block if portal_block else '<p class="section-desc">Official portal links will appear here when available for this state.</p>'}
 </section>
+{faq_html}
 {footer(prefix)}
 </body>
 </html>
 """
-    return head(f"{state} Temples — TirthaYatra", f"Temple pilgrimage guides in {state}", prefix) + body
+    return head(
+        page_title,
+        f"Temple pilgrimage guides in {state}",
+        prefix,
+        canonical_path=abs_path,
+        json_ld=ld,
+    ) + body
 
 
 def _temple_by_slug(temples: list, slug: str) -> dict | None:
@@ -2068,6 +2281,42 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
   <h2 class="section-title">पौराणिक महत्व · Mythological significance</h2>
   {build_engage.lang_p(fest.get('mythologyEn', ''), fest.get('mythologyHi', ''))}
 """
+    desc = fest.get("summaryHi") if hindi_first else fest.get("summary")
+    desc = desc or fest.get("summary") or fest["name"]
+    page_url = sitemap_loc_early(abs_path)
+    faqs = [
+        (f"What is {fest['name']}?", fest.get("summary") or fest.get("meaningEn") or fest["name"]),
+        (f"{fest['name']} का अर्थ क्या है?", fest.get("summaryHi") or fest.get("meaningHi") or name_hi),
+        (
+            f"How is {fest['name']} celebrated?",
+            clip_text(
+                " ".join(fest.get("howCelebratedEn") or [])
+                or fest.get("meaningEn")
+                or "",
+                320,
+            ),
+        ),
+        (
+            f"Why is {fest['name']} important in Hindu tradition?",
+            clip_text(
+                fest.get("mythologyEn")
+                or fest.get("storyEn")
+                or fest.get("meaningEn")
+                or "",
+                320,
+            ),
+        ),
+    ]
+    faq_html = faq_section_html(faqs)
+    ld = json_ld_graph(
+        article_ld(
+            headline=page_title,
+            description=desc,
+            url=page_url,
+            language="hi" if hindi_first else "en",
+        ),
+        faq_page_ld(faqs),
+    )
     body = f"""
 {nav('festivals', prefix)}
 <section class="page-head">
@@ -2096,6 +2345,7 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
   <ul class="festival-regions">{regions}</ul>
   {devotion_block}
   {temple_block}
+  {faq_html}
   <aside class="belief-disclaimer" style="margin-top:2rem">
     <strong>Note:</strong> {e(FESTIVAL_GUIDE.get('section', {}).get('disclaimer', ''))}
   </aside>
@@ -2109,8 +2359,6 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
 </body>
 </html>
 """
-    desc = fest.get("summaryHi") if hindi_first else fest.get("summary")
-    desc = desc or fest.get("summary") or fest["name"]
     return head(
         page_title,
         desc,
@@ -2119,6 +2367,7 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
         canonical_path=abs_path,
         default_lang="hi" if hindi_first else "en",
         og_type="article",
+        json_ld=ld,
     ) + body
 
 
@@ -2741,7 +2990,7 @@ def main() -> None:
         for story in STORIES["stories"]:
             (OUT_STORIES / f"{story['slug']}.html").write_text(
                 build_engage.build_story_detail(
-                    story, STORIES, ASSET_VER, nav, footer, head
+                    story, STORIES, ASSET_VER, nav, footer, head, temples=index
                 ),
                 encoding="utf-8",
             )

@@ -1200,6 +1200,46 @@ a:hover { color: var(--vermillion); }
   letter-spacing: 0.02em;
 }
 
+.faq-block {
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+}
+
+.faq-item {
+  border: 1px solid rgba(92, 61, 46, 0.18);
+  border-radius: 10px;
+  background: rgba(255, 248, 240, 0.55);
+  margin-bottom: 0.65rem;
+  padding: 0.65rem 0.9rem;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--stone-deep);
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item[open] summary {
+  color: var(--sindoor);
+  margin-bottom: 0.45rem;
+}
+
+.faq-item p {
+  margin: 0;
+  color: var(--ink);
+  line-height: 1.55;
+}
+
+.related-link strong {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
 .temple-section p { margin: 0 0 1rem; }
 .temple-section ul { margin: 0 0 1rem; padding-left: 1.2rem; }
 .temple-section li { margin-bottom: 0.4rem; }
