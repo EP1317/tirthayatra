@@ -127,16 +127,16 @@
     }
   },
   "open": {
-    "beyond-india": {
-      "labelFlexible": true
-    },
-    "mahabharata-sites": {
-      "labelFlexible": true
-    },
     "ramayana-trail": {
       "labelFlexible": true
     },
+    "beyond-india": {
+      "labelFlexible": true
+    },
     "modern-temples": {
+      "labelFlexible": true
+    },
+    "mahabharata-sites": {
       "labelFlexible": true
     }
   },

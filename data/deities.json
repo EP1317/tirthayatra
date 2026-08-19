@@ -182,5 +182,21 @@
     "sanskrit": "जय संतोषी माता",
     "blurb": "Friday vrata culture and modern Mother-Goddess temples across North India.",
     "lede": "Santoshi Mata shrines — contentment, Friday fast, and household vows."
+  },
+  "brahma": {
+    "slug": "brahma",
+    "name": "Brahma",
+    "nameHi": "ब्रह्मा जी",
+    "sanskrit": "ॐ ब्रह्मणे नमः",
+    "blurb": "Rare creator-god temples — Pushkar Jagatpita Brahma Mandir is the most famous.",
+    "lede": "Temples of Lord Brahma, the creator — few in number, led by Pushkar."
+  },
+  "mangal": {
+    "slug": "mangal",
+    "name": "Mangal / Mars",
+    "nameHi": "मंगल देव",
+    "sanskrit": "ॐ अं अंगारकाय नमः",
+    "blurb": "Mangal Graha shrines — Amalner’s Mangal Dev Mandir and rare Mars worship.",
+    "lede": "Temples of Mangal Dev (Mars) for courage, discipline, and graha-shanti devotion."
   }
 }

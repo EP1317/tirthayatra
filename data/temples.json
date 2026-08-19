@@ -2892,9 +2892,11 @@
     "glyph": "ब्र",
     "tags": [],
     "tagLabels": [],
-    "deityFamilies": [],
-    "summary": "Jagatpita Brahma Mandir — among the world’s few major Brahma temples.",
-    "famousFor": "Rare Brahma shrine · Pushkar fair global search"
+    "deityFamilies": [
+      "brahma"
+    ],
+    "summary": "Jagatpita Brahma Mandir at Pushkar — the most famous of the few temples dedicated to Lord Brahma.",
+    "famousFor": "Rare Brahma shrine · often called the only major Brahma temple"
   },
   {
     "slug": "brihadeeswarar-thanjavur",
@@ -4205,6 +4207,23 @@
     ],
     "summary": "Hajo’s Hayagriva Madhava — among Assam’s most visited Vishnu temples after Kamakhya.",
     "famousFor": "Major Assam Vaishnava shrine · high regional search with Kamakhya circuit"
+  },
+  {
+    "slug": "halebidu-hoysaleswara",
+    "name": "Hoysaleswara Temple, Halebidu",
+    "deity": "Lord Shiva (Hoysaleswara)",
+    "location": "Halebidu, Hassan district, Karnataka",
+    "state": "Karnataka",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "हो",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "shiva"
+    ],
+    "summary": "Halebidu Hoysaleswara — twin-shrine Hoysala masterpiece near Hassan.",
+    "famousFor": "Hoysala soapstone Shiva · Hassan district"
   },
   {
     "slug": "iskcon-vrindavan",
@@ -7626,6 +7645,24 @@
     "famousFor": "Satyanarayana Vratham hill temple"
   },
   {
+    "slug": "savitri-temple-pushkar",
+    "name": "Savitri Temple, Pushkar",
+    "deity": "Goddess Savitri",
+    "location": "Ratnagiri Hill, Pushkar, Ajmer, Rajasthan",
+    "state": "Rajasthan",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "सा",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi",
+      "saraswati"
+    ],
+    "summary": "Hilltop Savitri Mandir overlooking Pushkar — paired with the Brahma temple legend.",
+    "famousFor": "Savitri who cursed Brahma · hill shrine above Pushkar"
+  },
+  {
     "slug": "seetha-amman-nuwara-eliya",
     "name": "Seetha Amman Temple",
     "deity": "Goddess Sita",
@@ -7701,6 +7738,24 @@
     "famousFor": "Srinagar hill Shiva · heritage + pilgrim search"
   },
   {
+    "slug": "shanta-devi-shringinari",
+    "name": "Shanta Devi Temple, Shringinari",
+    "deity": "Mata Shanta Devi (Rama’s sister)",
+    "location": "Shringinari, Harraiya, Basti, Uttar Pradesh",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "शां",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi",
+      "rama"
+    ],
+    "summary": "Shringinari — living temple of Mata Shanta, remembered in regional Ramayana as Dasharatha’s daughter and Rama’s sister.",
+    "famousFor": "Temple of Rama’s elder sister Shanta · Angadesh memory"
+  },
+  {
     "slug": "shantadurga-goa",
     "name": "Shantadurga Temple, Kavlem",
     "deity": "Goddess Shantadurga",
@@ -7716,6 +7771,24 @@
     ],
     "summary": "Shantadurga of Kavlem — a principal Goan Devi shrine near Mangueshi.",
     "famousFor": "Goa’s great peace-bringing Devi temple"
+  },
+  {
+    "slug": "shanta-rishyasringa-baga-kullu",
+    "name": "Shanta–Rishyasringa Temple, Baga",
+    "deity": "Mata Shanta & Rishyasringa",
+    "location": "Baga / Banjar valley, Kullu, Himachal Pradesh",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "tier": "regional",
+    "glyph": "शृ",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi",
+      "rama"
+    ],
+    "summary": "Kullu’s Baga valley shrine where Shanta and Rishyasringa are worshipped together.",
+    "famousFor": "Himalayan seat of Rama’s sister Shanta with Rishyasringa"
   },
   {
     "slug": "sringeri-sharada",
@@ -8170,6 +8243,23 @@
     "famousFor": "Navaratri lakhs · Koradi Devi regional mega-search"
   },
   {
+    "slug": "mangal-dev-grah-amalner",
+    "name": "Shri Mangal Dev Grah Mandir, Amalner",
+    "deity": "Mangal Dev (Mars)",
+    "location": "Chopda Road, Amalner, Jalgaon, Maharashtra",
+    "state": "Maharashtra",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "मं",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "mangal"
+    ],
+    "summary": "Amalner’s living Mangal Dev temple — among the rare Indian shrines with a Mangal (Mars) murti.",
+    "famousFor": "Rare Mangal Graha idol temple · mangal dosha shanti"
+  },
+  {
     "slug": "vaishno-devi",
     "name": "Shri Mata Vaishno Devi",
     "deity": "Goddess Vaishno Devi",
@@ -8548,6 +8638,24 @@
     ],
     "summary": "Ranganathaswamy — ancient reclining Vishnu temple of Nellore on the Penna.",
     "famousFor": "Penna river Ranganatha · Nellore premier search"
+  },
+  {
+    "slug": "shantambika-kigga",
+    "name": "Sri Shantambika Temple, Kigga",
+    "deity": "Sri Shantambika (Shanta) & Rishyasringa",
+    "location": "Kigga, near Sringeri, Karnataka",
+    "state": "Karnataka",
+    "country": "India",
+    "tier": "regional",
+    "glyph": "कि",
+    "tags": [],
+    "tagLabels": [],
+    "deityFamilies": [
+      "devi",
+      "rama"
+    ],
+    "summary": "Kigga — Western Ghats shrine of Shantambika with Rishyasringa, tied to Sringeri’s sacred geography.",
+    "famousFor": "Shanta as Shantambika near Sringeri · Rishyasringa kshetra"
   },
   {
     "slug": "dvaraka-tirumala-eluru",
@@ -9524,22 +9632,5 @@
     ],
     "summary": "Yogmaya of Mehrauli — among Delhi’s oldest Devi temples, near Qutub complex.",
     "famousFor": "Phool Walon Ki Sair · historic Delhi Devi search"
-  },
-  {
-    "slug": "halebidu-hoysaleswara",
-    "name": "Hoysaleswara Temple, Halebidu",
-    "deity": "Lord Shiva (Hoysaleswara)",
-    "location": "Halebidu, Hassan district, Karnataka",
-    "state": "Karnataka",
-    "country": "India",
-    "tier": "famous",
-    "glyph": "हो",
-    "tags": [],
-    "tagLabels": [],
-    "deityFamilies": [
-      "shiva"
-    ],
-    "summary": "Halebidu Hoysaleswara — twin-shrine Hoysala masterpiece near Hassan.",
-    "famousFor": "Hoysala soapstone Shiva · Hassan district"
   }
 ]

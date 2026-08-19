@@ -8,9 +8,9 @@
   "glyph": "ब्र",
   "tags": [],
   "tagLabels": [],
-  "summary": "Jagatpita Brahma Mandir — among the world’s few major Brahma temples.",
-  "famousFor": "Rare Brahma shrine · Pushkar fair global search",
-  "mythology": "Brahma Temple, Pushkar at Pushkar, Ajmer, Rajasthan is dedicated to Lord Brahma, known especially for Rare Brahma shrine · Pushkar fair global search. Pilgrimage tradition places the shrine within India’s tirtha network — a seat where vows, gratitude, and family kuladevi / ishta devotion gather. Local sthala-purana and priestly teaching elaborate how Lord Brahma blesses those who arrive with sincere intent; festival days intensify these beliefs through special alankara and community worship where practised.",
+  "summary": "Jagatpita Brahma Mandir at Pushkar — the most famous of the few temples dedicated to Lord Brahma.",
+  "famousFor": "Rare Brahma shrine · often called the only major Brahma temple",
+  "mythology": "Puranic memory says Brahma’s lotus petal created Pushkar Lake, and he performed a yajna on its banks. When Savitri arrived late and found Gayatri seated for the rite, she cursed that Brahma would rarely be worshipped — yet Pushkar remained the living seat of his darshan. Four-faced Brahma and Gayatri receive pilgrims after a lake bath, especially on Kartik Purnima during the Pushkar fair.",
   "scriptureLinks": [
     "Puranic / sthala tradition",
     "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."
@@ -69,7 +69,9 @@
   ],
   "lastUpdated": "2026-08-09",
   "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
-  "deityFamilies": [],
+  "deityFamilies": [
+    "brahma"
+  ],
   "statePortal": {
     "name": "Devasthan Department, Rajasthan",
     "url": "https://devasthan.rajasthan.gov.in/",

@@ -1177,6 +1177,8 @@ def deity_display_order() -> list[str]:
         "kali",
         "annapurna",
         "santoshi",
+        "brahma",
+        "mangal",
     ]
     seen = set()
     order: list[str] = []
