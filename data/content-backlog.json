@@ -1,42 +1,14 @@
 {
   "title": "TirthaYatra SEO content backlog",
-  "updated": "2026-08-14",
+  "updated": "2026-08-20",
   "goal": "Fill high-search Indian god / story / temple / vrat queries where people struggle to find clear bilingual home-devotion answers — improve impressions, average position, and clicks.",
   "method": "Prioritise ‘why / katha / temple story’ queries with strong intent, thin trustworthy competition, and festival seasonality. Avoid inventing temples; prefer Puranic/folk retellings + practical guides.",
   "shippedThisBatch": {
-    "storiesTotal": 81,
-    "storiesWithFullerTelling": 81,
-    "templesTotal": 294,
-    "newTemples": [
-      "shani-shingnapur",
-      "amarnath-cave",
-      "ahobilam-narasimha",
-      "palani-murugan",
-      "thiruchendur-murugan",
-      "brihadeeswarar-thanjavur",
-      "iskcon-vrindavan",
-      "uttarkashi-vishwanath",
-      "srimukhalingam"
-    ],
-    "festivals": [
-      "tulsi-vivah",
-      "santoshi-mata",
-      "skanda-shashti",
-      "thaipusam",
-      "gangaur",
-      "sheetala-ashtami",
-      "sharad-purnima",
-      "chaitra-navaratri",
-      "parashurama-jayanti"
-    ],
-    "devotion": [
-      "santoshi-mata-vrat-katha",
-      "venkateswara-aarti",
-      "annapurna-aarti",
-      "murugan-kanda-intro",
-      "shani-aarti",
-      "vitthal-abhang-intro"
-    ]
+    "note": "Ramayana+Mahabharata high-search batch",
+    "newTemples": 13,
+    "newStories": 16,
+    "templesTotal": 537,
+    "storiesTotal": 128
   },
   "priority": {
     "P0_next_stories": [],

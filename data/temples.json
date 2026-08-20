@@ -1424,10 +1424,12 @@
     "tier": "famous",
     "glyph": "B",
     "tags": [
-      "51-shakti-peeth"
+      "51-shakti-peeth",
+      "mahabharata-sites"
     ],
     "tagLabels": [
-      "51 Shakti Peeth"
+      "51 Shakti Peeth",
+      "Mahabharata Sites"
     ],
     "deityFamilies": [
       "devi"
@@ -4712,8 +4714,12 @@
     "country": "India",
     "tier": "famous",
     "glyph": "ज्यो",
-    "tags": [],
-    "tagLabels": [],
+    "tags": [
+      "mahabharata-sites"
+    ],
+    "tagLabels": [
+      "Mahabharata Sites"
+    ],
     "deityFamilies": [
       "krishna"
     ],
@@ -4833,8 +4839,12 @@
     "country": "India",
     "tier": "famous",
     "glyph": "क",
-    "tags": [],
-    "tagLabels": [],
+    "tags": [
+      "ramayana-trail"
+    ],
+    "tagLabels": [
+      "Ramayana Trail"
+    ],
     "deityFamilies": [
       "rama"
     ],
@@ -9632,5 +9642,284 @@
     ],
     "summary": "Yogmaya of Mehrauli — among Delhi’s oldest Devi temples, near Qutub complex.",
     "famousFor": "Phool Walon Ki Sair · historic Delhi Devi search"
+  },
+  {
+    "slug": "kanak-bhawan-ayodhya",
+    "name": "Kanak Bhawan, Ayodhya",
+    "deity": "Lord Rama & Goddess Sita",
+    "location": "Ramkot, Ayodhya, Uttar Pradesh",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "क",
+    "tags": [
+      "ramayana-trail"
+    ],
+    "tagLabels": [
+      "Ramayana Trail"
+    ],
+    "deityFamilies": [
+      "rama",
+      "vishnu"
+    ],
+    "summary": "Kanak Bhawan — Ayodhya’s beloved Rama–Sita palace shrine, among the most searched Ramayana temples after Ram Mandir.",
+    "famousFor": "Rama–Sita ‘palace’ temple · gold-leaf memory of Kaikeyi’s gift"
+  },
+  {
+    "slug": "shringverpur-prayagraj",
+    "name": "Shringverpur, Prayagraj",
+    "deity": "Lord Rama (exile crossing memory)",
+    "location": "Shringverpur, Prayagraj district, Uttar Pradesh",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "श्रृ",
+    "tags": [
+      "ramayana-trail"
+    ],
+    "tagLabels": [
+      "Ramayana Trail"
+    ],
+    "deityFamilies": [
+      "rama"
+    ],
+    "summary": "Shringverpur — where Rama, Sita, and Lakshmana crossed the Ganga into exile; a core Ramayana Circuit stop.",
+    "famousFor": "Ganga crossing of Rama’s vanvas · Nishadraj memory"
+  },
+  {
+    "slug": "chitrakoot-kamadgiri",
+    "name": "Kamadgiri, Chitrakoot",
+    "deity": "Lord Rama (exile forest seat)",
+    "location": "Kamadgiri Parikrama, Chitrakoot, Madhya Pradesh / Uttar Pradesh border",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "का",
+    "tags": [
+      "ramayana-trail"
+    ],
+    "tagLabels": [
+      "Ramayana Trail"
+    ],
+    "deityFamilies": [
+      "rama"
+    ],
+    "summary": "Kamadgiri — the wish-fulfilling hill of Chitrakoot whose parikrama is the heart of Ramayana exile pilgrimage.",
+    "famousFor": "Kamadgiri parikrama · Rama–Sita–Lakshmana forest years"
+  },
+  {
+    "slug": "gupta-godavari-chitrakoot",
+    "name": "Gupta Godavari, Chitrakoot",
+    "deity": "Lord Rama (cave tirtha)",
+    "location": "Gupta Godavari caves, Chitrakoot, Madhya Pradesh",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "गु",
+    "tags": [
+      "ramayana-trail"
+    ],
+    "tagLabels": [
+      "Ramayana Trail"
+    ],
+    "deityFamilies": [
+      "rama"
+    ],
+    "summary": "Gupta Godavari — paired caves of Chitrakoot tied to Rama’s exile and hidden Godavari lore.",
+    "famousFor": "Twin caves · exile geography search favourite"
+  },
+  {
+    "slug": "sita-gufa-nashik",
+    "name": "Sita Gufa, Nashik",
+    "deity": "Goddess Sita / Lord Rama (Panchavati)",
+    "location": "Panchavati, Nashik, Maharashtra",
+    "state": "Maharashtra",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "सी",
+    "tags": [
+      "ramayana-trail"
+    ],
+    "tagLabels": [
+      "Ramayana Trail"
+    ],
+    "deityFamilies": [
+      "rama"
+    ],
+    "summary": "Sita Gufa in Nashik’s Panchavati — cave shrine of Sita’s exile days beside Kalaram Mandir.",
+    "famousFor": "Panchavati exile cave · Surpanakha geography"
+  },
+  {
+    "slug": "anjanadri-hampi",
+    "name": "Anjanadri Hill, Hampi",
+    "deity": "Lord Hanuman (Anjaneya birthplace tradition)",
+    "location": "Anjanadri / Anegundi, Hampi region, Karnataka",
+    "state": "Karnataka",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "अं",
+    "tags": [
+      "ramayana-trail"
+    ],
+    "tagLabels": [
+      "Ramayana Trail"
+    ],
+    "deityFamilies": [
+      "hanuman",
+      "rama"
+    ],
+    "summary": "Anjanadri — hill traditionally identified with Hanuman’s birthplace in Kishkindha, opposite Hampi.",
+    "famousFor": "Hanuman birthplace · Kishkindha Ramayana geography"
+  },
+  {
+    "slug": "kodandarama-hampi",
+    "name": "Kodandarama Temple, Hampi",
+    "deity": "Lord Rama (Kodanda / bow-bearing)",
+    "location": "Hampi / Anegundi riverside, Karnataka",
+    "state": "Karnataka",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "को",
+    "tags": [
+      "ramayana-trail"
+    ],
+    "tagLabels": [
+      "Ramayana Trail"
+    ],
+    "deityFamilies": [
+      "rama",
+      "vishnu"
+    ],
+    "summary": "Kodandarama Temple on the Tungabhadra — Ramayana Kishkindha shrine in the Hampi landscape.",
+    "famousFor": "Rama of Kishkindha · Sugriva–Vali geography"
+  },
+  {
+    "slug": "dhanushkodi-rama-setu",
+    "name": "Dhanushkodi & Rama Setu viewpoint",
+    "deity": "Lord Rama (Setubandha memory)",
+    "location": "Dhanushkodi, Rameswaram tip, Tamil Nadu",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ध",
+    "tags": [
+      "ramayana-trail"
+    ],
+    "tagLabels": [
+      "Ramayana Trail"
+    ],
+    "deityFamilies": [
+      "rama"
+    ],
+    "summary": "Dhanushkodi — the land’s end facing Adam’s Bridge / Rama Setu, climax geography of the Ramayana’s Lanka march.",
+    "famousFor": "Rama Setu viewpoint · Setubandha pilgrimage"
+  },
+  {
+    "slug": "bhishma-kund-kurukshetra",
+    "name": "Bhishma Kund, Kurukshetra",
+    "deity": "Bhishma / Lord Krishna (Mahabharata memory)",
+    "location": "Narkatari / Bhishma Kund, Kurukshetra, Haryana",
+    "state": "Haryana",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "भी",
+    "tags": [
+      "mahabharata-sites"
+    ],
+    "tagLabels": [
+      "Mahabharata Sites"
+    ],
+    "deityFamilies": [
+      "krishna",
+      "vishnu"
+    ],
+    "summary": "Bhishma Kund — tirtha marking Bhishma’s arrow-bed and Arjuna’s water gift in Kurukshetra’s Mahabharata circuit.",
+    "famousFor": "Bhishma’s sharashayya · arrow-bed water spring"
+  },
+  {
+    "slug": "pandaveshwar-hastinapur",
+    "name": "Pandaveshwar Temple, Hastinapur",
+    "deity": "Lord Shiva (Pandava association) / Kuru capital memory",
+    "location": "Hastinapur, Meerut district, Uttar Pradesh",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "पा",
+    "tags": [
+      "mahabharata-sites"
+    ],
+    "tagLabels": [
+      "Mahabharata Sites"
+    ],
+    "deityFamilies": [
+      "shiva",
+      "krishna"
+    ],
+    "summary": "Pandaveshwar Temple in Hastinapur — living shrine in the remembered capital of the Kuru dynasty.",
+    "famousFor": "Hastinapur capital geography · Pandava shrine"
+  },
+  {
+    "slug": "karna-temple-hastinapur",
+    "name": "Karna Temple, Hastinapur",
+    "deity": "Karna (Mahabharata hero memory)",
+    "location": "Hastinapur, Meerut district, Uttar Pradesh",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "क",
+    "tags": [
+      "mahabharata-sites"
+    ],
+    "tagLabels": [
+      "Mahabharata Sites"
+    ],
+    "deityFamilies": [
+      "krishna"
+    ],
+    "summary": "Karna Temple at Hastinapur — shrine honouring the tragic dana-vira of the Mahabharata.",
+    "famousFor": "Karna devotion · Hastinapur Mahabharata circuit"
+  },
+  {
+    "slug": "barnawa-lakshagriha",
+    "name": "Barnawa Lakshagriha site",
+    "deity": "Pandava escape memory (Mahabharata)",
+    "location": "Barnawa, Baghpat district, Uttar Pradesh",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "ला",
+    "tags": [
+      "mahabharata-sites"
+    ],
+    "tagLabels": [
+      "Mahabharata Sites"
+    ],
+    "deityFamilies": [
+      "krishna"
+    ],
+    "summary": "Barnawa — traditional site of the lac palace (Lakshagriha) fire-trap and the Pandavas’ escape tunnel lore.",
+    "famousFor": "Lakshagriha · viral ‘Mahabharata places still exist’ stop"
+  },
+  {
+    "slug": "govardhan-giriraj",
+    "name": "Giriraj Govardhan",
+    "deity": "Lord Krishna (Govardhan / Giriraj)",
+    "location": "Govardhan, Mathura district, Uttar Pradesh",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "tier": "famous",
+    "glyph": "गो",
+    "tags": [
+      "mahabharata-sites"
+    ],
+    "tagLabels": [
+      "Mahabharata Sites"
+    ],
+    "deityFamilies": [
+      "krishna",
+      "vishnu"
+    ],
+    "summary": "Govardhan Hill — where Krishna lifted Giriraj; among the world’s most searched Krishna–Mahabharata-era Braj tirthas.",
+    "famousFor": "Govardhan Parikrama · Annakut / Giriraj puja"
   }
 ]

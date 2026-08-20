@@ -6,8 +6,12 @@
   "state": "Maharashtra",
   "country": "India",
   "glyph": "क",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "ramayana-trail"
+  ],
+  "tagLabels": [
+    "Ramayana Trail"
+  ],
   "summary": "Kalaram Mandir — black stone Rama–Sita–Laxman in Nashik’s Panchvati.",
   "famousFor": "Black-stone Rama of Panchvati · Nashik Kumbh search",
   "mythology": "Ramayana geography of exile forest; Kumbh Mela crowds and daily Ram bhakti define Nashik’s sacred quarter.",

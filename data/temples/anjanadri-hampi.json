@@ -1,0 +1,77 @@
+{
+  "slug": "anjanadri-hampi",
+  "name": "Anjanadri Hill, Hampi",
+  "deity": "Lord Hanuman (Anjaneya birthplace tradition)",
+  "location": "Anjanadri / Anegundi, Hampi region, Karnataka",
+  "state": "Karnataka",
+  "country": "India",
+  "glyph": "अं",
+  "tags": [
+    "ramayana-trail"
+  ],
+  "tagLabels": [
+    "Ramayana Trail"
+  ],
+  "summary": "Anjanadri — hill traditionally identified with Hanuman’s birthplace in Kishkindha, opposite Hampi.",
+  "famousFor": "Hanuman birthplace · Kishkindha Ramayana geography",
+  "mythology": "The Ramayana’s Kishkindha is widely mapped onto the boulder landscape of Hampi–Anegundi. Anjanadri’s steep climb to Anjaneya’s shrine is among India’s most searched Hanuman–Ramayana pilgrimage experiences — paired with Kodandarama Temple below.",
+  "scriptureLinks": [
+    "Puranic / sthala tradition"
+  ],
+  "festivals": [
+    "Hanuman Jayanti",
+    "Ram Navami"
+  ],
+  "bestTime": "October–March for most plains sites; confirm Himalayan seasonal windows separately.",
+  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Varies by region — check seasonal weather before travel.",
+  "nearestRail": "Hospet Junction",
+  "nearestAirport": "Hubballi / Ballari",
+  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
+  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
+  "otherFood": "Wider options usually in the nearest city.",
+  "localLanguage": "Regional language and Hindi; English varies.",
+  "dressCode": "Modest clothing; follow temple boards for traditional dress rules.",
+  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "specialEntry": "Special entry, if any, only via official temple counters.",
+  "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
+  "lockers": "Cloakrooms where available near the entrance.",
+  "officialWebsite": "https://itms.kar.nic.in/hrcehome/index.php",
+  "videoUrl": "https://www.youtube.com/results?search_query=Anjanadri+Hill,+Hampi+temple",
+  "videoNote": "Orientation videos only — verify timings on official sources.",
+  "lat": 15.354,
+  "lng": 76.469,
+  "mapQuery": "Anjanadri Hill Hampi",
+  "nearby": [
+    {
+      "name": "Kodandarama Temple, Hampi",
+      "slug": "kodandarama-hampi",
+      "note": "Kishkindha riverside"
+    }
+  ],
+  "packages": [
+    "Anjanadri Hill, Hampi day darshan",
+    "Regional multi-temple circuit"
+  ],
+  "sources": [
+    "Karnataka HRI & CE Department: https://itms.kar.nic.in/hrcehome/index.php",
+    "Temple trust / local administration notices",
+    "State tourism materials",
+    "Puranic / epic / pilgrimage tradition (lists can vary by scripture)"
+  ],
+  "lastUpdated": "2026-08-20",
+  "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
+  "deityFamilies": [
+    "hanuman",
+    "rama"
+  ],
+  "tier": "famous",
+  "statePortal": {
+    "name": "Karnataka HRI & CE Department",
+    "url": "https://itms.kar.nic.in/hrcehome/index.php",
+    "slug": "karnataka"
+  },
+  "mythologySignificance": "The Ramayana’s Kishkindha is widely mapped onto the boulder landscape of Hampi–Anegundi. Anjanadri’s steep climb to Anjaneya’s shrine is among India’s most searched Hanuman–Ramayana pilgrimage experiences — paired with Kodandarama Temple below.\n\nClassical pilgrimage teaching places this tirtha within India’s epic geography. Epic, Puranic, and regional mahatmya literature — not a single uniform text — sustain this sacred memory.",
+  "localBeliefs": "In popular pilgrimage memory, Anjanadri Hill, Hampi is especially associated with Hanuman birthplace · Kishkindha Ramayana geography. Guides and elders retell this identity to first-time visitors as the living reason the tirtha draws crowds.\n\nLocal sthala-purana and priestly teaching elaborate how the deity blesses devotees who arrive with vows, gratitude, or grief. Festival days intensify these beliefs through processions, special alankara, and community feeding where practised.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts."
+}

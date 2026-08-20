@@ -1,0 +1,77 @@
+{
+  "slug": "kodandarama-hampi",
+  "name": "Kodandarama Temple, Hampi",
+  "deity": "Lord Rama (Kodanda / bow-bearing)",
+  "location": "Hampi / Anegundi riverside, Karnataka",
+  "state": "Karnataka",
+  "country": "India",
+  "glyph": "को",
+  "tags": [
+    "ramayana-trail"
+  ],
+  "tagLabels": [
+    "Ramayana Trail"
+  ],
+  "summary": "Kodandarama Temple on the Tungabhadra — Ramayana Kishkindha shrine in the Hampi landscape.",
+  "famousFor": "Rama of Kishkindha · Sugriva–Vali geography",
+  "mythology": "Local Ramayana memory places Sugriva’s kingdom and Rama’s alliance in this boulder country. Kodandarama Temple and Anjanadri together form one of South India’s strongest searched Ramayana trail pairs.",
+  "scriptureLinks": [
+    "Puranic / sthala tradition"
+  ],
+  "festivals": [
+    "Ram Navami",
+    "Vaikuntha Ekadashi"
+  ],
+  "bestTime": "October–March for most plains sites; confirm Himalayan seasonal windows separately.",
+  "whatToCarry": "Modest clothes, ID proof, water, and offline maps.",
+  "climate": "Varies by region — check seasonal weather before travel.",
+  "nearestRail": "Hospet Junction",
+  "nearestAirport": "Hubballi / Ballari",
+  "accommodation": "Dharamshalas, trust guest houses, and private hotels near the shrine town.",
+  "localFood": "Simple vegetarian pilgrim meals and prasadam where offered.",
+  "otherFood": "Wider options usually in the nearest city.",
+  "localLanguage": "Regional language and Hindi; English varies.",
+  "dressCode": "Modest clothing; follow temple boards for traditional dress rules.",
+  "darshanTimings": "Typically early morning to evening with ritual breaks — confirm locally.",
+  "specialEntry": "Special entry, if any, only via official temple counters.",
+  "restrictions": "Follow phone, leather, and photography rules posted at the gate.",
+  "lockers": "Cloakrooms where available near the entrance.",
+  "officialWebsite": "https://itms.kar.nic.in/hrcehome/index.php",
+  "videoUrl": "https://www.youtube.com/results?search_query=Kodandarama+Temple,+Hampi+temple",
+  "videoNote": "Orientation videos only — verify timings on official sources.",
+  "lat": 15.341,
+  "lng": 76.462,
+  "mapQuery": "Kodandarama Temple Hampi",
+  "nearby": [
+    {
+      "name": "Anjanadri Hill, Hampi",
+      "slug": "anjanadri-hampi",
+      "note": "Hanuman hill"
+    }
+  ],
+  "packages": [
+    "Kodandarama Temple, Hampi day darshan",
+    "Regional multi-temple circuit"
+  ],
+  "sources": [
+    "Karnataka HRI & CE Department: https://itms.kar.nic.in/hrcehome/index.php",
+    "Temple trust / local administration notices",
+    "State tourism materials",
+    "Puranic / epic / pilgrimage tradition (lists can vary by scripture)"
+  ],
+  "lastUpdated": "2026-08-20",
+  "disclaimer": "Lists and ritual details can vary by tradition. Verify before travel.",
+  "deityFamilies": [
+    "rama",
+    "vishnu"
+  ],
+  "tier": "famous",
+  "statePortal": {
+    "name": "Karnataka HRI & CE Department",
+    "url": "https://itms.kar.nic.in/hrcehome/index.php",
+    "slug": "karnataka"
+  },
+  "mythologySignificance": "Local Ramayana memory places Sugriva’s kingdom and Rama’s alliance in this boulder country. Kodandarama Temple and Anjanadri together form one of South India’s strongest searched Ramayana trail pairs.\n\nClassical pilgrimage teaching places this tirtha within India’s epic geography. Epic, Puranic, and regional mahatmya literature — not a single uniform text — sustain this sacred memory.",
+  "localBeliefs": "In popular pilgrimage memory, Kodandarama Temple, Hampi is especially associated with Rama of Kishkindha · Sugriva–Vali geography. Guides and elders retell this identity to first-time visitors as the living reason the tirtha draws crowds.\n\nLocal sthala-purana and priestly teaching elaborate how the deity blesses devotees who arrive with vows, gratitude, or grief. Festival days intensify these beliefs through processions, special alankara, and community feeding where practised.",
+  "mythologyDisclaimer": "Mythological accounts and local beliefs are drawn from Puranic traditions, epics, and widely recorded sthala-purana / pilgrimage lore. Versions differ by scripture, region, and temple tradition. This section is for cultural understanding — not a claim of historical fact, nor a substitute for guidance from temple priests or official trusts."
+}
