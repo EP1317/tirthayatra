@@ -97,13 +97,18 @@
 
   function checklistState(presetId, items) {
     var state = load();
-    if (!state.checklists[presetId]) {
-      state.checklists[presetId] = items.map(function () {
+    var existing = state.checklists[presetId];
+    if (!existing && presetId === "shravan-sawan" && state.checklists.sawan) {
+      existing = state.checklists.sawan;
+    }
+    if (!existing) {
+      // Do not persist until the user ticks a box (avoids filling storage with every preset).
+      return (items || []).map(function () {
         return false;
       });
-      save(state);
     }
-    return state.checklists[presetId];
+    while (existing.length < (items || []).length) existing.push(false);
+    return existing;
   }
 
   function setChecklistItem(presetId, index, value, len) {
@@ -176,8 +181,56 @@
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", function () {
       syncButtons();
+      initChecklistWidgets(document);
     });
   } else {
     syncButtons();
+    initChecklistWidgets(document);
   }
+
+  function initChecklistWidgets(scope) {
+    (scope || document).querySelectorAll("[data-checklist-preset]").forEach(function (box) {
+      if (box.getAttribute("data-checklist-ready") === "1") return;
+      var id = box.getAttribute("data-checklist-preset");
+      var items;
+      try {
+        items = JSON.parse(box.getAttribute("data-items") || "[]");
+      } catch (err) {
+        items = [];
+      }
+      if (!id || !items.length) return;
+      var flags = checklistState(id, items);
+      box.innerHTML = items
+        .map(function (label, i) {
+          return (
+            '<label class="board-check"><input type="checkbox" data-check-id="' +
+            id.replace(/"/g, "") +
+            '" data-check-i="' +
+            i +
+            '"' +
+            (flags[i] ? " checked" : "") +
+            " /> " +
+            String(label)
+              .replace(/&/g, "&amp;")
+              .replace(/</g, "&lt;")
+              .replace(/>/g, "&gt;") +
+            "</label>"
+          );
+        })
+        .join("");
+      box.setAttribute("data-checklist-ready", "1");
+    });
+  }
+
+  document.addEventListener("change", function (ev) {
+    var input = ev.target.closest("input[data-check-id]");
+    if (!input) return;
+    var id = input.getAttribute("data-check-id");
+    var i = Number(input.getAttribute("data-check-i"));
+    var box = document.querySelector('[data-checklist-preset="' + id + '"]');
+    var len = box ? box.querySelectorAll("input").length : 0;
+    setChecklistItem(id, i, input.checked, len);
+  });
+
+  window.TirthaBoard.initChecklistWidgets = initChecklistWidgets;
 })();

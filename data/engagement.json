@@ -309,7 +309,9 @@
   },
   "checklistPresets": {
     "diwali": {
+      "festivalSlug": "diwali",
       "title": "My Diwali home checklist",
+      "titleHi": "मेरी दीपावली घर चेकलिस्ट",
       "items": [
         "Clean / declutter one puja corner",
         "Buy or set diyas / LED lamps",
@@ -320,7 +322,9 @@
       ]
     },
     "navaratri": {
+      "festivalSlug": "navaratri",
       "title": "My Navaratri home checklist",
+      "titleHi": "मेरी नवरात्रि घर चेकलिस्ट",
       "items": [
         "Set a small kalash or Devi photo",
         "Day-1 story: Durga & courage",
@@ -331,25 +335,35 @@
       ]
     },
     "karva-chauth": {
+      "festivalSlug": "karva-chauth",
       "title": "My Karva Chauth home checklist",
+      "titleHi": "मेरी करवा चौथ चेकलिस्ट",
       "items": [
+        "Sargi / early meal plan if observing fast",
         "Sankalp + sattvic day",
-        "Evening Gauri–Shiva puja",
-        "Listen to Karva Chauth katha",
-        "Moon arghya + gentle iftar"
+        "Evening Gauri–Shiva puja setup",
+        "Listen to / read Karva Chauth katha",
+        "Moon arghya + gentle iftar",
+        "Thank elders who helped with the vrat"
       ]
     },
     "chhath-puja": {
+      "festivalSlug": "chhath-puja",
       "title": "My Chhath Puja checklist",
+      "titleHi": "मेरी छठ पूजा चेकलिस्ट",
       "items": [
         "Prepare clean naivedya (thekua/fruits)",
         "Keep ghat/kitchen pure",
+        "Nahay-Khay / Kharna day plan",
         "Sandhya arghya",
-        "Usha arghya + share prasad"
+        "Usha arghya + share prasad",
+        "Rest and hydrate after vrat ends"
       ]
     },
-    "sawan": {
-      "title": "My Sawan home checklist",
+    "shravan-sawan": {
+      "festivalSlug": "shravan-sawan",
+      "title": "My Sawan / Shravan home checklist",
+      "titleHi": "मेरी सावन घर चेकलिस्ट",
       "items": [
         "Note local Sawan start/end on a panchang",
         "Keep a copper/steel lota for Shiva abhishek",
@@ -359,6 +373,489 @@
         "Nag Panchami: milk offering + teach kindness about snakes",
         "Raksha Bandhan / Shravan Purnima closing thanks"
       ]
+    },
+    "holi": {
+      "festivalSlug": "holi",
+      "title": "My Holi home checklist",
+      "titleHi": "मेरी होली घर चेकलिस्ट",
+      "items": [
+        "Read Prahlad–Holika story with family",
+        "Holika Dahan: safe distance / community rules",
+        "Keep skin-safe / natural colours ready",
+        "Prepare thandai or simple sweets",
+        "Visit / call elders with gulaal wishes",
+        "Clean courtyard after play; thank helpers"
+      ]
+    },
+    "maha-shivaratri": {
+      "festivalSlug": "maha-shivaratri",
+      "title": "My Maha Shivaratri checklist",
+      "titleHi": "मेरी महाशिवरात्रि चेकलिस्ट",
+      "items": [
+        "Note night jagran / temple timing",
+        "Keep bilva, water, and clean cloth ready",
+        "Read Neelkanth / Shiva story once",
+        "Om Jai Shiv Omkara or Shiva chalisa",
+        "Abhishek or livestream darshan",
+        "Gentle sattvic meal plan if fasting"
+      ]
+    },
+    "janmashtami": {
+      "festivalSlug": "janmashtami",
+      "title": "My Janmashtami home checklist",
+      "titleHi": "मेरी जन्माष्टमी घर चेकलिस्ट",
+      "items": [
+        "Clean Krishna / Bal Gopal corner",
+        "Prepare makhan–mishri or simple bhog",
+        "Read Krishna birth-night story",
+        "Krishna aarti at midnight or local temple time",
+        "Optional: dahi handi / community program note",
+        "Share prasad with neighbours"
+      ]
+    },
+    "ganesh-chaturthi": {
+      "festivalSlug": "ganesh-chaturthi",
+      "title": "My Ganesh Chaturthi checklist",
+      "titleHi": "मेरी गणेश चतुर्थी चेकलिस्ट",
+      "items": [
+        "Choose eco-friendly murti or photo altar",
+        "Prepare modak / preferred naivedya",
+        "Ganesha aarti + prathama pujya reminder",
+        "Read Ganesha elephant-head or door-guardian story",
+        "Daily lamp for installed days (as per family)",
+        "Visarjan plan: local rules + eco immersion"
+      ]
+    },
+    "ram-navami": {
+      "festivalSlug": "ram-navami",
+      "title": "My Ram Navami checklist",
+      "titleHi": "मेरी राम नवमी चेकलिस्ट",
+      "items": [
+        "Set Rama–Sita–Lakshmana photo or yantra",
+        "Read Kaikeyi boons / Rama homecoming katha",
+        "Rama aarti or chalisa",
+        "Optional: temple / livestream Ramayana path",
+        "Share sundal / simple prasad",
+        "Note nearby Ayodhya / Rama temple visit idea"
+      ]
+    },
+    "hanuman-jayanti": {
+      "festivalSlug": "hanuman-jayanti",
+      "title": "My Hanuman Jayanti checklist",
+      "titleHi": "मेरी हनुमान जयंती चेकलिस्ट",
+      "items": [
+        "Clean Hanuman photo / sindoor area",
+        "Read Sanjeevani or Hanuman seva story",
+        "Hanuman Chalisa (full or selected chaupais)",
+        "Offer sindoor / jasmine / jaggery as per custom",
+        "Tuesday follow-up lamp if family keeps it",
+        "Optional: local Hanuman temple darshan"
+      ]
+    },
+    "raksha-bandhan": {
+      "festivalSlug": "raksha-bandhan",
+      "title": "My Raksha Bandhan checklist",
+      "titleHi": "मेरी रक्षाबंधन चेकलिस्ट",
+      "items": [
+        "Buy / prepare rakhi and sweets",
+        "Read Draupadi–rakhi or sibling-protection story",
+        "Call / visit siblings living abroad",
+        "Tilak + rakhi ritual at agreed time",
+        "Gift with a short blessing, not only money",
+        "Photo message to family WhatsApp group"
+      ]
+    },
+    "dussehra": {
+      "festivalSlug": "dussehra",
+      "title": "My Dussehra / Vijayadashami checklist",
+      "titleHi": "मेरी दशहरा / विजयादशमी चेकलिस्ट",
+      "items": [
+        "Close Navaratri with gratitude aarti",
+        "Read Ravana-vadh or Durga victory story",
+        "Watch / attend Ramlila if local",
+        "Shastra / tools / books puja if family custom",
+        "Share sweets; avoid wasteful fireworks",
+        "Plant a good habit as ‘victory’ vow"
+      ]
+    },
+    "govardhan-puja": {
+      "festivalSlug": "govardhan-puja",
+      "title": "My Govardhan Puja / Annakut checklist",
+      "titleHi": "मेरी गोवर्धन पूजा / अन्नकूट चेकलिस्ट",
+      "items": [
+        "Read Krishna lifts Govardhan story",
+        "Prepare mountain-shaped / multi-dish bhog if possible",
+        "Giriraj / Govardhan photo or cow seva donation",
+        "Offer annakut and distribute prasad",
+        "Avoid litter on any hill / park outing",
+        "Thank kitchen helpers"
+      ]
+    },
+    "makar-sankranti": {
+      "festivalSlug": "makar-sankranti",
+      "title": "My Makar Sankranti checklist",
+      "titleHi": "मेरी मकर संक्रांति चेकलिस्ट",
+      "items": [
+        "Prepare til-gud / pongal / regional sweet",
+        "Dawn arghya to Surya if custom",
+        "Exchange til-gud with neighbours (‘til-gul ghya’)",
+        "Kite / outdoor time with safety",
+        "Donate warmth (blanket/food) if you can",
+        "Note Pongal / Lohri cousins in the same season"
+      ]
+    },
+    "lohri": {
+      "festivalSlug": "lohri",
+      "title": "My Lohri checklist",
+      "titleHi": "मेरी लोहड़ी चेकलिस्ट",
+      "items": [
+        "Buy popcorn, gajak, rewri, peanuts",
+        "Safe bonfire plan / community ground rules",
+        "Folk songs / dhol playlist ready",
+        "Invite neighbours; include new parents if any",
+        "Offer first handful to the fire with thanks",
+        "Clean ash area next morning"
+      ]
+    },
+    "pongal": {
+      "festivalSlug": "pongal",
+      "title": "My Pongal checklist",
+      "titleHi": "मेरी पोंगल चेकलिस्ट",
+      "items": [
+        "Clean entrance; kolam / rangoli",
+        "New pot for sweet pongal if tradition",
+        "Bhogi / Surya / Mattu day plan as per family",
+        "Offer first boil overflow with ‘Pongalo Pongal’",
+        "Thank farmers / kitchen help",
+        "Share pongal with neighbours"
+      ]
+    },
+    "gudi-padwa": {
+      "festivalSlug": "gudi-padwa",
+      "title": "My Gudi Padwa checklist",
+      "titleHi": "मेरी गुड़ी पड़वा चेकलिस्ट",
+      "items": [
+        "Prepare gudi (or photo altar if abroad)",
+        "Neem–jaggery / festive breakfast",
+        "Clean entrance rangoli",
+        "Read new-year / Rama return regional note",
+        "Family blessings and new ledger / vow",
+        "Visit local temple if nearby"
+      ]
+    },
+    "ugadi": {
+      "festivalSlug": "ugadi",
+      "title": "My Ugadi checklist",
+      "titleHi": "मेरी युगादि चेकलिस्ट",
+      "items": [
+        "Prepare Ugadi pachadi (six tastes)",
+        "Mango leaf toran / clean entrance",
+        "Panchanga shravanam or year prayer",
+        "Oil bath / new clothes as custom",
+        "Temple visit or home Vishnu–Devi aarti",
+        "Share pachadi meaning with children"
+      ]
+    },
+    "vaisakhi": {
+      "festivalSlug": "vaisakhi",
+      "title": "My Vaisakhi checklist",
+      "titleHi": "मेरी वैसाखी चेकलिस्ट",
+      "items": [
+        "Note harvest thanks / community meal",
+        "Visit gurdwara or temple as your tradition",
+        "Wear festive colours; prepare sweets",
+        "Donate to langar / food drive if you can",
+        "Call Punjabi / North Indian relatives",
+        "Outdoor gratitude walk"
+      ]
+    },
+    "onam": {
+      "festivalSlug": "onam",
+      "title": "My Onam checklist",
+      "titleHi": "मेरी ओणम चेकलिस्ट",
+      "items": [
+        "Plan pookalam (flower carpet) days",
+        "Read Mahabali / Vamana story respectfully",
+        "Sadya menu or simplified banana-leaf meal",
+        "Invite friends for Onam lunch",
+        "Traditional attire photo for family album",
+        "Charity portion from the feast"
+      ]
+    },
+    "rath-yatra": {
+      "festivalSlug": "rath-yatra",
+      "title": "My Rath Yatra checklist",
+      "titleHi": "मेरी रथ यात्रा चेकलिस्ट",
+      "items": [
+        "Note local Jagannath / ISKCON rath timing",
+        "Read Jagannath neem-murti / Puri story",
+        "Prepare light snacks for procession day",
+        "Pull rope / livestream with devotion",
+        "Offer coconut / cloth as per local custom",
+        "Share prasad; rest feet after walk"
+      ]
+    },
+    "dhanteras": {
+      "festivalSlug": "dhanteras",
+      "title": "My Dhanteras checklist",
+      "titleHi": "मेरी धनतेरस चेकलिस्ट",
+      "items": [
+        "Clean cash / account corner (Dhanteras eve)",
+        "Buy token utensil / metal as family custom",
+        "Light diya for Dhanvantari / Lakshmi",
+        "Avoid panic shopping; keep budget",
+        "Prepare for next-day Diwali cleaning",
+        "Health vow: one good habit as ‘true dhan’"
+      ]
+    },
+    "bhai-dooj": {
+      "festivalSlug": "bhai-dooj",
+      "title": "My Bhai Dooj checklist",
+      "titleHi": "मेरी भाई दूज चेकलिस्ट",
+      "items": [
+        "Confirm sibling visit / video call time",
+        "Tilak thali: roli, rice, sweets",
+        "Read Yamuna–Yama or sibling-care story",
+        "Exchange gifts with a blessing sentence",
+        "Photo for grandparents",
+        "Plan next meetup date"
+      ]
+    },
+    "guru-purnima": {
+      "festivalSlug": "guru-purnima",
+      "title": "My Guru Purnima checklist",
+      "titleHi": "मेरी गुरु पूर्णिमा चेकलिस्ट",
+      "items": [
+        "List teachers / gurus to thank",
+        "Message or visit with a simple gift",
+        "Read Vyasa / guru-disciple story",
+        "Offer lamp at home altar",
+        "Donate books / education if you can",
+        "One hour of focused learning as seva"
+      ]
+    },
+    "akshaya-tritiya": {
+      "festivalSlug": "akshaya-tritiya",
+      "title": "My Akshaya Tritiya checklist",
+      "titleHi": "मेरी अक्षय तृतीया चेकलिस्ट",
+      "items": [
+        "Sattvic meal / optional short fast",
+        "Charity (anna / education) over impulse gold panic",
+        "Lakshmi–Vishnu aarti",
+        "Start a lasting good habit (akshaya)",
+        "Temple visit if convenient",
+        "Family gratitude circle"
+      ]
+    },
+    "vasant-panchami": {
+      "festivalSlug": "vasant-panchami",
+      "title": "My Vasant Panchami checklist",
+      "titleHi": "मेरी वसंत पंचमी चेकलिस्ट",
+      "items": [
+        "Wear yellow / keep yellow flowers if custom",
+        "Saraswati photo / books puja",
+        "Aksharabhyas for children if due",
+        "Saraswati aarti or mantra",
+        "Start a study streak today",
+        "Share yellow sweets"
+      ]
+    },
+    "kartik-purnima": {
+      "festivalSlug": "kartik-purnima",
+      "title": "My Kartik Purnima checklist",
+      "titleHi": "मेरी कार्तिक पूर्णिमा चेकलिस्ट",
+      "items": [
+        "Dawn bath / lamp on water if safe & local",
+        "Tulsi / Vishnu remembrance",
+        "Temple or Pushkar / river visit idea",
+        "Donate oil / diya to a shrine",
+        "End Kartik month with thanks",
+        "Family satvik dinner"
+      ]
+    },
+    "nag-panchami": {
+      "festivalSlug": "nag-panchami",
+      "title": "My Nag Panchami checklist",
+      "titleHi": "मेरी नाग पंचमी चेकलिस्ट",
+      "items": [
+        "Milk / flowers offering at home nag image",
+        "Teach children not to harm snakes",
+        "Read Naga–Shiva ornament story",
+        "Avoid digging / plowing if family custom",
+        "Visit local nag shrine if any",
+        "Nature walk with respect"
+      ]
+    },
+    "tulsi-vivah": {
+      "festivalSlug": "tulsi-vivah",
+      "title": "My Tulsi Vivah checklist",
+      "titleHi": "मेरी तुलसी विवाह चेकलिस्ट",
+      "items": [
+        "Clean tulsi pot / courtyard",
+        "Prepare small wedding decor for tulsi",
+        "Read Tulsi–Vishnu vivah story",
+        "Evening lamp and simple bhog",
+        "Start Kartik / Dev Diwali mood at home",
+        "Share prasad with neighbours"
+      ]
+    },
+    "santoshi-mata": {
+      "festivalSlug": "santoshi-mata",
+      "title": "My Santoshi Mata Friday checklist",
+      "titleHi": "मेरी संतोषी माता शुक्रवार चेकलिस्ट",
+      "items": [
+        "Note Friday vrat rules your family follows",
+        "Avoid sour foods if observing",
+        "Read Santoshi Mata story / vrat katha",
+        "Jaggery–chana prasad",
+        "Quiet aarti; keep speech gentle",
+        "Give prasad to someone in need"
+      ]
+    },
+    "sharad-purnima": {
+      "festivalSlug": "sharad-purnima",
+      "title": "My Sharad Purnima checklist",
+      "titleHi": "मेरी शरद पूर्णिमा चेकलिस्ट",
+      "items": [
+        "Prepare kheer under moonlight if custom",
+        "Lakshmi / Krishna evening remembrance",
+        "Family terrace / balcony moon time",
+        "Read autumn full-moon festival note",
+        "Share kheer next morning as prasad",
+        "Early rest after celebration"
+      ]
+    },
+    "chaitra-navaratri": {
+      "festivalSlug": "chaitra-navaratri",
+      "title": "My Chaitra Navaratri checklist",
+      "titleHi": "मेरी चैत्र नवरात्रि चेकलिस्ट",
+      "items": [
+        "Set kalash for spring Navaratri",
+        "Daily Devi aarti plan (9 days or key days)",
+        "Read Durga story once",
+        "Note Ram Navami overlap if in season",
+        "Sattvic meals as family observes",
+        "Vijayadashami closing thanks"
+      ]
+    },
+    "kanwar-yatra": {
+      "festivalSlug": "kanwar-yatra",
+      "title": "My Kanwar Yatra / seva checklist",
+      "titleHi": "मेरी कांवड़ यात्रा / सेवा चेकलिस्ट",
+      "items": [
+        "If walking: hydration, shoes, ID, group plan",
+        "If supporting: water / medical seva stall idea",
+        "Respect traffic and local police guidance",
+        "Shiva aarti before / after journey",
+        "Offer Ganga water only at proper shrines",
+        "Rest and thank helpers after return"
+      ]
+    },
+    "hartalika-teej": {
+      "festivalSlug": "hartalika-teej",
+      "title": "My Hartalika Teej checklist",
+      "titleHi": "मेरी हरतालिका तीज चेकलिस्ट",
+      "items": [
+        "Note nirjala / fruit fast level you will keep",
+        "Henna / green bangles if custom",
+        "Gauri–Shiva evening puja",
+        "Read Parvati tapasya / Teej story",
+        "Moon / night break as per tradition",
+        "Share story with younger women in family"
+      ]
+    },
+    "vat-savitri": {
+      "festivalSlug": "vat-savitri",
+      "title": "My Vat Savitri checklist",
+      "titleHi": "मेरी वट सावित्री चेकलिस्ट",
+      "items": [
+        "Locate banyan / vat tree or home substitute ritual",
+        "Read Savitri–Satyavan story",
+        "Thread / sacred thread offering as custom",
+        "Fast plan and evening break",
+        "Pray for family longevity and courage",
+        "Thank married elders"
+      ]
+    },
+    "sheetala-ashtami": {
+      "festivalSlug": "sheetala-ashtami",
+      "title": "My Sheetala Ashtami checklist",
+      "titleHi": "मेरी शीतला अष्टमी चेकलिस्ट",
+      "items": [
+        "Prepare cold / day-old food as family custom",
+        "Sheetala Mata remembrance",
+        "Read Sheetala story once",
+        "Keep kitchen cool; avoid waste",
+        "Hygiene reminder for children",
+        "Offer to neighbours if making basiri / cold meals"
+      ]
+    },
+    "skanda-shashti": {
+      "festivalSlug": "skanda-shashti",
+      "title": "My Skanda Shashti checklist",
+      "titleHi": "मेरी स्कंद षष्ठी चेकलिस्ट",
+      "items": [
+        "Murugan / Kartikeya photo or vel symbol",
+        "Read Kartikeya six-faces story",
+        "Skanda Shashti kavacham / short prayer",
+        "Fast or fruit day as observed",
+        "Temple / Murugan shrine visit idea",
+        "Share prasadam"
+      ]
+    },
+    "thaipusam": {
+      "festivalSlug": "thaipusam",
+      "title": "My Thaipusam checklist",
+      "titleHi": "मेरी थाइपूसम चेकलिस्ट",
+      "items": [
+        "Note local Murugan temple procession time",
+        "Prepare milk pot / simple kavadi if participating",
+        "Read Murugan vow / penance meaning",
+        "Hydration and rest plan",
+        "Respect devotees carrying vows",
+        "Thanksgiving aarti after fulfilment"
+      ]
+    },
+    "gangaur": {
+      "festivalSlug": "gangaur",
+      "title": "My Gangaur checklist",
+      "titleHi": "मेरी गणगौर चेकलिस्ट",
+      "items": [
+        "Gauri idol / photo setup",
+        "Isar–Gauri procession note if in Rajasthan diaspora",
+        "Read Gangaur festival meaning",
+        "Mehndi / festive dress as custom",
+        "Offer wheat / sweets",
+        "Couple / family blessing circle"
+      ]
+    },
+    "parashurama-jayanti": {
+      "festivalSlug": "parashurama-jayanti",
+      "title": "My Parashurama Jayanti checklist",
+      "titleHi": "मेरी परशुराम जयंती चेकलिस्ट",
+      "items": [
+        "Read Parashurama avatar story",
+        "Vishnu / axe (parashu) remembrance",
+        "Temple visit if regional custom",
+        "Act of justice / help someone wronged",
+        "Simple satvik meal",
+        "Teach children one dharma lesson"
+      ]
+    },
+    "sawan": {
+      "festivalSlug": "shravan-sawan",
+      "title": "My Sawan home checklist",
+      "titleHi": "मेरी सावन घर चेकलिस्ट",
+      "items": [
+        "Note local Sawan start/end on a panchang",
+        "Keep a copper/steel lota for Shiva abhishek",
+        "Sawan Somwar: read katha + Om Jai Shiv Omkara",
+        "Offer bilva or a sincere Namah Shivaya",
+        "Optional: Ganga aarti listen / short kanwar seva",
+        "Nag Panchami: milk offering + teach kindness about snakes",
+        "Raksha Bandhan / Shravan Purnima closing thanks"
+      ],
+      "aliasOf": "shravan-sawan"
     }
   }
 }

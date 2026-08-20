@@ -347,6 +347,7 @@ def nav(active: str = "", prefix: str = "", *, show_panchang: bool = False) -> s
         ("devotion/chalisa.html", "Chalisa", "chalisa"),
         ("devotion/vrat-katha.html", "Vrat Katha", "vrat-katha"),
         ("festivals/index.html", "Festivals", "festivals"),
+        ("festivals/checklists.html", "Checklists", "checklists"),
         ("stories/index.html", "Stories", "stories"),
         ("devotion/daily.html", "Today", "daily"),
         ("my-board.html", "My Board", "board"),
@@ -422,6 +423,7 @@ def footer(prefix: str = "") -> str:
         <a href="{prefix}festivals/calendar.html">Festival calendar</a>
         <a href="{prefix}circuits/ashtavinayak.html">Ashtavinayak</a>
         <a href="{prefix}festivals/index.html">Festival guides</a>
+        <a href="{prefix}festivals/checklists.html">Festival checklists</a>
         <a href="{prefix}circuits/char-dham.html">Char Dham</a>
         <a href="{prefix}stories/index.html">Short stories</a>
         <a href="{prefix}circuits/modern-temples.html">Modern Temples</a>
@@ -2150,7 +2152,8 @@ def build_festivals_index(festivals_data: dict) -> str:
 <section class="page-head">
   <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · Festivals</p>
   <h1>{e(sec.get('nameHi', 'त्योहार'))} · {e(sec.get('name', 'Festivals'))}</h1>
-  <p><a class="btn btn-primary" href="{prefix}festivals/calendar.html">Month calendar · next 30 days</a></p>
+  <p><a class="btn btn-primary" href="{prefix}festivals/calendar.html">Month calendar · next 30 days</a>
+  <a class="btn btn-ghost" href="{prefix}festivals/checklists.html">Festival checklists</a></p>
 </section>
 <section class="section">
   <div class="circuit-grid">{''.join(cards)}</div>
@@ -2345,6 +2348,7 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
   <ul class="festival-regions">{regions}</ul>
   {devotion_block}
   {temple_block}
+  {build_engage.festival_checklist_block(fest['slug'], ENGAGEMENT, prefix=prefix)}
   {faq_html}
   <aside class="belief-disclaimer" style="margin-top:2rem">
     <strong>Note:</strong> {e(FESTIVAL_GUIDE.get('section', {}).get('disclaimer', ''))}
@@ -2353,6 +2357,7 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
   {fest_feedback}
   <p style="margin-top:1.5rem">
     <a class="btn btn-ghost" href="{prefix}festivals/index.html">All festivals</a>
+    <a class="btn btn-ghost" href="{prefix}festivals/checklists.html">Festival checklists</a>
   </p>
 </section>
 {footer(prefix)}
@@ -2497,6 +2502,7 @@ def write_sitemap(
     add("core", "devotion/daily.html", "daily", "0.85")
     add("core", "festivals/index.html", "weekly", "0.8")
     add("core", "festivals/calendar.html", "daily", "0.85")
+    add("core", "festivals/checklists.html", "weekly", "0.75")
     add("core", "stories/index.html", "weekly", "0.8")
     add("core", "my-board.html", "monthly", "0.5")
 
@@ -2974,6 +2980,12 @@ def main() -> None:
         (OUT_FESTIVALS / "calendar.html").write_text(
             build_engage.build_festivals_calendar(
                 FESTIVAL_GUIDE, ASSET_VER, nav, footer, head
+            ),
+            encoding="utf-8",
+        )
+        (OUT_FESTIVALS / "checklists.html").write_text(
+            build_engage.build_checklists_index(
+                ENGAGEMENT, FESTIVAL_GUIDE, ASSET_VER, nav, footer, head
             ),
             encoding="utf-8",
         )

@@ -3,7 +3,7 @@
   var root = document.querySelector("[data-my-board-page]");
   if (!root || !window.TirthaBoard) return;
 
-  var catalog = { temples: {}, festivals: {}, devotion: {}, stories: {} };
+  var catalog = { temples: {}, festivals: {}, devotion: {}, stories: {}, checklists: {} };
   try {
     catalog = JSON.parse(root.getAttribute("data-catalog") || "{}");
   } catch (e) {}
@@ -23,11 +23,17 @@
     var hit = map[slug];
     if (hit) return hit;
     var state = window.TirthaBoard.load();
-    var meta = (state.meta || {})[type.replace(/s$/, "") + ":" + slug];
-    if (type === "temples") meta = (state.meta || {})["temple:" + slug];
-    if (type === "festivals") meta = (state.meta || {})["festival:" + slug];
-    if (type === "devotion") meta = (state.meta || {})["devotion:" + slug];
-    if (type === "stories") meta = (state.meta || {})["story:" + slug];
+    var metaKey =
+      type === "temples"
+        ? "temple:" + slug
+        : type === "festivals"
+          ? "festival:" + slug
+          : type === "devotion"
+            ? "devotion:" + slug
+            : type === "stories"
+              ? "story:" + slug
+              : type.replace(/s$/, "") + ":" + slug;
+    var meta = (state.meta || {})[metaKey];
     if (meta) return meta;
     return { title: slug, href: "#" };
   }
@@ -63,37 +69,54 @@
       .join("");
   }
 
+  function renderFestivalChecklists() {
+    var host = root.querySelector("[data-board-checklists]");
+    if (!host) return;
+    var saved = window.TirthaBoard.load().festivals || [];
+    var map = catalog.checklists || {};
+    var blocks = [];
+    saved.forEach(function (festSlug) {
+      var info = map[festSlug];
+      if (!info || !(info.items || []).length) return;
+      var presetId = info.presetId || festSlug;
+      var title = info.titleHi || info.title || festSlug;
+      var festName = info.festivalName || festSlug;
+      var href = info.href || "festivals/" + festSlug + ".html";
+      blocks.push(
+        '<div class="board-checklist" data-board-checklist-for="' +
+          escapeHtml(festSlug) +
+          '">' +
+          "<h3>" +
+          escapeHtml(title) +
+          '</h3><p class="engage-note"><a href="' +
+          escapeHtml(href) +
+          '">' +
+          escapeHtml(festName) +
+          " guide →</a></p>" +
+          '<div data-checklist-preset="' +
+          escapeHtml(presetId) +
+          '" data-items="' +
+          escapeHtml(JSON.stringify(info.items || [])) +
+          '"></div></div>'
+      );
+    });
+    if (!blocks.length) {
+      host.innerHTML =
+        '<p class="comment-empty">No festival checklists yet. Save a festival (Diwali, Holi, Navaratri…) and its checklist appears here. <a href="festivals/checklists.html">Browse all checklists</a>.</p>';
+      return;
+    }
+    host.innerHTML = blocks.join("");
+    if (window.TirthaBoard.initChecklistWidgets) {
+      window.TirthaBoard.initChecklistWidgets(host);
+    }
+  }
+
   function render() {
     renderList(root.querySelector("[data-board-temples]"), "temples", "temple", "temples");
     renderList(root.querySelector("[data-board-festivals]"), "festivals", "festival", "festivals");
     renderList(root.querySelector("[data-board-devotion]"), "devotion", "devotion", "devotion");
     renderList(root.querySelector("[data-board-stories]"), "stories", "story", "stories");
-
-    root.querySelectorAll("[data-checklist-preset]").forEach(function (box) {
-      var id = box.getAttribute("data-checklist-preset");
-      var items;
-      try {
-        items = JSON.parse(box.getAttribute("data-items") || "[]");
-      } catch (e) {
-        items = [];
-      }
-      var flags = window.TirthaBoard.checklistState(id, items);
-      box.innerHTML = items
-        .map(function (label, i) {
-          return (
-            '<label class="board-check"><input type="checkbox" data-check-id="' +
-            escapeHtml(id) +
-            '" data-check-i="' +
-            i +
-            '"' +
-            (flags[i] ? " checked" : "") +
-            " /> " +
-            escapeHtml(label) +
-            "</label>"
-          );
-        })
-        .join("");
-    });
+    renderFestivalChecklists();
 
     var localPop = root.querySelector("[data-board-local-popular]");
     if (localPop) {
@@ -123,17 +146,23 @@
           .join("");
       }
     }
-  }
 
-  root.addEventListener("change", function (ev) {
-    var input = ev.target.closest("input[data-check-id]");
-    if (!input) return;
-    var id = input.getAttribute("data-check-id");
-    var i = Number(input.getAttribute("data-check-i"));
-    var box = root.querySelector('[data-checklist-preset="' + id + '"]');
-    var len = box ? box.querySelectorAll("input").length : 0;
-    window.TirthaBoard.setChecklistItem(id, i, input.checked, len);
-  });
+    if (window.TirthaBoard && typeof window.TirthaBoard.load === "function") {
+      /* refresh save button labels after list rebuild */
+      document.querySelectorAll("[data-save]").forEach(function (btn) {
+        var type = btn.getAttribute("data-save");
+        var slug = btn.getAttribute("data-slug");
+        if (!type || !slug) return;
+        var on = window.TirthaBoard.isSaved(type, slug);
+        btn.setAttribute("aria-pressed", on ? "true" : "false");
+        if (btn.closest(".board-item")) {
+          btn.textContent = "Remove";
+        } else {
+          btn.textContent = on ? "Saved ✓" : btn.getAttribute("data-label") || "Save to My Board";
+        }
+      });
+    }
+  }
 
   root.addEventListener("click", function (ev) {
     if (ev.target.closest("[data-save]")) {

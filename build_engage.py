@@ -519,6 +519,126 @@ def build_daily_practice(
     ) + body
 
 
+def checklist_catalog(engagement: dict, festival_guide: dict) -> dict:
+    """Map festivalSlug → checklist preset (skip aliases)."""
+    fest_names = {
+        f["slug"]: f.get("nameHi") or f.get("name") or f["slug"]
+        for f in festival_guide.get("festivals") or []
+    }
+    out = {}
+    for pid, preset in (engagement.get("checklistPresets") or {}).items():
+        if preset.get("aliasOf"):
+            continue
+        fest_slug = preset.get("festivalSlug") or pid
+        out[fest_slug] = {
+            "presetId": pid,
+            "festivalSlug": fest_slug,
+            "title": preset.get("title") or pid,
+            "titleHi": preset.get("titleHi") or "",
+            "festivalName": fest_names.get(fest_slug, fest_slug),
+            "items": list(preset.get("items") or []),
+            "href": f"festivals/{fest_slug}.html",
+        }
+    return out
+
+
+def festival_checklist_block(
+    fest_slug: str,
+    engagement: dict,
+    *,
+    prefix: str = "../",
+    interactive: bool = True,
+) -> str:
+    """Checklist widget for a festival detail page."""
+    presets = engagement.get("checklistPresets") or {}
+    preset = None
+    preset_id = None
+    for pid, p in presets.items():
+        if p.get("aliasOf"):
+            continue
+        if (p.get("festivalSlug") or pid) == fest_slug:
+            preset, preset_id = p, pid
+            break
+    if not preset:
+        return ""
+    items_json = e(json.dumps(preset.get("items") or [], ensure_ascii=False))
+    title = preset.get("titleHi") or preset.get("title") or "Home checklist"
+    interactive_attr = (
+        f'data-checklist-preset="{e(preset_id)}" data-items="{items_json}"'
+        if interactive
+        else ""
+    )
+    static_items = ""
+    if not interactive:
+        static_items = "".join(
+            f"<li>{e(item)}</li>" for item in (preset.get("items") or [])
+        )
+        static_items = f"<ul class='checklist-preview'>{static_items}</ul>"
+    return f"""
+  <section class="festival-checklist temple-section" id="checklist">
+    <h2 class="section-title">घर चेकलिस्ट · Home checklist</h2>
+    <p class="section-desc">Save this festival to <a href="{prefix}my-board.html">My Board</a> to track ticks there. Browse all festival checklists on the <a href="{prefix}festivals/checklists.html">Checklists</a> page.</p>
+    <div class="board-checklist">
+      <h3>{e(title)}</h3>
+      <div {interactive_attr}>{static_items}</div>
+    </div>
+    <p><a class="btn btn-ghost" href="{prefix}festivals/checklists.html">All festival checklists</a></p>
+  </section>
+  """
+
+
+def build_checklists_index(
+    engagement: dict,
+    festival_guide: dict,
+    asset_ver: str,
+    nav: Callable,
+    footer: Callable,
+    head: Callable,
+) -> str:
+    prefix = "../"
+    catalog = checklist_catalog(engagement, festival_guide)
+    cards = []
+    for fest_slug, info in sorted(catalog.items(), key=lambda kv: kv[1]["festivalName"]):
+        items = "".join(f"<li>{e(x)}</li>" for x in (info.get("items") or [])[:4])
+        more = len(info.get("items") or []) - 4
+        more_html = f"<li>+{more} more on the festival page</li>" if more > 0 else ""
+        cards.append(
+            f"""
+            <article class="checklist-card">
+              <h2><a href="{prefix}{e(info['href'])}">{e(info['festivalName'])}</a></h2>
+              <p class="checklist-card-title">{e(info.get('titleHi') or info['title'])}</p>
+              <ul>{items}{more_html}</ul>
+              <p class="checklist-card-actions">
+                <a class="btn btn-ghost" href="{prefix}{e(info['href'])}">Open festival</a>
+                <button type="button" class="btn btn-primary save-btn" data-save="festival" data-slug="{e(fest_slug)}" data-title="{e(info['festivalName'])}" data-href="{prefix}{e(info['href'])}" data-label="Save to My Board">Save to My Board</button>
+              </p>
+            </article>
+            """
+        )
+    body = f"""
+{nav('checklists', prefix)}
+<section class="page-head">
+  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}festivals/index.html">Festivals</a> · Checklists</p>
+  <h1>त्योहार चेकलिस्ट · Festival checklists</h1>
+  <p class="lede">Home puja checklists for major festivals. Save a festival to My Board — only those checklists appear on your board (not every list at once).</p>
+  <p><a class="btn btn-ghost" href="{prefix}festivals/index.html">All festival guides</a>
+  <a class="btn btn-ghost" href="{prefix}my-board.html">Open My Board</a></p>
+</section>
+<section class="section checklist-grid">
+  {''.join(cards)}
+</section>
+{footer(prefix)}
+</body>
+</html>
+"""
+    return head(
+        "Festival Checklists — TirthaYatra",
+        "Home checklists for Diwali, Navaratri, Holi, Janmashtami and more — save festivals to track them on My Board.",
+        prefix,
+        canonical_path="festivals/checklists.html",
+    ) + body
+
+
 def build_my_board(
     engagement: dict,
     temples: list,
@@ -551,37 +671,28 @@ def build_my_board(
             s["slug"]: {"title": s["title"], "href": f"stories/{s['slug']}.html"}
             for s in stories_data.get("stories") or []
         },
+        "checklists": checklist_catalog(engagement, festival_guide),
     }
-    presets = engagement.get("checklistPresets") or {}
-    checklist_html = []
-    for pid, preset in presets.items():
-        checklist_html.append(
-            f"""
-            <div class="board-checklist">
-              <h3>{e(preset.get('title', pid))}</h3>
-              <div data-checklist-preset="{e(pid)}" data-items="{e(json.dumps(preset.get('items') or [], ensure_ascii=False))}"></div>
-            </div>
-            """
-        )
 
     body = f"""
 {nav('board', prefix)}
 <section class="page-head">
   <p class="breadcrumb"><a href="index.html">Home</a> · My Board</p>
   <h1>मेरा पट्टा · My Board</h1>
-  <p class="lede">Saved temples, festivals, aartis, and stories on this device. Diwali / Navaratri home checklists included. Nothing is synced to our servers.</p>
+  <p class="lede">Saved temples, festivals, aartis, and stories on this device. Festival checklists appear here only after you save that festival. Nothing is synced to our servers.</p>
 </section>
 <section class="section" data-my-board-page data-prefix="{e(prefix)}" data-catalog="{e(json.dumps(catalog, ensure_ascii=False))}">
   <h2 class="section-title">Saved festivals</h2>
   <div class="board-list" data-board-festivals></div>
+  <h2 class="section-title" id="festival-checklists">Festival checklists</h2>
+  <p class="engage-note">Only checklists for festivals you saved above. <a href="festivals/checklists.html">Browse all festival checklists</a>.</p>
+  <div data-board-checklists></div>
   <h2 class="section-title">Saved aarti &amp; katha</h2>
   <div class="board-list" data-board-devotion></div>
   <h2 class="section-title">Saved stories</h2>
   <div class="board-list" data-board-stories></div>
   <h2 class="section-title">Temples I want to read / visit later</h2>
   <div class="board-list" data-board-temples></div>
-  <h2 class="section-title">Home checklists</h2>
-  {''.join(checklist_html)}
   <h2 class="section-title">Opened often on this device</h2>
   <p class="engage-note">Honest local count only — not a public “most read” claim for advertising.</p>
   <ul data-board-local-popular></ul>
@@ -596,7 +707,7 @@ def build_my_board(
 """
     return head(
         "My Board — TirthaYatra",
-        "Your saved aartis, festivals, stories, and home checklists (on this device).",
+        "Your saved aartis, festivals, stories, and festival checklists (on this device).",
         prefix,
     ) + body
 
