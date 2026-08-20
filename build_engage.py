@@ -520,9 +520,9 @@ def build_daily_practice(
 
 
 def checklist_catalog(engagement: dict, festival_guide: dict) -> dict:
-    """Map festivalSlug → checklist preset (skip aliases)."""
+    """Map festivalSlug → checklist preset (skip aliases). English labels only."""
     fest_names = {
-        f["slug"]: f.get("nameHi") or f.get("name") or f["slug"]
+        f["slug"]: f.get("name") or f["slug"]
         for f in festival_guide.get("festivals") or []
     }
     out = {}
@@ -530,12 +530,12 @@ def checklist_catalog(engagement: dict, festival_guide: dict) -> dict:
         if preset.get("aliasOf"):
             continue
         fest_slug = preset.get("festivalSlug") or pid
+        fest_name = fest_names.get(fest_slug, fest_slug.replace("-", " ").title())
         out[fest_slug] = {
             "presetId": pid,
             "festivalSlug": fest_slug,
-            "title": preset.get("title") or pid,
-            "titleHi": preset.get("titleHi") or "",
-            "festivalName": fest_names.get(fest_slug, fest_slug),
+            "title": fest_name,
+            "festivalName": fest_name,
             "items": list(preset.get("items") or []),
             "href": f"festivals/{fest_slug}.html",
         }
@@ -549,7 +549,7 @@ def festival_checklist_block(
     prefix: str = "../",
     interactive: bool = True,
 ) -> str:
-    """Checklist widget for a festival detail page."""
+    """Checklist widget for a festival detail page (English UI)."""
     presets = engagement.get("checklistPresets") or {}
     preset = None
     preset_id = None
@@ -562,7 +562,6 @@ def festival_checklist_block(
     if not preset:
         return ""
     items_json = e(json.dumps(preset.get("items") or [], ensure_ascii=False))
-    title = preset.get("titleHi") or preset.get("title") or "Home checklist"
     interactive_attr = (
         f'data-checklist-preset="{e(preset_id)}" data-items="{items_json}"'
         if interactive
@@ -576,10 +575,9 @@ def festival_checklist_block(
         static_items = f"<ul class='checklist-preview'>{static_items}</ul>"
     return f"""
   <section class="festival-checklist temple-section" id="checklist">
-    <h2 class="section-title">घर चेकलिस्ट · Home checklist</h2>
+    <h2 class="section-title">Home checklist</h2>
     <p class="section-desc">Save this festival to <a href="{prefix}my-board.html">My Board</a> to track ticks there. Browse all festival checklists on the <a href="{prefix}festivals/checklists.html">Checklists</a> page.</p>
     <div class="board-checklist">
-      <h3>{e(title)}</h3>
       <div {interactive_attr}>{static_items}</div>
     </div>
     <p><a class="btn btn-ghost" href="{prefix}festivals/checklists.html">All festival checklists</a></p>
@@ -598,7 +596,7 @@ def build_checklists_index(
     prefix = "../"
     catalog = checklist_catalog(engagement, festival_guide)
     cards = []
-    for fest_slug, info in sorted(catalog.items(), key=lambda kv: kv[1]["festivalName"]):
+    for fest_slug, info in sorted(catalog.items(), key=lambda kv: kv[1]["festivalName"].lower()):
         items = "".join(f"<li>{e(x)}</li>" for x in (info.get("items") or [])[:4])
         more = len(info.get("items") or []) - 4
         more_html = f"<li>+{more} more on the festival page</li>" if more > 0 else ""
@@ -606,7 +604,6 @@ def build_checklists_index(
             f"""
             <article class="checklist-card">
               <h2><a href="{prefix}{e(info['href'])}">{e(info['festivalName'])}</a></h2>
-              <p class="checklist-card-title">{e(info.get('titleHi') or info['title'])}</p>
               <ul>{items}{more_html}</ul>
               <p class="checklist-card-actions">
                 <a class="btn btn-ghost" href="{prefix}{e(info['href'])}">Open festival</a>
@@ -619,7 +616,7 @@ def build_checklists_index(
 {nav('checklists', prefix)}
 <section class="page-head">
   <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}festivals/index.html">Festivals</a> · Checklists</p>
-  <h1>त्योहार चेकलिस्ट · Festival checklists</h1>
+  <h1>Festival checklists</h1>
   <p class="lede">Home puja checklists for major festivals. Save a festival to My Board — only those checklists appear on your board (not every list at once).</p>
   <p><a class="btn btn-ghost" href="{prefix}festivals/index.html">All festival guides</a>
   <a class="btn btn-ghost" href="{prefix}my-board.html">Open My Board</a></p>

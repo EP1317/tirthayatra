@@ -79,20 +79,17 @@
       var info = map[festSlug];
       if (!info || !(info.items || []).length) return;
       var presetId = info.presetId || festSlug;
-      var title = info.titleHi || info.title || festSlug;
-      var festName = info.festivalName || festSlug;
+      var festName = info.festivalName || info.title || festSlug;
       var href = info.href || "festivals/" + festSlug + ".html";
       blocks.push(
         '<div class="board-checklist" data-board-checklist-for="' +
           escapeHtml(festSlug) +
           '">' +
           "<h3>" +
-          escapeHtml(title) +
+          escapeHtml(festName) +
           '</h3><p class="engage-note"><a href="' +
           escapeHtml(href) +
-          '">' +
-          escapeHtml(festName) +
-          " guide →</a></p>" +
+          '">Festival guide →</a></p>' +
           '<div data-checklist-preset="' +
           escapeHtml(presetId) +
           '" data-items="' +

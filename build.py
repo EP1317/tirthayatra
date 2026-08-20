@@ -2141,8 +2141,8 @@ def build_festivals_index(festivals_data: dict) -> str:
             f"""
             <a class="circuit-tile reveal" href="{prefix}festivals/{e(fest['slug'])}.html">
               <p class="circuit-count">Next listed · {e(next_date)}</p>
-              <h3 class="circuit-name">{e(fest.get('nameHi', ''))}</h3>
-              <p class="circuit-blurb"><strong>{e(fest['name'])}</strong> — {e(fest.get('summary', ''))}</p>
+              <h3 class="circuit-name">{e(fest['name'])}</h3>
+              <p class="circuit-blurb">{e(fest.get('summary', '') or fest.get('summaryHi', ''))}</p>
               <span class="circuit-arrow">Open guide →</span>
             </a>
             """
@@ -2151,7 +2151,8 @@ def build_festivals_index(festivals_data: dict) -> str:
 {nav('festivals', prefix)}
 <section class="page-head">
   <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · Festivals</p>
-  <h1>{e(sec.get('nameHi', 'त्योहार'))} · {e(sec.get('name', 'Festivals'))}</h1>
+  <h1>Festival guides</h1>
+  <p class="lede">{e(sec.get('lede', 'Hindu festivals for home and diaspora'))}</p>
   <p><a class="btn btn-primary" href="{prefix}festivals/calendar.html">Month calendar · next 30 days</a>
   <a class="btn btn-ghost" href="{prefix}festivals/checklists.html">Festival checklists</a></p>
 </section>
@@ -2192,7 +2193,7 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
     # Prefer next occurrences; fill with recent past if needed
     show = (upcoming + list(reversed(past)))[:6]
     date_rows = "".join(
-        f"<li><strong>{e(r['date'])}</strong> — {e(r.get('nameHi') or r['name'])}</li>"
+        f"<li><strong>{e(r['date'])}</strong> — {e(r.get('name') or r.get('nameHi') or '')}</li>"
         for r in show
     )
     how_en = "".join(f"<li>{e(x)}</li>" for x in fest.get("howCelebratedEn") or [])
@@ -2206,14 +2207,13 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
         deity_cards.append(
             f"""
             <article class="festival-deity-card">
-              <h3>{e(ds.get('deityHi', ''))} · {e(ds.get('deity', ''))}</h3>
+              <h3>{e(ds.get('deity') or ds.get('deityHi') or '')}</h3>
               <p>{e(ds.get('en', ''))}</p>
-              <p class="trail-story-hi">{e(ds.get('hi', ''))}</p>
             </article>
             """
         )
     deity_block = (
-        '<h2 class="section-title">Devi–Devata stories · देवी–देवता कथा</h2>'
+        '<h2 class="section-title">Deity stories</h2>'
         f'<div class="festival-deity-grid">{"".join(deity_cards)}</div>'
         if deity_cards
         else ""
@@ -2221,7 +2221,7 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
     devotion_links = []
     for slug in fest.get("relatedDevotion") or []:
         item = next((i for i in devotion_items() if i.get("slug") == slug), None)
-        label = (item.get("titleHi") or item.get("title") or slug) if item else slug
+        label = (item.get("title") or item.get("titleHi") or slug) if item else slug
         devotion_links.append(
             f'<a class="tag" href="{prefix}devotion/{e(slug)}.html">{e(label)}</a>'
         )
@@ -2245,51 +2245,33 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
         if temple_links
         else ""
     )
-    hindi_first = fest["slug"] in {
-        "shravan-sawan",
-        "kanwar-yatra",
-        "nag-panchami",
-        "maha-shivaratri",
-        "raksha-bandhan",
-        "hartalika-teej",
-        "karva-chauth",
-        "chhath",
-        "navaratri",
-        "diwali",
-        "janmashtami",
-    }
+    hindi_first = False
     abs_path = f"festivals/{fest['slug']}.html"
     name_hi = fest.get("nameHi") or fest["name"]
-    page_title = (
-        f"{name_hi} | {fest['name']} — TirthaYatra"
-        if name_hi != fest["name"]
-        else f"{fest['name']} — TirthaYatra"
-    )
+    page_title = f"{fest['name']} — TirthaYatra"
     share = build_engage.share_bar(
         title=page_title,
-        text=f"{name_hi} — TirthaYatra festival guide",
+        text=f"{fest['name']} — TirthaYatra festival guide",
         url=abs_path,
         kind="festival",
     )
-    # Hindi-first paired blocks
+    # English headers; optional Hindi body kept via lang classes where present
     story_block = ""
     if fest.get("storyEn") or fest.get("storyHi"):
         story_block = f"""
-  <h2 class="section-title">कथा · The story</h2>
+  <h2 class="section-title">The story</h2>
   {build_engage.lang_p(fest.get('storyEn', ''), fest.get('storyHi', ''))}
 """
     myth_block = ""
     if fest.get("mythologyEn") or fest.get("mythologyHi"):
         myth_block = f"""
-  <h2 class="section-title">पौराणिक महत्व · Mythological significance</h2>
+  <h2 class="section-title">Mythological significance</h2>
   {build_engage.lang_p(fest.get('mythologyEn', ''), fest.get('mythologyHi', ''))}
 """
-    desc = fest.get("summaryHi") if hindi_first else fest.get("summary")
-    desc = desc or fest.get("summary") or fest["name"]
+    desc = fest.get("summary") or fest.get("summaryHi") or fest["name"]
     page_url = sitemap_loc_early(abs_path)
     faqs = [
         (f"What is {fest['name']}?", fest.get("summary") or fest.get("meaningEn") or fest["name"]),
-        (f"{fest['name']} का अर्थ क्या है?", fest.get("summaryHi") or fest.get("meaningHi") or name_hi),
         (
             f"How is {fest['name']} celebrated?",
             clip_text(
@@ -2310,40 +2292,39 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
             ),
         ),
     ]
-    faq_html = faq_section_html(faqs)
+    faq_html = faq_section_html(faqs, title="Common questions")
     ld = json_ld_graph(
         article_ld(
             headline=page_title,
             description=desc,
             url=page_url,
-            language="hi" if hindi_first else "en",
+            language="en",
         ),
         faq_page_ld(faqs),
     )
     body = f"""
 {nav('festivals', prefix)}
 <section class="page-head">
-  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}festivals/index.html">Festivals</a> · {e(name_hi)}</p>
-  <h1 class="lang-hi">{e(name_hi)}</h1>
-  <h1 class="lang-en">{e(fest['name'])}</h1>
-  {build_engage.lang_p(fest.get('summary', ''), fest.get('summaryHi', ''), cls='lede')}
+  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}festivals/index.html">Festivals</a> · {e(fest['name'])}</p>
+  <h1>{e(fest['name'])}</h1>
+  {f'<p class="section-kicker">{e(name_hi)}</p>' if name_hi and name_hi != fest['name'] else ''}
+  <p class="lede">{e(fest.get('summary') or fest.get('summaryHi') or '')}</p>
   <p>{fest_save}</p>
   <p><a class="btn btn-ghost" href="{prefix}festivals/calendar.html">Open festival calendar</a></p>
 </section>
 <section class="section festival-section" data-board-open="festival" data-slug="{e(fest['slug'])}">
   <h2 class="section-title">Listed dates</h2>
   <ul class="festival-date-list">{date_rows or '<li>See panchang / local temple calendar</li>'}</ul>
-  <h2 class="section-title">अर्थ · Meaning</h2>
+  <h2 class="section-title">Meaning</h2>
   {build_engage.lang_p(fest.get('meaningEn', ''), fest.get('meaningHi', ''))}
   {story_block}
   {myth_block}
   {deity_block}
-  <h2 class="section-title">कैसे मनाएँ · How it is celebrated</h2>
+  <h2 class="section-title">How it is celebrated</h2>
   <div class="festival-cols">
-    <ul class="lang-en">{how_en}</ul>
-    <ul class="lang-hi">{how_hi}</ul>
+    <ul>{how_en or how_hi}</ul>
   </div>
-  <h2 class="section-title">प्रवासी समुदाय · For the diaspora</h2>
+  <h2 class="section-title">For the diaspora</h2>
   {build_engage.lang_p(fest.get('diasporaEn', ''), fest.get('diasporaHi', ''))}
   <ul class="festival-regions">{regions}</ul>
   {devotion_block}
@@ -2368,9 +2349,9 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
         page_title,
         desc,
         prefix,
-        lang="hi" if hindi_first else "en",
+        lang="en",
         canonical_path=abs_path,
-        default_lang="hi" if hindi_first else "en",
+        default_lang="en",
         og_type="article",
         json_ld=ld,
     ) + body

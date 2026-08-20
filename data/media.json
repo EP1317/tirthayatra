@@ -162,13 +162,13 @@
     "local": "assets/temples/omkareshwar.jpg"
   },
   "bhimashankar": {
-    "filename": "Bhimashankar temple, Maharashtra.JPG",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Bhimashankar_temple%2C_Maharashtra.JPG/1280px-Bhimashankar_temple%2C_Maharashtra.JPG",
-    "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bhimashankar_temple%2C_Maharashtra.JPG",
-    "page": "https://commons.wikimedia.org/wiki/File:Bhimashankar_temple%2C_Maharashtra.JPG",
-    "credit": "ସୁରଥ କୁମାର ପାଢ଼ୀ",
-    "license": "CC BY-SA 3.0",
-    "local": "assets/temples/bhimashankar.JPG"
+    "filename": "Bhimashankar temple front.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Bhimashankar_temple_front.jpg/1280px-Bhimashankar_temple_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Bhimashankar_temple_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Bhimashankar_temple_front.jpg",
+    "credit": "Mechatron00",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/bhimashankar.jpg"
   },
   "kashi-vishwanath": {
     "filename": "Kashi Vishwanath Temple.jpg",
@@ -2104,5 +2104,113 @@
     "credit": "Udham Solanki",
     "license": "CC BY-SA 3.0",
     "local": "assets/temples/pura-mahadev-baghpat.jpg"
+  },
+  "kanak-bhawan-ayodhya": {
+    "filename": "Kanak_Bhawan.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Kanak_Bhawan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Kanak_Bhawan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Kanak_Bhawan.jpg",
+    "credit": "Shalini Tomar",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/kanak-bhawan-ayodhya.jpg"
+  },
+  "chitrakoot-kamadgiri": {
+    "filename": "Chitrakoot.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Chitrakoot.jpg/1280px-Chitrakoot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Chitrakoot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Chitrakoot.jpg",
+    "credit": "Sunnyneelam",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/chitrakoot-kamadgiri.jpg"
+  },
+  "sita-gufa-nashik": {
+    "filename": "Sita Gunfa,Panchavati,Nashik,Maharashtra - panoramio.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Sita_Gunfa%2CPanchavati%2CNashik%2CMaharashtra_-_panoramio.jpg/1280px-Sita_Gunfa%2CPanchavati%2CNashik%2CMaharashtra_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Sita_Gunfa%2CPanchavati%2CNashik%2CMaharashtra_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Sita_Gunfa%2CPanchavati%2CNashik%2CMaharashtra_-_panoramio.jpg",
+    "credit": "Udaykumar PR",
+    "license": "CC BY 3.0",
+    "local": "assets/temples/sita-gufa-nashik.jpg"
+  },
+  "anjanadri-hampi": {
+    "filename": "Anjanadri Hill in Hampi (03).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Anjanadri_Hill_in_Hampi_%2803%29.jpg/1280px-Anjanadri_Hill_in_Hampi_%2803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Anjanadri_Hill_in_Hampi_%2803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Anjanadri_Hill_in_Hampi_%2803%29.jpg",
+    "credit": "iMahesh",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/anjanadri-hampi.jpg"
+  },
+  "kodandarama-hampi": {
+    "filename": "Galigopuram ruins of Kodandarama Temple, Hampi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Galigopuram_ruins_of_Kodandarama_Temple%2C_Hampi.jpg/1280px-Galigopuram_ruins_of_Kodandarama_Temple%2C_Hampi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Galigopuram_ruins_of_Kodandarama_Temple%2C_Hampi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Galigopuram_ruins_of_Kodandarama_Temple%2C_Hampi.jpg",
+    "credit": "iMahesh",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/kodandarama-hampi.jpg"
+  },
+  "dhanushkodi-rama-setu": {
+    "filename": "Dhanushkodi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Dhanushkodi.jpg/1280px-Dhanushkodi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Dhanushkodi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Dhanushkodi.jpg",
+    "credit": "Robin S Kishore",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/dhanushkodi-rama-setu.jpg"
+  },
+  "bhishma-kund-kurukshetra": {
+    "filename": "Bhishma Kund-Kurukshetra.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Bhishma_Kund-Kurukshetra.JPG/1280px-Bhishma_Kund-Kurukshetra.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Bhishma_Kund-Kurukshetra.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Bhishma_Kund-Kurukshetra.JPG",
+    "credit": "Vjdchauhan",
+    "license": "Public domain",
+    "local": "assets/temples/bhishma-kund-kurukshetra.jpg"
+  },
+  "karna-temple-hastinapur": {
+    "filename": "Hastinapur-Karneshwar-Mandir-1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Hastinapur-Karneshwar-Mandir-1.jpg/1280px-Hastinapur-Karneshwar-Mandir-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Hastinapur-Karneshwar-Mandir-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Hastinapur-Karneshwar-Mandir-1.jpg",
+    "credit": "Giridharmamidi",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/karna-temple-hastinapur.jpg"
+  },
+  "govardhan-giriraj": {
+    "filename": "Govardhan hill.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Govardhan_hill.JPG/1280px-Govardhan_hill.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Govardhan_hill.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Govardhan_hill.JPG",
+    "credit": "Atarax42",
+    "license": "CC BY-SA 3.0",
+    "local": "assets/temples/govardhan-giriraj.jpg"
+  },
+  "ahobilam-narasimha": {
+    "filename": "16th century Lakshmi Narasimha Swamy temple, Lower Ahobilam, Andhra Pradesh India - 79.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/16th_century_Lakshmi_Narasimha_Swamy_temple%2C_Lower_Ahobilam%2C_Andhra_Pradesh_India_-_79.jpg/1280px-16th_century_Lakshmi_Narasimha_Swamy_temple%2C_Lower_Ahobilam%2C_Andhra_Pradesh_India_-_79.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/16th_century_Lakshmi_Narasimha_Swamy_temple%2C_Lower_Ahobilam%2C_Andhra_Pradesh_India_-_79.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:16th_century_Lakshmi_Narasimha_Swamy_temple%2C_Lower_Ahobilam%2C_Andhra_Pradesh_India_-_79.jpg",
+    "credit": "P. Madhusudan",
+    "license": "CC0",
+    "local": "assets/temples/ahobilam-narasimha.jpg"
+  },
+  "kalaram-temple-nashik": {
+    "filename": "Kalaram_Mandir_Nashik.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Kalaram_Mandir_Nashik.jpg/1280px-Kalaram_Mandir_Nashik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Kalaram_Mandir_Nashik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Kalaram_Mandir_Nashik.jpg",
+    "credit": "Saket Verma",
+    "license": "CC BY-SA 4.0",
+    "local": "assets/temples/kalaram-temple-nashik.jpg"
+  },
+  "kalkaji-mandir-delhi": {
+    "filename": "Kalkaji Mandir (Delhi Metro).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Kalkaji_Mandir_%28Delhi_Metro%29.jpg/1280px-Kalkaji_Mandir_%28Delhi_Metro%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Kalkaji_Mandir_%28Delhi_Metro%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Kalkaji_Mandir_%28Delhi_Metro%29.jpg",
+    "credit": "varunshiv",
+    "license": "CC BY 2.0",
+    "local": "assets/temples/kalkaji-mandir-delhi.jpg"
   }
 }
