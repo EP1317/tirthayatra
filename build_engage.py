@@ -12,9 +12,96 @@ ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 SITE_URL = "https://www.tirthayatraonline.in"
 
+_CONTENT_MEDIA: dict | None = None
+
 
 def e(text) -> str:
     return html.escape("" if text is None else str(text), quote=True)
+
+
+def _content_media() -> dict:
+    global _CONTENT_MEDIA
+    if _CONTENT_MEDIA is None:
+        path = DATA / "content-media.json"
+        _CONTENT_MEDIA = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    return _CONTENT_MEDIA
+
+
+def content_media_for(kind: str, slug: str, *, deity: str | None = None) -> dict | None:
+    cm = _content_media()
+    bucket = cm.get(kind) or {}
+    entry = bucket.get(slug)
+    if entry and entry.get("local"):
+        return entry
+    if kind == "stories" and deity:
+        d = (cm.get("deities") or {}).get(deity)
+        if d and d.get("local"):
+            return d
+    return None
+
+
+def content_img_src(
+    kind: str, slug: str, prefix: str, *, deity: str | None = None
+) -> str | None:
+    m = content_media_for(kind, slug, deity=deity)
+    if not m:
+        return None
+    return prefix + m["local"]
+
+
+def content_credit_html(
+    kind: str, slug: str, *, deity: str | None = None, label: str = "Art"
+) -> str:
+    m = content_media_for(kind, slug, deity=deity)
+    if not m:
+        return ""
+    page = (m.get("page") or "").strip()
+    link = (
+        f'<a href="{e(page)}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>'
+        if page
+        else "Wikimedia Commons"
+    )
+    return (
+        f'<p class="img-credit">{e(label)}: {e(m.get("credit", "Wikimedia Commons"))} · '
+        f"{e(m.get('license', ''))} · {link}</p>"
+    )
+
+
+def content_figure_html(
+    kind: str,
+    slug: str,
+    alt: str,
+    prefix: str,
+    *,
+    deity: str | None = None,
+    caption: str = "",
+) -> str:
+    src = content_img_src(kind, slug, prefix, deity=deity)
+    if not src:
+        return ""
+    credit = content_credit_html(kind, slug, deity=deity).replace(
+        '<p class="img-credit">', ""
+    ).replace("</p>", "")
+    cap = e(caption) if caption else e(alt)
+    return f"""
+<figure class="content-figure">
+  <img src="{e(src)}" alt="{e(alt)}" loading="lazy" width="960" height="540" />
+  <figcaption>{cap}. {credit}</figcaption>
+</figure>
+"""
+
+
+def content_tile_thumb(
+    kind: str, slug: str, prefix: str, *, deity: str | None = None, alt: str = ""
+) -> str:
+    src = content_img_src(kind, slug, prefix, deity=deity)
+    if not src:
+        return ""
+    return (
+        f'<div class="circuit-tile-media">'
+        f'<img src="{e(src)}" alt="{e(alt)}" loading="lazy" width="480" height="270" />'
+        f"</div>"
+    )
 
 
 def absolute_share_url(url: str) -> str:
@@ -274,9 +361,18 @@ def build_stories_index(stories_data: dict, asset_ver: str, nav: Callable, foote
     tiles = []
     for s in stories_data.get("stories") or []:
         tags = " · ".join(s.get("tags") or [])
+        thumb = content_tile_thumb(
+            "stories",
+            s["slug"],
+            prefix,
+            deity=s.get("deity"),
+            alt=s.get("title") or s["slug"],
+        )
+        tile_cls = "circuit-tile circuit-tile--media reveal" if thumb else "circuit-tile reveal"
         tiles.append(
             f"""
-            <a class="circuit-tile reveal" href="{prefix}stories/{e(s['slug'])}.html">
+            <a class="{tile_cls}" href="{prefix}stories/{e(s['slug'])}.html">
+              {thumb}
               <p class="circuit-count">{e(read_time_label(s))} · {e(tags)}</p>
               <h3 class="circuit-name">{e(s.get('titleHi', ''))}</h3>
               <p class="circuit-blurb"><strong>{e(s['title'])}</strong> — {e(s.get('hook', ''))}</p>
@@ -392,6 +488,18 @@ def build_story_detail(
         ),
     ]
     faq_html = faq_section_html(faqs)
+    figure = content_figure_html(
+        "stories",
+        story["slug"],
+        story.get("title") or title_hi,
+        prefix,
+        deity=story.get("deity"),
+        caption=story.get("hook") or story.get("hookHi") or story["title"],
+    )
+    story_og = None
+    m = content_media_for("stories", story["slug"], deity=story.get("deity"))
+    if m and m.get("local"):
+        story_og = f"{SITE_URL}/{m['local']}"
     ld = json_ld_graph(
         article_ld(
             headline=page_title,
@@ -411,6 +519,7 @@ def build_story_detail(
   <h1 class="lang-en">{e(story['title'])}</h1>
   {lang_p(story.get('hook', ''), story.get('hookHi', ''), cls='lede')}
   <p>{save_btn('story', story['slug'], story['title'], href)}</p>
+  {figure}
   <h2 class="section-title">कथा · The story</h2>
   {lang_p(story.get('storyEn', ''), story.get('storyHi', ''))}
   {f'''<h2 class="section-title">विस्तृत कथा · Fuller telling</h2>
@@ -440,6 +549,7 @@ def build_story_detail(
         canonical_path=abs_path,
         default_lang=default_lang,
         og_type="article",
+        og_image=story_og,
         json_ld=ld,
     ) + body
 
@@ -576,64 +686,12 @@ def festival_checklist_block(
     return f"""
   <section class="festival-checklist temple-section" id="checklist">
     <h2 class="section-title">Home checklist</h2>
-    <p class="section-desc">Save this festival to <a href="{prefix}my-board.html">My Board</a> to track ticks there. Browse all festival checklists on the <a href="{prefix}festivals/checklists.html">Checklists</a> page.</p>
+    <p class="section-desc">Save this festival to <a href="{prefix}my-board.html">My Board</a> to track ticks there.</p>
     <div class="board-checklist">
       <div {interactive_attr}>{static_items}</div>
     </div>
-    <p><a class="btn btn-ghost" href="{prefix}festivals/checklists.html">All festival checklists</a></p>
   </section>
   """
-
-
-def build_checklists_index(
-    engagement: dict,
-    festival_guide: dict,
-    asset_ver: str,
-    nav: Callable,
-    footer: Callable,
-    head: Callable,
-) -> str:
-    prefix = "../"
-    catalog = checklist_catalog(engagement, festival_guide)
-    cards = []
-    for fest_slug, info in sorted(catalog.items(), key=lambda kv: kv[1]["festivalName"].lower()):
-        items = "".join(f"<li>{e(x)}</li>" for x in (info.get("items") or [])[:4])
-        more = len(info.get("items") or []) - 4
-        more_html = f"<li>+{more} more on the festival page</li>" if more > 0 else ""
-        cards.append(
-            f"""
-            <article class="checklist-card">
-              <h2><a href="{prefix}{e(info['href'])}">{e(info['festivalName'])}</a></h2>
-              <ul>{items}{more_html}</ul>
-              <p class="checklist-card-actions">
-                <a class="btn btn-ghost" href="{prefix}{e(info['href'])}">Open festival</a>
-                <button type="button" class="btn btn-primary save-btn" data-save="festival" data-slug="{e(fest_slug)}" data-title="{e(info['festivalName'])}" data-href="{prefix}{e(info['href'])}" data-label="Save to My Board">Save to My Board</button>
-              </p>
-            </article>
-            """
-        )
-    body = f"""
-{nav('checklists', prefix)}
-<section class="page-head">
-  <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}festivals/index.html">Festivals</a> · Checklists</p>
-  <h1>Festival checklists</h1>
-  <p class="lede">Home puja checklists for major festivals. Save a festival to My Board — only those checklists appear on your board (not every list at once).</p>
-  <p><a class="btn btn-ghost" href="{prefix}festivals/index.html">All festival guides</a>
-  <a class="btn btn-ghost" href="{prefix}my-board.html">Open My Board</a></p>
-</section>
-<section class="section checklist-grid">
-  {''.join(cards)}
-</section>
-{footer(prefix)}
-</body>
-</html>
-"""
-    return head(
-        "Festival Checklists — TirthaYatra",
-        "Home checklists for Diwali, Navaratri, Holi, Janmashtami and more — save festivals to track them on My Board.",
-        prefix,
-        canonical_path="festivals/checklists.html",
-    ) + body
 
 
 def build_my_board(
@@ -682,7 +740,7 @@ def build_my_board(
   <h2 class="section-title">Saved festivals</h2>
   <div class="board-list" data-board-festivals></div>
   <h2 class="section-title" id="festival-checklists">Festival checklists</h2>
-  <p class="engage-note">Only checklists for festivals you saved above. <a href="festivals/checklists.html">Browse all festival checklists</a>.</p>
+  <p class="engage-note">Only checklists for festivals you saved above. Open a festival guide to see its full checklist.</p>
   <div data-board-checklists></div>
   <h2 class="section-title">Saved aarti &amp; katha</h2>
   <div class="board-list" data-board-devotion></div>

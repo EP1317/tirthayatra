@@ -99,7 +99,7 @@
     });
     if (!blocks.length) {
       host.innerHTML =
-        '<p class="comment-empty">No festival checklists yet. Save a festival (Diwali, Holi, Navaratri…) and its checklist appears here. <a href="festivals/checklists.html">Browse all checklists</a>.</p>';
+        '<p class="comment-empty">No festival checklists yet. Save a festival (Diwali, Holi, Navaratri…) and its checklist appears here.</p>';
       return;
     }
     host.innerHTML = blocks.join("");

@@ -19,6 +19,7 @@ OUT_CIRCUITS = ROOT / "circuits"
 OUT_PAGES = ROOT / "pages"
 
 MEDIA: dict = {}
+CONTENT_MEDIA: dict = {}
 GROUPS: dict = {}
 STATE_PORTALS: dict = {}
 DEITIES: dict = {}
@@ -192,6 +193,83 @@ def credit_html(slug: str) -> str:
     )
 
 
+def content_media_for(kind: str, slug: str, *, deity: str | None = None) -> dict | None:
+    """Festival/story art from content-media.json; stories may fall back to deity art."""
+    bucket = (CONTENT_MEDIA.get(kind) or {}) if CONTENT_MEDIA else {}
+    entry = bucket.get(slug)
+    if entry and entry.get("local"):
+        return entry
+    if kind == "stories" and deity:
+        d = (CONTENT_MEDIA.get("deities") or {}).get(deity)
+        if d and d.get("local"):
+            return d
+    return None
+
+
+def content_img_src(
+    kind: str, slug: str, prefix: str, *, deity: str | None = None
+) -> str | None:
+    m = content_media_for(kind, slug, deity=deity)
+    if not m:
+        return None
+    return prefix + m["local"]
+
+
+def content_credit_html(
+    kind: str, slug: str, *, deity: str | None = None, label: str = "Art"
+) -> str:
+    m = content_media_for(kind, slug, deity=deity)
+    if not m:
+        return ""
+    page = safe_url(m.get("page"))
+    link = (
+        f'<a href="{e(page)}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>'
+        if page
+        else "Wikimedia Commons"
+    )
+    return (
+        f'<p class="img-credit">{e(label)}: {e(m.get("credit", "Wikimedia Commons"))} · '
+        f"{e(m.get('license', ''))} · {link}</p>"
+    )
+
+
+def content_figure_html(
+    kind: str,
+    slug: str,
+    alt: str,
+    prefix: str,
+    *,
+    deity: str | None = None,
+    caption: str = "",
+) -> str:
+    src = content_img_src(kind, slug, prefix, deity=deity)
+    if not src:
+        return ""
+    credit = content_credit_html(kind, slug, deity=deity).replace(
+        '<p class="img-credit">', ""
+    ).replace("</p>", "")
+    cap = e(caption) if caption else e(alt)
+    return f"""
+<figure class="content-figure">
+  <img src="{e(src)}" alt="{e(alt)}" loading="lazy" width="960" height="540" />
+  <figcaption>{cap}. {credit}</figcaption>
+</figure>
+"""
+
+
+def content_tile_thumb(
+    kind: str, slug: str, prefix: str, *, deity: str | None = None, alt: str = ""
+) -> str:
+    src = content_img_src(kind, slug, prefix, deity=deity)
+    if not src:
+        return ""
+    return (
+        f'<div class="circuit-tile-media">'
+        f'<img src="{e(src)}" alt="{e(alt)}" loading="lazy" width="480" height="270" />'
+        f"</div>"
+    )
+
+
 def thumb_html(slug: str, glyph: str, prefix: str, alt: str = "") -> str:
     src = img_src(slug, prefix)
     if src:
@@ -347,7 +425,6 @@ def nav(active: str = "", prefix: str = "", *, show_panchang: bool = False) -> s
         ("devotion/chalisa.html", "Chalisa", "chalisa"),
         ("devotion/vrat-katha.html", "Vrat Katha", "vrat-katha"),
         ("festivals/index.html", "Festivals", "festivals"),
-        ("festivals/checklists.html", "Checklists", "checklists"),
         ("stories/index.html", "Stories", "stories"),
         ("devotion/daily.html", "Today", "daily"),
         ("my-board.html", "My Board", "board"),
@@ -423,7 +500,6 @@ def footer(prefix: str = "") -> str:
         <a href="{prefix}festivals/calendar.html">Festival calendar</a>
         <a href="{prefix}circuits/ashtavinayak.html">Ashtavinayak</a>
         <a href="{prefix}festivals/index.html">Festival guides</a>
-        <a href="{prefix}festivals/checklists.html">Festival checklists</a>
         <a href="{prefix}circuits/char-dham.html">Char Dham</a>
         <a href="{prefix}stories/index.html">Short stories</a>
         <a href="{prefix}circuits/modern-temples.html">Modern Temples</a>
@@ -2137,9 +2213,14 @@ def build_festivals_index(festivals_data: dict) -> str:
     ranked.sort(key=lambda x: (x[0], x[1].get("name", "")))
     cards = []
     for _key, fest, next_date in ranked:
+        thumb = content_tile_thumb(
+            "festivals", fest["slug"], prefix, alt=fest["name"]
+        )
+        tile_cls = "circuit-tile circuit-tile--media reveal" if thumb else "circuit-tile reveal"
         cards.append(
             f"""
-            <a class="circuit-tile reveal" href="{prefix}festivals/{e(fest['slug'])}.html">
+            <a class="{tile_cls}" href="{prefix}festivals/{e(fest['slug'])}.html">
+              {thumb}
               <p class="circuit-count">Next listed · {e(next_date)}</p>
               <h3 class="circuit-name">{e(fest['name'])}</h3>
               <p class="circuit-blurb">{e(fest.get('summary', '') or fest.get('summaryHi', ''))}</p>
@@ -2153,8 +2234,7 @@ def build_festivals_index(festivals_data: dict) -> str:
   <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · Festivals</p>
   <h1>Festival guides</h1>
   <p class="lede">{e(sec.get('lede', 'Hindu festivals for home and diaspora'))}</p>
-  <p><a class="btn btn-primary" href="{prefix}festivals/calendar.html">Month calendar · next 30 days</a>
-  <a class="btn btn-ghost" href="{prefix}festivals/checklists.html">Festival checklists</a></p>
+  <p><a class="btn btn-primary" href="{prefix}festivals/calendar.html">Month calendar · next 30 days</a></p>
 </section>
 <section class="section">
   <div class="circuit-grid">{''.join(cards)}</div>
@@ -2293,6 +2373,27 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
         ),
     ]
     faq_html = faq_section_html(faqs, title="Common questions")
+    fest_src = content_img_src("festivals", fest["slug"], prefix)
+    fest_m = content_media_for("festivals", fest["slug"])
+    fest_og = (
+        f"{SITE_URL}/{fest_m['local']}"
+        if fest_m and fest_m.get("local")
+        else None
+    )
+    fest_hero = ""
+    fest_figure = content_figure_html(
+        "festivals",
+        fest["slug"],
+        fest["name"],
+        prefix,
+        caption=fest.get("summary") or fest["name"],
+    )
+    if fest_src:
+        fest_hero = f"""
+        <div class="page-hero-media">
+          <img src="{e(fest_src)}" alt="{e(fest['name'])}" />
+        </div>
+        """
     ld = json_ld_graph(
         article_ld(
             headline=page_title,
@@ -2302,8 +2403,22 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
         ),
         faq_page_ld(faqs),
     )
-    body = f"""
-{nav('festivals', prefix)}
+    head_block = (
+        f"""
+<section class="page-hero page-hero--photo">
+  {fest_hero}
+  <div class="page-hero-inner">
+    <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}festivals/index.html">Festivals</a> · {e(fest['name'])}</p>
+    <h1>{e(fest['name'])}</h1>
+    {f'<p class="section-kicker">{e(name_hi)}</p>' if name_hi and name_hi != fest['name'] else ''}
+    <p class="lede">{e(fest.get('summary') or fest.get('summaryHi') or '')}</p>
+    <p>{fest_save}</p>
+    <p><a class="btn btn-ghost" href="{prefix}festivals/calendar.html">Open festival calendar</a></p>
+  </div>
+</section>
+"""
+        if fest_src
+        else f"""
 <section class="page-head">
   <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · <a href="{prefix}festivals/index.html">Festivals</a> · {e(fest['name'])}</p>
   <h1>{e(fest['name'])}</h1>
@@ -2312,7 +2427,13 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
   <p>{fest_save}</p>
   <p><a class="btn btn-ghost" href="{prefix}festivals/calendar.html">Open festival calendar</a></p>
 </section>
+"""
+    )
+    body = f"""
+{nav('festivals', prefix)}
+{head_block}
 <section class="section festival-section" data-board-open="festival" data-slug="{e(fest['slug'])}">
+  {fest_figure}
   <h2 class="section-title">Listed dates</h2>
   <ul class="festival-date-list">{date_rows or '<li>See panchang / local temple calendar</li>'}</ul>
   <h2 class="section-title">Meaning</h2>
@@ -2338,7 +2459,6 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
   {fest_feedback}
   <p style="margin-top:1.5rem">
     <a class="btn btn-ghost" href="{prefix}festivals/index.html">All festivals</a>
-    <a class="btn btn-ghost" href="{prefix}festivals/checklists.html">Festival checklists</a>
   </p>
 </section>
 {footer(prefix)}
@@ -2353,6 +2473,7 @@ def build_festival_detail(fest: dict, festivals_data: dict, temples: list) -> st
         canonical_path=abs_path,
         default_lang="en",
         og_type="article",
+        og_image=fest_og,
         json_ld=ld,
     ) + body
 
@@ -2483,7 +2604,6 @@ def write_sitemap(
     add("core", "devotion/daily.html", "daily", "0.85")
     add("core", "festivals/index.html", "weekly", "0.8")
     add("core", "festivals/calendar.html", "daily", "0.85")
-    add("core", "festivals/checklists.html", "weekly", "0.75")
     add("core", "stories/index.html", "weekly", "0.8")
     add("core", "my-board.html", "monthly", "0.5")
 
@@ -2729,7 +2849,7 @@ def build_legal(slug: str, title: str, blocks: list, *, noindex: bool = False) -
 def main() -> None:
     import build_engage
 
-    global MEDIA, GROUPS, STATE_PORTALS, DEITIES, DEVOTION, FESTIVAL_GUIDE, STORIES, ENGAGEMENT
+    global MEDIA, CONTENT_MEDIA, GROUPS, STATE_PORTALS, DEITIES, DEVOTION, FESTIVAL_GUIDE, STORIES, ENGAGEMENT
     OUT_TEMPLES.mkdir(parents=True, exist_ok=True)
     OUT_CIRCUITS.mkdir(parents=True, exist_ok=True)
     OUT_PAGES.mkdir(parents=True, exist_ok=True)
@@ -2741,6 +2861,10 @@ def main() -> None:
 
     media_path = DATA / "media.json"
     MEDIA = load_json(media_path) if media_path.exists() else {}
+    content_media_path = DATA / "content-media.json"
+    CONTENT_MEDIA = (
+        load_json(content_media_path) if content_media_path.exists() else {}
+    )
     groups_path = DATA / "groups.json"
     GROUPS = load_json(groups_path) if groups_path.exists() else {}
     portals_path = DATA / "state-portals.json"
@@ -2964,16 +3088,14 @@ def main() -> None:
             ),
             encoding="utf-8",
         )
-        (OUT_FESTIVALS / "checklists.html").write_text(
-            build_engage.build_checklists_index(
-                ENGAGEMENT, FESTIVAL_GUIDE, ASSET_VER, nav, footer, head
-            ),
-            encoding="utf-8",
-        )
         for fest in FESTIVAL_GUIDE["festivals"]:
             (OUT_FESTIVALS / f"{fest['slug']}.html").write_text(
                 build_festival_detail(fest, festivals_dates, index), encoding="utf-8"
             )
+        # Checklists live on each festival page + My Board — no standalone tab/page.
+        stale_checklists = OUT_FESTIVALS / "checklists.html"
+        if stale_checklists.exists():
+            stale_checklists.unlink()
 
     if STORIES.get("stories"):
         (OUT_STORIES / "index.html").write_text(

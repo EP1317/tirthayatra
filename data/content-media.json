@@ -1,0 +1,949 @@
+{
+  "festivals": {
+    "makar-sankranti": {
+      "filename": "Makar Sankranti.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Makar_Sankranti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Makar_Sankranti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Makar_Sankranti.jpg",
+      "credit": "మురళీకృష్ణ ముసునూరి",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/makar-sankranti.jpg",
+      "kind": "festival"
+    },
+    "lohri": {
+      "filename": "Lohri Festival Ritual from Punjab.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Lohri_Festival_Ritual_from_Punjab.jpg/1280px-Lohri_Festival_Ritual_from_Punjab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Lohri_Festival_Ritual_from_Punjab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Lohri_Festival_Ritual_from_Punjab.jpg",
+      "credit": "Benipal hardarshan",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/lohri.jpg",
+      "kind": "festival"
+    },
+    "pongal": {
+      "filename": "A man dancing with fire at a Pongal Festival in Namakkal, Tamil Nadu, India.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/A_man_dancing_with_fire_at_a_Pongal_Festival_in_Namakkal%2C_Tamil_Nadu%2C_India.jpg/1280px-A_man_dancing_with_fire_at_a_Pongal_Festival_in_Namakkal%2C_Tamil_Nadu%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/A_man_dancing_with_fire_at_a_Pongal_Festival_in_Namakkal%2C_Tamil_Nadu%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:A_man_dancing_with_fire_at_a_Pongal_Festival_in_Namakkal%2C_Tamil_Nadu%2C_India.jpg",
+      "credit": "Matthew T Rader",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/pongal.jpg",
+      "kind": "festival"
+    },
+    "maha-shivaratri": {
+      "filename": "Siva-parvati-by-raja-ravi-varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Siva-parvati-by-raja-ravi-varma.jpg",
+      "credit": "anonymous, may be Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/festivals/maha-shivaratri.jpg",
+      "kind": "festival"
+    },
+    "holi": {
+      "filename": "Life in colour - Holi at Mathura.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Life_in_colour_-_Holi_at_Mathura.jpg/1280px-Life_in_colour_-_Holi_at_Mathura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Life_in_colour_-_Holi_at_Mathura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Life_in_colour_-_Holi_at_Mathura.jpg",
+      "credit": "Jayteesydney",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/holi.jpg",
+      "kind": "festival"
+    },
+    "gudi-padwa": {
+      "filename": "A gudi kept in an old house on Gudi Padwa 2025.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/A_gudi_kept_in_an_old_house_on_Gudi_Padwa_2025.jpg/1280px-A_gudi_kept_in_an_old_house_on_Gudi_Padwa_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/A_gudi_kept_in_an_old_house_on_Gudi_Padwa_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:A_gudi_kept_in_an_old_house_on_Gudi_Padwa_2025.jpg",
+      "credit": "DesiBoy101",
+      "license": "CC BY 4.0",
+      "local": "assets/festivals/gudi-padwa.jpg",
+      "kind": "festival"
+    },
+    "raksha-bandhan": {
+      "filename": "Raksha Bandhan 2.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Raksha_Bandhan_2.jpg/1280px-Raksha_Bandhan_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Raksha_Bandhan_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Raksha_Bandhan_2.jpg",
+      "credit": "Ramesh Lalwani",
+      "license": "CC BY 2.0",
+      "local": "assets/festivals/raksha-bandhan.jpg",
+      "kind": "festival"
+    },
+    "janmashtami": {
+      "filename": "Birth of Krishna.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Birth_of_Krishna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Birth_of_Krishna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Birth_of_Krishna.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/festivals/janmashtami.jpg",
+      "kind": "festival"
+    },
+    "ganesh-chaturthi": {
+      "filename": "Rebirth of Ganesha.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rebirth_of_Ganesha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rebirth_of_Ganesha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Rebirth_of_Ganesha.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/festivals/ganesh-chaturthi.jpg",
+      "kind": "festival"
+    },
+    "navaratri": {
+      "filename": "Durga by Raja Ravi Varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Durga_by_Raja_Ravi_Varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Durga_by_Raja_Ravi_Varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Durga_by_Raja_Ravi_Varma.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/festivals/navaratri.jpg",
+      "kind": "festival"
+    },
+    "dussehra": {
+      "filename": "Rama slays Ravana.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Rama_slays_Ravana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Rama_slays_Ravana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Rama_slays_Ravana.jpg",
+      "credit": "Fazl , (Indian, Mughal dynasty",
+      "license": "Public domain",
+      "local": "assets/festivals/dussehra.jpg",
+      "kind": "festival"
+    },
+    "diwali": {
+      "filename": "Diwali lamps in India 04.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Diwali_lamps_in_India_04.jpg/1280px-Diwali_lamps_in_India_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Diwali_lamps_in_India_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Diwali_lamps_in_India_04.jpg",
+      "credit": "Pinakpani",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/diwali.jpg",
+      "kind": "festival"
+    },
+    "karva-chauth": {
+      "filename": "Karva Chauth puja.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Karva_Chauth_puja.jpg/1280px-Karva_Chauth_puja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Karva_Chauth_puja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Karva_Chauth_puja.jpg",
+      "credit": "CSG-Info",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/karva-chauth.jpg",
+      "kind": "festival"
+    },
+    "chhath-puja": {
+      "filename": "Chhath Puja.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Chhath_Puja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Chhath_Puja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Chhath_Puja.jpg",
+      "credit": "Ramesh.128",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/chhath-puja.jpg",
+      "kind": "festival"
+    },
+    "ram-navami": {
+      "filename": "Ram Darbar.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Ram_Darbar.jpg/1280px-Ram_Darbar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ram_Darbar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Ram_Darbar.jpg",
+      "credit": "Aliva Sahoo",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/ram-navami.jpg",
+      "kind": "festival"
+    },
+    "hanuman-jayanti": {
+      "filename": "Hanuman Herb Mountain.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hanuman_Herb_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hanuman_Herb_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Hanuman_Herb_Mountain.jpg",
+      "credit": "Sahibdin",
+      "license": "Public domain",
+      "local": "assets/festivals/hanuman-jayanti.jpg",
+      "kind": "festival"
+    },
+    "vasant-panchami": {
+      "filename": "Saraswati.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Saraswati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Saraswati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Saraswati.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/festivals/vasant-panchami.jpg",
+      "kind": "festival"
+    },
+    "akshaya-tritiya": {
+      "filename": "Raja Ravi Varma, Goddess Lakshmi, 1896.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Raja_Ravi_Varma%2C_Goddess_Lakshmi%2C_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Raja_Ravi_Varma%2C_Goddess_Lakshmi%2C_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Raja_Ravi_Varma%2C_Goddess_Lakshmi%2C_1896.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/festivals/akshaya-tritiya.jpg",
+      "kind": "festival"
+    },
+    "guru-purnima": {
+      "filename": "The sage Vyasa and the king Janamejaya..jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/The_sage_Vyasa_and_the_king_Janamejaya..jpg/1280px-The_sage_Vyasa_and_the_king_Janamejaya..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/The_sage_Vyasa_and_the_king_Janamejaya..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:The_sage_Vyasa_and_the_king_Janamejaya..jpg",
+      "credit": "Paithan Style",
+      "license": "Public domain",
+      "local": "assets/festivals/guru-purnima.jpg",
+      "kind": "festival"
+    },
+    "govardhan-puja": {
+      "filename": "Krishna Holds Up Mount Govardhan to Shelter the Villagers of Braj, ca.1590–95, The Met.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg/1280px-Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg",
+      "credit": "Miskin",
+      "license": "Public domain",
+      "local": "assets/festivals/govardhan-puja.jpg",
+      "kind": "festival"
+    },
+    "rath-yatra": {
+      "filename": "Rath Yatra Puri.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Rath_Yatra_Puri.jpg/1280px-Rath_Yatra_Puri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Rath_Yatra_Puri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Rath_Yatra_Puri.jpg",
+      "credit": "Zephyrmaten",
+      "license": "CC BY-SA 3.0",
+      "local": "assets/festivals/rath-yatra.jpg",
+      "kind": "festival"
+    },
+    "onam": {
+      "filename": "Onam Pookalam.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Onam_Pookalam.jpg/1280px-Onam_Pookalam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Onam_Pookalam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Onam_Pookalam.jpg",
+      "credit": "Yugaljoshi",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/onam.jpg",
+      "kind": "festival"
+    },
+    "ugadi": {
+      "filename": "Ugadi festival.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Ugadi_festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Ugadi_festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Ugadi_festival.jpg",
+      "credit": "Pragnya Aindleni",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/ugadi.jpg",
+      "kind": "festival"
+    },
+    "vaisakhi": {
+      "filename": "Woman traditionally dressed for Baisakhi Vaisakhi Indian festival.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Woman_traditionally_dressed_for_Baisakhi_Vaisakhi_Indian_festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Woman_traditionally_dressed_for_Baisakhi_Vaisakhi_Indian_festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Woman_traditionally_dressed_for_Baisakhi_Vaisakhi_Indian_festival.jpg",
+      "credit": "Marco Ghitti from Brescia, Lombardia ,Italia",
+      "license": "CC BY 2.0",
+      "local": "assets/festivals/vaisakhi.jpg",
+      "kind": "festival"
+    },
+    "dhanteras": {
+      "filename": "Raja Ravi Varma, Goddess Lakshmi, 1896.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Raja_Ravi_Varma%2C_Goddess_Lakshmi%2C_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Raja_Ravi_Varma%2C_Goddess_Lakshmi%2C_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Raja_Ravi_Varma%2C_Goddess_Lakshmi%2C_1896.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/festivals/dhanteras.jpg",
+      "kind": "festival"
+    },
+    "kartik-purnima": {
+      "filename": "Dev Deepavali at Varanasi DSC04305 07.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Dev_Deepavali_at_Varanasi_DSC04305_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Dev_Deepavali_at_Varanasi_DSC04305_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Dev_Deepavali_at_Varanasi_DSC04305_07.jpg",
+      "credit": "Sumita Roy Dutta",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/kartik-purnima.jpg",
+      "kind": "festival"
+    },
+    "hartalika-teej": {
+      "filename": "Teej Festival.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Teej_Festival.JPG/1280px-Teej_Festival.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Teej_Festival.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Teej_Festival.JPG",
+      "credit": "Drpaudel",
+      "license": "CC BY-SA 3.0",
+      "local": "assets/festivals/hartalika-teej.jpg",
+      "kind": "festival"
+    },
+    "vat-savitri": {
+      "filename": "Savitri and Satyavan.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Savitri_and_Satyavan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Savitri_and_Satyavan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Savitri_and_Satyavan.jpg",
+      "credit": "Raja Ravi Varma and A.K. Joshi &amp; co.Bombay",
+      "license": "Public domain",
+      "local": "assets/festivals/vat-savitri.jpg",
+      "kind": "festival"
+    },
+    "shravan-sawan": {
+      "filename": "Siva-parvati-by-raja-ravi-varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Siva-parvati-by-raja-ravi-varma.jpg",
+      "credit": "anonymous, may be Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/festivals/shravan-sawan.jpg",
+      "kind": "festival"
+    },
+    "nag-panchami": {
+      "filename": "Naga.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Naga.jpg/1280px-Naga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Naga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Naga.jpg",
+      "credit": "Yuwono Halim",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/nag-panchami.jpg",
+      "kind": "festival"
+    },
+    "kanwar-yatra": {
+      "filename": "A company of 'Kanwar Yatra' devotee raising the slogan to hail the mighty Shiva.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/A_company_of_%27Kanwar_Yatra%27_devotee_raising_the_slogan_to_hail_the_mighty_Shiva.jpg/1280px-A_company_of_%27Kanwar_Yatra%27_devotee_raising_the_slogan_to_hail_the_mighty_Shiva.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/A_company_of_%27Kanwar_Yatra%27_devotee_raising_the_slogan_to_hail_the_mighty_Shiva.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:A_company_of_%27Kanwar_Yatra%27_devotee_raising_the_slogan_to_hail_the_mighty_Shiva.jpg",
+      "credit": "Snipershanu",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/kanwar-yatra.jpg",
+      "kind": "festival"
+    },
+    "tulsi-vivah": {
+      "filename": "Tulsi vivah.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Tulsi_vivah.JPG/1280px-Tulsi_vivah.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Tulsi_vivah.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Tulsi_vivah.JPG",
+      "credit": "Wikimedia contributor",
+      "license": "CC BY 3.0",
+      "local": "assets/festivals/tulsi-vivah.jpg",
+      "kind": "festival"
+    },
+    "santoshi-mata": {
+      "filename": "Kali Mata idol at Santoshi Mata Mandir in Ujjain, Madhya Pradesh, India.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Kali_Mata_idol_at_Santoshi_Mata_Mandir_in_Ujjain%2C_Madhya_Pradesh%2C_India.jpg/1280px-Kali_Mata_idol_at_Santoshi_Mata_Mandir_in_Ujjain%2C_Madhya_Pradesh%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Kali_Mata_idol_at_Santoshi_Mata_Mandir_in_Ujjain%2C_Madhya_Pradesh%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Kali_Mata_idol_at_Santoshi_Mata_Mandir_in_Ujjain%2C_Madhya_Pradesh%2C_India.jpg",
+      "credit": "Ujjain Chronicles",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/santoshi-mata.jpg",
+      "kind": "festival"
+    },
+    "skanda-shashti": {
+      "filename": "Gombak Selangor Batu-Caves-01.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Gombak_Selangor_Batu-Caves-01.jpg/1280px-Gombak_Selangor_Batu-Caves-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Gombak_Selangor_Batu-Caves-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Gombak_Selangor_Batu-Caves-01.jpg",
+      "credit": "CEphoto, Uwe Aranas",
+      "license": "CC BY-SA 3.0",
+      "local": "assets/festivals/skanda-shashti.jpg",
+      "kind": "festival"
+    },
+    "thaipusam": {
+      "filename": "Thaipusam 2025 Temple Buildings and Lord Murugan Statue Lit in Batu Caves (250211).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Thaipusam_2025_Temple_Buildings_and_Lord_Murugan_Statue_Lit_in_Batu_Caves_%28250211%29.jpg/1280px-Thaipusam_2025_Temple_Buildings_and_Lord_Murugan_Statue_Lit_in_Batu_Caves_%28250211%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Thaipusam_2025_Temple_Buildings_and_Lord_Murugan_Statue_Lit_in_Batu_Caves_%28250211%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Thaipusam_2025_Temple_Buildings_and_Lord_Murugan_Statue_Lit_in_Batu_Caves_%28250211%29.jpg",
+      "credit": "*angys*",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/thaipusam.jpg",
+      "kind": "festival"
+    },
+    "gangaur": {
+      "filename": "Gangore Nritya Malwa India.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Gangore_Nritya_Malwa_India.jpg/1280px-Gangore_Nritya_Malwa_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Gangore_Nritya_Malwa_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Gangore_Nritya_Malwa_India.jpg",
+      "credit": "Suyash Dwivedi",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/gangaur.jpg",
+      "kind": "festival"
+    },
+    "sheetala-ashtami": {
+      "filename": "Sheetala Mata Puja.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sheetala_Mata_Puja.jpg/1280px-Sheetala_Mata_Puja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sheetala_Mata_Puja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Sheetala_Mata_Puja.jpg",
+      "credit": "Mukesh.kfc",
+      "license": "CC BY 4.0",
+      "local": "assets/festivals/sheetala-ashtami.jpg",
+      "kind": "festival"
+    },
+    "sharad-purnima": {
+      "filename": "MET DP166121.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/MET_DP166121.jpg/1280px-MET_DP166121.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/MET_DP166121.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:MET_DP166121.jpg",
+      "credit": "anonymous",
+      "license": "CC0",
+      "local": "assets/festivals/sharad-purnima.jpg",
+      "kind": "festival"
+    },
+    "chaitra-navaratri": {
+      "filename": "Durga by Raja Ravi Varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Durga_by_Raja_Ravi_Varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Durga_by_Raja_Ravi_Varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Durga_by_Raja_Ravi_Varma.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/festivals/chaitra-navaratri.jpg",
+      "kind": "festival"
+    },
+    "parashurama-jayanti": {
+      "filename": "Dasavataralu - Parashurama avatar of Lord Vishnu on Sri Venkateshwara temple, Guntur.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dasavataralu_-_Parashurama_avatar_of_Lord_Vishnu_on_Sri_Venkateshwara_temple%2C_Guntur.jpg/1280px-Dasavataralu_-_Parashurama_avatar_of_Lord_Vishnu_on_Sri_Venkateshwara_temple%2C_Guntur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Dasavataralu_-_Parashurama_avatar_of_Lord_Vishnu_on_Sri_Venkateshwara_temple%2C_Guntur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Dasavataralu_-_Parashurama_avatar_of_Lord_Vishnu_on_Sri_Venkateshwara_temple%2C_Guntur.jpg",
+      "credit": "iMahesh",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/parashurama-jayanti.jpg",
+      "kind": "festival"
+    },
+    "bhai-dooj": {
+      "filename": "Diwali lamps in India 04.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Diwali_lamps_in_India_04.jpg/1280px-Diwali_lamps_in_India_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Diwali_lamps_in_India_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Diwali_lamps_in_India_04.jpg",
+      "credit": "Pinakpani",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/festivals/bhai-dooj.jpg",
+      "kind": "festival",
+      "note": "shared Diwali-season art"
+    }
+  },
+  "stories": {
+    "neelkanth-poison": {
+      "filename": "Siva-parvati-by-raja-ravi-varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Siva-parvati-by-raja-ravi-varma.jpg",
+      "credit": "anonymous, may be Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/neelkanth-poison.jpg",
+      "kind": "story"
+    },
+    "prahlad-holika": {
+      "filename": "Narasimha killed Hiranyakashipu.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Narasimha_killed_Hiranyakashipu.jpg/1280px-Narasimha_killed_Hiranyakashipu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Narasimha_killed_Hiranyakashipu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Narasimha_killed_Hiranyakashipu.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/prahlad-holika.jpg",
+      "kind": "story"
+    },
+    "krishna-birth-night": {
+      "filename": "Birth of Krishna.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Birth_of_Krishna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Birth_of_Krishna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Birth_of_Krishna.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/krishna-birth-night.jpg",
+      "kind": "story"
+    },
+    "durga-mahishasura": {
+      "filename": "Durga by Raja Ravi Varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Durga_by_Raja_Ravi_Varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Durga_by_Raja_Ravi_Varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Durga_by_Raja_Ravi_Varma.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/durga-mahishasura.jpg",
+      "kind": "story"
+    },
+    "rama-homecoming-lamps": {
+      "filename": "Ram Darbar.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Ram_Darbar.jpg/1280px-Ram_Darbar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ram_Darbar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Ram_Darbar.jpg",
+      "credit": "Aliva Sahoo",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/rama-homecoming-lamps.jpg",
+      "kind": "story"
+    },
+    "ganesha-door-guardian": {
+      "filename": "Rebirth of Ganesha.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rebirth_of_Ganesha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rebirth_of_Ganesha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Rebirth_of_Ganesha.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/ganesha-door-guardian.jpg",
+      "kind": "story"
+    },
+    "ganesha-elephant-head": {
+      "filename": "Rebirth of Ganesha.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rebirth_of_Ganesha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rebirth_of_Ganesha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Rebirth_of_Ganesha.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/ganesha-elephant-head.jpg",
+      "kind": "story"
+    },
+    "krishna-govardhan": {
+      "filename": "Krishna Holds Up Mount Govardhan to Shelter the Villagers of Braj, ca.1590–95, The Met.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg/1280px-Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg",
+      "credit": "Miskin",
+      "license": "Public domain",
+      "local": "assets/stories/krishna-govardhan.jpg",
+      "kind": "story"
+    },
+    "krishna-kaliya": {
+      "filename": "Kaliya - Mardana, Kaliya's wives praying to Krishna to release their subdued husband serpent Kaliya.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Kaliya_-_Mardana%2C_Kaliya%27s_wives_praying_to_Krishna_to_release_their_subdued_husband_serpent_Kaliya.jpg/1280px-Kaliya_-_Mardana%2C_Kaliya%27s_wives_praying_to_Krishna_to_release_their_subdued_husband_serpent_Kaliya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kaliya_-_Mardana%2C_Kaliya%27s_wives_praying_to_Krishna_to_release_their_subdued_husband_serpent_Kaliya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Kaliya_-_Mardana%2C_Kaliya%27s_wives_praying_to_Krishna_to_release_their_subdued_husband_serpent_Kaliya.jpg",
+      "credit": "Aadrit28",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/krishna-kaliya.jpg",
+      "kind": "story"
+    },
+    "bhagavad-gita-kurukshetra": {
+      "filename": "Krishna and Arjun on the chariot, Mahabharata, 18th-19th century, India.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Krishna_and_Arjun_on_the_chariot%2C_Mahabharata%2C_18th-19th_century%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Krishna_and_Arjun_on_the_chariot%2C_Mahabharata%2C_18th-19th_century%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Krishna_and_Arjun_on_the_chariot%2C_Mahabharata%2C_18th-19th_century%2C_India.jpg",
+      "credit": "AnonymousUnknown author",
+      "license": "Public domain",
+      "local": "assets/stories/bhagavad-gita-kurukshetra.jpg",
+      "kind": "story"
+    },
+    "ganga-avatarana": {
+      "filename": "Ravi Varma-Descent of Ganga.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Ravi_Varma-Descent_of_Ganga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Ravi_Varma-Descent_of_Ganga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Ravi_Varma-Descent_of_Ganga.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/ganga-avatarana.jpg",
+      "kind": "story"
+    },
+    "vamana-bali": {
+      "filename": "Vamana.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Vamana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Vamana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Vamana.jpg",
+      "credit": "Benjamín Preciado Centro de Estudios de Asia y África de El Colegio de México",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/vamana-bali.jpg",
+      "kind": "story"
+    },
+    "savitri-satyavan": {
+      "filename": "Savitri and Satyavan.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Savitri_and_Satyavan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Savitri_and_Satyavan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Savitri_and_Satyavan.jpg",
+      "credit": "Raja Ravi Varma and A.K. Joshi &amp; co.Bombay",
+      "license": "Public domain",
+      "local": "assets/stories/savitri-satyavan.jpg",
+      "kind": "story"
+    },
+    "markandeya-shiva": {
+      "filename": "Raja Ravi Varma, Markandeya.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Raja_Ravi_Varma%2C_Markandeya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Raja_Ravi_Varma%2C_Markandeya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Raja_Ravi_Varma%2C_Markandeya.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/markandeya-shiva.jpg",
+      "kind": "story"
+    },
+    "hanuman-sanjeevani": {
+      "filename": "Hanuman Herb Mountain.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hanuman_Herb_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hanuman_Herb_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Hanuman_Herb_Mountain.jpg",
+      "credit": "Sahibdin",
+      "license": "Public domain",
+      "local": "assets/stories/hanuman-sanjeevani.jpg",
+      "kind": "story"
+    },
+    "narasimha-hiranyakashipu": {
+      "filename": "Narasimha killed Hiranyakashipu.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Narasimha_killed_Hiranyakashipu.jpg/1280px-Narasimha_killed_Hiranyakashipu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Narasimha_killed_Hiranyakashipu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Narasimha_killed_Hiranyakashipu.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/narasimha-hiranyakashipu.jpg",
+      "kind": "story"
+    },
+    "samudra-manthan-kurma": {
+      "filename": "Sagar Manthan.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Sagar_Manthan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Sagar_Manthan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Sagar_Manthan.jpg",
+      "credit": "Unknown artistUnknown artist",
+      "license": "Public domain",
+      "local": "assets/stories/samudra-manthan-kurma.jpg",
+      "kind": "story"
+    },
+    "matsya-manu": {
+      "filename": "Matsya avatar.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Matsya_avatar.jpg/1280px-Matsya_avatar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Matsya_avatar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Matsya_avatar.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "local": "assets/stories/matsya-manu.jpg",
+      "kind": "story"
+    },
+    "varaha-earth": {
+      "filename": "Varaha.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Varaha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Varaha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Varaha.jpg",
+      "credit": "Manjunathbhatt at English Wikipedia",
+      "license": "Public domain",
+      "local": "assets/stories/varaha-earth.jpg",
+      "kind": "story"
+    },
+    "ravana-vadh-dharma": {
+      "filename": "Rama slays Ravana.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Rama_slays_Ravana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Rama_slays_Ravana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Rama_slays_Ravana.jpg",
+      "credit": "Fazl , (Indian, Mughal dynasty",
+      "license": "Public domain",
+      "local": "assets/stories/ravana-vadh-dharma.jpg",
+      "kind": "story"
+    },
+    "hanuman-lanka-agni": {
+      "filename": "Hanuman burns Lanka.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Hanuman_burns_Lanka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Hanuman_burns_Lanka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Hanuman_burns_Lanka.jpg",
+      "credit": "Nina Paley",
+      "license": "CC BY-SA 3.0",
+      "local": "assets/stories/hanuman-lanka-agni.jpg",
+      "kind": "story"
+    },
+    "shabari-rama": {
+      "filename": "Shabari.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Shabari.jpg/1280px-Shabari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Shabari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Shabari.jpg",
+      "credit": "Gita Press Gorakhpur",
+      "license": "CC0",
+      "local": "assets/stories/shabari-rama.jpg",
+      "kind": "story"
+    },
+    "ahalya-rama": {
+      "filename": "Ahalya.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Ahalya.jpg/1280px-Ahalya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ahalya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Ahalya.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/ahalya-rama.jpg",
+      "kind": "story"
+    },
+    "draupadi-vastraharan-dharma": {
+      "filename": "India, Popular Mughal School, probably done at Bikaner - A page from the Mahabharata- Bhima fighting with Jayadratha - 2018.189 - Cleveland Museum of Art.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/India%2C_Popular_Mughal_School%2C_probably_done_at_Bikaner_-_A_page_from_the_Mahabharata-_Bhima_fighting_with_Jayadratha_-_2018.189_-_Cleveland_Museum_of_Art.jpg/1280px-India%2C_Popular_Mughal_School%2C_probably_done_at_Bikaner_-_A_page_from_the_Mahabharata-_Bhima_fighting_with_Jayadratha_-_2018.189_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/India%2C_Popular_Mughal_School%2C_probably_done_at_Bikaner_-_A_page_from_the_Mahabharata-_Bhima_fighting_with_Jayadratha_-_2018.189_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:India%2C_Popular_Mughal_School%2C_probably_done_at_Bikaner_-_A_page_from_the_Mahabharata-_Bhima_fighting_with_Jayadratha_-_2018.189_-_Cleveland_Museum_of_Art.jpg",
+      "credit": "anonymous",
+      "license": "CC0",
+      "local": "assets/stories/draupadi-vastraharan-dharma.jpg",
+      "kind": "story"
+    },
+    "karna-danveer": {
+      "filename": "Karna.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Karna.jpg/1280px-Karna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Karna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Karna.jpg",
+      "credit": "Francesnemorosa",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/karna-danveer.jpg",
+      "kind": "story"
+    },
+    "bhishma-pratigya": {
+      "filename": "Santanu, a king of Hastinapura in the Mahabharata, saw a beautiful woman on the banks of the river Ganga.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Santanu%2C_a_king_of_Hastinapura_in_the_Mahabharata%2C_saw_a_beautiful_woman_on_the_banks_of_the_river_Ganga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Santanu%2C_a_king_of_Hastinapura_in_the_Mahabharata%2C_saw_a_beautiful_woman_on_the_banks_of_the_river_Ganga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Santanu%2C_a_king_of_Hastinapura_in_the_Mahabharata%2C_saw_a_beautiful_woman_on_the_banks_of_the_river_Ganga.jpg",
+      "credit": "Chore Bagan Art Studio",
+      "license": "Public domain",
+      "local": "assets/stories/bhishma-pratigya.jpg",
+      "kind": "story"
+    },
+    "abhimanyu-chakravyuh": {
+      "filename": "Abhimanyu.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Abhimanyu.jpg/1280px-Abhimanyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Abhimanyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Abhimanyu.jpg",
+      "credit": "தமிழரசி சண்முகம்",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/abhimanyu-chakravyuh.jpg",
+      "kind": "story"
+    },
+    "ram-setu-nal-neel": {
+      "filename": "The Monkeys and Bears Build a Bridge to Lanka.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/The_Monkeys_and_Bears_Build_a_Bridge_to_Lanka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/The_Monkeys_and_Bears_Build_a_Bridge_to_Lanka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:The_Monkeys_and_Bears_Build_a_Bridge_to_Lanka.jpg",
+      "credit": "Anonymous, Made in Kangra, Himachal Pradesh, India",
+      "license": "Public domain",
+      "local": "assets/stories/ram-setu-nal-neel.jpg",
+      "kind": "story"
+    },
+    "vali-sugriva-kishkindha": {
+      "filename": "Illustration of Sugriva challenging Vali from the Ramayana (c. 1628–1649).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Illustration_of_Sugriva_challenging_Vali_from_the_Ramayana_%28c._1628%E2%80%931649%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Illustration_of_Sugriva_challenging_Vali_from_the_Ramayana_%28c._1628%E2%80%931649%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Illustration_of_Sugriva_challenging_Vali_from_the_Ramayana_%28c._1628%E2%80%931649%29.jpg",
+      "credit": "Unknown studio master. Book was commissioned by Maharana Jagat Singh (1628–1652), the ruler of Mewar, now part of Rajasthan, western India, ",
+      "license": "Public domain",
+      "local": "assets/stories/vali-sugriva-kishkindha.jpg",
+      "kind": "story"
+    },
+    "kaikeyi-dasharatha-boons": {
+      "filename": "Rama (31535679).jpeg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Rama_%2831535679%29.jpeg/1280px-Rama_%2831535679%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Rama_%2831535679%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Rama_%2831535679%29.jpeg",
+      "credit": "Brewing Colors",
+      "license": "CC BY 3.0",
+      "local": "assets/stories/kaikeyi-dasharatha-boons.jpeg",
+      "kind": "story"
+    },
+    "sita-enters-earth": {
+      "filename": "Sita Bhum Pravesh.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Sita_Bhum_Pravesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Sita_Bhum_Pravesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Sita_Bhum_Pravesh.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/sita-enters-earth.jpg",
+      "kind": "story"
+    },
+    "yaksha-prashna-yudhishthira": {
+      "filename": "Krishna talking with Yudhishthira and his brothers.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Krishna_talking_with_Yudhishthira_and_his_brothers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Krishna_talking_with_Yudhishthira_and_his_brothers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Krishna_talking_with_Yudhishthira_and_his_brothers.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "local": "assets/stories/yaksha-prashna-yudhishthira.jpg",
+      "kind": "story"
+    },
+    "krishna-makhan-chor": {
+      "filename": "Indian School, late 18th century - Krishna as makhan chor (the butter thief). - RCIN 1005113.p - Royal Collection.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Indian_School%2C_late_18th_century_-_Krishna_as_makhan_chor_%28the_butter_thief%29._-_RCIN_1005113.p_-_Royal_Collection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Indian_School%2C_late_18th_century_-_Krishna_as_makhan_chor_%28the_butter_thief%29._-_RCIN_1005113.p_-_Royal_Collection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Indian_School%2C_late_18th_century_-_Krishna_as_makhan_chor_%28the_butter_thief%29._-_RCIN_1005113.p_-_Royal_Collection.jpg",
+      "credit": "anonymous",
+      "license": "Public domain",
+      "local": "assets/stories/krishna-makhan-chor.jpg",
+      "kind": "story"
+    },
+    "krishna-virat-roop": {
+      "filename": "Brooklyn Museum - Vishvarupa The Cosmic Form of Krishna.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Brooklyn_Museum_-_Vishvarupa_The_Cosmic_Form_of_Krishna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Brooklyn_Museum_-_Vishvarupa_The_Cosmic_Form_of_Krishna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Vishvarupa_The_Cosmic_Form_of_Krishna.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "local": "assets/stories/krishna-virat-roop.jpg",
+      "kind": "stories"
+    },
+    "kali-raktabija": {
+      "filename": "Ten-armed Devi annihilating demons - Unknown, Kashmir School - Google Cultural Institute.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Ten-armed_Devi_annihilating_demons_-_Unknown%2C_Kashmir_School_-_Google_Cultural_Institute.jpg/1280px-Ten-armed_Devi_annihilating_demons_-_Unknown%2C_Kashmir_School_-_Google_Cultural_Institute.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Ten-armed_Devi_annihilating_demons_-_Unknown%2C_Kashmir_School_-_Google_Cultural_Institute.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Ten-armed_Devi_annihilating_demons_-_Unknown%2C_Kashmir_School_-_Google_Cultural_Institute.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "local": "assets/stories/kali-raktabija.jpg",
+      "kind": "stories"
+    },
+    "putana-krishna": {
+      "filename": "Putana dying.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Putana_dying.jpg/1280px-Putana_dying.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Putana_dying.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Putana_dying.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "local": "assets/stories/putana-krishna.jpg",
+      "kind": "stories"
+    },
+    "sita-swayamvara-bow": {
+      "filename": "Ravi Varma-Rama-breaking-bow.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ravi_Varma-Rama-breaking-bow.jpg/1280px-Ravi_Varma-Rama-breaking-bow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Ravi_Varma-Rama-breaking-bow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Ravi_Varma-Rama-breaking-bow.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/sita-swayamvara-bow.jpg",
+      "kind": "stories"
+    },
+    "shravan-kumar": {
+      "filename": "Shravan Kumar taking his blind parents for a pilgrimage, circa 1802 CE, Narbadeshwar Temple, Sujanpur Tihra, Hamirpur, Himachal Pradesh.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Shravan_Kumar_taking_his_blind_parents_for_a_pilgrimage%2C_circa_1802_CE%2C_Narbadeshwar_Temple%2C_Sujanpur_Tihra%2C_Hamirpur%2C_Himachal_Pradesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Shravan_Kumar_taking_his_blind_parents_for_a_pilgrimage%2C_circa_1802_CE%2C_Narbadeshwar_Temple%2C_Sujanpur_Tihra%2C_Hamirpur%2C_Himachal_Pradesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Shravan_Kumar_taking_his_blind_parents_for_a_pilgrimage%2C_circa_1802_CE%2C_Narbadeshwar_Temple%2C_Sujanpur_Tihra%2C_Hamirpur%2C_Himachal_Pradesh.jpg",
+      "credit": "SpeakingArch",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/shravan-kumar.jpg",
+      "kind": "stories"
+    }
+  },
+  "deities": {
+    "ayyappa": {
+      "filename": "Ayyappa.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Ayyappa.jpg/1280px-Ayyappa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Ayyappa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Ayyappa.jpg",
+      "credit": "Waterrules",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/deities-art/ayyappa.jpg",
+      "kind": "deity"
+    },
+    "brahma": {
+      "filename": "Brahma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Brahma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Brahma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Brahma.jpg",
+      "credit": "Renskos at Dutch Wikipedia",
+      "license": "Public domain",
+      "local": "assets/deities-art/brahma.jpg",
+      "kind": "deity"
+    },
+    "devi": {
+      "filename": "Durga by Raja Ravi Varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Durga_by_Raja_Ravi_Varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Durga_by_Raja_Ravi_Varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Durga_by_Raja_Ravi_Varma.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/deities-art/devi.jpg",
+      "kind": "deity"
+    },
+    "ganesha": {
+      "filename": "Rebirth of Ganesha.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rebirth_of_Ganesha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rebirth_of_Ganesha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Rebirth_of_Ganesha.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/deities-art/ganesha.jpg",
+      "kind": "deity"
+    },
+    "hanuman": {
+      "filename": "Hanuman Herb Mountain.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hanuman_Herb_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hanuman_Herb_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Hanuman_Herb_Mountain.jpg",
+      "credit": "Sahibdin",
+      "license": "Public domain",
+      "local": "assets/deities-art/hanuman.jpg",
+      "kind": "deity"
+    },
+    "krishna": {
+      "filename": "Krishna Holds Up Mount Govardhan to Shelter the Villagers of Braj, ca.1590–95, The Met.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg/1280px-Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg",
+      "credit": "Miskin",
+      "license": "Public domain",
+      "local": "assets/deities-art/krishna.jpg",
+      "kind": "deity"
+    },
+    "lakshmi": {
+      "filename": "Raja Ravi Varma, Goddess Lakshmi, 1896.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Raja_Ravi_Varma%2C_Goddess_Lakshmi%2C_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Raja_Ravi_Varma%2C_Goddess_Lakshmi%2C_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Raja_Ravi_Varma%2C_Goddess_Lakshmi%2C_1896.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/deities-art/lakshmi.jpg",
+      "kind": "deity"
+    },
+    "murugan": {
+      "filename": "Kartikeya.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kartikeya.jpg/1280px-Kartikeya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Kartikeya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Kartikeya.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/deities-art/murugan.jpg",
+      "kind": "deity"
+    },
+    "narasimha": {
+      "filename": "Narasimha oil colour.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Narasimha_oil_colour.jpg/1280px-Narasimha_oil_colour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Narasimha_oil_colour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Narasimha_oil_colour.jpg",
+      "credit": "AnonymousUnknown author",
+      "license": "Public domain",
+      "local": "assets/deities-art/narasimha.jpg",
+      "kind": "deity"
+    },
+    "rama": {
+      "filename": "Ram Darbar.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Ram_Darbar.jpg/1280px-Ram_Darbar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ram_Darbar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Ram_Darbar.jpg",
+      "credit": "Aliva Sahoo",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/deities-art/rama.jpg",
+      "kind": "deity"
+    },
+    "sai": {
+      "filename": "Sai Baba.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Sai_Baba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Sai_Baba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Sai_Baba.jpg",
+      "credit": "Yann",
+      "license": "CC BY-SA 3.0",
+      "local": "assets/deities-art/sai.jpg",
+      "kind": "deity"
+    },
+    "shiva": {
+      "filename": "Siva-parvati-by-raja-ravi-varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Siva-parvati-by-raja-ravi-varma.jpg",
+      "credit": "anonymous, may be Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/deities-art/shiva.jpg",
+      "kind": "deity"
+    },
+    "surya": {
+      "filename": "MET DP284710 edt.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/MET_DP284710_edt.jpg/1280px-MET_DP284710_edt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/MET_DP284710_edt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:MET_DP284710_edt.jpg",
+      "credit": "Creator:Kitaharasa",
+      "license": "CC0",
+      "local": "assets/deities-art/surya.jpg",
+      "kind": "deity"
+    },
+    "venkateswara": {
+      "filename": "Venkateswara.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Venkateswara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Venkateswara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Venkateswara.jpg",
+      "credit": "Ani Vincent",
+      "license": "CC0",
+      "local": "assets/deities-art/venkateswara.jpg",
+      "kind": "deity"
+    },
+    "vishnu": {
+      "filename": "Vishnu.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Vishnu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Vishnu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Vishnu.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "local": "assets/deities-art/vishnu.jpg",
+      "kind": "deity"
+    }
+  }
+}
