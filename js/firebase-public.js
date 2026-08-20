@@ -1,0 +1,1 @@
+window.TIRTHA_FIREBASE = {"enabled":false,"adminEmails":["TirthaYatraOnline@gmail.com"],"firebase":{"apiKey":"REPLACE_ME","authDomain":"YOUR_PROJECT.firebaseapp.com","projectId":"YOUR_PROJECT","storageBucket":"YOUR_PROJECT.appspot.com","messagingSenderId":"REPLACE_ME","appId":"REPLACE_ME"}};

@@ -1,0 +1,23 @@
+{
+  "enabled": false,
+  "adminEmails": [
+    "TirthaYatraOnline@gmail.com"
+  ],
+  "firebase": {
+    "apiKey": "REPLACE_ME",
+    "authDomain": "YOUR_PROJECT.firebaseapp.com",
+    "projectId": "YOUR_PROJECT",
+    "storageBucket": "YOUR_PROJECT.appspot.com",
+    "messagingSenderId": "REPLACE_ME",
+    "appId": "REPLACE_ME"
+  },
+  "setupNotes": [
+    "1. Create a Firebase project (Spark plan is fine).",
+    "2. Enable Authentication → Google provider.",
+    "3. Create Firestore database (production mode), then deploy firestore.rules from this repo.",
+    "4. Add Authorized domains: www.tirthayatraonline.in, tirthayatraonline.in, localhost.",
+    "5. Paste web app config into firebase above and set enabled to true.",
+    "6. Keep adminEmails as the only Google accounts that can open /admin/feedback.html.",
+    "7. Rebuild (python3 build.py) and deploy. Feedback is never published live automatically."
+  ]
+}

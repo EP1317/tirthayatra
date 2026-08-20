@@ -1,11 +1,14 @@
 /**
- * TirthaYatra feedback loop — corrections, details, highlights, tips.
- * Primary path: mailto for editorial review (not published live — AdSense-safer).
+ * TirthaYatra feedback — private editorial inbox (Firestore).
+ * Notes are NEVER published live automatically (AdSense / UGC-safe).
  * Optional: save a personal copy in localStorage on this device.
+ * Mailto remains a fallback if Firebase is not configured.
  */
 (function () {
   var EMAIL = "TirthaYatraOnline@gmail.com";
   var STORE_KEY = "tirthayatra-feedback-v1";
+  var RATE_KEY = "tirthayatra-feedback-rate";
+  var RATE_MS = 45000;
   var TYPES = [
     { id: "correction", label: "Correction", hint: "Something inaccurate or outdated" },
     { id: "add-detail", label: "Add detail", hint: "Useful info we should include" },
@@ -52,13 +55,32 @@
     return /(https?:\/\/|www\.|buy now|crypto|casino|viagra|loan\s*approved)/i.test(text);
   }
 
+  function rateLimited() {
+    try {
+      var last = parseInt(localStorage.getItem(RATE_KEY) || "0", 10);
+      return last && Date.now() - last < RATE_MS;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function markRate() {
+    try {
+      localStorage.setItem(RATE_KEY, String(Date.now()));
+    } catch (e) {}
+  }
+
+  function firebaseReady() {
+    return window.TirthaFirebase && window.TirthaFirebase.configured();
+  }
+
   function ensureUi() {
     if (document.querySelector("[data-feedback-root]")) return;
 
     var typeOptions = TYPES.map(function (t) {
       return (
         '<option value="' +
-        t.id +
+        escapeHtml(t.id) +
         '">' +
         escapeHtml(t.label) +
         " — " +
@@ -66,6 +88,8 @@
         "</option>"
       );
     }).join("");
+
+    var primaryLabel = firebaseReady() ? "Send feedback" : "Email to TirthaYatra";
 
     var wrap = document.createElement("div");
     wrap.setAttribute("data-feedback-root", "1");
@@ -79,9 +103,10 @@
       '<h2 id="feedback-title">Improve this page</h2>' +
       '<button type="button" class="feedback-close" data-feedback-close aria-label="Close">×</button>' +
       "</div>" +
-      '<p class="feedback-lede">Suggest a correction, add a detail, or highlight something useful. Notes are <strong>reviewed by TirthaYatra</strong> before any public use — they are not posted live automatically (helps content quality and ad policy safety).</p>' +
+      '<p class="feedback-lede">Suggest a correction, add a detail, or highlight something useful. Notes go to TirthaYatra editors only — they are <strong>not published live automatically</strong> (content quality and ad-policy safety).</p>' +
       '<p class="feedback-page" data-feedback-page-label></p>' +
       '<form class="feedback-form" data-feedback-form>' +
+      '<label class="feedback-hp" aria-hidden="true">Company<input name="company" tabindex="-1" autocomplete="off" /></label>' +
       '<label>Type<select name="type" required>' +
       typeOptions +
       "</select></label>" +
@@ -89,7 +114,9 @@
       '<label>Email <span class="opt">(optional, for follow-up)</span><input name="email" type="email" maxlength="120" autocomplete="email" placeholder="you@example.com" /></label>' +
       '<label>Your note<textarea name="body" required maxlength="1200" rows="5" placeholder="What should we correct, add, or highlight? Be specific — section name, timing, story detail…"></textarea></label>' +
       '<div class="feedback-actions">' +
-      '<button type="submit" class="btn btn-primary" data-feedback-email>Email to TirthaYatra</button>' +
+      '<button type="submit" class="btn btn-primary" data-feedback-submit>' +
+      escapeHtml(primaryLabel) +
+      "</button>" +
       '<button type="button" class="btn btn-ghost" data-feedback-local>Save copy on this device</button>' +
       "</div>" +
       '<p class="feedback-status" data-feedback-status hidden></p>' +
@@ -140,10 +167,11 @@
       name: String(data.get("name") || "").trim().slice(0, 60),
       email: String(data.get("email") || "").trim().slice(0, 120),
       body: String(data.get("body") || "").trim().slice(0, 1200),
-      pageTitle: meta.title,
-      path: meta.path,
-      href: meta.href,
-      kind: meta.kind,
+      company: String(data.get("company") || "").trim(),
+      pageTitle: meta.title.slice(0, 200),
+      path: meta.path.slice(0, 300),
+      href: meta.href.slice(0, 500),
+      kind: meta.kind.slice(0, 40),
       date: new Date().toISOString(),
     };
   }
@@ -199,11 +227,12 @@
     }
     list.innerHTML = items
       .map(function (c) {
+        var tag = c.sent ? " · sent for review" : c.emailed ? " · emailed" : " · local only";
         return (
           '<article class="feedback-item">' +
           "<header><span>" +
           escapeHtml(typeLabel(c.type)) +
-          (c.emailed ? " · emailed" : " · local only") +
+          tag +
           '</span><span class="date">' +
           escapeHtml((c.date || "").slice(0, 10)) +
           "</span></header>" +
@@ -215,9 +244,10 @@
       .join("");
   }
 
-  function persist(item, emailed) {
+  function persist(item, flags) {
     var all = loadAll();
-    item.emailed = !!emailed;
+    item.emailed = !!(flags && flags.emailed);
+    item.sent = !!(flags && flags.sent);
     all.unshift(item);
     saveAll(all);
     renderLocal();
@@ -232,22 +262,70 @@
       });
       if (!items.length) {
         list.innerHTML =
-          '<p class="comment-empty">Your reviewed tips for this page will appear here on this device after you save or email.</p>';
+          '<p class="comment-empty">Your notes for this page appear here on this device after you save or send.</p>';
         return;
       }
       list.innerHTML = items
         .map(function (c) {
+          var tag = c.sent ? " · sent for review" : c.emailed ? " · emailed" : " · saved locally";
           return (
             '<article class="feedback-item">' +
             "<header><span>" +
             escapeHtml(typeLabel(c.type)) +
-            (c.emailed ? " · sent for review" : " · saved locally") +
+            tag +
             "</span></header><p>" +
             escapeHtml(c.body) +
             "</p></article>"
           );
         })
         .join("");
+    });
+  }
+
+  function validateItem(item) {
+    if (item.company) {
+      setStatus("Could not send. Please try again.", false);
+      return false;
+    }
+    if (!item.body || item.body.length < 3) {
+      setStatus("Please write a short note first.", false);
+      return false;
+    }
+    if (spammy(item.body)) {
+      setStatus("Please keep notes spam-free and without promotional links.", false);
+      return false;
+    }
+    if (rateLimited()) {
+      setStatus("Please wait a moment before sending another note.", false);
+      return false;
+    }
+    return true;
+  }
+
+  function submitToFirestore(item, submitBtn) {
+    if (!window.TirthaFirebase) {
+      return Promise.reject(new Error("Firebase helper missing"));
+    }
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Sending…";
+    }
+    return window.TirthaFirebase.ensureSdk(false).then(function (api) {
+      var payload = {
+        type: item.type,
+        name: item.name || "",
+        email: item.email || "",
+        body: item.body,
+        pageTitle: item.pageTitle,
+        path: item.path,
+        href: item.href,
+        kind: item.kind,
+        status: "new",
+        adminNote: "",
+        createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+        ua: String(navigator.userAgent || "").slice(0, 180),
+      };
+      return api.db.collection("feedback").add(payload);
     });
   }
 
@@ -273,16 +351,14 @@
       var form = document.querySelector("[data-feedback-form]");
       if (!form) return;
       var item = collect(form);
-      if (!item.body) {
-        setStatus("Please write a short note first.", false);
-        return;
-      }
-      if (spammy(item.body)) {
-        setStatus("Please keep notes spam-free and without promotional links.", false);
-        return;
-      }
-      persist(item, false);
-      setStatus("Saved on this device. Use “Email to TirthaYatra” so editors can review it for the site.", true);
+      if (!validateItem(item)) return;
+      persist(item, {});
+      setStatus(
+        firebaseReady()
+          ? "Saved on this device. Use “Send feedback” so editors receive it."
+          : "Saved on this device. Use “Email to TirthaYatra” so editors can review it.",
+        true
+      );
     }
   });
 
@@ -291,17 +367,40 @@
     if (!form) return;
     ev.preventDefault();
     var item = collect(form);
-    if (!item.body) {
-      setStatus("Please write a short note first.", false);
+    if (!validateItem(item)) return;
+    var submitBtn = form.querySelector("[data-feedback-submit]");
+
+    if (!firebaseReady()) {
+      persist(item, { emailed: true });
+      markRate();
+      setStatus("Opening your email app… Editors review before anything goes public.", true);
+      window.location.href = buildMailto(item);
       return;
     }
-    if (spammy(item.body)) {
-      setStatus("Please keep notes spam-free and without promotional links.", false);
-      return;
-    }
-    persist(item, true);
-    setStatus("Opening your email app… Thank you — editors review before anything goes public.", true);
-    window.location.href = buildMailto(item);
+
+    submitToFirestore(item, submitBtn)
+      .then(function () {
+        markRate();
+        persist(item, { sent: true });
+        form.querySelector('[name="body"]').value = "";
+        setStatus(
+          "Thank you — your note reached TirthaYatra editors. It will not appear on the site automatically.",
+          true
+        );
+      })
+      .catch(function (err) {
+        console.warn("feedback send failed", err);
+        setStatus(
+          "Could not send right now. You can retry, or email " + EMAIL + ".",
+          false
+        );
+      })
+      .finally(function () {
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.textContent = "Send feedback";
+        }
+      });
   });
 
   document.addEventListener("keydown", function (ev) {

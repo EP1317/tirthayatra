@@ -2505,7 +2505,132 @@ p.lang-hi + p.lang-en { margin-top: 0.35rem; }
   gap: 0.5rem;
   margin: 0.75rem 0 1rem;
 }
-body.feedback-open { overflow: hidden; }
+.feedback-hp {
+  position: absolute !important;
+  left: -10000px !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+}
+
+.admin-body {
+  background: linear-gradient(165deg, #f7f1e8 0%, #efe4d4 45%, #f8f4ee 100%);
+  min-height: 100vh;
+}
+
+.admin-shell {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+.admin-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.admin-top-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.admin-user {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--stone);
+}
+
+.admin-gate,
+.admin-app {
+  background: rgba(255, 249, 240, 0.92);
+  border: 1px solid rgba(92, 61, 46, 0.12);
+  padding: 1.25rem 1.35rem;
+}
+
+.admin-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.admin-muted {
+  color: var(--smoke);
+  font-size: 0.88rem;
+  margin: 0;
+}
+
+.admin-empty {
+  color: var(--stone);
+}
+
+.admin-card {
+  border-top: 1px solid rgba(92, 61, 46, 0.12);
+  padding: 1rem 0;
+}
+
+.admin-card-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.4rem;
+}
+
+.admin-badge {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--sindoor);
+  font-weight: 700;
+}
+
+.admin-page {
+  margin: 0.35rem 0;
+  font-size: 0.92rem;
+}
+
+.admin-page code {
+  font-size: 0.8rem;
+  color: var(--smoke);
+}
+
+.admin-note-body {
+  white-space: pre-wrap;
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.admin-meta {
+  font-size: 0.85rem;
+  color: var(--stone);
+}
+
+.admin-actions {
+  display: grid;
+  gap: 0.55rem;
+  margin-top: 0.65rem;
+}
+
+.admin-actions label {
+  display: grid;
+  gap: 0.25rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.admin-actions select,
+.admin-actions input {
+  font: inherit;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid rgba(92, 61, 46, 0.2);
+  background: #fff;
+}
 
 @media (max-width: 720px) {
   .feedback-panel {

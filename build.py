@@ -526,6 +526,8 @@ def footer(prefix: str = "") -> str:
     <p>© 2026 TirthaYatra. Informational home-devotion &amp; temple guide — not affiliated with any temple trust. Photos via Wikimedia Commons (see credits). Traditional narratives retold for learning; confirm ritual timing with your panchang or family priest.</p>
   </div>
 </footer>
+<script src="{prefix}js/firebase-public.js?v={ASSET_VER}"></script>
+<script src="{prefix}js/firebase-app.js?v={ASSET_VER}"></script>
 <script src="{prefix}js/main.js?v={ASSET_VER}"></script>
 <script src="{prefix}js/search.js?v={ASSET_VER}"></script>
 <script src="{prefix}js/board.js?v={ASSET_VER}"></script>
@@ -2501,6 +2503,92 @@ def write_today_bar_data() -> None:
     out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def write_firebase_public_js() -> None:
+    """Public Firebase web config for feedback + admin (no secrets)."""
+    path = DATA / "firebase-public.json"
+    cfg = load_json(path) if path.exists() else {"enabled": False, "adminEmails": [], "firebase": {}}
+    # Strip setup notes from browser bundle
+    public = {
+        "enabled": bool(cfg.get("enabled")),
+        "adminEmails": list(cfg.get("adminEmails") or []),
+        "firebase": cfg.get("firebase") or {},
+    }
+    out = ROOT / "js" / "firebase-public.js"
+    out.write_text(
+        "window.TIRTHA_FIREBASE = "
+        + json.dumps(public, ensure_ascii=False, separators=(",", ":"))
+        + ";\n",
+        encoding="utf-8",
+    )
+
+
+def build_admin_feedback() -> str:
+    """Private editorial inbox — no AdSense, noindex."""
+    prefix = "../"
+    body = f"""
+<div class="admin-shell" data-admin-feedback>
+  <header class="admin-top">
+    <div>
+      <p class="breadcrumb"><a href="{prefix}index.html">TirthaYatra</a> · Admin</p>
+      <h1>Feedback inbox</h1>
+      <p class="lede">Private editorial triage only. Visitor notes are never published live automatically.</p>
+    </div>
+    <div class="admin-top-actions">
+      <p class="admin-user" data-admin-user></p>
+      <button type="button" class="btn btn-ghost" data-admin-signout>Sign out</button>
+      <a class="btn btn-ghost" href="{prefix}index.html">Site home</a>
+    </div>
+  </header>
+
+  <section class="admin-gate" data-admin-gate>
+    <p data-admin-gate-msg>Sign in with Google to open the editorial feedback inbox.</p>
+    <button type="button" class="btn btn-primary" data-admin-signin>Sign in with Google</button>
+    <aside class="belief-disclaimer" style="margin-top:1.5rem">
+      <strong>Setup:</strong> Enable Firebase in <code>data/firebase-public.json</code>, deploy
+      <code>firestore.rules</code>, allowlist your Google email, add Authorized domains in Firebase Auth,
+      then rebuild. Only allowlisted verified Google accounts can read this inbox.
+    </aside>
+  </section>
+
+  <section class="admin-app" data-admin-app hidden>
+    <div class="admin-toolbar">
+      <label>Filter
+        <select data-admin-filter>
+          <option value="new">New</option>
+          <option value="reviewed">Reviewed</option>
+          <option value="done">Done</option>
+          <option value="spam">Spam</option>
+          <option value="all">All</option>
+        </select>
+      </label>
+      <p class="admin-muted">Statuses are for editors only — they do not show on public pages.</p>
+    </div>
+    <div data-admin-list></div>
+  </section>
+</div>
+<script src="{prefix}js/firebase-public.js?v={ASSET_VER}"></script>
+<script src="{prefix}js/firebase-app.js?v={ASSET_VER}"></script>
+<script src="{prefix}js/admin-feedback.js?v={ASSET_VER}"></script>
+</body>
+</html>
+"""
+    # Minimal head: no AdSense on admin tools
+    head_html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Feedback inbox — TirthaYatra Admin</title>
+  <meta name="description" content="Private TirthaYatra editorial feedback inbox." />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="theme-color" content="#2a160e" />
+  <link rel="stylesheet" href="{prefix}css/main.css?v={ASSET_VER}" />
+</head>
+<body class="admin-body" data-default-lang="en">
+"""
+    return head_html + body
+
+
 def _sitemap_url_entry(
     path: str,
     *,
@@ -2791,6 +2879,7 @@ def write_sitemap(
         "Allow: /favicon.png",
         "Allow: /favicon-48x48.png",
         "Allow: /assets/icons/",
+        "Disallow: /admin/",
         "",
         f"Sitemap: {SITE_URL}/sitemap.xml",
         f"Sitemap: {SITE_URL}/sitemap-all.xml",
@@ -3184,7 +3273,7 @@ def main() -> None:
                     [
                         'Editorial email: <a href="mailto:TirthaYatraOnline@gmail.com">TirthaYatraOnline@gmail.com</a>',
                         "Use this address for temple corrections, image credit updates, suggestions for new guides, partnership questions, or privacy requests. We aim to reply within 2–5 business days.",
-                        'Prefer a guided form? Use <a href="../pages/feedback.html">Feedback</a> or the Feedback button on any page — then choose <strong>Email to TirthaYatra</strong> so your note reaches us.',
+                        'Prefer a guided form? Use <a href="../pages/feedback.html">Feedback</a> or the Feedback button on any page — then choose <strong>Send feedback</strong> so your note reaches editors.',
                     ],
                 ),
                 (
@@ -3203,7 +3292,7 @@ def main() -> None:
                     "Help improve TirthaYatra",
                     [
                         "Use the <strong>Feedback</strong> button (bottom-right on every page) to suggest a correction, add a detail, highlight something useful, ask a question, or share appreciation.",
-                        "Choose a type, write a clear note, then <strong>Email to TirthaYatra</strong> so editors can review it. You may also save a personal copy on this device.",
+                        "Choose a type, write a clear note, then <strong>Send feedback</strong>. Notes are stored privately for TirthaYatra editors. You may also save a personal copy on this device.",
                         "Feedback is for editorial review and is <strong>not published live automatically</strong>. That protects readers from spam and keeps us aligned with advertising and copyright policies.",
                     ],
                 ),
@@ -3229,7 +3318,7 @@ def main() -> None:
                 (
                     "Last updated",
                     [
-                        "12 August 2026.",
+                        "20 August 2026.",
                     ],
                 ),
                 (
@@ -3237,9 +3326,11 @@ def main() -> None:
                     [
                         "TirthaYatra is primarily a static informational website for home devotion and temple learning.",
                         "Optional My Board saves, checklists, practice marks, and personal copies of feedback notes may be stored locally in your browser (localStorage) and are not uploaded automatically.",
-                        "When you choose <strong>Email to TirthaYatra</strong>, your feedback opens in your email app and is sent to us only if you send that message. We use emailed feedback for editorial review and corrections.",
+                        "When you choose <strong>Send feedback</strong>, your note (and optional name/email) is stored privately in our editorial inbox (Firebase/Firestore) for review and corrections. Feedback is <strong>not published on the website automatically</strong>.",
+                        "If Firebase is temporarily unavailable, the form may fall back to opening your email app so you can message us directly.",
                         "We use Vercel Web Analytics for aggregated page-view statistics (privacy-friendly, cookieless where supported by the platform).",
                         "Embedded Google Maps and YouTube players may set cookies or similar technologies according to Google’s policies.",
+                        "The private admin inbox uses Google Authentication for allowlisted editors only.",
                     ],
                 ),
                 (
@@ -3248,7 +3339,7 @@ def main() -> None:
                         "TirthaYatra uses <strong>Google AdSense</strong> to display third-party advertisements. Google and its partners may use cookies, device identifiers, or similar technologies to serve and measure ads, including personalized ads where allowed by your settings and applicable law.",
                         'You can manage ad personalization at <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">Google Ad Settings</a> and learn more in <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google’s advertising technologies policy</a>.',
                         "We place ads according to Google’s publisher policies. Ads do not imply endorsement of rituals, deities, or temple trusts. We do not use My Board saves, practice streaks, or feedback notes to build advertising profiles of religious beliefs.",
-                        "Visitor feedback is moderated before any public display. My Board / practice data stays on-device unless a future sync feature is clearly disclosed.",
+                        "Visitor feedback is moderated before any public display. Unreviewed feedback is never shown as live comments or tips next to ads. My Board / practice data stays on-device unless a future sync feature is clearly disclosed.",
                     ],
                 ),
                 (
@@ -3362,6 +3453,14 @@ def main() -> None:
                 ],
             ),
             (
+                "Feedback inbox (Firebase)",
+                [
+                    f"Editors review visitor notes at <a href=\"{SITE_URL}/admin/feedback.html\">{SITE_URL}/admin/feedback.html</a> (Google sign-in, allowlisted emails only).",
+                    "Configure <code>data/firebase-public.json</code> (set <code>enabled: true</code> + web config), deploy <code>firestore.rules</code> in Firebase Console, add Authorized domains, then rebuild.",
+                    "Feedback is private editorial mail — never auto-published next to ads.",
+                ],
+            ),
+            (
                 "Language tip",
                 [
                     "Use the <strong>हिंदी | EN</strong> toggle on guides and stories. Sawan, Kanwar, Chalisa, and Shiva pages default Hindi-first for first-time visitors from Hindi search.",
@@ -3377,6 +3476,11 @@ def main() -> None:
         )
 
     write_today_bar_data()
+    write_firebase_public_js()
+    admin_dir = ROOT / "admin"
+    admin_dir.mkdir(parents=True, exist_ok=True)
+    (admin_dir / "feedback.html").write_text(build_admin_feedback(), encoding="utf-8")
+    (admin_dir / "robots.txt").write_text("User-agent: *\nDisallow: /\n", encoding="utf-8")
     n_urls = write_sitemap(index, circuits, india_states)
     print(
         f"Built {len(detailed)} temples, {len(circuits)} circuits, "
