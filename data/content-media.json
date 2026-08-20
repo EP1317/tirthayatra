@@ -40,26 +40,6 @@
       "local": "assets/festivals/maha-shivaratri.jpg",
       "kind": "festival"
     },
-    "holi": {
-      "filename": "Life in colour - Holi at Mathura.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Life_in_colour_-_Holi_at_Mathura.jpg/1280px-Life_in_colour_-_Holi_at_Mathura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Life_in_colour_-_Holi_at_Mathura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:Life_in_colour_-_Holi_at_Mathura.jpg",
-      "credit": "Jayteesydney",
-      "license": "CC BY-SA 4.0",
-      "local": "assets/festivals/holi.jpg",
-      "kind": "festival"
-    },
-    "gudi-padwa": {
-      "filename": "A gudi kept in an old house on Gudi Padwa 2025.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/A_gudi_kept_in_an_old_house_on_Gudi_Padwa_2025.jpg/1280px-A_gudi_kept_in_an_old_house_on_Gudi_Padwa_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/A_gudi_kept_in_an_old_house_on_Gudi_Padwa_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:A_gudi_kept_in_an_old_house_on_Gudi_Padwa_2025.jpg",
-      "credit": "DesiBoy101",
-      "license": "CC BY 4.0",
-      "local": "assets/festivals/gudi-padwa.jpg",
-      "kind": "festival"
-    },
     "raksha-bandhan": {
       "filename": "Raksha Bandhan 2.jpg",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Raksha_Bandhan_2.jpg/1280px-Raksha_Bandhan_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -230,16 +210,6 @@
       "local": "assets/festivals/ugadi.jpg",
       "kind": "festival"
     },
-    "vaisakhi": {
-      "filename": "Woman traditionally dressed for Baisakhi Vaisakhi Indian festival.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Woman_traditionally_dressed_for_Baisakhi_Vaisakhi_Indian_festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Woman_traditionally_dressed_for_Baisakhi_Vaisakhi_Indian_festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:Woman_traditionally_dressed_for_Baisakhi_Vaisakhi_Indian_festival.jpg",
-      "credit": "Marco Ghitti from Brescia, Lombardia ,Italia",
-      "license": "CC BY 2.0",
-      "local": "assets/festivals/vaisakhi.jpg",
-      "kind": "festival"
-    },
     "dhanteras": {
       "filename": "Raja Ravi Varma, Goddess Lakshmi, 1896.jpg",
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Raja_Ravi_Varma%2C_Goddess_Lakshmi%2C_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -260,16 +230,6 @@
       "local": "assets/festivals/kartik-purnima.jpg",
       "kind": "festival"
     },
-    "hartalika-teej": {
-      "filename": "Teej Festival.JPG",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Teej_Festival.JPG/1280px-Teej_Festival.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Teej_Festival.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:Teej_Festival.JPG",
-      "credit": "Drpaudel",
-      "license": "CC BY-SA 3.0",
-      "local": "assets/festivals/hartalika-teej.jpg",
-      "kind": "festival"
-    },
     "vat-savitri": {
       "filename": "Savitri and Satyavan.jpg",
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Savitri_and_Satyavan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -288,16 +248,6 @@
       "credit": "anonymous, may be Raja Ravi Varma",
       "license": "Public domain",
       "local": "assets/festivals/shravan-sawan.jpg",
-      "kind": "festival"
-    },
-    "nag-panchami": {
-      "filename": "Naga.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Naga.jpg/1280px-Naga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Naga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:Naga.jpg",
-      "credit": "Yuwono Halim",
-      "license": "CC BY-SA 4.0",
-      "local": "assets/festivals/nag-panchami.jpg",
       "kind": "festival"
     },
     "kanwar-yatra": {
@@ -410,6 +360,56 @@
       "local": "assets/festivals/bhai-dooj.jpg",
       "kind": "festival",
       "note": "shared Diwali-season art"
+    },
+    "nag-panchami": {
+      "filename": "Vishnu and Lakshmi on Shesha Naga, ca 1870.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Vishnu_and_Lakshmi_on_Shesha_Naga%2C_ca_1870.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Vishnu_and_Lakshmi_on_Shesha_Naga%2C_ca_1870.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Vishnu_and_Lakshmi_on_Shesha_Naga%2C_ca_1870.jpg",
+      "credit": "AnonymousUnknown author",
+      "license": "Public domain",
+      "local": "assets/festivals/nag-panchami.jpg",
+      "kind": "festivals"
+    },
+    "hartalika-teej": {
+      "filename": "An Oleograph of Shiva, Parvati and Nandi by Raja Ravi Varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/An_Oleograph_of_Shiva%2C_Parvati_and_Nandi_by_Raja_Ravi_Varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/An_Oleograph_of_Shiva%2C_Parvati_and_Nandi_by_Raja_Ravi_Varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:An_Oleograph_of_Shiva%2C_Parvati_and_Nandi_by_Raja_Ravi_Varma.jpg",
+      "credit": "Raja Ravi Varma (1848-1906)",
+      "license": "Public domain",
+      "local": "assets/festivals/hartalika-teej.jpg",
+      "kind": "festivals"
+    },
+    "gudi-padwa": {
+      "filename": "Coronation of Rama, Folio from a Ramayana (Adventures of Rama) LACMA AC1993.123.1.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Coronation_of_Rama%2C_Folio_from_a_Ramayana_%28Adventures_of_Rama%29_LACMA_AC1993.123.1.jpg/1280px-Coronation_of_Rama%2C_Folio_from_a_Ramayana_%28Adventures_of_Rama%29_LACMA_AC1993.123.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Coronation_of_Rama%2C_Folio_from_a_Ramayana_%28Adventures_of_Rama%29_LACMA_AC1993.123.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Coronation_of_Rama%2C_Folio_from_a_Ramayana_%28Adventures_of_Rama%29_LACMA_AC1993.123.1.jpg",
+      "credit": "Wikimedia contributor",
+      "license": "Public domain",
+      "local": "assets/festivals/gudi-padwa.jpg",
+      "kind": "festivals"
+    },
+    "vaisakhi": {
+      "filename": "Suryabhagavan.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Suryabhagavan.jpg/1280px-Suryabhagavan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Suryabhagavan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Suryabhagavan.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "local": "assets/festivals/vaisakhi.jpg",
+      "kind": "festivals"
+    },
+    "holi": {
+      "filename": "3 Nichal Chand (attr) Krishna Celebrates Holi with Radha and the Gopis 1750-60 Boston MFA.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/3_Nichal_Chand_%28attr%29_Krishna_Celebrates_Holi_with_Radha_and_the_Gopis_1750-60_Boston_MFA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/3_Nichal_Chand_%28attr%29_Krishna_Celebrates_Holi_with_Radha_and_the_Gopis_1750-60_Boston_MFA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:3_Nichal_Chand_%28attr%29_Krishna_Celebrates_Holi_with_Radha_and_the_Gopis_1750-60_Boston_MFA.jpg",
+      "credit": "Nihâl Chand",
+      "license": "Public domain",
+      "local": "assets/festivals/holi.jpg",
+      "kind": "festival"
     }
   },
   "stories": {
@@ -795,26 +795,6 @@
     }
   },
   "deities": {
-    "ayyappa": {
-      "filename": "Ayyappa.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Ayyappa.jpg/1280px-Ayyappa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Ayyappa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:Ayyappa.jpg",
-      "credit": "Waterrules",
-      "license": "CC BY-SA 4.0",
-      "local": "assets/deities-art/ayyappa.jpg",
-      "kind": "deity"
-    },
-    "brahma": {
-      "filename": "Brahma.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Brahma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Brahma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page": "https://commons.wikimedia.org/wiki/File:Brahma.jpg",
-      "credit": "Renskos at Dutch Wikipedia",
-      "license": "Public domain",
-      "local": "assets/deities-art/brahma.jpg",
-      "kind": "deity"
-    },
     "devi": {
       "filename": "Durga by Raja Ravi Varma.jpg",
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Durga_by_Raja_Ravi_Varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -944,6 +924,26 @@
       "license": "Public domain",
       "local": "assets/deities-art/vishnu.jpg",
       "kind": "deity"
+    },
+    "brahma": {
+      "filename": "Brahma riding on his goose.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Brahma_riding_on_his_goose.jpg/1280px-Brahma_riding_on_his_goose.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Brahma_riding_on_his_goose.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Brahma_riding_on_his_goose.jpg",
+      "credit": "Unknown (production)",
+      "license": "Public domain",
+      "local": "assets/deities-art/brahma.jpg",
+      "kind": "deities"
+    },
+    "ayyappa": {
+      "filename": "Lord Ayyappa old painting.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Lord_Ayyappa_old_painting.jpg/1280px-Lord_Ayyappa_old_painting.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Lord_Ayyappa_old_painting.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Lord_Ayyappa_old_painting.jpg",
+      "credit": "Stephen ronald 369",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/deities-art/ayyappa.jpg",
+      "kind": "deities"
     }
   }
 }
