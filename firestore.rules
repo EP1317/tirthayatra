@@ -5,10 +5,8 @@ service cloud.firestore {
   match /databases/{database}/documents {
     function isAdmin() {
       return request.auth != null
-        && request.auth.token.email_verified == true
-        && request.auth.token.email in [
-          'TirthaYatraOnline@gmail.com'
-        ];
+        && request.auth.token.email != null
+        && request.auth.token.email.lower() == 'tirthayatraonline@gmail.com';
     }
 
     function isValidCreate() {
