@@ -19,6 +19,15 @@
     return root.querySelector(sel);
   }
 
+  var state = {
+    items: [],
+    filter: "new",
+    api: null,
+    user: null,
+    gateDetail: "",
+    rejecting: false,
+  };
+
   function setGate(mode, detail) {
     var gate = $("[data-admin-gate]");
     var app = $("[data-admin-app]");
@@ -26,12 +35,18 @@
     if (mode === "app") {
       gate.hidden = true;
       app.hidden = false;
-    } else {
-      gate.hidden = false;
-      app.hidden = true;
-      var msg = $("[data-admin-gate-msg]");
-      if (msg && detail) msg.textContent = detail;
+      return;
     }
+    gate.hidden = false;
+    app.hidden = true;
+    if (detail) state.gateDetail = detail;
+    var msg = $("[data-admin-gate-msg]");
+    if (msg && state.gateDetail) msg.textContent = state.gateDetail;
+  }
+
+  function allowedHint() {
+    var list = (window.TirthaFirebase && window.TirthaFirebase.adminEmails()) || [];
+    return list.length ? list.join(", ") : "TirthaYatraOnline@gmail.com";
   }
 
   function typeLabel(id) {
@@ -56,7 +71,12 @@
     }
   }
 
-  var state = { items: [], filter: "new", api: null, user: null };
+  function googleProvider() {
+    var provider = new firebase.auth.GoogleAuthProvider();
+    provider.setCustomParameters({ prompt: "select_account" });
+    provider.addScope("email");
+    return provider;
+  }
 
   function renderList() {
     var host = $("[data-admin-list]");
@@ -158,51 +178,114 @@
         console.warn(err);
         if (host) {
           host.innerHTML =
-            '<p class="admin-empty">Could not load feedback. Check Firestore rules and that your Google account is allowlisted.</p>';
+            '<p class="admin-empty">Could not load feedback (' +
+            escapeHtml(err && err.code ? err.code : "error") +
+            "). Check Firestore rules and that Google Auth is enabled.</p>";
         }
       });
   }
 
   function onAuth(user) {
     state.user = user;
+    var userEl = $("[data-admin-user]");
     if (!user) {
-      setGate("gate", "Sign in with Google to open the editorial feedback inbox.");
-      $("[data-admin-user]").textContent = "";
+      if (userEl) userEl.textContent = "";
+      // Keep rejection / error text if we just blocked a non-admin.
+      if (!state.gateDetail) {
+        state.gateDetail =
+          "Sign in with Google using " +
+          allowedHint() +
+          " to open the editorial feedback inbox.";
+      }
+      setGate("gate");
       return;
     }
+
     if (!window.TirthaFirebase.isAdminEmail(user.email)) {
-      state.api.auth.signOut();
-      setGate(
-        "gate",
+      state.rejecting = true;
+      state.gateDetail =
         "Signed in as " +
-          user.email +
-          ", but this account is not on the admin allowlist."
-      );
+        user.email +
+        ", but only these admin emails can open the inbox: " +
+        allowedHint() +
+        ". Click Sign in again and choose the allowlisted account.";
+      setGate("gate");
+      if (userEl) userEl.textContent = "Blocked: " + user.email;
+      state.api.auth.signOut().finally(function () {
+        state.rejecting = false;
+      });
       return;
     }
-    $("[data-admin-user]").textContent = "Signed in as " + user.email;
+
+    state.gateDetail = "";
+    if (userEl) userEl.textContent = "Signed in as " + user.email;
     setGate("app");
     loadItems();
   }
 
   function boot() {
     if (!window.TirthaFirebase || !window.TirthaFirebase.configured()) {
-      setGate(
-        "gate",
-        "Firebase is not enabled yet. Fill data/firebase-public.json (enabled: true + web config), deploy firestore.rules, then rebuild."
-      );
-      $("[data-admin-signin]").disabled = true;
+      state.gateDetail =
+        "Firebase is not enabled yet. Fill data/firebase-public.json, deploy firestore.rules, then rebuild.";
+      setGate("gate");
+      var btn = $("[data-admin-signin]");
+      if (btn) btn.disabled = true;
       return;
     }
+
+    var allowEl = $("[data-admin-allowlist]");
+    if (allowEl) allowEl.textContent = "Allowed admin: " + allowedHint();
+
     window.TirthaFirebase
       .ensureSdk(true)
       .then(function (api) {
         state.api = api;
-        api.auth.onAuthStateChanged(onAuth);
+        return api.auth.getRedirectResult().catch(function (err) {
+          if (err && err.code && err.code !== "auth/redirect-cancelled-by-user") {
+            state.gateDetail =
+              "Google sign-in failed (" +
+              err.code +
+              "). Try again, or use a different browser profile.";
+            setGate("gate");
+          }
+        });
+      })
+      .then(function () {
+        state.api.auth.onAuthStateChanged(onAuth);
       })
       .catch(function (err) {
         console.warn(err);
-        setGate("gate", "Could not load Firebase. Check config and network/CSP.");
+        state.gateDetail =
+          "Could not load Firebase. Check config, network, and that Authentication → Google is enabled.";
+        setGate("gate");
+      });
+  }
+
+  function startSignIn() {
+    if (!state.api) return;
+    state.gateDetail = "Opening Google sign-in… choose " + allowedHint();
+    setGate("gate");
+    var provider = googleProvider();
+    // Prefer popup; fall back to redirect if popup blocked.
+    state.api.auth
+      .signInWithPopup(provider)
+      .catch(function (err) {
+        console.warn("popup sign-in failed", err);
+        if (
+          err &&
+          (err.code === "auth/popup-blocked" ||
+            err.code === "auth/popup-closed-by-user" ||
+            err.code === "auth/cancelled-popup-request")
+        ) {
+          state.gateDetail = "Popup blocked or closed — redirecting to Google…";
+          setGate("gate");
+          return state.api.auth.signInWithRedirect(provider);
+        }
+        state.gateDetail =
+          "Google sign-in failed" +
+          (err && err.code ? " (" + err.code + ")" : "") +
+          ". Confirm Authentication → Google is enabled and Authorized domains include www.tirthayatraonline.in.";
+        setGate("gate");
       });
   }
 
@@ -210,16 +293,14 @@
     var signIn = ev.target.closest("[data-admin-signin]");
     if (signIn) {
       ev.preventDefault();
-      if (!state.api) return;
-      var provider = new firebase.auth.GoogleAuthProvider();
-      provider.setCustomParameters({ prompt: "select_account" });
-      // Redirect avoids COOP/popup blockers on some browsers.
-      state.api.auth.signInWithRedirect(provider);
+      startSignIn();
       return;
     }
     var signOut = ev.target.closest("[data-admin-signout]");
     if (signOut) {
       ev.preventDefault();
+      state.gateDetail =
+        "Signed out. Sign in with Google using " + allowedHint() + ".";
       if (state.api) state.api.auth.signOut();
       return;
     }
@@ -267,13 +348,5 @@
     }
   });
 
-  // Finish redirect sign-in if present.
-  if (window.TirthaFirebase && window.TirthaFirebase.configured()) {
-    window.TirthaFirebase.ensureSdk(true).then(function (api) {
-      state.api = api;
-      return api.auth.getRedirectResult().catch(function () {});
-    }).finally(boot);
-  } else {
-    boot();
-  }
+  boot();
 })();

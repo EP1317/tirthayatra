@@ -7,7 +7,7 @@
   <meta name="description" content="Private TirthaYatra editorial feedback inbox." />
   <meta name="robots" content="noindex,nofollow" />
   <meta name="theme-color" content="#2a160e" />
-  <link rel="stylesheet" href="../css/main.css?v=1787233334" />
+  <link rel="stylesheet" href="../css/main.css?v=1787235682" />
 </head>
 <body class="admin-body" data-default-lang="en">
 
@@ -27,11 +27,13 @@
 
   <section class="admin-gate" data-admin-gate>
     <p data-admin-gate-msg>Sign in with Google to open the editorial feedback inbox.</p>
+    <p class="admin-muted" data-admin-allowlist></p>
     <button type="button" class="btn btn-primary" data-admin-signin>Sign in with Google</button>
     <aside class="belief-disclaimer" style="margin-top:1.5rem">
-      <strong>Setup:</strong> Enable Firebase in <code>data/firebase-public.json</code>, deploy
-      <code>firestore.rules</code>, allowlist your Google email, add Authorized domains in Firebase Auth,
-      then rebuild. Only allowlisted verified Google accounts can read this inbox.
+      <strong>Note:</strong> Use the allowlisted Google account only
+      (<code>TirthaYatraOnline@gmail.com</code>). Other Google accounts are signed out automatically.
+      Also confirm Firebase Authentication → Google is enabled, and Authorized domains include
+      <code>www.tirthayatraonline.in</code>.
     </aside>
   </section>
 
@@ -51,8 +53,8 @@
     <div data-admin-list></div>
   </section>
 </div>
-<script src="../js/firebase-public.js?v=1787233334"></script>
-<script src="../js/firebase-app.js?v=1787233334"></script>
-<script src="../js/admin-feedback.js?v=1787233334"></script>
+<script src="../js/firebase-public.js?v=1787235682"></script>
+<script src="../js/firebase-app.js?v=1787235682"></script>
+<script src="../js/admin-feedback.js?v=1787235682"></script>
 </body>
 </html>

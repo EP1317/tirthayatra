@@ -2542,11 +2542,13 @@ def build_admin_feedback() -> str:
 
   <section class="admin-gate" data-admin-gate>
     <p data-admin-gate-msg>Sign in with Google to open the editorial feedback inbox.</p>
+    <p class="admin-muted" data-admin-allowlist></p>
     <button type="button" class="btn btn-primary" data-admin-signin>Sign in with Google</button>
     <aside class="belief-disclaimer" style="margin-top:1.5rem">
-      <strong>Setup:</strong> Enable Firebase in <code>data/firebase-public.json</code>, deploy
-      <code>firestore.rules</code>, allowlist your Google email, add Authorized domains in Firebase Auth,
-      then rebuild. Only allowlisted verified Google accounts can read this inbox.
+      <strong>Note:</strong> Use the allowlisted Google account only
+      (<code>TirthaYatraOnline@gmail.com</code>). Other Google accounts are signed out automatically.
+      Also confirm Firebase Authentication → Google is enabled, and Authorized domains include
+      <code>www.tirthayatraonline.in</code>.
     </aside>
   </section>
 
