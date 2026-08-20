@@ -44,11 +44,6 @@
     if (msg && state.gateDetail) msg.textContent = state.gateDetail;
   }
 
-  function allowedHint() {
-    var list = (window.TirthaFirebase && window.TirthaFirebase.adminEmails()) || [];
-    return list.length ? list.join(", ") : "TirthaYatraOnline@gmail.com";
-  }
-
   function typeLabel(id) {
     var map = {
       correction: "Correction",
@@ -176,11 +171,19 @@
       })
       .catch(function (err) {
         console.warn(err);
+        var code = err && err.code ? err.code : "";
+        if (code === "permission-denied") {
+          state.gateDetail =
+            "This Google account is not authorized for the editorial inbox.";
+          setGate("gate");
+          if (state.api && state.api.auth) state.api.auth.signOut();
+          return;
+        }
         if (host) {
           host.innerHTML =
-            '<p class="admin-empty">Could not load feedback (' +
-            escapeHtml(err && err.code ? err.code : "error") +
-            "). Check Firestore rules and that Google Auth is enabled.</p>";
+            '<p class="admin-empty">Could not load feedback' +
+            (code ? " (" + escapeHtml(code) + ")" : "") +
+            ".</p>";
         }
       });
   }
@@ -190,35 +193,16 @@
     var userEl = $("[data-admin-user]");
     if (!user) {
       if (userEl) userEl.textContent = "";
-      // Keep rejection / error text if we just blocked a non-admin.
       if (!state.gateDetail) {
         state.gateDetail =
-          "Sign in with Google using " +
-          allowedHint() +
-          " to open the editorial feedback inbox.";
+          "Sign in with Google to open the editorial feedback inbox.";
       }
       setGate("gate");
       return;
     }
 
-    if (!window.TirthaFirebase.isAdminEmail(user.email)) {
-      state.rejecting = true;
-      state.gateDetail =
-        "Signed in as " +
-        user.email +
-        ", but only these admin emails can open the inbox: " +
-        allowedHint() +
-        ". Click Sign in again and choose the allowlisted account.";
-      setGate("gate");
-      if (userEl) userEl.textContent = "Blocked: " + user.email;
-      state.api.auth.signOut().finally(function () {
-        state.rejecting = false;
-      });
-      return;
-    }
-
-    state.gateDetail = "";
     if (userEl) userEl.textContent = "Signed in as " + user.email;
+    state.gateDetail = "";
     setGate("app");
     loadItems();
   }
@@ -234,7 +218,7 @@
     }
 
     var allowEl = $("[data-admin-allowlist]");
-    if (allowEl) allowEl.textContent = "Allowed admin: " + allowedHint();
+    if (allowEl) allowEl.remove();
 
     window.TirthaFirebase
       .ensureSdk(true)
@@ -263,7 +247,7 @@
 
   function startSignIn() {
     if (!state.api) return;
-    state.gateDetail = "Opening Google sign-in… choose " + allowedHint();
+    state.gateDetail = "Opening Google sign-in…";
     setGate("gate");
     var provider = googleProvider();
     // Prefer popup; fall back to redirect if popup blocked.
@@ -284,7 +268,7 @@
         state.gateDetail =
           "Google sign-in failed" +
           (err && err.code ? " (" + err.code + ")" : "") +
-          ". Confirm Authentication → Google is enabled and Authorized domains include www.tirthayatraonline.in.";
+          ". Confirm Authentication → Google is enabled and this site domain is authorized.";
         setGate("gate");
       });
   }
@@ -299,8 +283,7 @@
     var signOut = ev.target.closest("[data-admin-signout]");
     if (signOut) {
       ev.preventDefault();
-      state.gateDetail =
-        "Signed out. Sign in with Google using " + allowedHint() + ".";
+      state.gateDetail = "Signed out. Sign in with Google to continue.";
       if (state.api) state.api.auth.signOut();
       return;
     }

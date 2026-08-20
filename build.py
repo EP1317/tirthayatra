@@ -2507,10 +2507,9 @@ def write_firebase_public_js() -> None:
     """Public Firebase web config for feedback + admin (no secrets)."""
     path = DATA / "firebase-public.json"
     cfg = load_json(path) if path.exists() else {"enabled": False, "adminEmails": [], "firebase": {}}
-    # Strip setup notes from browser bundle
+    # Do not ship adminEmails to the browser (avoid advertising allowlisted accounts).
     public = {
         "enabled": bool(cfg.get("enabled")),
-        "adminEmails": list(cfg.get("adminEmails") or []),
         "firebase": cfg.get("firebase") or {},
     }
     out = ROOT / "js" / "firebase-public.js"
@@ -2542,13 +2541,10 @@ def build_admin_feedback() -> str:
 
   <section class="admin-gate" data-admin-gate>
     <p data-admin-gate-msg>Sign in with Google to open the editorial feedback inbox.</p>
-    <p class="admin-muted" data-admin-allowlist></p>
     <button type="button" class="btn btn-primary" data-admin-signin>Sign in with Google</button>
     <aside class="belief-disclaimer" style="margin-top:1.5rem">
-      <strong>Note:</strong> Use the allowlisted Google account only
-      (<code>TirthaYatraOnline@gmail.com</code>). Other Google accounts are signed out automatically.
-      Also confirm Firebase Authentication → Google is enabled, and Authorized domains include
-      <code>www.tirthayatraonline.in</code>.
+      <strong>Note:</strong> Only allowlisted editor Google accounts can open this inbox.
+      Other accounts are signed out automatically. This page is private editorial use and is not indexed for search.
     </aside>
   </section>
 
