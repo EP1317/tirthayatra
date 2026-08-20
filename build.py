@@ -415,6 +415,46 @@ def panchang_widget(prefix: str = "") -> str:
 """
 
 
+def brand_mark_html() -> str:
+    """Inline Classic Diya mark so CSS can animate the flame/glow (img SVG cannot)."""
+    return """<span class="nav-brand-mark" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" focusable="false">
+        <defs>
+          <radialGradient id="tyNavBg" cx="50%" cy="40%" r="70%">
+            <stop offset="0%" stop-color="#3d2216"/>
+            <stop offset="100%" stop-color="#140a06"/>
+          </radialGradient>
+          <linearGradient id="tyNavBrass" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#f4dea0"/>
+            <stop offset="55%" stop-color="#e2c36a"/>
+            <stop offset="100%" stop-color="#8a5a1e"/>
+          </linearGradient>
+          <linearGradient id="tyNavFlame" x1="0.5" y1="1" x2="0.5" y2="0">
+            <stop offset="0%" stop-color="#9e2a14"/>
+            <stop offset="40%" stop-color="#e07a12"/>
+            <stop offset="100%" stop-color="#fff3c8"/>
+          </linearGradient>
+          <radialGradient id="tyNavGlow" cx="50%" cy="45%" r="50%">
+            <stop offset="0%" stop-color="#f4dea0" stop-opacity="0.55"/>
+            <stop offset="100%" stop-color="#f4dea0" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <circle cx="64" cy="64" r="62" fill="url(#tyNavBg)"/>
+        <circle class="ty-glow" cx="64" cy="58" r="38" fill="url(#tyNavGlow)"/>
+        <ellipse cx="64" cy="78" rx="28" ry="6" fill="#2a160e"/>
+        <ellipse cx="64" cy="76" rx="26" ry="4.5" fill="#5c3a1e"/>
+        <path d="M30 74c2 14 14 24 34 24s32-10 34-24c-6 4-18 7-34 7s-28-3-34-7z" fill="url(#tyNavBrass)"/>
+        <path d="M28 72h72c2 0 3 2 2.2 3.6C98 84 84 92 64 92S30 84 25.8 75.6C25 74 26 72 28 72z" fill="url(#tyNavBrass)"/>
+        <ellipse cx="64" cy="72" rx="36" ry="7" fill="#f4dea0" opacity="0.9"/>
+        <rect x="62.2" y="58" width="3.6" height="16" rx="1.5" fill="#3a2818"/>
+        <g class="ty-flame">
+          <path d="M64 28c8 10 9 20 3 28-4 5.5-10 5-12.5 0.5-3.5-6-1-16 9.5-28.5z" fill="url(#tyNavFlame)"/>
+          <path d="M64 40c3.5 4.5 4 9 1.2 12.2-2.2 2.5-5.5 2.2-6.8-.2-1.8-3.2-.4-8 5.6-12z" fill="#fff8e0" opacity="0.85"/>
+        </g>
+      </svg>
+    </span>"""
+
+
 def nav(active: str = "", prefix: str = "", *, show_panchang: bool = False) -> str:
     links = [
         ("index.html", "Home", "home"),
@@ -441,7 +481,7 @@ def nav(active: str = "", prefix: str = "", *, show_panchang: bool = False) -> s
 <header class="site-nav">
   <div class="nav-left">
     <a class="nav-brand" href="{prefix}index.html">
-      <img class="nav-brand-mark" src="{prefix}assets/icons/logo.svg" width="36" height="36" alt="" />
+      {brand_mark_html()}
       <span class="nav-brand-text">TirthaYatra <span>तीर्थयात्रा</span></span>
     </a>
     {search_widget(prefix)}

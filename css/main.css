@@ -273,6 +273,49 @@ a:hover { color: var(--vermillion); }
   border-radius: 50%;
   box-shadow: 0 0 0 1px rgba(226, 195, 106, 0.35), 0 0 18px var(--glow-diya);
   background: var(--dusk);
+  overflow: hidden;
+  display: inline-flex;
+  animation: brandMarkGlow 2.8s ease-in-out infinite;
+}
+
+.nav-brand-mark svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.nav-brand-mark .ty-glow {
+  transform-origin: 64px 58px;
+  animation: diyaGlowPulse 2.8s ease-in-out infinite;
+}
+
+.nav-brand-mark .ty-flame {
+  transform-origin: 64px 72px;
+  animation: diyaFlameFlicker 1.6s ease-in-out infinite;
+}
+
+@keyframes brandMarkGlow {
+  0%, 100% { box-shadow: 0 0 0 1px rgba(226, 195, 106, 0.28), 0 0 10px rgba(226, 195, 106, 0.22); }
+  45% { box-shadow: 0 0 0 1px rgba(244, 222, 160, 0.55), 0 0 22px rgba(224, 122, 18, 0.45); }
+}
+
+@keyframes diyaGlowPulse {
+  0%, 100% { opacity: 0.35; transform: scale(0.92); }
+  45% { opacity: 1; transform: scale(1.08); }
+}
+
+@keyframes diyaFlameFlicker {
+  0%, 100% { transform: translateY(1px) scaleY(0.94) scaleX(1); }
+  30% { transform: translateY(-2px) scaleY(1.06) scaleX(0.96); }
+  60% { transform: translateY(0) scaleY(1) scaleX(1.03); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-brand-mark,
+  .nav-brand-mark .ty-glow,
+  .nav-brand-mark .ty-flame {
+    animation: none !important;
+  }
 }
 
 .nav-brand-text {

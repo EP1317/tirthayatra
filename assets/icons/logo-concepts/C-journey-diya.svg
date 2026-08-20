@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Concept C Journey Diya">
+  <defs>
+    <radialGradient id="c-bg" cx="50%" cy="42%" r="68%"><stop offset="0%" stop-color="#2f1a10"/><stop offset="100%" stop-color="#100805"/></radialGradient>
+    <linearGradient id="c-brass" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f0d78a"/><stop offset="100%" stop-color="#9a6a28"/></linearGradient>
+    <linearGradient id="c-flame" x1="0.5" y1="1" x2="0.5" y2="0"><stop offset="0%" stop-color="#9e2a14"/><stop offset="55%" stop-color="#e2a012"/><stop offset="100%" stop-color="#fff6d0"/></linearGradient>
+    <radialGradient id="c-glow" cx="50%" cy="48%" r="45%"><stop offset="0%" stop-color="#e2c36a" stop-opacity="0.45"/><stop offset="100%" stop-color="#e2c36a" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#c-bg)"/>
+  <circle class="glow" cx="64" cy="60" r="34" fill="url(#c-glow)"/>
+  <!-- path / yatra arc -->
+  <path d="M22 88c18-28 30-40 42-44 12 4 24 16 42 44" fill="none" stroke="#e2c36a" stroke-width="2.2" stroke-linecap="round" opacity="0.55"/>
+  <circle cx="28" cy="86" r="3" fill="#e2c36a" opacity="0.7"/>
+  <circle cx="100" cy="86" r="3" fill="#e2c36a" opacity="0.7"/>
+  <!-- diya -->
+  <path d="M44 78h40c1.8 0 2.8 1.4 2.2 3C83 90 75 96 64 96s-19-6-22.2-15c-.6-1.6.4-3 2.2-3z" fill="url(#c-brass)"/>
+  <ellipse cx="64" cy="78" rx="20" ry="4" fill="#f4dea0"/>
+  <g class="flame">
+    <path d="M64 40c6 8 7 15 2.8 21-3.2 4.5-8.5 4-10.5-.2-2.8-5.5-.5-13.5 7.7-20.8z" fill="url(#c-flame)"/>
+    <path d="M64 50c2.6 3.4 3 6.8 1 9-1.6 1.8-4 1.6-4.8-.2-1.3-2.4-.2-6 3.8-8.8z" fill="#fff8e0" opacity="0.88"/>
+  </g>
+</svg>
