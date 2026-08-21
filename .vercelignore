@@ -1,5 +1,6 @@
-# Exclude build tooling / Firebase CLI config / reports from the public static deploy.
-# Keep vercel.json OUT of this list so Vercel always applies headers/routes.
+# Exclude tooling / Firebase CLI config / reports from the public static deploy.
+# Keep vercel.json and Python build scripts available for Vercel buildCommand.
+# Python sources are deleted after build (see vercel.json buildCommand).
 .git
 .tools
 .cursor
@@ -8,7 +9,6 @@
 *.pyc
 scripts/
 *.md
-*.py
 *.jsonl
 .gitignore
 .vercelignore
