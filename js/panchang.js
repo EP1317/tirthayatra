@@ -336,8 +336,9 @@
 
   if (toggle && panel) {
     toggle.addEventListener("click", function (ev) {
+      ev.preventDefault();
       ev.stopPropagation();
-      if (panel.hidden) openPanel();
+      if (panel.hasAttribute("hidden")) openPanel();
       else closePanel();
     });
     document.addEventListener("click", function (ev) {

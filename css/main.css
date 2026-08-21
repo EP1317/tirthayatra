@@ -66,6 +66,7 @@ a:hover { color: var(--vermillion); }
   border-bottom: 1px solid rgba(226, 195, 106, 0.25);
   width: 100%;
   max-width: 100vw;
+  overflow: visible;
 }
 
 /* Brand + search sit together on the left */
@@ -93,7 +94,7 @@ a:hover { color: var(--vermillion); }
   gap: 0.55rem clamp(0.65rem, 1.2vw, 1rem);
   min-width: 0;
   flex: 1 1 0;
-  overflow: hidden;
+  overflow: visible; /* must allow panchang dropdown below the chip */
 }
 
 .visually-hidden {
@@ -360,6 +361,8 @@ a:hover { color: var(--vermillion); }
   align-items: center;
   justify-content: flex-end;
   min-width: 0;
+  flex: 1 1 auto;
+  overflow: hidden; /* clip long link rows without clipping panchang panel */
 }
 
 .nav-links a {
@@ -478,6 +481,11 @@ a:hover { color: var(--vermillion); }
   color: var(--ink);
   border: 1px solid rgba(92, 61, 46, 0.18);
   box-shadow: 0 16px 40px rgba(28, 18, 12, 0.28);
+  z-index: 200;
+}
+
+.panchang-panel[hidden] {
+  display: none !important;
 }
 
 .panchang-panel-title {
