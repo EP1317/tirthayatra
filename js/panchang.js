@@ -228,12 +228,8 @@
     root.classList.toggle("is-festival", isFest);
     root.classList.toggle("is-observance", any && !isFest);
 
-    var dateLabel =
-      pan.day +
-      "/" +
-      pad(pan.month) +
-      " · " +
-      pan.varaEn.slice(0, 3);
+    /* Compact chip label — full weekday stays in the panel */
+    var dateLabel = pan.day + "/" + pad(pan.month);
     if (chipDate) chipDate.textContent = dateLabel;
     if (chipTithi) {
       chipTithi.textContent =
