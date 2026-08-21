@@ -269,6 +269,11 @@ STORY_FILES: dict[str, list[str]] = {
     "venkateswara-srinivasa-descent": ["Venkateswara.jpg", "Tirupati Balaji.jpg"],
     "annapurna-origin-kashi": ["Annapurna.jpg", "Goddess Annapurna.jpg"],
     "santoshi-mata-origin": ["Santoshi Mata.jpg", "Santoshi maa.jpg"],
+    "brahma-pushkar-only-temple": [
+        "Pushkar Brahma Temple.jpg",
+        "Brahma Temple, Pushkar.jpg",
+        "Brahma riding on his goose.jpg",
+    ],
     "brahma-lotus-birth": ["Brahma riding on his goose.jpg", "Brahma Pushkar.jpg", "Saraswati.jpg"],
     "mangal-graha-origin": ["Angaraka.jpg", "Mangala Graha.jpg"],
     # Family-relation series
@@ -364,6 +369,7 @@ STORY_SEARCH: dict[str, str] = {
     "venkateswara-srinivasa-descent": "Venkateswara Tirupati Balaji",
     "annapurna-origin-kashi": "Annapurna goddess painting",
     "santoshi-mata-origin": "Santoshi Mata goddess",
+    "brahma-pushkar-only-temple": "Pushkar Brahma temple Rajasthan",
     "brahma-lotus-birth": "Brahma lotus Vishnu navel painting",
     "mangal-graha-origin": "Mangal Mars graha temple India",
     "shiva-parvati-divine-wedding": "Shiva Parvati wedding Raja Ravi Varma",
@@ -414,7 +420,7 @@ DEITY_FILES: dict[str, list[str]] = {
     "surya": ["Surya.jpg", "Sun god Surya.jpg"],
     "lakshmi": ["Raja Ravi Varma, Goddess Lakshmi, 1896.jpg"],
     "narasimha": ["Narasimha oil colour.jpg", "Narasimha killed Hiranyakashipu.jpg"],
-    "brahma": ["Brahma.jpg", "Brahma Pushkar.jpg"],
+    "brahma": ["Brahma riding on his goose.jpg", "Pushkar Brahma Temple.jpg", "Brahma Temple, Pushkar.jpg"],
     "venkateswara": ["Venkateswara.jpg", "Tirupati Balaji.jpg"],
     "ayyappa": ["Ayyappa.jpg"],
     "sai": ["Sai Baba.jpg"],
