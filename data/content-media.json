@@ -792,6 +792,226 @@
       "license": "CC BY-SA 4.0",
       "local": "assets/stories/shravan-kumar.jpg",
       "kind": "stories"
+    },
+    "shiva-lingodbhava-origin": {
+      "filename": "Siva-parvati-by-raja-ravi-varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Siva-parvati-by-raja-ravi-varma.jpg",
+      "credit": "anonymous, may be Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/shiva-lingodbhava-origin.jpg",
+      "kind": "story"
+    },
+    "vishnu-ananta-shesha-origin": {
+      "filename": "Vishnu.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Vishnu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Vishnu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Vishnu.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "local": "assets/stories/vishnu-ananta-shesha-origin.jpg",
+      "kind": "story"
+    },
+    "durga-born-from-tejas": {
+      "filename": "Durga by Raja Ravi Varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Durga_by_Raja_Ravi_Varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Durga_by_Raja_Ravi_Varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Durga_by_Raja_Ravi_Varma.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/durga-born-from-tejas.jpg",
+      "kind": "story"
+    },
+    "ganesha-born-of-parvati": {
+      "filename": "Rebirth of Ganesha.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rebirth_of_Ganesha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rebirth_of_Ganesha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Rebirth_of_Ganesha.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/ganesha-born-of-parvati.jpg",
+      "kind": "story"
+    },
+    "rama-birth-ayodhya": {
+      "filename": "Ram Darbar.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Ram_Darbar.jpg/1280px-Ram_Darbar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ram_Darbar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Ram_Darbar.jpg",
+      "credit": "Aliva Sahoo",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/rama-birth-ayodhya.jpg",
+      "kind": "story"
+    },
+    "hanuman-birth-anjana": {
+      "filename": "Hanuman Herb Mountain.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hanuman_Herb_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hanuman_Herb_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Hanuman_Herb_Mountain.jpg",
+      "credit": "Sahibdin",
+      "license": "Public domain",
+      "local": "assets/stories/hanuman-birth-anjana.jpg",
+      "kind": "story"
+    },
+    "murugan-skanda-birth": {
+      "filename": "Kartikeya.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kartikeya.jpg/1280px-Kartikeya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Kartikeya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Kartikeya.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/murugan-skanda-birth.jpg",
+      "kind": "story"
+    },
+    "surya-aditya-origin": {
+      "filename": "Surya the sun deity driving in his chariot. Gouache drawing. Wellcome V0045217.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Surya_the_sun_deity_driving_in_his_chariot._Gouache_drawing._Wellcome_V0045217.jpg/1280px-Surya_the_sun_deity_driving_in_his_chariot._Gouache_drawing._Wellcome_V0045217.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Surya_the_sun_deity_driving_in_his_chariot._Gouache_drawing._Wellcome_V0045217.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Surya_the_sun_deity_driving_in_his_chariot._Gouache_drawing._Wellcome_V0045217.jpg",
+      "credit": "Wikimedia contributor",
+      "license": "CC BY 4.0",
+      "local": "assets/stories/surya-aditya-origin.jpg",
+      "kind": "story"
+    },
+    "shani-birth-chhaya": {
+      "filename": "Shani Dev.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Shani_Dev.jpg/1280px-Shani_Dev.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Shani_Dev.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Shani_Dev.jpg",
+      "credit": "Salil Kumar Mukherjee",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/shani-birth-chhaya.jpg",
+      "kind": "story"
+    },
+    "dattatreya-birth-anusuya": {
+      "filename": "Dattatreya.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Dattatreya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Dattatreya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Dattatreya.jpg",
+      "credit": "Sreekant2k",
+      "license": "Public domain",
+      "local": "assets/stories/dattatreya-birth-anusuya.jpg",
+      "kind": "story"
+    },
+    "narasimha-pillar-appearance": {
+      "filename": "Narasimha killed Hiranyakashipu.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Narasimha_killed_Hiranyakashipu.jpg/1280px-Narasimha_killed_Hiranyakashipu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Narasimha_killed_Hiranyakashipu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Narasimha_killed_Hiranyakashipu.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/narasimha-pillar-appearance.jpg",
+      "kind": "story"
+    },
+    "vitthal-vithoba-origin": {
+      "filename": "Pandharpur.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Pandharpur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Pandharpur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Pandharpur.jpg",
+      "credit": "RashT27",
+      "license": "CC BY-SA 3.0",
+      "local": "assets/stories/vitthal-vithoba-origin.jpg",
+      "kind": "story"
+    },
+    "bhairav-kalabhairav-origin": {
+      "filename": "Bhairava.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Bhairava.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Bhairava.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Bhairava.jpg",
+      "credit": "Sreekant2k",
+      "license": "Public domain",
+      "local": "assets/stories/bhairav-kalabhairav-origin.jpg",
+      "kind": "story"
+    },
+    "lakshmi-ocean-birth": {
+      "filename": "Raja Ravi Varma, Goddess Lakshmi, 1896.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Raja_Ravi_Varma%2C_Goddess_Lakshmi%2C_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Raja_Ravi_Varma%2C_Goddess_Lakshmi%2C_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Raja_Ravi_Varma%2C_Goddess_Lakshmi%2C_1896.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/lakshmi-ocean-birth.jpg",
+      "kind": "story"
+    },
+    "saraswati-vak-origin": {
+      "filename": "Saraswati.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Saraswati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Saraswati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Saraswati.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/saraswati-vak-origin.jpg",
+      "kind": "story"
+    },
+    "kali-born-of-wrath": {
+      "filename": "Goddess Kali.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Goddess_Kali.jpg/1280px-Goddess_Kali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Goddess_Kali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Goddess_Kali.jpg",
+      "credit": "Miya.m",
+      "license": "CC BY-SA 3.0",
+      "local": "assets/stories/kali-born-of-wrath.jpg",
+      "kind": "story"
+    },
+    "jagannath-neelamadhav-origin": {
+      "filename": "Jagannath.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Jagannath.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Jagannath.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Jagannath.jpg",
+      "credit": "Wikimedia contributor",
+      "license": "CC BY-SA 2.5",
+      "local": "assets/stories/jagannath-neelamadhav-origin.jpg",
+      "kind": "story"
+    },
+    "venkateswara-srinivasa-descent": {
+      "filename": "Venkateswara.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Venkateswara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Venkateswara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Venkateswara.jpg",
+      "credit": "Ani Vincent",
+      "license": "CC0",
+      "local": "assets/stories/venkateswara-srinivasa-descent.jpg",
+      "kind": "story"
+    },
+    "annapurna-origin-kashi": {
+      "filename": "Annapurna.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Annapurna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Annapurna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Annapurna.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "local": "assets/stories/annapurna-origin-kashi.jpg",
+      "kind": "story"
+    },
+    "santoshi-mata-origin": {
+      "filename": "Worshiping goddess santoshi 02.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Worshiping_goddess_santoshi_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Worshiping_goddess_santoshi_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Worshiping_goddess_santoshi_02.jpg",
+      "credit": "Anchal lilhare",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/santoshi-mata-origin.jpg",
+      "kind": "story"
+    },
+    "brahma-lotus-birth": {
+      "filename": "Brahma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Brahma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Brahma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Brahma.jpg",
+      "credit": "Renskos at Dutch Wikipedia",
+      "license": "Public domain",
+      "local": "assets/stories/brahma-lotus-birth.jpg",
+      "kind": "story"
+    },
+    "mangal-graha-origin": {
+      "filename": "Planet Mars.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Planet_Mars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Planet_Mars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Planet_Mars.jpg",
+      "credit": "Dmytr0",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/mangal-graha-origin.jpg",
+      "kind": "story"
     }
   },
   "deities": {

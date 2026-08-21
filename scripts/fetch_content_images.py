@@ -223,6 +223,54 @@ STORY_FILES: dict[str, list[str]] = {
     "bhishma-pratigya": ["Bhishma.jpg"],
     "abhimanyu-chakravyuh": ["Abhimanyu.jpg"],
     "eklavya-drona-thumb": ["Ekalavya.jpg"],
+    # Devi-Devata birth / origin series
+    "shiva-lingodbhava-origin": [
+        "Siva-parvati-by-raja-ravi-varma.jpg",
+        "Shiva.jpg",
+        "Lingodbhava.jpg",
+    ],
+    "vishnu-ananta-shesha-origin": [
+        "Vishnu.jpg",
+        "Vishnu on Garuda.jpg",
+        "Anantashayana Vishnu.jpg",
+    ],
+    "durga-born-from-tejas": [
+        "Durga by Raja Ravi Varma.jpg",
+        "Goddess Durga by Raja Ravi Varma.jpg",
+    ],
+    "ganesha-born-of-parvati": ["Rebirth of Ganesha.jpg", "Ganesha Basohli miniature circa 1730.jpg"],
+    "rama-birth-ayodhya": [
+        "Rama with Sita and Lakshmana.jpg",
+        "Ram Darbar.jpg",
+        "Birth of Rama.jpg",
+    ],
+    "hanuman-birth-anjana": [
+        "Hanuman Herb Mountain.jpg",
+        "Chitrakathi Painting, Hanuman carrying Dronagiri, Maharashtra.jpg",
+    ],
+    "murugan-skanda-birth": ["Murugan.jpg", "Kartikeya.jpg", "Kartikeya by Raja Ravi Varma.jpg"],
+    "surya-aditya-origin": ["Surya.jpg", "Sun god Surya.jpg"],
+    "shani-birth-chhaya": ["Shani.jpg", "Shani Dev.jpg"],
+    "dattatreya-birth-anusuya": ["Dattatreya.jpg", "Lord Dattatreya.jpg"],
+    "narasimha-pillar-appearance": [
+        "Narasimha killed Hiranyakashipu.jpg",
+        "Narasimha oil colour.jpg",
+    ],
+    "vitthal-vithoba-origin": ["Vithoba.jpg", "Vitthal.jpg", "Pandharpur.jpg"],
+    "bhairav-kalabhairav-origin": ["Bhairava.jpg", "Kalabhairava.jpg", "Shiva.jpg"],
+    "lakshmi-ocean-birth": [
+        "Raja Ravi Varma, Goddess Lakshmi, 1896.jpg",
+        "Lakshmi, by Raja Ravi Varma, 1930s.jpg",
+        "Sagar Manthan.jpg",
+    ],
+    "saraswati-vak-origin": ["Saraswati.jpg", "Goddess Saraswati.jpg"],
+    "kali-born-of-wrath": ["Kali.jpg", "Goddess Kali.jpg", "Kali by Raja Ravi Varma.jpg"],
+    "jagannath-neelamadhav-origin": ["Jagannath.jpg", "Jagannath Balabhadra Subhadra.jpg"],
+    "venkateswara-srinivasa-descent": ["Venkateswara.jpg", "Tirupati Balaji.jpg"],
+    "annapurna-origin-kashi": ["Annapurna.jpg", "Goddess Annapurna.jpg"],
+    "santoshi-mata-origin": ["Santoshi Mata.jpg", "Santoshi maa.jpg"],
+    "brahma-lotus-birth": ["Brahma.jpg", "Brahma Pushkar.jpg"],
+    "mangal-graha-origin": ["Mangala.jpg", "Mars planet.jpg", "Hanuman Herb Mountain.jpg"],
 }
 
 STORY_SEARCH: dict[str, str] = {
@@ -264,6 +312,28 @@ STORY_SEARCH: dict[str, str] = {
     "lakshman-rekha": "Lakshmana rekha Sita Ravana",
     "krishna-makhan-chor": "Krishna butter Makhan chor painting",
     "krishna-virat-roop": "Vishvarupa Krishna cosmic form",
+    "shiva-lingodbhava-origin": "Lingodbhava Shiva pillar of light painting",
+    "vishnu-ananta-shesha-origin": "Vishnu Ananta Shesha reclining painting",
+    "durga-born-from-tejas": "Durga goddess Raja Ravi Varma painting",
+    "ganesha-born-of-parvati": "Parvati creates Ganesha painting",
+    "rama-birth-ayodhya": "Birth of Rama Ayodhya painting",
+    "hanuman-birth-anjana": "Hanuman Anjana birth mythology painting",
+    "murugan-skanda-birth": "Kartikeya Murugan Skanda painting",
+    "surya-aditya-origin": "Surya sun god chariot painting",
+    "shani-birth-chhaya": "Shani Dev mythology painting",
+    "dattatreya-birth-anusuya": "Dattatreya three heads painting",
+    "narasimha-pillar-appearance": "Narasimha Hiranyakashipu pillar painting",
+    "vitthal-vithoba-origin": "Vithoba Vitthal Pandharpur painting",
+    "bhairav-kalabhairav-origin": "Bhairava Kalabhairava painting",
+    "lakshmi-ocean-birth": "Lakshmi Samudra Manthan Raja Ravi Varma",
+    "saraswati-vak-origin": "Saraswati goddess veena painting",
+    "kali-born-of-wrath": "Goddess Kali mythology painting",
+    "jagannath-neelamadhav-origin": "Jagannath Puri trinity painting",
+    "venkateswara-srinivasa-descent": "Venkateswara Tirupati Balaji",
+    "annapurna-origin-kashi": "Annapurna goddess painting",
+    "santoshi-mata-origin": "Santoshi Mata goddess",
+    "brahma-lotus-birth": "Brahma lotus Vishnu navel painting",
+    "mangal-graha-origin": "Mangal Mars graha temple India",
 }
 
 DEITY_FILES: dict[str, list[str]] = {
