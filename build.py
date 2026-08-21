@@ -392,7 +392,7 @@ def search_widget(prefix: str = "") -> str:
       <span class="visually-hidden">Search TirthaYatra</span>
     </label>
     <input id="temple-search-input" class="temple-search-input" type="search"
-      placeholder="Search temples, stories, deities, festivals…" autocomplete="off" spellcheck="false"
+      placeholder="Search temples, stories, festivals…" autocomplete="off" spellcheck="false"
       data-search-input aria-autocomplete="list" aria-controls="temple-search-results" />
   </div>
   <div id="temple-search-results" class="temple-search-results" data-search-results role="listbox" hidden></div>
