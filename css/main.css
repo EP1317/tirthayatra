@@ -2003,7 +2003,7 @@ a:hover { color: var(--vermillion); }
 /* Phone refinements under the laptop menu layout */
 @media (max-width: 780px) {
   .nav-brand { font-size: 1.15rem; }
-  .nav-brand-hi { font-size: 0.68rem; }
+  .nav-brand-hi { font-size: 0.8rem; }
   .nav-brand-mark { width: 1.85rem; height: 1.85rem; }
   .hero {
     height: auto;
