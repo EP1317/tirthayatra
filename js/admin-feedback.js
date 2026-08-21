@@ -15,6 +15,14 @@
       .replace(/"/g, "&quot;");
   }
 
+  /** Only http(s) or same-site paths — blocks javascript:/data: in admin links. */
+  function safeHref(href) {
+    var s = String(href == null ? "" : href).trim();
+    if (/^https:\/\/(www\.)?tirthayatraonline\.in(\/|$)/i.test(s)) return s;
+    if (/^\/[^/\\]/.test(s) || s === "/") return s;
+    return "#";
+  }
+
   function $(sel) {
     return root.querySelector(sel);
   }
@@ -111,7 +119,7 @@
           escapeHtml(row.status || "new") +
           "</span></header>" +
           '<p class="admin-page"><a href="' +
-          escapeHtml(row.href || "#") +
+          escapeHtml(safeHref(row.href)) +
           '" target="_blank" rel="noopener noreferrer">' +
           escapeHtml(row.pageTitle || row.path || "Page") +
           "</a><br /><code>" +

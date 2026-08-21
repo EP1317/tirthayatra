@@ -22,3 +22,6 @@ venv/
 tmp/
 temp/
 .tools/
+
+# Security scan artifacts
+dast-report.json

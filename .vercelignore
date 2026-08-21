@@ -1,3 +1,5 @@
+# Exclude build tooling / Firebase CLI config / reports from the public static deploy.
+# Keep vercel.json OUT of this list so Vercel always applies headers/routes.
 .git
 .tools
 .cursor
@@ -6,3 +8,18 @@
 *.pyc
 scripts/
 *.md
+*.py
+*.jsonl
+.gitignore
+.vercelignore
+firebase.json
+firestore.rules
+dast-report.json
+requirements.txt
+pyproject.toml
+Makefile
+.firebase/
+firestore-debug.log
+data/firebase-public.json
+agent-transcripts/
+.github/

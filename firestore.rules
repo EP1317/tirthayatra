@@ -35,6 +35,15 @@ service cloud.firestore {
         && d.href is string
         && d.href.size() > 0
         && d.href.size() <= 500
+        // Same-site pages only — blocks javascript:/data: and third-party URLs.
+        && (
+          d.href.matches('https://www\\.tirthayatraonline\\.in/.*')
+          || d.href.matches('https://tirthayatraonline\\.in/.*')
+          || d.href.matches('http://localhost(:[0-9]+)?/.*')
+          || d.href.matches('http://127\\.0\\.0\\.1(:[0-9]+)?/.*')
+          || d.href.matches('/[^/].*')
+          || d.href == '/'
+        )
         && d.kind is string
         && d.kind.size() <= 40
         && d.ua is string
