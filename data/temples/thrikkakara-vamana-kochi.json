@@ -6,8 +6,12 @@
   "state": "Kerala",
   "country": "India",
   "glyph": "व",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "kerala-kshetram"
+  ],
+  "tagLabels": [
+    "Kerala Kshetram"
+  ],
   "summary": "Thrikkakara — Vamana temple linked with Onam and Mahabali lore.",
   "famousFor": "Onam origin temple · Kerala Vamana search",
   "mythology": "Tradition places Mahabali’s annual visit memory here; Onam feast and Vamana worship define Kerala’s harvest festival root.",

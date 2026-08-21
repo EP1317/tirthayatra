@@ -6,8 +6,12 @@
   "state": "Kerala",
   "country": "India",
   "glyph": "अ",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "kerala-kshetram"
+  ],
+  "tagLabels": [
+    "Kerala Kshetram"
+  ],
   "summary": "Sabarimala — Kerala’s great seasonal Ayyappa pilgrimage with unique vrata discipline.",
   "famousFor": "Seasonal hill pilgrimage of Ayyappa",
   "mythology": "Sabarimala’s Ayyappa (Dharmasastha) stands at a unique confluence of Shaiva, Vaishnava, and regional forest-hill traditions of Kerala. The seasonal pilgrimage is among India’s largest organised acts of vow and austerity.",

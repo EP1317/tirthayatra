@@ -4,7 +4,7 @@
     "nameHi": "भक्ति पाठ",
     "sanskrit": "आरती · चालीसा · व्रत कथा",
     "blurb": "Aarti, Chalisa, and Vrat Katha for the deities of TirthaYatra — for home puja and yatra evenings.",
-    "lede": "Traditional hymns and vow-stories linked to Shiva, Vishnu, Krishna, Devi, Ganesha, Rama, Hanuman, and Ayyappa. Texts vary by region; follow your family or temple custom.",
+    "lede": "Traditional hymns and vow-stories linked to major deities — with seasonal and regional vrat katha for the months ahead (Onam, Navaratri/Durga Puja, Diwali week, Kartik, and more). Texts vary by region; follow your family or temple custom.",
     "disclaimer": "Aarti, Chalisa, and Vrat Katha pages are for devotion and cultural learning. Classical hymns remain with their traditions; TirthaYatra does not claim copyright over scripture. Many vrat katha pages are original TirthaYatra retellings of popular vow themes — not verbatim copies of commercial katha books. Audio/video players use public YouTube recordings when provided; TirthaYatra does not host media files. Confirm ritual timing with your panchang, family custom, or temple. Not a substitute for a guru or priest."
   },
   "types": {
@@ -13,21 +13,21 @@
       "name": "Aarti",
       "nameHi": "आरती संग्रह",
       "blurb": "Lamp hymns sung at dawn and dusk darshan.",
-      "lede": "Popular aarti sangrah — Hanuman, Ram, Kali, Ganesh, Ambe, Lakshmi, Saraswati, Krishna, Jagdish, Sai, Ganga, and more. Tap a name to open the full text and listen, and Lingashtakam for Shiva abhishek."
+      "lede": "Popular aarti sangrah — Hanuman, Ram, Durga/Jagdamba, Kali, Ganesh, Ambe, Lakshmi, Saraswati, Krishna, Surya, Tulsi, Murugan/Skanda, Dhanvantari, Jagdish, Sai, Ganga, and more. Tap a name for full text."
     },
     "chalisa": {
       "slug": "chalisa",
       "name": "Chalisa",
       "nameHi": "चालीसा संग्रह",
       "blurb": "Forty-verse praises recited for protection, learning, and grace — expanded sangrah for home puja.",
-      "lede": "Complete classic chalisas — Hanuman, Shiva, Durga, Ganesha, Rama, Krishna, Vishnu, Ayyappa, Lakshmi, Saraswati, Santoshi, Gayatri, Kali, Shani, Bhairav, Surya, Ganga, Vaishno Devi, and Sai. Traditional wordings vary by region; follow your family or temple custom."
+      "lede": "Complete and seasonal chalisas — Hanuman, Shiva, Durga, Ganesha, Rama, Krishna, Radha, Murugan, Tulsi, Vishnu, Ayyappa, Lakshmi, Saraswati, Santoshi, Gayatri, Kali, Shani, Bhairav, Surya, Ganga, Vaishno Devi, and Sai. Traditional wordings vary by region."
     },
     "vrat-katha": {
       "slug": "vrat-katha",
       "name": "Vrat Katha",
       "nameHi": "व्रत कथा संग्रह",
       "blurb": "Vow-day stories retold for fasting days and home puja — AdSense-safe original summaries of traditional themes.",
-      "lede": "Vow-stories for home puja — Karva Chauth, Chhath, Satyanarayan, Teej, Vat Savitri, Shivaratri, Ekadashi, Pradosh, Navaratri, Janmashtami, Ganesh Chaturthi, Ram Navami, Hanuman Jayanti, Ayyappa Mandala, and more. TirthaYatra pages use original retellings of traditional themes for learning; regional wording differs. Not a substitute for your family priest. Optional YouTube listens belong to their uploaders, Sawan Somwar, Mangala Gauri, and Nag Panchami, and Santoshi Mata Friday vrat."
+      "lede": "Vow-stories for the coming season and year-round home puja — Karva Chauth, Chhath, Diwali, Dussehra, Sharad Purnima/Kojagiri, Durga Puja (Bengal), Onam (Kerala), Jitiya (Bihar–UP), Varalakshmi (South), Bathukamma (Telangana), Skanda Shashti (Tamil), Labh Panchami (Gujarat), Govardhan, Bhai Dooj, Tulsi Vivah, Kartik Purnima, and classic vrats like Ekadashi, Teej, and Sawan Somwar. TirthaYatra pages use original retellings of traditional themes; regional wording differs."
     }
   },
   "items": [
@@ -2254,6 +2254,830 @@
       "completeText": false,
       "sangrahLabel": "विठ्ठल / विटोबा",
       "audioNote": "Listen to Pandharpur wari kirtan recordings on YouTube from reputable Warkari channels."
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "raksha-bandhan-katha",
+      "deity": "devi",
+      "title": "Raksha Bandhan Katha",
+      "titleHi": "रक्षाबंधन कथा",
+      "when": "Raksha Bandhan / Sawan Purnima — morning or after tying the rakhi",
+      "summary": "Original TirthaYatra retelling of the rakhi–protection bond themes for siblings and chosen family.",
+      "sangrahLabel": "रक्षाबंधन",
+      "relatedTemples": [
+        "ayodhya-ram-mandir",
+        "salasar-balaji",
+        "kashi-vishwanath",
+        "dwarka"
+      ],
+      "meaning": "Raksha Bandhan honours mutual protection. The thread is a reminder of duty — not only one-day gifts.",
+      "verses": [
+        "॥ श्री गणेशाय नमः ॥\nरक्षाबंधन कथा — तिर्थयात्रा मौलिक पुनर्प्रस्तुति।",
+        "सावन पूर्णिमा पर बहन भाई की कलाई पर राखी बाँधती है — यह रक्षा का वचन है, लेन–देन का बिल नहीं।",
+        "पुराण–लोक स्मृति में इंद्राणी ने इंद्र को रक्षासूत्र बाँधा; युद्ध की घड़ी में स्मृति ने साहस दिया। द्रौपदी–कृष्ण की गाथा भी आपसी कृतज्ञता सिखाती है।",
+        "आज राखी केवल रक्त–संबंध तक सीमित नहीं — पड़ोस, मित्र, सैनिक सम्मान — जहाँ सुरक्षा का वचन हो, वहाँ सूत्र अर्थ रखता है।",
+        "विधि: स्नान–पूजा के बाद टीका, राखी, मिठाई। भाई वचन दे कि अपमान और अन्याय से रक्षा करेगा — केवल ‘खर्च’ नहीं।",
+        "कथा का फल: परिवार में विश्वास। जो राखी बाँध नहीं सकते, वे सेवा या पत्र से भी स्नेह दिखा सकते हैं।",
+        "॥ जय श्री राधे ॥ जय रक्षा सूत्र ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%A8%20%E0%A4%95%E0%A4%A5%E0%A4%BE",
+      "audioLabel": "रक्षाबंधन · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "onam-mahabali-katha",
+      "deity": "vishnu",
+      "title": "Onam · Mahabali Katha (Kerala)",
+      "titleHi": "ओणम · महाबली कथा (केरल)",
+      "when": "Onam / Thiruvonam — before sadya or evening lamp",
+      "summary": "Original TirthaYatra retelling of Kerala’s Onam–Mahabali–Vamana themes for home learning.",
+      "sangrahLabel": "ओणम · केरल",
+      "relatedTemples": [
+        "padmanabhaswamy-thiruvananthapuram",
+        "guruvayur",
+        "sabarimala",
+        "chottanikkara-temple"
+      ],
+      "meaning": "Onam remembers a just king’s homecoming. Celebrate with sharing (sadya), not waste — hospitality is the ritual.",
+      "verses": [
+        "॥ श्री विष्णवे नमः ॥\nओणम–महाबली कथा — तिर्थयात्रा मौलिक पुनर्प्रस्तुति (केरल)।",
+        "केरल में ओणम उस समय की स्मृति है जब राजा महाबली की प्रजा सुखी थी — अहंकार नहीं, न्याय की समृद्धि।",
+        "वामन अवतार की कथा कहती है: तीन पग भूमि माँगकर विष्णु ने दंभ को मापा। महाबली ने सिर झुकाया — भक्ति ने राज्य से बड़ा मान लिया।",
+        "प्रति वर्ष थिरुवोणम पर माना जाता है महाबली प्रजा से मिलने आते हैं। इसलिए घर साफ, पुक्कलम (फूलों की रंगोली), और सबके लिए सद्य।",
+        "विधि का हृदय: अतिथि और पड़ोसी संग भोजन। जो अकेला मनाए, वह भी दीप–पुष्प से आभार रख सकता है।",
+        "कथा का फल: समता की याद — त्योहार में कोई भूखा न रहे।",
+        "॥ जय महाबली ॥ जय पद्मनाभ ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%93%E0%A4%A3%E0%A4%AE%20%C2%B7%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AC%E0%A4%B2%E0%A5%80%20%E0%A4%95%E0%A4%A5%E0%A4%BE%20%28%E0%A4%95%E0%A5%87%E0%A4%B0%E0%A4%B2%29",
+      "audioLabel": "ओणम · केरल · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "jitiya-jivitputrika-vrat-katha",
+      "deity": "devi",
+      "title": "Jitiya · Jivitputrika Vrat Katha (Bihar–UP)",
+      "titleHi": "जितिया · जीवित्पुत्रिका व्रत कथा (बिहार–उत्तर भारत)",
+      "when": "Jitiya / Jivitputrika — nirjala or as per family; katha after evening puja",
+      "summary": "Original TirthaYatra retelling of the regional mother–child protection vow popular in Bihar, Jharkhand, and eastern UP.",
+      "sangrahLabel": "जितिया · बिहार–UP",
+      "relatedTemples": [
+        "mahavir-mandir-patna",
+        "kashi-vishwanath",
+        "vaishno-devi",
+        "mansa-devi-panchkula"
+      ],
+      "meaning": "Jitiya is a mother’s fierce love turned into a vow. Keep health first; sincerity matters more than harshness.",
+      "verses": [
+        "॥ श्री गणेशाय नमः ॥\nजीवित्पुत्रिका (जितिया) व्रत कथा — मौलिक पुनर्प्रस्तुति।",
+        "भाद्रपद की कृष्ण अष्टमी के आसपास पूर्वी भारत में माताएँ संतान की आयु–रक्षा हेतु जितिया रखती हैं।",
+        "लोक कथा में जिमुतवाहन जैसे पात्रों की करुणा और माता की तपस्या जुड़ती है — सार एक है: संतान का जीवन सबसे बड़ा धन।",
+        "कई परिवार निर्जला रखते हैं; कई फल–दूध से। क्षमता और चिकित्सक सलाह से तय करें — व्रत हिंसा नहीं।",
+        "कथा सुनाने के बाद अर्घ्य/दीप, और बच्चों पर आशीष। पड़ोस की विधवा या अकेली माताओं के प्रति कोमलता भी व्रत का अंग है।",
+        "॥ जय जितिया माता ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%9C%E0%A4%BF%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A4%BE%20%C2%B7%20%E0%A4%9C%E0%A5%80%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A5%81%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%BE%20%E0%A4%B5%E0%A5%8D%E0%A4%B0%E0%A4%A4%20%E0%A4%95%E0%A4%A5%E0%A4%BE%20%28%E0%A4%AC%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B0%E2%80%93%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%B0%20%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%29",
+      "audioLabel": "जितिया · बिहार–UP · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "varalakshmi-vrat-katha",
+      "deity": "devi",
+      "title": "Varalakshmi Vrat Katha (South India)",
+      "titleHi": "वरलक्ष्मी व्रत कथा (दक्षिण भारत)",
+      "when": "Varalakshmi Vratam — Friday before Shravan/Purnima as per South Indian panchang",
+      "summary": "Original TirthaYatra retelling of the South Indian Varalakshmi vow for household wellbeing.",
+      "sangrahLabel": "वरलक्ष्मी · दक्षिण",
+      "relatedTemples": [
+        "mahalaxmi-kolhapur",
+        "tirumala-venkateswara",
+        "meenakshi-madurai",
+        "srirangam-ranganathaswamy"
+      ],
+      "meaning": "Varalakshmi Vratam seeks boons of dignity and steadiness. Invite guests; share thamboolam with neighbours.",
+      "verses": [
+        "॥ श्री महालक्ष्म्यै नमः ॥\nवरलक्ष्मी व्रत कथा — तिर्थयात्रा मौलिक पुनर्प्रस्तुति।",
+        "आंध्र, कर्नाटक, तमिलनाडु, तेलंगाना में श्रवण शुक्रवार के आसपास वरलक्ष्मी व्रत प्रसिद्ध है।",
+        "कथा कहती है श्रद्धावान गृहिणी ने लक्ष्मी जी की आराधना से घर में शांति और अन्न–ऐश्वर्य पाया — दंभ से नहीं, सेवा से।",
+        "कलश–सूत्र, हल्दी–कुमकुम, और आठ लक्ष्मी भाव (धन, धान्य, साहस, संतान…) मन में जगाए जाते हैं।",
+        "व्रत का सार: पड़ोसी महिलाओं से थम्बूलम बाँटना — लक्ष्मी अकेले कोठरी में नहीं, संबंधों में बसती हैं।",
+        "॥ जय वरलक्ष्मी ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%B5%E0%A4%B0%E0%A4%B2%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%8D%E0%A4%AE%E0%A5%80%20%E0%A4%B5%E0%A5%8D%E0%A4%B0%E0%A4%A4%20%E0%A4%95%E0%A4%A5%E0%A4%BE%20%28%E0%A4%A6%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%A3%20%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%29",
+      "audioLabel": "वरलक्ष्मी · दक्षिण · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "anant-chaturdashi-vrat-katha",
+      "deity": "vishnu",
+      "title": "Anant Chaturdashi Vrat Katha",
+      "titleHi": "अनंत चतुर्दशी व्रत कथा",
+      "when": "Bhadrapada Shukla Chaturdashi — Anant vow day; also Ganesh visarjan in many cities",
+      "summary": "Original TirthaYatra retelling of the Ananta Padmanabha thread-vow themes; notes Ganesh visarjan context.",
+      "sangrahLabel": "अनंत चतुर्दशी",
+      "relatedTemples": [
+        "padmanabhaswamy-thiruvananthapuram",
+        "pandharpur-vitthal",
+        "dwarka",
+        "siddhivinayak-mumbai"
+      ],
+      "meaning": "Anant Chaturdashi remembers the endless (Ananta) Lord. Keep vows light enough to finish with sincerity.",
+      "verses": [
+        "॥ श्री अनंताय नमः ॥\nअनंत चतुर्दशी कथा — मौलिक पुनर्प्रस्तुति।",
+        "इस दिन कई घर अनंत सूत्र बाँधकर विष्णु–अनंत की कथा सुनते हैं — वचन को ‘अनंत’ रखने का अभ्यास।",
+        "महाराष्ट्र–गुजरात–उत्तर में गणेश विसर्जन भी इसी काल से जुड़ता है: उत्सव के बाद विदाई में विनय।",
+        "कथा सिखाती है अधूरे व्रत और झूठे वचन बंधन बनते हैं — इसलिए कम कहो, पूरा निभाओ।",
+        "विधि: स्नान, अनंत पूजन, दान। विसर्जन में पर्यावरण का ध्यान — मिट्टी/घोल का सही प्रबंध धर्म है।",
+        "॥ जय अनंत पद्मनाभ ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%85%E0%A4%A8%E0%A4%82%E0%A4%A4%20%E0%A4%9A%E0%A4%A4%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A4%B6%E0%A5%80%20%E0%A4%B5%E0%A5%8D%E0%A4%B0%E0%A4%A4%20%E0%A4%95%E0%A4%A5%E0%A4%BE",
+      "audioLabel": "अनंत चतुर्दशी · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "mahalaya-pitru-paksha-katha",
+      "deity": "devi",
+      "title": "Mahalaya · Pitru Paksha Katha",
+      "titleHi": "महालय · पितृ पक्ष कथा",
+      "when": "Pitru Paksha / Mahalaya — before Sharad Navaratri; tarpan or quiet remembrance",
+      "summary": "Original TirthaYatra retelling of ancestral gratitude themes for Mahalaya and Pitru Paksha (Bengal & North).",
+      "sangrahLabel": "महालय · पितृ पक्ष",
+      "relatedTemples": [
+        "vishnupad-gaya",
+        "kashi-vishwanath",
+        "kalighat",
+        "jagannath-puri"
+      ],
+      "meaning": "Pitru Paksha is gratitude to those who came before. Charity and clean remembrance matter more than fear.",
+      "verses": [
+        "॥ श्री पितृभ्यो नमः ॥\nमहालय–पितृपक्ष कथा — मौलिक पुनर्प्रस्तुति।",
+        "शरद नवरात्रि से पहले पितृ पक्ष में पूर्वजों का स्मरण होता है। बंगाल में महालय दुर्गा आगमन का द्वार भी माना जाता है।",
+        "कथा का भाव: जो अन्न–शिक्षा–नाम हम तक लाए, उनका ऋण केवल श्राद्ध थाली नहीं — सदाचार से भी चुकता है।",
+        "गया, काशी, प्रयाग जैसे तीर्थों में तर्पण परंपरा है; घर पर भी जल–तिल–दान से श्रद्धा रखी जा सकती है।",
+        "जो पितर नहीं जानते, वे किसी बुजुर्ग सेवा या अन्नदान से भी पुण्य जोड़ सकते हैं।",
+        "॥ शांतिः शांतिः शांतिः ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B2%E0%A4%AF%20%C2%B7%20%E0%A4%AA%E0%A4%BF%E0%A4%A4%E0%A5%83%20%E0%A4%AA%E0%A4%95%E0%A5%8D%E0%A4%B7%20%E0%A4%95%E0%A4%A5%E0%A4%BE",
+      "audioLabel": "महालय · पितृ पक्ष · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "sharad-purnima-kojagiri-vrat-katha",
+      "deity": "devi",
+      "title": "Sharad Purnima · Kojagiri Vrat Katha",
+      "titleHi": "शरद पूर्णिमा · कोजागरी व्रत कथा",
+      "when": "Sharad Purnima / Kojagiri — moonlit night; maheri/kheer offering as per region",
+      "summary": "Original TirthaYatra retelling of Sharad Purnima–Lakshmi–moon themes (Kojagiri in Maharashtra/Gujarat/North).",
+      "sangrahLabel": "शरद पूर्णिमा · कोजागरी",
+      "relatedTemples": [
+        "mahalaxmi-kolhapur",
+        "dwarka",
+        "banke-bihari-vrindavan",
+        "ambaji"
+      ],
+      "meaning": "Kojagiri asks ‘who is awake?’ — stay awake to gratitude and share sweet rice under moonlight when possible.",
+      "verses": [
+        "॥ श्री लक्ष्म्यै नमः ॥\nशरद पूर्णिमा–कोजागरी कथा — मौलिक पुनर्प्रस्तुति।",
+        "आश्विन पूर्णिमा की चाँदनी में लक्ष्मी जी जागते भक्तों पर कृपा करती हैं — महाराष्ट्र में कोजागरी, कई प्रदेशों में खीर–महीरी।",
+        "रस–पूर्णिमा की स्मृति में चंद्र की शीतलता और लक्ष्मी की समृद्धि एक रात में मिलती है।",
+        "जागरण का अर्थ केवल नींद तोड़ना नहीं — क्रोध और लोभ को जगाए रखना बंद करना भी है।",
+        "प्रसाद बाँटें; चाँदनी में बैठकर कृतज्ञता बोलें। स्वास्थ्य ध्यान से जागरण रखें।",
+        "॥ जय कोजागरी माँ ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%B6%E0%A4%B0%E0%A4%A6%20%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A4%BF%E0%A4%AE%E0%A4%BE%20%C2%B7%20%E0%A4%95%E0%A5%8B%E0%A4%9C%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A5%80%20%E0%A4%B5%E0%A5%8D%E0%A4%B0%E0%A4%A4%20%E0%A4%95%E0%A4%A5%E0%A4%BE",
+      "audioLabel": "शरद पूर्णिमा · कोजागरी · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "durga-puja-vrat-katha",
+      "deity": "devi",
+      "title": "Durga Puja Katha (Bengal)",
+      "titleHi": "दुर्गा पूजा कथा (बंगाल)",
+      "when": "Sharad Navaratri / Durga Puja — after evening aarti or on Ashtami–Navami",
+      "summary": "Original TirthaYatra retelling of Durga Puja themes for Bengal and eastern India — homecoming of the Mother.",
+      "sangrahLabel": "दुर्गा पूजा · बंगाल",
+      "relatedTemples": [
+        "kalighat",
+        "dakshineswar-kali",
+        "kamakhya",
+        "vaishno-devi"
+      ],
+      "meaning": "Durga Puja is the Mother’s homecoming. Celebrate art, music, and community — then bid farewell with dignity.",
+      "verses": [
+        "॥ श्री दुर्गायै नमः ॥\nदुर्गा पूजा कथा — तिर्थयात्रा मौलिक पुनर्प्रस्तुति (बंगाल)।",
+        "बंगाल में शरद काल दुर्गा पूजा घर लौटती माँ का उत्सव है — महाषष्ठी से विजया दशमी तक।",
+        "कथा में महिषासुर मर्दिनी शक्ति अन्याय का नाश करती है; साथ ही पुत्री रूप में पार्वती मैके आती हैं।",
+        "पंडाल कला, ढाक, भोग, और सिंदूर खेला — समुदाय की भक्ति। अकेले घर पर भी घटी–दीप से जुड़ सकते हैं।",
+        "विसर्जन में नदी–पर्यावरण का सम्मान रखें। माँ की विदाई आँसू और आशीष दोनों है।",
+        "॥ जय माँ दुर्गा ॥ बोले नाथ ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%A6%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%BE%20%E0%A4%AA%E0%A5%82%E0%A4%9C%E0%A4%BE%20%E0%A4%95%E0%A4%A5%E0%A4%BE%20%28%E0%A4%AC%E0%A4%82%E0%A4%97%E0%A4%BE%E0%A4%B2%29",
+      "audioLabel": "दुर्गा पूजा · बंगाल · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "bathukamma-katha",
+      "deity": "devi",
+      "title": "Bathukamma Katha (Telangana)",
+      "titleHi": "बतुकम्मा कथा (तेलंगाना)",
+      "when": "Bathukamma festival days before Dussehra — floral stack songs and immersion",
+      "summary": "Original TirthaYatra retelling of Telangana’s Bathukamma floral festival themes.",
+      "sangrahLabel": "बतुकम्मा · तेलंगाना",
+      "relatedTemples": [
+        "basara-gnana-saraswati",
+        "yadagirigutta",
+        "tirumala-venkateswara",
+        "ambaji"
+      ],
+      "meaning": "Bathukamma is life celebrated as flowers. Sing together; immerse mindfully so lakes stay clean.",
+      "verses": [
+        "॥ श्री गौर्यै नमः ॥\nबतुकम्मा कथा — मौलिक पुनर्प्रस्तुति (तेलंगाना)।",
+        "नवरात्रि काल में तेलंगाना की महिलाएँ फूलों का स्तरीय गट्ठर — बतुकम्मा — सजाती हैं और गीत गाती हैं।",
+        "‘बतुकम्मा’ का भाव जीवन की देवी/गौरी से जुड़ता है — सूखा–वर्षा चक्र में आभार।",
+        "सखी संग नृत्य–गीत सामाजिक शक्ति है। अंतिम दिन जल में विसर्जन; प्लास्टिक फूल धर्म नहीं।",
+        "घर पर छोटे फूल–दीप से भी उत्सव का सार रखा जा सकता है।",
+        "॥ जय बतुकम्मा ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%AC%E0%A4%A4%E0%A5%81%E0%A4%95%E0%A4%AE%E0%A5%8D%E0%A4%AE%E0%A4%BE%20%E0%A4%95%E0%A4%A5%E0%A4%BE%20%28%E0%A4%A4%E0%A5%87%E0%A4%B2%E0%A4%82%E0%A4%97%E0%A4%BE%E0%A4%A8%E0%A4%BE%29",
+      "audioLabel": "बतुकम्मा · तेलंगाना · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "vijayadashami-dussehra-vrat-katha",
+      "deity": "rama",
+      "title": "Vijayadashami · Dussehra Katha",
+      "titleHi": "विजयदशमी · दशहरा कथा",
+      "when": "Vijayadashami / Dussehra — after Ramlila or before shastra/ayudha puja",
+      "summary": "Original TirthaYatra retelling of Rama’s victory and Durga’s triumph themes for Dussehra.",
+      "sangrahLabel": "दशहरा · विजयदशमी",
+      "relatedTemples": [
+        "ayodhya-ram-mandir",
+        "vaishno-devi",
+        "chamundeshwari-mysuru",
+        "kashi-vishwanath"
+      ],
+      "meaning": "Dussehra celebrates victory of dharma. Burn ego’s effigy; keep courage for ordinary duties.",
+      "verses": [
+        "॥ श्री रामचन्द्राय नमः ॥\nविजयदशमी कथा — मौलिक पुनर्प्रस्तुति।",
+        "दशहरा राम की विजय और दुर्गा की अष्ट–नवमी विजय दोनों धाराओं से जुड़ता है — अन्याय पर सत्य की जीत।",
+        "रावण दहन अहंकार दहन का संकेत है। घर में शस्त्र/औज़ार पूजा — श्रम का सम्मान।",
+        "दक्षिण–पूर्व में विद्यारंभ/शस्त्र पूजा; उत्तर में रामलीला। सार एक: विजय के बाद विनय।",
+        "कथा का फल: साहस और क्षमा साथ रखें।",
+        "॥ जय श्री राम ॥ जय माँ दुर्गा ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A4%AF%E0%A4%A6%E0%A4%B6%E0%A4%AE%E0%A5%80%20%C2%B7%20%E0%A4%A6%E0%A4%B6%E0%A4%B9%E0%A4%B0%E0%A4%BE%20%E0%A4%95%E0%A4%A5%E0%A4%BE",
+      "audioLabel": "दशहरा · विजयदशमी · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "skanda-shashti-vrat-katha",
+      "deity": "shiva",
+      "title": "Skanda Shashti Vrat Katha (Tamil)",
+      "titleHi": "स्कंद षष्ठी व्रत कथा (तमिल)",
+      "when": "Skanda Shashti — six-day Murugan vow culminating on Shashti",
+      "summary": "Original TirthaYatra retelling of Skanda/Murugan’s Soorasamharam victory for South Indian vow days.",
+      "sangrahLabel": "स्कंद षष्ठी · तमिल",
+      "relatedTemples": [
+        "palani-murugan",
+        "thiruparankundram-murugan",
+        "thiruchendur-murugan",
+        "meenakshi-madurai"
+      ],
+      "meaning": "Skanda Shashti honours Murugan’s victory over cruelty. Fast wisely; finish with vel worship and charity.",
+      "verses": [
+        "॥ ॐ शरवणभवाय नमः ॥\nस्कंद षष्ठी कथा — मौलिक पुनर्प्रस्तुति।",
+        "तमिल परंपरा में स्कंद षष्ठी पर मुरुगन की सूरसंहार विजय स्मरण होती है — अधर्म पर वेल की ज्योति।",
+        "छह दिन व्रत/भजन; कई भक्त पलाणी, तिरुचेंदुर, स्वामिमलाई की यात्रा याद करते हैं।",
+        "कथा सिखाती है वीरता सेवा के साथ: सेनानायक पहले रक्षक है।",
+        "उद्यापन में अन्नदान और बच्चों को मुरुगन कथा सुनाना पुण्य है।",
+        "॥ जय मुरुगा ॥ वेल वेल ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A4%82%E0%A4%A6%20%E0%A4%B7%E0%A4%B7%E0%A5%8D%E0%A4%A0%E0%A5%80%20%E0%A4%B5%E0%A5%8D%E0%A4%B0%E0%A4%A4%20%E0%A4%95%E0%A4%A5%E0%A4%BE%20%28%E0%A4%A4%E0%A4%AE%E0%A4%BF%E0%A4%B2%29",
+      "audioLabel": "स्कंद षष्ठी · तमिल · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "dhanteras-dhanvantari-katha",
+      "deity": "vishnu",
+      "title": "Dhanteras · Dhanvantari Katha",
+      "titleHi": "धनतेरस · धन्वंतरि कथा",
+      "when": "Dhanteras evening — before lamps; health and prosperity puja",
+      "summary": "Original TirthaYatra retelling of Dhanteras themes — Dhanvantari, health, and mindful prosperity.",
+      "sangrahLabel": "धनतेरस",
+      "relatedTemples": [
+        "dwarka",
+        "tirumala-venkateswara",
+        "kashi-vishwanath",
+        "mahalaxmi-kolhapur"
+      ],
+      "meaning": "Dhanteras begins Diwali with health-wealth balance. Buy what serves life; light a lamp for Dhanvantari.",
+      "verses": [
+        "॥ श्री धन्वन्तरये नमः ॥\nधनतेरस कथा — मौलिक पुनर्प्रस्तुति।",
+        "दीपावली से दो दिन पहले धनतेरस — आयुर्वेद के आदि देव धन्वंतरि और लक्ष्मी–कुबेर का स्मरण।",
+        "समुद्र मंथन स्मृति में धन्वंतरि अमृत कलश लेकर प्रकट होते हैं — स्वास्थ्य ही पहला धन।",
+        "घर में दीप, हल्दी–औषधि/बर्तन खरीद की परंपरा है; दिखावे का ऋण धर्म नहीं।",
+        "कथा का फल: शरीर और बजट दोनों की रक्षा।",
+        "॥ जय धन्वंतरि ॥ जय लक्ष्मी ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%A7%E0%A4%A8%E0%A4%A4%E0%A5%87%E0%A4%B0%E0%A4%B8%20%C2%B7%20%E0%A4%A7%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A4%82%E0%A4%A4%E0%A4%B0%E0%A4%BF%20%E0%A4%95%E0%A4%A5%E0%A4%BE",
+      "audioLabel": "धनतेरस · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "narak-chaturdashi-katha",
+      "deity": "krishna",
+      "title": "Narak Chaturdashi · Roop Chaudas Katha",
+      "titleHi": "नरक चतुर्दशी · रूप चौदस कथा",
+      "when": "Chhoti Diwali / Narak Chaturdashi — pre-dawn abhyanga snan where customary",
+      "summary": "Original TirthaYatra retelling of Krishna–Narakasura victory and the ‘light before Diwali’ purification themes.",
+      "sangrahLabel": "नरक चतुर्दशी",
+      "relatedTemples": [
+        "dwarka",
+        "guruvayur",
+        "udupi-krishna",
+        "prem-mandir-vrindavan"
+      ],
+      "meaning": "Narak Chaturdashi cleans the slate before Lakshmi Puja. Bath, oil, and a small lamp beat loud fireworks guilt.",
+      "verses": [
+        "॥ श्री कृष्णाय नमः ॥\nनरक चतुर्दशी कथा — मौलिक पुनर्प्रस्तुति।",
+        "कृष्ण–सत्यभामा ने नरकासुर का नाश कर प्रजा को मुक्त किया — अंधकार पर प्रकाश की छोटी दीwali।",
+        "कई घरों में अभिषंग स्नान, तेल–उबटन, और यमदीप की परंपरा है।",
+        "रूप चौदस सौंदर्य का दिन भी कहा जाता है — भीतर की स्वच्छता पहले।",
+        "॥ जय श्री कृष्ण ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%A8%E0%A4%B0%E0%A4%95%20%E0%A4%9A%E0%A4%A4%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A4%B6%E0%A5%80%20%C2%B7%20%E0%A4%B0%E0%A5%82%E0%A4%AA%20%E0%A4%9A%E0%A5%8C%E0%A4%A6%E0%A4%B8%20%E0%A4%95%E0%A4%A5%E0%A4%BE",
+      "audioLabel": "नरक चतुर्दशी · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "diwali-lakshmi-puja-katha",
+      "deity": "devi",
+      "title": "Diwali · Lakshmi Puja Katha",
+      "titleHi": "दीपावली · लक्ष्मी पूजा कथा",
+      "when": "Diwali Amavasya evening — Lakshmi–Ganesha puja",
+      "summary": "Original TirthaYatra retelling of Deepavali lamp and Lakshmi–Ganesha homecoming themes.",
+      "sangrahLabel": "दीपावली",
+      "relatedTemples": [
+        "mahalaxmi-kolhapur",
+        "ambaji",
+        "siddhivinayak-mumbai",
+        "ayodhya-ram-mandir"
+      ],
+      "meaning": "Diwali is light shared with the street. Welcome Lakshmi with clean accounts and open doors to kindness.",
+      "verses": [
+        "॥ श्री लक्ष्मी–गणेशाय नमः ॥\nदीपावली कथा — मौलिक पुनर्प्रस्तुति।",
+        "अमावस्या की रात दीपों से घर–गली जगमगाती है। राम की अयोध्या वापसी और लक्ष्मी आगमन दोनों स्मृतियाँ मिलती हैं।",
+        "गणेश–लक्ष्मी साथ पूजे जाते हैं — विवेक के बिना धन बोझ बनता है।",
+        "जुआ और दिखावा लक्ष्मी को नहीं रिझाते; अन्नदान और ऋण–मुक्ति रिझाते हैं।",
+        "पटाखों से कम, दीपों से अधिक — श्वास और पक्षी भी प्रसाद के भागीदार हैं।",
+        "॥ शुभ दीपावली ॥ जय माँ लक्ष्मी ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%A6%E0%A5%80%E0%A4%AA%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A5%80%20%C2%B7%20%E0%A4%B2%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%8D%E0%A4%AE%E0%A5%80%20%E0%A4%AA%E0%A5%82%E0%A4%9C%E0%A4%BE%20%E0%A4%95%E0%A4%A5%E0%A4%BE",
+      "audioLabel": "दीपावली · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "kali-puja-bengal-katha",
+      "deity": "devi",
+      "title": "Kali Puja Katha (Bengal)",
+      "titleHi": "काली पूजा कथा (बंगाल)",
+      "when": "Diwali night Kali Puja (Bengal) — midnight or temple aarti time",
+      "summary": "Original TirthaYatra retelling of Bengal’s Kali Puja on Deepavali night — fierce mother, tender refuge.",
+      "sangrahLabel": "काली पूजा · बंगाल",
+      "relatedTemples": [
+        "kalighat",
+        "dakshineswar-kali",
+        "kamakhya",
+        "vaishno-devi"
+      ],
+      "meaning": "Kali Puja faces fear with the Mother’s name. Offer red hibiscus and courage; avoid cruelty in the name of ritual.",
+      "verses": [
+        "॥ जय काली माँ ॥\nकाली पूजा कथा — मौलिक पुनर्प्रस्तुति (बंगाल)।",
+        "दीपावली की रात बंगाल में काली पूजा — अमावस्या में भी माँ का साहस।",
+        "काली अहंकार और अत्याचार काटती हैं; भक्त के लिए वे शरण हैं। रामकृष्ण–भक्त परंपरा ने प्रेम से काली को गाया।",
+        "पंडाल में आरती, घर में दीप। हिंसा नहीं, भक्ति से रात पार करें।",
+        "॥ जय काली ॥ जय दुर्गा ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%95%E0%A4%BE%E0%A4%B2%E0%A5%80%20%E0%A4%AA%E0%A5%82%E0%A4%9C%E0%A4%BE%20%E0%A4%95%E0%A4%A5%E0%A4%BE%20%28%E0%A4%AC%E0%A4%82%E0%A4%97%E0%A4%BE%E0%A4%B2%29",
+      "audioLabel": "काली पूजा · बंगाल · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "govardhan-puja-katha",
+      "deity": "krishna",
+      "title": "Govardhan Puja · Annakut Katha",
+      "titleHi": "गोवर्धन पूजा · अन्नकूट कथा",
+      "when": "Pratipada after Diwali — Annakut / Govardhan Puja",
+      "summary": "Original TirthaYatra retelling of Krishna lifting Govardhan and the Annakut gratitude feast.",
+      "sangrahLabel": "गोवर्धन · अन्नकूट",
+      "relatedTemples": [
+        "govardhan-giriraj",
+        "prem-mandir-vrindavan",
+        "banke-bihari-vrindavan",
+        "dwarka"
+      ],
+      "meaning": "Govardhan Puja thanks the earth and cows. Offer a simple annakut; share food with workers and animals.",
+      "verses": [
+        "॥ श्री गोवर्धनधारिणे नमः ॥\nगोवर्धन–अन्नकूट कथा — मौलिक पुनर्प्रस्तुति।",
+        "कृष्ण ने ब्रजवासियों को इंद्र के अहंकार से बचाया — गोवर्धन को छत्र बनाया। आभार पहाड़ और गौओं का।",
+        "अन्नकूट पर व्यंजनों का पर्वत — श्रम का सम्मान। बचे अन्न का दान।",
+        "घर पर छोटा गोवर्धन मिट्टी से बनाकर भी भाव रखा जा सकता है।",
+        "॥ जय गिरिराज ॥ जय श्री कृष्ण ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%97%E0%A5%8B%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%A8%20%E0%A4%AA%E0%A5%82%E0%A4%9C%E0%A4%BE%20%C2%B7%20%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%A8%E0%A4%95%E0%A5%82%E0%A4%9F%20%E0%A4%95%E0%A4%A5%E0%A4%BE",
+      "audioLabel": "गोवर्धन · अन्नकूट · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "bhai-dooj-yama-katha",
+      "deity": "devi",
+      "title": "Bhai Dooj · Yama–Yamuna Katha",
+      "titleHi": "भाई दूज · यम–यमुना कथा",
+      "when": "Bhai Dooj / Bhau Beej — after Diwali; tilak and meal for siblings",
+      "summary": "Original TirthaYatra retelling of Yama–Yamuna and sibling blessing themes for Bhai Dooj.",
+      "sangrahLabel": "भाई दूज",
+      "relatedTemples": [
+        "yamunotri",
+        "prem-mandir-vrindavan",
+        "ayodhya-ram-mandir",
+        "kashi-vishwanath"
+      ],
+      "meaning": "Bhai Dooj renews sibling care after the Diwali rush. A tilak and shared meal beat expensive guilt.",
+      "verses": [
+        "॥ श्री यमुनायै नमः ॥\nभाई दूज कथा — मौलिक पुनर्प्रस्तुति।",
+        "यमुना ने यमराज को निमंत्रण दे भोजन कराया — प्रेम ने मृत्यु के दूत को भी कोमल किया।",
+        "बहन टीका करती है; भाई सुरक्षा का वचन देता है। महाराष्ट्र में भाऊबीज, बंगाल में भाईफोटा।",
+        "जो दूर हों, वे कॉल–प्रसाद से भी जुड़ सकते हैं।",
+        "॥ जय यमुना ॥ जय भ्रातृ स्नेह ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%AD%E0%A4%BE%E0%A4%88%20%E0%A4%A6%E0%A5%82%E0%A4%9C%20%C2%B7%20%E0%A4%AF%E0%A4%AE%E2%80%93%E0%A4%AF%E0%A4%AE%E0%A5%81%E0%A4%A8%E0%A4%BE%20%E0%A4%95%E0%A4%A5%E0%A4%BE",
+      "audioLabel": "भाई दूज · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "tulsi-vivah-katha",
+      "deity": "vishnu",
+      "title": "Tulsi Vivah Katha",
+      "titleHi": "तुलसी विवाह कथा",
+      "when": "Prabodhini / Kartik Shukla — Tulsi Vivah evening",
+      "summary": "Original TirthaYatra retelling of Tulsi–Shaligram wedding themes opening the Kartik marriage season.",
+      "sangrahLabel": "तुलसी विवाह",
+      "relatedTemples": [
+        "banke-bihari-vrindavan",
+        "dwarka",
+        "tirumala-venkateswara",
+        "srirangam-ranganathaswamy"
+      ],
+      "meaning": "Tulsi Vivah sanctifies the courtyard plant as bride of the Lord. Keep Tulsi watered; begin Kartik with purity.",
+      "verses": [
+        "॥ श्री तुलस्यै विष्णवे नमः ॥\nतुलसी विवाह कथा — मौलिक पुनर्प्रस्तुति।",
+        "कार्तिक में तुलसी और शालिग्राम/विष्णु का प्रतीकात्मक विवाह — भक्ति का घरेलू उत्सव।",
+        "कथा में तुलसी की पवित्रता और हरि प्राप्ति का भाव है। विवाह काल का शुभारंभ भी माना जाता है।",
+        "आँगन साफ रखें; तुलसी को प्लास्टिक माला से नहीं, श्रद्धा से सजाएँ।",
+        "॥ जय तुलसी ॥ जय श्री हरि ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%A4%E0%A5%81%E0%A4%B2%E0%A4%B8%E0%A5%80%20%E0%A4%B5%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B9%20%E0%A4%95%E0%A4%A5%E0%A4%BE",
+      "audioLabel": "तुलसी विवाह · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "kartik-purnima-dev-diwali-katha",
+      "deity": "shiva",
+      "title": "Kartik Purnima · Dev Diwali Katha",
+      "titleHi": "कार्तिक पूर्णिमा · देव दीपावली कथा",
+      "when": "Kartik Purnima — Ganga snan, temple lamps, Dev Diwali in Kashi",
+      "summary": "Original TirthaYatra retelling of Kartik Purnima and Kashi’s Dev Diwali lamp themes.",
+      "sangrahLabel": "कार्तिक पूर्णिमा",
+      "relatedTemples": [
+        "kashi-vishwanath",
+        "gangotri",
+        "rameswaram",
+        "brahma-temple-pushkar"
+      ],
+      "meaning": "Kartik Purnima lights the gods’ Diwali. A lamp on the doorstep and a clean habit beat distant fireworks.",
+      "verses": [
+        "॥ श्री काशीविश्वनाथाय नमः ॥\nकार्तिक पूर्णिमा–देव दीपावली कथा — मौलिक पुनर्प्रस्तुति।",
+        "कार्तिक पूर्णिमा पर गंगा स्नान, दीपदान, और काशी की देव दीपावली — घाट दीपों से भरते हैं।",
+        "त्रिपुरारी पूर्णिमा स्मृति में शिव की ज्योति अधर्म पर विजय गाती है।",
+        "पुष्कर, रामेश्वरम, काशी — अलग तीर्थ, एक पूर्णिमा का प्रकाश।",
+        "घर पर भी कार्तिक व्रत/दीप से जुड़ें; नदी प्रदूषण से बचें।",
+        "॥ जय विश्वनाथ ॥ हर हर गंगे ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%95%20%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A4%BF%E0%A4%AE%E0%A4%BE%20%C2%B7%20%E0%A4%A6%E0%A5%87%E0%A4%B5%20%E0%A4%A6%E0%A5%80%E0%A4%AA%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A5%80%20%E0%A4%95%E0%A4%A5%E0%A4%BE",
+      "audioLabel": "कार्तिक पूर्णिमा · search"
+    },
+    {
+      "type": "vrat-katha",
+      "author": "Popular vow tradition · TirthaYatra original retelling",
+      "completeText": true,
+      "slug": "labh-panchami-gujarati-katha",
+      "deity": "devi",
+      "title": "Labh Panchami Katha (Gujarat)",
+      "titleHi": "लाभ पंचमी कथा (गुजरात)",
+      "when": "Labh Panchami / Saubhagya Panchami — after Diwali; shop/account reopening",
+      "summary": "Original TirthaYatra retelling of Gujarati Labh Panchami — auspicious restart of trade with ethics.",
+      "sangrahLabel": "लाभ पंचमी · गुजरात",
+      "relatedTemples": [
+        "dwarka",
+        "ambaji",
+        "somnath",
+        "mahalaxmi-kolhapur"
+      ],
+      "meaning": "Labh Panchami seeks ‘labh’ with honesty. Open ledgers with charity, not only with discounts.",
+      "verses": [
+        "॥ श्री गणेश–लक्ष्म्यै नमः ॥\nलाभ पंचमी कथा — मौलिक पुनर्प्रस्तुति (गुजरात)।",
+        "दीपावली के बाद लाभ पंचमी पर दुकान–बही खाता पूजन — नए सौदों का शुभारंभ।",
+        "लाभ का अर्थ केवल मुनाफा नहीं — विश्वास का ब्याज। माँ लक्ष्मी छल से नहीं ठहरतीं।",
+        "छोटा दान या कर्मचारी मिठाई भी पूजा का भाग है।",
+        "॥ शुभ लाभ ॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%B2%E0%A4%BE%E0%A4%AD%20%E0%A4%AA%E0%A4%82%E0%A4%9A%E0%A4%AE%E0%A5%80%20%E0%A4%95%E0%A4%A5%E0%A4%BE%20%28%E0%A4%97%E0%A5%81%E0%A4%9C%E0%A4%B0%E0%A4%BE%E0%A4%A4%29",
+      "audioLabel": "लाभ पंचमी · गुजरात · search"
+    },
+    {
+      "type": "aarti",
+      "author": "Traditional",
+      "completeText": true,
+      "slug": "surya-aarti",
+      "deity": "vishnu",
+      "sangrahLabel": "सूर्य देव",
+      "title": "Surya Aarti — Jai Jai Surya Bhagwan",
+      "titleHi": "सूर्य आरती — जय जय सूर्य भगवान",
+      "when": "Chhath arghya days; Sundays; Kartik morning",
+      "summary": "Traditional-style Surya aarti for Sunday and Chhath home worship.",
+      "relatedTemples": [
+        "konark-sun-temple",
+        "gangotri",
+        "sun-temple-deo",
+        "kashi-vishwanath"
+      ],
+      "meaning": "Aarti of Surya — gratitude for light, health, and honest work.",
+      "verses": [
+        "जय जय सूर्य भगवान, जय जय सूर्य भगवान।\nत्रैलोक्य के तुम नाथ, भक्तन के प्राण॥",
+        "अन्धकार हरि लेत, जग में उजियारा।\nरोग दोष दुख मेटत, करत बेड़ा पार॥\nजय जय सूर्य भगवान॥",
+        "सप्त अश्व रथ सोहे, कोटि रवि समान।\nअर्घ्य देत जो कोई, पावत कल्याण॥\nजय जय सूर्य भगवान॥",
+        "छठ मैया के संग, अर्घ्य तिहारे।\nसूर्य देव दया करो, संतन के द्वारे॥\nजय जय सूर्य भगवान॥",
+        "आरती जो कोई गावे, मनवांछित फल पावे।\nसूर्य नारायण की जय, भक्तन सुखदाई॥\nजय जय सूर्य भगवान॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%B8%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%AF%20%E0%A4%86%E0%A4%B0%E0%A4%A4%E0%A5%80%20%E2%80%94%20%E0%A4%9C%E0%A4%AF%20%E0%A4%9C%E0%A4%AF%20%E0%A4%B8%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%AF%20%E0%A4%AD%E0%A4%97%E0%A4%B5%E0%A4%BE%E0%A4%A8",
+      "audioLabel": "सूर्य देव आरती · search"
+    },
+    {
+      "type": "aarti",
+      "author": "Traditional",
+      "completeText": true,
+      "slug": "tulsi-aarti",
+      "deity": "vishnu",
+      "sangrahLabel": "तुलसी महारानी",
+      "title": "Tulsi Aarti",
+      "titleHi": "तुलसी आरती — जय जय तुलसी माता",
+      "when": "Tulsi Vivah; daily courtyard Tulsi lighting in Kartik",
+      "summary": "Traditional Tulsi aarti for courtyard worship and Tulsi Vivah evenings.",
+      "relatedTemples": [
+        "banke-bihari-vrindavan",
+        "dwarka",
+        "tirumala-venkateswara",
+        "srirangam-ranganathaswamy"
+      ],
+      "meaning": "Aarti of Tulsi — purity in the courtyard and devotion to Hari.",
+      "verses": [
+        "जय जय तुलसी माता, जय जय तुलसी माता।\nप्रभु तोरे माथे सोहे, श्याम सुरत मन भ्राता॥",
+        "तोर चरन वंदे जो कोई, भवसागर तर जाते।\nहरि भक्ति प्रगटे उर में, पातक झड़ जाते॥\nजय जय तुलसी माता॥",
+        "कार्तिक मास विशेषे, दीप जगवो माता।\nतुलसी विवाह रचवो, हरि संग सुखदाता॥\nजय जय तुलसी माता॥",
+        "जल गागर चढ़ावो, तुलसी हरित सदा।\nआरती जो गावे, घर आवे प्रभु दा॥\nजय जय तुलसी माता॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%A4%E0%A5%81%E0%A4%B2%E0%A4%B8%E0%A5%80%20%E0%A4%86%E0%A4%B0%E0%A4%A4%E0%A5%80%20%E2%80%94%20%E0%A4%9C%E0%A4%AF%20%E0%A4%9C%E0%A4%AF%20%E0%A4%A4%E0%A5%81%E0%A4%B2%E0%A4%B8%E0%A5%80%20%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A4%BE",
+      "audioLabel": "तुलसी महारानी आरती · search"
+    },
+    {
+      "type": "aarti",
+      "author": "Traditional",
+      "completeText": true,
+      "slug": "murugan-aarti",
+      "deity": "shiva",
+      "sangrahLabel": "मुरुगन · स्कंद",
+      "title": "Murugan · Skanda Aarti",
+      "titleHi": "मुरुगन आरती — वेल वेल मुरुगा",
+      "when": "Skanda Shashti; Tuesdays; Murugan temple evenings",
+      "summary": "Devotional Murugan/Skanda aarti for Skanda Shashti and home vel worship.",
+      "relatedTemples": [
+        "palani-murugan",
+        "thiruparankundram-murugan",
+        "thiruchendur-murugan",
+        "meenakshi-madurai"
+      ],
+      "meaning": "Aarti of Murugan — courage, clarity, and victory of the vel.",
+      "verses": [
+        "वेल वेल मुरुगा, आरती तेरी गाऊँ।\nषण्मुख दीप जलाऊँ, संकट सब मिटाऊँ॥",
+        "पार्वती नंदन प्यारे, शिव के राज दुलारे।\nसूर संहार करे जो, भक्तन बेड़ा पारे॥\nवेल वेल मुरुगा॥",
+        "पलाणी गिरि वासी, तिरुचेंदुर उजासी।\nस्वमि मलाई सोहे, कृपा करो मुरुगा॥\nवेल वेल मुरुगा॥",
+        "षष्ठी व्रत रखे जो, मनवांछित फल पावे।\nआरती मुरुगन की, भव भय दूर भगावे॥\nवेल वेल मुरुगा॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%AE%E0%A5%81%E0%A4%B0%E0%A5%81%E0%A4%97%E0%A4%A8%20%E0%A4%86%E0%A4%B0%E0%A4%A4%E0%A5%80%20%E2%80%94%20%E0%A4%B5%E0%A5%87%E0%A4%B2%20%E0%A4%B5%E0%A5%87%E0%A4%B2%20%E0%A4%AE%E0%A5%81%E0%A4%B0%E0%A5%81%E0%A4%97%E0%A4%BE",
+      "audioLabel": "मुरुगन · स्कंद आरती · search"
+    },
+    {
+      "type": "aarti",
+      "author": "Traditional",
+      "completeText": true,
+      "slug": "dhanvantari-aarti",
+      "deity": "vishnu",
+      "sangrahLabel": "धन्वंतरि",
+      "title": "Dhanvantari Aarti",
+      "titleHi": "धन्वंतरि आरती",
+      "when": "Dhanteras evening; when starting Ayurveda study or medicine cupboard puja",
+      "summary": "Short traditional-style Dhanvantari aarti for Dhanteras health-wealth worship.",
+      "relatedTemples": [
+        "dwarka",
+        "tirumala-venkateswara",
+        "kashi-vishwanath",
+        "siddhivinayak-mumbai"
+      ],
+      "meaning": "Aarti of Dhanvantari — healer who holds the nectar pot; health before hoarding.",
+      "verses": [
+        "जय धन्वंतरि भगवन्, जय अमृत के दाता।\nरोग हरन सुख करन, जग के तुम त्राता॥",
+        "समुद्र मंथन से आए, कलश लिए हाथों में।\nआयुर्वेद के आदि देव, बसो भक्त के साथ में॥\nजय धन्वंतरि भगवन्॥",
+        "धनतेरस दीप जलाएँ, औषधि पूजन गाएँ।\nआरती जो नित गावे, निरोग काया पावें॥\nजय धन्वंतरि भगवन्॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%A7%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A4%82%E0%A4%A4%E0%A4%B0%E0%A4%BF%20%E0%A4%86%E0%A4%B0%E0%A4%A4%E0%A5%80",
+      "audioLabel": "धन्वंतरि आरती · search"
+    },
+    {
+      "type": "aarti",
+      "author": "Traditional",
+      "completeText": true,
+      "slug": "durga-aarti-jagdamba",
+      "deity": "devi",
+      "sangrahLabel": "दुर्गा जगदम्बा",
+      "title": "Durga Aarti — Jagdamba",
+      "titleHi": "दुर्गा आरती — जय जगदम्बे माता",
+      "when": "Navaratri / Durga Puja evenings; Ashtami–Navami",
+      "summary": "Popular Jagdamba Durga aarti for Sharad Navaratri and Durga Puja.",
+      "relatedTemples": [
+        "vaishno-devi",
+        "kalighat",
+        "kamakhya",
+        "tuljapur-bhavani"
+      ],
+      "meaning": "Aarti of Jagdamba Durga — mother of the world, remover of fear in Navaratri nights.",
+      "verses": [
+        "जय जगदम्बे माता, जय जगदम्बे माता।\nआरती तेरी जो कोई गाता, जय जगदम्बे माता॥",
+        "तुम हो जग की माता, तुम हो जग के त्राता।\nदुखियों के दुख हरती, जय जगदम्बे माता॥",
+        "महिषासुर हनन करी, भक्तन बेड़ा पार करी।\nनवरात्रि में आना, जय जगदम्बे माता॥",
+        "लाल चुनरिया सोहे, अष्ट भुजा मन मोहे।\nसिंहासन पर विराजे, जय जगदम्बे माता॥",
+        "धूप दीप फल मेवा, माँ को भावे सेवा।\nजो जन आरती गावे, मनवांछित फल पावे॥\nजय जगदम्बे माता॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%A6%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%BE%20%E0%A4%86%E0%A4%B0%E0%A4%A4%E0%A5%80%20%E2%80%94%20%E0%A4%9C%E0%A4%AF%20%E0%A4%9C%E0%A4%97%E0%A4%A6%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A5%87%20%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A4%BE",
+      "audioLabel": "दुर्गा जगदम्बा आरती · search"
+    },
+    {
+      "type": "chalisa",
+      "author": "Traditional · regional wording varies",
+      "completeText": true,
+      "slug": "murugan-chalisa",
+      "deity": "shiva",
+      "sangrahLabel": "मुरुगन चालीसा",
+      "title": "Murugan Chalisa",
+      "titleHi": "मुरुगन · स्कंद चालीसा",
+      "when": "Skanda Shashti; Tuesdays; before Murugan aarti",
+      "summary": "Devotional Murugan/Skanda chalisa for home puja — regional Tamil–Hindi blended praise.",
+      "relatedTemples": [
+        "palani-murugan",
+        "thiruparankundram-murugan",
+        "thiruchendur-murugan",
+        "meenakshi-madurai"
+      ],
+      "meaning": "Forty-verse style praise of Murugan — vel, six faces, and grace for students and seekers.",
+      "verses": [
+        "॥ दोहा ॥\nशिव पार्वती सुत भजो, मुरुगन करुणानिधान।\nवेल धरें जो भक्त पर, रहें सदा कल्याण॥",
+        "जय मुरुगन जय स्कंद कुमार। जय षण्मुख जय शक्ति दुलार॥\nपार्वती गोद खेले नंदलाल। शिव डमरू बज्जे आनंद ख्याल॥",
+        "सूर असुर दल खंडन वीर। धर्म रक्षा हित शस्त्र गंभीर॥\nपलाणी वास तिरुचेंदुर धाम। भक्तन कष्ट मिटावत राम॥",
+        "षष्ठी व्रत राखे जो कोई। मनवांछित फल पावै सोई॥\nविद्यार्थी तुम बुद्धि बढ़ाओ। रोग शोक संकट सब टालो॥",
+        "जय जय वेल, जय जय मुरुगा। आरती संग गावो स्तुति गा॥\nजो यह चालीसा नित पढ़े। मुरुगन कृपा निश्चय लहे॥",
+        "॥ सोरठा ॥\nमुरुगन चरन मन आना। तिर्थयात्रा सुमिरन गाना॥\nवेल वेल महिमा अपार। करो भक्त बेड़ा पार॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%AE%E0%A5%81%E0%A4%B0%E0%A5%81%E0%A4%97%E0%A4%A8%20%C2%B7%20%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A4%82%E0%A4%A6%20%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A5%80%E0%A4%B8%E0%A4%BE",
+      "audioLabel": "मुरुगन चालीसा चालीसा · search"
+    },
+    {
+      "type": "chalisa",
+      "author": "Traditional · regional wording varies",
+      "completeText": true,
+      "slug": "tulsi-chalisa",
+      "deity": "vishnu",
+      "sangrahLabel": "तुलसी चालीसा",
+      "title": "Tulsi Chalisa",
+      "titleHi": "तुलसी चालीसा",
+      "when": "Kartik month; Tulsi Vivah; daily after lighting the courtyard lamp",
+      "summary": "Devotional Tulsi chalisa for Kartik and Tulsi Vivah — courtyard purity and Hari bhakti.",
+      "relatedTemples": [
+        "banke-bihari-vrindavan",
+        "dwarka",
+        "tirumala-venkateswara",
+        "srirangam-ranganathaswamy"
+      ],
+      "meaning": "Praise of Tulsi — the plant that teaches daily care and quiet devotion.",
+      "verses": [
+        "॥ दोहा ॥\nतुलसी हरि प्रिया जानि के, नित सेवो मन लाय।\nकार्तिक दीप जलाय के, पाप होय मिट जाय॥",
+        "जय तुलसी जय वृंदावनी। जय हरि प्रिया जय जग जननी॥\nआँगन राजे हरित सुहाई। जल देत जो पावन काया॥",
+        "तुलसी विवाह रच्यो आनंद। शालिग्राम संग प्रभु छंद॥\nजो नित तुलसी छुवै हाथ। रोग दोष छूटै नाथ॥",
+        "कार्तिक व्रत राखे जोई। वैकुंठ लोक बसावै सोई॥\nतुलसी चालीसा जो गावे। हरि भक्ति उर में आवे॥",
+        "॥ सोरठा ॥\nतुलसी चरन असीस। दीजे भक्ति अविनाश॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%A4%E0%A5%81%E0%A4%B2%E0%A4%B8%E0%A5%80%20%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A5%80%E0%A4%B8%E0%A4%BE",
+      "audioLabel": "तुलसी चालीसा चालीसा · search"
+    },
+    {
+      "type": "chalisa",
+      "author": "Traditional · regional wording varies",
+      "completeText": true,
+      "slug": "radha-chalisa",
+      "deity": "krishna",
+      "sangrahLabel": "राधा रानी",
+      "title": "Radha Chalisa",
+      "titleHi": "राधा चालीसा",
+      "when": "Janmashtami season; Radhashtami; evenings in Kartik",
+      "summary": "Devotional Radha chalisa for Braj bhakti during Janmashtami–Kartik season.",
+      "relatedTemples": [
+        "banke-bihari-vrindavan",
+        "prem-mandir-vrindavan",
+        "radha-raman-vrindavan",
+        "dwarka"
+      ],
+      "meaning": "Praise of Radha Rani — devotion that makes Krishna’s name complete.",
+      "verses": [
+        "॥ दोहा ॥\nराधे राधे जप सदा, ब्रज रज सिर धार।\nकृष्ण प्राप्ति का मूल है, राधा नाम उदार॥",
+        "जय राधे जय वृषभानु दुलारी। जय किशोरी जय ब्रज बिहारी॥\nप्रेम मंदिर में राज रचावो। भक्तन के मन कमल खिलावो॥",
+        "जन्माष्टमी से कार्तिक तक। राधा नाम जपे नर–नार॥\nजो यह चालीसा प्रेम से गावे। ब्रज बिहारी कृपा पावे॥",
+        "॥ सोरठा ॥\nराधे चरन मन बसे। तिर्थयात्रा सुमिरन रसे॥"
+      ],
+      "audioNote": "Search YouTube for a listen-along while reading. Open on YouTube if needed.",
+      "audioWatchUrl": "https://www.youtube.com/results?search_query=%E0%A4%B0%E0%A4%BE%E0%A4%A7%E0%A4%BE%20%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A5%80%E0%A4%B8%E0%A4%BE",
+      "audioLabel": "राधा रानी चालीसा · search"
     }
   ]
 }

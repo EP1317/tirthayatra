@@ -6,8 +6,14 @@
   "state": "Rajasthan",
   "country": "India",
   "glyph": "ब",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "hanuman-trail",
+    "rajasthan-tirtha"
+  ],
+  "tagLabels": [
+    "Hanuman Trail",
+    "Rajasthan"
+  ],
   "summary": "Bajrangbali Mandir — busy Hanuman shrine in Ajmer city.",
   "famousFor": "Ajmer Hanuman · Tuesday search",
   "mythology": "Tuesday queues for Rajasthani families who combine with Ana Sagar and dargah-area walks.",

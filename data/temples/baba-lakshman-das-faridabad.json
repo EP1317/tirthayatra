@@ -6,8 +6,12 @@
   "state": "Haryana",
   "country": "India",
   "glyph": "ह",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "hanuman-trail"
+  ],
+  "tagLabels": [
+    "Hanuman Trail"
+  ],
   "summary": "Baba Lakshman Das — Hanuman-focused shrine with fair-day crowds.",
   "famousFor": "Old Faridabad Hanuman · local mela search",
   "mythology": "Tuesday and Saturday queues for Faridabad’s old-town Hanuman bhakti.",

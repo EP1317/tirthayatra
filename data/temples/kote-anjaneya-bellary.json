@@ -6,8 +6,12 @@
   "state": "Karnataka",
   "country": "India",
   "glyph": "को",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "hanuman-trail"
+  ],
+  "tagLabels": [
+    "Hanuman Trail"
+  ],
   "summary": "Kote Anjaneya — Hanuman at Bellary Fort’s sacred quarter.",
   "famousFor": "Fort Hanuman · Ballari search",
   "mythology": "Hanuman guards the fort town; Tuesdays see extraordinary queues in mining-belt Ballari.",

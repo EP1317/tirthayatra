@@ -6,8 +6,12 @@
   "state": "Uttar Pradesh",
   "country": "India",
   "glyph": "ल",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "rama-kshaetra"
+  ],
+  "tagLabels": [
+    "Rama Kshaetra"
+  ],
   "summary": "Lavkush Mandir — Aliganj temple tied to Lav and Kush of Ramayana memory.",
   "famousFor": "Ramayana sons’ seat · Awadh heritage search",
   "mythology": "Local tradition places the ashram of Rama’s sons here; Ram Navami and Kartik fairs sustain Awadh’s epic geography.",

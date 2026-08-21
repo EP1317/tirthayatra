@@ -6,8 +6,12 @@
   "state": "Madhya Pradesh",
   "country": "India",
   "glyph": "गु",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "hanuman-trail"
+  ],
+  "tagLabels": [
+    "Hanuman Trail"
+  ],
   "summary": "Gufa Mandir — rock-cut style cave shrine on Bhopal’s Udayagiri ridge.",
   "famousFor": "Cave temple on Udayagiri hill · Bhopal local search",
   "mythology": "Devotees climb to darshan in a grotto setting; Hanuman and Shiva share the sacred hill with ancient cave heritage nearby.",

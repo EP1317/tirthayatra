@@ -6,8 +6,12 @@
   "state": "Uttar Pradesh",
   "country": "India",
   "glyph": "ह",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "hanuman-trail"
+  ],
+  "tagLabels": [
+    "Hanuman Trail"
+  ],
   "summary": "Hanuman Mandir — popular Tuesday shrine in Jhansi.",
   "famousFor": "Jhansi Hanuman · Tuesday search",
   "mythology": "Hanuman as sankat-mochan for Bundelkhand soldiers and traders.",

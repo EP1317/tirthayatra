@@ -6,8 +6,16 @@
   "state": "Uttar Pradesh",
   "country": "India",
   "glyph": "कृ",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "braj-yatra",
+    "krishna-lila-trail",
+    "myth-story-tirthas"
+  ],
+  "tagLabels": [
+    "Braj Yatra",
+    "Krishna Lila",
+    "Story Tirthas"
+  ],
   "summary": "Krishna Janmabhoomi — the spiritual centre of Mathura in the Braj yatra.",
   "famousFor": "Traditional birthplace complex of Krishna in Mathura",
   "mythology": "Mathura is celebrated in the Bhagavata Purana as Krishna’s birthplace. The Janmabhoomi complex is the axis of Braj pilgrimage before devotees move on to Vrindavan, Gokul, and Barsana.",

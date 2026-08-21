@@ -6,8 +6,12 @@
   "state": "Andhra Pradesh",
   "country": "India",
   "glyph": "दु",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "myth-story-tirthas"
+  ],
+  "tagLabels": [
+    "Story Tirthas"
+  ],
   "summary": "Kanaka Durga on Indrakeeladri Hill — Vijayawada’s principal Devi temple and a flagship Andhra Pradesh pilgrimage stop.",
   "famousFor": "Hilltop Shakti shrine on the Krishna",
   "mythology": "Kanaka Durga on Indrakeeladri overlooks the Krishna. Shakta tradition links the hill with Durga’s victory over mahishasura-class forces in the Devi Mahatmya cycle and with regional Andhra mahatmya that place the goddess as guardian of the river crossing.",

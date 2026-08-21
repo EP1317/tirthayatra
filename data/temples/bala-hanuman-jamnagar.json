@@ -6,8 +6,12 @@
   "state": "Gujarat",
   "country": "India",
   "glyph": "ब",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "hanuman-trail"
+  ],
+  "tagLabels": [
+    "Hanuman Trail"
+  ],
   "summary": "Bala Hanuman — lakeside temple famed for unbroken ‘Shri Ram Jai Ram’ chanting.",
   "famousFor": "Continuous Ram dhun since 1964 · Guinness-record search",
   "mythology": "Devotees maintain akhand dhun day and night; the lake setting and world-record memory make this Jamnagar’s signature tirtha.",

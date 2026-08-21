@@ -6,8 +6,12 @@
   "state": "Jammu and Kashmir",
   "country": "India",
   "glyph": "वै",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "myth-story-tirthas"
+  ],
+  "tagLabels": [
+    "Story Tirthas"
+  ],
   "summary": "Vaishno Devi — one of India’s largest Devi pilgrimages, administered by the Shrine Board.",
   "famousFor": "Himalayan Devi yatra administered by shrine board",
   "mythology": "Vaishno Devi on Trikuta is worshipped as a form of the Goddess combining Vaishnava and Shakta resonances in North Indian devotion. Regional mahatmya narrates the goddess’s pursuit of the devotee-turned-adversary Bhairon and her establishment in the holy cave — a story that frames the yatra as both refuge and testing.",

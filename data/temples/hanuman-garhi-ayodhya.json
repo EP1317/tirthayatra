@@ -6,8 +6,14 @@
   "state": "Uttar Pradesh",
   "country": "India",
   "glyph": "ह",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "hanuman-trail",
+    "rama-kshaetra"
+  ],
+  "tagLabels": [
+    "Hanuman Trail",
+    "Rama Kshaetra"
+  ],
   "summary": "Hanuman Garhi — hilltop Hanuman fort temple guarding Ayodhya.",
   "famousFor": "Fort Hanuman · Ayodhya essential search",
   "mythology": "Child Hanuman in lap of Mata Anjani iconography; Tuesday and Saturday define Ayodhya’s Hanuman bhakti before Ram Janmabhoomi darshan.",

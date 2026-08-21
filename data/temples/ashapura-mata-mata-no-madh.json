@@ -6,8 +6,12 @@
   "state": "Gujarat",
   "country": "India",
   "glyph": "आ",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "rajasthan-tirtha"
+  ],
+  "tagLabels": [
+    "Rajasthan"
+  ],
   "summary": "Ashapura Mata at Mata no Madh — principal kuldevi shrine of Kutch.",
   "famousFor": "Kutch kuldevi · Ashapura mega-search",
   "mythology": "Ashapura as mother of Kutch; full-moon and Navaratri see lakhs from Gujarat and diaspora.",

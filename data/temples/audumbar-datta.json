@@ -6,8 +6,12 @@
   "state": "Maharashtra",
   "country": "India",
   "glyph": "औ",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "dattatreya-trail"
+  ],
+  "tagLabels": [
+    "Dattatreya"
+  ],
   "summary": "Audumbar — riverside Datta shrine paired with Narsobawadi on Datta yatra.",
   "famousFor": "Audumbar Datta · riverside peetha",
   "mythology": "Local tradition links the Audumbar tree and Datta’s grace; pilgrims combine Audumbar with Narsobawadi on Thursday vows.",

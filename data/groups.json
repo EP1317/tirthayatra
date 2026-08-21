@@ -124,6 +124,43 @@
         "jogadya-kshirgram",
         "puruhutika-pithapuram"
       ]
+    },
+    "gujarat-char-dham": {
+      "expected": 4,
+      "order": [
+        "somnath",
+        "dwarka",
+        "ambaji",
+        "pavagadh-kalika"
+      ]
+    },
+    "braj-yatra": {
+      "expected": 12,
+      "order": [
+        "krishna-janmabhoomi-mathura",
+        "dwarkadhish-mathura",
+        "gokul-raman-reti",
+        "govardhan-giriraj",
+        "nandgaon-nandbaba",
+        "barsana-radha-rani",
+        "banke-bihari-vrindavan",
+        "radha-raman-vrindavan",
+        "radha-vallabh-vrindavan",
+        "prem-mandir-vrindavan",
+        "iskcon-vrindavan",
+        "katyayani-vrindavan"
+      ]
+    },
+    "narasimha-kshaetra": {
+      "expected": 6,
+      "order": [
+        "ahobilam-narasimha",
+        "simhachalam",
+        "yadagirigutta",
+        "penchalakona-narasimha",
+        "sri-lakshmi-narasimha-kakinada",
+        "narasimha-jharni-bidar"
+      ]
     }
   },
   "open": {
@@ -138,6 +175,33 @@
     },
     "mahabharata-sites": {
       "labelFlexible": true
+    },
+    "hanuman-trail": {
+      "labelFlexible": true
+    },
+    "krishna-lila-trail": {
+      "labelFlexible": true
+    },
+    "murugan-trail": {
+      "labelFlexible": true
+    },
+    "rama-kshaetra": {
+      "labelFlexible": true
+    },
+    "kerala-kshetram": {
+      "labelFlexible": true
+    },
+    "rajasthan-tirtha": {
+      "labelFlexible": true
+    },
+    "myth-story-tirthas": {
+      "labelFlexible": true
+    },
+    "dattatreya-trail": {
+      "labelFlexible": true
+    },
+    "sai-baba-trail": {
+      "labelFlexible": true
     }
   },
   "labels": {
@@ -151,6 +215,18 @@
     "ramayana-trail": "Ramayana Trail",
     "mahabharata-sites": "Mahabharata Sites",
     "beyond-india": "Beyond India",
-    "modern-temples": "Modern Temples"
+    "modern-temples": "Modern Temples",
+    "gujarat-char-dham": "Gujarat Char Dham",
+    "braj-yatra": "Braj Yatra",
+    "hanuman-trail": "Hanuman Trail",
+    "krishna-lila-trail": "Krishna Lila Trail",
+    "murugan-trail": "Murugan Trail",
+    "rama-kshaetra": "Rama Kshaetra",
+    "narasimha-kshaetra": "Narasimha Kshaetra",
+    "kerala-kshetram": "Kerala Kshetram",
+    "rajasthan-tirtha": "Rajasthan Tirtha",
+    "myth-story-tirthas": "Myth Story Tirthas",
+    "dattatreya-trail": "Dattatreya Trail",
+    "sai-baba-trail": "Sai Baba Trail"
   }
 }

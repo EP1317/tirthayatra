@@ -6,8 +6,12 @@
   "state": "Tamil Nadu",
   "country": "India",
   "glyph": "म",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "murugan-trail"
+  ],
+  "tagLabels": [
+    "Murugan Trail"
+  ],
   "summary": "Marudhamalai — forest-hill Murugan temple overlooking Coimbatore.",
   "famousFor": "Hill Murugan above Coimbatore · high Tamil Nadu search",
   "mythology": "Murugan as youthful healer and commander; Thaipusam and Panguni Uttiram draw hill-climbing devotees from Kongu Nadu.",

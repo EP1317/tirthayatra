@@ -6,8 +6,12 @@
   "state": "Maharashtra",
   "country": "India",
   "glyph": "द",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "dattatreya-trail"
+  ],
+  "tagLabels": [
+    "Dattatreya"
+  ],
   "summary": "Narsobawadi — major Datta peetha on the Maharashtra Datta yatra.",
   "famousFor": "Datta peetha · Krishna riverside",
   "mythology": "Dattatreya — the three-headed Guru of the Trimurti — is worshipped here as living guide. Datta Jayanti and Thursday seva draw devotees seeking Guru-kripa along the Krishna.",

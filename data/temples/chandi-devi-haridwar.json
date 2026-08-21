@@ -6,8 +6,12 @@
   "state": "Uttarakhand",
   "country": "India",
   "glyph": "च",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "myth-story-tirthas"
+  ],
+  "tagLabels": [
+    "Story Tirthas"
+  ],
   "summary": "Chandi Devi — hill temple where the Goddess slayed Chanda–Munda in tradition.",
   "famousFor": "Neel Parvat Shakti · Haridwar ropeway search",
   "mythology": "Skanda Purana memory places Chandi here after killing demons; Navaratri and Kumbh seasons intensify hill queues.",

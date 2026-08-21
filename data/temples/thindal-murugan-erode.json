@@ -6,8 +6,12 @@
   "state": "Tamil Nadu",
   "country": "India",
   "glyph": "थ",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "murugan-trail"
+  ],
+  "tagLabels": [
+    "Murugan Trail"
+  ],
   "summary": "Thindal Murugan — visible hill temple overlooking Erode city.",
   "famousFor": "Hill Murugan above Erode · Thaipusam search",
   "mythology": "Murugan with valli–deivanai tradition; Thaipusam kavadi from Erode textile workers fills the hill road.",

@@ -6,8 +6,12 @@
   "state": "Karnataka",
   "country": "India",
   "glyph": "म",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "dattatreya-trail"
+  ],
+  "tagLabels": [
+    "Dattatreya"
+  ],
   "summary": "Maniknagar — Datta seat of the Manik Prabhu tradition.",
   "famousFor": "Manik Prabhu Datta peeth",
   "mythology": "The peetha carries Datta–Avadhuta teaching into modern bhakti; Thursday aarti and Datta Jayanti keep the Guru’s presence vivid.",

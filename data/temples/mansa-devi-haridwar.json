@@ -6,8 +6,12 @@
   "state": "Uttarakhand",
   "country": "India",
   "glyph": "म",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "myth-story-tirthas"
+  ],
+  "tagLabels": [
+    "Story Tirthas"
+  ],
   "summary": "Mansa Devi — wish-fulfilling Goddess on Bilwa Parvat above Haridwar.",
   "famousFor": "Cable-car Devi · Haridwar twin-hill search",
   "mythology": "Devotees tie threads for boons; paired with Chandi Devi on the opposite hill for the classic Haridwar skyline yatra.",

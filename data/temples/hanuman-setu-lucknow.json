@@ -6,8 +6,12 @@
   "state": "Uttar Pradesh",
   "country": "India",
   "glyph": "ह",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "hanuman-trail"
+  ],
+  "tagLabels": [
+    "Hanuman Trail"
+  ],
   "summary": "Hanuman Setu — sprawling Hanuman temple complex on the Gomti bank.",
   "famousFor": "Lucknow’s mega Hanuman · Tuesday queue search",
   "mythology": "Tuesday and Saturday crowds define Lucknow’s urban bhakti; the ‘setu’ name recalls Hanuman’s bridge seva to Rama.",

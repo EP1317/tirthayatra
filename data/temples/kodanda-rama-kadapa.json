@@ -6,8 +6,12 @@
   "state": "Andhra Pradesh",
   "country": "India",
   "glyph": "को",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "rama-kshaetra"
+  ],
+  "tagLabels": [
+    "Rama Kshaetra"
+  ],
   "summary": "Vontimitta Kodanda Rama — ancient Rama temple carved from single stone.",
   "famousFor": "Single-stone Rama temple · Kadapa district search",
   "mythology": "Ramayana architecture marvel of Rayalaseema; Ram Navami draws district-wide bhakti.",

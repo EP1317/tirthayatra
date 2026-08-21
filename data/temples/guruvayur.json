@@ -6,8 +6,16 @@
   "state": "Kerala",
   "country": "India",
   "glyph": "गु",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "krishna-lila-trail",
+    "kerala-kshetram",
+    "myth-story-tirthas"
+  ],
+  "tagLabels": [
+    "Krishna Lila",
+    "Kerala Kshetram",
+    "Story Tirthas"
+  ],
   "summary": "Guruvayurappan temple — among Kerala’s most important Vaishnava shrines, under Guruvayur Devaswom.",
   "famousFor": "Kerala’s foremost Krishna temple",
   "mythology": "Guruvayurappan is Krishna worshipped in a form cherished across Kerala Vaishnavism. Temple tradition links the image to ancient consecration narratives involving Guru (Brihaspati) and Vayu — hence Guruvayur.",

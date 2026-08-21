@@ -6,8 +6,14 @@
   "state": "Rajasthan",
   "country": "India",
   "glyph": "सा",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "rajasthan-tirtha",
+    "sai-baba-trail"
+  ],
+  "tagLabels": [
+    "Rajasthan",
+    "Sai Baba"
+  ],
   "summary": "Sai Mandir in Ajmer — shraddha–saburi for city devotees.",
   "famousFor": "Ajmer Sai devotion · Thursday aarti",
   "mythology": "Thursday aarti and Udi prasadam carry Shirdi’s living faith into Ajmer’s mixed sacred geography.",

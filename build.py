@@ -76,6 +76,9 @@ PILGRIMAGE_ORDER_CIRCUITS = {
     "char-dham",
     "chota-char-dham",
     "panch-kedar",
+    "gujarat-char-dham",
+    "braj-yatra",
+    "narasimha-kshaetra",
 }
 
 
@@ -538,13 +541,13 @@ def footer(prefix: str = "") -> str:
       <div class="footer-explore-grid">
         <a href="{prefix}circuits/12-jyotirlinga.html">12 Jyotirlinga</a>
         <a href="{prefix}festivals/calendar.html">Festival calendar</a>
-        <a href="{prefix}circuits/ashtavinayak.html">Ashtavinayak</a>
+        <a href="{prefix}circuits/gujarat-char-dham.html">Gujarat Char Dham</a>
         <a href="{prefix}festivals/index.html">Festival guides</a>
-        <a href="{prefix}circuits/char-dham.html">Char Dham</a>
+        <a href="{prefix}circuits/braj-yatra.html">Braj Yatra</a>
         <a href="{prefix}stories/index.html">Short stories</a>
-        <a href="{prefix}circuits/modern-temples.html">Modern Temples</a>
+        <a href="{prefix}circuits/hanuman-trail.html">Hanuman Trail</a>
         <a href="{prefix}devotion/daily.html">Today’s practice</a>
-        <a href="{prefix}circuits/beyond-india.html">Beyond India</a>
+        <a href="{prefix}circuits/myth-story-tirthas.html">Story Tirthas</a>
         <a href="{prefix}my-board.html">My Board</a>
         <a href="{prefix}deities/index.html">By Deity</a>
         <a href="{prefix}devotion/index.html">Aarti · Chalisa · Vrat</a>
@@ -1365,7 +1368,7 @@ def build_circuit_index(circuits: list, temples: list) -> str:
   <div class="page-hero-inner">
     <p class="breadcrumb"><a href="{prefix}index.html">Home</a> · Circuits</p>
     <h1>Sacred Circuits</h1>
-    <p class="lede">Jyotirlinga, Shakti Peeth, Char Dham, Ramayana trails, and Beyond India — explore by legendary path.</p>
+    <p class="lede">Jyotirlinga, Shakti Peeth, Char Dham, deity trails (Hanuman, Krishna, Murugan, Rama), state circuits (Gujarat, Kerala, Rajasthan, Braj), and story-linked tirthas — explore by legendary path.</p>
   </div>
 </section>
 <section class="section">

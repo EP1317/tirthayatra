@@ -6,8 +6,12 @@
   "state": "Karnataka",
   "country": "India",
   "glyph": "म",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "hanuman-trail"
+  ],
+  "tagLabels": [
+    "Hanuman Trail"
+  ],
   "summary": "Maruti Mandir — historic Hanuman shrine near Belagavi Fort.",
   "famousFor": "Fort-area Hanuman · Belgaum Tuesday search",
   "mythology": "Hanuman guards the old fort quarter; Tuesday and Saturday arati draw Kannada–Marathi families of the twin-city belt.",

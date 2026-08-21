@@ -24,8 +24,12 @@
   ],
   "officialWebsite": "https://hrce.tn.gov.in/hrcehome/",
   "nearby": [],
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "murugan-trail"
+  ],
+  "tagLabels": [
+    "Murugan Trail"
+  ],
   "scriptureLinks": [
     "Puranic / sthala tradition",
     "Accounts summarised from widely cited Puranic, epic, and pilgrimage traditions; local tellings may differ."

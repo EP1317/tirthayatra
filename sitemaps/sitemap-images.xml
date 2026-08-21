@@ -684,14 +684,135 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.tirthayatraonline.in/temples/agroha-dham.html</loc>
+    <loc>https://www.tirthayatraonline.in/temples/ambaji.html</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/agroha-dham.jpg</image:loc>
-      <image:title>Agroha Dham</image:title>
-      <image:caption>Agrawal community mega-temple · national diaspora search</image:caption>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/ambaji.jpg</image:loc>
+      <image:title>Ambaji Temple</image:title>
+      <image:caption>Major Shakti shrine of North Gujarat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/pavagadh-kalika.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/pavagadh-kalika.jpg</image:loc>
+      <image:title>Kalika Mata Temple, Pavagadh</image:title>
+      <image:caption>Ropeway Devi · Champaner UNESCO + high pilgrim search</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/krishna-janmabhoomi-mathura.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/krishna-janmabhoomi-mathura.jpg</image:loc>
+      <image:title>Krishna Janmabhoomi, Mathura</image:title>
+      <image:caption>Traditional birthplace complex of Krishna in Mathura</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/dwarkadhish-mathura.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/dwarkadhish-mathura.jpg</image:loc>
+      <image:title>Dwarkadhish Temple, Mathura</image:title>
+      <image:caption>Historic Krishna temple in Mathura city lanes</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/govardhan-giriraj.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/govardhan-giriraj.jpg</image:loc>
+      <image:title>Giriraj Govardhan</image:title>
+      <image:caption>Govardhan Parikrama · Annakut / Giriraj puja</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/nandgaon-nandbaba.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/nandgaon-nandbaba.jpg</image:loc>
+      <image:title>Nand Baba Temple, Nandgaon</image:title>
+      <image:caption>Nanda’s village opposite Barsana in Braj</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/barsana-radha-rani.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/barsana-radha-rani.jpg</image:loc>
+      <image:title>Radha Rani Temple, Barsana</image:title>
+      <image:caption>Barsana — Radha’s village and Lathmar Holi</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/banke-bihari-vrindavan.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/banke-bihari-vrindavan.jpg</image:loc>
+      <image:title>Banke Bihari Temple, Vrindavan</image:title>
+      <image:caption>Beloved Krishna temple of Vrindavan lanes</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/radha-raman-vrindavan.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/radha-raman-vrindavan.jpg</image:loc>
+      <image:title>Radha Raman Temple, Vrindavan</image:title>
+      <image:caption>Self-manifest Krishna of Gopala Bhatta Goswami tradition</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/radha-vallabh-vrindavan.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/radha-vallabh-vrindavan.jpg</image:loc>
+      <image:title>Radha Vallabh Temple, Vrindavan</image:title>
+      <image:caption>Radhavallabha sampradaya seat in Vrindavan</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/prem-mandir-vrindavan.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/prem-mandir-vrindavan.jpg</image:loc>
+      <image:title>Prem Mandir, Vrindavan</image:title>
+      <image:caption>Illuminated modern marble temple of Braj</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/iskcon-vrindavan.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/iskcon-vrindavan.jpg</image:loc>
+      <image:title>ISKCON Krishna Balaram Mandir, Vrindavan</image:title>
+      <image:caption>ISKCON’s founding-era Vrindavan temple</image:caption>
     </image:image>
   </url>
   <url>
@@ -706,6 +827,39 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.tirthayatraonline.in/temples/simhachalam.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/simhachalam.jpg</image:loc>
+      <image:title>Simhachalam Varaha Lakshmi Narasimha Temple</image:title>
+      <image:caption>Sandal-paste covered Narasimha; coastal AP pilgrimage</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/yadagirigutta.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/yadagirigutta.jpg</image:loc>
+      <image:title>Yadadri Lakshmi Narasimha Temple</image:title>
+      <image:caption>Rebuilt hill Narasimha temple of Telangana</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/agroha-dham.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/agroha-dham.jpg</image:loc>
+      <image:title>Agroha Dham</image:title>
+      <image:caption>Agrawal community mega-temple · national diaspora search</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.tirthayatraonline.in/temples/ajgaibinath-sultanganj.html</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -714,17 +868,6 @@
       <image:loc>https://www.tirthayatraonline.in/assets/temples/ajgaibinath-sultanganj.png</image:loc>
       <image:title>Ajgaibinath Temple, Sultanganj</image:title>
       <image:caption>Kawariya Ganga jal origin · crores seasonal search (Sawan)</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.tirthayatraonline.in/temples/ambaji.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/ambaji.jpg</image:loc>
-      <image:title>Ambaji Temple</image:title>
-      <image:caption>Major Shakti shrine of North Gujarat</image:caption>
     </image:image>
   </url>
   <url>
@@ -747,6 +890,17 @@
       <image:loc>https://www.tirthayatraonline.in/assets/temples/ananta-vasudeva-bhubaneswar.jpg</image:loc>
       <image:title>Ananta Vasudeva Temple, Bhubaneswar</image:title>
       <image:caption>Old town Vishnu · Lingaraj circuit Vaishnava search</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/anjanadri-hampi.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/anjanadri-hampi.jpg</image:loc>
+      <image:title>Anjanadri Hill, Hampi</image:title>
+      <image:caption>Hanuman birthplace · Kishkindha Ramayana geography</image:caption>
     </image:image>
   </url>
   <url>
@@ -813,17 +967,6 @@
       <image:loc>https://www.tirthayatraonline.in/assets/temples/bambleshwari-dongargarh.jpg</image:loc>
       <image:title>Bambleshwari Temple, Dongargarh</image:title>
       <image:caption>Hill Devi · among CG’s highest pilgrim searches</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.tirthayatraonline.in/temples/banke-bihari-vrindavan.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/banke-bihari-vrindavan.jpg</image:loc>
-      <image:title>Banke Bihari Temple, Vrindavan</image:title>
-      <image:caption>Beloved Krishna temple of Vrindavan lanes</image:caption>
     </image:image>
   </url>
   <url>
@@ -901,6 +1044,17 @@
       <image:loc>https://www.tirthayatraonline.in/assets/temples/valiaki-tirath.jpg</image:loc>
       <image:title>Bhagwan Valmiki Tirath Sthal</image:title>
       <image:caption>Valmiki heritage tirtha · Amritsar search</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/bhishma-kund-kurukshetra.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/bhishma-kund-kurukshetra.jpg</image:loc>
+      <image:title>Bhishma Kund, Kurukshetra</image:title>
+      <image:caption>Bhishma’s sharashayya · arrow-bed water spring</image:caption>
     </image:image>
   </url>
   <url>
@@ -1091,6 +1245,17 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.tirthayatraonline.in/temples/dhanushkodi-rama-setu.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/dhanushkodi-rama-setu.jpg</image:loc>
+      <image:title>Dhanushkodi &amp; Rama Setu viewpoint</image:title>
+      <image:caption>Rama Setu viewpoint · Setubandha pilgrimage</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.tirthayatraonline.in/temples/dichpally-ramalayam.html</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -1143,17 +1308,6 @@
       <image:loc>https://www.tirthayatraonline.in/assets/temples/durgiana-amritsar.jpg</image:loc>
       <image:title>Durgiana Temple, Amritsar</image:title>
       <image:caption>Amritsar’s major Hindu temple tank complex</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.tirthayatraonline.in/temples/dwarkadhish-mathura.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/dwarkadhish-mathura.jpg</image:loc>
-      <image:title>Dwarkadhish Temple, Mathura</image:title>
-      <image:caption>Historic Krishna temple in Mathura city lanes</image:caption>
     </image:image>
   </url>
   <url>
@@ -1311,17 +1465,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.tirthayatraonline.in/temples/iskcon-vrindavan.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/iskcon-vrindavan.jpg</image:loc>
-      <image:title>ISKCON Krishna Balaram Mandir, Vrindavan</image:title>
-      <image:caption>ISKCON’s founding-era Vrindavan temple</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://www.tirthayatraonline.in/temples/iskcon-mayapur.html</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -1443,17 +1586,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.tirthayatraonline.in/temples/pavagadh-kalika.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/pavagadh-kalika.jpg</image:loc>
-      <image:title>Kalika Mata Temple, Pavagadh</image:title>
-      <image:caption>Ropeway Devi · Champaner UNESCO + high pilgrim search</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://www.tirthayatraonline.in/temples/kalkaji-mandir-delhi.html</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -1462,6 +1594,28 @@
       <image:loc>https://www.tirthayatraonline.in/assets/temples/kalkaji-mandir-delhi.jpg</image:loc>
       <image:title>Kalkaji Mandir, Delhi</image:title>
       <image:caption>One of Delhi’s highest footfall Devi temples · metro-era search spike</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/chitrakoot-kamadgiri.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/chitrakoot-kamadgiri.jpg</image:loc>
+      <image:title>Kamadgiri, Chitrakoot</image:title>
+      <image:caption>Kamadgiri parikrama · Rama–Sita–Lakshmana forest years</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/kanak-bhawan-ayodhya.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/kanak-bhawan-ayodhya.jpg</image:loc>
+      <image:title>Kanak Bhawan, Ayodhya</image:title>
+      <image:caption>Rama–Sita ‘palace’ temple · gold-leaf memory of Kaikeyi’s gift</image:caption>
     </image:image>
   </url>
   <url>
@@ -1495,6 +1649,17 @@
       <image:loc>https://www.tirthayatraonline.in/assets/temples/kapaleeshwarar-chennai.jpg</image:loc>
       <image:title>Kapaleeshwarar Temple, Mylapore</image:title>
       <image:caption>Chennai’s classic Dravidian neighbourhood temple</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tirthayatraonline.in/temples/karna-temple-hastinapur.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/karna-temple-hastinapur.jpg</image:loc>
+      <image:title>Karna Temple, Hastinapur</image:title>
+      <image:caption>Karna devotion · Hastinapur Mahabharata circuit</image:caption>
     </image:image>
   </url>
   <url>
@@ -1575,6 +1740,17 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.tirthayatraonline.in/temples/kodandarama-hampi.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/kodandarama-hampi.jpg</image:loc>
+      <image:title>Kodandarama Temple, Hampi</image:title>
+      <image:caption>Rama of Kishkindha · Sugriva–Vali geography</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.tirthayatraonline.in/temples/kodungallur-bhagavathy.html</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -1594,17 +1770,6 @@
       <image:loc>https://www.tirthayatraonline.in/assets/temples/konark-sun-temple.jpg</image:loc>
       <image:title>Konark Sun Temple</image:title>
       <image:caption>UNESCO chariot temple · global search; living Magha Saptami rites nearby</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.tirthayatraonline.in/temples/krishna-janmabhoomi-mathura.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/krishna-janmabhoomi-mathura.jpg</image:loc>
-      <image:title>Krishna Janmabhoomi, Mathura</image:title>
-      <image:caption>Traditional birthplace complex of Krishna in Mathura</image:caption>
     </image:image>
   </url>
   <url>
@@ -1883,17 +2048,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.tirthayatraonline.in/temples/nandgaon-nandbaba.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/nandgaon-nandbaba.jpg</image:loc>
-      <image:title>Nand Baba Temple, Nandgaon</image:title>
-      <image:caption>Nanda’s village opposite Barsana in Braj</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://www.tirthayatraonline.in/temples/navagraha-guwahati.html</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -1982,17 +2136,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.tirthayatraonline.in/temples/prem-mandir-vrindavan.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/prem-mandir-vrindavan.jpg</image:loc>
-      <image:title>Prem Mandir, Vrindavan</image:title>
-      <image:caption>Illuminated modern marble temple of Braj</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://www.tirthayatraonline.in/temples/pura-mahadev-baghpat.html</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -2001,39 +2144,6 @@
       <image:loc>https://www.tirthayatraonline.in/assets/temples/pura-mahadev-baghpat.jpg</image:loc>
       <image:title>Pura Mahadev Temple, Baghpat</image:title>
       <image:caption>West UP Kanwar route Shiva seat · huge Sawan search</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.tirthayatraonline.in/temples/radha-raman-vrindavan.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/radha-raman-vrindavan.jpg</image:loc>
-      <image:title>Radha Raman Temple, Vrindavan</image:title>
-      <image:caption>Self-manifest Krishna of Gopala Bhatta Goswami tradition</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.tirthayatraonline.in/temples/barsana-radha-rani.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/barsana-radha-rani.jpg</image:loc>
-      <image:title>Radha Rani Temple, Barsana</image:title>
-      <image:caption>Barsana — Radha’s village and Lathmar Holi</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.tirthayatraonline.in/temples/radha-vallabh-vrindavan.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/radha-vallabh-vrindavan.jpg</image:loc>
-      <image:title>Radha Vallabh Temple, Vrindavan</image:title>
-      <image:caption>Radhavallabha sampradaya seat in Vrindavan</image:caption>
     </image:image>
   </url>
   <url>
@@ -2345,14 +2455,14 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.tirthayatraonline.in/temples/simhachalam.html</loc>
+    <loc>https://www.tirthayatraonline.in/temples/sita-gufa-nashik.html</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/simhachalam.jpg</image:loc>
-      <image:title>Simhachalam Varaha Lakshmi Narasimha Temple</image:title>
-      <image:caption>Sandal-paste covered Narasimha; coastal AP pilgrimage</image:caption>
+      <image:loc>https://www.tirthayatraonline.in/assets/temples/sita-gufa-nashik.jpg</image:loc>
+      <image:title>Sita Gufa, Nashik</image:title>
+      <image:caption>Panchavati exile cave · Surpanakha geography</image:caption>
     </image:image>
   </url>
   <url>
@@ -2587,17 +2697,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.tirthayatraonline.in/temples/yadagirigutta.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/yadagirigutta.jpg</image:loc>
-      <image:title>Yadadri Lakshmi Narasimha Temple</image:title>
-      <image:caption>Rebuilt hill Narasimha temple of Telangana</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://www.tirthayatraonline.in/temples/yogmaya-mehrauli.html</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -2606,105 +2705,6 @@
       <image:loc>https://www.tirthayatraonline.in/assets/temples/yogmaya-mehrauli.jpg</image:loc>
       <image:title>Yogmaya Temple, Mehrauli</image:title>
       <image:caption>Phool Walon Ki Sair · historic Delhi Devi search</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.tirthayatraonline.in/temples/kanak-bhawan-ayodhya.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/kanak-bhawan-ayodhya.jpg</image:loc>
-      <image:title>Kanak Bhawan, Ayodhya</image:title>
-      <image:caption>Rama–Sita ‘palace’ temple · gold-leaf memory of Kaikeyi’s gift</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.tirthayatraonline.in/temples/chitrakoot-kamadgiri.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/chitrakoot-kamadgiri.jpg</image:loc>
-      <image:title>Kamadgiri, Chitrakoot</image:title>
-      <image:caption>Kamadgiri parikrama · Rama–Sita–Lakshmana forest years</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.tirthayatraonline.in/temples/sita-gufa-nashik.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/sita-gufa-nashik.jpg</image:loc>
-      <image:title>Sita Gufa, Nashik</image:title>
-      <image:caption>Panchavati exile cave · Surpanakha geography</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.tirthayatraonline.in/temples/anjanadri-hampi.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/anjanadri-hampi.jpg</image:loc>
-      <image:title>Anjanadri Hill, Hampi</image:title>
-      <image:caption>Hanuman birthplace · Kishkindha Ramayana geography</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.tirthayatraonline.in/temples/kodandarama-hampi.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/kodandarama-hampi.jpg</image:loc>
-      <image:title>Kodandarama Temple, Hampi</image:title>
-      <image:caption>Rama of Kishkindha · Sugriva–Vali geography</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.tirthayatraonline.in/temples/dhanushkodi-rama-setu.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/dhanushkodi-rama-setu.jpg</image:loc>
-      <image:title>Dhanushkodi &amp; Rama Setu viewpoint</image:title>
-      <image:caption>Rama Setu viewpoint · Setubandha pilgrimage</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.tirthayatraonline.in/temples/bhishma-kund-kurukshetra.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/bhishma-kund-kurukshetra.jpg</image:loc>
-      <image:title>Bhishma Kund, Kurukshetra</image:title>
-      <image:caption>Bhishma’s sharashayya · arrow-bed water spring</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.tirthayatraonline.in/temples/karna-temple-hastinapur.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/karna-temple-hastinapur.jpg</image:loc>
-      <image:title>Karna Temple, Hastinapur</image:title>
-      <image:caption>Karna devotion · Hastinapur Mahabharata circuit</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.tirthayatraonline.in/temples/govardhan-giriraj.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.tirthayatraonline.in/assets/temples/govardhan-giriraj.jpg</image:loc>
-      <image:title>Giriraj Govardhan</image:title>
-      <image:caption>Govardhan Parikrama · Annakut / Giriraj puja</image:caption>
     </image:image>
   </url>
 </urlset>

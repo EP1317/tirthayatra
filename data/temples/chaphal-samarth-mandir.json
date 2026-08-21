@@ -6,8 +6,14 @@
   "state": "Maharashtra",
   "country": "India",
   "glyph": "च",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "hanuman-trail",
+    "rama-kshaetra"
+  ],
+  "tagLabels": [
+    "Hanuman Trail",
+    "Rama Kshaetra"
+  ],
   "summary": "Chaphal — birthplace shrine of Samarth Ramdas with Rama worship.",
   "famousFor": "Samarth Ramdas birthplace · Satara district search",
   "mythology": "Ramdas’s bhakti shaped Shivaji-era Maharashtra; Hanuman and Rama darshan draw Sadhana seekers from Pune–Satara.",

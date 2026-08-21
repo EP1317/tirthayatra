@@ -6,8 +6,12 @@
   "state": "Uttarakhand",
   "country": "India",
   "glyph": "नी",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "myth-story-tirthas"
+  ],
+  "tagLabels": [
+    "Story Tirthas"
+  ],
   "summary": "Hill shrine of Neelkanth Mahadev above Rishikesh — among Uttarakhand’s most searched Sawan Shiva temples.",
   "famousFor": "Sawan Neelkanth yatra · poison-myth shrine above Rishikesh",
   "mythology": "Named for Shiva as Neelkanth — the blue-throated Lord who held the halahal poison of the ocean-churning. Pilgrims climb or drive from Rishikesh for darshan, especially in Sawan when abhishek queues swell with monsoon devotion.",

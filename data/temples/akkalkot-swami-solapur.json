@@ -6,8 +6,12 @@
   "state": "Maharashtra",
   "country": "India",
   "glyph": "अक",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "dattatreya-trail"
+  ],
+  "tagLabels": [
+    "Dattatreya"
+  ],
   "summary": "Akkalkot — samadhi shrine of Swami Samarth, major Dattatreya-line pilgrimage near Solapur.",
   "famousFor": "Akkalkot peetham · Solapur district mega-search",
   "mythology": "Swami Samarth’s grace lore draws lakhs on Thursdays; the math’s annadanam and paduka darshan anchor Solapur district bhakti.",

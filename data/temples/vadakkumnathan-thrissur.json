@@ -6,8 +6,12 @@
   "state": "Kerala",
   "country": "India",
   "glyph": "व",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "kerala-kshetram"
+  ],
+  "tagLabels": [
+    "Kerala Kshetram"
+  ],
   "summary": "Vadakkumnathan — ancient Shiva temple whose maidan hosts Thrissur Pooram.",
   "famousFor": "Pooram ground Shiva · Thrissur essential search",
   "mythology": "Shiva as northern lord of the city; Pooram fireworks and elephant pageantry radiate from this kshetram.",

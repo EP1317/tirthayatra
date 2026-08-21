@@ -6,8 +6,12 @@
   "state": "Maharashtra",
   "country": "India",
   "glyph": "पं",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "krishna-lila-trail"
+  ],
+  "tagLabels": [
+    "Krishna Lila"
+  ],
   "summary": "Pandharpur Vitthal — the emotional centre of Maharashtra’s Warkari bhakti tradition.",
   "famousFor": "Warkari pilgrimage heartland",
   "mythology": "Pandharpur’s Vitthal-Rukmini temple is the heart of the Warkari tradition of Maharashtra. Vitthal is worshipped as a form of Krishna/Vishnu standing on a brick — a theology sung in the Abhangas of saints from Namdev and Dnyaneshwar to Tukaram.",

@@ -6,8 +6,12 @@
   "state": "Rajasthan",
   "country": "India",
   "glyph": "सं",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "rajasthan-tirtha"
+  ],
+  "tagLabels": [
+    "Rajasthan"
+  ],
   "summary": "Popular Santoshi Mata shrine for Friday vrat devotees in Rajasthan.",
   "famousFor": "Friday Santoshi vrat",
   "mythology": "Santoshi Mata — goddess of contentment — is worshipped with Friday fasting and simple jaggery–chana offerings.",

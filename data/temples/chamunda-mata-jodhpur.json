@@ -6,8 +6,12 @@
   "state": "Rajasthan",
   "country": "India",
   "glyph": "च",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "rajasthan-tirtha"
+  ],
+  "tagLabels": [
+    "Rajasthan"
+  ],
   "summary": "Chamunda Mata — royal kuldevi shrine inside Mehrangarh Fort.",
   "famousFor": "Mehrangarh kuldevi · Jodhpur fort search",
   "mythology": "Rao Jodha shifted the Goddess here when the fort was built; Dussehra sees the idol carried to the city for public darshan.",

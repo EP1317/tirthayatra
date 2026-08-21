@@ -104,5 +104,116 @@
     "blurb": "Sacred sites beyond India’s borders linked by shared mythology.",
     "lede": "Nepal, Sri Lanka, and the Kailash–Manasarovar landscape.",
     "sanskrit": "अन्तर्राष्ट्रीय तीर्थ"
+  },
+  {
+    "slug": "gujarat-char-dham",
+    "name": "Gujarat Char Dham",
+    "shortName": "Gujarat Dham",
+    "countLabel": "4 Gujarat dhams",
+    "blurb": "Gujarat’s classic four-seat yatra — Somnath, Dwarka, Ambaji, and Pavagadh Kalika.",
+    "lede": "A compact state circuit loved by Gujarati pilgrims: sea-facing Jyotirlinga and Krishna dham, plus two powerful Shakti seats. Confirm seasonal crowds and trust notices before you travel.",
+    "sanskrit": "गुजरात चार धाम",
+    "expected": 4
+  },
+  {
+    "slug": "braj-yatra",
+    "name": "Braj Yatra",
+    "shortName": "Braj",
+    "countLabel": "Krishna’s Braj",
+    "blurb": "Mathura–Vrindavan–Govardhan circuit of Krishna–Radha memory — janmabhoomi, banks, and lilasthal.",
+    "lede": "Walk Braj through temple guides tied to Krishna’s childhood geography. Pair with the wider Krishna Lila trail for Dwarka, Guruvayur, and beyond.",
+    "sanskrit": "ब्रज यात्रा",
+    "expected": 12
+  },
+  {
+    "slug": "hanuman-trail",
+    "name": "Hanuman Trail",
+    "shortName": "Hanuman",
+    "countLabel": "Bajrang seats",
+    "blurb": "Hanuman temples across India — Salasar, Sankat Mochan, Jakhoo, Mahavir Mandir, and more.",
+    "lede": "Open trail of Hanuman kshaetras for Tuesday–Saturday devotees and Ramayana travellers.",
+    "sanskrit": "हनुमत् पथ"
+  },
+  {
+    "slug": "krishna-lila-trail",
+    "name": "Krishna Lila Trail",
+    "shortName": "Krishna",
+    "countLabel": "Krishna kshaetras",
+    "blurb": "From Braj and Dwarka to Guruvayur, Udupi, Pandharpur, Nathdwara, and Puri — living Krishna geography.",
+    "lede": "Open trail of major Krishna–Radha–Vitthal–Jagannath seats beyond a single state.",
+    "sanskrit": "कृष्ण लीला पथ"
+  },
+  {
+    "slug": "murugan-trail",
+    "name": "Murugan Trail",
+    "shortName": "Murugan",
+    "countLabel": "Skanda seats",
+    "blurb": "Murugan / Subramanya temples of the South — Palani, Tiruchendur, Thiruparankundram, Kukke, and kin.",
+    "lede": "Open Skanda–Murugan trail for Skanda Shashti and Tamil–Karnataka devotees (includes Kataragama memory via Sri Lanka listing where tagged).",
+    "sanskrit": "मुरुगन · स्कंद पथ"
+  },
+  {
+    "slug": "rama-kshaetra",
+    "name": "Rama Kshaetra",
+    "shortName": "Rama",
+    "countLabel": "Rama seats",
+    "blurb": "Rama–Sita temples and exile-memory tirthas — Ayodhya, Bhadrachalam, Chitrakoot, Nashik, Orchha, and more.",
+    "lede": "Deity-focused Rama circuit alongside the broader Ramayana Trail epic geography.",
+    "sanskrit": "राम क्षेत्र"
+  },
+  {
+    "slug": "narasimha-kshaetra",
+    "name": "Narasimha Kshaetra",
+    "shortName": "Narasimha",
+    "countLabel": "6 Narasimha seats",
+    "blurb": "South & Deccan Narasimha temples — Ahobilam, Simhachalam, Yadagirigutta, and related caves.",
+    "lede": "Fixed set of Narasimha guides currently on TirthaYatra — fierce compassion of the man-lion avatara.",
+    "sanskrit": "नृसिंह क्षेत्र",
+    "expected": 6
+  },
+  {
+    "slug": "kerala-kshetram",
+    "name": "Kerala Kshetram",
+    "shortName": "Kerala",
+    "countLabel": "Kerala temples",
+    "blurb": "Kerala’s great kshetrams — Sabarimala, Guruvayur, Padmanabhaswamy, Chottanikkara, Vadakkumnathan, and more.",
+    "lede": "State trail for Onam-to-Mandala travellers: purity customs are strict — read dress and offering notes on each guide.",
+    "sanskrit": "केरल क्षेत्रम्"
+  },
+  {
+    "slug": "rajasthan-tirtha",
+    "name": "Rajasthan Tirtha",
+    "shortName": "Rajasthan",
+    "countLabel": "Rajasthan seats",
+    "blurb": "Rajasthan pilgrimage mix — Pushkar, Nathdwara, Salasar, Khatu Shyam, Karni Mata, Eklingji, and desert devis.",
+    "lede": "Open state trail across Vaishnava, Shakti, and folk seats of Rajasthan.",
+    "sanskrit": "राजस्थान तीर्थ"
+  },
+  {
+    "slug": "myth-story-tirthas",
+    "name": "Myth Story Tirthas",
+    "shortName": "Story Tirthas",
+    "countLabel": "Story-linked seats",
+    "blurb": "Temples most often linked from TirthaYatra’s short myth stories — useful for home puja + yatra pairing.",
+    "lede": "Open circuit built from story↔temple links (Kashi, Ayodhya, Tirumala, Braj, Kurukshetra, and more).",
+    "sanskrit": "कथा तीर्थ"
+  },
+  {
+    "slug": "dattatreya-trail",
+    "name": "Dattatreya Trail",
+    "shortName": "Datta",
+    "countLabel": "Datta seats",
+    "blurb": "Maharashtra–Karnataka Dattatreya kshaetras — Audumbar, Narsobawadi, Maniknagar, Akkalkot.",
+    "lede": "Compact Datta trail for Thursday devotees and Guru–Datta seekers.",
+    "sanskrit": "दत्तात्रेय पथ"
+  },
+  {
+    "slug": "sai-baba-trail",
+    "name": "Sai Baba Trail",
+    "shortName": "Sai",
+    "countLabel": "Sai seats",
+    "blurb": "Shirdi and related Sai mandirs — living modern bhakti with classical humility.",
+    "lede": "Open Sai trail centred on Shirdi with urban Sai mandirs currently in the catalog.",
+    "sanskrit": "साईं पथ"
   }
 ]

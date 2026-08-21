@@ -6,8 +6,12 @@
   "state": "Uttar Pradesh",
   "country": "India",
   "glyph": "न",
-  "tags": [],
-  "tagLabels": [],
+  "tags": [
+    "rama-kshaetra"
+  ],
+  "tagLabels": [
+    "Rama Kshaetra"
+  ],
   "summary": "Nageshwarnath — ancient Shiva temple linked with Kush in Ramayana memory.",
   "famousFor": "Kush-era Shiva lore · Ayodhya search",
   "mythology": "Legend attributes founding to Rama’s son Kush; Shivaratri on Ramayana trail after Saryu ghats.",
