@@ -482,7 +482,7 @@ def nav(active: str = "", prefix: str = "", *, show_panchang: bool = False) -> s
   <div class="nav-left">
     <a class="nav-brand" href="{prefix}index.html">
       {brand_mark_html()}
-      <span class="nav-brand-text">TirthaYatra <span>तीर्थयात्रा</span></span>
+      <span class="nav-brand-text"><span class="nav-brand-en">TirthaYatra</span><span class="nav-brand-hi">तीर्थयात्रा</span></span>
     </a>
     {search_widget(prefix)}
   </div>

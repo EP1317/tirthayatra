@@ -75,7 +75,7 @@ a:hover { color: var(--vermillion); }
   gap: 0.75rem clamp(0.85rem, 1.5vw, 1.25rem);
   min-width: 0;
   flex: 0 1 auto;
-  max-width: min(34rem, 46vw);
+  max-width: min(30rem, 40vw);
   position: relative;
   z-index: 2;
 }
@@ -261,7 +261,7 @@ a:hover { color: var(--vermillion); }
 
 .nav-brand {
   font-family: var(--font-brand);
-  font-size: clamp(1.25rem, 2vw, 1.55rem);
+  font-size: clamp(1.15rem, 1.8vw, 1.45rem);
   color: var(--brass-bright);
   text-decoration: none;
   letter-spacing: 0.02em;
@@ -269,6 +269,7 @@ a:hover { color: var(--vermillion); }
   align-items: center;
   gap: 0.55rem;
   white-space: nowrap;
+  flex: 0 0 auto;
 }
 
 .nav-brand-mark {
@@ -325,16 +326,28 @@ a:hover { color: var(--vermillion); }
 
 .nav-brand-text {
   display: flex;
-  align-items: baseline;
-  gap: 0.35rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.05rem;
+  line-height: 1.05;
 }
 
-.nav-brand-text > span {
+.nav-brand-en {
+  display: block;
+  font-family: var(--font-brand);
+  font-size: inherit;
+  color: var(--brass-bright);
+}
+
+.nav-brand-hi {
+  display: block;
   font-family: var(--font-sanskrit);
-  font-size: 0.85rem;
+  font-size: 0.72rem;
   color: var(--sand);
   font-weight: 400;
-  opacity: 0.85;
+  opacity: 0.88;
+  letter-spacing: 0.01em;
 }
 
 .nav-links {
@@ -1933,17 +1946,8 @@ a:hover { color: var(--vermillion); }
   .page-hero--photo { min-height: 18rem; }
 }
 
-/* Large laptop: drop Hindi subtitle, keep one-row nav when space allows */
-@media (max-width: 1280px) {
-  .nav-brand-text > span { display: none; }
-  .nav-left { max-width: min(28rem, 42vw); }
-  .nav-left .temple-search { width: clamp(9rem, 16vw, 13rem); }
-  .nav-links { gap: 0.45rem; }
-  .nav-links a { font-size: 0.8rem; }
-}
-
-/* Laptop / tablet landscape: too many links for one row — use Menu */
-@media (max-width: 1100px) {
+/* Wide laptop still too crowded for 14 links — collapse to Menu earlier */
+@media (max-width: 1360px) {
   .site-nav {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -1996,11 +2000,10 @@ a:hover { color: var(--vermillion); }
   .nav-links.open { display: flex; }
 }
 
-/* Narrow desktop leftovers removed — hamburger covers ≤1100px */
-
 /* Phone refinements under the laptop menu layout */
 @media (max-width: 780px) {
-  .nav-brand { font-size: 1.2rem; }
+  .nav-brand { font-size: 1.15rem; }
+  .nav-brand-hi { font-size: 0.68rem; }
   .nav-brand-mark { width: 1.85rem; height: 1.85rem; }
   .hero {
     height: auto;
