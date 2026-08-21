@@ -1358,11 +1358,6 @@ a:hover { color: var(--vermillion); }
   line-height: 1.55;
 }
 
-.related-link strong {
-  display: block;
-  margin-bottom: 0.2rem;
-}
-
 .temple-section p { margin: 0 0 1rem; }
 .temple-section ul { margin: 0 0 1rem; padding-left: 1.2rem; }
 .temple-section li { margin-bottom: 0.4rem; }
@@ -1457,21 +1452,27 @@ a:hover { color: var(--vermillion); }
   gap: 0.4rem;
 }
 
-/* Related temples */
+/* Related temples / stories */
 .related-strip {
-  margin-top: 1rem;
+  margin-top: 0.25rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr));
   gap: 1rem;
+  align-items: stretch;
 }
 
 .related-link {
-  display: block;
-  padding: 1.1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  height: 100%;
+  min-height: 7.5rem;
+  padding: 1.15rem 1.2rem 1.25rem;
+  border-radius: 0.75rem;
   background: var(--dusk);
   color: var(--sand-soft);
   text-decoration: none;
-  transition: background 0.25s, transform 0.25s var(--ease);
+  transition: background 0.25s, transform 0.25s var(--ease), border-color 0.25s, box-shadow 0.25s;
 }
 
 .related-link:hover {
@@ -1483,9 +1484,61 @@ a:hover { color: var(--vermillion); }
 .related-link strong {
   display: block;
   font-family: var(--font-brand);
-  font-size: 1.15rem;
+  font-size: 1.12rem;
+  line-height: 1.25;
   color: var(--brass-bright);
-  margin-bottom: 0.25rem;
+  margin: 0;
+}
+
+.related-link-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--sand);
+}
+
+/* Deity (and other standalone) pages: soft cards that match parchment layout */
+.related-stories-section .related-link {
+  background: #fffaf5;
+  color: var(--ink);
+  border: 1px solid rgba(92, 61, 46, 0.12);
+  box-shadow: 0 8px 22px rgba(28, 18, 12, 0.06);
+}
+
+.related-stories-section .related-link strong {
+  color: var(--stone-deep);
+}
+
+.related-stories-section .related-link-text {
+  color: var(--stone);
+}
+
+.related-stories-section .related-link:hover {
+  background: #fff;
+  color: var(--ink);
+  border-color: rgba(194, 52, 26, 0.28);
+  box-shadow: 0 10px 26px rgba(28, 18, 12, 0.1);
+  transform: translateY(-2px);
+}
+
+.related-stories-section .related-link:hover strong {
+  color: var(--vermillion);
+}
+
+.related-stories-section {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.related-stories-section .section-head {
+  margin-bottom: 1.5rem;
+}
+
+.related-stories-section .section-title {
+  font-size: clamp(1.55rem, 3vw, 2.1rem);
 }
 
 /* Comments */

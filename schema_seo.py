@@ -112,19 +112,30 @@ def faq_section_html(
     )
 
 
-def related_stories_html(stories: list[dict], prefix: str) -> str:
+def related_stories_html(
+    stories: list[dict], prefix: str, *, standalone: bool = False, limit: int = 6
+) -> str:
+    """Render related story chips.
+
+    standalone=True: use .section so deity (and similar) pages align to --max width.
+    Inside .temple-layout, keep .temple-section (already width-constrained).
+    """
     if not stories:
         return ""
     links = "".join(
         f'<a class="related-link" href="{prefix}stories/{_esc(s["slug"])}.html">'
         f'<strong>{_esc(s.get("titleHi") or s.get("title") or s["slug"])}</strong>'
-        f'{_esc(s.get("hookHi") or s.get("hook") or "")}</a>'
-        for s in stories[:6]
+        f'<span class="related-link-text">{_esc(s.get("hookHi") or s.get("hook") or "")}</span></a>'
+        for s in stories[:limit]
     )
+    section_cls = "section related-stories-section" if standalone else "temple-section"
     return f"""
-    <section class="temple-section" id="related-stories">
-      <h2>Related stories · संबंधित कथा</h2>
-      <p class="section-desc">Short myth explainers linked to this tirtha — useful for home puja and Search discovery.</p>
+    <section class="{section_cls}" id="related-stories">
+      <div class="section-head">
+        <p class="section-kicker">कथा मंजरी</p>
+        <h2 class="section-title">Related stories · संबंधित कथा</h2>
+        <p class="section-desc">Short myth explainers for home puja and reading — open any card for the fuller telling.</p>
+      </div>
       <div class="related-strip">{links}</div>
     </section>
     """

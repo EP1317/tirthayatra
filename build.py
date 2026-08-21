@@ -1956,8 +1956,8 @@ def build_deity_page(fam: str, temples: list) -> str:
         ),
     ]
     faq_html = faq_section_html(faqs)
-    story_hits = [s for s in (STORIES.get("stories") or []) if s.get("deity") == fam][:8]
-    stories_block = related_stories_block(story_hits, prefix)
+    story_hits = [s for s in (STORIES.get("stories") or []) if s.get("deity") == fam][:12]
+    stories_block = related_stories_block(story_hits, prefix, standalone=True, limit=8)
     dev_items = [i for i in devotion_items() if i.get("deity") == fam]
     dev_block = ""
     if dev_items:
