@@ -1012,6 +1012,316 @@
       "license": "CC BY-SA 4.0",
       "local": "assets/stories/mangal-graha-origin.jpg",
       "kind": "story"
+    },
+    "shiva-parvati-divine-wedding": {
+      "filename": "Siva-parvati-by-raja-ravi-varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Siva-parvati-by-raja-ravi-varma.jpg",
+      "credit": "anonymous, may be Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/shiva-parvati-divine-wedding.jpg",
+      "kind": "story"
+    },
+    "shiva-sons-ganesha-kartikeya": {
+      "filename": "Rebirth of Ganesha.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rebirth_of_Ganesha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rebirth_of_Ganesha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Rebirth_of_Ganesha.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/shiva-sons-ganesha-kartikeya.jpg",
+      "kind": "story"
+    },
+    "vishnu-lakshmi-eternal-pair": {
+      "filename": "Vishnu.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Vishnu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Vishnu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Vishnu.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "local": "assets/stories/vishnu-lakshmi-eternal-pair.jpg",
+      "kind": "story"
+    },
+    "lakshmi-as-vishnu-consort": {
+      "filename": "Raja Ravi Varma, Goddess Lakshmi, 1896.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Raja_Ravi_Varma%2C_Goddess_Lakshmi%2C_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Raja_Ravi_Varma%2C_Goddess_Lakshmi%2C_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Raja_Ravi_Varma%2C_Goddess_Lakshmi%2C_1896.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/lakshmi-as-vishnu-consort.jpg",
+      "kind": "story"
+    },
+    "krishna-yashoda-mother": {
+      "filename": "Krishna.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Krishna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Krishna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Krishna.jpg",
+      "credit": "Avipou",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/krishna-yashoda-mother.jpg",
+      "kind": "story"
+    },
+    "krishna-balarama-brother": {
+      "filename": "Balarama.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Balarama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Balarama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Balarama.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "local": "assets/stories/krishna-balarama-brother.jpg",
+      "kind": "story"
+    },
+    "krishna-rukmini-wedding": {
+      "filename": "Rukmini.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Rukmini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Rukmini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Rukmini.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "local": "assets/stories/krishna-rukmini-wedding.jpg",
+      "kind": "story"
+    },
+    "ganesha-siddhi-buddhi": {
+      "filename": "Rebirth of Ganesha.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rebirth_of_Ganesha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rebirth_of_Ganesha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Rebirth_of_Ganesha.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/ganesha-siddhi-buddhi.jpg",
+      "kind": "story"
+    },
+    "ganesha-shubh-labh-children": {
+      "filename": "Rebirth of Ganesha.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rebirth_of_Ganesha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rebirth_of_Ganesha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Rebirth_of_Ganesha.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/ganesha-shubh-labh-children.jpg",
+      "kind": "story"
+    },
+    "rama-lakshmana-brotherhood": {
+      "filename": "Ram Darbar.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Ram_Darbar.jpg/1280px-Ram_Darbar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ram_Darbar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Ram_Darbar.jpg",
+      "credit": "Aliva Sahoo",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/rama-lakshmana-brotherhood.jpg",
+      "kind": "story"
+    },
+    "rama-bharata-paduka": {
+      "filename": "Ram Darbar.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Ram_Darbar.jpg/1280px-Ram_Darbar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ram_Darbar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Ram_Darbar.jpg",
+      "credit": "Aliva Sahoo",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/rama-bharata-paduka.jpg",
+      "kind": "story"
+    },
+    "sita-as-rama-consort": {
+      "filename": "Sita.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Sita_Vermeulen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Sita_Vermeulen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Sita.jpg",
+      "credit": "Jeroen Kransen",
+      "license": "CC BY-SA 3.0",
+      "local": "assets/stories/sita-as-rama-consort.jpg",
+      "kind": "story"
+    },
+    "hanuman-kesari-anjana-parents": {
+      "filename": "Hanuman Herb Mountain.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hanuman_Herb_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hanuman_Herb_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Hanuman_Herb_Mountain.jpg",
+      "credit": "Sahibdin",
+      "license": "Public domain",
+      "local": "assets/stories/hanuman-kesari-anjana-parents.jpg",
+      "kind": "story"
+    },
+    "murugan-valli-devasena": {
+      "filename": "Kartikeya.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kartikeya.jpg/1280px-Kartikeya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Kartikeya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Kartikeya.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/murugan-valli-devasena.jpg",
+      "kind": "story"
+    },
+    "murugan-ganesha-brothers": {
+      "filename": "Kartikeya.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kartikeya.jpg/1280px-Kartikeya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Kartikeya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Kartikeya.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/murugan-ganesha-brothers.jpg",
+      "kind": "story"
+    },
+    "surya-sanjna-chhaya": {
+      "filename": "Statue of The Sun God.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Statue_of_The_Sun_God.JPG/1280px-Statue_of_The_Sun_God.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Statue_of_The_Sun_God.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Statue_of_The_Sun_God.JPG",
+      "credit": "Mashkawat.ahsan",
+      "license": "CC BY-SA 3.0",
+      "local": "assets/stories/surya-sanjna-chhaya.jpg",
+      "kind": "story"
+    },
+    "shani-and-surya-father": {
+      "filename": "Shani Dev.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Shani_Dev.jpg/1280px-Shani_Dev.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Shani_Dev.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Shani_Dev.jpg",
+      "credit": "Salil Kumar Mukherjee",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/shani-and-surya-father.jpg",
+      "kind": "story"
+    },
+    "parvati-as-mother-of-ganesha": {
+      "filename": "Siva-parvati-by-raja-ravi-varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Siva-parvati-by-raja-ravi-varma.jpg",
+      "credit": "anonymous, may be Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/parvati-as-mother-of-ganesha.jpg",
+      "kind": "story"
+    },
+    "kali-shiva-cremation-ground": {
+      "filename": "Goddess Kali.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Goddess_Kali.jpg/1280px-Goddess_Kali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Goddess_Kali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Goddess_Kali.jpg",
+      "credit": "Miya.m",
+      "license": "CC BY-SA 3.0",
+      "local": "assets/stories/kali-shiva-cremation-ground.jpg",
+      "kind": "story"
+    },
+    "annapurna-shiva-household": {
+      "filename": "Annapurna.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Annapurna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Annapurna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Annapurna.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "local": "assets/stories/annapurna-shiva-household.jpg",
+      "kind": "story"
+    },
+    "santoshi-ganesha-daughter": {
+      "filename": "Worshiping goddess santoshi 02.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Worshiping_goddess_santoshi_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Worshiping_goddess_santoshi_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Worshiping_goddess_santoshi_02.jpg",
+      "credit": "Anchal lilhare",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/santoshi-ganesha-daughter.jpg",
+      "kind": "story"
+    },
+    "jagannath-balabhadra-subhadra": {
+      "filename": "Jagannath.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Jagannath.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Jagannath.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Jagannath.jpg",
+      "credit": "Wikimedia contributor",
+      "license": "CC BY-SA 2.5",
+      "local": "assets/stories/jagannath-balabhadra-subhadra.jpg",
+      "kind": "story"
+    },
+    "vitthal-rukmini-pandharpur": {
+      "filename": "Pandharpur.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Pandharpur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Pandharpur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Pandharpur.jpg",
+      "credit": "RashT27",
+      "license": "CC BY-SA 3.0",
+      "local": "assets/stories/vitthal-rukmini-pandharpur.jpg",
+      "kind": "story"
+    },
+    "venkateswara-padmavati-consort": {
+      "filename": "Venkateswara.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Venkateswara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Venkateswara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Venkateswara.jpg",
+      "credit": "Ani Vincent",
+      "license": "CC0",
+      "local": "assets/stories/venkateswara-padmavati-consort.jpg",
+      "kind": "story"
+    },
+    "narasimha-lakshmi-prahlada": {
+      "filename": "Narasimha killed Hiranyakashipu.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Narasimha_killed_Hiranyakashipu.jpg/1280px-Narasimha_killed_Hiranyakashipu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Narasimha_killed_Hiranyakashipu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Narasimha_killed_Hiranyakashipu.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/narasimha-lakshmi-prahlada.jpg",
+      "kind": "story"
+    },
+    "brahma-saraswati-knowledge": {
+      "filename": "Brahma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Brahma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Brahma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Brahma.jpg",
+      "credit": "Renskos at Dutch Wikipedia",
+      "license": "Public domain",
+      "local": "assets/stories/brahma-saraswati-knowledge.jpg",
+      "kind": "story"
+    },
+    "saraswati-and-learning-family": {
+      "filename": "Saraswati.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Saraswati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Saraswati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Saraswati.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/saraswati-and-learning-family.jpg",
+      "kind": "story"
+    },
+    "dattatreya-atri-anusuya-parents": {
+      "filename": "Dattatreya.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Dattatreya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Dattatreya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Dattatreya.jpg",
+      "credit": "Sreekant2k",
+      "license": "Public domain",
+      "local": "assets/stories/dattatreya-atri-anusuya-parents.jpg",
+      "kind": "story"
+    },
+    "bhairav-bhairavi-consort": {
+      "filename": "Bhairava.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Bhairava.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Bhairava.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Bhairava.jpg",
+      "credit": "Sreekant2k",
+      "license": "Public domain",
+      "local": "assets/stories/bhairav-bhairavi-consort.jpg",
+      "kind": "story"
+    },
+    "ayyappa-foster-father-raja": {
+      "filename": "Ayyappa.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Ayyappa.jpg/1280px-Ayyappa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Ayyappa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Ayyappa.jpg",
+      "credit": "Waterrules",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/ayyappa-foster-father-raja.jpg",
+      "kind": "story"
+    },
+    "mangal-bhumi-family": {
+      "filename": "Planet Mars.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Planet_Mars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Planet_Mars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Planet_Mars.jpg",
+      "credit": "Dmytr0",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/mangal-bhumi-family.jpg",
+      "kind": "story"
     }
   },
   "deities": {
