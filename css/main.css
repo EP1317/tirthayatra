@@ -343,10 +343,10 @@ a:hover { color: var(--vermillion); }
 .nav-brand-hi {
   display: block;
   font-family: var(--font-sanskrit);
-  font-size: 0.72rem;
+  font-size: 0.88rem;
   color: var(--sand);
   font-weight: 400;
-  opacity: 0.88;
+  opacity: 0.92;
   letter-spacing: 0.01em;
 }
 
