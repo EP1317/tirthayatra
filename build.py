@@ -2546,13 +2546,20 @@ def write_today_bar_data() -> None:
 def write_firebase_public_js() -> None:
     """Public Firebase web config for feedback + admin (no secrets)."""
     path = DATA / "firebase-public.json"
-    cfg = load_json(path) if path.exists() else {"enabled": False, "adminEmails": [], "firebase": {}}
+    out = ROOT / "js" / "firebase-public.js"
+    if path.exists():
+        cfg = load_json(path)
+    else:
+        # Keep last good client config if JSON is missing (e.g. local-only file).
+        # Never silently ship enabled:false over a working deploy config.
+        if out.exists() and "enabled\":true" in out.read_text(encoding="utf-8"):
+            return
+        cfg = {"enabled": False, "adminEmails": [], "firebase": {}}
     # Do not ship adminEmails to the browser (avoid advertising allowlisted accounts).
     public = {
         "enabled": bool(cfg.get("enabled")),
         "firebase": cfg.get("firebase") or {},
     }
-    out = ROOT / "js" / "firebase-public.js"
     out.write_text(
         "window.TIRTHA_FIREBASE = "
         + json.dumps(public, ensure_ascii=False, separators=(",", ":"))

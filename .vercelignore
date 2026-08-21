@@ -1,6 +1,7 @@
 # Exclude tooling / Firebase CLI config / reports from the public static deploy.
 # Keep vercel.json and Python build scripts available for Vercel buildCommand.
 # Python sources are deleted after build (see vercel.json buildCommand).
+# data/firebase-public.json MUST ship (public web SDK config) so build can enable feedback.
 .git
 .tools
 .cursor
@@ -20,6 +21,5 @@ pyproject.toml
 Makefile
 .firebase/
 firestore-debug.log
-data/firebase-public.json
 agent-transcripts/
 .github/
