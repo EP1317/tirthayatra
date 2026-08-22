@@ -1312,6 +1312,156 @@
       "license": "CC BY-SA 4.0",
       "local": "assets/stories/brahma-pushkar-only-temple.jpg",
       "kind": "story"
+    },
+    "hiranyaksha-boon-varaha": {
+      "filename": "Varaha.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Varaha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Varaha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Varaha.jpg",
+      "credit": "Manjunathbhatt at English Wikipedia",
+      "license": "Public domain",
+      "local": "assets/stories/hiranyaksha-boon-varaha.jpg",
+      "kind": "story"
+    },
+    "tarakasura-skanda-vadha": {
+      "filename": "Kartikeya.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kartikeya.jpg/1280px-Kartikeya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Kartikeya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Kartikeya.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/tarakasura-skanda-vadha.jpg",
+      "kind": "story"
+    },
+    "bhasmasura-mohini": {
+      "filename": "Mohini.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Mohini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Mohini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Mohini.jpg",
+      "credit": "Paper Jewels",
+      "license": "CC BY 4.0",
+      "local": "assets/stories/bhasmasura-mohini.jpg",
+      "kind": "story"
+    },
+    "madhu-kaitabha-vadha": {
+      "filename": "Vishnu.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Vishnu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Vishnu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Vishnu.jpg",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "local": "assets/stories/madhu-kaitabha-vadha.jpg",
+      "kind": "story"
+    },
+    "andhakasura-shiva-vadha": {
+      "filename": "Siva-parvati-by-raja-ravi-varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Siva-parvati-by-raja-ravi-varma.jpg",
+      "credit": "anonymous, may be Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/andhakasura-shiva-vadha.jpg",
+      "kind": "story"
+    },
+    "tripurasura-shiva-dahana": {
+      "filename": "Siva-parvati-by-raja-ravi-varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Siva-parvati-by-raja-ravi-varma.jpg",
+      "credit": "anonymous, may be Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/tripurasura-shiva-dahana.jpg",
+      "kind": "story"
+    },
+    "shumbha-nishumbha-devi-vadha": {
+      "filename": "Durga by Raja Ravi Varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Durga_by_Raja_Ravi_Varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Durga_by_Raja_Ravi_Varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Durga_by_Raja_Ravi_Varma.jpg",
+      "credit": "Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/shumbha-nishumbha-devi-vadha.jpg",
+      "kind": "story"
+    },
+    "gajasura-shiva-vadha": {
+      "filename": "Siva-parvati-by-raja-ravi-varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Siva-parvati-by-raja-ravi-varma.jpg",
+      "credit": "anonymous, may be Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/gajasura-shiva-vadha.jpg",
+      "kind": "story"
+    },
+    "kamsa-vadha-krishna": {
+      "filename": "Krishna Holds Up Mount Govardhan to Shelter the Villagers of Braj, ca.1590–95, The Met.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg/1280px-Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg",
+      "credit": "Miskin",
+      "license": "Public domain",
+      "local": "assets/stories/kamsa-vadha-krishna.jpg",
+      "kind": "story"
+    },
+    "bakasura-krishna-vadha": {
+      "filename": "Krishna Holds Up Mount Govardhan to Shelter the Villagers of Braj, ca.1590–95, The Met.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg/1280px-Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg",
+      "credit": "Miskin",
+      "license": "Public domain",
+      "local": "assets/stories/bakasura-krishna-vadha.jpg",
+      "kind": "story"
+    },
+    "keshi-vadha-krishna": {
+      "filename": "Krishna Holds Up Mount Govardhan to Shelter the Villagers of Braj, ca.1590–95, The Met.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg/1280px-Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg",
+      "credit": "Miskin",
+      "license": "Public domain",
+      "local": "assets/stories/keshi-vadha-krishna.jpg",
+      "kind": "story"
+    },
+    "jalandhara-vadha": {
+      "filename": "Siva-parvati-by-raja-ravi-varma.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Siva-parvati-by-raja-ravi-varma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Siva-parvati-by-raja-ravi-varma.jpg",
+      "credit": "anonymous, may be Raja Ravi Varma",
+      "license": "Public domain",
+      "local": "assets/stories/jalandhara-vadha.jpg",
+      "kind": "story"
+    },
+    "mahishi-vadha-ayyappa": {
+      "filename": "Lord Ayyappa old painting.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Lord_Ayyappa_old_painting.jpg/1280px-Lord_Ayyappa_old_painting.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Lord_Ayyappa_old_painting.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Lord_Ayyappa_old_painting.jpg",
+      "credit": "Stephen ronald 369",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/mahishi-vadha-ayyappa.jpg",
+      "kind": "story"
+    },
+    "dhenukasura-krishna-vadha": {
+      "filename": "Krishna Holds Up Mount Govardhan to Shelter the Villagers of Braj, ca.1590–95, The Met.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg/1280px-Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Krishna_Holds_Up_Mount_Govardhan_to_Shelter_the_Villagers_of_Braj%2C_ca.1590%E2%80%9395%2C_The_Met.jpg",
+      "credit": "Miskin",
+      "license": "Public domain",
+      "local": "assets/stories/dhenukasura-krishna-vadha.jpg",
+      "kind": "story"
+    },
+    "aghasura-krishna-vadha": {
+      "filename": "Kaliya - Mardana, Kaliya's wives praying to Krishna to release their subdued husband serpent Kaliya.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Kaliya_-_Mardana%2C_Kaliya%27s_wives_praying_to_Krishna_to_release_their_subdued_husband_serpent_Kaliya.jpg/1280px-Kaliya_-_Mardana%2C_Kaliya%27s_wives_praying_to_Krishna_to_release_their_subdued_husband_serpent_Kaliya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kaliya_-_Mardana%2C_Kaliya%27s_wives_praying_to_Krishna_to_release_their_subdued_husband_serpent_Kaliya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Kaliya_-_Mardana%2C_Kaliya%27s_wives_praying_to_Krishna_to_release_their_subdued_husband_serpent_Kaliya.jpg",
+      "credit": "Aadrit28",
+      "license": "CC BY-SA 4.0",
+      "local": "assets/stories/aghasura-krishna-vadha.jpg",
+      "kind": "story"
     }
   },
   "deities": {
