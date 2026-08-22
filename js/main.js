@@ -17,8 +17,27 @@
   var toggle = document.querySelector("[data-nav-toggle]");
   var links = document.querySelector("[data-nav-links]");
   if (toggle && links) {
-    toggle.addEventListener("click", function () {
-      links.classList.toggle("open");
+    function setNavOpen(open) {
+      links.classList.toggle("open", open);
+      document.body.classList.toggle("nav-open", open);
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    }
+    toggle.addEventListener("click", function (ev) {
+      ev.stopPropagation();
+      setNavOpen(!links.classList.contains("open"));
+    });
+    document.addEventListener("click", function (ev) {
+      if (!links.classList.contains("open")) return;
+      if (links.contains(ev.target) || toggle.contains(ev.target)) return;
+      setNavOpen(false);
+    });
+    document.addEventListener("keydown", function (ev) {
+      if (ev.key === "Escape") setNavOpen(false);
+    });
+    links.querySelectorAll("a").forEach(function (a) {
+      a.addEventListener("click", function () {
+        setNavOpen(false);
+      });
     });
   }
 
